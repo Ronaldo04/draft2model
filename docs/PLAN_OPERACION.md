@@ -24,6 +24,7 @@ Los requisitos y verificaciones técnicas se mantienen. La IA apoya programació
 | Preparación O1 | Entorno .venv y diagnóstico ejecutado; ETABS 21.1 detectado. Piloto, licencia y conexión API pendientes. |
 | Base de ingreso | Registro local de PDF/imágenes, originales y SHA256 implementado; siete pruebas automatizadas pasan. |
 | Contrato geométrico | Propuesta v0.1 implementada; 22 pruebas geométricas pasan. Adaptador ETABS y caso de referencia pendientes. |
+| Recortes PDF | Regiones ampliadas con coordenadas y hashes, cinco pruebas adicionales y siete regiones provisionales generadas localmente. |
 | Revisión documental | Apertura, páginas y vistas previas implementadas; muestra provisional fuera del MVP procesada localmente. |
 | Flujo técnico | OCR, modelado ETABS, análisis e informe pendientes; falta caso compatible para validar el MVP. |
 

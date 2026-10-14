@@ -1,5 +1,14 @@
 # Registro de avances
 
+## 13 de octubre de 2026: recortes PDF trazables
+
+- Comando recortar implementado: región normalizada de página visible, selección de archivo/página, render ampliado, hashes y matrices de transformación a página visible y espacio PyMuPDF sin rotación. No se infiere escala geométrica.
+- Se generaron siete regiones manuales del caso provisional para preparar lectura y extracción. Los PNG y metadatos permanecen privados; la selección no se presenta como detección automática.
+- Cinco pruebas nuevas pasan, incluidas comparación visual con cuatro rotaciones, transformación desplazada, entradas inválidas, hash alterado y reducción de resolución para limitar memoria. Suite completa: 40 pruebas pasan.
+- Vistas de las siete regiones inspeccionadas; la revisión de datos y escala permanece pendiente. Estado de recortes pendiente_revision y alcance provisional conservado.
+- Contrato de evidencia en [RECORTES.md](RECORTES.md). OCR y registro de candidatos/correcciones todavía no implementados.
+
+
 ## 13 de octubre de 2026: contrato geométrico publicado
 
 - Contrato geométrico v0.1, validador, ejemplo sintético, documentación y 22 pruebas geométricas incorporados al estado del proyecto.

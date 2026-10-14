@@ -10,6 +10,7 @@ Asistente para transformar planos estructurales en modelos ETABS y una evaluaci�
 | --- | --- |
 | [Contexto del proyecto](docs/CONTEXTO_PROYECTO.md) | Objetivo, alcance, arquitectura, resultados y validación. |
 | [Contrato geométrico](docs/CONTRATO_GEOMETRIA.md) | Propuesta v0.1, unidades, referencias, faltantes y aprobación ligada al contenido. |
+| [Recortes trazables](docs/RECORTES.md) | Regiones PDF ampliadas y transformación de coordenadas para evidencia. |
 | [Revisión documental](docs/REVISION_DOCUMENTAL.md) | Inventario de páginas, vistas previas y muestras fuera del alcance. |
 | [Ingreso de expedientes](docs/INGRESO_EXPEDIENTES.md) | Comando de ingreso local, trazabilidad y controles implementados. |
 | [Preparación O1](docs/O1_PREPARACION.md) | Entorno comprobado, datos del caso piloto y referencia de ingeniería. |
@@ -56,4 +57,4 @@ El [módulo de ingreso](docs/INGRESO_EXPEDIENTES.md) registra PDF e imágenes au
 
 ## Contrato geométrico disponible
 
-Contrato y validador v0.1 para niveles, nodos y muros, con normalización a metros, comprobación de referencias y separación entre consistencia y aprobación registrada. Es una propuesta inicial con ejemplo sintético; no incluye materiales, cargas ni validación estructural. La suite actual de ingreso, revisión documental y geometría tiene 35 pruebas que pasan. Recortes ampliados y extracción con evidencia todavía están pendientes.
+Contrato y validador v0.1 para niveles, nodos y muros, con normalización a metros, comprobación de referencias y separación entre consistencia y aprobación registrada. Es una propuesta inicial con ejemplo sintético; no incluye materiales, cargas ni validación estructural. La suite actual de ingreso, revisión, geometría y recortes tiene 40 pruebas que pasan. Los recortes PDF ampliados están implementados; la extracción con evidencia todavía está pendiente.

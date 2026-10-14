@@ -19,9 +19,24 @@ def main() -> int:
     revision = commands.add_parser("revisar", help="Inspeccionar páginas y generar vistas previas locales")
     revision.add_argument("--caso", required=True)
     revision.add_argument("--max-lado", type=int, default=2400)
+    crop = commands.add_parser("recortar", help="Ampliar una región PDF conservando sus coordenadas")
+    crop.add_argument("--caso", required=True)
+    crop.add_argument("--archivo", required=True, help="ID L0001, L0002, etc.")
+    crop.add_argument("--pagina", type=int, required=True)
+    crop.add_argument("--bbox", nargs=4, type=float, required=True, metavar=("X0", "Y0", "X1", "Y1"))
+    crop.add_argument("--dpi", type=int, default=150)
+    crop.add_argument("--etiqueta", default="region")
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[1] / "data" / "private"
     try:
+        if args.command == "recortar":
+            from .recortes import generar_recorte
+            case_dir = (root / args.caso).resolve()
+            if case_dir == root.resolve() or not case_dir.is_relative_to(root.resolve()):
+                raise ErrorIngreso("Caso fuera de la carpeta de expedientes.")
+            output = generar_recorte(case_dir / "expediente.json", args.archivo, args.pagina, args.bbox, dpi=args.dpi, etiqueta=args.etiqueta)
+            print(f"Recorte y coordenadas: {output}")
+            return 0
         if args.command == "revisar":
             from .revision_documental import revisar_expediente
             case_dir = (root / args.caso).resolve()
