@@ -9,6 +9,7 @@ Asistente para transformar planos estructurales en modelos ETABS y una evaluaci�
 | Documento | Qué contiene |
 | --- | --- |
 | [Contexto del proyecto](docs/CONTEXTO_PROYECTO.md) | Objetivo, alcance, arquitectura, resultados y validación. |
+| [Contrato geométrico](docs/CONTRATO_GEOMETRIA.md) | Propuesta v0.1, unidades, referencias, faltantes y aprobación ligada al contenido. |
 | [Revisión documental](docs/REVISION_DOCUMENTAL.md) | Inventario de páginas, vistas previas y muestras fuera del alcance. |
 | [Ingreso de expedientes](docs/INGRESO_EXPEDIENTES.md) | Comando de ingreso local, trazabilidad y controles implementados. |
 | [Preparación O1](docs/O1_PREPARACION.md) | Entorno comprobado, datos del caso piloto y referencia de ingeniería. |
@@ -52,3 +53,7 @@ El usuario informó acceso concedido a un colaborador; el permiso efectivo no se
 ## Primera función disponible
 
 El [módulo de ingreso](docs/INGRESO_EXPEDIENTES.md) registra PDF e imágenes autorizadas, conserva originales y hashes SHA256 y genera un expediente en borrador. Sus siete pruebas automatizadas pasan. Se dispone de una muestra provisional fuera del MVP para pruebas de procesamiento. La revisión documental genera vistas previas y errores por archivo/página. OCR, conexión ETABS, análisis e informe no están implementados.
+
+## Contrato geométrico disponible
+
+Contrato y validador v0.1 para niveles, nodos y muros, con normalización a metros, comprobación de referencias y separación entre consistencia y aprobación registrada. Es una propuesta inicial con ejemplo sintético; no incluye materiales, cargas ni validación estructural. La suite actual de ingreso, revisión documental y geometría tiene 35 pruebas que pasan. Recortes ampliados y extracción con evidencia todavía están pendientes.

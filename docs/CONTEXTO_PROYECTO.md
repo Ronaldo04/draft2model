@@ -58,7 +58,7 @@ La IA propone datos y texto; ETABS calcula; las reglas procesan criterios previa
 | `evaluacion.json` | Indicadores, reglas, alertas, faltantes y fuentes. |
 | `informe.json` | Cifras verificadas, explicaciones, citas y limitaciones. |
 
-El registro básico de expediente está implementado en v0.1.0 para originales, hashes y estado borrador. Los contratos de geometría, ejecución, resultados, evaluación e informe continúan previstos y no han sido verificados. Cambiar geometría o hipótesis exige nueva aprobación y análisis. Modificar reglas invalida evaluación e informe; cambiar fuentes explicativas exige regenerar y revisar la explicación correspondiente.
+El registro básico de expediente está implementado en v0.1.0 para originales, hashes y estado borrador. El contrato geométrico v0.1 y su validador se implementaron y probaron con datos sintéticos; siguen como propuesta inicial. Los contratos de ejecución, resultados, evaluación e informe continúan previstos. Cambiar geometría o hipótesis exige nueva aprobación y análisis. Modificar reglas invalida evaluación e informe; cambiar fuentes explicativas exige regenerar y revisar la explicación correspondiente.
 
 ## Tecnologías y operación previstas
 

@@ -1,5 +1,15 @@
 # Registro de avances
 
+## 13 de octubre de 2026: contrato geométrico publicado
+
+- Contrato geométrico v0.1, validador, ejemplo sintético, documentación y 22 pruebas geométricas incorporados al estado del proyecto.
+- Verificaciones: unidades explícitas y normalización a metros, referencias e identificadores, valores finitos, faltantes, longitudes/alturas positivas y aprobación registrada vinculada a la huella del contenido.
+- Suite completa: 35 pruebas unittest pasan. El ejemplo sintético es consistente y permanece no disponible para modelado por faltantes y estado borrador.
+- Alcance: consistencia interna de una propuesta de geometría; no verifica competencia del declarante de aprobación ni certifica seguridad estructural. Materiales, cargas y traducción ETABS pendientes.
+- Publicación limitada a código, ejemplo sintético y Markdown. Planos de muestra y expedientes privados no se publican.
+- Recortes ampliados y extracción con evidencia siguen previstos, no implementados.
+
+
 ## 13 de octubre de 2026: revisión documental y muestra provisional
 
 - Muestra autorizada por el usuario para pruebas locales de procesamiento, declarada fuera del sistema constructivo y cantidad de pisos del MVP. No amplía el alcance ni constituye validación estructural.
