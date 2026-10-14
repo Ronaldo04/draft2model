@@ -2,13 +2,14 @@
 
 Asistente para transformar planos estructurales en modelos ETABS y una evaluación sismorresistente preliminar trazable, con revisión humana.
 
-**Estado al 13 de octubre de 2026:** repositorio privado creado en [Ronaldo04/draft2model](https://github.com/Ronaldo04/draft2model). Carga inicial de 23 archivos completada y verificada; plantillas y seguimiento O0–O6 disponibles. Esta carpeta todavía no tiene historial Git local; O1 está en preparación; el usuario informó acceso concedido a un colaborador.
+**Estado al 13 de octubre de 2026:** repositorio privado creado en [Ronaldo04/draft2model](https://github.com/Ronaldo04/draft2model). Carga inicial de 23 archivos completada y verificada; plantillas y seguimiento O0–O6 disponibles. Esta carpeta todavía no tiene historial Git local; O1 está en preparación y el ingreso local de expedientes está implementado; el usuario informó acceso concedido a un colaborador.
 
 ## Documentación de trabajo
 
 | Documento | Qué contiene |
 | --- | --- |
 | [Contexto del proyecto](docs/CONTEXTO_PROYECTO.md) | Objetivo, alcance, arquitectura, resultados y validación. |
+| [Ingreso de expedientes](docs/INGRESO_EXPEDIENTES.md) | Comando de ingreso local, trazabilidad y controles implementados. |
 | [Preparación O1](docs/O1_PREPARACION.md) | Entorno comprobado, datos del caso piloto y referencia de ingeniería. |
 | [Plan de operación](docs/PLAN_OPERACION.md) | Cómo organizar, ejecutar, revisar y cerrar el trabajo remoto. |
 | [Guía de GitHub privado](docs/GUIA_GITHUB_PRIVADO.md) | Creación, permisos, carga inicial y acceso de consulta. |
@@ -46,3 +47,7 @@ La documentación operativa no sustituye la aprobación de datos, modelo e infor
 Repositorio privado en la cuenta personal Ronaldo04; Issues habilitado; Pages desactivado; sin workflows de despliegue. main no tiene protección técnica: las reglas avanzadas requieren GitHub Pro en este privado. El flujo de comprobación e integración se aplica como convención.
 
 El usuario informó acceso concedido a un colaborador; el permiso efectivo no se ha auditado. Los repositorios privados personales no ofrecen colaboradores de solo lectura.
+
+## Primera función disponible
+
+El [módulo de ingreso](docs/INGRESO_EXPEDIENTES.md) registra PDF e imágenes autorizadas, conserva originales y hashes SHA256 y genera un expediente en borrador. Sus siete pruebas automatizadas pasan. El piloto todavía no está disponible; OCR, conexión ETABS, análisis e informe no están implementados.

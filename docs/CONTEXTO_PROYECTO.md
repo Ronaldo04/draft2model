@@ -8,7 +8,7 @@ Actualizado: 13 de octubre de 2026. Síntesis operativa de los dos documentos ba
 2. [Entrega de avance](<../SismoVivienda_AI_Entrega_Avance 01 - 03-10-2026.pdf>), 5 páginas: síntesis del problema, solución y validación prevista.
 3. [Resumen reciente](../entregables/Draft2Model_One_Page.html): nombre Draft2Model y siguiente paso del piloto.
 
-En los documentos se declara disponibilidad de ETABS y conexión API. No se encontraron en el inventario revisado el prototipo, el expediente piloto, los modelos de referencia ni resultados de pruebas. Su existencia en otras máquinas permanece por confirmar. Una tecnología mencionada no se considera instalada, integrada ni validada por esa sola mención.
+En los documentos se declara disponibilidad de ETABS y conexión API. El registro básico de ingreso local ya está implementado y probado con archivos sintéticos. El expediente piloto, los modelos de referencia y los resultados estructurales aún no están disponibles en la carpeta. Su existencia en otras máquinas permanece por confirmar. Una tecnología mencionada no se considera instalada, integrada ni validada por esa sola mención.
 
 ## Objetivo y usuarios
 
@@ -56,7 +56,7 @@ La IA propone datos y texto; ETABS calcula; las reglas procesan criterios previa
 | `evaluacion.json` | Indicadores, reglas, alertas, faltantes y fuentes. |
 | `informe.json` | Cifras verificadas, explicaciones, citas y limitaciones. |
 
-Son contratos diseñados, todavía no implementaciones verificadas. Cambiar geometría o hipótesis exige nueva aprobación y análisis. Modificar reglas invalida evaluación e informe; cambiar fuentes explicativas exige regenerar y revisar la explicación correspondiente.
+El registro básico de expediente está implementado en v0.1.0 para originales, hashes y estado borrador. Los contratos de geometría, ejecución, resultados, evaluación e informe continúan previstos y no han sido verificados. Cambiar geometría o hipótesis exige nueva aprobación y análisis. Modificar reglas invalida evaluación e informe; cambiar fuentes explicativas exige regenerar y revisar la explicación correspondiente.
 
 ## Tecnologías y operación previstas
 

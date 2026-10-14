@@ -22,7 +22,8 @@ Los requisitos y verificaciones técnicas se mantienen. La IA apoya programació
 | Acceso | El usuario informó acceso concedido a un colaborador; permiso y aceptación no auditados. |
 | Seguimiento | Issues #1–#7 para O0–O6, con entregas y criterios de cierre. |
 | Preparación O1 | Entorno .venv y diagnóstico ejecutado; ETABS 21.1 detectado. Piloto, licencia y conexión API pendientes. |
-| Prototipo y pruebas técnicas | No implementados ni ejecutados; disponibilidad del piloto externo por confirmar. |
+| Base de ingreso | Registro local de PDF/imágenes, originales y SHA256 implementado; siete pruebas automatizadas pasan. |
+| Flujo técnico | OCR, modelado ETABS, análisis e informe pendientes; piloto todavía no disponible. |
 
 No confundir una propuesta de arquitectura con un módulo implementado. El remoto confirmado es [draft2model](https://github.com/Ronaldo04/draft2model).
 

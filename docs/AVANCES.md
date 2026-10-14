@@ -1,5 +1,16 @@
 # Registro de avances
 
+## 13 de octubre de 2026: base de ingreso implementada
+
+- El usuario informó que aún no dispone de los planos piloto y solicitó continuar con los componentes independientes.
+- Módulo draft2model.ingreso y CLI local disponibles para PDF/JPG/PNG autorizados. Originales preservados, SHA256 contrastados, archivos duplicados e identificadores inválidos rechazados; sin sobrescribir expedientes.
+- Expedientes en data/private, excluidos del seguimiento; no se envía contenido a proveedores ni al repositorio por el comando de ingreso.
+- Siete pruebas unittest ejecutadas correctamente con archivos sintéticos. Ayuda del comando comprobada.
+- Alcance comprobado: registro, copia, trazabilidad y estado borrador. La firma de archivo no valida integridad completa o legibilidad; datos de ingeniería y aprobación permanecen ausentes.
+- Contrato de ingreso v0.1.0; contratos de geometría, modelado, resultados, evaluación e informe pendientes. No se ejecutó ETABS ni cálculo estructural.
+- Instrucciones en [INGRESO_EXPEDIENTES.md](INGRESO_EXPEDIENTES.md). O1/O2 permanecen abiertos hasta completar sus criterios técnicos.
+
+
 ## 13 de octubre de 2026: inicio de O1
 
 - Entorno Python 3.10.5 de 64 bits aislado en .venv, excluido del versionado.
