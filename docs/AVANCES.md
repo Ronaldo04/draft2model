@@ -1,5 +1,16 @@
 # Registro de avances
 
+## 13 de octubre de 2026: revisión documental y muestra provisional
+
+- Muestra autorizada por el usuario para pruebas locales de procesamiento, declarada fuera del sistema constructivo y cantidad de pisos del MVP. No amplía el alcance ni constituye validación estructural.
+- Tres PDF registrados como provisional-001; tres páginas abiertas y renderizadas sin errores. Originales y copias preservados y contrastados mediante SHA256.
+- Inventario de dimensiones, rotación, texto embebido y vistas previas. Una página declara rotación PDF de 270 grados; el render respeta su orientación. Las cotas pequeñas requieren ampliación por recortes.
+- Módulo revision_documental.py, comando revisar y dependencias reproducibles implementados. Trece pruebas de ingreso y revisión pasan.
+- Planos, expediente y PNG permanecen locales en carpetas excluidas; solo código y documentación sin datos del proyecto se publican.
+- OCR, extracción geométrica, modelo de referencia y análisis ETABS siguen pendientes. Una apertura correcta no aprueba legibilidad ni datos de ingeniería.
+- Instrucciones en [REVISION_DOCUMENTAL.md](REVISION_DOCUMENTAL.md).
+
+
 ## 13 de octubre de 2026: base de ingreso implementada
 
 - El usuario informó que aún no dispone de los planos piloto y solicitó continuar con los componentes independientes.

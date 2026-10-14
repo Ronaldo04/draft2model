@@ -8,7 +8,9 @@ Actualizado: 13 de octubre de 2026. Síntesis operativa de los dos documentos ba
 2. [Entrega de avance](<../SismoVivienda_AI_Entrega_Avance 01 - 03-10-2026.pdf>), 5 páginas: síntesis del problema, solución y validación prevista.
 3. [Resumen reciente](../entregables/Draft2Model_One_Page.html): nombre Draft2Model y siguiente paso del piloto.
 
-En los documentos se declara disponibilidad de ETABS y conexión API. El registro básico de ingreso local ya está implementado y probado con archivos sintéticos. El expediente piloto, los modelos de referencia y los resultados estructurales aún no están disponibles en la carpeta. Su existencia en otras máquinas permanece por confirmar. Una tecnología mencionada no se considera instalada, integrada ni validada por esa sola mención.
+En los documentos se declara disponibilidad de ETABS y conexión API. El registro básico de ingreso local ya está implementado y probado con archivos sintéticos. Se dispone de una muestra provisional de planos fuera del MVP para probar procesamiento documental; los modelos de referencia y resultados estructurales aún no están disponibles. Su existencia en otras máquinas permanece por confirmar. Una tecnología mencionada no se considera instalada, integrada ni validada por esa sola mención.
+
+La muestra provisional no cambia el alcance del MVP ni acredita su validación. La declaración de incompatibilidad se conserva en el expediente y el informe de revisión.
 
 ## Objetivo y usuarios
 

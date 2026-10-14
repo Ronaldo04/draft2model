@@ -22,6 +22,7 @@ node_modules/
 /output/
 /runs/
 /data/private/
+/planos_muestra/
 /data/originals_private/
 /models/generated/
 *.log

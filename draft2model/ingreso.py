@@ -52,6 +52,7 @@ def registrar_expediente(
     case_root: Path,
     *,
     uso_autorizado: bool = False,
+    provisional_fuera_alcance: bool = False,
 ) -> Path:
     """Crea expediente.json y copias exactas en un directorio nuevo.
 
@@ -104,6 +105,12 @@ def registrar_expediente(
             "estado": "borrador",
             "registrado_utc": datetime.now(timezone.utc).isoformat(),
             "uso_autorizado_declarado": True,
+            "alcance": {
+                "estado": "fuera_mvp_declarado" if provisional_fuera_alcance else "pendiente_verificar",
+                "uso": "pruebas_procesamiento" if provisional_fuera_alcance else "pendiente",
+                "motivos": ["Sistema constructivo y cantidad de pisos fuera del MVP, según declaración."]
+                if provisional_fuera_alcance else [],
+            },
             "archivos": files,
             "datos_ingenieria": None,
             "aprobacion_tecnica": None,

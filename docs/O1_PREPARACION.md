@@ -13,7 +13,7 @@ Estado: en preparación, 13 de octubre de 2026. Seguimiento: [Issue #2](https://
 | Dependencias Python del prototipo | No instaladas aún en el entorno nuevo; se seleccionarán según la conexión y contratos que se implementen. |
 | Licencia y apertura de ETABS | Pendientes de comprobación. |
 | Conexión API y lectura de resultados | No ejecutadas. |
-| Caso piloto en la carpeta | No se encontraron modelos EDB/E2K ni dibujos DWG/DXF; los PDF presentes son documentación del proyecto. |
+| Muestra provisional | Tres PDF de planos registrados localmente; fuera del alcance del MVP según declaración del usuario. Sin modelo ETABS de referencia. |
 
 El diagnóstico solo inventaría el entorno. No inicia ETABS, modifica el registro, abre modelos ni consulta archivos de licencia. Una clase COM registrada no demuestra que la API funcione.
 
@@ -44,7 +44,7 @@ Antes de comparar resultados, documentar: geometría y conectividad, materiales 
 
 ## Secuencia de comprobación
 
-1. Confirmar el caso y completar el inventario de láminas, datos y faltantes.
+1. Completar datos y faltantes de la muestra provisional. Para validar el MVP se requiere además un caso compatible con su tipología y cantidad de niveles.
 2. Verificar apertura de ETABS con licencia disponible y cerrar la comprobación sin alterar modelos existentes.
 3. Verificar la documentación API de la versión instalada y preparar una conexión de lectura sobre un modelo autorizado.
 4. Registrar versión, unidades y resultado de las llamadas; solo entonces comprobar lectura de indicadores reales.

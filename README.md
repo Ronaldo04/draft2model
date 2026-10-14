@@ -2,13 +2,14 @@
 
 Asistente para transformar planos estructurales en modelos ETABS y una evaluación sismorresistente preliminar trazable, con revisión humana.
 
-**Estado al 13 de octubre de 2026:** repositorio privado creado en [Ronaldo04/draft2model](https://github.com/Ronaldo04/draft2model). Carga inicial de 23 archivos completada y verificada; plantillas y seguimiento O0–O6 disponibles. Esta carpeta todavía no tiene historial Git local; O1 está en preparación y el ingreso local de expedientes está implementado; el usuario informó acceso concedido a un colaborador.
+**Estado al 13 de octubre de 2026:** repositorio privado creado en [Ronaldo04/draft2model](https://github.com/Ronaldo04/draft2model). Carga inicial de 23 archivos completada y verificada; plantillas y seguimiento O0–O6 disponibles. Esta carpeta todavía no tiene historial Git local; O1 está en preparación; ingreso y revisión documental están implementados; el usuario informó acceso concedido a un colaborador.
 
 ## Documentación de trabajo
 
 | Documento | Qué contiene |
 | --- | --- |
 | [Contexto del proyecto](docs/CONTEXTO_PROYECTO.md) | Objetivo, alcance, arquitectura, resultados y validación. |
+| [Revisión documental](docs/REVISION_DOCUMENTAL.md) | Inventario de páginas, vistas previas y muestras fuera del alcance. |
 | [Ingreso de expedientes](docs/INGRESO_EXPEDIENTES.md) | Comando de ingreso local, trazabilidad y controles implementados. |
 | [Preparación O1](docs/O1_PREPARACION.md) | Entorno comprobado, datos del caso piloto y referencia de ingeniería. |
 | [Plan de operación](docs/PLAN_OPERACION.md) | Cómo organizar, ejecutar, revisar y cerrar el trabajo remoto. |
@@ -50,4 +51,4 @@ El usuario informó acceso concedido a un colaborador; el permiso efectivo no se
 
 ## Primera función disponible
 
-El [módulo de ingreso](docs/INGRESO_EXPEDIENTES.md) registra PDF e imágenes autorizadas, conserva originales y hashes SHA256 y genera un expediente en borrador. Sus siete pruebas automatizadas pasan. El piloto todavía no está disponible; OCR, conexión ETABS, análisis e informe no están implementados.
+El [módulo de ingreso](docs/INGRESO_EXPEDIENTES.md) registra PDF e imágenes autorizadas, conserva originales y hashes SHA256 y genera un expediente en borrador. Sus siete pruebas automatizadas pasan. Se dispone de una muestra provisional fuera del MVP para pruebas de procesamiento. La revisión documental genera vistas previas y errores por archivo/página. OCR, conexión ETABS, análisis e informe no están implementados.
