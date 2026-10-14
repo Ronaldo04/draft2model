@@ -2,13 +2,14 @@
 
 Asistente para transformar planos estructurales en modelos ETABS y una evaluación sismorresistente preliminar trazable, con revisión humana.
 
-**Estado al 13 de octubre de 2026:** repositorio privado creado en [Ronaldo04/draft2model](https://github.com/Ronaldo04/draft2model). Carga inicial de 23 archivos completada y verificada; plantillas y seguimiento O0–O6 disponibles. Esta carpeta todavía no tiene historial Git local; el acceso de consulta permanece pendiente.
+**Estado al 13 de octubre de 2026:** repositorio privado creado en [Ronaldo04/draft2model](https://github.com/Ronaldo04/draft2model). Carga inicial de 23 archivos completada y verificada; plantillas y seguimiento O0–O6 disponibles. Esta carpeta todavía no tiene historial Git local; O1 está en preparación; el usuario informó acceso concedido a un colaborador.
 
 ## Documentación de trabajo
 
 | Documento | Qué contiene |
 | --- | --- |
 | [Contexto del proyecto](docs/CONTEXTO_PROYECTO.md) | Objetivo, alcance, arquitectura, resultados y validación. |
+| [Preparación O1](docs/O1_PREPARACION.md) | Entorno comprobado, datos del caso piloto y referencia de ingeniería. |
 | [Plan de operación](docs/PLAN_OPERACION.md) | Cómo organizar, ejecutar, revisar y cerrar el trabajo remoto. |
 | [Guía de GitHub privado](docs/GUIA_GITHUB_PRIVADO.md) | Creación, permisos, carga inicial y acceso de consulta. |
 | [Registro de decisiones](docs/REGISTRO_DECISIONES.md) | Decisiones vigentes y asuntos pendientes. |
@@ -44,4 +45,4 @@ La documentación operativa no sustituye la aprobación de datos, modelo e infor
 
 Repositorio privado en la cuenta personal Ronaldo04; Issues habilitado; Pages desactivado; sin workflows de despliegue. main no tiene protección técnica: las reglas avanzadas requieren GitHub Pro en este privado. El flujo de comprobación e integración se aplica como convención.
 
-El acceso de consulta requiere resolver la modalidad y las cuentas autorizadas. Los repositorios privados personales no ofrecen colaboradores de solo lectura.
+El usuario informó acceso concedido a un colaborador; el permiso efectivo no se ha auditado. Los repositorios privados personales no ofrecen colaboradores de solo lectura.

@@ -19,9 +19,10 @@ Los requisitos y verificaciones técnicas se mantienen. La IA apoya programació
 | Referencia para sustentación | Separada de la documentación operativa; no implica aportes ya realizados. |
 | Git local | No existente durante la inspección inicial. |
 | GitHub remoto | [Ronaldo04/draft2model](https://github.com/Ronaldo04/draft2model), privado, rama main; 23 archivos publicados y verificados. |
-| Acceso de consulta | Modalidad y cuentas pendientes; no se enviaron invitaciones. |
+| Acceso | El usuario informó acceso concedido a un colaborador; permiso y aceptación no auditados. |
 | Seguimiento | Issues #1–#7 para O0–O6, con entregas y criterios de cierre. |
-| Prototipo, piloto y pruebas técnicas | No encontrados en la carpeta revisada; disponibilidad externa por confirmar. |
+| Preparación O1 | Entorno .venv y diagnóstico ejecutado; ETABS 21.1 detectado. Piloto, licencia y conexión API pendientes. |
+| Prototipo y pruebas técnicas | No implementados ni ejecutados; disponibilidad del piloto externo por confirmar. |
 
 No confundir una propuesta de arquitectura con un módulo implementado. El remoto confirmado es [draft2model](https://github.com/Ronaldo04/draft2model).
 
@@ -108,7 +109,7 @@ Teams se usa para la reunión. GitHub y Markdown conservan el resultado. El acce
 | `docs/REGISTRO_DECISIONES.md` | Decisiones aceptadas, motivo y cambios de dirección. |
 | `docs/AVANCES.md` | Entregas, pruebas, bloqueos y próximos requisitos. |
 
-Registrar fecha, motivo y evidencia y evidencia de procedencia cuando sea útil para trazabilidad. Usar historial Git en lugar de copias final/final2. La documentación histórica queda como antecedente, no como instrucción de ejecución.
+Registrar fecha, motivo y evidencia de procedencia cuando sea útil para trazabilidad. Usar historial Git en lugar de copias final/final2. La documentación histórica queda como antecedente, no como instrucción de ejecución.
 
 ## 9. Acceso y entorno
 

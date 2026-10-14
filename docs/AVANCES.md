@@ -1,5 +1,14 @@
 # Registro de avances
 
+## 13 de octubre de 2026: inicio de O1
+
+- Entorno Python 3.10.5 de 64 bits aislado en .venv, excluido del versionado.
+- ETABS 21.1.0.3261, ejecutable, biblioteca API y ayuda local detectados. Clases COM CSI.ETABS.API.ETABSObject y ETABSv1.Helper registradas.
+- Script reproducible [diagnosticar_entorno.py](../scripts/diagnosticar_entorno.py) ejecutado correctamente; informe local en tmp/diagnostico_entorno.json, excluido del remoto. No se leyeron archivos de licencia ni secretos.
+- [Preparación O1](O1_PREPARACION.md) documenta datos del piloto, referencia de ingeniería y secuencia de verificación.
+- No se encontraron modelos ni dibujos piloto en la carpeta del proyecto. Licencia, conexión API y lectura de resultados todavía no verificadas; O1 sigue abierto.
+- El usuario informó haber concedido acceso a un colaborador. No se ha auditado el permiso concreto ni la aceptación; esta información no se presenta como comprobación de solo lectura.
+
 ## 13 de octubre de 2026: repositorio y carga verificados
 
 - URL: [Ronaldo04/draft2model](https://github.com/Ronaldo04/draft2model). Propietario: cuenta personal Ronaldo04.
