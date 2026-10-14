@@ -1,6 +1,6 @@
 # Registro de decisiones
 
-Actualizado: 13 de octubre de 2026. Decisiones de organización, documentación y verificación.
+Actualizado: 14 de octubre de 2026. Decisiones de organización, documentación y verificación.
 
 ## Decisiones vigentes
 
@@ -13,6 +13,7 @@ Actualizado: 13 de octubre de 2026. Decisiones de organización, documentación 
 | D05 | Reunión diaria Teams a las 22:00, hora de Perú, para revisar avances y discutir cambios en conjunto. | Instrucción del usuario. | Vigente; acuerdos registrados en Markdown. |
 | D06 | Preparar operación y repositorio antes de implementar el prototipo. | Prioridad actual. | Vigente. |
 | D07 | Mantener el material académico de aportes separado del flujo de trabajo. | Requisito comunicado para la sustentación del programa. | Vigente; registrar solo contribuciones acreditadas. |
+| D08 | Visión multimodal como interpretación principal de planos; OCR solo como apoyo opcional para lectura puntual o contraste. | Aclaración del usuario, 14 de octubre de 2026. | Vigente; extractor todavía por implementar y medir. |
 
 ## Pendientes: no equivalen a acuerdos
 
@@ -25,7 +26,7 @@ Actualizado: 13 de octubre de 2026. Decisiones de organización, documentación 
 | P05 | Archivos autorizados | Paquete inicial de 23 archivos revisado, publicado y contrastado con los originales; autorización del caso piloto pendiente. |
 | P06 | Entorno ETABS | Estación, licencia, versión y prueba de conexión disponibles para el desarrollo. |
 | P07 | Plazo | Fecha final y disponibilidad de trabajo; no inferir duración de reunión. |
-| P08 | Tecnologías candidatas | Seleccionar OCR, modelo multimodal, LLM e interfaz mediante pruebas. |
+| P08 | Tecnologías candidatas | Seleccionar y medir el modelo de visión multimodal principal; evaluar si OCR puntual aporta valor. LLM explicativo e interfaz por seleccionar. |
 
 ## Plantilla de decisión
 

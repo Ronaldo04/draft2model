@@ -58,3 +58,7 @@ El [módulo de ingreso](docs/INGRESO_EXPEDIENTES.md) registra PDF e imágenes au
 ## Contrato geométrico disponible
 
 Contrato y validador v0.1 para niveles, nodos y muros, con normalización a metros, comprobación de referencias y separación entre consistencia y aprobación registrada. Es una propuesta inicial con ejemplo sintético; no incluye materiales, cargas ni validación estructural. La suite actual de ingreso, revisión, geometría y recortes tiene 40 pruebas que pasan. Los recortes PDF ampliados están implementados; la extracción con evidencia todavía está pendiente.
+
+## Interpretación principal de planos
+
+La extracción se basará en visión multimodal: vista general, recortes y contexto para proponer elementos, cotas y relaciones con evidencia. OCR será un apoyo opcional para lecturas puntuales o contraste, sin gobernar el flujo ni imponer un orden previo al plano. La salida debe ser estructurada, revisable y conservar faltantes; el proveedor y la precisión aún requieren pruebas.

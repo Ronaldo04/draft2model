@@ -1,6 +1,6 @@
 # Contexto del proyecto
 
-Actualizado: 13 de octubre de 2026. Síntesis operativa de los dos documentos base; no constituye una validación técnica ejecutada ni una revisión de vigencia normativa.
+Actualizado: 14 de octubre de 2026. Síntesis operativa de los dos documentos base; no constituye una validación técnica ejecutada ni una revisión de vigencia normativa.
 
 ## Fuentes y estado
 
@@ -37,7 +37,7 @@ No se incluye certificación de seguridad, probabilidad de colapso, diseño de r
 
 1. Registrar expediente, originales, láminas y faltantes.
 2. Preparar imágenes: perspectiva, rotación, contraste, escala y recortes.
-3. OCR y visión multimodal proponen textos, cotas, elementos y relaciones con evidencia.
+3. Visión multimodal interpreta la vista general y los recortes para proponer textos, cotas, elementos y relaciones con evidencia. OCR puede asistir lecturas puntuales o contrastes, sin dirigir la extracción.
 4. Comprobar unidades y geometría; corregir y **aprobar datos e hipótesis**.
 5. Generar el modelo con el adaptador ETABS y **aprobar modelo y configuración**.
 6. Analizar; extraer resultados y aplicar reglas reproducibles.
@@ -62,7 +62,7 @@ El registro básico de expediente está implementado en v0.1.0 para originales, 
 
 ## Tecnologías y operación previstas
 
-Python modular; OpenCV, PyMuPDF/Pillow y un motor OCR por validar; API multimodal por seleccionar; JSON/Pydantic y SQLite; Shapely y herramientas geográficas; ETABS/API CSI; reglas reproducibles; RAG sobre corpus aprobado; generación de informes y figuras.
+Python modular; OpenCV y PyMuPDF/Pillow; API de visión multimodal por seleccionar como extractor principal y OCR opcional por validar como apoyo; JSON/Pydantic y SQLite; Shapely y herramientas geográficas; ETABS/API CSI; reglas reproducibles; RAG sobre corpus aprobado; generación de informes y figuras.
 
 Streamlit y Tesseract son candidatos. El proveedor multimodal y el LLM se seleccionan mediante pruebas, no por reputación. Claude Code es una herramienta de desarrollo, no el motor de cálculo estructural.
 
@@ -87,3 +87,7 @@ Las pruebas P01-P14 del desarrollo técnico cubren conexión, imágenes, preproc
 ## Definición de terminado
 
 Un caso reproducible desde la imagen hasta el informe, con extracción evaluada, correcciones trazables, datos y modelo aprobados, análisis identificable, siete resultados, reglas documentadas e informe revisado. Acompañado de comparación manual/asistida, tiempos, costos y limitaciones. No se declara generalización a otras viviendas con un único ensayo.
+
+## Decisión de interpretación visual
+
+La secuencia prevista es vista general -> identificación de regiones -> interpretación de recortes con contexto -> candidatos estructurados con evidencia -> contraste y revisión -> geometría. La selección de regiones está implementada manualmente; su detección automática y la extracción multimodal siguen pendientes. No imponer un recorrido de lectura textual como sustituto de la interpretación espacial. Cada candidato debe identificar su origen, distinguir observación de hipótesis y admitir valor desconocido.

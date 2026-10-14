@@ -1,5 +1,12 @@
 # Registro de avances
 
+## 14 de octubre de 2026: arquitectura de extracción aclarada
+
+- Visión multimodal definida como intérprete principal de planos y relaciones espaciales. OCR queda como apoyo opcional, no como eje de la extracción.
+- Documentación ajustada; registro de candidatos y correcciones debe ser independiente del método de obtención y permitir evidencia visual.
+- Vistas generales y recortes disponibles; llamadas a modelos, detección automática y medición de extracción todavía no implementadas. No se enviaron planos a proveedores externos en esta actualización.
+
+
 ## 13 de octubre de 2026: recortes PDF trazables
 
 - Comando recortar implementado: región normalizada de página visible, selección de archivo/página, render ampliado, hashes y matrices de transformación a página visible y espacio PyMuPDF sin rotación. No se infiere escala geométrica.

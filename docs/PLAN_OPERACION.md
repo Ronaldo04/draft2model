@@ -26,7 +26,7 @@ Los requisitos y verificaciones técnicas se mantienen. La IA apoya programació
 | Contrato geométrico | Propuesta v0.1 implementada; 22 pruebas geométricas pasan. Adaptador ETABS y caso de referencia pendientes. |
 | Recortes PDF | Regiones ampliadas con coordenadas y hashes, cinco pruebas adicionales y siete regiones provisionales generadas localmente. |
 | Revisión documental | Apertura, páginas y vistas previas implementadas; muestra provisional fuera del MVP procesada localmente. |
-| Flujo técnico | OCR, modelado ETABS, análisis e informe pendientes; falta caso compatible para validar el MVP. |
+| Flujo técnico | Extracción multimodal principal, modelado ETABS, análisis e informe pendientes; falta caso compatible para validar el MVP. |
 
 No confundir una propuesta de arquitectura con un módulo implementado. El remoto confirmado es [draft2model](https://github.com/Ronaldo04/draft2model).
 
@@ -53,7 +53,7 @@ La secuencia conserva la lógica técnica de los documentos base: primero el cas
 | --- | --- | --- | --- |
 | O1 Base de ingeniería y entorno | Obtener caso autorizado; verificar datos; construir referencia manual; fijar hipótesis/tolerancias; comprobar Python y API ETABS. | Información suficiente, estación Windows y licencia válida. | Expediente utilizable, referencia revisada, versiones registradas y lectura real de resultados. |
 | O2 Contratos y generación | Implementar esquemas, validaciones, plantilla, generación y extracción desde datos aprobados. | O1 y contrato de entrada definido. | Modelo generado consistente con referencia; objetos, unidades, cargas, masa y resultados comprobados. |
-| O3 Interpretación visual | Preparar imágenes; OCR/visión; evidencia; comparación de candidatos; geometría y faltantes. | Plano y referencia anotada, contrato de extracción. | Precisión inicial medida, errores visibles y salida estructurada corregible. |
+| O3 Interpretación visual | Preparar vistas generales y recortes; interpretación multimodal principal; OCR opcional; evidencia; comparación de candidatos; geometría y faltantes. | Plano y referencia anotada, contrato de extracción. | Precisión inicial medida, errores visibles y salida estructurada corregible. |
 | O4 Revisión, persistencia y sitio | Construir interfaz de carga/corrección; aprobaciones/versiones; almacenamiento; condición referencial del sitio. | O2/O3 para integración completa y fuentes cartográficas disponibles. | Correcciones trazables; datos críticos completos; bloqueo de entradas no aprobadas y resultados obsoletos. |
 | O5 Evaluación, explicación y entrega | Programar reglas revisadas; corpus y recuperación; explicaciones; dashboard y generador de informe. | Resultados identificados, criterios/fuentes aprobados y contratos coherentes. | Indicadores reproducibles, cifras y citas verificadas, informe técnicamente revisado y legible. |
 | O6 Validación y demostración | Integrar ruta desde imagen; ejecutar pruebas P01-P14; medir comparación, tiempos/costos; ensayar recuperación. | Módulos del flujo disponibles y referencia manual. | Caso reproducible, evidencias completas, limitaciones y contingencias identificadas. |
@@ -66,7 +66,7 @@ Los hitos describen resultados verificables y no son promesas de duración. O3 p
 | --- | --- | --- |
 | Ingreso | Abrir PDF/JPG/PNG, inventariar láminas y conservar originales autorizados. | Archivo dañado, lámina ausente o imagen ilegible quedan identificados. |
 | Imágenes | Corrección de perspectiva/rotación, recortes y escala con referencias. | Coordenadas y cotas se conservan respecto de la referencia. |
-| OCR y visión | Proponer textos, elementos, dimensiones y asociaciones con evidencia. | Error y cobertura iniciales medidos; ausencia de datos no se rellena como observación. |
+| Visión multimodal y apoyo OCR opcional | Interpretar contexto y regiones; proponer textos, elementos, dimensiones y asociaciones con evidencia. | Error y cobertura iniciales medidos; ausencia de datos no se rellena como observación. |
 | Contratos y geometría | Esquemas, unidades, identificadores, conectividad y valores válidos. | Rechazo de referencias rotas, unidades incompatibles y datos imposibles. |
 | Revisión e interfaz | Plano superpuesto, tablas/formularios y correcciones. | Guardar borrador se distingue de aprobar; cambios actualizan geometría. |
 | Persistencia | Expedientes, estados, revisiones y versiones de entrada. | Resultados asociados a la corrida correcta; cambios invalidan salidas afectadas. |
