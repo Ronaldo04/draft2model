@@ -1,6 +1,6 @@
 # Plan de operación
 
-Actualizado: 13 de octubre de 2026. Preparación local, pendiente de puesta en marcha en GitHub.
+Actualizado: 13 de octubre de 2026. Base documental publicada en GitHub; acceso de consulta y entorno técnico pendientes.
 
 ## 1. Organización del avance
 
@@ -18,10 +18,12 @@ Los requisitos y verificaciones técnicas se mantienen. La IA apoya programació
 | Contexto y planificación Markdown | Preparados con requisitos y criterios verificables. |
 | Referencia para sustentación | Separada de la documentación operativa; no implica aportes ya realizados. |
 | Git local | No existente durante la inspección inicial. |
-| GitHub remoto y acceso del equipo | Pendientes; no creados ni verificados desde este chat. |
+| GitHub remoto | [Ronaldo04/draft2model](https://github.com/Ronaldo04/draft2model), privado, rama main; 23 archivos publicados y verificados. |
+| Acceso de consulta | Modalidad y cuentas pendientes; no se enviaron invitaciones. |
+| Seguimiento | Issues #1–#7 para O0–O6, con entregas y criterios de cierre. |
 | Prototipo, piloto y pruebas técnicas | No encontrados en la carpeta revisada; disponibilidad externa por confirmar. |
 
-No confundir una propuesta de arquitectura con un módulo implementado. El nombre sugerido para el remoto es `draft2model`, pendiente de confirmación.
+No confundir una propuesta de arquitectura con un módulo implementado. El remoto confirmado es [draft2model](https://github.com/Ronaldo04/draft2model).
 
 ## 3. O0: preparar el repositorio y la consulta
 
@@ -118,4 +120,4 @@ GitHub comparte código/documentos, no ejecuta ETABS ni sincroniza automáticame
 
 Completar un caso desde la imagen hasta el informe con datos/modelo aprobados, extracción evaluada, correcciones trazables, siete resultados, reglas y fuentes identificadas, comparación manual/asistida y tiempos/costos. Conservar pruebas P01-P14 y distinguir resultado inicial de IA de resultado corregido.
 
-El siguiente paso es la puesta en marcha privada en GitHub y luego O1. No se estima fecha final hasta conocer plazo y disponibilidad del desarrollo.
+La base privada de GitHub está disponible. El siguiente paso técnico es O1; O0 conserva pendientes de acceso y copia Git local. No se estima fecha final hasta conocer plazo y disponibilidad del desarrollo.

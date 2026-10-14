@@ -1,6 +1,6 @@
 # Guía de puesta en marcha: GitHub privado
 
-Verificada con documentación oficial el 13 de octubre de 2026. Contempla versionado privado y acceso de consulta. Los pasos siguientes son instrucciones para ejecutar; no son configuraciones ya realizadas.
+Verificada con documentación oficial el 13 de octubre de 2026. Contempla versionado privado y acceso de consulta. La base del repositorio ya está creada y cargada. Los procedimientos siguientes sirven como referencia; no implican que los pendientes de acceso estén resueltos.
 
 ## 1. Elegir el acceso antes de crear o invitar
 
@@ -188,4 +188,4 @@ El acceso a GitHub no concede acceso a la suscripción Claude ni a APIs de model
 
 ## 10. Próximo dato para continuar con asistencia
 
-Después de elegir cómo dar consulta y crear el repositorio, compartir su **URL**, sin contraseñas ni tokens. Indicar las cuentas autorizadas y la ruta de carga elegida. Se puede continuar desarrollando aunque el acceso de lectores siga pendiente, sin concederles escritura por defecto.
+El repositorio confirmado es [Ronaldo04/draft2model](https://github.com/Ronaldo04/draft2model), privado y con rama main. Indicar las cuentas autorizadas y la ruta de carga elegida. Se puede continuar desarrollando aunque el acceso de lectores siga pendiente, sin concederles escritura por defecto.

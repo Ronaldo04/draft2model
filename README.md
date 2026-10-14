@@ -2,7 +2,7 @@
 
 Asistente para transformar planos estructurales en modelos ETABS y una evaluación sismorresistente preliminar trazable, con revisión humana.
 
-**Estado al 13 de octubre de 2026:** repositorio privado creado en [Ronaldo04/draft2model](https://github.com/Ronaldo04/draft2model). Carga inicial y configuración en curso. Esta carpeta todavía no tiene historial Git local; el acceso de consulta permanece pendiente.
+**Estado al 13 de octubre de 2026:** repositorio privado creado en [Ronaldo04/draft2model](https://github.com/Ronaldo04/draft2model). Carga inicial de 23 archivos completada y verificada; plantillas y seguimiento O0–O6 disponibles. Esta carpeta todavía no tiene historial Git local; el acceso de consulta permanece pendiente.
 
 ## Documentación de trabajo
 
@@ -26,7 +26,7 @@ La planificación organiza requisitos, dependencias, verificaciones y entregas. 
 2. Consultar el repositorio privado [draft2model](https://github.com/Ronaldo04/draft2model) y la guía de permisos.
 3. Revisar el contenido a compartir y realizar la carga inicial.
 4. Verificar que las cuentas autorizadas pueden consultar el código con los permisos acordados.
-5. Abrir las tareas del hito O0 y registrar su cierre con evidencia.
+5. Consultar las [Issues O0–O6](https://github.com/Ronaldo04/draft2model/issues) y registrar el cierre de cada requisito con evidencia.
 
 Reunión de coordinación: Teams, todos los días a las **22:00, hora de Perú**. Su duración y la fecha final del proyecto no están acordadas.
 
@@ -39,3 +39,9 @@ Reunión de coordinación: Teams, todos los días a las **22:00, hora de Perú**
 SismoVivienda AI es el nombre utilizado en los documentos base; los entregables recientes utilizan Draft2Model. Los PDF y entregables originales se preservan como antecedentes históricos: sus asignaciones de personas no son instrucciones operativas vigentes. Los nuevos acuerdos, planes y avances se escriben en Markdown y se versionan.
 
 La documentación operativa no sustituye la aprobación de datos, modelo e informe. El prototipo no certifica seguridad estructural, predice colapso ni diseña reforzamientos.
+
+## Configuración verificada
+
+Repositorio privado en la cuenta personal Ronaldo04; Issues habilitado; Pages desactivado; sin workflows de despliegue. main no tiene protección técnica: las reglas avanzadas requieren GitHub Pro en este privado. El flujo de comprobación e integración se aplica como convención.
+
+El acceso de consulta requiere resolver la modalidad y las cuentas autorizadas. Los repositorios privados personales no ofrecen colaboradores de solo lectura.
