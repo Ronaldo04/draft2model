@@ -104,6 +104,8 @@ Teams se usa para la reunión. GitHub y Markdown conservan el resultado. El acce
 
 ## 8. Documentación viva
 
+El [control de avance](CONTROL_AVANCE.md) visualiza este plan mediante criterios verificables en `seguimiento/hitos.json`, distinguiendo la carpeta local del commit consultado de GitHub. Los cambios sin correspondencia explícita se registran para clasificación y no cierran requisitos automáticamente.
+
 | Archivo | Qué se registra |
 | --- | --- |
 | `README.md` | Entrada al proyecto, estado y modo de ejecución vigente. |

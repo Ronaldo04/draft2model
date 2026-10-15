@@ -14,6 +14,7 @@ Actualizado: 14 de octubre de 2026. Decisiones de organización, documentación 
 | D06 | Preparar operación y repositorio antes de implementar el prototipo. | Prioridad actual. | Vigente. |
 | D07 | Mantener el material académico de aportes separado del flujo de trabajo. | Requisito comunicado para la sustentación del programa. | Vigente; registrar solo contribuciones acreditadas. |
 | D08 | Visión multimodal como interpretación principal de planos; OCR solo como apoyo opcional para lectura puntual o contraste. | Aclaración del usuario, 14 de octubre de 2026. | Vigente; extractor todavía por implementar y medir. |
+| D09 | Preparar OpenAI como primer conector de visión, con modelo configurable. | Respuesta del usuario el 15 de octubre de 2026: preparar OpenAI; todavía sin clave API. | Cliente preparado y probado sin red. No autoriza una llamada real ni fija modelo, tarifas o precisión. |
 
 ## Pendientes: no equivalen a acuerdos
 

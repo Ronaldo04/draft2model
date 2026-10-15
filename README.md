@@ -8,7 +8,14 @@ Asistente para transformar planos estructurales en modelos ETABS y una evaluaci�
 
 | Documento | Qué contiene |
 | --- | --- |
+| [Control de avance](docs/CONTROL_AVANCE.md) | Tablero local/publicado, criterios comprobados, cambios e historial. |
 | [Contexto del proyecto](docs/CONTEXTO_PROYECTO.md) | Objetivo, alcance, arquitectura, resultados y validación. |
+| [Registro de extracción](docs/EXTRACCION_PRELIMINAR.md) | Candidatos, evidencias, correcciones y exportación de lecturas revisadas. |
+| [Evaluación de visión](docs/EVALUACION_VISION.md) | Protocolo de referencia manual y medición de precisión, omisiones y evidencia. |
+| [Evaluador de lecturas](docs/EVALUADOR_VISION.md) | Comparación reproducible de propuestas originales y referencia declarada; ejemplo sintético. |
+| [Entrada y salida de visión](docs/ENTRADA_VISION.md) | Paquetes locales de contexto/recortes y adaptación estricta de respuestas; proveedor pendiente. |
+| [Primer conector OpenAI](docs/CONEXION_OPENAI.md) | Preparación sin clave, ejecución explícita y enlace con importación/revisión; prueba real pendiente. |
+| [Comandos de extracciones](docs/CLI_EXTRACCION.md) | Importar, validar, corregir y exportar con versiones y comprobación de evidencia. |
 | [Contrato geométrico](docs/CONTRATO_GEOMETRIA.md) | Propuesta v0.1, unidades, referencias, faltantes y aprobación ligada al contenido. |
 | [Recortes trazables](docs/RECORTES.md) | Regiones PDF ampliadas y transformación de coordenadas para evidencia. |
 | [Revisión documental](docs/REVISION_DOCUMENTAL.md) | Inventario de páginas, vistas previas y muestras fuera del alcance. |
@@ -53,12 +60,16 @@ El usuario informó acceso concedido a un colaborador; el permiso efectivo no se
 
 ## Primera función disponible
 
-El [módulo de ingreso](docs/INGRESO_EXPEDIENTES.md) registra PDF e imágenes autorizadas, conserva originales y hashes SHA256 y genera un expediente en borrador. Sus siete pruebas automatizadas pasan. Se dispone de una muestra provisional fuera del MVP para pruebas de procesamiento. La revisión documental genera vistas previas y errores por archivo/página. OCR, conexión ETABS, análisis e informe no están implementados.
+El [módulo de ingreso](docs/INGRESO_EXPEDIENTES.md) registra PDF e imágenes autorizadas, conserva originales y hashes SHA256 y genera un expediente en borrador. Sus siete pruebas automatizadas pasan. Se dispone de una muestra provisional fuera del MVP para pruebas de procesamiento. La revisión documental genera vistas previas y errores por archivo/página. La extracción mediante visión, OCR auxiliar, conexión ETABS, análisis e informe no están implementados.
 
 ## Contrato geométrico disponible
 
-Contrato y validador v0.1 para niveles, nodos y muros, con normalización a metros, comprobación de referencias y separación entre consistencia y aprobación registrada. Es una propuesta inicial con ejemplo sintético; no incluye materiales, cargas ni validación estructural. La suite actual de ingreso, revisión, geometría y recortes tiene 40 pruebas que pasan. Los recortes PDF ampliados están implementados; la extracción con evidencia todavía está pendiente.
+Contrato y validador v0.1 para niveles, nodos y muros, con normalización a metros, comprobación de referencias y separación entre consistencia y aprobación registrada. Es una propuesta inicial con ejemplo sintético; no incluye materiales, cargas ni validación estructural. La suite incluye el registro de extracción preliminar y el controlador de avance; el resultado vigente se consulta en el tablero. Los recortes PDF y el registro de candidatos con evidencia están implementados; la generación de candidatos mediante visión y su integración con comandos y almacenamiento siguen pendientes.
 
 ## Interpretación principal de planos
 
 La extracción se basará en visión multimodal: vista general, recortes y contexto para proponer elementos, cotas y relaciones con evidencia. OCR será un apoyo opcional para lecturas puntuales o contraste, sin gobernar el flujo ni imponer un orden previo al plano. La salida debe ser estructurada, revisable y conservar faltantes; el proveedor y la precisión aún requieren pruebas.
+
+## Ver el avance del desarrollo
+
+Hacer doble clic en **Abrir control de avance.cmd** en esta carpeta. El tablero compara criterios O0–O6 locales y publicados, muestra pendientes y observa cambios mientras su proceso esté activo. La lectura continua de GitHub necesita una conexión de solo lectura propia; el acceso del conector del chat no se hereda automáticamente. Instrucciones y límites en [CONTROL_AVANCE.md](docs/CONTROL_AVANCE.md).

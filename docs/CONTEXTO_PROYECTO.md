@@ -62,7 +62,7 @@ El registro básico de expediente está implementado en v0.1.0 para originales, 
 
 ## Tecnologías y operación previstas
 
-Python modular; OpenCV y PyMuPDF/Pillow; API de visión multimodal por seleccionar como extractor principal y OCR opcional por validar como apoyo; JSON/Pydantic y SQLite; Shapely y herramientas geográficas; ETABS/API CSI; reglas reproducibles; RAG sobre corpus aprobado; generación de informes y figuras.
+Python modular; OpenCV y PyMuPDF/Pillow; primer conector OpenAI preparado para visión multimodal, con modelo configurable y prueba real pendiente; OCR opcional por validar como apoyo; JSON/Pydantic y SQLite; Shapely y herramientas geográficas; ETABS/API CSI; reglas reproducibles; RAG sobre corpus aprobado; generación de informes y figuras.
 
 Streamlit y Tesseract son candidatos. El proveedor multimodal y el LLM se seleccionan mediante pruebas, no por reputación. Claude Code es una herramienta de desarrollo, no el motor de cálculo estructural.
 

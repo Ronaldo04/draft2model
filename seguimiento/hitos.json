@@ -1,0 +1,533 @@
+{
+  "version": "1.3.0",
+  "basis": "docs/PLAN_OPERACION.md",
+  "calculation": "Criterios verificados / criterios definidos. Igual peso por criterio; no mide esfuerzo ni tiempo.",
+  "milestones": [
+    {
+      "id": "O0",
+      "title": "Base y seguimiento",
+      "depends": [],
+      "issue": "https://github.com/Ronaldo04/draft2model/issues/1",
+      "criteria": [
+        {
+          "id": "O0.1",
+          "title": "Repositorio privado",
+          "files": [],
+          "tests": [],
+          "pending": "Requiere lectura de metadatos del remoto.",
+          "probe": "private_repository"
+        },
+        {
+          "id": "O0.2",
+          "title": "Plan y criterios documentados",
+          "files": [
+            "docs/PLAN_OPERACION.md",
+            "docs/CONTEXTO_PROYECTO.md"
+          ],
+          "tests": [],
+          "pending": "Falta revisión documental vigente."
+        },
+        {
+          "id": "O0.3",
+          "title": "Exclusiones y guía de acceso",
+          "files": [
+            ".gitignore",
+            "docs/GUIA_GITHUB_PRIVADO.md"
+          ],
+          "tests": [],
+          "pending": "Falta revisión de exclusiones y guía."
+        },
+        {
+          "id": "O0.4",
+          "title": "Consulta efectiva del colaborador",
+          "files": [],
+          "tests": [],
+          "pending": "El acceso fue informado; no está auditada su aceptación."
+        },
+        {
+          "id": "O0.5",
+          "title": "Issues habilitadas",
+          "files": [],
+          "tests": [],
+          "pending": "Requiere lectura de metadatos del remoto.",
+          "probe": "issues_enabled"
+        },
+        {
+          "id": "O0.6",
+          "title": "Seguimiento visual verificable",
+          "files": [
+            "seguimiento/control.py",
+            "seguimiento/hitos.json",
+            "seguimiento/web/index.html",
+            "tests/test_control_avance.py"
+          ],
+          "tests": [
+            "test_control_avance.py"
+          ],
+          "pending": "Falta implementar y probar el controlador.",
+          "check_files": [
+            "seguimiento/control.py",
+            "seguimiento/hitos.json",
+            "seguimiento/web/index.html",
+            "tests/test_control_avance.py",
+            "draft2model/__init__.py",
+            "seguimiento/web/app.js",
+            "seguimiento/web/style.css"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "O1",
+      "title": "Caso y entorno",
+      "depends": [
+        "O0"
+      ],
+      "issue": "https://github.com/Ronaldo04/draft2model/issues/2",
+      "criteria": [
+        {
+          "id": "O1.1",
+          "title": "Ingreso y conservación de originales",
+          "files": [
+            "draft2model/ingreso.py",
+            "tests/test_ingreso.py"
+          ],
+          "tests": [
+            "test_ingreso.py"
+          ],
+          "pending": "Falta ingreso probado.",
+          "check_files": [
+            "draft2model/ingreso.py",
+            "tests/test_ingreso.py",
+            "draft2model/__init__.py"
+          ]
+        },
+        {
+          "id": "O1.2",
+          "title": "Revisión de páginas y vistas previas",
+          "files": [
+            "draft2model/revision_documental.py",
+            "tests/test_revision_documental.py"
+          ],
+          "tests": [
+            "test_revision_documental.py"
+          ],
+          "pending": "Falta revisión documental probada.",
+          "check_files": [
+            "draft2model/revision_documental.py",
+            "tests/test_revision_documental.py",
+            "draft2model/__init__.py",
+            "draft2model/ingreso.py",
+            "requirements.txt"
+          ]
+        },
+        {
+          "id": "O1.3",
+          "title": "Diagnóstico reproducible del entorno",
+          "files": [
+            "scripts/diagnosticar_entorno.py",
+            "docs/O1_PREPARACION.md"
+          ],
+          "tests": [],
+          "pending": "ETABS detectado; diagnóstico y licencia/API no equivalen a conexión comprobada."
+        },
+        {
+          "id": "O1.4",
+          "title": "Caso compatible con el MVP",
+          "files": [],
+          "tests": [],
+          "pending": "La muestra disponible está fuera de tipología y pisos del MVP.",
+          "blocker": "Se necesita caso de albañilería confinada de 1–2 niveles para validar el alcance."
+        },
+        {
+          "id": "O1.5",
+          "title": "Referencia manual y tolerancias aprobadas",
+          "files": [],
+          "tests": [],
+          "pending": "Faltan modelo de referencia y tolerancias revisadas."
+        },
+        {
+          "id": "O1.6",
+          "title": "Licencia/API y lectura de resultados reales",
+          "files": [],
+          "tests": [],
+          "pending": "ETABS está detectado; falta prueba real de conexión y lectura."
+        }
+      ]
+    },
+    {
+      "id": "O2",
+      "title": "Contratos y ETABS",
+      "depends": [
+        "O1"
+      ],
+      "issue": "https://github.com/Ronaldo04/draft2model/issues/3",
+      "criteria": [
+        {
+          "id": "O2.1",
+          "title": "Contrato y validador geométrico",
+          "files": [
+            "draft2model/contratos.py",
+            "draft2model/validacion_geometria.py",
+            "tests/test_validacion_geometria.py"
+          ],
+          "tests": [
+            "test_validacion_geometria.py"
+          ],
+          "pending": "Falta contrato probado.",
+          "check_files": [
+            "draft2model/contratos.py",
+            "draft2model/validacion_geometria.py",
+            "tests/test_validacion_geometria.py",
+            "draft2model/__init__.py",
+            "examples/geometria_sintetica.json"
+          ]
+        },
+        {
+          "id": "O2.2",
+          "title": "Materiales, cargas y masa revisados",
+          "files": [],
+          "tests": [],
+          "pending": "Parámetros y contratos de ingeniería pendientes."
+        },
+        {
+          "id": "O2.3",
+          "title": "Plantilla y adaptador ETABS",
+          "files": [],
+          "tests": [],
+          "pending": "No hay adaptador ejecutado contra un caso revisado."
+        },
+        {
+          "id": "O2.4",
+          "title": "Generación y análisis identificables",
+          "files": [],
+          "tests": [],
+          "pending": "Faltan ejecución y trazabilidad de resultados."
+        },
+        {
+          "id": "O2.5",
+          "title": "Comparación de modelo contra referencia",
+          "files": [],
+          "tests": [],
+          "pending": "Faltan modelo manual y comparación con criterios acordados."
+        }
+      ]
+    },
+    {
+      "id": "O3",
+      "title": "Interpretación visual",
+      "depends": [
+        "O1"
+      ],
+      "issue": "https://github.com/Ronaldo04/draft2model/issues/4",
+      "criteria": [
+        {
+          "id": "O3.1",
+          "title": "Recortes y coordenadas trazables",
+          "files": [
+            "draft2model/recortes.py",
+            "tests/test_recortes.py"
+          ],
+          "tests": [
+            "test_recortes.py"
+          ],
+          "pending": "Faltan recortes probados.",
+          "check_files": [
+            "draft2model/recortes.py",
+            "tests/test_recortes.py",
+            "draft2model/__init__.py",
+            "draft2model/ingreso.py",
+            "draft2model/revision_documental.py",
+            "requirements.txt"
+          ]
+        },
+        {
+          "id": "O3.2",
+          "title": "Registro de candidatos con evidencia",
+          "files": [
+            "draft2model/extraccion_preliminar.py",
+            "tests/test_extraccion_preliminar.py",
+            "examples/extraccion_sintetica.json"
+          ],
+          "tests": [
+            "test_extraccion_preliminar.py"
+          ],
+          "pending": "Falta registro probado.",
+          "check_files": [
+            "draft2model/extraccion_preliminar.py",
+            "tests/test_extraccion_preliminar.py",
+            "examples/extraccion_sintetica.json",
+            "draft2model/__init__.py"
+          ]
+        },
+        {
+          "id": "O3.3",
+          "title": "Protocolo de evaluación visual",
+          "files": [
+            "docs/EVALUACION_VISION.md",
+            "examples/referencia_vision.csv"
+          ],
+          "tests": [],
+          "pending": "La plantilla no es una referencia anotada ni una evaluación ejecutada."
+        },
+        {
+          "id": "O3.4",
+          "title": "Referencia anotada y revisada",
+          "files": [],
+          "tests": [],
+          "pending": "Falta referencia humana del piloto; propuestas de IA no la sustituyen."
+        },
+        {
+          "id": "O3.5",
+          "title": "Extracción con visión multimodal",
+          "files": [],
+          "tests": [],
+          "pending": "Proveedor y extracción aún no implementados."
+        },
+        {
+          "id": "O3.6",
+          "title": "Precisión, cobertura y errores medidos",
+          "files": [],
+          "tests": [],
+          "pending": "Falta evaluación antes de correcciones humanas."
+        },
+        {
+          "id": "O3.7",
+          "title": "Conversión de candidatos a geometría",
+          "files": [],
+          "tests": [],
+          "pending": "Faltan escala, relaciones espaciales y controles de conversión."
+        },
+        {
+          "id": "O3.8",
+          "title": "Evaluador reproducible de lecturas",
+          "files": [
+            "draft2model/evaluacion_vision.py",
+            "tests/test_evaluacion_vision.py",
+            "docs/EVALUADOR_VISION.md",
+            "examples/referencia_vision_sintetica.json",
+            "examples/correspondencias_vision_sinteticas.json"
+          ],
+          "tests": [
+            "test_evaluacion_vision.py"
+          ],
+          "check_files": [
+            "draft2model/evaluacion_vision.py",
+            "tests/test_evaluacion_vision.py",
+            "docs/EVALUADOR_VISION.md",
+            "examples/referencia_vision_sintetica.json",
+            "examples/correspondencias_vision_sinteticas.json",
+            "draft2model/__init__.py",
+            "draft2model/extraccion_preliminar.py",
+            "examples/extraccion_sintetica.json"
+          ],
+          "pending": "Falta evaluador probado. Su implementacion no acredita precision del piloto real."
+        },
+        {
+          "id": "O3.9",
+          "title": "Paquetes visuales y adaptacion de respuestas",
+          "files": [
+            "draft2model/entrada_vision.py",
+            "tests/test_entrada_vision.py",
+            "docs/ENTRADA_VISION.md"
+          ],
+          "tests": [
+            "test_entrada_vision.py"
+          ],
+          "check_files": [
+            "draft2model/entrada_vision.py",
+            "tests/test_entrada_vision.py",
+            "docs/ENTRADA_VISION.md",
+            "draft2model/__init__.py",
+            "draft2model/extraccion_preliminar.py",
+            "draft2model/ingreso.py",
+            "draft2model/recortes.py",
+            "draft2model/revision_documental.py",
+            "requirements.txt"
+          ],
+          "pending": "Falta entrada/salida visual probada. No acredita llamadas a un proveedor ni precision real."
+        },
+        {
+          "id": "O3.10",
+          "title": "Cliente OpenAI e integracion probada sin red",
+          "files": [
+            "draft2model/proveedor_openai.py",
+            "tests/test_proveedor_openai.py",
+            "docs/CONEXION_OPENAI.md"
+          ],
+          "tests": [
+            "test_proveedor_openai.py"
+          ],
+          "check_files": [
+            "draft2model/proveedor_openai.py",
+            "tests/test_proveedor_openai.py",
+            "docs/CONEXION_OPENAI.md",
+            "draft2model/__init__.py",
+            "draft2model/entrada_vision.py",
+            "draft2model/extraccion_preliminar.py",
+            "draft2model/gestion_extraccion.py",
+            "draft2model/ingreso.py",
+            "draft2model/recortes.py",
+            "draft2model/revision_documental.py",
+            "requirements.txt"
+          ],
+          "pending": "Falta cliente probado sin red. No acredita conexion, consumo ni precision reales."
+        }
+      ]
+    },
+    {
+      "id": "O4",
+      "title": "Revisión y persistencia",
+      "depends": [
+        "O2",
+        "O3"
+      ],
+      "issue": "https://github.com/Ronaldo04/draft2model/issues/5",
+      "criteria": [
+        {
+          "id": "O4.1",
+          "title": "Comandos y versiones de extracción",
+          "files": [
+            "draft2model/gestion_extraccion.py",
+            "tests/test_gestion_extraccion.py",
+            "docs/CLI_EXTRACCION.md"
+          ],
+          "tests": [
+            "test_gestion_extraccion.py",
+            "test_cli_extraccion.py"
+          ],
+          "pending": "Falta verificar comandos y versiones con evidencia local vigente.",
+          "check_files": [
+            "draft2model/gestion_extraccion.py",
+            "tests/test_gestion_extraccion.py",
+            "docs/CLI_EXTRACCION.md",
+            "draft2model/__init__.py",
+            "draft2model/extraccion_preliminar.py",
+            "draft2model/__main__.py",
+            "tests/test_cli_extraccion.py",
+            "draft2model/ingreso.py",
+            "draft2model/recortes.py",
+            "draft2model/revision_documental.py",
+            "requirements.txt"
+          ]
+        },
+        {
+          "id": "O4.2",
+          "title": "Interfaz de revisión sobre planos",
+          "files": [],
+          "tests": [],
+          "pending": "Faltan superposición, formularios y revisión operativa."
+        },
+        {
+          "id": "O4.3",
+          "title": "Aprobaciones e invalidación integradas",
+          "files": [],
+          "tests": [],
+          "pending": "Falta integración de aprobaciones y vigencia de resultados."
+        },
+        {
+          "id": "O4.4",
+          "title": "Sitio y fuentes con cobertura explícita",
+          "files": [],
+          "tests": [],
+          "pending": "Faltan cartografía y parámetros referenciales revisados."
+        }
+      ]
+    },
+    {
+      "id": "O5",
+      "title": "Evaluación e informe",
+      "depends": [
+        "O2",
+        "O4"
+      ],
+      "issue": "https://github.com/Ronaldo04/draft2model/issues/6",
+      "criteria": [
+        {
+          "id": "O5.1",
+          "title": "Reglas e indicadores reproducibles",
+          "files": [],
+          "tests": [],
+          "pending": "Faltan criterios y fuentes aprobados e implementación."
+        },
+        {
+          "id": "O5.2",
+          "title": "Corpus y recuperación de fuentes",
+          "files": [],
+          "tests": [],
+          "pending": "Falta corpus aprobado y pruebas de recuperación."
+        },
+        {
+          "id": "O5.3",
+          "title": "Explicación con cifras y citas verificadas",
+          "files": [],
+          "tests": [],
+          "pending": "Falta explicación sobre resultados calculados y fuentes."
+        },
+        {
+          "id": "O5.4",
+          "title": "Dashboard técnico de siete resultados",
+          "files": [],
+          "tests": [],
+          "pending": "El controlador de avance no es el dashboard estructural del producto."
+        },
+        {
+          "id": "O5.5",
+          "title": "Informe preliminar revisado",
+          "files": [],
+          "tests": [],
+          "pending": "Faltan generación y revisión técnica del informe."
+        }
+      ]
+    },
+    {
+      "id": "O6",
+      "title": "Validación y demostración",
+      "depends": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5"
+      ],
+      "issue": "https://github.com/Ronaldo04/draft2model/issues/7",
+      "criteria": [
+        {
+          "id": "O6.1",
+          "title": "Ruta completa de imagen a informe",
+          "files": [],
+          "tests": [],
+          "pending": "Falta integración del flujo completo."
+        },
+        {
+          "id": "O6.2",
+          "title": "Pruebas P01–P14 con evidencia",
+          "files": [],
+          "tests": [],
+          "pending": "Las pruebas unitarias actuales no sustituyen las pruebas integrales previstas."
+        },
+        {
+          "id": "O6.3",
+          "title": "Comparación, tiempos y costos",
+          "files": [],
+          "tests": [],
+          "pending": "Falta comparación manual/asistida y mediciones reales."
+        },
+        {
+          "id": "O6.4",
+          "title": "Recuperación y contingencias ensayadas",
+          "files": [],
+          "tests": [],
+          "pending": "Falta ensayo de fallos y recuperación del flujo."
+        },
+        {
+          "id": "O6.5",
+          "title": "Demostración reproducible y limitaciones",
+          "files": [],
+          "tests": [],
+          "pending": "Faltan caso demostrable y evidencia completa."
+        }
+      ]
+    }
+  ]
+}

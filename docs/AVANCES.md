@@ -1,5 +1,15 @@
 # Registro de avances
 
+## 15 de octubre de 2026: controlador de hitos y avance
+
+- Tablero local con 38 criterios O0–O6 derivados del plan, vistas local/publicado, diferencias de archivos y actividad reciente.
+- Observación cada 2 segundos; pruebas tras cambios pertinentes con huellas vigentes; consulta GitHub cada 60 segundos cuando exista autenticación independiente. No se publican ni descargan cambios de código automáticamente.
+- Lectura inicial del remoto obtenida mediante el conector GitHub, fijada al commit 7ad7d1bc10977cbbbd1fe0961dd63e3959a325d8. Sin credenciales locales, se muestra como lectura guardada con fecha, no como conexión continua.
+- Comprobadas regresiones, separación local/remoto, exclusión de privados, pruebas sobre contenido exacto y controles del servidor mediante pruebas sin navegador. Ver conteo y fecha vigentes en el tablero.
+- Revisión visual no completada: el navegador integrado rechazó acceso al servidor local por su política. Se conserva la herramienta ejecutable para abrirla directamente en la computadora.
+- Nuevos requisitos y criterios de ingeniería necesitan asociación y evidencia explícitas; el controlador no deduce aprobación técnica a partir de cambios arbitrarios.
+- Instrucciones: [CONTROL_AVANCE.md](CONTROL_AVANCE.md). Inicio: Abrir control de avance.cmd.
+
 ## 14 de octubre de 2026: arquitectura de extracción aclarada
 
 - Visión multimodal definida como intérprete principal de planos y relaciones espaciales. OCR queda como apoyo opcional, no como eje de la extracción.
@@ -107,3 +117,46 @@ Los PDF y entregables iniciales se conservan como antecedentes. La planificació
 - Próximo requisito:
 
 Distinguir realizado, probado, propuesto y pendiente. La reunión o una respuesta de IA no acredita por sí sola una prueba técnica. La evidencia debe permitir verificar la procedencia y el resultado del cambio.
+
+
+## 14 de octubre de 2026: registro de extracción y preparación de evaluación visual
+
+- Registro de candidatos, validación de evidencias, correcciones con historial y exportación de revisados implementados en extraccion_preliminar.py. Ejemplo sintético y contrato documentados.
+- Verificación independiente: 56 pruebas pasan, incluidas 16 de extracción. Compatibilidad comprobada en memoria con tres documentos y siete recortes del piloto, sin extraer valores ni escribir nuevos datos privados. Se conserva fuera_mvp_declarado.
+- Las 45 000 mutaciones aleatorias fueron reportadas por Claude Code; no forman parte de esta verificación independiente.
+- [Protocolo de evaluación visual](EVALUACION_VISION.md) y plantilla vacía de referencia preparados. Referencia manual, ejecución de visión y mediciones todavía pendientes.
+- Siguiente implementación delimitada: comandos y persistencia de importación, validación, corrección y exportación; comprobación de archivos de evidencia vigentes antes de guardar resultados.
+- La visión multimodal sigue como extractor principal. OCR auxiliar, proveedor externo, geometría derivada y ETABS todavía no implementados.
+
+
+## 15 de octubre de 2026: evaluador de lecturas y siguiente integracion
+
+- Evaluador de propuestas originales implementado como modulo independiente, con referencia y correspondencias revisadas declaradas, huellas y comparaciones sin inferir unidades ni emparejar por valores.
+- Metricas reproducibles de cobertura, exactitud, lecturas completas, abstenciones y evidencia; duplicados, propuestas sin respaldo y candidatos sin clasificar separados. Resultados por tipo y lamina.
+- Ejemplos exclusivamente sinteticos: la puntuacion del software no representa precision real de un modelo. El caso provisional fuera del MVP conserva su marca; referencia humana y corrida visual real siguen pendientes.
+- 18 pruebas nuevas del evaluador verifican denominadores, omisiones, vigencia de correspondencias, separacion de correcciones, unidades, evidencia y CLI sin sobrescritura. Resultado vigente de suite completa en el controlador.
+- Catalogo de seguimiento 1.1.0: 39 criterios. O3.8 distingue el evaluador implementado de O3.6, que sigue pendiente hasta medir corridas reales.
+- Integracion local de comandos, versiones y comprobacion de evidencias delimitada para Claude Code, sin editar los archivos del evaluador ni seguimiento. La entrega aun no esta presente en esta carpeta.
+- Instrucciones de evaluacion: [EVALUADOR_VISION.md](EVALUADOR_VISION.md).
+
+
+## 15 de octubre de 2026: entrada y salida multimodal local
+
+- Preparacion de paquetes con contexto general y recortes comprobados contra PDF y metadatos. Prompt independiente del proveedor y respuesta JSON estricta. No hay llamadas API.
+- Adaptacion de regiones de imagen a pagina visible usando la transformacion real del raster; valores desconocidos y alcance preservados, lecturas pendientes de revision. Respuestas de prueba marcadas sinteticas.
+- Piloto: paquete local con tres vistas de contexto y siete recortes, sin lecturas propuestas ni transmision externa. Copias dentro de data/private, excluidas del remoto.
+- Pruebas sinteticas incluyen rotaciones 0/90/180/270, redondeo, modificaciones de fuentes, metadatos, copias o prompt, JSON invalido, respuesta vacia y CLI.
+- Catalogo 1.2.0, 40 criterios: O3.9 registra la entrada/salida; O3.5 (ejecucion real de vision) y O3.6 (precision medida) siguen pendientes.
+- No se modificaron los archivos asignados a Claude para comandos y versiones de extracciones.
+- Uso y limites: [ENTRADA_VISION.md](ENTRADA_VISION.md). Resultado vigente de suite completa en el registro del controlador.
+
+
+## 15 de octubre de 2026: primer cliente OpenAI y enlace con versiones
+
+- El usuario eligio preparar OpenAI y declaro no disponer aun de clave API. Modelo configurable, sin proveedor llamado ni costo real generado por estas pruebas.
+- Cliente Responses API preparado: PNG inline, esquema estricto, plan local verificable, envio explicito, un intento por plan, sin reintentos automaticos y sin claves en planes.
+- Registro de respuesta, duracion de API y total, consumo informado o null. Respuestas incompletas/rechazadas/invalidas no se importan.
+- Recorrido completo hasta importar, corregir y exportar comprobado con PDF sintetico y HTTP sustituido. Los transportes simulados se identifican y no se importan como lecturas reales.
+- Integracion local de Claude presente: comandos, gestion, documentacion y pruebas. O4.1 exige ahora tanto pruebas de gestion como de CLI y sus dependencias.
+- Catalogo 1.3.0, 41 criterios. O3.10 acredita el cliente probado sin red; O3.5 y O3.6 siguen pendientes de corrida real y precision medida.
+- Uso: [CONEXION_OPENAI.md](CONEXION_OPENAI.md). Resultado vigente de suite completa en el controlador.
