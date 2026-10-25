@@ -1,10 +1,10 @@
 # Extracción preliminar: candidatos, evidencia y revisión
 
+> **Contrato 0.2.0 (encargo 07):** tipos semánticos, texto literal, cobertura por recorte, reclasificación y reubicación revisadas. Ver LECTURAS_SEMANTICAS (referencia de desarrollo no distribuida). Lo descrito abajo para 0.1.0 sigue siendo válido para artefactos guardados.
+
 Estado: **propuesta inicial v0.1**, 14 de octubre de 2026. Contrato para registrar lo que se lee en un plano, con su origen, y las correcciones declaradas por quien revisa. No es OCR, no genera geometría y no aprueba datos de ingeniería.
 
-Implementación: [`draft2model/extraccion_preliminar.py`](../draft2model/extraccion_preliminar.py). Ejemplo sintético: [`examples/extraccion_sintetica.json`](../examples/extraccion_sintetica.json). Pruebas: [`tests/test_extraccion_preliminar.py`](../tests/test_extraccion_preliminar.py).
-
-Corresponde a `extraccion_preliminar.json` del [contexto del proyecto](CONTEXTO_PROYECTO.md). Se sitúa entre los [recortes](RECORTES.md) y el [contrato de geometría](CONTRATO_GEOMETRIA.md), sin modificar ninguno de los dos.
+Corresponde a `extraccion_preliminar.json` del contexto del proyecto (referencia de desarrollo no distribuida). Se sitúa entre los [recortes](RECORTES.md) y el [contrato de geometría](CONTRATO_GEOMETRIA.md), sin modificar ninguno de los dos.
 
 ## Estructura
 
@@ -112,14 +112,6 @@ Si no se aporta inventario, la exportación indica `inventario_aportado: false` 
 - `alcance.estado: fuera_mvp_declarado` genera la advertencia `fuera_mvp` y se exporta sin cambios. Con inventario, un alcance distinto del expediente es un error, para que la marca provisional no se pierda.
 
 El ejemplo usa hashes calculados sobre textos de prueba, no sobre archivos. No contiene planos ni datos privados.
-
-## Pruebas
-
-```powershell
-.\.venv\Scripts\python.exe -m unittest discover -s tests -v
-```
-
-Cubren: caso válido; valores y unidades desconocidos; referencias no comprobadas, comprobadas, parciales y rotas; páginas inválidas; bbox mal formadas, con NaN o con booleanos; identificadores duplicados; correcciones con historial; exclusión de pendientes y rechazados; inmutabilidad de la entrada; conservación del alcance y la procedencia. No acreditan precisión de extracción ni validación estructural.
 
 ## Pendientes
 

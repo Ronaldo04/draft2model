@@ -1,75 +1,35 @@
 # Draft2Model
 
-Asistente para transformar planos estructurales en modelos ETABS y una evaluación sismorresistente preliminar trazable, con revisión humana.
+Aplicación local para convertir planos estructurales en lecturas revisables, geometría, modelos ETABS e informes preliminares trazables. Esta distribución contiene **solo aplicación y documentación**, conforme al alcance solicitado.
 
-**Estado al 13 de octubre de 2026:** repositorio privado creado en [Ronaldo04/draft2model](https://github.com/Ronaldo04/draft2model). Carga inicial de 23 archivos completada y verificada; plantillas y seguimiento O0–O6 disponibles. Esta carpeta todavía no tiene historial Git local; O1 está en preparación; ingreso y revisión documental están implementados; el usuario informó acceso concedido a un colaborador.
+El código base es el snapshot347: interfaz de siete etapas, editor geométrico, visor3D y reconstrucción de geometría borrador desde relaciones y coordenadas, con recuperación local y declaración trazable de unidad. **La autonomía sigue siendo parcial.** El flujo nuevo requiere comprobación real positiva; la configuración automática y los lotes mayores de ocho páginas siguen pendientes. El piloto anterior necesitó preparación asistida. El benchmark humano completo y la aceptación global continúan abiertos.
 
-## Documentación de trabajo
+## Instalar y abrir
 
-| Documento | Qué contiene |
-| --- | --- |
-| [Control de avance](docs/CONTROL_AVANCE.md) | Tablero local/publicado, criterios comprobados, cambios e historial. |
-| [Contexto del proyecto](docs/CONTEXTO_PROYECTO.md) | Objetivo, alcance, arquitectura, resultados y validación. |
-| [Registro de extracción](docs/EXTRACCION_PRELIMINAR.md) | Candidatos, evidencias, correcciones y exportación de lecturas revisadas. |
-| [Evaluación de visión](docs/EVALUACION_VISION.md) | Protocolo de referencia manual y medición de precisión, omisiones y evidencia. |
-| [Evaluador de lecturas](docs/EVALUADOR_VISION.md) | Comparación reproducible de propuestas originales y referencia declarada; ejemplo sintético. |
-| [Entrada y salida de visión](docs/ENTRADA_VISION.md) | Paquetes locales de contexto/recortes y adaptación estricta de respuestas; proveedor pendiente. |
-| [Primer conector OpenAI](docs/CONEXION_OPENAI.md) | Preparación sin clave, ejecución explícita y enlace con importación/revisión; prueba real pendiente. |
-| [Comandos de extracciones](docs/CLI_EXTRACCION.md) | Importar, validar, corregir y exportar con versiones y comprobación de evidencia. |
-| [Contrato geométrico](docs/CONTRATO_GEOMETRIA.md) | Propuesta v0.1, unidades, referencias, faltantes y aprobación ligada al contenido. |
-| [Recortes trazables](docs/RECORTES.md) | Regiones PDF ampliadas y transformación de coordenadas para evidencia. |
-| [Revisión documental](docs/REVISION_DOCUMENTAL.md) | Inventario de páginas, vistas previas y muestras fuera del alcance. |
-| [Ingreso de expedientes](docs/INGRESO_EXPEDIENTES.md) | Comando de ingreso local, trazabilidad y controles implementados. |
-| [Preparación O1](docs/O1_PREPARACION.md) | Entorno comprobado, datos del caso piloto y referencia de ingeniería. |
-| [Plan de operación](docs/PLAN_OPERACION.md) | Cómo organizar, ejecutar, revisar y cerrar el trabajo remoto. |
-| [Guía de GitHub privado](docs/GUIA_GITHUB_PRIVADO.md) | Creación, permisos, carga inicial y acceso de consulta. |
-| [Registro de decisiones](docs/REGISTRO_DECISIONES.md) | Decisiones vigentes y asuntos pendientes. |
-| [Registro de avances](docs/AVANCES.md) | Evidencia de lo terminado, bloqueos y próximos pasos. |
+Entorno de referencia: Windows x64 y Python3.10. Desde la carpeta del proyecto:
 
-## Forma de ejecución
+```powershell
+py -3.10 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --require-hashes -r requirements-win-py310.lock
+.\.venv\Scripts\python.exe -m pip check
+.\.venv\Scripts\python.exe -m draft2model --help
+.\.venv\Scripts\python.exe -m draft2model.revision_visual --raiz data/private --puerto 8766
+```
 
-El avance se organiza por requisitos, hitos y comprobaciones. Codex y Claude Code apoyan la programación y documentación. Las reuniones permiten consultar el progreso y discutir los cambios; los acuerdos se registran en Markdown.
+Después de instalar también puede abrirse `Abrir revision de planos.cmd`. El servidor escucha en loopback y abre el navegador; detener con Ctrl+C. La instalación necesita acceso a las dependencias exactas del lock; no se incluyen entornos instalados ni wheels. [Guía de instalación](docs/GUIA_REPRODUCIBLE.md).
 
-La planificación organiza requisitos, dependencias, verificaciones y entregas. La [referencia para la sustentación](docs/REFERENCIA_SUSTENTACION.md) conserva la distribución histórica del programa y permite registrar aportes reales con evidencia; no dirige la ejecución.
+Los documentos del operador se guardan localmente en la raíz elegida. No se distribuyen planos, resultados, modelos, credenciales, fixtures, pruebas ni ensayos. La clave de visión se configura en el servidor local según [accesos y proveedores](docs/ACCESOS_Y_PROVEEDORES.md). El cargador `scripts/usar_credenciales_locales.py` contiene código, sin claves. Abrir la aplicación no envía planos ni ejecuta ETABS. Los proveedores operativos autorizados para planos son Google y OpenAI; las transmisiones y la ejecución de ETABS requieren operaciones deliberadas posteriores.
 
-## Cómo comenzar
+## Recorrido
 
-1. Leer el plan y elegir cómo proporcionar acceso de consulta al equipo antes de invitar personas.
-2. Consultar el repositorio privado [draft2model](https://github.com/Ronaldo04/draft2model) y la guía de permisos.
-3. Revisar el contenido a compartir y realizar la carga inicial.
-4. Verificar que las cuentas autorizadas pueden consultar el código con los permisos acordados.
-5. Consultar las [Issues O0–O6](https://github.com/Ronaldo04/draft2model/issues) y registrar el cierre de cada requisito con evidencia.
+La [guía de uso](docs/USO_APLICACION.md) describe ingreso, revisión de lecturas, reconstrucción, geometría/configuración, modelo, análisis e informe. La [interfaz por etapas](docs/INTERFAZ_POR_ETAPAS.md) y los contratos conservados en `docs/` detallan formatos y condiciones. Las plantillas de configuración se generan desde la geometría del operador mediante `python -m draft2model.plantilla_configuracion --help`; los CSV/JSON de entrada los aporta el operador según sus contratos. No hacen falta archivos de ejemplos para iniciar la aplicación.
 
-Reunión de coordinación: Teams, todos los días a las **22:00, hora de Perú**. Su duración y la fecha final del proyecto no están acordadas.
+ETABS requiere Windows, instalación y licencia compatibles, API local y PowerShell capaz de ejecutar los scripts. Se conservan todos los módulos de la aplicación y sus assets web, junto con los auxiliares ETABS necesarios. La CLI muestra los comandos distribuidos con `--help`. La entrada de demo fue retirada de esta distribución porque los datos y módulos de demostración no se incluyen.
 
-## Fuentes conservadas
+## Verificación y límites
 
-- [Desarrollo técnico](SismoVivienda_AI_Desarrollo_Tecnico.pdf).
-- [Entrega de avance](<SismoVivienda_AI_Entrega_Avance 01 - 03-10-2026.pdf>).
-- [Resumen reciente](entregables/Draft2Model_One_Page.html).
+El snapshot347 completo tuvo1483 pruebas Python y39 de interfaz aprobadas, con cinco comprobaciones sin fallos ni omisiones. Esos resultados corresponden al conjunto completo de desarrollo, con sus pruebas y fixtures; **no se atribuyen a esta distribución ni a su huella**. La distribución de aplicación y documentación se verifica aparte mediante dependencias, imports, arranque CLI/HTTP, assets y enlaces. Se cambió únicamente el registro CLI de la demo; no se publican suites ni sus datos.
 
-SismoVivienda AI es el nombre utilizado en los documentos base; los entregables recientes utilizan Draft2Model. Los PDF y entregables originales se preservan como antecedentes históricos: sus asignaciones de personas no son instrucciones operativas vigentes. Los nuevos acuerdos, planes y avances se escriben en Markdown y se versionan.
+Las lecturas, coordenadas, geometría, configuración y resultados requieren revisión explícita. La reconstrucción produce un borrador; no resuelve información física ausente. El suelo exige información geotécnica y el sistema estructural requiere evaluación profesional. Las identidades y aprobaciones son declaradas. Aprobar un documento no acredita conformidad normativa ni aprueba resultados.
 
-La documentación operativa no sustituye la aprobación de datos, modelo e informe. El prototipo no certifica seguridad estructural, predice colapso ni diseña reforzamientos.
-
-## Configuración verificada
-
-Repositorio privado en la cuenta personal Ronaldo04; Issues habilitado; Pages desactivado; sin workflows de despliegue. main no tiene protección técnica: las reglas avanzadas requieren GitHub Pro en este privado. El flujo de comprobación e integración se aplica como convención.
-
-El usuario informó acceso concedido a un colaborador; el permiso efectivo no se ha auditado. Los repositorios privados personales no ofrecen colaboradores de solo lectura.
-
-## Primera función disponible
-
-El [módulo de ingreso](docs/INGRESO_EXPEDIENTES.md) registra PDF e imágenes autorizadas, conserva originales y hashes SHA256 y genera un expediente en borrador. Sus siete pruebas automatizadas pasan. Se dispone de una muestra provisional fuera del MVP para pruebas de procesamiento. La revisión documental genera vistas previas y errores por archivo/página. La extracción mediante visión, OCR auxiliar, conexión ETABS, análisis e informe no están implementados.
-
-## Contrato geométrico disponible
-
-Contrato y validador v0.1 para niveles, nodos y muros, con normalización a metros, comprobación de referencias y separación entre consistencia y aprobación registrada. Es una propuesta inicial con ejemplo sintético; no incluye materiales, cargas ni validación estructural. La suite incluye el registro de extracción preliminar y el controlador de avance; el resultado vigente se consulta en el tablero. Los recortes PDF y el registro de candidatos con evidencia están implementados; la generación de candidatos mediante visión y su integración con comandos y almacenamiento siguen pendientes.
-
-## Interpretación principal de planos
-
-La extracción se basará en visión multimodal: vista general, recortes y contexto para proponer elementos, cotas y relaciones con evidencia. OCR será un apoyo opcional para lecturas puntuales o contraste, sin gobernar el flujo ni imponer un orden previo al plano. La salida debe ser estructurada, revisable y conservar faltantes; el proveedor y la precisión aún requieren pruebas.
-
-## Ver el avance del desarrollo
-
-Hacer doble clic en **Abrir control de avance.cmd** en esta carpeta. El tablero compara criterios O0–O6 locales y publicados, muestra pendientes y observa cambios mientras su proceso esté activo. La lectura continua de GitHub necesita una conexión de solo lectura propia; el acceso del conector del chat no se hereda automáticamente. Instrucciones y límites en [CONTROL_AVANCE.md](docs/CONTROL_AVANCE.md).
+El producto no certifica seguridad, estima probabilidad de colapso, diseña reforzamientos ni deduce capacidad portante. El corpus normativo y las capas de sitio se aportan y aprueban por separado. Las rutas históricas `seguimiento/normativa_229` conservadas en metadatos de citas identifican auditorías de desarrollo, no dependencias distribuidas. La comparación con el modelo manual está aplazada. No se afirma funcionamiento universal ni validación global completa.

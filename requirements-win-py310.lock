@@ -1,0 +1,3 @@
+# Windows x64, CPython 3.10. Hashes contrastados con PyPI.
+pillow==12.3.0 --hash=sha256:300557495eb45ebb8aec96c2da9c4be642fbf7cd937278b4013ba894ea8eb0eb
+pymupdf==1.28.2 --hash=sha256:ebd244918798502d7b4504c90410d1711a4d7675a32584ca30f1bab419ecbffe

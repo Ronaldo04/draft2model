@@ -12,6 +12,8 @@ from typing import Any
 
 CONTRATO_GEOMETRIA = "draft2model.geometria"
 VERSION_GEOMETRIA = "0.1.0"
+VERSION_GEOMETRIA_SUPERFICIES = "0.2.0"
+VERSION_GEOMETRIA_ABERTURAS = "0.3.0"
 
 # Divisores enteros exactos hacia metros: dividir por 100 o 1000 redondea una
 # sola vez, por lo que 260 cm, 2600 mm y 2.6 m producen el mismo float.
@@ -53,7 +55,7 @@ CAMPOS_APROBACION = {
 COLECCIONES: dict[str, dict[str, tuple[str, ...]]] = {
     "niveles": {
         "obligatorios": ("id", "cota"),
-        "opcionales": ("nombre", "procedencia"),
+        "opcionales": ("nombre", "procedencia", "tipo"),  # tipo: "piso" (por omisión) | "auxiliar" (ensayo257)
         "anulables": ("cota",),
         "longitudes": ("cota",),
     },
@@ -77,6 +79,13 @@ COLECCIONES: dict[str, dict[str, tuple[str, ...]]] = {
         "longitudes": ("espesor",),
     },
 }
+
+
+CAMPOS_RAIZ_SUPERFICIES = CAMPOS_RAIZ + ("vertices", "superficies")
+CAMPOS_VERTICE = {"obligatorios": ("id", "x", "y", "z", "procedencia"), "opcionales": ()}
+CAMPOS_SUPERFICIE = {"obligatorios": ("id", "vertices", "papel_geometrico", "procedencia"), "opcionales": ()}
+CAMPOS_RAIZ_ABERTURAS = CAMPOS_RAIZ_SUPERFICIES + ("aberturas",)
+CAMPOS_ABERTURA = {"obligatorios": ("id", "superficie", "vertices", "procedencia"), "opcionales": ()}
 
 
 def huella_contenido(data: dict[str, Any]) -> str:

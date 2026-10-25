@@ -1,8 +1,8 @@
 # Entrada y salida de visión multimodal v0.1
 
-Implementado: preparación local de imágenes y adaptación de respuestas JSON de origen declarado. **No hay conexión a un proveedor ni lectura automática con un modelo en este módulo.** La selección de recortes sigue siendo manual.
+> **Contrato 0.2.0 (encargo 07):** tipos semánticos, texto literal, cobertura por recorte, reclasificación y reubicación revisadas. Ver LECTURAS_SEMANTICAS (referencia de desarrollo no distribuida). Lo descrito abajo para 0.1.0 sigue siendo válido para artefactos guardados.
 
-Código: [entrada_vision.py](../draft2model/entrada_vision.py). Pruebas: [test_entrada_vision.py](../tests/test_entrada_vision.py). No modifica los comandos de extracción que se desarrollan por separado en `draft2model/__main__.py`.
+Implementado: preparación local de imágenes y adaptación de respuestas JSON de origen declarado. **No hay conexión a un proveedor ni lectura automática con un modelo en este módulo.** La selección de recortes sigue siendo manual.
 
 ## Flujo disponible
 
@@ -86,6 +86,6 @@ Código de salida 0: operación local completada; 1: datos, integridad o escritu
 - Pruebas con PDF sintético: cuatro rotaciones, transformación desplazada, redondeo de píxeles, datos desconocidos, respuesta vacía, integridad, rechazo de evidencia de contexto y CLI.
 - Preparación local comprobada con el piloto: tres vistas generales y siete recortes, conservando `fuera_mvp_declarado`. No se generaron lecturas ni se enviaron archivos.
 - Las dependencias de render están fijadas en requirements; si cambia la versión del renderizador y produce otros PNG, regenerar revisión y recortes en vez de eludir la verificación.
-- El [primer cliente OpenAI](CONEXION_OPENAI.md) permite preparar planes y prevé un envío explícito con registro de respuesta, tiempos y consumo informado. Se probó sin red. Pendientes: clave, modelo, compatibilidad y límites reales del servicio, costo y ejecución con el piloto. Este módulo no acredita por sí solo extracción real ni precisión.
-- Pendiente: referencia humana del piloto y evaluación de respuestas originales con el [evaluador de lecturas](EVALUADOR_VISION.md).
+- El primer cliente OpenAI (referencia de desarrollo no distribuida) permite preparar planes y prevé un envío explícito con registro de respuesta, tiempos y consumo informado. Se probó sin red. Pendientes: clave, modelo, compatibilidad y límites reales del servicio, costo y ejecución con el piloto. Este módulo no acredita por sí solo extracción real ni precisión.
+- Pendiente: referencia humana del piloto y evaluación de respuestas originales con el evaluador de lecturas (referencia de desarrollo no distribuida).
 - Pendiente: detección automática de regiones, recortes de fuentes raster y traducción revisada a geometría.

@@ -9,6 +9,7 @@ vigente. No ejecuta OCR, visión, geometría ni ETABS, y no aprueba ingeniería.
 from __future__ import annotations
 
 import hashlib
+import copy
 import json
 import math
 import os
@@ -23,6 +24,8 @@ from uuid import uuid4
 from .extraccion_preliminar import (
     PATRON_SHA256,
     SISTEMA_COORDENADAS,
+    VERSION_EXTRACCION,
+    VERSION_SEMANTICA,
     ErrorExtraccion,
     corregir,
     es_numero,
@@ -506,10 +509,10 @@ def _problemas_operacion(carpeta: Path, meta: dict, data: Any, etiqueta: str) ->
         if meta.get("padre") is not None:
             return [f"{etiqueta}: una importación no puede tener versión padre."]
         return _problemas_fuente(carpeta, meta, data, etiqueta)
-    if operacion == "correccion":
+    if operacion in ("correccion", "migracion_semantica", "reubicacion_evidencia", "lectura_manual"):
         if not isinstance(meta.get("padre"), dict):
-            return [f"{etiqueta}: una corrección requiere versión padre."]
-        return []  # las correcciones no guardan fuente importada
+            return [f"{etiqueta}: una {operacion} requiere versión padre."]
+        return []  # las versiones derivadas no guardan fuente importada
     return [f"{etiqueta}: operación {operacion!r} desconocida en version.json."]
 
 
@@ -638,6 +641,7 @@ def corregir_version(
     revisor_declarado: str,
     valor_revisado: Any = SIN_VALOR,
     unidad_revisada: Any = SIN_VALOR,
+    tipo_revisado: Any = SIN_VALOR,
 ) -> ResultadoOperacion:
     """Crea una versión hija con la corrección; la versión padre queda intacta."""
     caso_dir, data, meta, _ = _cargar_comprobada(raiz, caso, extraccion_id, "Corrección rechazada")
@@ -646,6 +650,8 @@ def corregir_version(
         argumentos["valor_revisado"] = valor_revisado
     if unidad_revisada is not SIN_VALOR:
         argumentos["unidad_revisada"] = unidad_revisada
+    if tipo_revisado is not SIN_VALOR:
+        argumentos["tipo_revisado"] = tipo_revisado
     try:
         nuevo = corregir(
             data, candidato_id, estado=estado, motivo=motivo, fecha=fecha,
@@ -662,6 +668,167 @@ def corregir_version(
                     "identidad_revisor": "declarada_no_verificada"},
     )
     return _guardar_version(caso_dir, nuevo, nueva_meta, comp, {})
+
+
+def migrar_version(raiz: Path, caso: str, extraccion_id: str, propuestas: Any, *, origen: str,
+                   cobertura: Any = None) -> ResultadoOperacion:
+    """Deriva una versión 0.2.0 de otra 0.1.0 sin alterar lecturas ni revisiones.
+
+    `propuestas` ({candidato: {tipo, valor, unidad, motivo[, simbolo]}}) se guardan como
+    `clasificacion_propuesta` pendiente: no cambian tipo/valor/unidad leídos ni aprueban nada; el
+    revisor las acepta o corrige con `tipo_revisado`. `cobertura` opcional: lista por recorte.
+    """
+    caso_dir, data, meta, _ = _cargar_comprobada(raiz, caso, extraccion_id, "Migración rechazada")
+    if data.get("version_contrato") != VERSION_EXTRACCION:
+        raise ErrorEvidencia("Migración rechazada.", ["Solo se migran versiones 0.1.0."])
+    if not isinstance(origen, str) or not origen.strip():
+        raise ErrorEvidencia("Migración rechazada.", ["Declara el origen de las propuestas."])
+    if not isinstance(propuestas, dict):
+        raise ErrorEvidencia("Migración rechazada.", ["Las propuestas deben ser un objeto por candidato."])
+    nuevo = copy.deepcopy(data)
+    nuevo["version_contrato"] = VERSION_SEMANTICA
+    por_id = {c["id"]: c for c in nuevo["candidatos"]}
+    ajenos = sorted(set(propuestas) - set(por_id))
+    if ajenos:
+        raise ErrorEvidencia("Migración rechazada.", [f"Candidatos inexistentes: {', '.join(map(str, ajenos))}."])
+    for ident, propuesta in propuestas.items():
+        if not isinstance(propuesta, dict):
+            raise ErrorEvidencia("Migración rechazada.", [f"{ident}: propuesta inválida."])
+        por_id[ident]["clasificacion_propuesta"] = {**copy.deepcopy(propuesta), "origen": origen}
+    if cobertura is not None:
+        nuevo["cobertura"] = copy.deepcopy(cobertura)
+    comp = comprobar_evidencia(caso_dir, caso, nuevo)
+    _exigir(comp, "Migración rechazada")
+    nueva_meta = _metadatos(
+        caso, "migracion_semantica", nuevo, comp,
+        padre={"id": extraccion_id, "huella_extraccion": meta["huella_extraccion"]},
+        migracion={"de": VERSION_EXTRACCION, "a": VERSION_SEMANTICA, "propuestas": len(propuestas),
+                   "origen_declarado": origen, "aprueba_lecturas": False},
+    )
+    return _guardar_version(caso_dir, nuevo, nueva_meta, comp, {})
+
+
+def _version_semantica(data: dict, accion: str) -> None:
+    if data.get("version_contrato") != VERSION_SEMANTICA:
+        raise ErrorEvidencia(f"{accion} rechazada.", ["Requiere una versión 0.2.0; use migrar-extraccion primero."])
+
+
+def reubicar_evidencia(raiz: Path, caso: str, extraccion_id: str, candidato_id: str, *, bbox: Any, motivo: str,
+                       fecha: str, revisor_declarado: str, indice: int = 0) -> ResultadoOperacion:
+    """Versión hija con la región corregida sobre la misma página original; conserva la región anterior.
+
+    No cambia valor, unidad, tipo ni estado de revisión: corregir la evidencia no aprueba la lectura.
+    """
+    caso_dir, data, meta, _ = _cargar_comprobada(raiz, caso, extraccion_id, "Reubicación rechazada")
+    _version_semantica(data, "Reubicación")
+    nuevo = copy.deepcopy(data)
+    cand = next((c for c in nuevo["candidatos"] if c["id"] == candidato_id), None)
+    if cand is None or type(indice) is not int or not 0 <= indice < len(cand["evidencia"]):
+        raise ErrorEvidencia("Reubicación rechazada.", ["Candidato o índice de evidencia inexistente."])
+    if not isinstance(bbox, (list, tuple)) or len(bbox) != 4:
+        raise ErrorEvidencia("Reubicación rechazada.", ["bbox requiere [x0, y0, x1, y1] en página visible normalizada."])
+    anterior = cand["evidencia"][indice]["bbox_normalizada"]
+    cand["evidencia"][indice]["bbox_normalizada"] = list(bbox)
+    cand.setdefault("historial_evidencia", []).append({
+        "indice": indice, "bbox_anterior": copy.deepcopy(anterior), "bbox_nueva": list(bbox), "motivo": motivo,
+        "fecha": fecha, "revisor_declarado": revisor_declarado})
+    comp = comprobar_evidencia(caso_dir, caso, nuevo)
+    _exigir(comp, "Reubicación rechazada")
+    nueva_meta = _metadatos(
+        caso, "reubicacion_evidencia", nuevo, comp,
+        padre={"id": extraccion_id, "huella_extraccion": meta["huella_extraccion"]},
+        reubicacion={"candidato": candidato_id, "indice": indice, "revisor_declarado": revisor_declarado,
+                     "identidad_revisor": "declarada_no_verificada", "aprueba_lectura": False})
+    return _guardar_version(caso_dir, nuevo, nueva_meta, comp, {})
+
+
+def agregar_lectura(raiz: Path, caso: str, extraccion_id: str, *, tipo: str, valor: Any, unidad: str,
+                    texto_fuente: str, archivo_id: str, pagina: int, bbox: Any, motivo: str, fecha: str,
+                    revisor_declarado: str, simbolo: str | None = None) -> ResultadoOperacion:
+    """Alta manual de una lectura visible omitida: procedencia manual explícita, ID «M###» nuevo y revisión pendiente.
+
+    Exige texto literal y evidencia en el original con hash comprobado. No sirve para declarar datos que no constan
+    en el original (E, alturas, apoyos…): eso es una hipótesis técnica, no una lectura.
+    """
+    caso_dir, data, meta, _ = _cargar_comprobada(raiz, caso, extraccion_id, "Lectura manual rechazada")
+    _version_semantica(data, "Lectura manual")
+    if not isinstance(texto_fuente, str) or not texto_fuente.strip():
+        raise ErrorEvidencia("Lectura manual rechazada.", ["Transcribe el texto literal impreso (texto_fuente)."])
+    expediente = leer_json(caso_dir / "expediente.json")
+    entrada = next((a for a in expediente.get("archivos", []) if isinstance(a, dict) and a.get("id") == archivo_id), None)
+    if entrada is None:
+        raise ErrorEvidencia("Lectura manual rechazada.", [f"Original {archivo_id!r} inexistente en el expediente."])
+    nuevo = copy.deepcopy(data)
+    ids = {c["id"] for c in nuevo["candidatos"]}
+    n = 1
+    while f"M{n:03d}" in ids:
+        n += 1
+    ident = f"M{n:03d}"
+    cand = {"id": ident, "tipo": tipo, "valor_propuesto": copy.deepcopy(valor), "unidad": unidad,
+            "texto_fuente": texto_fuente,
+            "metodo": {"tipo": "manual", "herramienta": "lectura_manual_revisor",
+                       "descripcion": f"Ingreso manual declarado por {revisor_declarado} ({fecha}): {motivo}. "
+                                      "No proviene de un modelo de IA."},
+            "evidencia": [{"archivo_id": archivo_id, "pagina": pagina, "original_sha256": entrada.get("sha256"),
+                           "bbox_normalizada": list(bbox) if isinstance(bbox, (list, tuple)) else bbox}],
+            "revision": {"estado": "pendiente", "historial": []}}
+    if simbolo is not None:
+        cand["simbolo"] = simbolo
+    nuevo["candidatos"].append(cand)
+    comp = comprobar_evidencia(caso_dir, caso, nuevo)
+    _exigir(comp, "Lectura manual rechazada")
+    nueva_meta = _metadatos(
+        caso, "lectura_manual", nuevo, comp,
+        padre={"id": extraccion_id, "huella_extraccion": meta["huella_extraccion"]},
+        lectura={"candidato": ident, "revisor_declarado": revisor_declarado,
+                 "identidad_revisor": "declarada_no_verificada", "aprueba_lectura": False})
+    return _guardar_version(caso_dir, nuevo, nueva_meta, comp, {})
+
+
+def _firma_candidato(c: dict) -> str:
+    return huella({k: c.get(k) for k in ("tipo", "valor_propuesto", "unidad", "evidencia", "revision", "texto_fuente")})
+
+
+def vigencia(raiz: Path, caso: str, extraccion_id: str) -> dict[str, Any]:
+    """Versiones descendientes y exportaciones de esta versión cuyos candidatos cambiaron después.
+
+    Una exportación queda «superada» si algún candidato exportado cambió (evidencia, valor, tipo o revisión) en una
+    versión descendiente: sus derivados (geometría, configuración…) no heredan vigencia de la versión nueva.
+    """
+    caso_dir = carpeta_caso(raiz, caso)
+    data, _, _ = cargar_version(caso_dir, caso, extraccion_id)
+    base = {c["id"]: _firma_candidato(c) for c in data["candidatos"]}
+    hijos: dict[str, list[str]] = {}
+    for meta_path in (caso_dir / CARPETA_VERSIONES).glob("*/version.json"):
+        try:
+            m = leer_json(meta_path)
+        except ErrorGestion:
+            continue
+        padre = m.get("padre") if isinstance(m, dict) else None
+        if isinstance(padre, dict) and isinstance(padre.get("id"), str):
+            hijos.setdefault(padre["id"], []).append(meta_path.parent.name)
+    descendientes, pendientes = [], list(hijos.get(extraccion_id, []))
+    while pendientes:
+        vid = pendientes.pop()
+        d, m, _ = cargar_version(caso_dir, caso, vid)
+        firmas = {c["id"]: _firma_candidato(c) for c in d["candidatos"]}
+        descendientes.append({"id": vid, "operacion": m.get("operacion"),
+                              "cambiados": sorted(k for k in base if k in firmas and firmas[k] != base[k]),
+                              "nuevos": sorted(set(firmas) - set(base))})
+        pendientes += hijos.get(vid, [])
+    cambiados = {k for d in descendientes for k in d["cambiados"]}
+    exportaciones = []
+    for exp_path in (caso_dir / CARPETA_EXPORTACIONES).glob("*/exportacion.json"):
+        try:
+            exp = leer_json(exp_path)
+        except ErrorGestion:
+            continue
+        if isinstance(exp, dict) and exp.get("origen", {}).get("extraccion_id") == extraccion_id:
+            afectados = sorted(cambiados & {c.get("id") for c in exp.get("candidatos", [])})
+            exportaciones.append({"id": exp_path.parent.name, "estado": "superada" if afectados else "vigente",
+                                  "candidatos_afectados": afectados})
+    return {"extraccion": extraccion_id, "descendientes": descendientes, "exportaciones": exportaciones,
+            "aviso": "Una versión nueva no traslada vigencia a derivados de versiones anteriores."}
 
 
 def exportar_version(raiz: Path, caso: str, extraccion_id: str) -> ResultadoOperacion:

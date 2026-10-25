@@ -51,6 +51,7 @@ class ResultadoValidacion:
     huella_contenido: str | None = None
     geometria_m: dict[str, Any] | None = None
     derivados_m: dict[str, Any] | None = None
+    version_contrato: str = c.VERSION_GEOMETRIA
 
     @property
     def consistente(self) -> bool:
@@ -60,11 +61,22 @@ class ResultadoValidacion:
     def disponible_para_modelado(self) -> bool:
         return self.consistente and not self.bloqueos
 
+    @property
+    def aprobacion_geometrica_vigente(self) -> bool:
+        """Revisión declarada del contenido, independiente de la disponibilidad del adaptador."""
+        if not self.consistente or self.faltantes or not self.huella_contenido or not isinstance(self.geometria_m, dict):
+            return False
+        revision = self.geometria_m.get("revision")
+        if not isinstance(revision, dict) or revision.get("estado") != "aprobado":
+            return False
+        aprobacion = revision.get("aprobacion")
+        return isinstance(aprobacion, dict) and aprobacion.get("huella_contenido") == self.huella_contenido
+
     def a_dict(self) -> dict[str, Any]:
         return {
-            "alcance": ALCANCE,
+            "alcance": ALCANCE if self.version_contrato == c.VERSION_GEOMETRIA else ALCANCE.replace("v0.1 (propuesta inicial)", "v0.3 (superficies con aberturas; integración estructural pendiente)" if self.version_contrato == c.VERSION_GEOMETRIA_ABERTURAS else "v0.2 (superficies geométricas; integración estructural pendiente)"),
             "contrato": c.CONTRATO_GEOMETRIA,
-            "version_contrato": c.VERSION_GEOMETRIA,
+            "version_contrato": self.version_contrato,
             "consistente": self.consistente,
             "disponible_para_modelado": self.disponible_para_modelado,
             "datos_sinteticos": self.datos_sinteticos,
@@ -83,11 +95,29 @@ def es_numero(valor: Any) -> bool:
     return isinstance(valor, (int, float)) and not isinstance(valor, bool)
 
 
+def como_binary64(valor: Any) -> float | None:
+    """Valor como float finito, o None si no es representable.
+
+    JSON admite enteros arbitrarios (10**1000) que `math.isfinite` y la división
+    no pueden convertir sin lanzar OverflowError. Aquí no hay umbral físico: solo
+    se exige que el número exista como binary64 finito.
+    """
+    try:
+        convertido = float(valor)
+    except (OverflowError, TypeError, ValueError):
+        return None
+    return convertido if math.isfinite(convertido) else None
+
+
 class _Validador:
+    version = c.VERSION_GEOMETRIA
+    campos_raiz = c.CAMPOS_RAIZ
+    nombres_colecciones = tuple(c.COLECCIONES)
+
     def __init__(self, data: Any):
         self.data = data
         self.r = ResultadoValidacion()
-        self.ids: dict[str, dict[str, dict[str, Any]]] = {nombre: {} for nombre in c.COLECCIONES}
+        self.ids: dict[str, dict[str, dict[str, Any]]] = {nombre: {} for nombre in self.nombres_colecciones}
         self.nulos: set[tuple[str, str, str]] = set()
         self.sintetico: bool | None = None
 
@@ -106,7 +136,7 @@ class _Validador:
         admitidos = set(campos["obligatorios"]) | set(campos["opcionales"])
         for clave in valor:
             if clave not in admitidos:
-                self.error(f"{ruta}.{clave}", "campo_desconocido", "Campo no definido en el contrato v0.1.")
+                self.error(f"{ruta}.{clave}", "campo_desconocido", f"Campo no definido en el contrato v{self.version[:3]}.")
         for clave in campos["obligatorios"]:
             if clave not in valor:
                 self.error(f"{ruta}.{clave}", "campo_ausente", "Campo obligatorio ausente.")
@@ -126,7 +156,7 @@ class _Validador:
             self.error(
                 ruta,
                 "identificador_invalido",
-                f"Identificador '{valor}' inválido; use hasta 64 letras, números, '.', '_' o '-'.",
+                f"Identificador {_corto(valor)} inválido; use hasta 64 letras, números, '.', '_' o '-'.",
             )
             return None
         return valor
@@ -144,11 +174,19 @@ class _Validador:
         if not es_numero(valor):
             self.error(ruta, "tipo_invalido", f"Se esperaba un número; se recibió {_tipo(valor)}.")
             return _INVALIDO
-        if not math.isfinite(valor):
-            self.error(ruta, "no_finito", f"Valor no finito ({valor}); se requiere un número finito.")
+        if como_binary64(valor) is None:
+            if isinstance(valor, float):
+                self.error(ruta, "no_finito", f"Valor no finito ({valor}); se requiere un número finito.")
+            else:
+                self.error(
+                    ruta,
+                    "fuera_de_rango",
+                    f"{_corto(valor)} no es representable como número de coma flotante de 64 bits; "
+                    "no puede normalizarse a metros.",
+                )
             return _INVALIDO
         if positivo and valor <= 0:
-            detalle = "cero" if valor == 0 else f"negativo ({valor})"
+            detalle = "cero" if valor == 0 else f"negativo ({_corto(valor)})"
             self.error(
                 ruta,
                 "no_positivo",
@@ -161,17 +199,17 @@ class _Validador:
     # -- secciones -------------------------------------------------------
     def ejecutar(self) -> ResultadoValidacion:
         data = self.data
-        if not self.objeto("$", data, {"obligatorios": c.CAMPOS_RAIZ, "opcionales": ()}):
+        if not self.objeto("$", data, {"obligatorios": self.campos_raiz, "opcionales": ()}):
             self.cerrar()
             return self.r
 
         if "contrato" in data and data["contrato"] != c.CONTRATO_GEOMETRIA:
             self.error("$.contrato", "contrato_incorrecto", f"Se esperaba '{c.CONTRATO_GEOMETRIA}'.")
-        if "version_contrato" in data and data["version_contrato"] != c.VERSION_GEOMETRIA:
+        if "version_contrato" in data and data["version_contrato"] != self.version:
             self.error(
                 "$.version_contrato",
                 "version_no_admitida",
-                f"Versión {data['version_contrato']!r} no admitida; este validador acepta '{c.VERSION_GEOMETRIA}'.",
+                f"Versión {_corto(data['version_contrato'])} no admitida; este validador acepta '{self.version}'.",
             )
         if "id" in data:
             self.identificador("$.id", data["id"])
@@ -182,12 +220,12 @@ class _Validador:
                 self.error(
                     "$.unidad_longitud",
                     "unidad_no_admitida",
-                    f"Unidad {unidad!r} no admitida; use explícitamente una de: {admitidas}.",
+                    f"Unidad {_corto(unidad)} no admitida; use explícitamente una de: {admitidas}.",
                 )
         if "procedencia" in data:
             self.procedencia("$.procedencia", data["procedencia"], raiz=True)
 
-        for nombre in c.COLECCIONES:
+        for nombre in self.nombres_colecciones:
             if nombre in data:
                 self.coleccion(nombre, data[nombre])
         self.referencias_muros()
@@ -206,7 +244,7 @@ class _Validador:
             self.error(
                 f"{ruta}.tipo",
                 "procedencia_invalida",
-                f"Tipo {tipo!r} no admitido; use: {', '.join(c.TIPOS_PROCEDENCIA)}.",
+                f"Tipo {_corto(tipo)} no admitido; use: {', '.join(c.TIPOS_PROCEDENCIA)}.",
             )
             tipo = None
         if "descripcion" in valor:
@@ -267,6 +305,9 @@ class _Validador:
                     self.nulos.add((nombre, ident, campo))
             if "nombre" in elem:
                 self.texto(f"{ruta}.nombre", elem["nombre"])
+            if nombre == "niveles" and "tipo" in elem and elem["tipo"] not in TIPOS_NIVEL:
+                self.error(f"{ruta}.tipo", "valor_invalido",
+                           f"Tipo de nivel {_corto(elem['tipo'])} no admitido; use {' o '.join(TIPOS_NIVEL)}.")
             if "observaciones" in elem:
                 self.texto(f"{ruta}.observaciones", elem["observaciones"])
             if "procedencia" in elem:
@@ -300,6 +341,9 @@ class _Validador:
                     )
                     continue
                 refs[campo] = ident
+                if coleccion == "niveles" and self.ids["niveles"][ident].get("tipo") == "auxiliar":
+                    self.error(f"{ruta}.{campo}", "nivel_auxiliar_en_muro",
+                               f"'{ident}' es una cota auxiliar (no un piso); un muro por niveles solo une pisos.")
             ini, fin = refs.get("nodo_inicio"), refs.get("nodo_fin")
             if ini is not None and ini == fin:
                 self.error(f"{ruta}.nodo_fin", "extremos_iguales", f"Inicio y fin usan el mismo nodo '{ini}'.")
@@ -344,17 +388,17 @@ class _Validador:
                 continue
             coleccion, ident, campo = item["coleccion"], item["id"], item["campo"]
             if not isinstance(coleccion, str) or coleccion not in c.COLECCIONES:
-                self.error(f"{ruta}.coleccion", "referencia_rota", f"Colección {coleccion!r} inexistente.")
+                self.error(f"{ruta}.coleccion", "referencia_rota", f"Colección {_corto(coleccion)} inexistente.")
                 continue
             if campo not in c.COLECCIONES[coleccion]["anulables"]:
                 self.error(
                     f"{ruta}.campo",
                     "campo_no_anulable",
-                    f"{campo!r} no puede declararse faltante en {coleccion}.",
+                    f"{_corto(campo)} no puede declararse faltante en {coleccion}.",
                 )
                 continue
             if not isinstance(ident, str) or ident not in self.ids[coleccion]:
-                self.error(f"{ruta}.id", "referencia_rota", f"{ident!r} no existe en {coleccion}.")
+                self.error(f"{ruta}.id", "referencia_rota", f"{_corto(ident)} no existe en {coleccion}.")
                 continue
             clave = (coleccion, ident, campo)
             if clave in declarados:
@@ -381,7 +425,7 @@ class _Validador:
             self.error(
                 "$.revision.estado",
                 "estado_invalido",
-                f"Estado {estado!r} no admitido; use: {', '.join(c.ESTADOS_REVISION)}.",
+                f"Estado {_corto(estado)} no admitido; use: {', '.join(c.ESTADOS_REVISION)}.",
             )
         if "aprobacion" not in valor:
             return
@@ -433,13 +477,13 @@ class _Validador:
         if isinstance(self.data, dict) and isinstance(self.data.get("faltantes"), list):
             for item in self.data["faltantes"]:
                 if isinstance(item, dict) and not any(k in item for k in ("coleccion", "id", "campo")):
-                    r.faltantes.append({"origen": "declarado", "descripcion": item.get("descripcion")})
+                    # Solo se repite texto: un valor de otro tipo ya es error y no se copia a la salida.
+                    r.faltantes.append({"origen": "declarado", "descripcion": _texto_o_none(item.get("descripcion"))})
 
-        if r.errores:
+        if r.errores or not self.normalizar():
             r.bloqueos.append("El contrato tiene errores de consistencia.")
             return
 
-        self.normalizar()
         if self.sintetico:
             self.advertencia(
                 "$.procedencia.tipo",
@@ -456,34 +500,83 @@ class _Validador:
                 "La aprobación registrada no corresponde al contenido actual (huella distinta); se requiere nueva aprobación."
             )
 
-    def normalizar(self) -> None:
+    def normalizar(self) -> bool:
+        """Normaliza a metros y calcula longitud y altura, comprobando su representabilidad.
+
+        Solo publica geometria_m, derivados_m, huella, faltantes derivados y advertencias
+        si no aparecen errores; si los hay, el resultado queda como cualquier otra
+        entrada inconsistente. No se aplican tolerancias físicas.
+        """
         r = self.r
         data = self.data
-        r.huella_contenido = c.huella_contenido(data)
-        divisor = c.DIVISORES_A_METROS[data["unidad_longitud"]]
+        unidad = data["unidad_longitud"]
+        divisor = c.DIVISORES_A_METROS[unidad]
+        errores_previos = len(r.errores)
         geometria = copy.deepcopy(data)
         geometria["unidad_longitud"] = "m"
         for nombre, spec in c.COLECCIONES.items():
-            for elem in geometria[nombre]:
+            for i, elem in enumerate(geometria[nombre]):
                 for campo in spec["longitudes"]:
-                    if elem[campo] is not None:
-                        elem[campo] = elem[campo] / divisor
-        r.geometria_m = geometria
+                    valor = elem[campo]
+                    if valor is None:
+                        continue
+                    # Valores ya comprobados como representables: la división no desborda.
+                    metros = valor / divisor
+                    if metros == 0 and valor != 0:
+                        self.error(
+                            f"$.{nombre}[{i}].{campo}",
+                            "normalizacion_a_cero",
+                            f"{_corto(valor)} {unidad} se redondea a 0 m al normalizar; el valor distinto de "
+                            "cero no es representable en metros.",
+                        )
+                    elem[campo] = metros
 
         nodos = {n["id"]: n for n in geometria["nodos"]}
         niveles = {n["id"]: n for n in geometria["niveles"]}
         derivados: dict[str, dict[str, Any]] = {}
+        faltantes_derivados: list[dict[str, Any]] = []
+        advertencias: list[tuple[str, str, str]] = []
         usados: set[str] = set()
         vistos: dict[tuple, str] = {}
-        for muro in geometria["muros"]:
+        for i, muro in enumerate(geometria["muros"]):
+            ruta = f"$.muros[{i}]"
             a, b = nodos[muro["nodo_inicio"]], nodos[muro["nodo_fin"]]
             usados.update((a["id"], b["id"]))
+            longitud = math.hypot(b["x"] - a["x"], b["y"] - a["y"])
+            if not math.isfinite(longitud):
+                self.error(
+                    ruta,
+                    "longitud_no_representable",
+                    f"La longitud en planta entre '{a['id']}' y '{b['id']}' excede el rango representable "
+                    "(resultado no finito en metros).",
+                )
+            elif longitud <= 0:
+                self.error(
+                    ruta,
+                    "longitud_nula_tras_normalizar",
+                    f"Los nodos '{a['id']}' y '{b['id']}' son distintos en {unidad} pero coinciden en metros; "
+                    "la longitud sería cero.",
+                )
             ci, cs = niveles[muro["nivel_inferior"]]["cota"], niveles[muro["nivel_superior"]]["cota"]
             altura = None if ci is None or cs is None else cs - ci
-            derivados[muro["id"]] = {"longitud": math.hypot(b["x"] - a["x"], b["y"] - a["y"]), "altura": altura}
+            if altura is not None and not math.isfinite(altura):
+                self.error(
+                    ruta,
+                    "altura_no_representable",
+                    f"La altura entre '{muro['nivel_inferior']}' y '{muro['nivel_superior']}' excede el rango "
+                    "representable (resultado no finito en metros).",
+                )
+            elif altura is not None and altura <= 0:
+                self.error(
+                    ruta,
+                    "altura_nula_tras_normalizar",
+                    f"Las cotas de '{muro['nivel_inferior']}' y '{muro['nivel_superior']}' son distintas en {unidad} "
+                    "pero coinciden en metros; la altura sería cero.",
+                )
+            derivados[muro["id"]] = {"longitud": longitud, "altura": altura}
             if altura is None:
                 faltante = next(n for n in (muro["nivel_inferior"], muro["nivel_superior"]) if niveles[n]["cota"] is None)
-                r.faltantes.append({
+                faltantes_derivados.append({
                     "origen": "derivado",
                     "coleccion": "muros",
                     "id": muro["id"],
@@ -496,32 +589,51 @@ class _Validador:
                 muro["nivel_superior"],
             )
             if clave in vistos:
-                self.advertencia(
-                    f"$.muros[id={muro['id']}]",
-                    "muro_repetido",
-                    f"Mismos nodos y niveles que '{vistos[clave]}'.",
+                advertencias.append(
+                    (f"$.muros[id={muro['id']}]", "muro_repetido", f"Mismos nodos y niveles que '{vistos[clave]}'.")
                 )
             else:
                 vistos[clave] = muro["id"]
-        r.derivados_m = {"muros": derivados}
 
         posiciones: dict[tuple, str] = {}
         for nodo in geometria["nodos"]:
             if nodo["id"] not in usados:
-                self.advertencia(f"$.nodos[id={nodo['id']}]", "nodo_sin_uso", "Nodo no referenciado por ningún muro.")
+                advertencias.append((f"$.nodos[id={nodo['id']}]", "nodo_sin_uso", "Nodo no referenciado por ningún muro."))
             pos = (nodo["x"], nodo["y"])
             if pos in posiciones:
-                self.advertencia(
-                    f"$.nodos[id={nodo['id']}]",
-                    "nodos_coincidentes",
-                    f"Mismas coordenadas que '{posiciones[pos]}'.",
+                advertencias.append(
+                    (f"$.nodos[id={nodo['id']}]", "nodos_coincidentes", f"Mismas coordenadas que '{posiciones[pos]}'.")
                 )
             else:
                 posiciones[pos] = nodo["id"]
 
+        if len(r.errores) > errores_previos:
+            return False
+        r.huella_contenido = c.huella_contenido(data)
+        r.geometria_m = geometria
+        r.derivados_m = {"muros": derivados}
+        r.faltantes.extend(faltantes_derivados)
+        for advertencia in advertencias:
+            self.advertencia(*advertencia)
+        return True
 
+
+from .cache_validacion_geometria import reutilizar_validacion as _reutilizar_validacion  # noqa: E402
+
+# Un nivel "auxiliar" es una cota de referencia de geometría fuera del intervalo de pisos (fondo de cisterna, tanque
+# elevado...). No es planta: no crea Story en ETABS, no lleva diafragma ni cuenta en la altura sísmica (ensayo257).
+TIPOS_NIVEL = ("piso", "auxiliar")
+
+
+@_reutilizar_validacion   # función pura del JSON completo; resultado sellado y reconstruido por consumidor (282)
 def validar_geometria(data: Any) -> ResultadoValidacion:
     """Valida un contrato ya cargado. No modifica `data`."""
+    if isinstance(data, dict) and data.get("version_contrato") == c.VERSION_GEOMETRIA_ABERTURAS:
+        from .geometria_aberturas import validar_aberturas
+        return validar_aberturas(data)
+    if isinstance(data, dict) and data.get("version_contrato") == c.VERSION_GEOMETRIA_SUPERFICIES:
+        from .geometria_superficies import validar_superficies
+        return validar_superficies(data)
     return _Validador(data).ejecutar()
 
 
@@ -561,7 +673,18 @@ def _tipo(valor: Any) -> str:
 
 
 def _valido(valor: Any) -> bool:
-    return es_numero(valor) and math.isfinite(valor)
+    return es_numero(valor) and como_binary64(valor) is not None
+
+
+def _corto(valor: Any) -> str:
+    """Representación breve de un valor de entrada para mensajes, sin reproducir enteros enormes."""
+    if isinstance(valor, int) and not isinstance(valor, bool) and valor.bit_length() > 64:
+        signo = "-" if valor < 0 else ""
+        return f"{signo}entero de {valor.bit_length()} bits"
+    if valor is None or isinstance(valor, (bool, int, float, str)):
+        texto = repr(valor)
+        return texto if len(texto) <= 80 else texto[:77] + "..."
+    return f"<{_tipo(valor)}>"
 
 
 def _coords(nodo: dict) -> tuple | None:
@@ -583,5 +706,9 @@ def _descripcion_declarada(data: Any, coleccion: str, ident: str, campo: str) ->
             ident,
             campo,
         ):
-            return item.get("descripcion")
+            return _texto_o_none(item.get("descripcion"))
     return None
+
+
+def _texto_o_none(valor: Any) -> str | None:
+    return valor if isinstance(valor, str) else None

@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="revision-session" content="__SESSION__"><title>Draft2Model · Proyecto estructural</title><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/etapas.css"></head>
+<body>
+<header><a class="brand" href="/">D<span>2</span>M <strong>Draft2Model</strong></a><span class="header-label">FLUJO DE MODELADO</span><span class="local">● Sesión local</span></header>
+<main>
+
+
+ <section class="intro"><div><p class="eyebrow">DEL PLANO AL DATO REVISADO</p><h1>Revisar lo que se lee.</h1><p>Contrasta cada propuesta con su evidencia y conserva cada corrección.</p></div><div class="selector"><label for="caso">Expediente</label><select id="caso"><option value="">Selecciona un expediente</option></select><button id="recargar" type="button">Volver a consultar</button></div></section>
+ <section class="geometry" aria-label="Ingreso local de planos">
+  <h2>Ingresar originales</h2>
+  <form id="ingresoForm">
+   <label for="ingresoCaso">Identificador nuevo del expediente</label><input id="ingresoCaso" pattern="[A-Za-z0-9][A-Za-z0-9_-]{0,63}" maxlength="64" required>
+   <label for="ingresoArchivos">Originales PDF, JPG o PNG</label><input id="ingresoArchivos" type="file" accept=".pdf,.jpg,.jpeg,.png" multiple required>
+   <p class="hint">Hasta 20 archivos, 16 MiB por archivo y 48 MiB en total. Se conserva una copia exacta; la revisión documental no aprueba ingeniería.</p>
+   <label class="confirmation"><input id="ingresoAutorizado" type="checkbox" required>Declaro que tengo autorización para usar estos archivos en este proyecto.</label>
+   <label class="confirmation"><input id="ingresoReferencia" type="checkbox">Declaro esta muestra de referencia fuera del MVP; podrá usarse para probar el procesamiento.</label>
+   <button id="ingresoRegistrar" type="submit">Registrar originales y revisar documentos</button>
+  </form><p id="ingresoEstado" role="status">El ingreso es local. No se envían planos a proveedores.</p>
+ </section>
+ <div id="mensaje" role="status" aria-live="polite" hidden></div>
+ <div class="scope"><strong id="alcance">Sin expediente seleccionado</strong><span>Revisar lecturas no aprueba datos de ingeniería.</span></div>
+ <section class="versionbar"><div><label for="version">Versión de extracción</label><select id="version" disabled><option value="">Sin lecturas importadas</option></select></div><label class="filebutton">Importar extracción JSON<input id="importar" type="file" accept=".json,application/json" disabled></label><button id="exportar" type="button" disabled>Exportar revisados</button></section>
+ <div class="workspace">
+  <section class="drawing" aria-label="Plano y evidencias">
+   <div class="drawing-toolbar"><div><label for="documento">Lámina</label><select id="documento" disabled></select></div><div><label for="pagina">Página</label><select id="pagina" disabled></select></div><div><label for="zoom">Vista</label><select id="zoom"><option value="100">Ajustar</option><option value="150">150 %</option><option value="200">200 %</option><option value="300">300 %</option></select></div></div>
+   <div id="visor" class="viewer"><p id="vacioPlano" class="empty">Selecciona un expediente para consultar sus planos.</p><div id="lienzo" hidden><img id="plano" alt="Página visible del plano seleccionado"><div id="marcas" aria-label="Regiones de evidencia"></div></div></div>
+   <div class="drawing-footer"><span id="paginaInfo">Sin página abierta</span><span>Regiones en coordenadas de página · sin escala métrica</span></div>
+  </section>
+  <section class="readings" aria-label="Lecturas y correcciones"><div class="readings-head"><h2>Lecturas <span id="conteo">0</span></h2><label for="filtro" class="sr">Filtrar lecturas</label><select id="filtro"><option value="todas">Todas</option><option value="pendiente">Pendientes</option><option value="revisado">Revisadas</option><option value="rechazado">Rechazadas</option></select></div>
+   <div id="candidatos"><p class="empty">Aún no hay lecturas. Puedes consultar las láminas e importar una extracción cuando esté disponible.</p></div>
+   <form id="correccion" hidden><div class="form-heading"><p class="eyebrow" id="candidatoId"></p><h3>Contrastar y corregir</h3><p id="propuesta"></p><p id="literal" class="hint"></p><p id="clasificacion" class="hint" hidden></p><button id="usarClasificacion" type="button" hidden>Cargar clasificación propuesta en el formulario</button></div><div id="evidencias" class="evidencias"></div>
+    <div><button id="buscarLiteral" type="button">Buscar texto literal en PDF local</button>
+    <p id="busquedaLiteralEstado" class="hint">Solo propone regiones del texto vectorial; no aplica cambios ni usa APIs.</p>
+    <div id="busquedaLiteralOpciones"></div></div>
+    <label for="estado">Resultado de la revisión</label><select id="estado"><option value="revisado">Lectura revisada</option><option value="rechazado">Rechazar propuesta</option><option value="pendiente">Dejar pendiente</option></select>
+    <div id="camposValor"><div id="campoTipo" hidden><label for="tipoRevisado">Tipo de lectura</label><select id="tipoRevisado"></select></div><label for="valor">Valor leído</label><input id="valor" autocomplete="off"><label for="unidad">Unidad</label><select id="unidad"></select></div>
+    <label for="motivo">Motivo de la revisión</label><textarea id="motivo" rows="2" required maxlength="2000" placeholder="Qué confirmaste o cambiaste en el plano"></textarea>
+    <div class="two"><div><label for="revisor">Revisor declarado</label><input id="revisor" required maxlength="150" autocomplete="name"></div><div><label for="fecha">Fecha</label><input id="fecha" type="date" required></div></div>
+    <button id="guardar" class="primary" type="submit">Guardar nueva versión</button><p class="hint">La versión abierta se conserva. La identidad del revisor es declarada.</p>
+    <details><summary>Historial de esta lectura</summary><div id="historial"></div></details>
+   </form>
+   <section id="evidenciaOps" hidden aria-label="Operaciones sobre la evidencia (contrato 0.2.0)">
+    <h3>Reubicar evidencia</h3><p class="hint">Crea una versión nueva con la región corregida en el mismo original y página. No aprueba la lectura.</p>
+    <label for="reubicarBbox">Región nueva x0,y0,x1,y1 (página visible, 0 a 1)</label><input id="reubicarBbox" autocomplete="off">
+    <label for="reubicarMotivo">Motivo</label><input id="reubicarMotivo" maxlength="2000" autocomplete="off">
+    <button id="reubicarVer" type="button">Previsualizar región</button><button id="reubicarGuardar" type="button" disabled>Guardar reubicación</button>
+    <h3>Agregar lectura omitida</h3><p class="hint">Solo lo impreso en el original abierto: texto literal y región. Queda pendiente; procedencia manual, no IA.</p>
+    <div class="two"><div><label for="manualTipo">Tipo</label><select id="manualTipo"></select></div><div><label for="manualUnidad">Unidad</label><select id="manualUnidad"></select></div></div>
+    <label for="manualTexto">Texto literal impreso</label><input id="manualTexto" maxlength="500" autocomplete="off">
+    <div class="two"><div><label for="manualValor">Valor</label><input id="manualValor" autocomplete="off"></div><div><label for="manualSimbolo">Símbolo (opcional)</label><input id="manualSimbolo" maxlength="40" autocomplete="off"></div></div>
+    <label for="manualBbox">Región x0,y0,x1,y1 en la página abierta</label><input id="manualBbox" autocomplete="off">
+    <label for="manualMotivo">Motivo</label><input id="manualMotivo" maxlength="2000" autocomplete="off">
+    <button id="manualVer" type="button">Previsualizar región</button><button id="manualGuardar" type="button" disabled>Guardar lectura manual</button>
+   </section>
+  </section>
+ </div>
+ <section class="geometry" aria-label="Preparación visual local">
+  <h2>Preparar evidencias visuales</h2><p>Consulta el original, declara una región y contrasta el recorte antes de preparar el paquete. Esta operación es local y no interpreta el plano.</p>
+  <button id="visualRevisar" type="button" disabled>Crear otra revisión documental</button><button id="visualActualizar" type="button" disabled>Actualizar preparación visual</button>
+  <label for="visualRevision">Revisión documental para el paquete</label><select id="visualRevision" disabled><option value="">Sin selección</option></select>
+  <form id="visualRecorteForm">
+   <label for="visualArchivo">Original para recortar</label><select id="visualArchivo" required disabled><option value="">Sin selección</option></select>
+   <label for="visualPagina">Página del original</label><input id="visualPagina" type="number" value="1" min="1" step="1" required disabled>
+   <button id="visualMostrar" type="button" disabled>Mostrar esa página en el visor</button>
+   <p class="hint">Región normalizada respecto de la página visible: 0 es el borde inicial y 1 el borde final. No representa metros.</p>
+   <div class="two"><div><label for="visualX0">Borde izquierdo (x0)</label><input id="visualX0" type="number" min="0" max="1" step="any" value="0" required disabled></div><div><label for="visualY0">Borde superior (y0)</label><input id="visualY0" type="number" min="0" max="1" step="any" value="0" required disabled></div></div>
+   <div class="two"><div><label for="visualX1">Borde derecho (x1)</label><input id="visualX1" type="number" min="0" max="1" step="any" value="1" required disabled></div><div><label for="visualY1">Borde inferior (y1)</label><input id="visualY1" type="number" min="0" max="1" step="any" value="1" required disabled></div></div>
+   <label for="visualDpi">Resolución de render PDF (DPI)</label><input id="visualDpi" type="number" value="150" min="72" max="300" step="1" required disabled><p class="hint">En JPG/PNG se conserva la vista orientada por EXIF; este DPI no fija su resolución ni escala física.</p>
+   <label for="visualEtiqueta">Etiqueta del recorte</label><input id="visualEtiqueta" value="Región de lectura" required maxlength="150" disabled>
+   <button id="visualRecortar" type="submit" disabled>Conservar un recorte nuevo</button>
+  </form>
+  <img id="visualImagen" alt="Recorte conservado para revisión visual" hidden style="max-width:100%;max-height:500px;object-fit:contain">
+  <label for="visualRecortes">Recortes para el paquete</label><select id="visualRecortes" multiple size="5" disabled></select><p class="hint">Selecciona uno o varios recortes; usa Ctrl para añadir selecciones separadas.</p>
+  <button id="visualPreparar" type="button" disabled>Preparar paquete local sin envío</button>
+  <label for="visualPaquete">Paquetes conservados</label><select id="visualPaquete" disabled><option value="">Sin selección</option></select>
+  <p id="visualEstado" role="status">Selecciona un expediente para preparar sus evidencias.</p><details><summary>Imágenes, huella y estado del paquete</summary><pre id="visualDetalle"></pre></details>
+ </section>
+ <section id="fotoPanel" class="geometry" aria-label="Preparación explícita de fotografías">
+  <h2>Preparar una fotografía registrada</h2>
+  <p>Conserva el original y crea un derivado con perspectiva, rotación y contraste declarados. Esta preparación es local; no fija escala en metros ni acredita mejora de precisión.</p>
+  <label for="fotoArchivo">Original PNG/JPEG</label><select id="fotoArchivo" disabled><option value="">Selecciona original raster</option></select>
+  <button id="fotoConsultar" type="button" disabled>Consultar dimensiones, EXIF e historial</button>
+  <details><summary>Identidad y coordenadas del original</summary><pre id="fotoOriginalInfo"></pre></details>
+  <form id="fotoTransformarForm">
+   <p class="hint">Las esquinas se expresan en píxeles del archivo almacenado, antes de EXIF: origen superior izquierdo, X derecha, Y abajo. El visor general puede estar orientado por EXIF; consulta las dimensiones y matrices anteriores. No se añade rotación automática.</p>
+   <div class="two"><div><label for="fotoRotacion">Rotación horaria explícita</label><select id="fotoRotacion" required disabled><option value="0">0°</option><option value="90">90°</option><option value="180">180°</option><option value="270">270°</option></select></div><div><label for="fotoContraste">Factor de contraste (1 conserva)</label><input id="fotoContraste" type="number" min="0.000001" max="5" step="any" value="1" required disabled></div></div>
+   <label><input id="fotoPerspectiva" type="checkbox" disabled>Rectificar cuatro esquinas explícitas</label>
+   <fieldset id="fotoEsquinas" hidden><legend>Perspectiva sobre el original almacenado, antes de rotar</legend>
+    <div class="two"><div><label for="fotoX0">Superior izquierda · X (px)</label><input id="fotoX0" type="number" min="0" step="any" disabled></div><div><label for="fotoY0">Superior izquierda · Y (px)</label><input id="fotoY0" type="number" min="0" step="any" disabled></div></div>
+    <div class="two"><div><label for="fotoX1">Superior derecha · X (px)</label><input id="fotoX1" type="number" min="0" step="any" disabled></div><div><label for="fotoY1">Superior derecha · Y (px)</label><input id="fotoY1" type="number" min="0" step="any" disabled></div></div>
+    <div class="two"><div><label for="fotoX2">Inferior derecha · X (px)</label><input id="fotoX2" type="number" min="0" step="any" disabled></div><div><label for="fotoY2">Inferior derecha · Y (px)</label><input id="fotoY2" type="number" min="0" step="any" disabled></div></div>
+    <div class="two"><div><label for="fotoX3">Inferior izquierda · X (px)</label><input id="fotoX3" type="number" min="0" step="any" disabled></div><div><label for="fotoY3">Inferior izquierda · Y (px)</label><input id="fotoY3" type="number" min="0" step="any" disabled></div></div>
+    <div class="two"><div><label for="fotoAncho">Ancho rectificado antes de rotar (px)</label><input id="fotoAncho" type="number" min="2" max="16000" step="1" disabled></div><div><label for="fotoAlto">Alto rectificado antes de rotar (px)</label><input id="fotoAlto" type="number" min="2" max="16000" step="1" disabled></div></div>
+   </fieldset>
+   <label for="fotoRevisor">Operador/revisor declarado</label><input id="fotoRevisor" required maxlength="150" disabled>
+   <label for="fotoMotivo">Motivo de la transformación explícita</label><textarea id="fotoMotivo" rows="2" maxlength="2000" required disabled></textarea>
+   <button id="fotoRegistrar" type="submit" disabled>Conservar nuevo derivado sin aprobación de ingeniería</button>
+  </form>
+  <label for="fotoVersion">Derivados verificados del original seleccionado</label><select id="fotoVersion" disabled><option value="">Sin selección</option></select>
+  <button id="fotoCargar" type="button" disabled>Comprobar y mostrar derivado</button>
+  <img id="fotoPreview" alt="Derivado raster verificado, con transformación explícita" hidden style="max-width:100%;max-height:500px;object-fit:contain">
+  <details><summary>Configuración y matrices del derivado</summary><pre id="fotoDetalle"></pre></details>
+  <form id="fotoRecorteForm">
+   <p>La región siguiente se expresa sobre el derivado mostrado, normalizada de 0 a 1. La evidencia del paquete vuelve al original registrado mediante la transformación conservada.</p>
+   <div class="two"><div><label for="fotoBX0">Izquierda (x0)</label><input id="fotoBX0" type="number" min="0" max="1" step="any" value="0" required disabled></div><div><label for="fotoBY0">Arriba (y0)</label><input id="fotoBY0" type="number" min="0" max="1" step="any" value="0" required disabled></div></div>
+   <div class="two"><div><label for="fotoBX1">Derecha (x1)</label><input id="fotoBX1" type="number" min="0" max="1" step="any" value="1" required disabled></div><div><label for="fotoBY1">Abajo (y1)</label><input id="fotoBY1" type="number" min="0" max="1" step="any" value="1" required disabled></div></div>
+   <label for="fotoEtiqueta">Etiqueta del recorte derivado</label><input id="fotoEtiqueta" value="Región de fotografía preparada" maxlength="150" required disabled>
+   <button id="fotoRecortar" type="submit" disabled>Conservar recorte y añadirlo a selección del paquete</button>
+  </form>
+  <p id="fotoEstado" role="status">Selecciona un original raster para declarar una transformación.</p>
+ </section>
+ <section class="geometry" aria-label="Proveedor visual deliberado">
+  <h2>Plan y envío deliberado al proveedor visual</h2>
+  <p>Preparar conserva un plan local sin credencial ni transmisión. Ejecutar transmite las imágenes y la solicitud del paquete al proveedor seleccionado y puede generar costos. No hay estimación de costo disponible. La credencial debe estar configurada fuera de esta pantalla; nunca la pegues aquí.</p>
+  <p id="proveedorPaquete">Selecciona un paquete visual comprobado arriba.</p>
+  <label for="proveedorTipo">Proveedor vinculado al plan</label><select id="proveedorTipo" disabled>__OPCIONES_IA__</select>
+  <p>Gemini requiere detalle auto. La API compatible requiere un endpoint HTTPS configurado en el servidor y soporte de imágenes y JSON Schema del modelo elegido. No se comprueba compatibilidad por disponer de una clave.</p>
+  <label for="proveedorModelo">Identificador del modelo declarado</label><input id="proveedorModelo" maxlength="128" autocomplete="off" disabled>
+  <label for="proveedorTokens">Límite de tokens de salida (256–16384)</label><input id="proveedorTokens" type="number" min="256" max="16384" step="1" disabled>
+  <label for="proveedorDetalle">Detalle de imagen</label><select id="proveedorDetalle" disabled><option value="">Selecciona detalle</option><option value="low">low</option><option value="high">high</option><option value="auto">auto</option></select>
+  <label for="proveedorTimeout">Tiempo máximo de espera (1–180 segundos)</label><input id="proveedorTimeout" type="number" min="1" max="180" step="1" disabled>
+  <button id="proveedorPreparar" type="button" disabled>Preparar plan local sin envío</button>
+  <label for="proveedorVersion">Trabajos conservados</label><select id="proveedorVersion" disabled><option value="">Sin selección</option></select><button id="proveedorActualizar" type="button" disabled>Consultar historial sin reenviar</button>
+  <p id="proveedorEstado" role="status">Sin trabajo seleccionado.</p><details><summary>Plan, huellas, modo y uso observado</summary><pre id="proveedorDatos"></pre></details>
+  <label class="confirmation"><input id="proveedorConfirmar" type="checkbox" disabled>Confirmo enviar el paquete y la petición de esta huella al proveedor seleccionado, con posibles costos y transmisión externa. No aprueba ingeniería.</label>
+  <button id="proveedorEjecutar" type="button" disabled>Ejecutar envío confirmado una vez</button>
+  <p>Un envío incierto puede haber sido procesado y cobrado. Consultar no lo reintenta. La recuperación solo verifica evidencia conservada o cierra la incertidumbre sin reenviar.</p>
+  <label class="confirmation"><input id="proveedorConfirmarRecuperar" type="checkbox" disabled>Confirmo resolver este trabajo incierto sin reintentar el envío.</label><button id="proveedorRecuperar" type="button" disabled>Recuperar evidencia o cerrar sin reintento</button>
+  <p id="proveedorTraslado">Vincular conserva la procedencia del trabajo. Importar su extracción al historial requiere otra acción en el panel de respuestas.</p><label class="confirmation"><input id="proveedorConfirmarVincular" type="checkbox" disabled>Confirmo vincular esta respuesta y huella verificadas para consultar su extracción pendiente, sin importar ni aprobar.</label><button id="proveedorImportar" type="button" disabled>Vincular respuesta para revisión separada</button>
+ </section>
+ <section class="geometry" aria-label="Respuestas visuales locales">
+  <h2>Registrar una respuesta visual JSON local</h2>
+  <p>Contingencia local: no llama a un proveedor. Selecciona arriba un paquete visual comprobado y declara el origen del JSON. Los nombres de proveedor y modelo son declaraciones, no prueba de una transmisión.</p>
+  <p id="respuestaPaquete">Sin paquete seleccionado.</p>
+  <label for="respuestaArchivo">Archivo JSON local (hasta 1.5 MiB)</label><input id="respuestaArchivo" type="file" accept=".json,application/json" disabled>
+  <label for="respuestaJson">Respuesta completa asociada a la solicitud del paquete</label><textarea id="respuestaJson" rows="10" spellcheck="false" disabled></textarea>
+  <label for="respuestaProveedor">Proveedor declarado</label><input id="respuestaProveedor" maxlength="150" disabled>
+  <label for="respuestaModelo">Modelo declarado</label><input id="respuestaModelo" maxlength="150" disabled>
+  <label for="respuestaModo">Procedencia explícita</label><select id="respuestaModo" disabled><option value="">Selecciona una declaración</option><option value="prueba">PRUEBA SINTÉTICA · no trasladable al expediente</option><option value="expediente">Respuesta local declarada del expediente · sin acreditar llamada real</option></select>
+  <label class="confirmation"><input id="respuestaCuarentena" type="checkbox" disabled>Recuperar con cuarentena explícita (contrato 0.2.0): importar los candidatos válidos y apartar los inválidos con sus errores, sin corregirlos ni reordenarlos. La cobertura declarada se conserva y se informa la efectiva.</label>
+  <button id="respuestaRegistrar" type="button" disabled>Registrar y comprobar respuesta local</button>
+  <label for="respuestaVersion">Respuestas conservadas</label><select id="respuestaVersion" disabled><option value="">Sin selección</option></select><button id="respuestaActualizar" type="button" disabled>Actualizar respuestas</button>
+  <p id="respuestaEstado" role="status">Sin respuesta seleccionada.</p><details><summary>Extracción pendiente, huella y origen declarado</summary><pre id="respuestaDetalle"></pre></details>
+  <label class="confirmation"><input id="respuestaConfirmar" type="checkbox" disabled>Confirmo importar esta extracción y huella exactas al historial para revisión, sin aprobarla.</label>
+  <button id="respuestaImportar" type="button" disabled>Importar extracción pendiente al historial</button>
+ </section>
+ <section class="geometry" aria-label="Conversión explícita de lecturas revisadas">
+  <h2>De lecturas revisadas a geometría borrador</h2>
+  <p>Selecciona una extracción comprobada y declara un manifiesto físico completo: ejes, coordenadas físicas, conectividad, unidades y referencias revisadas; v0.1 usa niveles/nodos/muros y v0.2 admite también vértices XYZ y superficies. Vincula cada medida y contorno a candidatos revisados. No se deducen metros ni relaciones desde el dibujo.</p>
+  <label for="conversionExtraccion">Extracción de origen</label><select id="conversionExtraccion" disabled><option value="">Selecciona extracción revisada</option></select>
+  <details><summary>Candidatos revisados de la extracción seleccionada</summary><pre id="conversionLecturas"></pre></details>
+  <label for="conversionManifiesto">Manifiesto draft2model.conversion_geometria completo (JSON)</label>
+  <textarea id="conversionManifiesto" rows="14" spellcheck="false" disabled placeholder="Declara el manifiesto completo según docs/CONVERSION_GEOMETRIA.md. No se rellenan parámetros físicos automáticamente."></textarea>
+  <p class="hint">Cada medida debe citar una cota revisada o una declaración física justificada con referencias revisadas. Una unidad desconocida o lectura pendiente no sirve como medida.</p>
+  <button id="conversionCrear" type="button" disabled>Crear conversión comprobada sin importar geometría</button>
+  <div class="versionbar"><div><label for="conversionVersion">Conversiones conservadas</label><select id="conversionVersion" disabled><option value="">Sin conversión seleccionada</option></select></div><button id="conversionActualizar" type="button" disabled>Actualizar conversiones</button></div>
+  <p id="conversionEstado" role="status">Selecciona un expediente y una extracción.</p><details><summary>Geometría propuesta, huella y correspondencias</summary><pre id="conversionDetalle"></pre></details>
+  <label class="confirmation"><input id="conversionConfirmar" type="checkbox" disabled>Confirmo importar la geometría comprobada como nueva versión en borrador, sin aprobación.</label>
+  <button id="conversionImportar" type="button" disabled>Importar geometría borrador al historial</button>
+ </section>
+ <section class="geometry" aria-label="Contingencia tabular supervisada">
+  <h2>Contingencia tabular CSV/XLSX hacia geometría borrador</h2>
+  <p>Ingreso supervisado por el usuario, no visión ni ETABS. Adjunta metadatos JSON del contrato geométrico (unidad, procedencia, faltantes y revisión borrador declarados) y las tablas de su versión: niveles/nodos/muros en v0.1; añade vertices/superficies en v0.2 y aberturas en v0.3. No se infieren unidades, campos ni aprobación.</p>
+  <label for="tabularMetadatos">Metadatos del contrato geométrico (JSON, hasta 256 KiB)</label><input id="tabularMetadatos" type="file" accept=".json,application/json" disabled>
+  <label for="tabularFormato">Formato de las tablas</label><select id="tabularFormato" disabled><option value="csv">CSV: 3 tablas en v0.1; 5 en v0.2; 6 en v0.3 con aberturas</option><option value="xlsx">XLSX: hojas de la versión declarada en metadatos, sin fórmulas</option></select>
+  <label for="tabularArchivos">Tablas originales</label><input id="tabularArchivos" type="file" multiple accept=".csv,.xlsx,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" disabled>
+  <button id="tabularRegistrar" type="button" disabled>Registrar versión tabular sin importar geometría</button>
+  <div class="versionbar"><div><label for="tabularVersion">Versiones tabulares conservadas</label><select id="tabularVersion" disabled><option value="">Sin versión tabular seleccionada</option></select></div><button id="tabularActualizar" type="button" disabled>Actualizar versiones tabulares</button></div>
+  <p id="tabularEstado" role="status" aria-live="polite">Selecciona un expediente.</p><details><summary>Detalle, huellas y geometría propuesta</summary><pre id="tabularDetalle"></pre></details>
+  <label class="confirmation"><input id="tabularConfirmar" type="checkbox" disabled>Confirmo importar esta versión y huella exactas como geometría en borrador, sin aprobación.</label>
+  <button id="tabularImportar" type="button" disabled>Importar geometría borrador al historial</button>
+ </section>
+ <section class="geometry" aria-label="Geometría versionada">
+  <p class="eyebrow">GEOMETRÍA · REVISIÓN INDEPENDIENTE DE LAS LECTURAS</p><h2>Geometría versionada</h2>
+  <p>Importa o revisa el contrato JSON completo. Cada guardado conserva la versión anterior. Las lecturas no se convierten automáticamente en geometría.</p>
+  <div class="versionbar"><div><label for="geoVersion">Versión geométrica</label><select id="geoVersion" disabled><option value="">Sin geometría importada</option></select></div><label class="filebutton">Importar geometría JSON<input id="geoImportar" type="file" accept=".json,application/json" disabled></label><button id="geoComprobar" type="button" disabled>Comprobar evidencia</button></div>
+  <p id="geoEstado" role="status">Selecciona un expediente.</p>
+  <details><summary>Comprobación, procedencia e historial</summary><pre id="geoDetalle"></pre></details>
+  <form id="geoForm"><label for="geoJson">Contrato geométrico completo (revisión en borrador y aprobación null)</label><textarea id="geoJson" rows="14" spellcheck="false" disabled></textarea>
+   <div class="two"><div><label for="geoRevisor">Revisor declarado</label><input id="geoRevisor" required maxlength="150"></div><div><label for="geoFecha">Fecha</label><input id="geoFecha" type="date" required></div></div>
+   <label for="geoMotivo">Motivo de revisión o aprobación</label><textarea id="geoMotivo" rows="2" required maxlength="2000"></textarea>
+   <button id="geoMigrarSuperficies" type="button" disabled>Crear borrador con superficies 3D</button><p class="hint">Crea una versión hija v0.2 con contornos XYZ vacíos. Conserva la fuente y requiere declarar las coordenadas físicas; no hereda aprobación ni habilita ETABS.</p>
+   <button id="geoGuardar" type="submit" disabled>Guardar revisión en borrador</button>
+   <fieldset><legend>Aprobación técnica declarada · operación explícita</legend><p>La identidad y competencia del revisor no están autenticadas. Este registro no certifica seguridad estructural ni aprueba planes, modelos o resultados derivados. Los datos sintéticos conservan su marca.</p>
+    <label for="geoHuella">Huella exacta del contenido abierto</label><input id="geoHuella" readonly>
+    <label for="geoAlcance">Alcance de la aprobación declarada</label><textarea id="geoAlcance" rows="2" maxlength="2000"></textarea>
+    <label class="confirmation"><input id="geoConfirmar" type="checkbox">Declaro explícitamente la aprobación de esta versión y huella con el alcance indicado.</label>
+    <button id="geoAprobar" type="button" disabled>Registrar aprobación explícita</button><p id="geoAprobacionInfo" class="hint" aria-live="polite">Abre una versión geométrica para consultar su elegibilidad.</p>
+   </fieldset>
+  </form>
+ </section>
+ <section class="geometry" aria-label="Contraste espacial de geometría y plano">
+  <h2>Esquema por nivel y contraste con el plano original</h2>
+  <p>Sin correspondencia declarada solo se dibuja el esquema métrico del contrato geométrico. Para superponer, declara tres anclas no colineales: cada una une un nodo del modelo con un punto normalizado de la página original. No se infiere escala ni unidad desde el dibujo ni desde lecturas; la superposición no prueba que un elemento esté documentado y no aprueba ingeniería.</p>
+  <div class="versionbar"><div><label for="supGeometria">Geometría</label><select id="supGeometria" disabled><option value="">Selecciona geometría</option></select></div><button id="supEsquema" type="button" disabled>Cargar esquema</button></div>
+  <label for="supTipo">Vista geométrica</label><select id="supTipo" disabled><option value="muros_nivel">Muros por nivel</option><option value="superficies_horizontal">Superficies en plano horizontal</option><option value="superficies_plano3d">Superficies en plano 3D declarado</option></select>
+  <label for="supCota">Cota física Z (m), plano horizontal declarado</label><input id="supCota" type="number" step="any" disabled>
+  <label for="supOrigen3d">Origen físico XYZ (m)</label><input id="supOrigen3d" type="text" placeholder="X, Y, Z" disabled>
+  <label for="supEjeU3d">Eje U declarado (unitario)</label><input id="supEjeU3d" type="text" placeholder="ux, uy, uz" disabled>
+  <label for="supEjeV3d">Eje V declarado (unitario)</label><input id="supEjeV3d" type="text" placeholder="vx, vy, vz" disabled>
+  <p class="hint">En la vista 3D, declara origen y dos ejes unitarios ortogonales: U × V define el sentido. No son ejes locales de ETABS ni se calculan desde la imagen. Las superficies fuera de ese plano se rechazan.</p>
+  <label for="supNivel">Nivel</label><select id="supNivel" disabled><option value="">Sin esquema</option></select>
+  <label for="supElemento">Elemento</label><select id="supElemento" disabled><option value="">Sin elemento</option></select>
+  <p id="supElementoDetalle" aria-live="polite"></p>
+  <label for="supDocumento">Original</label><select id="supDocumento" disabled><option value="">Selecciona original</option></select>
+  <label for="supPagina">Página</label><select id="supPagina" disabled><option value="">Sin página</option></select>
+  <div id="supLienzo" class="overlay"></div>
+  <p id="supAviso" role="note">Sin esquema cargado.</p><p id="supFuera"></p>
+  <fieldset><legend>Tres anclas declaradas (no detección automática)</legend><div class="anchor"><label for="supNodo1">Ancla 1: nodo/vértice según la vista</label><select id="supNodo1" disabled><option value="">Nodo</option></select><label for="supU1">u (0–1, horizontal de la página)</label><input id="supU1" type="number" min="0" max="1" step="any" disabled><label for="supV1">v (0–1, vertical hacia abajo)</label><input id="supV1" type="number" min="0" max="1" step="any" disabled></div><div class="anchor"><label for="supNodo2">Ancla 2: nodo/vértice según la vista</label><select id="supNodo2" disabled><option value="">Nodo</option></select><label for="supU2">u (0–1, horizontal de la página)</label><input id="supU2" type="number" min="0" max="1" step="any" disabled><label for="supV2">v (0–1, vertical hacia abajo)</label><input id="supV2" type="number" min="0" max="1" step="any" disabled></div><div class="anchor"><label for="supNodo3">Ancla 3: nodo/vértice según la vista</label><select id="supNodo3" disabled><option value="">Nodo</option></select><label for="supU3">u (0–1, horizontal de la página)</label><input id="supU3" type="number" min="0" max="1" step="any" disabled><label for="supV3">v (0–1, vertical hacia abajo)</label><input id="supV3" type="number" min="0" max="1" step="any" disabled></div></fieldset>
+  <label for="supRevisor">Revisor declarado</label><input id="supRevisor" maxlength="150" required disabled>
+  <label for="supFecha">Fecha</label><input id="supFecha" type="date" required disabled>
+  <label for="supMotivo">Motivo de la correspondencia</label><textarea id="supMotivo" maxlength="2000" rows="2" required disabled></textarea>
+  <label class="confirmation"><input id="supConfirmar" type="checkbox" disabled>Confirmo estas tres anclas como correspondencia declarada para esta geometría, nivel y página exactos, sin aprobar ingeniería ni editar la geometría.</label>
+  <button id="supRegistrar" type="button" disabled>Registrar correspondencia nueva</button>
+  <div class="versionbar"><div><label for="supVersion">Superposiciones conservadas</label><select id="supVersion" disabled><option value="">Sin superposición seleccionada</option></select></div><button id="supActualizar" type="button" disabled>Actualizar superposiciones</button></div>
+  <p id="supEstado" role="status" aria-live="polite">Selecciona un expediente.</p>
+ </section>
+ <section class="geometry" aria-label="Configuración estructural">
+  <p class="eyebrow">MATERIALES · SECCIONES · CARGAS · ANÁLISIS</p><h2>Configurar el modelo</h2>
+  <p>Conserva la geometría de origen y declara materiales, cargas, masa, apoyos, sitio e hipótesis. Guardar una revisión no aprueba el modelo ni ejecuta ETABS.</p>
+  <div class="versionbar"><div><label for="configVersion">Versión de configuración</label><select id="configVersion" disabled><option value="">Sin configuraciones</option></select></div><label class="filebutton">Importar configuración JSON<input id="configImportar" type="file" accept=".json,application/json" disabled></label><button id="configComprobar" type="button" disabled>Comprobar configuración</button></div>
+  <p id="configEstado" role="status">Selecciona un expediente.</p><details><summary>Validación y cadena de configuración</summary><pre id="configDetalle"></pre></details>
+  <fieldset id="mallaPanel" aria-label="Preparación de malla 0.4"><legend>Malla 0.4: preparación reproducible (solo lectura)</legend>
+   <p class="hint">Para configuraciones 0.4: partición, compatibilidad, triangulación y cortes Z declarados se reproducen desde la versión registrada. Preparar no es ejecutar ETABS; una aprobación declarada no certifica ingeniería. Las políticas de nodos y frames se escriben a mano en el JSON y se guardan como revisión en borrador: aquí no se infieren apoyos, diafragmas ni materiales.</p>
+   <div class="versionbar"><button id="mallaConsultar" type="button" disabled>Consultar preparación de malla</button><button id="mallaExportar" type="button" disabled>Exportar preparación revisable (JSON)</button></div>
+   <p id="mallaEstado" role="status">Abre una configuración 0.4 registrada.</p><p id="mallaIdentidad" class="hint"></p><pre id="mallaResumen"></pre>
+   <details><summary>Faltantes de política (bloquean la aprobación)</summary><pre id="mallaFaltantes"></pre></details>
+   <details><summary>Nodos derivados con XYZ y política declarada</summary><pre id="mallaNodos"></pre></details>
+   <details><summary>Subdivisiones de frames requeridas</summary><pre id="mallaSubdivisiones"></pre></details>
+   <details><summary>Cortes Z declarados y fuentes</summary><pre id="mallaCortes"></pre></details>
+  </fieldset>
+  <form id="configForm"><label for="configJson">Configuración estructural completa (revisión en borrador y aprobación null)</label><textarea id="configJson" rows="14" spellcheck="false" disabled></textarea>
+   <div class="two"><div><label for="configRevisor">Revisor de configuración declarado</label><input id="configRevisor" required maxlength="150"></div><div><label for="configFecha">Fecha de configuración</label><input id="configFecha" type="date" required></div></div>
+   <label for="configMotivo">Motivo de la operación de configuración</label><textarea id="configMotivo" rows="2" required maxlength="2000"></textarea><button id="configGuardar" type="submit" disabled>Guardar configuración en borrador</button>
+   <fieldset><legend>Aprobación propia de configuración</legend><p>Requiere geometría aprobada y parámetros completos. La identidad y competencia del revisor son declaradas. Esta aprobación no se transfiere al modelo ETABS ni al informe.</p>
+    <label for="configHuella">Huella de configuración abierta</label><input id="configHuella" readonly>
+    <label for="configAlcance">Alcance de revisión de configuración</label><textarea id="configAlcance" rows="2" maxlength="2000"></textarea>
+    <label class="confirmation"><input id="configConfirmar" type="checkbox">Declaro explícitamente la aprobación de esta configuración y huella.</label>
+    <button id="configAprobar" type="button" disabled>Registrar aprobación de configuración</button><p id="configAprobacionInfo" class="hint" aria-live="polite"></p>
+   </fieldset>
+  </form>
+ </section>
+ <section class="geometry" aria-label="Construcción del modelo ETABS">
+  <h2>Construir una copia en ETABS</h2>
+  <p id="construccionConfig" role="status">Abre una configuración aprobada y comprobada.</p>
+  <form id="construccionForm">
+   <label for="construccionPlantilla">Plantilla EDB dentro del expediente</label><input id="construccionPlantilla" required maxlength="200" placeholder="plantillas/base.edb" disabled>
+   <p class="hint">La plantilla debe coincidir con la huella declarada en la configuración. La salida se guarda como una copia nueva.</p>
+   <div class="two"><div id="construccionMuros" hidden><label for="construccionShell">Comportamiento de los muros</label><select id="construccionShell" disabled><option value="">Selecciona el tipo</option><option value="ShellThin">Shell delgado · ShellThin</option><option value="ShellThick">Shell grueso · ShellThick</option><option value="Membrane">Membrana · Membrane</option></select></div><div><label for="construccionGravedad">Gravedad del programa (m/s²)</label><input id="construccionGravedad" type="number" step="any" min="0.000001" required disabled></div></div>
+   <fieldset><legend>Idealización de las losas por sección</legend><p id="construccionLosasInfo" class="hint"></p><div id="construccionLosas"></div></fieldset>
+   <details><summary>Parámetros de casos modales y espectrales</summary><label for="construccionOpciones">Opciones explícitas de los casos (JSON)</label><textarea id="construccionOpciones" rows="6" spellcheck="false" disabled>{}</textarea><p class="hint">Declara parámetros modales, amortiguamiento de funciones, excentricidad y respuesta rígida cuando la configuración los requiera. Se comprobarán antes de abrir ETABS.</p></details>
+   <button id="construccionPreparar" type="submit" disabled>Preparar trabajo sin abrir ETABS</button>
+  </form>
+  <div class="versionbar"><div><label for="construccionVersion">Trabajos conservados</label><select id="construccionVersion" disabled><option value="">Sin trabajos</option></select></div><button id="construccionActualizar" type="button" disabled>Actualizar estado</button></div>
+  <p id="construccionEstado" role="status">Selecciona un expediente.</p><details><summary>Entradas y comprobación del trabajo</summary><pre id="construccionDetalle"></pre></details>
+  <label class="confirmation"><input id="construccionConfirmar" type="checkbox" disabled>Confirmo ejecutar este trabajo en una instancia nueva de ETABS con las entradas comprobadas.</label>
+  <button id="construccionEjecutar" type="button" disabled>Abrir ETABS y construir</button>
+  <p class="hint">La construcción no ejecuta el análisis. El modelo construido necesita su propia revisión. Si el estado es incierto, conserva las evidencias y resuelve la recuperación antes de iniciar otro trabajo.</p>
+ </section>
+ <section class="geometry" aria-label="Modelos y resultados conservados">
+  <h2>Modelos y resultados</h2>
+  <p>Consulta versiones del expediente y contrasta sus indicadores. La revisión del modelo, el cálculo y la revisión de resultados son estados separados.</p>
+  <div class="versionbar"><div><label for="modeloVersion">Modelo construido</label><select id="modeloVersion" disabled><option value="">Sin modelos</option></select></div><button id="modeloConsultar" type="button" disabled>Consultar modelo</button></div>
+  <p id="modeloEstado" role="status">Selecciona un expediente.</p><details><summary>Procedencia del modelo</summary><pre id="modeloDetalle"></pre></details>
+  <fieldset><legend>Revisión propia del modelo seleccionado</legend>
+   <p id="modeloRevisionEstado" role="status">Abre y comprueba un modelo construido.</p>
+   <details><summary>Aprobaciones propias conservadas</summary><pre id="modeloAprobaciones"></pre></details>
+   <form id="modeloRevisionForm">
+    <label for="modeloRevisionHuella">Huella del modelo comprobado</label><input id="modeloRevisionHuella" readonly>
+    <div class="two"><div><label for="modeloRevisor">Revisor declarado del modelo</label><input id="modeloRevisor" maxlength="150" required disabled></div><div><label for="modeloFecha">Fecha de revisión del modelo</label><input id="modeloFecha" type="date" required disabled></div></div>
+    <label for="modeloAlcance">Alcance y observaciones de la revisión</label><textarea id="modeloAlcance" rows="3" maxlength="2000" required disabled></textarea>
+    <label class="confirmation"><input id="modeloControlGeometria" type="checkbox" disabled>Revisé geometría y conectividad.</label>
+    <label class="confirmation"><input id="modeloControlMateriales" type="checkbox" disabled>Revisé materiales y secciones.</label>
+    <label class="confirmation"><input id="modeloControlCargas" type="checkbox" disabled>Revisé cargas y masa.</label>
+    <label class="confirmation"><input id="modeloControlApoyos" type="checkbox" disabled>Revisé apoyos y diafragmas.</label>
+    <label class="confirmation"><input id="modeloControlCasos" type="checkbox" disabled>Revisé casos y combinaciones.</label>
+    <label class="confirmation"><input id="modeloRevisionConfirmar" type="checkbox" disabled>Declaro explícitamente la aprobación de este modelo y huella para autorizar un análisis separado.</label>
+    <button id="modeloAprobar" type="submit" disabled>Registrar revisión propia del modelo</button>
+   </form><p class="hint">La identidad y competencia del revisor son declaradas. Esta aprobación no ejecuta el análisis ni aprueba resultados.</p>
+  </fieldset>
+  <fieldset aria-label="Relectura del modelo guardado">
+   <legend>Comprobar el modelo guardado por relectura independiente</legend>
+   <p>Selecciona un modelo construido comprobado. Preparar conserva la selección sin abrir ETABS. Ejecutar abre una copia privada en una instancia nueva, la lee y cierra sin guardar. La lectura no aprueba el modelo ni autoriza análisis.</p>
+   <label for="vmCriterios">Criterios numéricos de lectura (JSON completo de 13 magnitudes, sin valores predeterminados)</label>
+   <textarea id="vmCriterios" rows="6" spellcheck="false" disabled></textarea>
+   <label for="vmEjes">Criterios explícitos de ejes locales por área (JSON opcional; vacío conserva sin criterio cuando el plan no fija ejes)</label>
+   <textarea id="vmEjes" rows="3" spellcheck="false" disabled></textarea>
+   <button id="vmPreparar" type="button" disabled>Preparar relectura sin abrir ETABS</button>
+   <div class="versionbar"><div><label for="vmTrabajo">Trabajos de relectura conservados</label><select id="vmTrabajo" disabled><option value="">Sin trabajo seleccionado</option></select></div><button id="vmHistorial" type="button" disabled>Actualizar historial de relecturas</button><button id="vmConsultar" type="button" disabled>Consultar trabajo sin reenviar</button></div>
+   <label for="vmHuella">Huella exacta de preparación seleccionada</label><input id="vmHuella" readonly>
+   <label class="confirmation"><input id="vmConfirmar" type="checkbox" disabled>Confirmo leer el modelo y criterios de esta huella en una instancia nueva propia y cerrarla sin guardar.</label>
+   <button id="vmEjecutar" type="button" disabled>Ejecutar relectura confirmada una vez</button>
+   <p id="vmEstado" role="status" aria-live="polite">Abre un modelo construido comprobado.</p>
+   <details><summary>Cobertura, observaciones, discrepancias y fuentes de la relectura</summary><pre id="vmResultado"></pre></details>
+   <p class="hint">Un trabajo preparado no acredita lectura. Discrepancias, categorías sin lector o ausencia de criterio no se presentan como verificadas. Una interrupción requiere resolver el estado del motor antes de otra operación; consultar no reenvía.</p>
+  </fieldset>
+  <div class="versionbar"><div><label for="resultadoVersion">Versión de resultados</label><select id="resultadoVersion" disabled><option value="">Sin resultados</option></select></div><button id="resultadoConsultar" type="button" disabled>Comprobar resultados</button><button id="resultadoDescargar" type="button" disabled>Descargar datos comprobados</button></div>
+  <p id="resultadoEstado" role="status">Selecciona un expediente.</p>
+  <div class="results-scroll"><table class="results-table"><thead><tr><th>Indicador</th><th>Caso</th><th>Dirección / ubicación</th><th>Valor</th><th>Unidad</th></tr></thead><tbody id="resultadoFilas"></tbody></table></div>
+  <ul id="resultadoAvisos"></ul><p class="hint">Esta consulta comprueba el paquete conservado. La evidencia de cálculo debe vincularse por separado; no se concede aprobación de resultados ni conformidad normativa.</p>
+ </section>
+ <section class="geometry" aria-label="Revisión propia declarada de resultados">
+ <h2>Revisión declarada del resultado y análisis seleccionados</h2>
+ <p>No autentica identidad o competencia, no certifica completitud física ni seguridad y no aprueba informe o normativa. El software no decide qué omisión es crítica.</p>
+ <p id="rrResultado">Abre un resultado normalizado vigente.</p>
+ <p id="rrNativo">Estado nativo del resultado: pendiente.</p>
+ <label for="rrAnalisis">Análisis explícito vinculado a este resultado</label>
+ <select id="rrAnalisis" disabled><option value="">Selecciona análisis explícito</option></select>
+ <button id="rrFuentes" type="button" disabled>Consultar y comprobar fuentes</button>
+ <button id="rrActualizar" type="button" disabled>Revalidar historial sin registrar</button>
+ <details><summary>Huellas, casos, unidades, advertencias, omisiones y filas null</summary><pre id="rrFuenteDatos"></pre></details>
+ <fieldset><legend>Seis controles propios, declarados individualmente</legend>
+  <label><input id="rrControl_unidades" type="checkbox" disabled>Declaro revisadas las unidades y sus correspondencias exactas.</label>
+  <label><input id="rrControl_casos" type="checkbox" disabled>Declaro revisados los casos seleccionados y su análisis completo.</label>
+  <label><input id="rrControl_filtros" type="checkbox" disabled>Declaro revisados filtros, selectores y correspondencias de tablas.</label>
+  <label><input id="rrControl_omisiones" type="checkbox" disabled>Declaro revisadas todas las advertencias, omisiones y filas sin valor.</label>
+  <label><input id="rrControl_consistencia_modelo" type="checkbox" disabled>Declaro contrastada la consistencia con el modelo y evidencia seleccionados.</label>
+  <label><input id="rrControl_revision_tecnica" type="checkbox" disabled>Declaro realizada la revisión técnica con el alcance escrito, sin delegarla a IA.</label>
+ </fieldset>
+ <label for="rrRevisor">Revisor declarado</label><input id="rrRevisor" maxlength="150" disabled>
+ <label for="rrFecha">Fecha de la revisión declarada</label><input id="rrFecha" type="date" disabled>
+ <label for="rrAlcance">Alcance concreto de revisión</label><textarea id="rrAlcance" maxlength="4000" rows="3" disabled></textarea>
+ <label for="rrMotivo">Motivo y revisión realizada</label><textarea id="rrMotivo" maxlength="4000" rows="3" disabled></textarea>
+ <label for="rrObservaciones">Observaciones propias, lista JSON explícita</label><textarea id="rrObservaciones" rows="3" spellcheck="false" placeholder='["Observación del revisor"] o []' disabled></textarea>
+ <label for="rrCriticos">Faltantes críticos declarados, lista JSON explícita</label><textarea id="rrCriticos" rows="3" spellcheck="false" placeholder='[] solo si declaras que no quedan faltantes críticos en tu alcance' disabled></textarea>
+ <p>Un faltante crítico declarado bloquea el registro. Las observaciones nuevas no sustituyen las advertencias y omisiones de la fuente; una fila null conserva su motivo.</p>
+ <label><input id="rrConfirmar" type="checkbox" disabled>Confirmo esta declaración, los seis controles y las huellas exactas del resultado y análisis mostrados. Mi identidad es declarada; no certifico seguridad ni conformidad normativa mediante este registro.</label>
+ <button id="rrRegistrar" type="button" disabled>Registrar una revisión declarada nueva e inmutable</button>
+ <label for="rrVersion">Revisión conservada para consultar, selección manual</label>
+ <select id="rrVersion" disabled><option value="">Sin selección</option></select>
+ <p id="rrEstado" role="status" aria-live="polite">Selecciona resultado y análisis explícitos.</p>
+ <details><summary>Declaración consultada, SHA exacto y fuentes conservadas</summary><pre id="rrRevisionDatos"></pre></details>
+</section>
+ <section class="geometry" aria-label="Controles internos posteriores al análisis">
+  <h2>Controles internos posteriores al análisis</h2>
+  <p>Participación modal acumulada, equilibrio y advertencias del solver, recalculados desde los bytes de una lectura aceptada con criterios y aplicabilidad DECLARADOS. El estado CSI 4 solo indica que el motor terminó. No hay tolerancias por defecto; no certifica normativa ni seguridad. Los avisos del lector no son el log del solver; un JSON local de avisos declara su origen, no acredita una ejecución externa.</p>
+  <label for="ctlLectura">Lectura aceptada y vigente</label><select id="ctlLectura" disabled><option value="">Selecciona lectura aceptada</option></select>
+  <label for="ctlControles">Controles declarados (lista JSON: id, tipo, caso, aplica, critico, motivo, fuente_criterio, parametros)</label>
+  <textarea id="ctlControles" rows="10" spellcheck="false" required disabled placeholder="Declara las tres familias: participacion_modal, equilibrio, advertencias_solver. Un no aplicable requiere motivo y parámetros {}. Ver docs/CONTROLES_ANALISIS.md."></textarea>
+  <label for="ctlAvisos">Fuente de advertencias del solver declarada (JSON draft2model.avisos_solver_declarados, opcional)</label>
+  <textarea id="ctlAvisos" rows="4" spellcheck="false" disabled placeholder="Vacío = sin fuente solver: el control queda sin_datos."></textarea>
+  <label for="ctlRevisor">Revisor declarado</label><input id="ctlRevisor" maxlength="4000" required disabled>
+  <label for="ctlFecha">Fecha</label><input id="ctlFecha" type="date" required disabled>
+  <label for="ctlAlcance">Alcance declarado</label><textarea id="ctlAlcance" rows="2" maxlength="4000" required disabled></textarea>
+  <label class="confirmation"><input id="ctlConfirmar" type="checkbox" disabled>Confirmo estos criterios y aplicabilidad como declaración propia; identidad y competencia no verificadas, sin certificar normativa ni seguridad.</label>
+  <button id="ctlRegistrar" type="button" disabled>Registrar controles nuevos e inmutables</button>
+  <div class="versionbar"><div><label for="ctlVersion">Controles registrados (selección manual)</label><select id="ctlVersion" disabled><option value="">Sin controles seleccionados</option></select></div><button id="ctlActualizar" type="button" disabled>Actualizar lecturas y controles</button></div>
+  <p id="ctlEstado" role="status" aria-live="polite">Selecciona un expediente.</p>
+  <div id="ctlTabla"></div><div id="ctlListas"></div>
+  <details><summary>Huellas, fuentes y declaración</summary><pre id="ctlDetalle"></pre></details>
+ </section>
+ <section class="geometry" aria-label="Análisis deliberado del modelo revisado">
+  <h2>Analizar el modelo revisado</h2><p id="analisisModelo" role="status">Abre un modelo y consulta su revisión propia.</p>
+  <label for="analisisAprobacion">Aprobación propia que autoriza este análisis</label><select id="analisisAprobacion" disabled><option value="">Selecciona aprobación</option></select>
+  <p class="hint">Las aprobaciones tienen identidad y alcance propios. Selecciona una explícitamente; la aprobación de configuración no autoriza este análisis.</p>
+  <button id="analisisPreparar" type="button" disabled>Preparar análisis sin abrir ETABS</button>
+  <div class="versionbar"><div><label for="analisisVersion">Trabajos de análisis conservados</label><select id="analisisVersion" disabled><option value="">Sin trabajos</option></select></div><button id="analisisActualizar" type="button" disabled>Actualizar estado de análisis</button></div>
+  <p id="analisisEstado" role="status">Selecciona un expediente.</p><details><summary>Modelo, aprobación, casos y estado del análisis</summary><pre id="analisisDetalle"></pre></details>
+  <label class="confirmation"><input id="analisisConfirmar" type="checkbox" disabled>Confirmo ejecutar los casos declarados de este modelo y aprobación en una instancia nueva de ETABS.</label>
+  <button id="analisisEjecutar" type="button" disabled>Abrir ETABS y ejecutar análisis</button>
+  <p class="hint">El cálculo completado conserva la revisión de resultados pendiente. Leer tablas, revisar correspondencias y normalizar resultados son pasos posteriores.</p>
+ </section>
+ <section class="geometry" aria-label="Lectura deliberada de tablas">
+  <h2>Leer tablas del análisis aceptado</h2>
+  <label for="lecturaAnalisis">Identificador del análisis aceptado</label><input id="lecturaAnalisis" pattern="[0-9a-f]{32}" maxlength="32" disabled>
+  <label for="lecturaTablas">Claves exactas de tablas, una por línea</label><textarea id="lecturaTablas" rows="3" disabled></textarea>
+  <label for="lecturaCasos">Casos del análisis que se leerán, uno por línea</label><textarea id="lecturaCasos" rows="3" disabled></textarea>
+  <label class="confirmation"><input id="lecturaMasaApi" type="checkbox" disabled>Solicitar también AssembledJointMass al ejecutar esta lectura. Conserva las tablas y casos explícitos; marcar no abre ETABS.</label>
+  <label class="confirmation"><input id="lecturaConfigAuto" type="checkbox" disabled>Leer también la tolerancia de unión y versión del mismo modelo para estimar su peso efectivo.</label>
+  <button id="lecturaPreparar" type="button" disabled>Preparar lectura sin abrir ETABS</button>
+  <div class="versionbar"><div><label for="lecturaVersion">Lecturas conservadas</label><select id="lecturaVersion" disabled><option value="">Sin lecturas</option></select></div><button id="lecturaActualizar" type="button" disabled>Actualizar estado de lectura</button></div>
+  <p id="lecturaEstado" role="status">Selecciona un análisis aceptado y las tablas y casos que se leerán.</p>
+  <details><summary>Selección, estado y tablas leídas</summary><pre id="lecturaDetalle"></pre></details>
+  <label class="confirmation"><input id="lecturaConfirmar" type="checkbox" disabled>Confirmo leer esta selección en una instancia nueva propia de ETABS y cerrarla al terminar.</label>
+  <button id="lecturaEjecutar" type="button" disabled>Abrir ETABS y leer tablas</button>
+  <button id="lecturaMapear" type="button" disabled>Usar lectura comprobada en un nuevo mapeo</button>
+  <p class="hint">Esta operación no ejecuta el análisis ni guarda el EDB. Las tablas y casos deben coincidir con los nombres del modelo; las correspondencias se revisan por separado.</p>
+ </section>
+ <section class="geometry" aria-label="Correspondencias de tablas y normalización">
+  <h2>Revisar correspondencias y normalizar</h2>
+  <p>Relaciona cada indicador con una fila y un campo de la lectura conservada. No se elige automáticamente modo, dirección, paso ni envolvente.</p>
+  <label for="mapeoAnalisis">Identificador del análisis aceptado</label><input id="mapeoAnalisis" pattern="[0-9a-f]{32}" maxlength="32" disabled>
+  <button id="mapeoFuente" type="button" disabled>Comprobar análisis de origen</button>
+  <p id="mapeoEstado" role="status">Selecciona un expediente.</p>
+  <label for="mapeoRespuesta">Respuesta de tablas conservada (JSON)</label><input id="mapeoRespuesta" type="file" accept=".json,application/json" disabled>
+  <p class="hint">Esta importación declara una respuesta conservada; no ejecuta ni autentica una lectura de ETABS. Se comprobarán modelo, casos, unidades y vínculo con el análisis.</p>
+  <details><summary>Tablas y campos de la respuesta seleccionada</summary><pre id="mapeoTablas"></pre></details>
+  <label for="mapeoJson">Correspondencias completas (JSON)</label><textarea id="mapeoJson" rows="14" spellcheck="false" disabled></textarea>
+  <button id="mapeoImportar" type="button" disabled>Guardar nuevo mapeo en borrador y previsualizar</button>
+  <div class="versionbar"><div><label for="mapeoVersion">Mapeos conservados</label><select id="mapeoVersion" disabled><option value="">Sin mapeos</option></select></div><button id="mapeoGuardar" type="button" disabled>Guardar cambios en otro borrador</button></div>
+  <details><summary>Previsualización de valores y correspondencias</summary><pre id="mapeoPreview"></pre></details>
+  <form id="mapeoAprobacionForm">
+   <label for="mapeoHuella">Huella del mapeo comprobado</label><input id="mapeoHuella" readonly>
+   <div class="two"><div><label for="mapeoRevisor">Revisor declarado de correspondencias</label><input id="mapeoRevisor" required maxlength="150" disabled></div><div><label for="mapeoFecha">Fecha de revisión</label><input id="mapeoFecha" type="date" required disabled></div></div>
+   <label for="mapeoMotivo">Motivo de revisión</label><textarea id="mapeoMotivo" rows="2" required maxlength="2000" disabled></textarea>
+   <label for="mapeoAlcance">Alcance de revisión de tablas, filtros, campos y unidades</label><textarea id="mapeoAlcance" rows="2" required maxlength="2000" disabled></textarea>
+   <label class="confirmation"><input id="mapeoConfirmar" type="checkbox" disabled>Revisé las correspondencias y declaro la aprobación de este mapeo y huella.</label>
+   <button id="mapeoAprobar" type="submit" disabled>Conservar aprobación en una versión nueva</button>
+  </form>
+  <label class="confirmation"><input id="mapeoNormalizarConfirmar" type="checkbox" disabled>Confirmo publicar resultados normalizados con este mapeo aprobado.</label>
+  <button id="mapeoNormalizar" type="button" disabled>Normalizar y comprobar vínculo con el análisis</button>
+  <p class="hint">Previsualizar no publica. Aprobar el mapeo no aprueba los valores estructurales; los resultados publicados conservan su revisión pendiente y conformidad normativa no evaluada.</p>
+ </section>
+
+ <section class="geometry" aria-label="Recuperación de normalizaciones">
+  <h2>Resolver una normalización interrumpida</h2><p>Si una publicación se interrumpe, conserva su evidencia y bloquea nuevos intentos. Aquí se puede comprobar un resultado existente, sin volver a normalizar, o cancelar un intento que no produjo resultados.</p>
+  <button id="recuperacionActualizar" type="button" disabled>Consultar operaciones pendientes</button>
+  <label for="recuperacionOperacion">Operación pendiente</label><select id="recuperacionOperacion" disabled><option value="">Sin operaciones seleccionadas</option></select>
+  <details><summary>Mapeo y candidatos conservados</summary><pre id="recuperacionDetalle"></pre></details>
+  <label for="recuperacionResultado">Acción sobre la operación seleccionada</label><select id="recuperacionResultado" disabled><option value="">Selecciona una acción explícita</option></select>
+  <label class="confirmation"><input id="recuperacionConfirmar" type="checkbox" disabled>Confirmo comprobar el resultado seleccionado o cancelar el intento sin resultado, conservando sus evidencias. Esta acción no aprueba valores estructurales.</label>
+  <button id="recuperacionEjecutar" type="button" disabled>Resolver la operación seleccionada</button><p id="recuperacionEstado" role="status">La consulta no recalcula ni recupera automáticamente.</p>
+ </section>
+ <section class="geometry" aria-label="Contexto técnico declarado">
+  <h2>Contexto técnico versionado y consultas reproducibles</h2>
+  <p>Registra contratos completos que ya contienen su revisión declarada: no se generan aprobaciones, umbrales, cartografía ni parámetros físicos. La identidad del revisor no se autentica. Un contexto válido no aprueba resultados, informes ni normativa.</p>
+  <label for="ctxTipo">Contrato para registrar</label><select id="ctxTipo" disabled><option value="">Selecciona tipo</option><option value="corpus">Corpus de documentos y fragmentos</option><option value="reglas">Reglas declaradas revisadas</option><option value="sitio">Capa de sitio declarada</option></select>
+  <label for="ctxJson">Contrato JSON completo (máximo 1 MiB)</label><textarea id="ctxJson" rows="10" spellcheck="false" disabled></textarea>
+  <label for="ctxArchivos">Documentos del corpus con nombres exactos al manifiesto</label><input id="ctxArchivos" type="file" multiple disabled><p class="hint">Hasta 20 archivos, 4 MiB cada uno y 16 MiB total; solo nombres simples, sin rutas. No se envían a un proveedor al registrar.</p>
+  <label class="confirmation"><input id="ctxConfirmar" type="checkbox" disabled>Declaro que el contrato y documentos son los seleccionados y contienen la revisión declarada que corresponde. Registrarlos no constituye aprobación profesional.</label><button id="ctxRegistrar" type="button" disabled>Registrar nueva versión de contexto</button>
+  <button id="ctxActualizar" type="button" disabled>Consultar historial de contexto</button>
+  <label for="ctxCorpus">Corpus vigente seleccionado</label><select id="ctxCorpus" disabled><option value="">Sin selección</option></select>
+  <label for="ctxReglas">Reglas vigentes seleccionadas</label><select id="ctxReglas" disabled><option value="">Sin selección</option></select>
+  <label for="ctxSitio">Capa de sitio vigente seleccionada</label><select id="ctxSitio" disabled><option value="">Sin selección</option></select>
+  <p id="ctxResultado">Sin resultado seleccionado; recuperación y sitio pueden consultarse sin vincular resultado.</p>
+  <label class="confirmation"><input id="ctxVincular" type="checkbox" disabled>Vincular recuperación y consulta de sitio al resultado comprobado mostrado.</label>
+  <label for="ctxConsulta">Consulta léxica explícita al corpus</label><input id="ctxConsulta" maxlength="500" disabled>
+  <label for="ctxLimite">Máximo de fragmentos (1–20)</label><input id="ctxLimite" type="number" min="1" max="20" step="1" disabled><button id="ctxRecuperar" type="button" disabled>Crear recuperación conservada</button>
+  <label for="ctxLongitud">Longitud EPSG:4326</label><input id="ctxLongitud" type="number" step="any" min="-180" max="180" disabled>
+  <label for="ctxLatitud">Latitud EPSG:4326</label><input id="ctxLatitud" type="number" step="any" min="-90" max="90" disabled><button id="ctxConsultarSitio" type="button" disabled>Crear consulta conservada de sitio</button>
+  <button id="ctxEvaluar" type="button" disabled>Evaluar resultado y reglas con sus huellas exactas</button>
+  <p class="hint">Las consultas nuevas no sobrescriben. Sitio no infiere capacidad portante ni parámetros geotécnicos. Una búsqueda sin coincidencias conserva su abstención.</p>
+  <label for="ctxDerivadoRecuperacion">Recuperación verificada para explicación</label><select id="ctxDerivadoRecuperacion" disabled><option value="">Sin selección</option></select>
+  <label for="ctxDerivadoEvaluacion">Evaluación verificada para explicación</label><select id="ctxDerivadoEvaluacion" disabled><option value="">Sin selección</option></select>
+  <label for="ctxDerivadoSitio">Consulta de sitio verificada para explicación</label><select id="ctxDerivadoSitio" disabled><option value="">Sin selección</option></select>
+  <p id="ctxEstado" role="status">Selecciona un expediente.</p><details><summary>Contexto, declaraciones, fuentes y consultas seleccionadas</summary><pre id="ctxDatos"></pre></details>
+ </section>
+ <section class="geometry" aria-label="Explicaciones sustentadas pendientes">
+  <h2>Explicación sustentada y contingencia determinística</h2>
+  <p>Por autorización vigente, las APIs se reservan exclusivamente a revisión y extracción de planos con Google u OpenAI. Este panel conserva explicaciones determinísticas locales, SIN LLM REAL y sin consumir esas APIs. Las declaraciones quedan pendientes de revisión humana, sin aprobación de resultados, informe o normativa.</p>
+  <p id="expFuentes">Selecciona resultados y, opcionalmente, derivados verificados de contexto.</p>
+  <label for="expProveedor">Proveedor de la explicación</label><select id="expProveedor" disabled>__OPCIONES_IA__</select>
+  <label for="expModelo">Modelo declarado (sin valor predeterminado)</label><input id="expModelo" maxlength="128" autocomplete="off" disabled>
+  <label for="expTokens">Tokens máximos de salida (256–16384)</label><input id="expTokens" type="number" min="256" max="16384" step="1" disabled>
+  <label for="expTimeout">Espera máxima (1–180 segundos)</label><input id="expTimeout" type="number" min="1" max="180" step="1" disabled><button id="expPreparar" type="button" disabled>Preparar explicación local sin envío</button>
+  <label for="expVersion">Trabajos de explicación</label><select id="expVersion" disabled><option value="">Sin selección</option></select><button id="expActualizar" type="button" disabled>Consultar historial sin reintentar</button>
+  <label class="confirmation"><input id="expConfirmar" type="checkbox" disabled>Confirmo generar una explicación local de esta huella y fuentes, sin llamadas a APIs. No aprueba conclusiones.</label><button id="expEjecutar" type="button" disabled>Generar explicación local sin API</button>
+  <label class="confirmation"><input id="expConfirmarRecuperar" type="checkbox" disabled>Confirmo cerrar el envío incierto sin reenviarlo, conservando una contingencia determinística.</label><button id="expRecuperar" type="button" disabled>Resolver incertidumbre sin reintento</button>
+  <p id="expEstado" role="status">Sin trabajo seleccionado.</p><details><summary>Tabla exacta, citas, abstenciones y propuesta pendiente</summary><pre id="expDatos"></pre></details>
+  <p>Para incorporar estas selecciones, activa su uso explícito en el panel de informes. Elegirlas aquí no las incorpora automáticamente.</p>
+ </section>
+ <section class="geometry" aria-label="Informes del resultado seleccionado">
+  <h2>Informe del resultado seleccionado</h2><p id="informeEstado" role="status">Abre una versión de resultados comprobada.</p>
+  <form id="informeForm">
+   <label for="informeAnalisis">Evidencia de análisis</label><select id="informeAnalisis" disabled><option value="">Sin evidencia vinculada</option></select>
+   <p class="hint">Solo se ofrecen corridas conservadas en este expediente. Su vínculo se comprueba antes de exportar. El informe conserva la revisión de resultados pendiente.</p>
+   <label for="informeTitulo">Título</label><input id="informeTitulo" value="Informe preliminar" required maxlength="200" disabled>
+   <label for="informeHipotesis">Hipótesis declaradas, una por línea</label><textarea id="informeHipotesis" rows="3" maxlength="12000" disabled></textarea>
+   <label for="informeFaltantes">Información pendiente, una por línea</label><textarea id="informeFaltantes" rows="3" maxlength="12000" disabled></textarea>
+   <fieldset><legend>Referencias verificadas · uso optativo en este borrador</legend>
+    <p>Selecciona primero derivados en Contexto y una explicación vigente en su panel. Elegirlos allí no los incorpora al informe: activa explícitamente estas opciones. El sitio siempre proviene del derivado comprobado, sin parámetros inferidos.</p>
+    <label class="confirmation"><input id="informeUsarContexto" type="checkbox" disabled>Usar los derivados de evaluación, recuperación y sitio seleccionados y comprobados.</label>
+    <label class="confirmation"><input id="informeUsarExplicacion" type="checkbox" disabled>Usar la explicación seleccionada, con exactamente esos derivados y resultados; su sentido técnico queda pendiente de revisión semántica humana.</label>
+    <label class="confirmation"><input id="informeUsarRevisionResultados" type="checkbox" disabled>Usar revisión DECLARADA seleccionada de estos resultados y análisis; no certifica ingeniería ni conformidad normativa.</label>
+    <p id="informeRevisionResultadosInfo" role="status"></p>
+    <pre id="informeRevisionResultadosDatos"></pre>
+    <label class="confirmation"><input id="informeUsarControles" type="checkbox" disabled>Incorporar los controles postsolver seleccionados (mismo análisis, ID y SHA exactos), sin certificar normativa ni seguridad.</label>
+    <p id="informeControlesInfo" role="status"></p>
+    <label class="confirmation"><input id="informeUsarRelectura" type="checkbox" disabled>Incorporar la relectura seleccionada del modelo guardado y su evidencia exacta. No aprueba el modelo ni los resultados del análisis.</label>
+    <label class="confirmation"><input id="informeUsarContenidoMasa" type="checkbox" disabled>Incorporar inventario de masa del contenido declarado en el modelo del análisis seleccionado.</label>
+    <label class="confirmation"><input id="informeUsarMasaNativa" type="checkbox" disabled>Incorporar captura real AssembledJointMass de la lectura seleccionada y del mismo análisis.</label>
+    <label class="confirmation"><input id="informeEstimarAuto" type="checkbox" disabled>Añadir estimación independiente de peso efectivo de vigas. Conserva el libro bruto; requiere la configuración del modelo en la misma lectura.</label>
+    <p id="informeMasaEstado" role="status">Sin captura real de masa seleccionada. El inventario es optativo; no crea depósitos ni cargas ficticias.</p>
+    <p id="informeRelecturaInfo" role="status">Sin relectura optativa incorporada.</p>
+    <details><summary>Evidencia de relectura seleccionada</summary><pre id="informeRelecturaDatos"></pre></details>
+    <p id="informeReferenciasInfo">Sin referencias optativas: se conserva el recorrido anterior.</p><details><summary>Selección candidata para el próximo borrador</summary><pre id="informeReferenciasDatos"></pre></details>
+   </fieldset>
+   <button id="informeCrear" type="submit" disabled>Crear nueva versión de borrador</button>
+  </form>
+  <div class="versionbar"><div><label for="informeVersion">Informes conservados</label><select id="informeVersion" disabled><option value="">Sin informes</option></select></div><button id="informeActualizar" type="button" disabled>Comprobar historial</button><button id="informePdf" type="button" disabled>Descargar PDF</button><button id="informeJson" type="button" disabled>Descargar informe JSON</button></div>
+  <details><summary>Referencias y explicación conservadas en el informe abierto</summary><pre id="informeVinculos"></pre></details>
+  <fieldset><legend>Aprobación DOCUMENTAL propia del informe</legend>
+   <p>Declara una revisión exclusivamente documental del borrador y SHA seleccionados. No aprueba resultados ni ingeniería, no evalúa normativa y no autentica identidad o competencia profesional. Se crea una hija nueva; el borrador se conserva.</p>
+   <label for="informeSha">SHA256 exacto del JSON consultado</label><input id="informeSha" readonly>
+   <label for="informeRevisor">Revisor documental declarado</label><input id="informeRevisor" maxlength="150" disabled>
+   <label for="informeFecha">Fecha documental</label><input id="informeFecha" type="date" disabled>
+   <label for="informeMotivo">Motivo de la revisión documental</label><textarea id="informeMotivo" rows="3" maxlength="2000" disabled></textarea>
+   <label class="confirmation"><input id="informeConfirmar" type="checkbox" disabled>Confirmo la aprobación exclusivamente DOCUMENTAL del borrador y SHA exactos mostrados, con la identidad, fecha y motivo declarados.</label>
+   <button id="informeAprobar" type="button" disabled>Crear hija con aprobación documental declarada</button><p id="informeAprobacionInfo">Selecciona un borrador vigente.</p>
+  </fieldset>
+ </section>
+ <section class="geometry" aria-label="Paneles del resultado seleccionado">
+  <h2>Panel técnico del resultado seleccionado</h2><p id="panelEstado" role="status">Abre una versión de resultados comprobada.</p>
+  <label for="panelAnalisis">Evidencia de análisis</label><select id="panelAnalisis" disabled><option value="">Sin evidencia vinculada</option></select>
+  <button id="panelCrear" type="button" disabled>Crear nueva versión del panel</button>
+  <div class="versionbar"><div><label for="panelVersion">Paneles conservados</label><select id="panelVersion" disabled><option value="">Sin paneles</option></select></div><button id="panelDescargar" type="button" disabled>Descargar panel HTML</button></div>
+  <p class="hint">Abre el HTML descargado en el navegador para explorar la instantánea. No aprueba resultados ni declara conformidad normativa.</p>
+ </section>
+ <footer><span id="versionInfo">La preparación es local; un envío al proveedor exige confirmación explícita en su panel.</span><span>Draft2Model · Revisión preliminar</span></footer>
+</main><script src="/revision_resultados.js"></script><script src="/app.js"></script><script src="/ingreso.js"></script><script src="/preparacion.js"></script><script src="/preprocesamiento.js" defer></script><script src="/respuestas.js"></script><script src="/proveedor.js"></script><script src="/conversion.js"></script><script src="/tabular.js"></script><script src="/superposicion.js"></script><script src="/controles.js"></script><script src="/configuracion.js"></script><script src="/construccion.js"></script><script src="/resultados.js"></script><script src="/revision_modelo.js"></script><script src="/verificacion_modelo.js"></script><script src="/analisis.js"></script><script src="/lecturas.js"></script><script src="/mapeos.js"></script><script src="/recuperacion.js"></script><script src="/contexto.js"></script><script src="/explicaciones.js"></script><script src="/informes.js"></script><script src="/paneles.js"></script><script src="/etapas.js"></script><script src="/reconstruccion.js"></script><script src="/editor_ingenieria.js"></script><script src="/modelo_3d.js"></script></body></html>
