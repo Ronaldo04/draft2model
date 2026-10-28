@@ -1,0 +1,19 @@
+{
+  "fecha_utc": "2026-10-24T03:21:40.109450+00:00",
+  "ZIP": "AECODE_ENTREGA_308/Draft2Model.zip",
+  "archivos_extraidos_y_hash_comprobados": 599,
+  "entorno": "Offline303 reutilizado; lock/wheels idénticos. No instalación nueva308.",
+  "arranque": "python -B -m draft2model.revision_visual --raiz raiz_nueva_vacia --puerto18310 --sin-navegador",
+  "observado": {
+    "titulo": "Revisar lo que se lee.",
+    "casos": 0,
+    "ingreso_habilitado": true,
+    "mensaje": "El ingreso es local. No se envían planos a proveedores."
+  },
+  "sin_claves": true,
+  "sin_proveedores": true,
+  "sin_ETABS": true,
+  "servidor_QA": "exec34187 cerrado intencionalmente; servidores303/306 no interrumpidos",
+  "captura": "EVIDENCIAS/arranque_datos_vacios_308.png",
+  "goal_completo": false
+}

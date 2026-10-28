@@ -1,0 +1,138 @@
+{
+  "fecha_utc": "2026-10-24T01:49:59.087343+00:00",
+  "goal_completo": false,
+  "clasificacion": "progreso_diagnostico_y_revalidacion304_mismoZIP",
+  "anterior_detalles": "seguimiento/RETOMAR_CODEX_294.json",
+  "cuota_ultima_observada": {
+    "restante5h": 98,
+    "restante_semanal": 84,
+    "sin_reset_manual": true
+  },
+  "politica_cuota": {
+    "hasta5": "No iniciar más trabajos pesados; conservar procesos y guardar estado.",
+    "hasta1": "Guardar y terminar sin GUI/pruebas/delegaciones nuevas. No marcar completo/pausado por cuota.",
+    "reanudar": "Leer este checkpoint y consultar handles/estado actual. No relanzar instalación, suite, informes o ETABS por reinicio de cuota."
+  },
+  "propietarios": {
+    "Codex": "Cierre completo: backend301 ya liberado, fuentes congeladas, instalación/pruebasglobales, QA301, complemento y aceptación final.",
+    "Claude": "Entrega293/301 publicada y contrastada27hashes; ya no esperar que inicie global. Próximo al límite semanal. ComputerUse suspendido por Escape; no mensajes nuevos sin reanudar.",
+    "fuentes": "NO editar mientras se valida303. Si un fallo requiere cambio, invalidar candidato y crear nueva huella; no fingir que se verificó lo modificado."
+  },
+  "fuentes303": {
+    "carpeta": "entregas/AECODE_RC_303",
+    "zip": "entregas/AECODE_RC_303/Draft2Model.zip",
+    "huella": "5fd73861327c0e447b87158032ffc9a69899a01c1376c736e03920f7a6e6aa1c",
+    "archivos": 597,
+    "zip_sha256": "9d50d34e56ac1563e5e0421071326ebd387241850b66a8cf3b9442bf33bd03d1",
+    "estado": "ZIP estable con wheels; no aceptación funcional todavía"
+  },
+  "complemento303": {
+    "carpeta": "entregas/COMPLEMENTO_CORREGIDO_303",
+    "sha256_zip": "449fae58eaa1e62e665cbbc81594019de810a86783088c5fa6bf6e6ba34f1e4d",
+    "archivos": 34,
+    "caso": "pueblo-libre-002",
+    "corrida_origen": "tmp/recorrido_09d3",
+    "estado": "Informe/panel corregidos y revisados302; transporte creado, verificador conjunto se ejecutará tras global."
+  },
+  "validacion303": {
+    "helper": "seguimiento/verificar_distribucion_303.py",
+    "exec": 10942,
+    "estado": "tmp/validacion_distribucion_303/estado.json",
+    "fuentes": "tmp/validacion_distribucion_303/fuentes",
+    "python": "tmp/validacion_distribucion_303/.venv/Scripts/python.exe",
+    "pasos_observados": [
+      {
+        "nombre": "crear_entorno",
+        "codigo": 0,
+        "log": "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\validacion_distribucion_303\\crear_entorno.log"
+      },
+      {
+        "nombre": "instalar_offline",
+        "codigo": 0,
+        "log": "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\validacion_distribucion_303\\instalar_offline.log"
+      }
+    ],
+    "proceso_actual": {
+      "pid": 11168,
+      "paso": "verificacion_global",
+      "argv": [
+        "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\validacion_distribucion_303\\.venv\\Scripts\\python.exe",
+        "scripts/verificar_proyecto.py",
+        "--salida",
+        "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\validacion_distribucion_303\\verificacion.json",
+        "--temporales",
+        "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\validacion_distribucion_303\\t"
+      ],
+      "inicio_utc": "2026-10-23T21:56:07.565617+00:00"
+    },
+    "salida_global": "tmp/validacion_distribucion_303/verificacion.json",
+    "regla": "Solo observar ejecución existente; scripts verifican1300+Python y frontend; no dar verde sin informe, logs, omisiones, huellas estables.",
+    "ultima_observacion": "exec10942 vivo; verificacion_global sin error terminal observado; instalación offline2pasosOK. No se relanzó.",
+    "estado_terminal": "Falló global303:1419Python,1fallo+11errores por rutas largas;35NodeOK; no omisiones. Diagnóstico304 prueba todas12trazas. No reinstalar."
+  },
+  "qa303": {
+    "exec_servidor": 36115,
+    "url": "http://127.0.0.1:18303/",
+    "runtime": "tmp/validacion_distribucion_303/fuentes",
+    "python": "entorno nuevo303",
+    "browser": "IAB1/bindingqa304; pestaña7 anterior ya no existe",
+    "hecho": "Sesión recuperadaIAB1/qa304:13filas abiertas; análisis7203c79a3ece4438b36d267ba80f3c4b ofrecido sin comprobar.",
+    "actual": "Verificación del análisis finalizó y habilitó informe. Contexto de QA explícito completado; se pulsó informeCrear UNA vez. Crear ahora deshabilitado; no repetir POST ni recargar.",
+    "siguiente": "Esperar13filas y selector de análisis. Seleccionar7203c79a3ece4438b36d267ba80f3c4b explícitamente y esperar respuesta antes de crear borrador QA.",
+    "captura": "seguimiento/QA_GENERACION_INFORME_304.png"
+  },
+  "servidor_estatico302": {
+    "exec": 63482,
+    "url": "http://127.0.0.1:18302/",
+    "carpeta": "tmp/recorrido_09d3/resultados",
+    "limite": "Solo artefactos corregidos; PDFvisorIAB no mostró contenido. No lo atribuir a PDF defectuoso ni a revisión visual del navegador.",
+    "estado": "CIM/puerto confirmaron ausente; no reiniciado."
+  },
+  "cerrados_intencionalmente": [
+    "QA285 exec6981",
+    "QA292 exec26508",
+    "QA293 instrumentado exec39220",
+    "QA299 exec7665",
+    "panel09d2 estático exec88326"
+  ],
+  "evidencias": [
+    "seguimiento/RECEPCION_ENTREGA_303.json:27hashes coinciden; frontend301 focal13OK.",
+    "seguimiento/ENTREGA_BACKEND_301.json:7pruebasOK,11ms inventario real, comprobación/creación/descarga rechazan alteración.",
+    "seguimiento/REVISION_INFORME_302.json:18valores/decisiones iguales286; unidades1 deVMIN y captura nativa corregidos; PDF8páginas con salvedades de rasterizadores; panel revisado.",
+    "seguimiento/QA_HISTORIALES_REALES_299.json:13filas exactas y25focales sobre copia299 anterior301; no sustituye QA303.",
+    "seguimiento/REVISION_VERIFICADOR_ENTREGA_298.json:9focalesOK y cadena archivada verificada sobre candidatos antiguos."
+  ],
+  "limitaciones_materiales": [
+    "Suelo/sistema hipótesis; sinEMS, sin aprobación profesional, manualcomparación aplazada.",
+    "Masa oficial no_coherente, causa principal extremos efectivos demostrada; no alterar tolerancia ni hacerpasar10incumplimientos.",
+    "PDF presenta diferencias entre rasterizadores: pag7legiblePoppler y pag8MuPDFaislada; texto/cajas completos. HTMLalternativo conserva contenido; no afirmar compatibilidad universal.",
+    "Solo primerproyecto; proyectos2/3 no procesar hasta validar sistema primero.",
+    "No acreditar precisión extracción sinreferenciahumana. APIs solo planos: OpenAI4/5, Gemini2/5 consumidas, no nuevasllamadas."
+  ],
+  "siguiente": [
+    "Observar exec18091 y verificacion_304.json. Global303 falló por TEMP largo;12focales corregidas sin editar fuentes. No repetir instalación ni arrancar otra suite.",
+    "Continuar IAB1/qa304 en18303 con generación de UN borradorQA ya iniciada. No volver a pulsarCrear. Si aparece nueva versión, comprobar vínculo/JSON/PDF/descargas. Si pestaña desaparece, buscar informe publicado antes de cualquier POST.",
+    "Conjunto303 ya verificado desdeZIP instalado (REVISION_CONJUNTO_304.json). Cuando global304 termine, revisar estabilidad y logs; emitir aceptación externa exacta y actualizarNOTAS_VALIDACION_304.md sin modificarZIP.",
+    "Crear resumen de aceptación externo a ZIP con IDs/hash/logs/resultados, actualizarcriterios295 según evidencia y comprobar requisitos completos antes de marcar logrado."
+  ],
+  "reanudacion_exacta": [
+    "Consultar cuota; con<=1% guardar y terminar sin GUI/pruebas nuevas.",
+    "Con margen, observar exec10942 y tmp/validacion_distribucion_303/estado.json. Un timeout de observación no permite relanzar. Si handle falta consultar proceso_actual antes de decidir.",
+    "Si suite termina: leer verificacion.json y logs de cada comando; omisiones o cambios de fuente impiden aceptar. Helper realiza verificador de ZIP+complemento después si global pasa.",
+    "Recuperar IAB7/bindingqa299 (misma pestaña18303) y observar análisis YA seleccionado. Si aún comprueba, esperar; si falla registrar error exacto; si completa verificar guardas.",
+    "Solo con margen iniciar UN informe QA vinculado para probar exportación/descarga; no confundir09d3CLI ya revisado con ese recorridoUI aún pendiente.",
+    "No tocar RC303 ni fuentes mientras corre validación. No solicitar más trabajo de Claude por rutina; entrega293/301 revisada y cierre asignado a Codex."
+  ],
+  "limite_alcanzado": "Reserva mínima: no más GUI, pruebas ni encargos. Retomar exactamente procesos303 existentes cuando haya cuota; no reiniciar ni declarar éxito.",
+  "validacion304": {
+    "exec": 18091,
+    "salida": "tmp/validacion_distribucion_303/verificacion_304.json",
+    "temporales": "tmp/t304",
+    "fuentes": "mismos597bytes delZIP303",
+    "focal": "12pruebas afectadas OK12.153s",
+    "estado": "Global en curso; no repetir",
+    "diagnostico": "seguimiento/DIAGNOSTICO_VALIDACION_304.json"
+  },
+  "integridad304": "seguimiento/REVISION_CONJUNTO_304.json:verificador delZIP instalado exit0,597fuentes intactas,34complemento, mismosIDs yEDB",
+  "auditoria_actual": "seguimiento/AUDITORIA_CIERRE_304.json"
+}

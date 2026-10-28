@@ -1,0 +1,834 @@
+{
+ "tarea": "predictor_317_contraste",
+ "ensayo_ciego": false,
+ "exposicion_previa": "313/314/315/316 conocidos; tolerancia = escenario declarado",
+ "prediccion_sha256": "4eecd3799ab78266684eb7c0d494b64c8e596cb2c429cf182bdc39196cc0c691",
+ "lectura_sha256": "8418be814454dd4301f4826e08ede7772af3fb4993cc07ff03a04f64dfccdbc4",
+ "poblacion_extremos": 90,
+ "conteo": {
+  "acuerdo": 90,
+  "desacuerdo": 0,
+  "abstencion": 0
+ },
+ "error_max_m": 4.579669976578771e-16,
+ "peso_VS": {
+  "bruto_kN": "31.116959999999996187600",
+  "neto_predicho_kN": "24.255719999999995787600",
+  "tabla_nativa_kN": "24.2557",
+  "diferencia_kN": "0.000019999999995787600",
+  "nota": "tabla nativa con 4 decimales"
+ },
+ "desacuerdos": [],
+ "filas": [
+  {
+   "viga": "VS-Z1-1-4",
+   "lado": "I",
+   "pred": 0.184,
+   "nativo": 0.184,
+   "error_m": -0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z1-1-4",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z1-1-5",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z1-1-5",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z1-1-6",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z1-1-6",
+   "lado": "J",
+   "pred": 0.2,
+   "nativo": 0.2,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z1-2-11",
+   "lado": "I",
+   "pred": 0.2,
+   "nativo": 0.2,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z1-2-11",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z1-3-1",
+   "lado": "I",
+   "pred": 0.184,
+   "nativo": 0.184,
+   "error_m": -0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z1-3-1",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z1-3-2",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z1-3-2",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z1-3-3",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z1-3-3",
+   "lado": "J",
+   "pred": 0.2,
+   "nativo": 0.2,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z1-A-10",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con ambos extremos -> 0/0"
+  },
+  {
+   "viga": "VS-Z1-A-10",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con ambos extremos -> 0/0"
+  },
+  {
+   "viga": "VS-Z1-A-7",
+   "lado": "I",
+   "pred": 0.105,
+   "nativo": 0.105,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z1-A-7",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z1-A-8",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z1-A-8",
+   "lado": "J",
+   "pred": 0.15,
+   "nativo": 0.15,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z1-A-9",
+   "lado": "I",
+   "pred": 0.15,
+   "nativo": 0.15,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z1-A-9",
+   "lado": "J",
+   "pred": 0.15,
+   "nativo": 0.15,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-1-15",
+   "lado": "I",
+   "pred": 0.184,
+   "nativo": 0.184,
+   "error_m": -0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z2-1-15",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z2-1-16",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-1-16",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-1-17",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-1-17",
+   "lado": "J",
+   "pred": 0.2,
+   "nativo": 0.2,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-2-22",
+   "lado": "I",
+   "pred": 0.2,
+   "nativo": 0.2,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-2-22",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-3-12",
+   "lado": "I",
+   "pred": 0.184,
+   "nativo": 0.184,
+   "error_m": -0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z2-3-12",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z2-3-13",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-3-13",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-3-14",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-3-14",
+   "lado": "J",
+   "pred": 0.2,
+   "nativo": 0.2,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-A-18",
+   "lado": "I",
+   "pred": 0.105,
+   "nativo": 0.105,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z2-A-18",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z2-A-19",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-A-19",
+   "lado": "J",
+   "pred": 0.15,
+   "nativo": 0.15,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-A-20",
+   "lado": "I",
+   "pred": 0.15,
+   "nativo": 0.15,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-A-20",
+   "lado": "J",
+   "pred": 0.15,
+   "nativo": 0.15,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z2-A-21",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con ambos extremos -> 0/0"
+  },
+  {
+   "viga": "VS-Z2-A-21",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con ambos extremos -> 0/0"
+  },
+  {
+   "viga": "VS-Z3-1-26",
+   "lado": "I",
+   "pred": 0.184,
+   "nativo": 0.184,
+   "error_m": -0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z3-1-26",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z3-1-27",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z3-1-27",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z3-1-28",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z3-1-28",
+   "lado": "J",
+   "pred": 0.2,
+   "nativo": 0.2,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z3-2-33",
+   "lado": "I",
+   "pred": 0.2,
+   "nativo": 0.2,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z3-2-33",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z3-3-23",
+   "lado": "I",
+   "pred": 0.184,
+   "nativo": 0.184,
+   "error_m": -0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z3-3-23",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z3-3-24",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z3-3-24",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z3-3-25",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z3-3-25",
+   "lado": "J",
+   "pred": 0.2,
+   "nativo": 0.2,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z3-A-29",
+   "lado": "I",
+   "pred": 0.105,
+   "nativo": 0.105,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z3-A-29",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z3-A-30",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z3-A-30",
+   "lado": "J",
+   "pred": 0.15,
+   "nativo": 0.15,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z3-A-31",
+   "lado": "I",
+   "pred": 0.15,
+   "nativo": 0.15,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z3-A-31",
+   "lado": "J",
+   "pred": 0.15,
+   "nativo": 0.15,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z3-A-32",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con ambos extremos -> 0/0"
+  },
+  {
+   "viga": "VS-Z3-A-32",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con ambos extremos -> 0/0"
+  },
+  {
+   "viga": "VS-Z4-1-37",
+   "lado": "I",
+   "pred": 0.184,
+   "nativo": 0.184,
+   "error_m": -0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z4-1-37",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z4-1-38",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-1-38",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-1-39",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-1-39",
+   "lado": "J",
+   "pred": 0.2,
+   "nativo": 0.2,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-2-45",
+   "lado": "I",
+   "pred": 0.2,
+   "nativo": 0.2,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-2-45",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-3-34",
+   "lado": "I",
+   "pred": 0.184,
+   "nativo": 0.184,
+   "error_m": -0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z4-3-34",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z4-3-35",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-3-35",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-3-36",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-3-36",
+   "lado": "J",
+   "pred": 0.2,
+   "nativo": 0.2,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-A-40",
+   "lado": "I",
+   "pred": 0.105,
+   "nativo": 0.105,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z4-A-40",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z4-A-41",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-A-41",
+   "lado": "J",
+   "pred": 0.15,
+   "nativo": 0.15,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-A-42",
+   "lado": "I",
+   "pred": 0.15,
+   "nativo": 0.15,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-A-42",
+   "lado": "J",
+   "pred": 0.15,
+   "nativo": 0.15,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-A-43",
+   "lado": "I",
+   "pred": 0.15,
+   "nativo": 0.15,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-A-43",
+   "lado": "J",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": null
+  },
+  {
+   "viga": "VS-Z4-A-44",
+   "lado": "I",
+   "pred": 0.0,
+   "nativo": 0.0,
+   "error_m": 0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  },
+  {
+   "viga": "VS-Z4-A-44",
+   "lado": "J",
+   "pred": 0.111,
+   "nativo": 0.111,
+   "error_m": -0.0,
+   "estado": "acuerdo",
+   "regla_exceso": "experimental_315/316: suma >= L con un solo extremo -> L − 2·tol"
+  }
+ ]
+}

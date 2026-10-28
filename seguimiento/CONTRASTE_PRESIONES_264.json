@@ -1,0 +1,346 @@
+{
+  "fecha_utc": "2026-10-22T18:13:50.214377+00:00",
+  "configuracion_sha256": "aba6827c8ab32b494809b96f0f6e55ba3c8ab22eeb32ffe6abdcd5aa1738b52e",
+  "version_geometria": "25ef94672fac4e53863701b55e32f97d",
+  "contrastes": [
+    {
+      "declaracion": "AGUA-TAN",
+      "volumen_m3": 3.93921,
+      "peso_kn": 39.3921,
+      "fuerza_kn": [
+        0.0,
+        0.0,
+        -39.39209999999999
+      ],
+      "momento_kn_m": [
+        -159.75466155,
+        490.54982129999996,
+        0.0
+      ],
+      "fuerza_referencia_kn": [
+        0,
+        0,
+        -39.3921
+      ],
+      "momento_referencia_kn_m": [
+        -159.75466155,
+        490.54982129999996,
+        0
+      ],
+      "error_max": 7.105427357601002e-15,
+      "correcto": true,
+      "hosts": [
+        {
+          "host": "TAN-F-05",
+          "fuerza_kn": [
+            0.0,
+            0.0,
+            -39.39209999999999
+          ],
+          "momento_kn_m": [
+            -159.75466155,
+            490.54982129999996,
+            0.0
+          ],
+          "area_m2": 3.581100000000001,
+          "delta_m": 0.1,
+          "nivel_efectivo": 13.6
+        },
+        {
+          "host": "TAN-Mx0-2b",
+          "fuerza_kn": [
+            -10.436249999999994,
+            0.0,
+            0.0
+          ],
+          "momento_kn_m": [
+            0.0,
+            -135.3233749999999,
+            42.32421187499998
+          ],
+          "area_m2": 1.8974999999999995,
+          "delta_m": 0.0,
+          "nivel_efectivo": 13.7
+        },
+        {
+          "host": "TAN-Mx1-2b",
+          "fuerza_kn": [
+            10.436249999999994,
+            0.0,
+            0.0
+          ],
+          "momento_kn_m": [
+            0.0,
+            135.3233749999999,
+            -42.32421187499998
+          ],
+          "area_m2": 1.8974999999999995,
+          "delta_m": 0.0,
+          "nivel_efectivo": 13.7
+        },
+        {
+          "host": "TAN-My0-2b",
+          "fuerza_kn": [
+            0.0,
+            -12.559799999999996,
+            0.0
+          ],
+          "momento_kn_m": [
+            162.85873999999993,
+            0.0,
+            -156.40718939999994
+          ],
+          "area_m2": 2.2836,
+          "delta_m": 0.0,
+          "nivel_efectivo": 13.7
+        },
+        {
+          "host": "TAN-My1-2b",
+          "fuerza_kn": [
+            0.0,
+            12.559799999999996,
+            0.0
+          ],
+          "momento_kn_m": [
+            -162.85873999999993,
+            0.0,
+            156.40718939999994
+          ],
+          "area_m2": 2.2836,
+          "delta_m": 0.0,
+          "nivel_efectivo": 13.7
+        }
+      ]
+    },
+    {
+      "declaracion": "AGUA-CIS",
+      "volumen_m3": 9.555872340000002,
+      "peso_kn": 95.55872340000002,
+      "fuerza_kn": [
+        0.0,
+        0.0,
+        -95.55872340000002
+      ],
+      "momento_kn_m": [
+        -346.25703423990007,
+        1530.2296171659002,
+        0.0
+      ],
+      "fuerza_referencia_kn": [
+        0,
+        0,
+        -95.55872340000002
+      ],
+      "momento_referencia_kn_m": [
+        -346.25703423990007,
+        1530.2296171659004,
+        0
+      ],
+      "error_max": 2.2737367544323206e-13,
+      "correcto": true,
+      "hosts": [
+        {
+          "host": "CIS-F-06",
+          "fuerza_kn": [
+            0.0,
+            0.0,
+            -19.52378999999996
+          ],
+          "momento_kn_m": [
+            -65.37541081499985,
+            298.4601777299993,
+            0.0
+          ],
+          "area_m2": 0.8794499999999982,
+          "delta_m": 0.1,
+          "nivel_efectivo": -0.28
+        },
+        {
+          "host": "CIS-F-07",
+          "fuerza_kn": [
+            0.0,
+            0.0,
+            -6.715499999999995
+          ],
+          "momento_kn_m": [
+            -29.702656499999975,
+            102.65984849999992,
+            0.0
+          ],
+          "area_m2": 0.3024999999999998,
+          "delta_m": 0.1,
+          "nivel_efectivo": -0.28
+        },
+        {
+          "host": "CIS-F-10",
+          "fuerza_kn": [
+            0.0,
+            0.0,
+            -51.57830340000003
+          ],
+          "momento_kn_m": [
+            -172.70994893490007,
+            840.1331949309003,
+            0.0
+          ],
+          "area_m2": 2.3233470000000014,
+          "delta_m": 0.1,
+          "nivel_efectivo": -0.28
+        },
+        {
+          "host": "CIS-F-11",
+          "fuerza_kn": [
+            0.0,
+            0.0,
+            -17.741130000000037
+          ],
+          "momento_kn_m": [
+            -78.46901799000015,
+            288.9763960050006,
+            0.0
+          ],
+          "area_m2": 0.7991500000000017,
+          "delta_m": 0.1,
+          "nivel_efectivo": -0.28
+        },
+        {
+          "host": "CIS-Mx0-2b",
+          "fuerza_kn": [
+            -39.402557999999985,
+            0.0,
+            0.0
+          ],
+          "momento_kn_m": [
+            0.0,
+            65.40824627999997,
+            131.93946546299992
+          ],
+          "area_m2": 3.5497799999999993,
+          "delta_m": 0.0,
+          "nivel_efectivo": -0.18
+        },
+        {
+          "host": "CIS-Mx0-3b",
+          "fuerza_kn": [
+            -13.553100000000011,
+            0.0,
+            0.0
+          ],
+          "momento_kn_m": [
+            0.0,
+            22.49814600000002,
+            59.945361300000066
+          ],
+          "area_m2": 1.2210000000000014,
+          "delta_m": 0.0,
+          "nivel_efectivo": -0.18
+        },
+        {
+          "host": "CIS-Mx1-2b",
+          "fuerza_kn": [
+            39.402557999999985,
+            0.0,
+            0.0
+          ],
+          "momento_kn_m": [
+            0.0,
+            -65.40824627999997,
+            -131.93946546299992
+          ],
+          "area_m2": 3.5497799999999993,
+          "delta_m": 0.0,
+          "nivel_efectivo": -0.18
+        },
+        {
+          "host": "CIS-Mx1-3b",
+          "fuerza_kn": [
+            13.553100000000011,
+            0.0,
+            0.0
+          ],
+          "momento_kn_m": [
+            0.0,
+            -22.49814600000002,
+            -59.945361300000066
+          ],
+          "area_m2": 1.2210000000000014,
+          "delta_m": 0.0,
+          "nivel_efectivo": -0.18
+        },
+        {
+          "host": "CIS-My0-2b",
+          "fuerza_kn": [
+            0.0,
+            -13.553099999999969,
+            0.0
+          ],
+          "momento_kn_m": [
+            -22.49814599999995,
+            0.0,
+            -207.18623969999953
+          ],
+          "area_m2": 1.2209999999999974,
+          "delta_m": 0.0,
+          "nivel_efectivo": -0.18
+        },
+        {
+          "host": "CIS-My0-3b",
+          "fuerza_kn": [
+            0.0,
+            -35.80482600000002,
+            0.0
+          ],
+          "momento_kn_m": [
+            -59.43601116000002,
+            0.0,
+            -583.2069083010002
+          ],
+          "area_m2": 3.225660000000002,
+          "delta_m": 0.0,
+          "nivel_efectivo": -0.18
+        },
+        {
+          "host": "CIS-My1-2b",
+          "fuerza_kn": [
+            0.0,
+            13.553099999999969,
+            0.0
+          ],
+          "momento_kn_m": [
+            22.49814599999995,
+            0.0,
+            207.18623969999953
+          ],
+          "area_m2": 1.2209999999999974,
+          "delta_m": 0.0,
+          "nivel_efectivo": -0.18
+        },
+        {
+          "host": "CIS-My1-3b",
+          "fuerza_kn": [
+            0.0,
+            35.80482600000002,
+            0.0
+          ],
+          "momento_kn_m": [
+            59.43601116000002,
+            0.0,
+            583.2069083010002
+          ],
+          "area_m2": 3.225660000000002,
+          "delta_m": 0.0,
+          "nivel_efectivo": -0.18
+        }
+      ]
+    }
+  ],
+  "correcto": true,
+  "alcance": "Integración algebraica independiente de superficies declaradas/caras y contabilidad, con dominio explícito de09D",
+  "limites": [
+    "No acredita cotas originales del plano ni hipótesis",
+    "No genera ni verifica tabla de cargas nativa",
+    "No análisis, masa ensamblada, hidrodinámica ni seguridad estructural"
+  ],
+  "etabs": false,
+  "apis_remotas": 0
+}

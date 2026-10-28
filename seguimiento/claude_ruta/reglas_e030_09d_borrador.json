@@ -1,0 +1,80 @@
+{
+ "contrato": "draft2model.reglas_estructurales",
+ "version_contrato": "0.1.0",
+ "id": "reglas-e030-09d-borrador",
+ "datos_sinteticos": false,
+ "reglas": [
+  {
+   "id": "R-DERIVA-SX",
+   "variable": "deriva",
+   "unidad": "1",
+   "formula": {
+    "expresion": "factor * x + desplazamiento",
+    "factor": 4.5,
+    "desplazamiento": 0.0
+   },
+   "limite": 0.005,
+   "comparador": "<=",
+   "aplicabilidad": {
+    "aplica": true,
+    "casos": [
+     "SX"
+    ],
+    "direcciones": [
+     "X"
+    ],
+    "ubicaciones": [
+     "N1",
+     "N2",
+     "N3",
+     "N4"
+    ],
+    "motivo": "HIPÓTESIS del escenario de transporte: estructura regular, R = 6 y límite de albañilería (muros KK portantes); no aprobada."
+   },
+   "fuente": {
+    "titulo": "Norma E.030 Diseño Sismorresistente",
+    "edicion": "RM 183-2026-VIVIENDA (El Peruano, 2026-05-03)",
+    "apartado": "Arts. 50.1 y 51, Tabla N° 14",
+    "referencia": "seguimiento/normativa_229/E030_RM183_2026.txt"
+   }
+  },
+  {
+   "id": "R-DERIVA-SY",
+   "variable": "deriva",
+   "unidad": "1",
+   "formula": {
+    "expresion": "factor * x + desplazamiento",
+    "factor": 4.5,
+    "desplazamiento": 0.0
+   },
+   "limite": 0.005,
+   "comparador": "<=",
+   "aplicabilidad": {
+    "aplica": true,
+    "casos": [
+     "SY"
+    ],
+    "direcciones": [
+     "Y"
+    ],
+    "ubicaciones": [
+     "N1",
+     "N2",
+     "N3",
+     "N4"
+    ],
+    "motivo": "HIPÓTESIS del escenario de transporte: estructura regular, R = 6 y límite de albañilería (muros KK portantes); no aprobada."
+   },
+   "fuente": {
+    "titulo": "Norma E.030 Diseño Sismorresistente",
+    "edicion": "RM 183-2026-VIVIENDA (El Peruano, 2026-05-03)",
+    "apartado": "Arts. 50.1 y 51, Tabla N° 14",
+    "referencia": "seguimiento/normativa_229/E030_RM183_2026.txt"
+   }
+  }
+ ],
+ "revision": {
+  "estado": "borrador",
+  "aprobacion": null
+ }
+}

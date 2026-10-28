@@ -1,0 +1,74 @@
+{
+  "fecha_utc": "2026-10-24T18:32:55.710442+00:00",
+  "goal_completo": false,
+  "anterior": "seguimiento/RETOMAR_CODEX_331.json",
+  "responsable_unico": "Codex; sin Claude ni nuevas delegaciones.",
+  "estado_hito": "Entrega331 consolidada y verificada; lista para revisión académica como sistema supervisado.",
+  "entrega": {
+    "archivo": "entregas\\AECODE_PRESENTACION_331_FINAL.zip",
+    "sha256": "e1b9c68c34ee2f0118ef1d4c16590bb8b349c0d8d599a63ff2cf5b04660fd1f3",
+    "bytes": 97632706,
+    "huella_fuentes": "87eaa3da536fad77fff8356047d809e5fba4bdaa5f587d51a8789fd1aac400b8",
+    "pruebas_python": 1493,
+    "pruebas_interfaz": 36,
+    "goal_completo": false
+  },
+  "validacion_paquete": {
+    "integridad": {
+      "estado": "integridad_verificada_no_aceptacion_funcional",
+      "huella_fuentes": "87eaa3da536fad77fff8356047d809e5fba4bdaa5f587d51a8789fd1aac400b8",
+      "caso": "pueblo-libre-002",
+      "archivos_fuentes": 616,
+      "archivos_complemento": 34,
+      "aprueba_ingenieria": false
+    },
+    "pruebas_python": 1493,
+    "pruebas_interfaz": 36,
+    "omisiones": [],
+    "sin_nueva_api": true,
+    "sin_nueva_corrida_etabs": true,
+    "enlaces_de_entrada_y_guias_comprobados": 67,
+    "enlaces_rotos": [],
+    "aceptacion_global": false
+  },
+  "guia": "entregas/AECODE_PRESENTACION_331/LEER_PRIMERO.md",
+  "reporte": "entregas/AECODE_PRESENTACION_331/REPORTE_ESTADO.md",
+  "guion": "entregas/AECODE_PRESENTACION_331/PRESENTACION_5_MINUTOS.md",
+  "procesos": {
+    "20690": "terminal0/global329",
+    "31832": "terminal0/global331",
+    "50585": "terminal0/empaquetado331"
+  },
+  "edb_archivado_sha256_verificado": "42371308a03d4f1bac8f5ed3aa5daf0421cdf3de27ff823f8f582c13ad2af394",
+  "ejecucion": "Código331 exacto validado en copia aislada; sin nueva instalación, API ni ejecución nativa. Modelo/informes anteriores conservados.",
+  "no_repetir": [
+    "Suites329/331 ya correctas y sin omisiones.",
+    "Empaquetador331 ya ejecutado; rechaza sobreescritura.",
+    "Benchmark328 ya reproducido; no pedir de nuevo anotador humano al usuario.",
+    "Recorrido nativo322 ya conservado."
+  ],
+  "cambios_operativos": [
+    "Avisos de cotas/unidades mostrados por candidato.",
+    "Búsqueda local de texto vectorial y propuestas de región con abstención ante duplicados; no guarda automáticamente."
+  ],
+  "limites_materiales": [
+    "Entrada aún supervisada; no modelado autónomo de cualquier construcción acreditado.",
+    "Otros proyectos/tipologías sin validación.",
+    "Suelo y sistema son escenarios sin EMS; reglas RNE parciales.",
+    "Comparación manual aplazada;18comparaciones técnicas conservadas,10no satisfactorias.",
+    "Latencia alta en expediente grande.",
+    "OCR local solo experimental, no integrado ni presentado como operativo."
+  ],
+  "restricciones": [
+    "Conservar intacta entrega331 para presentación;328 es respaldo.",
+    "Sin APIs, claves, modelo manual ni proyectos2/3.",
+    "No nuevas funciones antes de finalizar entrega al usuario.",
+    "Cualquier desarrollo posterior debe aislarse del software congelado; no sustituirlo sin validación.",
+    "No declarar aprobación estructural, RNE integral ni objetivo global completo."
+  ],
+  "siguiente": [
+    "Entregar enlaces a ZIP331FINAL, guía y reporte. No hace falta reejecutar ETABS para presentar resultados archivados.",
+    "Mantener objetivo activo. El cierre académico de software supervisado no prueba automatización universal.",
+    "Para continuar después de la entrega, priorizar robustez de entrada con reconocimiento local de imagen y evidencia verificable, en copia aislada; no alterar el paquete presentado."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "fecha_utc": "2026-10-23T04:40:20.375252+00:00",
+  "estado": "enviado_confirmado_visualmente",
+  "encargo": "seguimiento\\CONTINUACION_CLAUDE_270_LISTADOS.md",
+  "sha256_encargo": "00cef65bfc525cc98bffc3a731282f41f4e3c0bf04e490b479328286013d896e",
+  "confirmacion": "Mensaje Continúa268 sin reiniciar tus corridas visible en historial; edit Instrucciones vacío. Se observó inicio de lectura de continuación270, sin asumir entrega final.",
+  "computer_use_suspendido": false,
+  "producto_codex_modificado": false,
+  "candidato": "tmp/candidato_listados_270/resultados.js",
+  "pruebas": "seguimiento/REVISION_LISTADOS_270.json",
+  "propietarios": "Claude integra resultados.js y pruebas normales; Codex candidato, QA y seguimiento.",
+  "goal_completo": false
+}

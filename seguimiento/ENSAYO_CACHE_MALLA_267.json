@@ -1,0 +1,31 @@
+{
+  "fecha_utc": "2026-10-22T23:17:51.696548+00:00",
+  "candidato_sin_integrar": true,
+  "funcion": "preparar_malla",
+  "caso": "pueblo-libre-002",
+  "frio_s": 352.2943864999106,
+  "caliente_s": 0.4808740000007674,
+  "info": {
+    "entradas": 1,
+    "bytes": 6749689,
+    "hits": 1,
+    "misses": 1,
+    "max_entradas": 2,
+    "max_bytes": 67108864
+  },
+  "salidas_iguales": true,
+  "sha256_salida": "39635dbcbbee723d63eb1316c666a993153f54b06f4031618066170ab90bdef2",
+  "sha256_caliente": "39635dbcbbee723d63eb1316c666a993153f54b06f4031618066170ab90bdef2",
+  "fuentes_sha256": {
+    "data\\private\\pueblo-libre-002\\modelos_construidos\\0f37271307b6449c89c458c60a1640c7\\configuracion.json": "d4ac7417408370114476ee00c4ef12111133f162584c13b5f930884fb3fb8974",
+    "data\\private\\pueblo-libre-002\\geometrias\\25ef94672fac4e53863701b55e32f97d\\geometria.json": "24b484549348484f8bf7df1255704a38f2cd77c3b282d2b69ba5b46f0afb68c2",
+    "draft2model\\malla_preparacion.py": "542d271a4e363af3da7db8eafc93659aeeb04ac32e42c5f43bf769ac33c6714b",
+    "tmp\\candidato_cache_malla_267\\cache_malla_pura.py": "1a2b2f6bccdb097e2b6829732524403b5a7e3a68c3a5de1a9f0e9a39dbec7bae"
+  },
+  "fuentes_estables": true,
+  "sin_etabs_ni_api": true,
+  "limites": [
+    "Mide solo preparación pura; no tiempo de solver ni velocidad end-to-end.",
+    "Candidato no integrado. La aceleración del recorrido completo aún no está acreditada."
+  ]
+}

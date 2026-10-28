@@ -1,0 +1,46 @@
+{
+  "fecha_utc": "2026-10-22T23:01:43.633894+00:00",
+  "naturaleza": "QA documental con evidencia sintética histórica; sin ETABS ni proveedores",
+  "servidor": "copia de assets con overlay diagnóstico en18268, sin modificación de producto; servidor original18267 sin diagnóstico",
+  "diagnostico": "Tras completar consulta asíncrona:0errores, controlador montado y1resultado conservado. No se reprodujo fallo del producto. Node integrado complementario pasa.",
+  "recorrido": [
+    "Seleccionar expediente",
+    "Abrir resultado conservado",
+    "Vincular análisis sintético aceptado",
+    "Inventario habilitado; captura nativa deshabilitada por falta de captura real",
+    "Crear borrador por formulario",
+    "Descargar JSON y PDF; bytes comparados idénticos a versión almacenada"
+  ],
+  "informe": "52ba1b5a90fe4e4e8393f32069235a6e",
+  "archivos": {
+    "json": {
+      "sha256": "5acb7b45c537996da13c390829349cc79a8f12e2a1fd6eb27b13e717b0e6d3c4",
+      "bytes": 9808,
+      "descarga_identica": true
+    },
+    "pdf": {
+      "sha256": "e82b09d54baa6e369e4b7f04d45f3a88dc9107e8806da77f224273c24d62a04c",
+      "bytes": 112729,
+      "descarga_identica": true
+    }
+  },
+  "paginas_pdf": 3,
+  "categorias": [
+    "advertencias",
+    "cortante_basal",
+    "derivas",
+    "estado_modelo_analisis",
+    "geometria_muros",
+    "periodos",
+    "sitio"
+  ],
+  "selecciones_sin_masa": true,
+  "captura": "seguimiento/QA_WEB_MASA_267.png",
+  "limitaciones": [
+    "No prueba procesamiento de planos ni análisis real del piloto",
+    "PDF descargado/verificado como archivo; maquetación completa aún pendiente de revisión del informe real",
+    "QA no incluyó masa nativa positiva por ser fixture sintética"
+  ],
+  "goal_completo": false,
+  "limpieza": "Pestaña temporal cerrada; servidor18267 terminó sesión43870 y diagnóstico18268 terminó sesión27647. Descargas sintéticas conservadas."
+}

@@ -1,0 +1,12 @@
+{
+  "recibido": "CONTINUACION_CLAUDE_274_EXTREMOS.md + ORDEN_PROYECTOS_273.md",
+  "fecha": "2026-10-23",
+  "restriccion_usuario": "proyectos 2 y 3 NO se procesan, extraen ni modelan hasta validar todo con proyecto_1_pueblo_libre; ningún archivo suyo leído",
+  "rutas": "ningún código operativo (draft2model, scripts, seguimiento/claude_ruta/*.py, docs, .cmd) referencia la carpeta antigua; solo historial REVISIONES.json (no editado)",
+  "corrida_viva": "39028 (controles 09d1) sin reiniciar; trabajo web f56fdeaf aceptado",
+  "comprobacion_focal": "lectura de 'Frame Assignments - End Length Offsets' del mismo EDB analizado (lector propio, lista explícita) en curso",
+  "no_repite": [
+    "REVISION_MATERIALES_272",
+    "pruebas de listados 271"
+  ]
+}

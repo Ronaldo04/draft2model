@@ -1,0 +1,378 @@
+{
+ "caso": "pueblo-libre-002",
+ "geometria": "25ef94672fac4e53863701b55e32f97d",
+ "aprobacion_ingenieria": null,
+ "estado": "escenarios_aplicados_en_configuracion_de_transporte; masa nativa del contenido NO verificada",
+ "tanque": {
+  "alternativa_modelada": "E03-apoyos con recinto FÍSICO: planos medios en los centros de los NACE C-2 (x 11,315/13,591; y 3,093/5,018); interior mojado [11.415, 13.491, 3.193, 4.918]; fondo +12,50 (cara mojada +12,60), tapa +14,25.",
+  "apoyos": [
+   {
+    "elemento": "NACE-0",
+    "base_xy": [
+     11.335,
+     3.118
+    ],
+    "cima_xy": [
+     11.315,
+     3.093
+    ],
+    "excentricidad_m": 0.032,
+    "fuente": "E03 NACE C-2"
+   },
+   {
+    "elemento": "NACE-1",
+    "base_xy": [
+     13.748,
+     3.118
+    ],
+    "cima_xy": [
+     13.591,
+     3.093
+    ],
+    "excentricidad_m": 0.159,
+    "fuente": "E03 NACE C-2"
+   },
+   {
+    "elemento": "NACE-2",
+    "base_xy": [
+     13.748,
+     5.018
+    ],
+    "cima_xy": [
+     13.591,
+     5.018
+    ],
+    "excentricidad_m": 0.157,
+    "fuente": "E03 NACE C-2"
+   },
+   {
+    "elemento": "NACE-3",
+    "base_xy": [
+     11.335,
+     5.018
+    ],
+    "cima_xy": [
+     11.315,
+     5.018
+    ],
+    "excentricidad_m": 0.02,
+    "fuente": "C-2 del eje 2 que continúa"
+   }
+  ],
+  "alternativa_no_modelada": "A03: rectángulo «TANQUE DE AGUA» ≈ x 10,98–13,80, y 3,07–6,99 (2,82 × 3,92), NTT +14,60.",
+  "cadena_E03": "NT +10,35 · 2,00 apoyo · .20 fondo · 1,10 · .45 · .20 tapa · .10 resalto → +14,40 (corte no a escala).",
+  "base_modelada": "N4 +10,40 (A03): 5 cm sobre NT +10,35."
+ },
+ "cisterna": {
+  "caja_L0001_m": {
+   "x0": 14.862,
+   "y0": 2.349,
+   "x1": 17.215,
+   "y1": 4.898
+  },
+  "interior_mojado_m": [
+   15.012,
+   17.015,
+   2.549,
+   4.698
+  ],
+  "cadena": "NFC −2,65 = solado .05 (hipótesis) → fondo −2,60/−2,40 → interior 2,22 → −0,18 → tapa .15 → −0,03 (NPT ±0,00 − 3 cm)"
+ },
+ "escenarios_agua": [
+  {
+   "patron": "AGUA-TAN",
+   "declaracion": {
+    "contrato": "draft2model.acciones_liquidos",
+    "version_contrato": "0.1.0",
+    "id": "AGUA-TAN",
+    "nivel_libre_z_m": 13.7,
+    "peso_especifico_kn_m3": 10.0,
+    "origen_momentos_m": [
+     0,
+     0,
+     0
+    ],
+    "superficies": [
+     {
+      "superficie": "TAN-F-05",
+      "sentido_normal": -1,
+      "fuentes": [
+       "F1"
+      ],
+      "desplazamiento_cara_m": 0.1
+     },
+     {
+      "superficie": "TAN-Mx0-2b",
+      "sentido_normal": -1,
+      "fuentes": [
+       "F1"
+      ]
+     },
+     {
+      "superficie": "TAN-Mx1-2b",
+      "sentido_normal": 1,
+      "fuentes": [
+       "F1"
+      ]
+     },
+     {
+      "superficie": "TAN-My0-2b",
+      "sentido_normal": 1,
+      "fuentes": [
+       "F1"
+      ]
+     },
+     {
+      "superficie": "TAN-My1-2b",
+      "sentido_normal": -1,
+      "fuentes": [
+       "F1"
+      ]
+     }
+    ],
+    "revision": {
+     "estado": "revisado",
+     "declarada_por": "Claude (ruta 09): cotejo con E03 y auditoría Codex 248; NO revisión de ingeniería",
+     "fecha": "2026-10-22",
+     "motivo": "Escenario de agua del piloto, identificado como hipótesis.",
+     "fuentes": [
+      "F1"
+     ]
+    }
+   },
+   "fuentes": [
+    {
+     "id": "F1",
+     "contenido": {
+      "escenario": "Tanque: tramo inferior 1,10 m del corte E03 como lámina de agua (sin rótulo N.A.: hipótesis).",
+      "nivel_libre_z_m": 13.7,
+      "gamma_kn_m3": 10.0,
+      "fuente_registrada": "F-L0003-DEPOSITOS"
+     },
+     "revision": {
+      "estado": "revisado",
+      "declarada_por": "Claude (ruta 09): cotejo con E03 y auditoría Codex 248; NO revisión de ingeniería",
+      "fecha": "2026-10-22",
+      "motivo": "Escenario de agua del piloto, identificado como hipótesis."
+     }
+    }
+   ]
+  },
+  {
+   "patron": "AGUA-CIS",
+   "declaracion": {
+    "contrato": "draft2model.acciones_liquidos",
+    "version_contrato": "0.1.0",
+    "id": "AGUA-CIS",
+    "nivel_libre_z_m": -0.18,
+    "peso_especifico_kn_m3": 10.0,
+    "origen_momentos_m": [
+     0,
+     0,
+     0
+    ],
+    "superficies": [
+     {
+      "superficie": "CIS-F-06",
+      "sentido_normal": -1,
+      "fuentes": [
+       "F1"
+      ],
+      "desplazamiento_cara_m": 0.1
+     },
+     {
+      "superficie": "CIS-F-07",
+      "sentido_normal": -1,
+      "fuentes": [
+       "F1"
+      ],
+      "desplazamiento_cara_m": 0.1
+     },
+     {
+      "superficie": "CIS-F-10",
+      "sentido_normal": -1,
+      "fuentes": [
+       "F1"
+      ],
+      "desplazamiento_cara_m": 0.1
+     },
+     {
+      "superficie": "CIS-F-11",
+      "sentido_normal": -1,
+      "fuentes": [
+       "F1"
+      ],
+      "desplazamiento_cara_m": 0.1
+     },
+     {
+      "superficie": "CIS-Mx0-2b",
+      "sentido_normal": -1,
+      "fuentes": [
+       "F1"
+      ]
+     },
+     {
+      "superficie": "CIS-Mx0-3b",
+      "sentido_normal": -1,
+      "fuentes": [
+       "F1"
+      ]
+     },
+     {
+      "superficie": "CIS-Mx1-2b",
+      "sentido_normal": 1,
+      "fuentes": [
+       "F1"
+      ]
+     },
+     {
+      "superficie": "CIS-Mx1-3b",
+      "sentido_normal": 1,
+      "fuentes": [
+       "F1"
+      ]
+     },
+     {
+      "superficie": "CIS-My0-2b",
+      "sentido_normal": 1,
+      "fuentes": [
+       "F1"
+      ]
+     },
+     {
+      "superficie": "CIS-My0-3b",
+      "sentido_normal": 1,
+      "fuentes": [
+       "F1"
+      ]
+     },
+     {
+      "superficie": "CIS-My1-2b",
+      "sentido_normal": -1,
+      "fuentes": [
+       "F1"
+      ]
+     },
+     {
+      "superficie": "CIS-My1-3b",
+      "sentido_normal": -1,
+      "fuentes": [
+       "F1"
+      ]
+     }
+    ],
+    "revision": {
+     "estado": "revisado",
+     "declarada_por": "Claude (ruta 09): cotejo con E03 y auditoría Codex 248; NO revisión de ingeniería",
+     "fecha": "2026-10-22",
+     "motivo": "Escenario de agua del piloto, identificado como hipótesis.",
+     "fuentes": [
+      "F1"
+     ]
+    }
+   },
+   "fuentes": [
+    {
+     "id": "F1",
+     "contenido": {
+      "escenario": "Cisterna: llena hasta la altura interior impresa 2,22 m (límite superior, no operación).",
+      "nivel_libre_z_m": -0.17999999999999972,
+      "gamma_kn_m3": 10.0,
+      "fuente_registrada": "F-L0003-DEPOSITOS"
+     },
+     "revision": {
+      "estado": "revisado",
+      "declarada_por": "Claude (ruta 09): cotejo con E03 y auditoría Codex 248; NO revisión de ingeniería",
+      "fecha": "2026-10-22",
+      "motivo": "Escenario de agua del piloto, identificado como hipótesis."
+     }
+    }
+   ]
+  }
+ ],
+ "escalera": {
+  "estado": {
+   "0-2.60": "confirmado: 16 contrahuellas (usuario); apoyo base en ±0,00 (empotrado, hipótesis)",
+   "2,60→5,20": "hipótesis 4+8+4 (A03 reconstruida, 255); no confirmada por el usuario",
+   "5,20→7,80": "hipótesis 4+8+4 (A03 reconstruida, 255); no confirmada por el usuario",
+   "7,80→10,40": "hipótesis 4+8+4 (A03 reconstruida, 255); no confirmada por el usuario"
+  },
+  "superficies": [
+   "ESC1-R",
+   "ESC2-R1",
+   "ESC2-D1",
+   "ESC2-R2",
+   "ESC2-D2",
+   "ESC2-R3",
+   "ESC3-R1",
+   "ESC3-D1",
+   "ESC3-R2",
+   "ESC3-D2",
+   "ESC3-R3",
+   "ESC4-R1",
+   "ESC4-D1",
+   "ESC4-R2",
+   "ESC4-D2",
+   "ESC4-R3"
+  ],
+  "bordes_union": [
+   {
+    "superficie": "ESC1-R",
+    "z": 2.6,
+    "y": [
+     5.95,
+     7.15
+    ]
+   },
+   {
+    "superficie": "ESC2-R1",
+    "z": 2.6,
+    "y": [
+     3.0,
+     4.2
+    ]
+   },
+   {
+    "superficie": "ESC2-R3",
+    "z": 5.2,
+    "y": [
+     5.95,
+     7.15
+    ]
+   },
+   {
+    "superficie": "ESC3-R1",
+    "z": 5.2,
+    "y": [
+     3.0,
+     4.2
+    ]
+   },
+   {
+    "superficie": "ESC3-R3",
+    "z": 7.8,
+    "y": [
+     5.95,
+     7.15
+    ]
+   },
+   {
+    "superficie": "ESC4-R1",
+    "z": 7.8,
+    "y": [
+     3.0,
+     4.2
+    ]
+   },
+   {
+    "superficie": "ESC4-R3",
+    "z": 10.4,
+    "y": [
+     5.95,
+     7.15
+    ]
+   }
+  ],
+  "evidencia": "DECISION_ESCALERA_256 (primer tramo); RESOLUCION_ESCALERA_255 (U hipotética); AUDITORIA_ESCALERA_248"
+ }
+}

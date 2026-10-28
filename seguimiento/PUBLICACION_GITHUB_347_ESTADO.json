@@ -1,0 +1,31 @@
+{
+  "fecha_utc": "2026-10-25T03:47:26.067711+00:00",
+  "repositorio": "Ronaldo04/draft2model",
+  "rama": "codex/proyecto-limpio-347",
+  "main_base": "8aa92af04779c1bb9b23ba63a02308a124de742a",
+  "commit_nuevo": "375b6f4f303db225d11968e57afcf11b3fba62c7",
+  "pull_request": "https://github.com/Ronaldo04/draft2model/pull/8",
+  "estado": "integrado_main_aplicacion_documentacion",
+  "lotes_texto_completados": 26,
+  "lotes_texto_totales": 44,
+  "arbol_parcial": "ef6a544c8d7134f9a3a595bb809ecf69f95103a5",
+  "zip_sintetico_blob_remoto": "f036f72ce9fb95b05ea989fcb45709b073c42c92",
+  "zip_sha256": "f309fc057a2427ec5f62c34b4e6775d0b9acca9b9f81cd35f19d51f2c5553a17",
+  "validacion": {
+    "python": 1483,
+    "frontend": 39,
+    "fallos": 0,
+    "omisiones": 0,
+    "archivos_estables": true,
+    "validacion_piloto": false
+  },
+  "agente": "/root/publicacion_github",
+  "copia_limpia": "entregas/publicacion_github_346/proyecto",
+  "restriccion": "Mantener datos privados y pruebas fuera de main. No confundir publicación con aceptación funcional global.",
+  "alcance_humano": "Solo aplicación y documentación",
+  "merge_commit": "637346db7b7697a065da2b9f90574d355959975c",
+  "arbol_final": "0bb4f4baf68476979afb4da6f0501d04cbdb84a5",
+  "archivos_finales": 173,
+  "fuentes_codigo_base": 347,
+  "raiz348_no_publicada": true
+}

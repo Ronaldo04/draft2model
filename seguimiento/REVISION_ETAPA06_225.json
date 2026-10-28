@@ -1,0 +1,57 @@
+{
+  "estado": "revisada_con_correcciones_pendientes",
+  "entrega": "a0292ab2b8154a109c9b19bbd38191c4",
+  "snapshot_miembros_verificados": 513,
+  "logs_entrega_verificados": 4,
+  "copia_fuentes_verificadas": 663,
+  "diferencias_snapshot_copia": [
+    "docs/RETOMAR.md"
+  ],
+  "logs_copia": [
+    {
+      "nombre": "dependencias",
+      "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+      "resumen": []
+    },
+    {
+      "nombre": "arranque_cli",
+      "sha256": "6b5c1c5d47d8e13befa2a8151db23bab9e6ec98029c81b5c72df57803f01c4e9",
+      "resumen": []
+    },
+    {
+      "nombre": "powershell_scripts",
+      "sha256": "926cd16db94f6e4035e6b5f41c7e93e107e456a274ad77e1ed1c26bdd2b3882f",
+      "resumen": []
+    },
+    {
+      "nombre": "suite",
+      "sha256": "874da66ce01dc2e9615eeb8ba978be1cab571624ab0674eb45ea465c82428c6e",
+      "resumen": [
+        "Ran 1164 tests in 772.376s",
+        "OK"
+      ]
+    },
+    {
+      "nombre": "interfaz",
+      "sha256": "0b7505bfcc69fb6e30f034d5b4c4555f6fc9aa08171b439d99d88187822e8700",
+      "resumen": [
+        "# tests 30",
+        "# fail 0",
+        "# skipped 0"
+      ]
+    }
+  ],
+  "prueba_focal_codex": {
+    "comando": "node tests/ruta201_frontend.cjs",
+    "directorio": "tmp/revision_codex_225",
+    "codigo": 0,
+    "resultado": "Rechaza huella ausente/null/tipo incorrecto; resumen malla correcto."
+  },
+  "pendientes": [
+    "R223-06: restauración autónoma del snapshot no completa por excluir3archivos legítimos de código.",
+    "Estado de bloqueos y conteo API de informe06 obsoletos; nueva continuación07 en marcha.",
+    "Piloto real y aplicación normativa sin demostrar."
+  ],
+  "suite_repetida_por_codex": false,
+  "goal_completo": false
+}

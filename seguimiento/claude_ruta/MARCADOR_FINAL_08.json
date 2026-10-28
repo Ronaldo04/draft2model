@@ -1,0 +1,33 @@
+{
+  "tarea": "encargo_08_cerrar_brechas_evidencia",
+  "estado": "entregado_pendiente_revision_codex",
+  "fecha": "2026-10-21",
+  "entregas": {
+    "04": {
+      "manifiesto": "entregas/04-d3de8e4b14fa4ccbbbe7931f0f983c34/manifiesto.json",
+      "zip_sha256": "7032b3e6a6aa11179b7d8490c428ab23d2db812c6b1171809e1d2d11e97a17d1"
+    },
+    "06": {
+      "manifiesto": "entregas/06-c54f77043471420fac2dc2a30cee5749/manifiesto.json",
+      "zip_sha256": "4ce97d6020d764ee8988dbb8f6e23dbd99dd544810debc03e4ac6e9381a37f5f"
+    }
+  },
+  "restauracion_06_codigo": 0,
+  "hashes": {
+    "seguimiento/claude_ruta/INFORME_08.md": "ddea8f6f29f240687e27c6f363c33b7f4ed483d983c25c7bf522894993e5075a",
+    "seguimiento/claude_ruta/BORRADOR_CASO_08.json": "127dcd67fda39d2fd0995f7e757db2c3571fe8269f6810e8262e51d2595fdde5",
+    "seguimiento/claude_ruta/EVIDENCIA_ANTES_DESPUES_08.json": "d32b2f2268532a8060a0edd25c62d8ed73344efb83de583a20ca7ddaae198b5b",
+    "seguimiento/claude_ruta/DERIVACION_PUEBLO_LIBRE_002.json": "0278eaa85c953c4aa3043c7ebb19d8de9241fa204326c349223df618a66555b4",
+    "seguimiento/claude_ruta/QA_VISUAL_08.json": "0f50926c4580f7334f0718132571f137ea539e6d0e2853384261d99473cfec71",
+    "seguimiento/claude_ruta/RESTAURACION_06D.json": "f2360c15f9d56ddc02a1dba1a6dba5881978882f378bc2c637a9e3d2c9f226e8",
+    "seguimiento/claude_ruta/estado.json": "134d5f10d3f3fb74a27ca3d902447361c1229fcc1afa66de418738dec966c0df",
+    "entregas/04-d3de8e4b14fa4ccbbbe7931f0f983c34/manifiesto.json": "c5a3f555cffe4738bf76b80dbdc8405cd1c02244dab540cbffc2184dc19c8e9d",
+    "entregas/06-c54f77043471420fac2dc2a30cee5749/manifiesto.json": "f82dca34961e90253231554bbd184f84073c79ed83e216c9f73f4d83a15c2dcc"
+  },
+  "no_declara": [
+    "cierre del proyecto",
+    "aprobación de ingeniería",
+    "cumplimiento normativo"
+  ],
+  "apis_ejecutadas_por_claude": 0
+}

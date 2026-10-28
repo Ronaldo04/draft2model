@@ -1,0 +1,105 @@
+{
+  "tarea": "ruta_autonoma_201",
+  "etapa_actual": "04",
+  "estado": "trabajando",
+  "ultima_entrega": "entregas/06-cd20a685e89b42b1888d5ec1d83d8095/manifiesto.json",
+  "siguiente_accion": "Hito 09E documentado; recorrido nativo del caso real bloqueado por aprobación y faltantes (escalera, sitio/sistema).",
+  "procesos_vivos": [],
+  "bloqueos": [],
+  "tarea_actual": "Encargo 09",
+  "dependencias_externas": [
+    "EMS no disponible: escenarios de suelo SOLO como hipótesis identificadas (autorizado, DECISION_USUARIO_246)",
+    "Sistema sísmico no confirmado: escenarios declarados (L0001 declara R=6)",
+    {
+      "que": "APIs solo por Codex (4/5 OpenAI, 2/5 Gemini); Claude no ejecuta llamadas",
+      "tipo": "coordinacion"
+    }
+  ],
+  "entregas_correctivas_07": [
+    "entregas/04-900585f146cf4335aed45768d8bc6747/manifiesto.json",
+    "entregas/06-e96facbfa6d84161b3be7aafcf02e828/manifiesto.json"
+  ],
+  "entregas_correctivas_08": [
+    "entregas/04-d3de8e4b14fa4ccbbbe7931f0f983c34/manifiesto.json",
+    "entregas/06-c54f77043471420fac2dc2a30cee5749/manifiesto.json"
+  ],
+  "punto_retomar_09": {
+    "hecho": [
+      "R236 (cortante, TP/TL, cobertura efectiva, cuarentena web + QA real)",
+      "R239 docs",
+      "R241 tipo_shell_losa por sección (plan/relectura/modelo guardado)",
+      "R243 (cierres laterales, unión por distancia; inventario sin impacto)",
+      "Vs30 Tabla 3 (29/29 fragmentos)",
+      "configuracion_normativa (materiales/espectro/fuentes oficiales)",
+      "Inventario vectorial L0001 (40 elementos) y huecos de losa por nivel",
+      "Geometría 0.3 borrador 8b39dd52 registrada",
+      "Configuración 0.5 borrador (18 errores = puertas) CONFIGURACION_CASO_09.json",
+      "Hito 09A publicado entregas/04-2f1d24d2…",
+      "Focales 09B: 173 OK + Node",
+      "09B publicado (04-f6bf94dd…, 06-1da89b0c…, restauración 0)",
+      "Plantilla propia del caso: data/private/pueblo-libre-002/plantillas (PID 10072 propio, cerrado; SHA e4759527…) → $.plantilla",
+      "MUROS_09 (L0004/L0005, pluma 1,68): 8 muros KK 0,15 + placas 0,10; diagonales PL-4; ductos/columnas fuera con motivo",
+      "Geometría conforme 7c84de15 (hija de 8b39dd52): 2083 superficies, 1931 vértices, 0 colgantes, validador 0/0",
+      "configuracion_09b.py: 2 errores = puerta de albañilería (material) + malla pendiente de esos errores",
+      "Malla diagnóstica: 4182 triángulos, 0 subdivisiones, 32 nodos derivados (diagonales PL-4) por declarar",
+      "Hito 09C: c211 1211 OK; entregas 04-dd25d50b…, 06-26f220ab…; restauración 06F código 0",
+      "Hito 09D: C-1 L nativa (contrato/plan/ejecutor/relectura + ensayo propio), CLI 0.5 por sección, ciclo de vida de plantilla, material KK arcilla, reserva 246 liberada; entregas manifiesto.…, manifiesto.…",
+      "Hito 09E: geometría 3905c919 (PL-10 cercos, C-6 N0–N3, cisterna, tanque E03-apoyos; escalera registrada no modelada), configuración 09C consistente 0 errores con malla real única 144,3 s (32 nodos derivados declarados), escenarios sísmicos hipotéticos S1–S3 × R0 3/6, escenarios de agua preparados no aplicados"
+    ],
+    "en_curso": null,
+    "siguiente_tecnico": [
+      "Decisión: aprobación (aunque sea de transporte) para el recorrido ETABS del caso real",
+      "Escalera: cortes A-A/B-B o detalle con contrahuellas por tramo para modelarla; con ella, aplicar el agua",
+      "Elegir escenario de suelo/sistema (hipótesis) para el sismo estático/espectral del recorrido"
+    ],
+    "requiere_usuario": [],
+    "no_hacer": [
+      "APIs",
+      "declarar cierre con borrador o sintéticos",
+      "aprobar lecturas pendientes"
+    ],
+    "decisiones_usuario_246": {
+      "archivo": "seguimiento/DECISION_USUARIO_246.json",
+      "sha256": "4d9cbd69a25dbb66b79115b458b2ac00c0370409892fe89ba69f207f1410c716",
+      "resuelto": [
+        "unidad de albañilería: arcilla King-Kong (E.070 24.7 → Em = 500 f'm)",
+        "niveles 0/2,60/5,20/7,80/10,40 confirmados"
+      ],
+      "sin_EMS": "escenarios de suelo SOLO como hipótesis identificadas; nunca suelo real ni sustituto del EMS",
+      "no_confirmado": [
+        "sistema sísmico",
+        "Vs30",
+        "capacidad portante",
+        "resistencias adicionales",
+        "aprobación de diseño"
+      ]
+    },
+    "reserva_246": "LIBERADA por Codex 247; malla real autorizada UNA vez con geometría/configuración estables; añadir 5 archivos al siguiente snapshot",
+    "cola_247": [
+      "C-1 en L nativa (en curso)",
+      "C6/PL10/escalera/cisterna/tanque/aberturas",
+      "nodos derivados y diafragmas",
+      "plan-etabs 0.5 con tipo_shell_losa por sección desde JSON (BRECHA_CLI_247)",
+      "ciclo de vida de crear_plantilla_etabs_caso.ps1 (REVISION_PLANTILLA_247)",
+      "recorrido ETABS propio por etapas"
+    ],
+    "insumos_248": [
+      "seguimiento/AUDITORIA_DEPOSITOS_248.md",
+      "seguimiento/AUDITORIA_ESCALERA_248.md",
+      "seguimiento/AUDITORIA_C6_PL10_248.md",
+      "seguimiento/REVISION_AUDITORIAS_248.json"
+    ]
+  },
+  "entregas_09B": [
+    "entregas/04-f6bf94ddfcfa4e82a2c65a00ead643ea/manifiesto.json",
+    "entregas/06-1da89b0ce9d042a9a19ad1d7c320a289/manifiesto.json"
+  ],
+  "entregas_09C": [
+    "entregas/04-dd25d50b73964115939212915084f78d/manifiesto.json",
+    "entregas/06-26f220ab94c540b1abb7b8263ba44d10/manifiesto.json"
+  ],
+  "entregas_09D": [
+    "entregas/04-5b8365a8989f4fb7bc6574a730de2596/manifiesto.json",
+    "entregas/06-cd20a685e89b42b1888d5ec1d83d8095/manifiesto.json"
+  ]
+}

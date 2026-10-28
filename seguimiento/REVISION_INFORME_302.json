@@ -1,0 +1,65 @@
+{
+  "informe": "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\recorrido_09d3\\resultados\\informe",
+  "hashes": {
+    "carpeta": "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\recorrido_09d3\\resultados\\informe",
+    "informe.json": "d9ff228ce9aeb6db89078a6dbe0b3aed7e7b9bb398cf49d3c8bda1ee7b2d619d",
+    "informe.html": "ef5ecc81567acd9fc87bba8e7fa4ba547281d31845ec0283ecccd380ebe54f43",
+    "informe.pdf": "ca4fc1432c509af1bc944f376e8f60f4a16f94fc3a8eff4e63b59ef2dbb5acf9",
+    "secciones": [
+      "aviso",
+      "caso_id",
+      "contenido_masa",
+      "contexto",
+      "contrato",
+      "controles_analisis",
+      "corrida_id",
+      "datos_sinteticos",
+      "evaluacion",
+      "evidencia_analisis",
+      "fuentes",
+      "geometria",
+      "huellas",
+      "masa_nativa",
+      "motor",
+      "reglas",
+      "resultados",
+      "revision",
+      "siete_resultados",
+      "version_contrato"
+    ],
+    "masa_nativa_incluida": true
+  },
+  "evaluaciones_18_identicas_en_valor_limite_y_decision": true,
+  "evidencia_analisis_igual_09d2": true,
+  "ratios": [
+    [
+      "VMIN-SX",
+      "kN",
+      "1"
+    ],
+    [
+      "VMIN-SY",
+      "kN",
+      "1"
+    ]
+  ],
+  "PDF_renderizado": "tmp\\pdfs\\revision_302",
+  "revision_visual": {
+    "paginas": 8,
+    "paginas1y2": "Texto idéntico al PDF09d2 previamente revisado",
+    "paginas3a6": "Revisadas en render MuPDF; captura de masa visible y NO COHERENTE conservado; geometría/13indicadores/evaluaciones legibles",
+    "paginas7y8": "Página7 legible completa en Poppler; página8 legible completa en MuPDF aislada. Algunos renders secuenciales presentan prefijos incompletos; texto extraído y sus cajas están dentro de página. No causa confirmada.",
+    "salvedad": "Compatibilidad de rasterizadores no resuelta; visorPDF del navegador integrado no mostró contenido y no acredita revisión visual. No modificar números ni afirmar conformidad por PDF legible."
+  },
+  "panel": {
+    "archivo": "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\recorrido_09d3\\resultados\\panel.html",
+    "sha256": "bafe14673386ade9077910acca57ef92663580e5f1e5b9660daf100de8038e82",
+    "DOM": "VMIN-SX y VMIN-SY muestran límite0.8 unidad1 y entrada kN; filtrocortante2filas, SY1fila528.1533kN",
+    "captura": "seguimiento/QA_PANEL_REAL_302.png",
+    "salvedad": "Advertencias del lector; hipótesis y contraste de masa se desarrollan en el informe, no se atribuyen al panel."
+  },
+  "goal_completo": false,
+  "fecha_utc": "2026-10-23T21:52:11.187081+00:00",
+  "evaluaciones_no_satisfechas": 10,
+  "masa_oficial": "no_coherente"
+}

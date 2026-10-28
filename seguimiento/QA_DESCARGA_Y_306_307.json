@@ -1,0 +1,26 @@
+{
+  "fecha_utc": "2026-10-24T02:57:08.114740+00:00",
+  "informe": "d0aae89744524766b122d604c59e0d3e",
+  "caso": "pueblo-libre-002",
+  "resultado": "697bb37e9ce64f90ba1ef3e25733c8cc",
+  "analisis": "7203c79a3ece4438b36d267ba80f3c4b",
+  "archivo_descargado": "C:\\Users\\HP\\Downloads\\informe-d0aae89744524766b122d604c59e0d3e.pdf",
+  "bytes": 117212,
+  "sha256": "c7d3c32da053df32bdfe2d52848ce4ec188677397951e571c25a058cf73e2c26",
+  "sha_publicado_coincide": true,
+  "recorrido": "Chrome18303, versión303; usuario pulsóDescargarPDF y confirmó descarga; Codex comprobó archivo real por bytes/hash",
+  "qa306": {
+    "url": "http://127.0.0.1:18306/",
+    "filas": 13,
+    "inventario_sin_comprobar_descarga_bloqueada": true,
+    "informe_abierto_y_descarga_habilitada": true,
+    "sha_json_mostrado": "0f0d56e9f46f0d5911fcd873eedc5032dea1589df5982c5d4b61f5e9d4c121f9",
+    "capturas": [
+      "seguimiento/QA_INVENTARIO_INFORMES_306.png",
+      "seguimiento/QA_INFORME_ABIERTO_306.png"
+    ]
+  },
+  "no_afirmar": "La descarga Chrome no se ejecutó en306. Su apertura sí se observó en IAB306. No prueba nuevas llamadas IA ni nuevo análisis ETABS.",
+  "control_navegador": "waitForEvent(download) bloquea herramientas aun sin await; PROHIBIDO repetir esta técnica en este entorno. Chrome debugger quedódesconectado; no intentar input sin recuperarlo.",
+  "goal_completo": false
+}

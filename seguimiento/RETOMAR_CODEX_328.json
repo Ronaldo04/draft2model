@@ -1,0 +1,77 @@
+{
+  "fecha_utc": "2026-10-24T17:56:35.919426+00:00",
+  "anterior": "seguimiento/RETOMAR_CODEX_326.json",
+  "goal_completo": false,
+  "responsable_unico": "Codex; sin Claude, subagentes ni nuevas delegaciones.",
+  "estado_hito": "Antigravity revisado; referencia asistida corregida y evaluada; entrega académica preparada.",
+  "distribucion_validada": "entregas/AECODE_ENTREGA_325",
+  "entrega_presentacion": {
+    "archivo": "entregas\\AECODE_PRESENTACION_328_FINAL.zip",
+    "sha256": "6a1dc4f39d24839fb03bf5be252734fe975327fb4cf4ba82f1f12be0cd734949",
+    "bytes": 97544769,
+    "archivos_sin_manifiesto": 74,
+    "validacion": {
+      "enlaces_comprobados": 11,
+      "enlaces_rotos": [],
+      "integridad_programa_y_caso": {
+        "estado": "integridad_verificada_no_aceptacion_funcional",
+        "huella_fuentes": "3465f8d19e39107bf169f2ebede6b6d072949258154029ec74a7c79d1fc88bd0",
+        "caso": "pueblo-libre-002",
+        "archivos_fuentes": 609,
+        "archivos_complemento": 34,
+        "aprueba_ingenieria": false
+      },
+      "cuatro_evaluaciones_cli_identicas": true,
+      "revision_humana_realizada": false,
+      "codigo_y_edb_modificados": false
+    },
+    "goal_completo": false,
+    "aclaracion_modelo": "Resultados condicionados a modelo/hipótesis; no juicio de seguridad del edificio ni RNE integral."
+  },
+  "guia": "entregas/AECODE_PRESENTACION_328/LEER_PRIMERO.md",
+  "reporte": "entregas/AECODE_PRESENTACION_328/REPORTE_ESTADO.md",
+  "revision_antigravity": {
+    "directorio": "seguimiento/revision_antigravity_328",
+    "observaciones_revisadas": 33,
+    "observaciones_ajustadas": 13,
+    "naturaleza": "Asistida por IA; no humana ni independiente.",
+    "referencia_fijada_antes_de_respuestas": true,
+    "evaluaciones_cli_reproducidas": 4,
+    "denominadores_legibles_por_cohorte": [
+      32,
+      11,
+      21,
+      11
+    ],
+    "advertencia": "Muestra parcial con criterio estricto de tipo y región; no precisión global OCR.",
+    "usuario_pendiente_de_anotador": false
+  },
+  "verificacion": {
+    "software": "325: 1471 Python + 36 interfaz; cinco comprobaciones correctas; código intacto.",
+    "nuevo_trabajo": "Cuatro evaluaciones CLI reproducidas, once enlaces nuevos válidos y hashes del paquete verificados.",
+    "edb_original_intacto": true,
+    "nuevas_llamadas_api": 0,
+    "nueva_ejecucion_nativa_etabs": false,
+    "trabajos_pendientes_en_ejecucion": [],
+    "no_repetir": "No repetir suites 325, perfiles ni recorrido 322 sin cambios que lo justifiquen."
+  },
+  "pendientes_materiales": [
+    "Robustez de entrada automática: localización, taxonomía, unidades y configuración supervisada.",
+    "Generalización a otros proyectos y tipologías; todavía no está acreditada.",
+    "Rendimiento interactivo del expediente grande.",
+    "Revisión independiente de ingeniería para uso real; escenarios sin EMS y reglas RNE parciales."
+  ],
+  "restricciones": [
+    "No leer credenciales ni realizar nuevas llamadas LLM.",
+    "No procesar proyectos 2/3 hasta resolver la instrucción previa de validar el primero.",
+    "Modelo ETABS manual y comparación aplazados por el usuario.",
+    "Conservar 18 comparaciones, incluidas 10 no satisfactorias, y tolerancias originales.",
+    "No declarar aprobación estructural ni automatización universal.",
+    "Heartbeat de Claude permanece pausado."
+  ],
+  "siguiente": [
+    "Presentar el paquete FINAL y el reporte de límites; no modificar el software congelado por preparación de entrega.",
+    "Si continúa desarrollo, priorizar entrada automática con casos reproducibles de localización/unidades y abstenciones explícitas.",
+    "Usar evidencias 328 existentes; no volver a pedir referencia humana al usuario como condición de esta entrega asistida."
+  ]
+}

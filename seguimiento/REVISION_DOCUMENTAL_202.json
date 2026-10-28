@@ -1,0 +1,79 @@
+{
+  "fecha": "2026-10-21",
+  "tipo": "revision_documental_independiente",
+  "estado": "hallazgos_pendientes_de_correccion",
+  "sin_implementacion_paralela": true,
+  "fuentes_sha256": {
+    "README.md": "000d9bb75b98cf7f1914ff5aa251f61c97921890ec23430741c91b15aa869789",
+    "docs/CONTEXTO_PROYECTO.md": "9ae139d29612833bfa558c8293f47d5226b680b3b21799e46e2279e872346b37",
+    "docs/MATRIZ_CIERRE_VIGENTE.md": "0ca10ea5710193574f14c1bfc022b1802556b50cadb799459e3337a984b28090"
+  },
+  "observaciones": [
+    {
+      "id": "R202-01",
+      "prioridad": "P2",
+      "etapas": [
+        "03",
+        "05",
+        "06"
+      ],
+      "hallazgo": "La documentación marcada vigente conserva inventarios históricos como actuales: contrato geométrico0.1, módulos ya integrados como en desarrollo y copia100 como última amplia, mientras README menciona146/148.",
+      "fuentes": [
+        "docs/CONTEXTO_PROYECTO.md:48",
+        "docs/CONTEXTO_PROYECTO.md:54",
+        "docs/CONTEXTO_PROYECTO.md:63",
+        "README.md:36"
+      ],
+      "criterio_aceptacion": "Actualizar matriz/guía/contexto con evidencia por versión y fecha; conservar fallos históricos como históricos y no atribuir850tests antiguos al árbol actual. No eliminar requisitos para hacer coincidir documentos."
+    },
+    {
+      "id": "R202-02",
+      "prioridad": "P1",
+      "etapas": [
+        "03",
+        "04",
+        "06"
+      ],
+      "hallazgo": "La matriz y contexto tratan comparación manual como condición de cierre inmediato. El usuario la aplazó hasta que entreguemos nuestros resultados finales y retiene ese modelo.",
+      "fuentes": [
+        "docs/CONTEXTO_PROYECTO.md:69",
+        "docs/MATRIZ_CIERRE_VIGENTE.md"
+      ],
+      "criterio_aceptacion": "Distinguir piloto real actual y comparación manual aplazada por el usuario; no usar ese modelo como guía ni pedirlo para desbloquear infraestructura. No afirmar generalización a albañilería de1-2niveles solo por funcionar otra referencia."
+    },
+    {
+      "id": "R202-03",
+      "prioridad": "P2",
+      "etapas": [
+        "03",
+        "05"
+      ],
+      "hallazgo": "README ofrece proveedores compatible/Gemini como en implementación; el recorrido autorizado actual es soloGoogle/OpenAI. UI antigua aún mostrabaAnthropic/compatible aunque gate limita llamadas.",
+      "fuentes": [
+        "README.md:33",
+        "seguimiento/claude_ruta/03_INTEGRACION_REFERENCIA.md"
+      ],
+      "criterio_aceptacion": "Documentar soloGoogle/OpenAI como operativos autorizados, coherenciaUI/CLI/gate, preservar lectura de datos históricos sin habilitar proveedor extra; explicar ningunaAPI adicional requerida paraETABS local."
+    },
+    {
+      "id": "R202-04",
+      "prioridad": "coordinacion",
+      "etapas": [
+        "01",
+        "03",
+        "05"
+      ],
+      "hallazgo": "La ruta no enumeraba archivos raíz necesarios para guía/instalación. Se amplía propiedad explícitamente sin necesidad de nuevo mensaje.",
+      "archivos_autorizados": [
+        "README.md",
+        "requirements.txt",
+        "requirements-win-py310.lock",
+        "Abrir revision de planos.cmd",
+        "Abrir control de avance.cmd"
+      ],
+      "criterio_aceptacion": "Puedes modificar esos archivos y conservarlos en snapshots; sonda de revisión ya los admite. No tocar claves ni otros privados."
+    }
+  ],
+  "api_ia": 0,
+  "computer_use": false
+}

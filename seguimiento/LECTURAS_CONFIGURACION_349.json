@@ -1,0 +1,296 @@
+{
+  "extraccion": "edb0e7f4c1ac45fa91c2103f693ed2a4",
+  "huella_lectura": "a1a49417be9f347ba3f574c2397ac293a99354227fc25c8a22244c190ea37d0a",
+  "lecturas": [
+    {
+      "id": "C082",
+      "tipo": "propiedad",
+      "valor": 210,
+      "unidad": "kgf/cm2",
+      "texto": "f'c = 210Kg/cm2",
+      "estado_lectura": "pendiente",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "547f34d01f5876e50e2ba2d3bb4ea8d0ec66ec239840390650c946cd4bcc29ee",
+          "bbox_normalizada": [
+            0.8262496725440805,
+            0.10805130641330166,
+            0.8872681108312342,
+            0.12005700712589074
+          ],
+          "recorte_id": "d8961f5c8bc34af0b31552fbd40efa79",
+          "imagen_sha256": "0d0e6f4676f603d4d63cafef079587478a7ada0c9607a1e42588bb6a041b7f85"
+        }
+      ],
+      "resistencia_concreto": true
+    },
+    {
+      "id": "C083",
+      "tipo": "propiedad",
+      "valor": 4200,
+      "unidad": "kgf/cm2",
+      "texto": "fy = 4200 Kg/cm2",
+      "estado_lectura": "pendiente",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "547f34d01f5876e50e2ba2d3bb4ea8d0ec66ec239840390650c946cd4bcc29ee",
+          "bbox_normalizada": [
+            0.8262496725440805,
+            0.12005700712589074,
+            0.8892687153652393,
+            0.13206270783847981
+          ],
+          "recorte_id": "d8961f5c8bc34af0b31552fbd40efa79",
+          "imagen_sha256": "0d0e6f4676f603d4d63cafef079587478a7ada0c9607a1e42588bb6a041b7f85"
+        }
+      ],
+      "resistencia_concreto": false
+    },
+    {
+      "id": "C084",
+      "tipo": "carga",
+      "valor": 200,
+      "unidad": "kgf/m2",
+      "texto": "AZOTEA : 200 Kg / m2",
+      "estado_lectura": "pendiente",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "547f34d01f5876e50e2ba2d3bb4ea8d0ec66ec239840390650c946cd4bcc29ee",
+          "bbox_normalizada": [
+            0.8402539042821159,
+            0.1820864608076009,
+            0.902272644836272,
+            0.1930916864608076
+          ],
+          "recorte_id": "d8961f5c8bc34af0b31552fbd40efa79",
+          "imagen_sha256": "0d0e6f4676f603d4d63cafef079587478a7ada0c9607a1e42588bb6a041b7f85"
+        }
+      ],
+      "resistencia_concreto": false
+    },
+    {
+      "id": "C085",
+      "tipo": "carga",
+      "valor": 300,
+      "unidad": "kgf/m2",
+      "texto": "RESTO : 300 Kg / m2",
+      "estado_lectura": "pendiente",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "547f34d01f5876e50e2ba2d3bb4ea8d0ec66ec239840390650c946cd4bcc29ee",
+          "bbox_normalizada": [
+            0.8402539042821159,
+            0.1930916864608076,
+            0.9002720403022672,
+            0.20409691211401423
+          ],
+          "recorte_id": "d8961f5c8bc34af0b31552fbd40efa79",
+          "imagen_sha256": "0d0e6f4676f603d4d63cafef079587478a7ada0c9607a1e42588bb6a041b7f85"
+        }
+      ],
+      "resistencia_concreto": false
+    },
+    {
+      "id": "C086",
+      "tipo": "carga",
+      "valor": 300,
+      "unidad": "kgf/m2",
+      "texto": "ESCALERA : 300 Kg / m2",
+      "estado_lectura": "pendiente",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "547f34d01f5876e50e2ba2d3bb4ea8d0ec66ec239840390650c946cd4bcc29ee",
+          "bbox_normalizada": [
+            0.8402539042821159,
+            0.20409691211401423,
+            0.9072741561712846,
+            0.2151021377672209
+          ],
+          "recorte_id": "d8961f5c8bc34af0b31552fbd40efa79",
+          "imagen_sha256": "0d0e6f4676f603d4d63cafef079587478a7ada0c9607a1e42588bb6a041b7f85"
+        }
+      ],
+      "resistencia_concreto": false
+    },
+    {
+      "id": "C087",
+      "tipo": "propiedad",
+      "valor": 1.5,
+      "unidad": "kgf/cm2",
+      "texto": "CAPACIDAD PORTANTE : 1.50 Kg/cm2",
+      "estado_lectura": "pendiente",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "547f34d01f5876e50e2ba2d3bb4ea8d0ec66ec239840390650c946cd4bcc29ee",
+          "bbox_normalizada": [
+            0.7882381863979848,
+            0.24011401425178147,
+            0.8932699244332494,
+            0.2521197149643705
+          ],
+          "recorte_id": "d8961f5c8bc34af0b31552fbd40efa79",
+          "imagen_sha256": "0d0e6f4676f603d4d63cafef079587478a7ada0c9607a1e42588bb6a041b7f85"
+        }
+      ],
+      "resistencia_concreto": false
+    },
+    {
+      "id": "C124",
+      "tipo": "propiedad",
+      "valor": 210,
+      "unidad": "kgf/cm2",
+      "texto": "f'c = 210Kg/cm2",
+      "estado_lectura": "pendiente",
+      "evidencia": [
+        {
+          "archivo_id": "L0004",
+          "pagina": 1,
+          "original_sha256": "57f829749e53d2356f356fb1886187c594f65b811a14bc8e1b8d151bcc277881",
+          "bbox_normalizada": [
+            0.8492566246851385,
+            0.12706033254156768,
+            0.9092747607052897,
+            0.13806555819477437
+          ],
+          "recorte_id": "f127291764bd4698b20f6107af3cc59c",
+          "imagen_sha256": "0f7867e489e1bc53ab04376f917943bcb5b4c1834706a2180b3aa659bb20e600"
+        }
+      ],
+      "resistencia_concreto": true
+    },
+    {
+      "id": "C125",
+      "tipo": "propiedad",
+      "valor": 4200,
+      "unidad": "kgf/cm2",
+      "texto": "fy = 4200 Kg/cm2",
+      "estado_lectura": "pendiente",
+      "evidencia": [
+        {
+          "archivo_id": "L0004",
+          "pagina": 1,
+          "original_sha256": "57f829749e53d2356f356fb1886187c594f65b811a14bc8e1b8d151bcc277881",
+          "bbox_normalizada": [
+            0.8492566246851385,
+            0.13806555819477437,
+            0.9122756675062973,
+            0.149070783847981
+          ],
+          "recorte_id": "f127291764bd4698b20f6107af3cc59c",
+          "imagen_sha256": "0f7867e489e1bc53ab04376f917943bcb5b4c1834706a2180b3aa659bb20e600"
+        }
+      ],
+      "resistencia_concreto": false
+    },
+    {
+      "id": "C126",
+      "tipo": "carga",
+      "valor": 200,
+      "unidad": "kgf/m2",
+      "texto": "AZOTEA : 200 Kg / m2",
+      "estado_lectura": "pendiente",
+      "evidencia": [
+        {
+          "archivo_id": "L0004",
+          "pagina": 1,
+          "original_sha256": "57f829749e53d2356f356fb1886187c594f65b811a14bc8e1b8d151bcc277881",
+          "bbox_normalizada": [
+            0.8622605541561712,
+            0.20009501187648454,
+            0.9232789924433249,
+            0.2111002375296912
+          ],
+          "recorte_id": "f127291764bd4698b20f6107af3cc59c",
+          "imagen_sha256": "0f7867e489e1bc53ab04376f917943bcb5b4c1834706a2180b3aa659bb20e600"
+        }
+      ],
+      "resistencia_concreto": false
+    },
+    {
+      "id": "C127",
+      "tipo": "carga",
+      "valor": 300,
+      "unidad": "kgf/m2",
+      "texto": "RESTO : 300 Kg / m2",
+      "estado_lectura": "pendiente",
+      "evidencia": [
+        {
+          "archivo_id": "L0004",
+          "pagina": 1,
+          "original_sha256": "57f829749e53d2356f356fb1886187c594f65b811a14bc8e1b8d151bcc277881",
+          "bbox_normalizada": [
+            0.8622605541561712,
+            0.2111002375296912,
+            0.9222786901763224,
+            0.22210546318289787
+          ],
+          "recorte_id": "f127291764bd4698b20f6107af3cc59c",
+          "imagen_sha256": "0f7867e489e1bc53ab04376f917943bcb5b4c1834706a2180b3aa659bb20e600"
+        }
+      ],
+      "resistencia_concreto": false
+    },
+    {
+      "id": "C128",
+      "tipo": "carga",
+      "valor": 300,
+      "unidad": "kgf/m2",
+      "texto": "ESCALERA : 300 Kg / m2",
+      "estado_lectura": "pendiente",
+      "evidencia": [
+        {
+          "archivo_id": "L0004",
+          "pagina": 1,
+          "original_sha256": "57f829749e53d2356f356fb1886187c594f65b811a14bc8e1b8d151bcc277881",
+          "bbox_normalizada": [
+            0.8622605541561712,
+            0.22210546318289787,
+            0.9292808060453401,
+            0.23311068883610453
+          ],
+          "recorte_id": "f127291764bd4698b20f6107af3cc59c",
+          "imagen_sha256": "0f7867e489e1bc53ab04376f917943bcb5b4c1834706a2180b3aa659bb20e600"
+        }
+      ],
+      "resistencia_concreto": false
+    },
+    {
+      "id": "C129",
+      "tipo": "propiedad",
+      "valor": 1.5,
+      "unidad": "kgf/cm2",
+      "texto": "CAPACIDAD PORTANTE : 1.50 kg/cm2",
+      "estado_lectura": "pendiente",
+      "evidencia": [
+        {
+          "archivo_id": "L0004",
+          "pagina": 1,
+          "original_sha256": "57f829749e53d2356f356fb1886187c594f65b811a14bc8e1b8d151bcc277881",
+          "bbox_normalizada": [
+            0.8122454408060454,
+            0.25612161520190024,
+            0.9172771788413099,
+            0.2671268408551069
+          ],
+          "recorte_id": "f127291764bd4698b20f6107af3cc59c",
+          "imagen_sha256": "0f7867e489e1bc53ab04376f917943bcb5b4c1834706a2180b3aa659bb20e600"
+        }
+      ],
+      "resistencia_concreto": false
+    }
+  ],
+  "aprueba_lecturas": false,
+  "aprueba_ingenieria": false
+}

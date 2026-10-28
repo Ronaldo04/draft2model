@@ -1,0 +1,56 @@
+{
+  "fecha_utc": "2026-10-22T22:47:10.032993+00:00",
+  "estado": "integracion_focal_verificada_piloto_pendiente",
+  "archivos": {
+    "draft2model/revision_lecturas.py": "a103bdaabb40720d503d9bf97064b57e78123aed579e4d1e6be0ae8543abfe15",
+    "draft2model/revision_entregables.py": "a499863d2f82cd0edc1995f2a7416045d8babbd2bc3ee2f869d5496201576311",
+    "draft2model/informe.py": "ab6a8c867c38094c79f1ef87df4cfd35bb11e1b56f31cc9a3e7dd8922b66b8c3",
+    "draft2model/revision_web/lecturas.js": "4dbff0c4f82aa691bbd8ad8a525be8edbb7294c64324c1468664249f2fa957ec",
+    "draft2model/revision_web/informes.js": "be3a0fc25462364e884c10ad31093ccb54114fd8ece7e53cc1e48b547490f240",
+    "draft2model/revision_web/index.html": "e07ae9563eb6f7bf5c292d88d2c8d1d73bdf0d99eca913d07304843f2d82f639",
+    "tests/test_lecturas_masa_web_267.py": "815f45d060156ac925c72a73b91f8139babdd76d0ee4210cc0ffbc181896ac89",
+    "tests/test_entregables_masa_web_267.py": "bd239858b6ef61e90c3a18b049be6fa90d8799bb4e28cbd0230e3d04beaa21d6",
+    "tests/masa_web_267_frontend.cjs": "a73c6e07b3b60786c097a35aae6adac5134d00ec1afc16fd96b775e48d94aa48",
+    "docs/FLUJO_MASA_WEB.md": "7151b5b1504b458a695321d188e51bf8ae23f3a631af44c88e03c82c53261f34"
+  },
+  "pruebas_propias": [
+    {
+      "seleccion": "entregables + HTTP + aprobación documental + validadores de informe masa/contenido",
+      "resultado": "22OK",
+      "segundos": 41.927,
+      "entorno": "TEMP en workspace; primera ejecución en TEMP sandbox falló WinError5, no producto"
+    },
+    {
+      "seleccion": "nuevo ciclo documental masa267",
+      "resultado": "3OK",
+      "segundos": 11.404,
+      "incluye": "crear, JSON/PDF, aprobación hija, alteración/referencias, opt-in inválido; fuentes sustituidas explícitas"
+    },
+    {
+      "seleccion": "puente fuente web + rechazo CLI doble",
+      "resultado": "2OK",
+      "segundos": 0.055
+    },
+    {
+      "seleccion": "lecturas opt-in/persistencia/reinicio",
+      "resultado": "1OK",
+      "segundos": 6.922
+    },
+    {
+      "seleccion": "node tests/masa_web_267_frontend.cjs",
+      "resultado": "4/4OK"
+    }
+  ],
+  "revision_subagente": {
+    "backend": "4/4 + adversarial1/1 + regresión2/2",
+    "frontend": "nueva4/4; anteriores lectura14/14 y aprobación13/13; informe/relecturaOK"
+  },
+  "fallo_corregido": "renderizar_html sobrescribía contexto c con contraste masa; KeyError titulo al exportar. Renombrado contraste_masa; reproducción original conservada en salida de pruebas y ciclo corregido pasa. Se amplió reserva del puente para esta corrección localizada.",
+  "sin_etabs_ni_apis": true,
+  "limites": [
+    "Pruebas con fuentes y transporte sintéticos, no validación nativa del piloto",
+    "Pendiente visual integrada y cierre completo",
+    "Propiedad de archivos sigue reservada a Codex hasta aviso confirmado; Computer Use detenido por Escape"
+  ],
+  "goal_completo": false
+}

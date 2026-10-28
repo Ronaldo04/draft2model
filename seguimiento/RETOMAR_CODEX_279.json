@@ -1,0 +1,19 @@
+{
+  "fecha_utc": "2026-10-23T15:19:09.182069+00:00",
+  "goal_completo": false,
+  "clasificacion_turno_anterior": "limite_cuota_verificado",
+  "clasificacion_actual": "progreso",
+  "cuota_retomada": "99% restante/5h,53% restante/semanal al inicio; no reset manual utilizado",
+  "revision_extremos": "seguimiento/REVISION_EXTREMOS_278.json",
+  "revision_correccion_conciliacion": "seguimiento/REVISION_CONCILIACION_279.json",
+  "coordinacion": "seguimiento/COORDINACION_CLAUDE_279.json",
+  "QA": "seguimiento/QA_REAL_279.json",
+  "proceso_claude": {
+    "pid": 39028,
+    "creacion": "2026-10-22T21:24:50.286587-05:00",
+    "ultimo_estado": "vivo_CPU_creciente_host",
+    "no_reiniciar_por_espera": true
+  },
+  "propietarios": "Claude producto/tests/runner/perfil de rendimiento; Codex QA17813/runtime276 y seguimiento",
+  "siguiente": "Revisar perfil279 y entrega nueva de Claude; terminar QA desde tab5 y operación de informe ya lanzada. No repetir pruebas resueltas; no proyectos2/3 ni APIs."
+}

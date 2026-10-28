@@ -1,0 +1,84 @@
+{
+  "fecha_utc": "2026-10-23T16:23:47.667602+00:00",
+  "runtime": "tmp\\runtime_qa_285",
+  "huella_fuentes": "ca1f84347986b38311306edf58771fd44f3d44c71182faed732c964834bad2f3",
+  "fuentes_estables": true,
+  "pasos": [
+    {
+      "argv": [
+        "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\.venv\\Scripts\\python.exe",
+        "-m",
+        "venv",
+        "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\instalacion_limpia_287\\.venv"
+      ],
+      "exit_code": 0,
+      "log": "tmp\\instalacion_limpia_287\\paso_1.log",
+      "segundos": 19.342593
+    },
+    {
+      "argv": [
+        "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\instalacion_limpia_287\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "install",
+        "--no-index",
+        "--find-links",
+        "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\wheels_clean_001",
+        "--require-hashes",
+        "-r",
+        "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\runtime_qa_285\\requirements-win-py310.lock"
+      ],
+      "exit_code": 0,
+      "log": "tmp\\instalacion_limpia_287\\paso_2.log",
+      "segundos": 7.582778
+    },
+    {
+      "argv": [
+        "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\instalacion_limpia_287\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "log": "tmp\\instalacion_limpia_287\\paso_3.log",
+      "segundos": 1.925645
+    },
+    {
+      "argv": [
+        "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\instalacion_limpia_287\\.venv\\Scripts\\python.exe",
+        "-m",
+        "draft2model",
+        "--help"
+      ],
+      "exit_code": 0,
+      "log": "tmp\\instalacion_limpia_287\\paso_4.log",
+      "segundos": 1.177501
+    },
+    {
+      "argv": [
+        "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\instalacion_limpia_287\\.venv\\Scripts\\python.exe",
+        "-m",
+        "draft2model.revision_visual",
+        "--help"
+      ],
+      "exit_code": 0,
+      "log": "tmp\\instalacion_limpia_287\\paso_5.log",
+      "segundos": 1.264583
+    },
+    {
+      "argv": [
+        "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\instalacion_limpia_287\\.venv\\Scripts\\python.exe",
+        "-c",
+        "import sys, draft2model, PIL, pymupdf; print(sys.version); print(sys.executable); print(draft2model.__file__); print(PIL.__version__); print(pymupdf.VersionBind)"
+      ],
+      "exit_code": 0,
+      "log": "tmp\\instalacion_limpia_287\\paso_6.log",
+      "segundos": 0.464413
+    }
+  ],
+  "correcto": true,
+  "etabs_ejecutado": false,
+  "api_remota": false,
+  "goal_completo": false,
+  "alcance": "Instalacion offline y entrada CLI de la copia fija285; no es paquete final ni prueba de todas las integraciones."
+}

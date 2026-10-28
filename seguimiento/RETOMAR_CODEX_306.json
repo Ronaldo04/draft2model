@@ -1,0 +1,74 @@
+{
+  "fecha_utc": "2026-10-24T02:24:13.167734+00:00",
+  "goal_completo": false,
+  "anterior": "seguimiento/RETOMAR_CODEX_305.json",
+  "fuentes_congeladas": "entregas/AECODE_RC_306",
+  "huella_fuentes": "105d172afa510864e7487b7721f31e369467c49c2a2f67d310efa44f169ccd79",
+  "complemento": "entregas/COMPLEMENTO_CORREGIDO_303",
+  "global304": {
+    "estado": "terminada_correcta",
+    "exec_historico": 18091,
+    "evidencia": "seguimiento/VALIDACION_DISTRIBUCION_305.json",
+    "no_repetir": "1419 Python y35 Node sin omisiones;597 fuentes intactas. No reinstalar ni reiniciar suite."
+  },
+  "servidor": {
+    "exec": 36115,
+    "pid": 34488,
+    "inicio_local": "2026-10-23T20:37:27",
+    "url": "http://127.0.0.1:18303/",
+    "fuentes": "tmp/validacion_distribucion_303/fuentes",
+    "regla": "No reiniciar ni interrumpir operaciones existentes. Comprobar identidad si handle no existe."
+  },
+  "ui": {
+    "iab": "qa304, browser2/tab1",
+    "chrome": "chrome305, browser3/tab1381157152",
+    "origen": "Usuario abrió Chrome por barra de direcciones; navegación automatizada anterior marcada cross-site rechazó correctamente.",
+    "informe": "d0aae89744524766b122d604c59e0d3e",
+    "publicado_utc": "2026-10-24T01:56:46.774561+00:00",
+    "estado": "Chrome mostró13resultados y listado de borrador; seleccionado d0aae89744524766b122d604c59e0d3e UNA vez; comprobación de apertura en curso. IAB descargaPDF terminó sin archivo confirmado en Downloads; no afirmar descarga local.",
+    "siguiente": "Esperar apertura Chrome y botónPDF habilitado; registrar evento de descarga ANTES de pulsar UNA vez, comprobar bytes/hash. No crear otro informe. Mantener servidor303 mientras termina.",
+    "captura_informe_comprobado": "seguimiento/QA_INFORME_PUBLICADO_305.png",
+    "ultima_observacion": "IAB descargaPDF solicitada una vez, botón deshabilitado mientras espera; Chrome resultado comprobándose,0filas. No repetir acciones. Aviso Failed to fetch de Chrome es anterior: reintento ya cargó6documentos y versión."
+  },
+  "auditoria": "seguimiento/AUDITORIA_CIERRE_305.json",
+  "restricciones": [
+    "No nuevas API: OpenAI4/5 y Gemini2/5; solo lectura de planos.",
+    "No procesar proyectos2/3 ni comparar modelo manual aplazado.",
+    "Claude entregó; Codex cierra. NativeCU suspendido tras Escape; no usarlo sin reanudación humana.",
+    "Heartbeat pausado. <=5% no nuevos trabajos pesados; <=1% guardar y terminar."
+  ],
+  "limitaciones": [
+    "Sin EMS ni aprobación profesional; hipótesis de suelo/sistema.",
+    "10comparaciones no satisfechas y masa oficial no_coherente, sin alterar tolerancias.",
+    "Operaciones completas costosas; no confundir inventario rápido con verificación completa.",
+    "Salvedades de rasterizado PDF documentadas en REVISION_INFORME_302; HTML alternativo.",
+    "Un piloto no demuestra modelado autónomo de cualquier construcción."
+  ],
+  "cierre": "Pendiente descarga real, rendimiento observado y auditoría conjunta; no declarar goal logrado.",
+  "diagnostico_chrome": {
+    "sonda": "seguimiento/diagnostico_origen_305.py",
+    "observado": "fetch mismo origen funciona con encabezado de sesión de diagnóstico sin credencial; Sec-Fetch-Site same-origin",
+    "no_cambios_seguridad": true,
+    "servidor_sonda": "exec7123 cerrado intencionalmente"
+  },
+  "cuota": {
+    "restante_5h": 53,
+    "restante_semanal": 77,
+    "sin_reset_manual": true
+  },
+  "validacion306": {
+    "exec": 30878,
+    "estado_archivo": "tmp/validacion_distribucion_306/estado.json",
+    "pid": 26404,
+    "salida": "tmp/validacion_distribucion_306/verificacion.json",
+    "estado": "en curso, no repetir",
+    "entorno": "mismo offline303, lock y wheels idénticos"
+  },
+  "delta306": {
+    "cambio": "Inventario de informes no acreditativo, comprobación completa al abrir; descarga/aprobación sin cambios",
+    "pruebas": "9 Python focales OK;39 archivos cjs OK sin omisiones;11ms inventario real",
+    "evidencia": "seguimiento/REVISION_INVENTARIO_INFORMES_306.json",
+    "no_presentar_como_final": "Global306 y QA pendientes.303 sigue íntegro, sus pruebas no se atribuyen a306."
+  },
+  "clasificacion_turno_anterior": "progreso: global304 revisada, hashes599/597, inventario306 implementado y probado, ZIP306 congelado"
+}

@@ -1,0 +1,146 @@
+{
+  "estado": "verificado_sintetico",
+  "comprobaciones": [
+    {
+      "control": "resultado final y llamadas",
+      "pasa": true
+    },
+    {
+      "control": "stories_before/pisos sin referencias ficticias",
+      "pasa": true
+    },
+    {
+      "control": "stories_built/pisos sin referencias ficticias",
+      "pasa": true
+    },
+    {
+      "control": "stories_reopened/pisos sin referencias ficticias",
+      "pasa": true
+    },
+    {
+      "control": "ocho cotas probadas",
+      "pasa": true
+    },
+    {
+      "control": "Z-2.5/read",
+      "pasa": true
+    },
+    {
+      "control": "Z-2.5/reopened",
+      "pasa": true
+    },
+    {
+      "control": "Z-0.105/read",
+      "pasa": true
+    },
+    {
+      "control": "Z-0.105/reopened",
+      "pasa": true
+    },
+    {
+      "control": "Z-0.05/read",
+      "pasa": true
+    },
+    {
+      "control": "Z-0.05/reopened",
+      "pasa": true
+    },
+    {
+      "control": "Z0/read",
+      "pasa": true
+    },
+    {
+      "control": "Z0/reopened",
+      "pasa": true
+    },
+    {
+      "control": "Z10.4/read",
+      "pasa": true
+    },
+    {
+      "control": "Z10.4/reopened",
+      "pasa": true
+    },
+    {
+      "control": "Z12.5/read",
+      "pasa": true
+    },
+    {
+      "control": "Z12.5/reopened",
+      "pasa": true
+    },
+    {
+      "control": "Z13.7/read",
+      "pasa": true
+    },
+    {
+      "control": "Z13.7/reopened",
+      "pasa": true
+    },
+    {
+      "control": "Z14.25/read",
+      "pasa": true
+    },
+    {
+      "control": "Z14.25/reopened",
+      "pasa": true
+    },
+    {
+      "control": "X-2.5/read",
+      "pasa": true
+    },
+    {
+      "control": "X-2.5/reopened",
+      "pasa": true
+    },
+    {
+      "control": "Y-2.5/read",
+      "pasa": true
+    },
+    {
+      "control": "Y-2.5/reopened",
+      "pasa": true
+    },
+    {
+      "control": "X14.25/read",
+      "pasa": true
+    },
+    {
+      "control": "X14.25/reopened",
+      "pasa": true
+    },
+    {
+      "control": "Y14.25/read",
+      "pasa": true
+    },
+    {
+      "control": "Y14.25/reopened",
+      "pasa": true
+    },
+    {
+      "control": "dos areas extremas persistidas",
+      "pasa": true
+    },
+    {
+      "control": "dos barras fuera del intervalo persistidas",
+      "pasa": true
+    },
+    {
+      "control": "cierre propio e instancias ajenas conservadas",
+      "pasa": true
+    },
+    {
+      "control": "hash EDB",
+      "pasa": true
+    },
+    {
+      "control": "script ejecutado estable",
+      "pasa": true
+    }
+  ],
+  "recibo": "tmp\\ensayo_cotas_auxiliares_257\\runs\\codex257a\\registro.json",
+  "sha256_recibo": "426b1b365e77b969d22d0a1a7575c357e1a612a46f69e27412510c19dc5d89ff",
+  "alcance": "Coordenadas auxiliares, conectividad y pisos en guardado/reapertura; no cálculo ni piloto",
+  "aviso_observado": "ETABS imprimió Cannot open file / BufferFileIn modelo.Y_ durante reapertura; llamadas retornaron0, geometria y pisos se releyeron; no hubo solver. No se oculta ni se afirma la causa del aviso.",
+  "no_aplicado_producto": true
+}

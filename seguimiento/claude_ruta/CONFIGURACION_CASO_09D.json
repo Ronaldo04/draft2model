@@ -1,0 +1,129 @@
+{
+  "validacion": "pendiente: ejecutar con --con-malla con la geometría estable",
+  "recibo_malla": null,
+  "configuracion": "tmp/ruta201/configuracion09d.json",
+  "sha256": "2f6f2b87b002d13e75c86cb0bbd10668b006f58e78ec03293439b375fb8f70b1",
+  "geometria": "bafa8ec98515425190bfc2b35f0f1e4f",
+  "normativa": {
+    "aplicado": [
+      {
+        "material": "CONCRETO-FC210",
+        "detalle": "f'c = 210 kgf/cm2 → Ec = 4700√f'c = 21328.9 MPa; ν = 0,15 derivado de G = Ec/2,3",
+        "cita": [
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.2",
+            "formula": "Ec = 4700 √f'c (MPa)"
+          },
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.4",
+            "formula": "G = Ec/2,3"
+          }
+        ]
+      },
+      {
+        "material": "CONCRETO-FC175",
+        "detalle": "f'c = 175 kgf/cm2 → Ec = 4700√f'c = 19470.5 MPa; ν = 0,15 derivado de G = Ec/2,3",
+        "cita": [
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.2",
+            "formula": "Ec = 4700 √f'c (MPa)"
+          },
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.4",
+            "formula": "G = Ec/2,3"
+          }
+        ]
+      },
+      {
+        "material": "ALBANILERIA-FM35",
+        "detalle": "f'm = 35 kgf/cm2, unidad arcilla → Em = 1716.2 MPa; ν = 0,25 (Gm = 0,4 Em)",
+        "cita": [
+          {
+            "codigo": "E.070",
+            "dispositivo": "DS 011-2006-VIVIENDA (fe de erratas 21/06/2006)",
+            "texto_registrado": "seguimiento/normativa_229/E070_DS011_2006.txt",
+            "articulo": "24.7",
+            "formula": "Em = 500 f'm; Gm = 0,4 Em",
+            "pagina_pdf": 21
+          }
+        ]
+      }
+    ],
+    "faltantes": [
+      {
+        "ruta": "sitio.perfil",
+        "motivo": "Perfil de suelo sin EMS/declaración (E.030 art. 16; E.050 6.2.1.c para ≥ 4 pisos)."
+      },
+      {
+        "ruta": "sitio.sistema",
+        "motivo": "Sistema estructural y R0 no declarados (E.030 arts. 20–22)."
+      },
+      {
+        "ruta": "sitio.Ia",
+        "motivo": "Ia no declarado: se evalúa con el modelo (Tabla 11)."
+      },
+      {
+        "ruta": "sitio.Ip",
+        "motivo": "Ip no declarado (Tabla 12)."
+      }
+    ],
+    "no_evaluado": [
+      "Irregularidades Ia/Ip con resultados del modelo (arts. 23–25)",
+      "Cortante mínimo dinámico (art. 44) tras el análisis",
+      "Derivas (arts. 50–51) tras el análisis",
+      "Diseño de elementos (E.060/E.070)"
+    ],
+    "espectro": "no generado: puerta de sitio/sistema/irregularidades pendiente",
+    "aprobacion_ingenieria": null
+  },
+  "conteos": {
+    "puntos": 2006,
+    "superficies": 2126,
+    "frames": 128,
+    "columnas": 79,
+    "vigas": 45,
+    "cargas": 2954,
+    "apoyos": 191,
+    "diafragmas": 4
+  },
+  "cargas_kPa": {
+    "aligerado": 2.8,
+    "acabados": 1.0,
+    "tabiques": 0.248,
+    "peso_tabiques_piso_kN": 32.0,
+    "area_losa_m2": {
+      "2.6": 129.06,
+      "5.2": 129.06,
+      "7.8": 129.06,
+      "10.4": 129.34
+    }
+  },
+  "columnas_excluidas": [],
+  "contrato_consistente": null,
+  "faltantes_calculados": null,
+  "preparacion_malla": null,
+  "errores_por_ruta": {},
+  "errores_contrato": [],
+  "faltantes": [
+    "sitio.perfil",
+    "sitio.sistema",
+    "sitio.Ia",
+    "sitio.Ip",
+    "$.sitio.sistema_resistente",
+    "$.casos.sismo",
+    "$.geometria.escalera"
+  ],
+  "aprobacion_ingenieria": null
+}

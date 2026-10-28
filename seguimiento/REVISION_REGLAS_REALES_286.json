@@ -1,0 +1,126 @@
+{
+  "fecha_utc": "2026-10-23T16:18:19.358685+00:00",
+  "fuentes_sha256": {
+    "tmp\\recorrido_09d2\\resultados\\reglas_e030.json": "3e2733e1f5da75782cf23986b03517f3bf7c5af1ff3a0acb13124ed412ef0366",
+    "data\\private\\pueblo-libre-002\\resultados_estructurales\\697bb37e9ce64f90ba1ef3e25733c8cc\\resultados.json": "c72fa25d169df05b32e992cb2051c422de564b62f482a3efbaa1123ead4a3900",
+    "draft2model\\evaluacion_estructural.py": "4cdfbb86b3604c1c6341b14dad85e0de36828fb8f04d338a34c84c08587b7309"
+  },
+  "alcance": "18 comparaciones del escenario publicadas por runner285, recalculadas con motor puro y comprobacion aritmetica Decimal independiente; no es nueva revision normativa profesional ni validacion de hipotesis.",
+  "comparaciones": [
+    {
+      "regla": "DERIVA-S1-MUR-SX",
+      "resultado": "D-SX-N1",
+      "valor_evaluado": 0.00216,
+      "satisface": true
+    },
+    {
+      "regla": "DERIVA-S1-MUR-SX",
+      "resultado": "D-SX-N2",
+      "valor_evaluado": 0.0050985,
+      "satisface": true
+    },
+    {
+      "regla": "DERIVA-S1-MUR-SX",
+      "resultado": "D-SX-N3",
+      "valor_evaluado": 0.006309,
+      "satisface": true
+    },
+    {
+      "regla": "DERIVA-S1-MUR-SX",
+      "resultado": "D-SX-N4",
+      "valor_evaluado": 0.0006525,
+      "satisface": true
+    },
+    {
+      "regla": "DERIVA-S1-MUR-SY",
+      "resultado": "D-SY-N1",
+      "valor_evaluado": 0.0091305,
+      "satisface": false
+    },
+    {
+      "regla": "DERIVA-S1-MUR-SY",
+      "resultado": "D-SY-N2",
+      "valor_evaluado": 0.021537,
+      "satisface": false
+    },
+    {
+      "regla": "DERIVA-S1-MUR-SY",
+      "resultado": "D-SY-N3",
+      "valor_evaluado": 0.026892000000000003,
+      "satisface": false
+    },
+    {
+      "regla": "DERIVA-S1-MUR-SY",
+      "resultado": "D-SY-N4",
+      "valor_evaluado": 0.002466,
+      "satisface": true
+    },
+    {
+      "regla": "DERIVA-S1-ALB-SX",
+      "resultado": "D-SX-N1",
+      "valor_evaluado": 0.00216,
+      "satisface": true
+    },
+    {
+      "regla": "DERIVA-S1-ALB-SX",
+      "resultado": "D-SX-N2",
+      "valor_evaluado": 0.0050985,
+      "satisface": false
+    },
+    {
+      "regla": "DERIVA-S1-ALB-SX",
+      "resultado": "D-SX-N3",
+      "valor_evaluado": 0.006309,
+      "satisface": false
+    },
+    {
+      "regla": "DERIVA-S1-ALB-SX",
+      "resultado": "D-SX-N4",
+      "valor_evaluado": 0.0006525,
+      "satisface": true
+    },
+    {
+      "regla": "DERIVA-S1-ALB-SY",
+      "resultado": "D-SY-N1",
+      "valor_evaluado": 0.0091305,
+      "satisface": false
+    },
+    {
+      "regla": "DERIVA-S1-ALB-SY",
+      "resultado": "D-SY-N2",
+      "valor_evaluado": 0.021537,
+      "satisface": false
+    },
+    {
+      "regla": "DERIVA-S1-ALB-SY",
+      "resultado": "D-SY-N3",
+      "valor_evaluado": 0.026892000000000003,
+      "satisface": false
+    },
+    {
+      "regla": "DERIVA-S1-ALB-SY",
+      "resultado": "D-SY-N4",
+      "valor_evaluado": 0.002466,
+      "satisface": true
+    },
+    {
+      "regla": "VMIN-SX",
+      "resultado": "V-SX",
+      "valor_evaluado": 0.7483720142138701,
+      "satisface": false
+    },
+    {
+      "regla": "VMIN-SY",
+      "resultado": "V-SY",
+      "valor_evaluado": 0.58770906176047,
+      "satisface": false
+    }
+  ],
+  "todas_aritmeticamente_coherentes": true,
+  "satisface": 8,
+  "no_satisface": 10,
+  "sin_omisiones": true,
+  "api_remota": false,
+  "etabs_ejecutado": false,
+  "goal_completo": false
+}

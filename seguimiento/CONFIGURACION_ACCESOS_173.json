@@ -1,0 +1,17 @@
+{
+  "estado": "cargador_y_plantilla_privada_preparados_sin_claves",
+  "archivos": {
+    "draft2model/credenciales_locales.py": "9387df2103cc1683e978df87f5e8683259750d2ddccd1559a727e79b8943a259",
+    "scripts/usar_credenciales_locales.py": "b157dbc3c218bb74490d295a2bb55c675ada8a8abf01b3eec54e080ec45cb162",
+    "tests/test_credenciales_locales.py": "db066a3de076b8e136e895db04b795c0a08911347bb82cd3cebdb09cb0269c21",
+    "docs/CONFIGURAR_ACCESOS.md": "6687e53bfc665ffe0137669b6f0dcdf4597a060a379ee5fe75adac29d9ef80e2"
+  },
+  "pruebas": "4OK0.757s, sinred/clavesreales/servidor",
+  "presencia": "plantilla nueva vacia; ninguna clave cargada",
+  "modelo_manual": "usuario lo retiene para comparacion final independiente",
+  "limites": [
+    "APIs no amplian cuotas Codex/subagentes/Claude Desktop",
+    "modelos y presupuestos pendientes",
+    "delegacion de programacion porAPI no integrada"
+  ]
+}

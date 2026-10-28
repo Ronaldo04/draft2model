@@ -1,0 +1,35 @@
+{
+  "fecha_utc": "2026-10-23T16:00:49.198346+00:00",
+  "controles": "f4d1eb0004804d499d369587ff44c85e",
+  "sha256_controles": "eaae855c0cafd8fdc55e405b72a1f63c713c6604b126bb58481346bddd7b8e3a",
+  "analisis": "7203c79a3ece4438b36d267ba80f3c4b",
+  "lectura": "4b6119a82d8143b2a9e336f2f91649cf",
+  "fuentes_sha256": {
+    "data\\private\\pueblo-libre-002\\controles_analisis\\f4d1eb0004804d499d369587ff44c85e\\version.json": "a4ba36969709beb316a90005035be9d228050af3952e88357232aaa73d6a57c3",
+    "data\\private\\pueblo-libre-002\\controles_analisis\\f4d1eb0004804d499d369587ff44c85e\\controles.json": "eaae855c0cafd8fdc55e405b72a1f63c713c6604b126bb58481346bddd7b8e3a",
+    "data\\private\\pueblo-libre-002\\expediente.json": "56080c2ab3211d2980cd039567ecb025d97e80ac1b3e342c6efb979dbb654776",
+    "data\\private\\pueblo-libre-002\\lecturas_etabs\\4b6119a82d8143b2a9e336f2f91649cf\\respuesta.json": "be6051686f7afba0d59b58ae70ddc177ff1302dc9f52286e71cc58367d308774",
+    "data\\private\\pueblo-libre-002\\analisis_etabs\\7203c79a3ece4438b36d267ba80f3c4b\\respuesta.json": "abdf0dc7bb8c0af4d07be13b56aabbc37c1fdc6d315dd2817d40f247e7e43f64"
+  },
+  "nucleo_recalculado": true,
+  "alteracion_rechazada": true,
+  "fuentes_estables": true,
+  "estados": {
+    "MOD-X": "satisfactorio",
+    "MOD-Y": "satisfactorio",
+    "EQ-CM": "no_aplicable",
+    "SOLVER": "satisfactorio"
+  },
+  "ultimo_modo": "12",
+  "UX": "0.9411",
+  "UY": "0.9662",
+  "solver": "Lista vacía declarada coincide con respuesta de análisis conservada; no autentica todos los avisos internos de ETABS.",
+  "limites": [
+    "Equilibrio CM no aplicable en este paquete: NO declarar equilibrio global verificado.",
+    "No repite verificar_analisis_aceptado ni aceptación web completa; revalida núcleo, bytes y enlaces focales.",
+    "No certifica normativa, seguridad o aprobación profesional."
+  ],
+  "etabs_ejecutado": false,
+  "api_remota": false,
+  "goal_completo": false
+}

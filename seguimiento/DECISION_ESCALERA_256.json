@@ -1,0 +1,17 @@
+{
+  "fecha_local": "2026-10-22",
+  "fuente": "Respuesta directa del usuario a la pregunta sobre contrahuellas del primer entrepiso",
+  "respuesta_literal": "16 contrahuellas",
+  "entrepiso": 1,
+  "cotas_extremos_m_confirmadas_previamente": [0.0, 2.6],
+  "contrahuellas_confirmadas": 16,
+  "altura_contrahuella_m_derivada": 0.1625,
+  "alcance": "Conteo del primer entrepiso, no aprobación de ingeniería",
+  "no_confirma": [
+    "Repetición del conteo en otros pisos",
+    "Cotas o reparto de descansos de los pisos superiores",
+    "Conexiones estructurales o apoyo en C6",
+    "Desarrollo horizontal o longitud de llegada no acotados"
+  ],
+  "seguimiento_anterior": "seguimiento/RESOLUCION_ESCALERA_255.json"
+}

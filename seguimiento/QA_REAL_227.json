@@ -1,0 +1,21 @@
+{
+  "estado": "revision_visual_acotada_completada",
+  "fuente_producto": "entregas/06-a0292ab2b8154a109c9b19bbd38191c4/fuentes.zip restaurada en tmp/revision_codex_225",
+  "caso": "provisional-001",
+  "extraccion": "1cde498b56c34b03866d0583a0e8ad3d",
+  "observado": [
+    "Selector permite abrir la extracción real Gemini y muestra32candidatos pendientes.",
+    "LáminaL0001 visible y32botones de evidencia superpuestos.",
+    "SeleccionarC025 abre formulario con propuesta fc210Kg/cm2, estado de lectura aún pendiente en listado y región resaltada en visor.",
+    "No se guardaron correcciones ni aprobaciones.",
+    "Consola navegador sin errores/advertencias observados."
+  ],
+  "medicion_http": "seguimiento/SONDA_HTTP_227.json",
+  "latencia_observada": "Estados de carga transitorios prolongados en navegador; GET local de lámina medido0.25s. No atribuir demora al servidor sin medición adicional.",
+  "entorno": "Servidor aislado original no accesible; se detuvo y se levantó misma copia en host. Pestaña temporal cerrada al finalizar.",
+  "limites": [
+    "Revisión visual de visualización/selección, no exactitud de32lecturas ni recorrido completo.",
+    "No modifica datos ni consume API.",
+    "La copia congelada usa contrato0.1; correctivo0.2 deClaude aún pendiente de entrega."
+  ]
+}

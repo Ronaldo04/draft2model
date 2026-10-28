@@ -1,0 +1,45 @@
+{
+  "estado": "equilibrio_estricto_contrastado",
+  "datos_sinteticos": true,
+  "fuerza_y_momento_analiticos": [
+    21.6,
+    0.0,
+    0.0,
+    0.0,
+    8.64,
+    -32.4
+  ],
+  "reacciones_api": [
+    -21.600000000000236,
+    -1.1857537174364549e-13,
+    -7.8159700933611e-16,
+    7.083872333168982e-13,
+    -8.640000000001821,
+    32.400000000000865
+  ],
+  "residuos": [
+    -2.3447910280083306e-13,
+    -1.1857537174364549e-13,
+    -7.8159700933611e-16,
+    7.083872333168982e-13,
+    -1.8207657603852567e-12,
+    8.668621376273222e-13
+  ],
+  "limites": [
+    "No recalcula el modelo ni verifica todos los casos.",
+    "Relectura general contrastada por integridad, sin segundo comparador independiente de toda operación.",
+    "No acredita referencia real ni cumplimiento normativo ni revisión de ingeniería."
+  ],
+  "metodo": "Integración racional independiente de presión en rectángulo3x2.6, nivel1.2; sin importar calculadores del producto.",
+  "hash_geometria": "12457148c2e38d76e0bdd5b7aba9121b14b099a18d4e46ea9826d80331e2975f",
+  "hash_edb_analizado": "acd4e83742fb7f5c26e20a19024cec0de267f182d0002c30c94483066c9f700a",
+  "hash_respuesta_lectura": "7d9bd4a8032ce75e7714cee9808efb9bd7ad03ea02838b349c6adc16b1157ed0",
+  "niveles": [
+    0.0,
+    2.6,
+    5.2,
+    7.8,
+    10.4
+  ],
+  "relectura": "Recibo y hash vinculados;0discrepancias,0incompletos; malla y líquidos completos según comparador conservado."
+}

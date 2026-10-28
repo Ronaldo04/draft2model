@@ -1,0 +1,4519 @@
+--- PDF PAGE 1 ---
+El Peruano
+Jueves 8 de junio de 2006
+320471
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+ 	
+
+Director: Gerardo Barraza Soto
+Lima, jueves 8 de junio de 2006
+Ministerio de Vivienda
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+REGLAMENTO
+NACIONAL DE
+EDIFICACIONES
+
+--- PDF PAGE 2 ---
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+320472
+El Peruano
+Jueves 8 de junio de 2006
+TITULO I
+GENERALIDADES
+G.010
+Consideraciones básicas
+G.020
+Principios generales
+G.030
+Derechos y responsabilidades
+G.040
+Definiciones
+G.050
+Seguridad durante la construcción
+TITULO II
+HABILITACIONES URBANAS
+CONSIDERACIONES GENERALES DE LAS
+HABILITACIONES
+GH.010
+Alcances y contenido
+GH.020
+Componentes de Diseño Urbano
+II.1.
+TIPOS DE HABILITACIONES
+TH.010
+Habilitaciones residenciales
+TH.020
+Habilitaciones comerciales
+TH.030
+Habilitaciones industriales
+TH.040
+Habilitaciones para usos especiales
+TH.050
+Habilitaciones en riberas y laderas
+TH.060
+Reurbanización
+II.2.
+COMPONENTES ESTRUCTURALES
+CE.010
+Aceras y pavimentos
+CE.020
+Estabilización de suelos y taludes
+CE.030
+Obras especiales y complementarias
+II.3.
+OBRAS DE SANEAMIENTO
+OS.010
+Captación y conducción de agua para consumo
+humano
+OS.020
+Plantas de tratamiento de agua para consumo
+humano
+OS.030
+Almacenamiento de agua para consumo huma-
+no
+OS.040
+Estaciones de bombeo de agua para consumo
+humano
+OS.050
+Redes de distribución de agua para consumo
+humano
+OS.060
+Drenaje pluvial urbano
+OS.070
+Redes de aguas residuales
+OS.080
+Estaciones de bombeo de aguas residuales
+OS.090
+Plantas de tratamiento de aguas residuales
+OS.100
+Consideraciones básicas de diseño de infraes-
+tructura sanitaria
+II.4.
+OBRAS DE SUMINISTRO DE ENERGIA Y CO-
+MUNICACIONES
+EC.010
+Redes de distribución de energía eléctrica
+EC.020
+Redes de alumbrado público
+EC.030
+Subestaciones eléctricas
+EC.040
+Redes e instalaciones de comunicaciones
+TITULO III
+EDIFICACIONES
+CONSIDERACIONES GENERALES DE LAS
+EDIFICACIONES
+GE.010
+Alcances y contenido
+GE.020
+Componentes y características de los proyec-
+tos
+GE.030
+Calidad en la construcción
+GE.040
+Uso y mantenimiento
+III.1.
+ARQUITECTURA
+A.010
+Condiciones generales de diseño
+A.020
+Vivienda
+A.030
+Hospedaje
+A.040
+Educación
+A.050
+Salud
+A.060
+Industria
+A.070
+Comercio
+A.080
+Oficinas
+A.090
+Servicios comunales
+A.100
+Recreación y deportes
+A.110
+Transportes y comunicaciones
+A.120
+Accesibilidad para personas con discapacidad
+A.130
+Requisitos de seguridad
+A.140
+Bienes culturales inmuebles y zonas monumen-
+tales
+III.2.
+ESTRUCTURAS
+E.010
+Madera
+E.020
+Cargas
+E.030
+Diseño sismorresistente
+E.040
+Vidrio
+E.050
+Suelos y cimentaciones
+E.060
+Concreto armado
+E.070
+Albañilería
+E.080
+Adobe
+E.090
+Estructuras metálicas
+III.3.
+INSTALACIONES SANITARIAS
+IS.010
+Instalaciones sanitarias para edificaciones
+IS.020
+Tanques sépticos
+III.4.
+INSTALACIONES ELECTRICAS Y MECÁNI-
+CAS
+EM.010
+Instalaciones eléctricas interiores
+EM.020
+Instalaciones de comunicaciones
+EM.030
+Instalaciones de ventilación
+EM.040
+Instalaciones de gas
+EM.050
+Instalaciones de climatización
+EM.060
+Chimeneas y hogares
+EM.070
+Transporte mecánico
+EM.080
+Instalaciones con energía solar
+EM.090
+Instalaciones con energía eólica
+EM.100
+Instalaciones de alto riesgo
+REGLAMENTO NACIONAL DE EDIFICACIONES
+INDICE
+
+--- PDF PAGE 3 ---
+El Peruano
+Jueves 8 de junio de 2006
+320473
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+TITULO I
+GENERALIDADES
+NORMA G.010
+CONSIDERACIONES BASICAS
+Articulo 1.- El Reglamento Nacional de Edificaciones
+tiene por objeto normar los criterios y requisitos mínimos
+para el Diseño y ejecución de las Habilitaciones Urbanas
+y las Edificaciones, permitiendo de esta manera una me-
+jor ejecución de los Planes Urbanos.
+Es la norma técnica rectora en el territorio nacional
+que establece los derechos y responsabilidades de los
+actores que intervienen en el proceso edificatorio, con el
+fin de asegurar la calidad de la edificación.
+Artículo 2.- El Reglamento Nacional de Edificaciones
+es de aplicación obligatoria para quienes desarrollen pro-
+cesos de habilitación urbana y edificación en el ámbito
+nacional, cuyo resultado es de carácter permanente, pú-
+blico o privado.
+Artículo 3.- Las Municipalidades Provinciales podrán
+formular Normas complementarias en función de las ca-
+racterísticas geográficas y climáticas particulares y la rea-
+lidad cultural de su jurisdicción. Dichas normas deberán
+estar basadas en los aspectos normados en el presente
+Título, y concordadas con lo dispuesto en el presente
+Reglamento.
+Artículo 4.- El Reglamento Nacional de Edificaciones
+comprende tres títulos.
+El Título Primero norma las Generalidades y constitu-
+ye la base introductoria a las normas contenidas en los
+dos Títulos siguientes.
+El Título Segundo norma las Habilitaciones Urbanas y
+contiene las normas referidas a los tipos de habilitacio-
+nes, los componentes estructurales, las obras de sanea-
+miento y las obras de suministro de energía y comunica-
+ciones.
+El Título Tercero norma las Edificaciones y compren-
+de las normas referidas a arquitectura, estructuras, ins-
+talaciones sanitarias e instalaciones eléctricas y me-
+cánicas.
+Artículo 5.- Para garantizar la seguridad de las per-
+sonas, la calidad de vida y la protección del medio am-
+biente, las habilitaciones urbanas y edificaciones debe-
+rán proyectarse y construirse, satisfaciendo las siguien-
+tes condiciones:
+a) Seguridad:
+Seguridad estructural, de manera que se garantice
+la permanencia y la estabilidad de sus estructuras.
+Seguridad en caso de siniestros, de manera que las
+personas puedan evacuar las edificaciones en condicio-
+nes seguras en casos de emergencia, cuenten con siste-
+mas contra incendio y permitan la actuación de los equi-
+pos de rescate.
+Seguridad de uso, de manera que en su uso cotidia-
+no en condiciones normales, no exista riesgo de acciden-
+tes para las personas.
+b) Funcionalidad:
+Uso, de modo que las dimensiones y disposición
+de los espacios, así como la dotación de las instalacio-
+nes y equipamiento, posibiliten la adecuada realización
+de las funciones para las que está proyectada la edifi-
+cación.
+Accesibilidad, de manera que permitan el acceso y
+circulación a las personas con discapacidad
+c) Habitabilidad:
+Salubridad e higiene, de manera que aseguren la
+salud, integridad y confort de las personas.
+Protección térmica y sonora, de manera que la tem-
+peratura interior y el ruido que se perciba en ellas, no atente
+contra el confort y la salud de las personas permitiéndo-
+les realizar satisfactoriamente sus actividades.
+d) Adecuación al entorno y protección del medio
+ambiente
+Adecuación al entorno, de manera que se integre a
+las características de la zona de manera   armónica.
+Protección del medio ambiente, de manera que la
+localización y el funcionamiento de las edificaciones no
+degraden el medio ambiente.
+NORMA G.020
+PRINCIPIOS GENERALES
+Artículo 1.- Para cumplir con su objetivo, el presente
+Reglamento Nacional de Edificaciones se basa en los si-
+guientes principios generales:
+a) De la Seguridad de las Personas
+Crear espacios adecuados para el desarrollo de las
+actividades humanas, buscando garantizar la salud, la
+integridad y la vida de las personas que habitan una
+edificación o concurren a los espacios públicos; así mis-
+mo, establece las condiciones que deben cumplir las
+estructuras y las instalaciones con la finalidad de redu-
+cir el impacto sobre las edificaciones y la infraestructu-
+ra urbana, de los desastres naturales o los provocados
+por las personas.
+Brindar a las personas involucradas en el proceso de
+ejecución de las edificaciones, condiciones de seguridad
+suficientes para garantizar su integridad física.
+b) De la Calidad de Vida
+Lograr un hábitat urbano sostenible, capaz de otorgar
+a los habitantes de la ciudad espacios que reúnan condi-
+ciones que les permitan desarrollarse integralmente tanto
+en el plano físico como espiritual.
+Garantizar la ocupación eficiente y sostenible del terri-
+torio con el fin de mejorar su valor en beneficio de la co-
+munidad.
+El suelo para ser usado en actividades urbanas debe
+habilitarse con vías y contar con los servicios básicos de
+agua, desagüe, electrificación y comunicaciones, que ga-
+ranticen el uso óptimo de las edificaciones y los espacios
+urbanos circundantes.
+Proponer el empleo de tecnologías capaces de apor-
+tar soluciones que incrementen el bienestar de las per-
+sonas.
+Reconocer el fenómeno de la globalización como ve-
+hículo de conocimiento en la búsqueda de respuestas  a
+los problemas de las ciudades.
+c) De la seguridad jurídica
+Promueve y respeta el principio de legalidad y la jerar-
+quía de las normas, con arreglo a la Constitución y el De-
+recho.
+Las autoridades que intervienen en los procedimien-
+tos de Habilitación Urbana y de Edificación, lo harán
+sin discriminación entre los administrados, otorgándo-
+les trato igualitario y resolviendo conforme al ordena-
+miento jurídico.
+d) De la subordinación del interés personal al inte-
+rés general
+La ejecución de las Habilitaciones Urbanas y las Edi-
+ficaciones deben considerar el interés general sobre el
+interés personal, a fin de lograr un desarrollo urbano
+armónico que respete los derechos adquiridos de las
+personas.
+e) Del diseño universal
+Promueve que las habilitaciones y edificaciones sean
+aptas para el mayor número posible de personas, sin ne-
+cesidad de adaptaciones ni de un diseño especializado,
+generando así ambientes utilizables equitativamente, en
+forma segura y autónoma
+NORMA G.030
+DERECHOS Y RESPONSABILIDADES
+Artículo 1.- Los actores del Proceso de la Edifica-
+ción que intervienen como personas naturales o jurídi-
+
+--- PDF PAGE 4 ---
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+320474
+El Peruano
+Jueves 8 de junio de 2006
+cas, instituciones y entidades públicas o privadas, son
+los siguientes: El  Propietario, El Promotor Inmobiliario,
+los Profesionales Responsables del Proyecto, las Per-
+sonas Responsables de la Construcción, las Municipa-
+lidades, las Personas Responsables de la Revisión de
+Proyectos, y el Ministerio de Vivienda, Construcción y
+Saneamiento. Sus derechos y responsabilidades están
+determinados por lo dispuesto en la presente norma, la
+Ley del Procedimiento Administrativo General, el Códi-
+go Civil, el Código Penal, y las demás disposiciones
+que le sean aplicables; así como por lo pactado en el
+Contrato que acuerda su intervención.
+CAPITULO I
+DEL PROPIETARIO
+Articulo 2.- Es la persona natural o jurídica, pública
+o privada, a cuyo nombre se encuentra inscrita en el
+Registro de la propiedad, el predio sobre el que se pre-
+tende efectuar una obra de habilitación urbana o edifi-
+cación.
+Artículo 3.- Es responsabilidad del propietario:
+a) Explicar a los Profesionales Responsables del pro-
+yecto, las características cualitativas y cuantitativas de sus
+necesidades y requerimientos desde los puntos de vista
+técnico y económico, a fin de que éstos las conozcan y
+las tengan presentes.
+b) Facilitar la documentación relacionada con el inmue-
+ble donde se ejecutará la edificación.
+c) Absolver las consultas realizadas por los Profesio-
+nales Responsables del Proyecto.
+Artículo 4.- Para la realización de trámites adminis-
+trativos en los que sea requerido, el Propietario deberá
+acreditar su calidad de tal mediante la presentación de
+la Escritura o copia simple de la Inscripción del Inmue-
+ble a su favor, sobre el que se ejecutará la habilitación
+urbana o la edificación. También lo puede hacer median-
+te una Minuta de Compra-Venta del Inmueble, con firma
+legalizada por Notario; los que tendrán plena validez
+mientras no se demuestre que la propiedad esta Inscrita
+a nombre de un tercero o exista una Compra-Venta más
+reciente.
+Artículo 5.- El Propietario deberá firmar los planos
+y demás documentos del Expediente Técnico, conjun-
+tamente con el Profesional Responsable de cada espe-
+cialidad.
+Artículo 6.- El Propietario puede reemplazar a los Pro-
+fesionales Responsables del Proyecto, por otros profe-
+sionales, en cuyo caso no podrá hacer uso de la docu-
+mentación técnica elaborada por el profesional sustituido,
+salvo autorización expresa de éste.
+Artículo 7.- El Propietario podrá encargar la ejecu-
+ción de proyectos de ampliación, remodelación o refac-
+ción a profesionales distintos a los responsables del
+proyecto original.
+Artículo 8.- El Propietario está obligado a conservar
+la edificación en buenas condiciones de seguridad e hi-
+giene, a no destinarla a usos distintos a los permitidos o
+realizar modificaciones sin obtener la licencia de obra
+cuando se requiera.
+CAPITULO II
+DEL PROMOTOR INMOBILIARIO
+Articulo 9.- Es la persona natural o jurídica, pública
+o privada, que de manera individual o en asociación con
+terceros, identifica oportunidades de inversión, obtiene
+el financiamiento, ejecuta la obra directamente o bajo
+contrato con terceros, administra, promueve y comer-
+cializa una edificación, para la posterior venta o alquiler
+a terceros
+Para el desarrollo de su actividad, el promotor inmobi-
+liario deberá contar con lo siguiente:
+a) Tener la titularidad del terreno sobre el que se
+ejecutará la edificación o tener un derecho que lo facul-
+te a ello.
+b) Cumplir con las responsabilidades señaladas en el
+Capitulo I, para el propietario
+c) Obtener las licencias y autorizaciones necesarias
+para la ejecución de la edificación
+d) Responder ante los clientes o usuarios finales, por
+los daños que pudieran existir  en la edificación, dentro de
+los plazos establecidos
+e) Entregar al cliente final, la documentación com-
+pleta relativa a la individualización de su derecho de
+propiedad.
+CAPITULO III
+DE LOS PROFESIONALES RESPONSABLES DEL
+PROYECTO
+SUB-CAPITULO I
+DISPOSICIONES GENERALES
+Artículo 10.- El diseño de los proyectos de edificación
+y habilitación urbana, así como la definición de las carac-
+terísticas de sus componentes, es de responsabilidad del
+profesional que lo elabora, según su especialidad. El pro-
+yecto debe cumplir con los objetivos de las normas del
+presente Reglamento.
+Articulo 11.- Los Profesionales Responsables del Pro-
+yecto son aquellos que están legalmente autorizados a
+ejercer su Profesión e inscritos en el correspondiente
+Colegio Profesional. Para ello deben incluir en el expe-
+diente técnico el documento con el que acreditan que se
+encuentran habilitados para ejercer la Profesión, el cual
+debe haber sido emitido por el Colegio Profesional al que
+pertenecen.
+Según su especialidad serán: el Arquitecto, para el Pro-
+yecto de Arquitectura; el Ingeniero Civil, para el Proyecto
+de Estructuras; el Ingeniero Sanitario, para el Proyecto de
+Instalaciones Sanitarias; el Ingeniero Electricista o elec-
+tromecánico para el Proyecto de Instalaciones Eléctricas
+y Electromecánicas.
+En caso se requieran proyectos especializados
+como gas, seguridad integral, redes de información y
+otros, se requerirá la participación del profesional es-
+pecialista.
+Artículo 12.- Los profesionales responsables del Pro-
+yecto deben cumplir con:
+a) Tener Título Profesional en la especialidad corres-
+pondiente.
+b) Acreditar, por el Colegio Profesional al que perte-
+necen, que se encuentran habilitados para ejercer la
+Profesión.
+c) Las normas y reglamentos vigentes, en la ejecución
+de sus servicios profesionales.
+d) Prestar personalmente sus servicios profesionales
+por los trabajos contratados.
+e) Las obligaciones pactadas en el Contrato.
+Artículo 13.- Los profesionales responsables deben
+firmar los planos, especificaciones y demás documentos
+de los cuales son autores, y que hayan elaborado como
+parte del expediente técnico.
+Artículo 14.- Son responsables por las deficiencias y
+errores, así como por el incumplimiento de las normas
+reglamentarias en que hayan incurrido en la elaboración
+y ejecución del proyecto.
+Artículo 15.- Las personas jurídicas constituidas
+como empresas de proyectos, son solidariamente res-
+ponsables con el Profesional Responsable del Proyec-
+to, respecto de las consecuencias que se deriven de
+errores u omisiones en los cálculos, dimensiones y com-
+ponentes de la obra, o en las especificaciones técni-
+cas.
+Artículo  16.- Los Profesionales Responsables del Pro-
+yecto, tienen derecho a supervisar la ejecución de las
+obras que proyecten, con el fin de verificar que se está
+cumpliendo con los diseños y especificaciones estableci-
+das por ellos, existiendo o no un contrato específico so-
+bre la materia.
+SUB-CAPITULO II
+DEL GERENTE DE PROYECTO
+Artículo 17.- Es la persona natural o jurídica que, cuan-
+do sea necesario por la magnitud del Proyecto, se encar-
+ga de administrar la ejecución del mismo en todas sus
+etapas.
+Artículo 18.- Es responsabilidad del Gerente de Pro-
+yecto:
+
+--- PDF PAGE 5 ---
+El Peruano
+Jueves 8 de junio de 2006
+320475
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+a) Tener Título Profesional, capacitación y experiencia
+suficientes para asumir la gerencia del Proyecto.
+b) Encontrarse habilitado para ejercer la profesión,
+acreditado por el Colegio Profesional al que pertenece.
+c) Disponer de profesionales calificados para los dife-
+rentes procesos que incluirá el desarrollo del Proyecto.
+d) Resolver las contingencias que se produzcan en el
+desarrollo del Proyecto.
+e) Definir las eventuales modificaciones del Proyecto,
+que sean exigidas por el proceso de supervisión, revisión
+o aprobación de alguna de las etapas del mismo.
+SUB-CAPITULO III
+DEL ARQUITECTO
+Artículo 19.- El Arquitecto es el responsable del Di-
+seño Arquitectónico de la Edificación, el cual compren-
+de: La calidad arquitectónica, los cálculos de áreas, las
+dimensiones de los componentes arquitectónicos, las es-
+pecificaciones técnicas del Proyecto Arquitectónico, los
+acabados de la obra, el cumplimiento de los parámetros
+urbanísticos y edificatorios exigibles para edificar en el
+inmueble correspondiente. Asimismo, es el responsable
+de que sus planos, y los elaborados por los otros profe-
+sionales responsables del Proyecto, sean compatibles
+entre sí.
+SUB-CAPITULO IV
+DEL INGENIERO CIVIL
+Artículo 20.- El Ingeniero Civil es el responsable del
+Diseño Estructural de una Edificación, el cual compren-
+de: Los cálculos, las dimensiones de los componentes es-
+tructurales, las especificaciones técnicas del Proyecto Es-
+tructural, y las consideraciones de diseño sismorresisten-
+te. Asimismo es responsable de la correspondencia de su
+proyecto de estructuras con el Estudio de Suelos del in-
+mueble materia de la ejecución del Proyecto. Este estu-
+dio, a su vez, es de responsabilidad del Ingeniero que lo
+suscribe.
+SUB-CAPITULO V
+DE LOS INGENIEROS SANITARIO, ELECTRICISTA Y
+ELECTROMECÁNICO
+Artículo 21.- El Ingeniero Sanitario, el Ingeniero Elec-
+tricista, el Ingeniero Electromecánico y demás Ingenieros
+especialistas, son  responsables del Diseño de la Instala-
+ción que le corresponda según su especialidad, los cua-
+les comprenden: Los cálculos, las dimensiones de los
+componentes y especificaciones técnicas del Proyecto de
+su especialidad.
+Asimismo son responsables de que sus respectivos
+proyectos se adecuen a las características de las redes
+públicas, a la factibilidad de los servicios, y a las normas
+técnicas vigentes.
+CAPITULO IV
+DE LAS PERSONAS RESPONSABLES DE LA
+CONSTRUCCIÓN
+SUB-CAPITULO I
+DISPOSICIONES GENERALES
+Artículo 22.- Son responsables las personas natura-
+les o jurídicas que están directa o indirectamente ligadas
+con el Proceso de la Construcción. Participan en la: Eje-
+cución, provisión de bienes y servicios, subcontratación
+de bienes y servicios, y supervisión de la obra.
+Artículo 23.- Las personas responsables de la Cons-
+trucción deben cumplir con:
+a) Demostrar capacidad suficiente para ejecutar las res-
+ponsabilidades asumidas según su especialidad.
+b) Aplicar las normas y reglamentos vigentes.
+c) Respetar las obligaciones pactadas en su respecti-
+vo Contrato.
+SUB-CAPITULO II
+DEL CONSTRUCTOR
+Artículo 24.- La realización de una Habilitación Urba-
+na o Edificación deberá estar a cargo de un Constructor,
+que puede ser una persona natural o jurídica.
+Artículo 25.-  Es responsabilidad del Constructor:
+a) Ejecutar la obra con sujeción al proyecto y a las
+normas vigentes.
+b) Disponer de la organización e infraestructura que
+garantice el logro de las metas de la obra.
+c) Designar al profesional responsable de la construc-
+ción que asumirá la representación técnica del construc-
+tor en la obra.
+d) Asignar a la obra los medios humanos y materiales
+suficientes para culminar los trabajos dentro del plazo del
+Contrato, del presupuesto aprobado y con el nivel de cali-
+dad requerido.
+e) Formalizar las subcontrataciones de partes e insta-
+laciones de la obra dentro de los límites pactados en el
+Contrato.
+f) Entregar al cliente la información documentada so-
+bre los trabajos ejecutados.
+Artículo 26.- El Constructor es responsable por las
+fallas, errores o defectos de la construcción, incluyendo
+las obras ejecutadas por subcontratistas y por el uso de
+materiales o insumos defectuosos; sin perjuicio de las
+acciones legales que pueda interponer a su vez en contra
+de los proveedores, fabricantes o subcontratistas.
+Artículo 27.- Las personas jurídicas que presten el
+servicio de construcción son solidariamente responsa-
+bles con los profesionales designados por ellos para
+representarlos.
+SUB-CAPITULO III
+DEL PROFESIONAL RESPONSABLE DE OBRA
+Artículo 28.- Las obras de edificación y habilitación
+urbana requieren la designación de un Profesional Res-
+ponsable de Obra, cuya ejecución realizará directamen-
+te. Es responsable de dirigir la obra asegurándose que la
+ejecución de la misma, se realice de conformidad con el
+proyecto aprobado y la licencia respectiva, y cumpla con
+lo normado en el presente Reglamento.
+No se requiere profesional responsable cuando se tra-
+te de la ejecución de obras que no requieren Licencia de
+Obra, en cuyo caso el responsable será el Propietario.
+Artículo 29.- El Profesional Responsable de Obra debe
+tener Título Profesional de Arquitecto o de Ingeniero Civil
+colegiado y contar con un certificado de habilitación pro-
+fesional vigente.
+En el caso de obras de carácter especializado como:
+Redes de saneamiento o electrificación, instalaciones in-
+dustriales y montaje, túneles, puentes y demás obras de
+ingeniería pesada, el Profesional Responsable deberá con-
+tar con la especialización correspondiente.
+Artículo 30.- Es obligación del Profesional Responsa-
+ble de Obra:
+a) Administrar los procesos constructivos y cumplir con
+las pruebas, controles, ensayos e inspecciones necesa-
+rios para ejecutar las obras aprobadas.
+b) Formalizar las subcontrataciones de partes e insta-
+laciones de la obra dentro de los límites pactados en el
+Contrato.
+c) Firmar las actas de inicio y de entrega de la obra.
+d) Resolver las contingencias que se produzcan en la
+ejecución de la obra.
+e) Solicitar al cliente la aclaración de los aspectos am-
+biguos o incompatibles entre planos o entre estos y la es-
+pecificaciones.
+f) Cumplir con las disposiciones relacionadas con los
+cambios o respuestas a consultas sobre cualquier aspec-
+to de la obra.
+g) Cumplir con los requisitos de calidad pactados en
+el Contrato y establecidos en el Proyecto.
+h) Cumplir con los códigos, normas, y reglamentos que
+son aplicables a la obra.
+i) Verificar la recepción, en la misma obra, de los pro-
+ductos que serán incorporados en la construcción, orde-
+nando la realización de ensayos y pruebas.
+
+--- PDF PAGE 6 ---
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+320476
+El Peruano
+Jueves 8 de junio de 2006
+j) Dirigir la obra comprobando la participación de per-
+sonal calificado y preparado para asumir los procesos asig-
+nados de la construcción.
+k) Elaborar y organizar la información sobre los proce-
+sos empleados durante la  ejecución de la construcción.
+l) Planear y supervisar las medidas de seguridad del
+personal y de terceras personas en la obra, así como de
+los vecinos y usuarios de la vía pública.
+m) Elaborar y entregar al propietario o a su represen-
+tante, al término de la construcción, los manuales de ope-
+ración y mantenimiento, así como los manuales de los
+equipos incorporados a la obra.
+Artículo 31.- Si al momento de solicitarse la licencia
+de habilitación urbana o de obra, no se hubiera designa-
+do al Profesional Responsable de la Obra, éste deberá
+ser acreditado antes del inicio de la obra.
+Artículo 32.- El Profesional Responsable puede ser
+sustituido por otro profesional. Esta designación debe
+ser puesta en conocimiento de la Municipalidad res-
+pectiva.
+Artículo 33.- Durante la ejecución de obras de edifi-
+cación se deberá llevar un Cuaderno de Obra.
+El Cuaderno de Obra es un documento con páginas
+numeradas que se mantiene en ésta durante su ejecu-
+ción, y en el cual se consignan las instrucciones y ob-
+servaciones a la obra formuladas por los profesionales
+responsables de las diversas especialidades del pro-
+yecto, el responsable de la obra, el supervisor técnico,
+y los inspectores de los organismos que autorizan las
+instalaciones.
+Artículo 34.- Es obligación del Profesional Responsa-
+ble de la Obra llevar, mantener actualizado y firmar el Cua-
+derno de Obra. Al inicio de la obra en este documento
+deberá constar la siguiente información:
+a) Nombre de la Obra.
+b) Número y fecha de la Licencia de Obra.
+c) Nombre del Propietario.
+d) Nombre del Arquitecto.
+e) Nombre del Ingeniero Estructural.
+f) Nombre del Ingeniero Sanitario.
+g) Nombre del Ingeniero Electricista.
+h) Nombre del Supervisor.
+i) Nombre del Constructor.
+j) Nombre del Profesional Responsable de la Obra.
+Cuando alguna de las personas antes indicadas, efec-
+túe alguna anotación en el Cuaderno de Obra, éstas de-
+berán quedar firmadas, fechadas e identificadas con el
+nombre de la persona que las realiza.
+Artículo 35.- Si durante la construcción cambiara al-
+guno de los participantes que figura en la página inicial
+del cuaderno de obra, se deberá dejar constancia de ello.
+Se deberá anotar los incidentes más importantes rela-
+tivos a la construcción, así como las indicaciones que rea-
+licen los proyectistas, el propietario, el supervisor y el ins-
+pector municipal.
+Se deberá mantener en la obra, el original del Cuader-
+no de Obra y entregar una copia al Inspector Municipal
+para su archivo.
+SUB-CAPITULO IV
+DEL PROVEEDOR
+Artículo 36.- Es responsabilidad del Proveedor:
+a) Demostrar que está calificado y que su producto
+cumple con los requisitos establecidos en las especifica-
+ciones técnicas.
+b) Informarse sobre las características de calidad
+del servicio, insumos, recursos y producto terminado
+solicitado.
+c) Informarse de las especificaciones técnicas, có-
+digos o normas técnicas aplicables al producto solici-
+tado.
+d) Informarse y comunicar al constructor que cumplirá
+con los controles, pruebas y ensayos aplicables a su pro-
+ducto o servicio.
+e) Asistir al cliente en el uso y mantenimiento del pro-
+ducto o servicio entregado.
+f) Ofrecer garantías sobre sus productos.
+SUB-CAPITULO V
+DEL SUBCONTRATISTA
+Artículo 37.- Es responsabilidad  del Subcontratista:
+a) Cumplir lo pactado en el Subcontrato para la ejecu-
+ción de los trabajos comprometidos.
+b) Aclarar con el Profesional Responsable de Obra,
+aquellos aspectos que sean imprecisos.
+c) Elaborar y completar los registros que demuestren
+objetivamente el cumplimiento de los requisitos pactados
+en el Subcontrato.
+d) Informarse de las características de calidad del ser-
+vicio, insumos, recursos, y producto terminado solicitado.
+e) Demostrar que está calificado y cumplirá con los
+requisitos establecidos en el Contrato Principal.
+f) Asesorar a su cliente en todo lo relacionado a las
+pruebas, ensayos, compromiso y otros que aseguren la
+calidad del servicio y/o producto solicitado.
+g) Cumplir con los códigos, reglamentos y normas vi-
+gentes, aplicables al objeto del contrato.
+SUB-CAPITULO VI
+DEL SUPERVISOR DE OBRA
+Artículo 38.- En los casos de obras públicas o cuando
+el propietario lo estime conveniente, se designará un Su-
+pervisor de Obra, cuya función es la de verificar que la
+obra se ejecute conforme a los proyectos aprobados, se
+sigan procesos constructivos acordes con la naturaleza
+de la obra, y se cumpla con los plazos y costos previstos
+en el contrato de obra.
+Artículo 39.- El Supervisor de Obra será un profesio-
+nal especializado en la materia que va a supervisar, y po-
+drá ser uno de los Profesionales Responsables del Pro-
+yecto.
+Artículo 40.- Es responsabilidad del Supervisor de
+Obra:
+a) Revisar la documentación del Proyecto elaborado
+por los profesionales responsables del mismo, con la fi-
+nalidad de planificar y asistir preventivamente al propieta-
+rio o a quien lo contrate.
+b) Revisar la calificación del personal del Contratista,
+Proveedor o Subcontratistas que participen en el Proyec-
+to de Construcción.
+c) Asegurar la ejecución de las pruebas, controles y
+ensayos, previstos en las especificaciones del Proyecto.
+d) Emitir reportes que señalen el grado de cumplimiento
+de los requisitos especificados en la documentación del
+Proyecto.
+e) Participar en el proceso de recepción de las etapas
+del Proyecto a nombre del propietario.
+CAPITULO IV
+DE LAS MUNICIPALIDADES
+Artículo 41.- Las Municipalidades son responsables
+de lo siguiente:
+a) Contar con los instrumentos de planificación que
+definan los parámetros urbanísticos y edificatorios. En caso
+de no tenerlos, deberán priorizar su elaboración y apro-
+bación.
+b) Poner a disposición de los propietarios de predios,
+de los profesionales responsables de los proyectos, y del
+público en general, por cualquier medio factible de com-
+probación, los instrumentos técnicos de planificación, edi-
+ficación, y administrativos que correspondan a las Habili-
+taciones Urbanas y Edificaciones.
+c) Dar celeridad y simplificar administrativamente los
+tramites de consultas y autorizaciones de Habilitaciones
+Urbanas y Edificaciones para lo que deberán contar con
+personal capacitado para ejercer las funciones técnicas y
+administrativas que correspondan, pudiendo delegar o
+tercerizar estas funciones.
+d) Emitir los certificados de parámetros urbanísticos y
+edificatorios.
+e) Otorgar las autorizaciones para la ejecución de las
+obras de Habilitación Urbana y de Edificación, de acuer-
+do con lo que dictaminen las Comisiones calificadoras de
+proyectos o de quién cumpla sus funciones.
+
+--- PDF PAGE 7 ---
+El Peruano
+Jueves 8 de junio de 2006
+320477
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+f) Suspender las autorizaciones para la ejecución de
+las obras de Habilitación Urbana y de Edificación, úni-
+camente en los casos en que se verifique plenamente
+que esta fue expedida contraviniendo disposiciones vi-
+gentes.
+g) Fijar los requisitos a que deberán sujetarse las obras
+en lo referente al uso de la vía pública,  horario de trabajo,
+instalaciones provisionales, ingreso y salida de materia-
+les y condiciones para la protección del medio ambiente.
+h) Ordenar la paralización de las obras que no es-
+tén ejecutando de acuerdo a los proyectos aprobados y
+licencias otorgadas y exigir las correcciones correspon-
+dientes.
+i) Designar Inspectores Técnicos Municipales, los cua-
+les se encargan de efectuar el Control Urbano.
+j) Inspeccionar las obras que se ejecuten en su juris-
+dicción, por medio de profesionales calificados, verifican-
+do el cumplimiento de los proyectos aprobados.
+k) Comprobar, que el Proyecto ha sido ejecutado de
+acuerdo con los planos y especificaciones aprobados en
+la oportunidad en que fue otorgada la licencia de Habili-
+tación Urbana o de Edificación, según corresponda. En
+caso de ser así, emitirá la Resolución de Recepción de
+obras de habilitación urbana o el Certificado de Finaliza-
+ción de obra.
+l) Ordenar y ejecutar la demolición parcial o total de
+una obra en los casos en que exista discrepancia no sub-
+sanable con el Proyecto aprobado.
+m) Dar mantenimiento a los espacios públicos y a las
+edificaciones que les corresponda administrar.
+n) Supervisar el adecuado uso y mantenimiento de las
+edificaciones.
+o) Hacer cumplir las normas del presente Reglamento.
+CAPITULO V
+DE LAS PERSONAS RESPONSABLES DE LA
+REVISION DE PROYECTOS
+Artículo 42.- Los funcionarios, servidores públicos y
+las Comisiones Técnicas Municipales son las encargadas
+de verificar el cumplimiento de las normas en los proyec-
+tos de Habilitaciones Urbanas y Edificaciones.
+En los distritos donde no existan Comisiones Técni-
+cas constituidas por delegados de los Colegios Profe-
+sionales e instituciones, se podrá hacer convenios con
+otras municipalidades cercanas para constituirlas con-
+juntamente.
+Artículo 43.- Las personas responsables de la revi-
+sión de proyectos deberán tener título profesional en la
+especialidad y demostrar experiencia y conocimiento en
+aspectos técnicos y normativos suficientes para el des-
+empeño de sus funciones.
+Artículo 44.- Las personas responsables de la re-
+visión de proyectos no podrán intervenir en la evalua-
+ción de un Proyecto en el que hayan participado como
+Profesional Responsable del Proyecto, Profesional Res-
+ponsable de la Obra, Supervisor, Constructor o Pro-
+pietario.
+Artículo 45.- Los miembros de las Comisiones Técni-
+cas, desde su condición de integrantes de este cuerpo
+colegiado,  son responsables de los dictámenes que emi-
+ten, con sujeción a las normas contenidas en el presente
+Reglamento, al Plan Urbano, y las disposiciones legales
+que competen a la ejecución de Habilitaciones Urbanas y
+de edificaciones.
+CAPITULO VI
+DEL MINISTERIO DE VIVIENDA, CONSTRUCCIÓN Y
+SANEAMIENTO
+Artículo 46.- En su condición de ente Rector Nacio-
+nal, le corresponde diseñar, normar y ejecutar la política
+nacional en materia de vivienda, urbanismo, construcción
+y saneamiento. Asimismo, le corresponde ejercer compe-
+tencias compartidas según lo establecido en la Ley de
+Bases de Descentralización, en materia de urbanismo,
+desarrollo urbano y saneamiento. En el ámbito del pre-
+sente Reglamento ejerce las siguientes funciones:
+a) Fiscaliza y supervisa el cumplimiento del marco nor-
+mativo relacionado con su ámbito de competencia, de
+acuerdo a su Ley de creación y a los Reglamentos res-
+pectivos.
+b) Interpreta las normas técnicas contenidas en el pre-
+sente Reglamento.
+CAPITULO VII
+DE LAS INFRACCIONES Y SANCIONES
+Artículo  47.- Los actores del Proceso de la Edifica-
+ción, personas naturales o jurídicas, o las entidades pú-
+blicas que intervienen en el mismo, sin sujeción a las
+disposiciones previstas en el presente Reglamento, in-
+currirán en violación del Código de Ética Profesional y
+deberán ser sancionados por sus respectivos Colegios
+Profesionales, sin perjuicio de las sanciones que se en-
+cuentren normadas en la legislación administrativa, civil
+y penal.
+Artículo 48.- Las infracciones al presente Reglamen-
+to, así como las sanciones que en consecuencia corres-
+pondan imponer, serán determinadas por las Municipali-
+dades en cuya jurisdicción se encuentre la Habilitación
+Urbana o la Edificación, las mismas que deben quedar
+establecidas en su correspondiente Reglamento de San-
+ciones y en su Texto Único de Procedimientos Adminis-
+trativos.
+Artículo  49.- Sin perjuicio de lo indicado en el artículo
+anterior,  se consideran infracciones las siguientes:
+a) La ejecución de una obra en contravención con lo
+normado en el presente Reglamento.
+b) La ejecución de una obra sin la licencia respectiva.
+c) La adulteración de los planos, especificaciones y
+demás documentos de una obra, que hayan sido pre-
+viamente aprobados por la Municipalidad respectiva.
+d) El incumplimiento, por parte del Propietario o de
+cualquier Profesional responsable, de las instrucciones
+o resoluciones emanadas de la Municipalidad en cuya
+jurisdicción se encuentre la habilitación urbana o la edi-
+ficación.
+e) Negar el acceso a la obra al Inspector Técnico Mu-
+nicipal.
+f) Cambiar el uso de una edificación sin la correspon-
+diente autorización.
+g) La inexistencia de un Profesional Responsable de
+Obra.
+h) La inexistencia del Cuaderno de Obra, o el incum-
+plimiento de las instrucciones indicadas en el mismo por
+el Inspector Municipal, sin la debida justificación.
+i) El empleo de materiales defectuosos.
+j) Autorizar y/o ejecutar edificaciones en áreas ur-
+banas, que no cuenten con Habilitación Urbana au-
+torizada.
+k) Toda acción u omisión que contravenga las normas
+sobre accesibilidad para personas con discapacidad. En
+este caso es de aplicación lo dispuesto por la Ley Nº
+27920.
+CAPITULO VIII
+DE LAS RESPONSABILIDADES ADMINISTRATIVA,
+CIVIL Y PENAL
+Artículo  50.- Las responsabilidades de los actores
+participantes en cada una de las etapas de un Proyecto,
+pueden ser de carácter Administrativo, Civil y/o Penal, las
+que pueden ser aplicadas en forma concurrente si fuera
+el caso.
+Artículo 51.- La Responsabilidad Administrativa
+de los actores participantes en un Proyecto u Obra
+puede darse cuando éstos, por acción u omisión,
+generan un perjuicio a cualquiera de los actores,
+administrados o partes contratantes, por el incumpli-
+miento de deberes generales o responsabilidades
+normadas en el presente Reglamento, y en la legis-
+lación Administrativa vigente.
+Artículo 52.- La Responsabilidad Civil de los actores
+participantes en un Proyecto u Obra puede darse cuando
+éstos, por acción u omisión, generan un perjuicio a cual-
+quiera de los actores, administrados o partes contratan-
+tes, por el incumplimiento de lo pactado en el Contrato,
+de lo normado en el presente Reglamento, y de la legisla-
+ción Civil vigente.
+Artículo  53.- La Responsabilidad Penal de los acto-
+res participantes en un Proyecto u Obra puede darse cuan-
+
+--- PDF PAGE 8 ---
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+320478
+El Peruano
+Jueves 8 de junio de 2006
+do éstos, por acción u omisión, generan un daño a cual-
+quiera de los actores, administrados o partes contratan-
+tes, mediante un hecho o conducta tipificado como delito
+y normado en la legislación Penal vigente.
+Artículo 54.- Sin perjuicio de sus responsabilidades
+contractuales, el Constructor y el Profesional Responsa-
+ble de Obra, responderán frente al cliente, en el caso de
+que sean objeto de controversia o desacuerdo por daños
+materiales ocasionados en el producto de la edificación,
+dentro de los cinco años.
+Este plazo será contado desde la fecha de recepción
+o finalización de obra por la Municipalidad respectiva, y
+comprende los defectos o daños materiales que a conti-
+nuación se indican:
+a) Por destrucción total o parcial, o cuando presenta
+evidente peligro de ruina o graves defectos por vicio de la
+construcción, por los daños materiales causados en el
+producto de la construcción por vicios o defectos que afec-
+ten la cimentación, las estructuras, o todo aquel elemento
+o subconjunto que afecte directamente a las estructuras,
+comprometa la resistencia mecánica, la estabilidad, y el
+tiempo de la vida útil de la obra.
+b) Por los daños materiales causados en la obra por
+vicios o defectos de los elementos constructivos o de las
+instalaciones, ocasionados por el incumplimiento de los
+requisitos de calidad de los materiales.
+c) Por los daños materiales por vicios o defectos de
+ejecución que afecten a elementos no estructurales o por
+defecto del suelo, si es que hubiera suministrado o elabo-
+rado los estudios, planos y demás documentos necesa-
+rios para la ejecución de la obra y que forman parte del
+producto de la construcción.
+Artículo 55.- El Constructor y el Profesional Res-
+ponsable de Obra, se liberan de responsabilidades
+del Contrato, si prueban que la obra se ejecutó de
+acuerdo a las normas técnicas de este Reglamento
+y en estricta conformidad con las instrucciones de
+los profesionales que elaboraron los estudios, pla-
+nos y demás documentos necesarios para la ejecu-
+ción de la obra, cuando los mismos le son proporcio-
+nados por el Propietario.
+Artículo 56.- La Responsabilidad Civil será exigible
+en forma personal e individualizada, tanto por actos u omi-
+siones propios, como por actos u omisiones de personas
+por los que se deba responder.
+Sin perjuicio de las medidas de intervención adminis-
+trativas que en cada caso procedan, la responsabilidad
+que se establece en esta norma se extenderá a las perso-
+nas naturales o jurídicas que, a tenor del Contrato o de su
+intervención decisoria en las definiciones de requisitos de
+calidad, actúen personalmente como Profesional Respon-
+sable de Obra o Constructor.
+Artículo 57.- El Constructor responderá directamente
+de los daños materiales causados en la obra por incum-
+plimiento de los requisitos de calidad, defectos derivados
+de la impericia, falta de capacidad profesional o técnica,
+negligencia o incumplimiento de las obligaciones atribui-
+das al Profesional Responsable de Obra y demás perso-
+nas que de él dependan.
+Los daños materiales se refieren a las fallas observa-
+das en alguno de los componentes de la edificación más
+allá de las derivadas del uso normal y adecuado.
+Cuando el Constructor subcontrate con otras perso-
+nas naturales o jurídicas la ejecución de determinadas
+partes o instalaciones de la obra, será directamente res-
+ponsable de los daños materiales por vicios o defectos de
+su ejecución, sin perjuicio de la Acción Civil y/o Penal a
+que hubiere lugar.
+Asimismo, el Constructor responderá directamente de
+los daños materiales causados en el producto de la cons-
+trucción por las deficiencias de los suministros adquiridos
+o aceptados por él, hasta el plazo establecido por el fabri-
+cante como garantía del producto.
+Artículo 58.- Las obras ejecutadas, para ser transferi-
+das a terceros mediante Contratos de Compra Venta a
+Título Oneroso, tienen como responsable al Vendedor,
+quien podrá repetir contra el Constructor.
+Artículo 59.- En todo aquello que no esté normado en
+el presente Reglamento respecto a las infracciones y san-
+ciones de naturaleza administrativa, civil y penal, éstas se
+sujetan a lo normado en la legislación especial vigente
+sobre cada materia.
+NORMA G.040
+DEFINICIONES
+Artículo Único.- Para la aplicación del presente Re-
+glamento se consideran las siguientes definiciones:
+Acabados: Materiales que se instalan en una edifica-
+ción y que se encuentra integrados a ella, con el fin de
+darles condiciones de uso a los ambientes que la confor-
+man. Son acabados los pisos, cielorrasos, recubrimien-
+tos de paredes y techos, carpintería, vidrios y cerrajería,
+pintura, aparatos sanitarios y grifería.
+Aleros: Parte del techo que sobresale de un muro o
+elemento de soporte.
+Altura de la edificación: Es la dimensión vertical
+de una edificación. Es establecida como parámetro en
+el Plan Urbano o de Desarrollo Urbano, para el lote
+donde se construirá la obra. Se mide en el punto mas
+alto de la vereda del frente principal de acceso de per-
+sonas al inmueble a edificar, sobre el límite de propie-
+dad. En caso de no existir vereda, se tomará el nivel de
+la calzada más 0.15 m. En caso que el ingreso sea por
+una esquina, se tomará el nivel de la esquina. La altura
+total incluye el parapeto superior sobre el último nivel
+edificado. En caso que exista acceso por dos frentes
+de distinto nivel se tomará el nivel más alto. No incluye
+los tanques elevados, ni las casetas de los equipos para
+los ascensores. En los casos en que la altura de la edi-
+ficación este indicada en pisos, cada piso se considera
+de 3.00 m. En caso que esté fijada en metros y en pisos
+simultáneamente, prima la altura en metros.
+Ampliación: Es la obra que se ejecuta a partir de una
+edificación preexistente, incrementando la cantidad de
+metros cuadrados de área techada. Puede incluir o no la
+remodelación del área techada existente.
+Aporte: Área de terreno habilitado destinado a recrea-
+ción pública y servicios públicos, que debe inscribirse a
+favor de la institución beneficiaria, y que es cedida a titulo
+gratuito por el propietario de un terreno rústico como con-
+secuencia del proceso de habilitación urbana.
+Aprobado: Calificación que recibe un proyecto como
+resultado del proceso de revisión, cuando cumple con los
+requisitos establecidos en las normas vigentes.
+Aprobado con observaciones: Calificación que reci-
+be un proyecto como resultado del proceso de revisión,
+en el que existen deficiencias subsanables que no alteran
+las características básicas del proyecto. Esta condición
+no le permite al solicitante iniciar los trabajos propuestos
+en el proyecto hasta que las observaciones hayan sido
+levantadas.
+Área bruta: Es la superficie encerrada dentro de los
+linderos de la poligonal de un terreno rústico.
+Área techada: Es la suma de las superficies de las
+edificaciones techadas. Se calcula sumando la proyec-
+ción de los límites de la poligonal que encierra cada
+piso, descontando los ductos. No forman parte del área
+techada, las cisternas, los tanques de agua, los espa-
+cios para la instalación de equipos donde no ingresen
+personas, los aleros desde la cara externa de los mu-
+ros exteriores cuando tienen como fin la protección de
+la lluvia, las cornisas, balcones y jardineras descubier-
+tas y las cubiertas de vidrio u otro material transparente
+cuando cubran patios interiores. Los espacios a doble
+o mayor altura se calculan en el nivel del techo colin-
+dante más bajo.
+Área común: Área libre o techada de propiedad co-
+mún de los propietarios de los predios en que se ha sub-
+dividido una edificación. Se mide entre las caras de los
+muros que la limitan. En el caso de áreas comunes colin-
+dantes con otros predios se mide hasta el límite de pro-
+piedad.
+Área de aportes: Es la suma de las superficies que
+se transfieren a las entidades beneficiarias para uso
+público como resultado del proceso de habilitación ur-
+bana. Se calcula sobre el área bruta, menos las áreas
+que deban cederse para vías expresas, arteriales y co-
+lectoras.
+Área de recreación pública: Superficie destinada a
+parques de uso público.
+Área libre: - Es la superficie de terreno donde no exis-
+ten proyecciones de áreas techadas. Se calcula sumando
+las superficies comprendidas fuera de los linderos de las
+poligonales definidas por las proyecciones de las áreas
+
+--- PDF PAGE 9 ---
+El Peruano
+Jueves 8 de junio de 2006
+320479
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+techadas sobre el nivel del terreno, de todos los niveles
+de la edificación y hasta los límites de la propiedad.
+Área neta: Es la superficie de terreno resultante des-
+pués de haberse efectuado las cesiones para vías y los
+aportes reglamentarios.
+Área ocupada: Es la suma de las superficies techa-
+das y sin techar de dominio propio, encerrada dentro de
+los linderos de una poligonal medida hasta la cara exte-
+rior de los muros del perímetro o hasta el eje del para-
+mento divisorio en caso de colindancia con otro predio.
+No incluye los ductos verticales.
+Área rural: Es el área establecida en los Instrumentos
+de Planificación Territorial que está fuera de los límites
+urbanos o de expansión urbana.
+Área urbana: Es el área destinada a usos urbanos,
+comprendida dentro de los límites urbanos establecidos
+por los Instrumentos de Planificación Territorial.
+Arquitectura: Arte y técnica de proyectar y construir
+edificios, según reglas, técnicas y cánones estéticos de-
+terminados.
+Azotea: Es el nivel accesible encima del techo del úl-
+timo nivel techado. La azotea puede ser libre o tener cons-
+trucciones de acuerdo con lo que establecen los planes
+urbanos.
+Cálculo de evacuación: Estimación del tiempo que
+tardan los ocupantes de una edificación en  evacuarla com-
+pletamente a un lugar seguro, en condiciones de máxima
+ocupación. El cálculo de evacuación define las dimensio-
+nes de las puertas de salida y de las circulaciones hori-
+zontales y verticales.
+Calidad de la edificación: Es el conjunto de caracte-
+rísticas que son objeto de valoración y que permiten reco-
+nocer el grado en que una edificación responde a su pro-
+pósito y a las necesidades de sus usuarios.
+Calzada o pista: Parte de una vía destinada al tránsi-
+to de vehículos.
+Catastro: Es el registro o inventario detallado de los
+bienes inmuebles urbanos, así como del mobiliario y de-
+más componentes de una ciudad.
+Cesión para vías: Área de terreno rústico destinado a
+vías que es cedida a titulo gratuito por el propietario de un
+terreno rústico como consecuencia del proceso de habili-
+tación urbana.
+Cerco: Elemento de cierre que delimita una propie-
+dad o dos espacios abiertos. Puede ser opaco o trans-
+parente.
+Cliente: Persona natural o jurídica, de naturaleza pú-
+blica o privada que da origen al proyecto de la edificación.
+Sus necesidades dan inicio a la actividad económica.
+Coeficiente de edificación: Factor por el que se mul-
+tiplica el área de un terreno urbano y cuyo resultado es el
+área techada máxima posible, sin considerar los estacio-
+namientos ni sus áreas tributarias.
+Condominio: Forma de propiedad de una edificación
+en la que participan dos o mas propietarios.
+Conjunto habitacional: Ver conjunto residencial.
+Conjunto residencial: Grupo de viviendas compues-
+to de varias edificaciones independientes, con predios de
+propiedad exclusiva y que comparten bienes comunes bajo
+el régimen de copropiedad.
+Construcción por etapas: Proceso de ejecución de
+obras de habilitación urbana o edificación que puede fina-
+lizan o se reciben por secciones parciales.
+Construcción simultánea: Obras de edificación que
+se ejecutan conjuntamente con las obras de habilita-
+ción urbana y cuyas licencias se otorgan en forma con-
+junta.
+Constructor: Persona natural o jurídica, cuya respon-
+sabilidad es ejecutar una obra.
+Control de calidad: Técnicas y actividades emplea-
+das para verificar el cumplimiento de los requisitos de ca-
+lidad, establecidos en el proyecto.
+Déficit de estacionamientos: Numero de estaciona-
+mientos que no pueden ser ubicados dentro del lote so-
+bre el que está construida la edificación que los deman-
+da, respecto de los espacios requeridos normativamente.
+Densidad Bruta: Es el indicador resultante de dividir
+el numero de habitantes del proyecto propuesto, entre el
+área de un lote rústico para uso residencial.
+Densidad Neta: Es el indicador resultante de dividir el
+numero de habitantes del proyecto propuesto entre el área
+de un lote urbano para uso residencial.
+Densificación: Es el proceso de incremento de la den-
+sidad habitacional, producto del aumento del número de
+habitantes dentro del mismo suelo ocupado.
+Demolición: Es la obra que se ejecuta para eliminar
+parcial o totalmente una edificación existente.
+Diseño: Disciplina que tiene por objeto la armoniza-
+ción del entorno humano, desde la concepción de los ob-
+jetos de uso, hasta el urbanismo.
+Ducto de basura: Conducto vertical destinado a la con-
+ducción de residuos sólidos hacia un espacio de almace-
+namiento provisional.
+Ducto horizontal: Conducto técnico destinado a con-
+tener instalaciones de una edificación, capaz de permitir
+su atención por personal especializado.
+Ducto de instalaciones: Conducto técnico vertical u
+horizontal destinado a portar lineas y accesorios de insta-
+laciones de una edificación, capaz de permitir su atención
+directamente desde un espacio contiguo.
+Ducto de ventilación: Conducto vertical destinado
+a permitir la renovación de aire de ambientes de servi-
+cio de una edificación, por medios naturales o mecani-
+zados.
+Edificación: Obra de carácter permanente, cuyo des-
+tino es albergar actividades humanas. Comprende las ins-
+talaciones fijas y complementarias adscritas a ella.
+Edificio: Obra ejecutada por el hombre albergar sus
+actividades.
+Edificio multifamiliar: Edificación única con dos o más
+unidades de vivienda que mantienen la copropiedad del
+terreno y de las áreas y servicios comunes.
+Edificio de oficinas: Edificación de una o varias uni-
+dades, destinado a la albergar actividades de tipo inte-
+lectual.
+Edificio de uso público: Edificación pública o priva-
+da, cuya función principal es la prestación de servicios al
+público.
+Edificio de Estacionamiento: Edificación destinada
+exclusivamente al estacionamiento de vehículos.
+Elemento prefabricado: Componente de obra prepa-
+rado fuera de su lugar definitivo.
+Equipamiento básico: Conjunto de construcciones y
+edificaciones que se destinan a los servicios de sanea-
+miento y electrificación.
+Equipamiento de la edificación: Conjunto de com-
+ponentes mecánicos y electromecánicos, necesarios para
+el funcionamiento de una edificación.
+Equipamiento social: Edificaciones destinadas a edu-
+cación, salud y servicios sociales.
+Equipamiento urbano: Edificaciones destinadas a re-
+creación, salud, educación, cultura, transporte, comuni-
+caciones, seguridad, administración local, gobierno y ser-
+vicios básicos.
+Escalera: Elemento de la edificación con gradas, que
+permite la circulación de las personas entre los diferentes
+niveles. Sus dimensiones se establecen sobre la base del
+flujo de personas que transitarán por ella y el traslado del
+mobiliario.
+Escalera de evacuación: Escalera que cuenta con
+protección a prueba de humos y fuego. Entrega en el ni-
+vel de una vía publica.
+Escalera integrada: Escalera cuyos espacios de en-
+trega en cada nivel forman parte de los pasajes de circu-
+lación horizontal, sin elementos de cierre.
+Estudio de ascensores: Evaluación de tráfico, flujos
+y características técnicas que determinan el número y di-
+mensiones de los ascensores requeridos para satisfacer
+las necesidades de una edificación.
+Estacionamiento: Superficie pavimentada, con o sin
+techo, destinada exclusivamente al estacionamiento de
+vehículos.
+Estudio de evacuación: Evaluación del sistema de
+evacuación de una edificación en situación de ocupación
+máxima, que garantice la salida de las personas en un
+tiempo determinado, en casos de emergencia.
+Estudio de Impacto ambiental: Evaluación de la ma-
+nera como una edificación influirá en el entorno, durante
+su etapa de funcionamiento.
+Estudio de Impacto Vial: Evaluación de la manera
+como una edificación influirá en el sistema vial adyacen-
+te, durante su etapa de funcionamiento.
+Estudio de riesgos: Evaluación de los peligros rea-
+les o potenciales de un terreno para ejecutar una habilita-
+ción urbana o una edificación.
+Estudio de seguridad: Evaluación de las condiciones
+de seguridad necesarias para garantizar el uso de una
+edificación de manera razonablemente segura para sus
+ocupantes.
+
+--- PDF PAGE 10 ---
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+320480
+El Peruano
+Jueves 8 de junio de 2006
+Estudios básicos: Son los estudios técnicos y eco-
+nómicos del proyecto, mediante los cuales se demuestra
+que es procedente ejecutar el proyecto.
+Espacio público: Superficie de uso público, destina-
+do a circulación o recreación.
+Expansión urbana: Proceso mediante el cual se in-
+crementa la superficie ocupada de un centro poblado.
+Expediente técnico: Conjunto de documentos que
+determinan en forma explícita las características, requi-
+sitos y especificaciones necesarias para la ejecución de
+la edificación. Esta constituido por: planos por especiali-
+dades, especificaciones técnicas, metrados y presupues-
+tos, análisis de precios unitarios, cronograma de ejecu-
+ción y memoria descriptiva y si fuese el caso, formulas
+de reajuste de precios, estudios técnicos específicos (de
+suelos, de impacto vial, de impacto ambiental, geológi-
+cos, etc.), y la relación de ensayos y/o pruebas que se
+requieren.
+Fachada: Paramento exterior de una edificación. Pue-
+de ser frontal, la que da hacia la vía a través de la que se
+puede acceder, lateral o posterior.
+Frente: Lindero que limita con un acceso vehicular o
+peatonal. Se mide entre los vértices de los linderos que
+intersectan con el.
+Frente de manzana: Lindero frontal de uno o va-
+rios lotes colindantes. Se mide entre los vértices for-
+mados con los linderos exteriores de los lotes colin-
+dantes con vías vehiculares, vías peatonales o áreas
+de uso público.
+Garantías: Documento que entregan las entidades que
+participan en la ejecución de cualquier etapa del proyec-
+to, a los clientes de los productos de la edificación, me-
+diante el cual certifican la calidad del producto por un tiem-
+po determinado.
+Habilitación urbana: Proceso de convertir un terreno
+rústico en urbano, mediante la ejecución de obras de ac-
+cesibilidad, distribución de agua y recolección de desagüe,
+distribución de energía e iluminación pública, pistas y ve-
+redas. Adicionalmente podrá contar con redes para distri-
+bución de gas y redes de comunicaciones. Las habilita-
+ciones urbanas pueden ser ejecutadas de manera pro-
+gresiva.
+Iluminación artificial: Sistema de iluminación ac-
+cionado eléctricamente suficiente para atender las de-
+mandas de los usuarios de acuerdo a la función que
+desarrollan.
+Iluminación natural: Nivel de luz que ingresa a una
+habitación.
+Independización: Proceso de división de una parcela
+o una edificación en varias unidades inmobiliarias inde-
+pendientes.
+Inscripción registral: Proceso de inscribir un predio
+en el registro de la propiedad inmueble de la localidad
+donde se encuentra.
+Isla rústica: Terreno sin habilitar circundado por zo-
+nas con habilitación urbana.
+Limite de propiedad: Cada uno de los linderos que
+definen la poligonal que encierra el área de un terreno
+urbano o rústico.
+Limite de edificación: Línea que define hasta donde
+puede llegar el área techada de la edificación.
+Local: Cualquier edificación de uso no residencial, de
+un solo ambiente principal y ambientes de servicio.
+Localización: Ver Ubicación.
+Lote: Superficie de terreno urbano delimitado por una
+poligonal, definido como resultado de un proceso de habi-
+litación urbana y subdivisión del suelo.
+Lote mínimo: Superficie mínima que debe tener un
+terreno urbano según el uso asignado.
+Lote normativo: Superficie de lote de una habilita-
+ción urbana de acuerdo a la zonificación establecida,
+densidad y uso del suelo. Sirve de base para el diseño
+de las habilitaciones urbanas y para la subdivisión de
+lotes.
+Lotización: Subdivisión del suelo en lotes.
+Manzana: Lote o conjunto de lotes limitados por vías
+vehiculares, vías peatonales o áreas de uso público, en
+todos sus frentes.
+Mezanine: Piso habitable que no techa la totalidad del
+piso inferior, creando un espacio a doble o mayor altura.
+Se considera un piso más y el área techada es la proyec-
+ción del techo que cubre su área de piso.
+Mobiliario: Conjunto de elementos que se colocan en
+una edificación y que no son de carácter fijo y permanen-
+te, tales como: muebles, tabiques interiores desmontables,
+elementos metálicos o de madera que al retirarse no afec-
+tan el uso de la edificación, cielo rasos descolgados des-
+montables, elementos livianos para el control del paso de
+la luz, elementos de iluminación y otros similares.
+Mobiliario urbano: Conjunto de elementos instalados
+en ambientes de uso público, destinados al uso de las
+personas.
+Modificación del proyecto: Cambios que se introdu-
+cen a un proyecto o a una obra de construcción entre la
+fecha de la licencia y la conformidad de obra, supongan o
+no un aumento del área techada.
+Muro cortafuego: Paramento que cumple con la re-
+sistencia al fuego establecida en una norma.
+Muro divisorio: Paramento que separa dos inmuebles
+independientes, pudiendo o no ser medianero.
+Muro medianero: Paramento que pertenece en co-
+mún a dos predios colindantes. La línea imaginaria que
+los divide pasa por su eje.
+Muro Perimétrico: Paramento que cerca el perímetro
+de un predio sobre sus linderos.
+Nivel o Piso: Espacio habitable limitado por una su-
+perficie inferior transitable y una superior que la techa. El
+último piso no tiene techo.
+Núcleo básico: Forma inicial de una vivienda com-
+puesta de un ambiente de uso múltiple y otro para aseo.
+Obra menor: Obra que se ejecuta para modificar ex-
+cepcionalmente, una edificación existente y que no altera
+sus elementos estructurales, ni su función. Puede consis-
+tir en una ampliación, remodelación o refacción y tiene
+las siguientes características:
+- Cumplir con los parámetros urbanísticos y edificato-
+rios;
+- Tener un área inferior a 30 m2 de área techada de
+intervención; o, en el caso de las no mensurables, tener
+un valor de obra no se mayor de seis (6) UIT.
+- Se ejecutan bajo responsabilidad del propietario.
+No se pueden ejecutar obras menores sin autorización
+en inmuebles ubicados en zonas monumentales y/o Bie-
+nes Culturales Inmuebles.
+Obras de mantenimiento: Son aquellas destinadas a
+conservar las características originales de los materiales
+y las instalaciones de las edificaciones existentes.
+Obras complementarias: Obras de carácter perma-
+nente edificadas fuera de los límites del área techada y
+que se ejecutan para cumplir funciones de seguridad, al-
+macenamiento, pavimentación y colocación de equipos.
+Oficina: Espacio dedicado a la ejecución de trabajo
+intelectual.
+Ocupación máxima: Número de personas que puede
+albergar una edificación. Se emplea para el cálculo del
+sistema de evacuación.
+Ochavo: Recorte en chaflán en el lote en esquina de
+dos vías de circulación vehicular.
+Paramento interior: Elemento de cierre que divide dos
+ambientes o espacios.
+Paramento exterior: Elemento de cierre que define
+los límites de la edificación y la separa del ambiente exte-
+rior no techado.
+Parámetros urbanísticos y edificatorios: Disposicio-
+nes técnicas que establecen las características que debe
+tener un proyecto de edificación. Señala el uso del suelo,
+las dimensiones del lote normativo, el coeficiente de edifi-
+cación, la densidad neta de habitantes por hectárea, la
+altura de la edificación, los retiros, el porcentaje de área
+libre, el número de estacionamientos y otras condiciones
+que deben ser respetada por las personas que deseen
+efectuar una obra nueva sobre un lote determinado o
+modificar una edificación existente.
+Parcela: Superfície de terreno rústico.
+Parcelación: División de un predio rústico e parcelas,
+sin cambio de uso, en zona rural o de expansión urbana.
+Parque: Espacio libre de uso público destinado a la
+recreación pasiva o activa, con predominancia de áreas
+verdes naturales, de dimensiones establecidas en los mí-
+nimos normativos, que puede tener instalaciones para el
+esparcimiento o para la práctica de un deporte.
+Pasaje: Vía para el tránsito de peatonal, que puede
+recibir el uso eventual de vehículos y que está conectada
+a una vía de tránsito vehicular o a un espacio de uso pú-
+blico.
+Pasaje de circulación: Ambiente de la edificación asig-
+nado exclusivamente a la circulación de personas.
+
+--- PDF PAGE 11 ---
+El Peruano
+Jueves 8 de junio de 2006
+320481
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+Patio: Superficie sin techar situada dentro de un pre-
+dio, delimitada por los paramentos exteriores de las edifi-
+caciones o los límites de propiedad que la conforman.
+Patio de servicio: Ambiente con o sin techo destina-
+do al desarrollo de funciones de lavandería y limpieza u
+otros servicios.
+Pavimento: Superficie uniforme de materiales com-
+pactos preparado para el tránsito de personas o vehícu-
+los.
+Pendiente promedio de un terreno: Es el porcentaje
+que señala la  inclinación media de un terreno con res-
+pecto al plano horizontal, calculado en base a los niveles
+máximo y mínimo.
+Persona con discapacidad: Persona que, como con-
+secuencia de una o más deficiencias físicas, síquicas o
+sensoriales, congénitas o adquiridas, de carácter tempo-
+ral o permanente, se encuentra limitado en su capacidad
+educativa, laboral o de integración social con respecto a
+una persona sin estas limitaciones.
+Planeamiento integral: Es el que comprende la orga-
+nización del uso del suelo, la zonificación y vías, de uno o
+varios predios rústicos, cuyo objetivo es establecer las
+características que deberán tener los proyectos de habili-
+tación urbana a realizarse en etapas sucesivas.
+Plano de Zonificación: Documento gráfico que in-
+dica un conjunto de normas técnicas urbanísticas y edi-
+ficatorias, establecidas en el Plan de Desarrollo Urba-
+no  por las que se regula el uso del suelo para localizar
+las diferentes actividades humanas en función de las
+demandas físicas, económicas y sociales de la pobla-
+ción. Se complementa con el Reglamento de Zonifica-
+ción, el Índice de Usos y el Cuadro de Niveles Opera-
+cionales.
+Plaza: Espacio de uso público predominantemente pa-
+vimentado, destinado a recreación, circulación de perso-
+nas y/o actividades cívicas.
+Porcentaje de área libre: Resultado de dividir el área
+libre por cien, entre el área total de un terreno.
+Pozo de luz: Patio o área libre, cuya función es la
+dotar a los ambientes circundantes de iluminación y ven-
+tilación naturales. Las dimensiones de un pozo de luz
+dependen del tipo de ambiente al cual sirve y varían de
+acuerdo con la diferencia entre el nivel del alfeizar de
+la ventana mas baja de un ambiente de uso por las per-
+sonas y la parte mas alta del paramento opuesto que lo
+limita. Cuando el pozo de luz se define por un cerco en
+el límite de propiedad, la altura del paramento opuesto
+es la altura normativa establecida para el lote vecino.
+Predio: Unidad inmobiliaria independiente. Pueden ser
+lotes, terrenos, parcelas, viviendas, departamentos, loca-
+les, oficinas, tiendas o cualquier tipo de unidad inmobilia-
+ria identificable.
+Primer piso: Nivel de un edificio que está inmediata-
+mente sobre el terreno natural, sobre el nivel de sótano o
+semisótano, o parcialmente enterrado en menos del cin-
+cuenta por ciento (50%) de la superficie de sus paramen-
+tos exteriores.
+Programas de  promoción del acceso a la propie-
+dad privada de la vivienda.- Programas que facilitan a
+ciertos sectores de la población, el acceso a una vivienda
+o a los servicios básicos.
+Propietario: Persona natural o jurídica que acredita
+ser titular del dominio del predio al que se refiere una
+obra.
+Proveedor: Persona natural o jurídica que entrega un
+producto o un servicio requerido por cualquiera de las ac-
+tividades del proyecto o de la edificación.
+Proyectista: Profesional competente que tiene a su
+cargo la ejecución de una parte del proyecto de una obra.
+Proyecto: Conjunto de actividades que demandan re-
+cursos múltiples que tienen como objetivo la materializa-
+ción de una idea. Información técnica que permite ejecu-
+tar una obra de edificación o habilitación urbana.
+Proyecto arquitectónico: Conjunto de documentos
+que contienen información sobre el diseño de una edifica-
+ción y cuyo objetivo es la ejecución de la obra. Se expre-
+sa en planos, gráficos, especificaciones y cálculos.
+Puerta de escape: Puerta de salida de personas que
+permite llegar al exterior de la edificación y  forma parte
+de un sistema de evacuación. Constituye una salida alter-
+na a la evacuación principal.
+Quinta: Conjunto de viviendas edificadas sobre lotes
+de uso exclusivo, con acceso por un espacio común o di-
+rectamente desde la vía pública.
+Recreación: Actividad humana activa o pasiva, desti-
+nada al esparcimiento o cultura de las personas. Es acti-
+va, cuando demanda algún esfuerzo físico.
+Recreación pública: Área de aporte para parques, pla-
+zas y plazuelas.
+Reconstrucción: Reedificación total o parcial de una
+edificación preexistente o de una parte de ella con las mis-
+mas características de la versión original.
+Refacción: Obra de mejoramiento y/o renovación de
+instalaciones, equipamiento y/o elementos constructivos,
+sin alterar el uso, el área techada, ni los elementos es-
+tructurales de la edificación existente.
+Remodelación: Obra que se ejecuta para modificar la
+distribución de los ambientes con el fin de adecuarlos a
+nuevas funciones o incorporar mejoras sustanciales, den-
+tro de una edificación existente, sin modificar el área te-
+chada.
+Requisitos de calidad: Descripción de los procedi-
+mientos y requerimientos cuantitativos que se establecen
+para una obra en base a las necesidades de los clientes y
+sus funciones.
+Requisitos para discapacitados: Conjunto de condi-
+ciones que deben cumplir las habilitaciones urbanas y las
+edificaciones para que puedan ser usadas por personas
+con discapacidad.
+Responsabilidades: Obligaciones que deben ser cum-
+plidas por las personas naturales o jurídicas, como con-
+secuencia de su participación en cualquier etapa de un
+proyecto.
+Retiro: Es la distancia que existe entre el límite de pro-
+piedad y el límite de edificación. Se establece de manera
+paralela al lindero que le sirve de referencia. El área entre
+el lindero y el límite de edificación, forma parte del área
+libre que se exige en los parámetros urbanísticos y edifi-
+catorios.
+Reurbanización: Proceso de recomposición de la tra-
+ma urbana existente.
+Revestimiento: Producto o elemento que recubre las
+superficies de los paramentos interiores o exteriores de
+una edificación.
+Salida de emergencia: Circulación horizontal o verti-
+cal de una edificación comunicada con la vía pública o
+hasta un espacio exterior libre de riesgo, que permite la
+salida de personas en situaciones de emergencia, hasta
+un espacio exterior libre de riesgo. La salida de emergen-
+cia constituye una salida adicional a las salidas regulares
+de la edificación.
+Semi sótano: Es la parte de una edificación cuyo te-
+cho se encuentra hasta 1.50 m. por encima del nivel me-
+dio de la vereda. El semi sótano puede ocupar los retiros,
+salvo en el caso de retiros reservados para ensanche de
+vías. Puede estar destinado a vivienda.
+Servicios públicos complementarios: Dotación de
+servicios urbanos para atender las necesidades de edu-
+cación,  salud, comerciales, sociales, recreativas, religio-
+sas, de seguridad, etc.
+Servicios públicos domiciliarios: Dotación de servi-
+cios de agua, desagüe, energía eléctrica, gas y comuni-
+caciones conectados a un predio independiente.
+Sistema automático de extinción de incendios: Con-
+junto de dispositivos y equipos capaces de detectar y des-
+cargar, en forma automática, un agente extintor de fuego
+en el área de incendio.
+Sistema de seguridad: Conjunto de dispositivos de
+prevención, inhibición o mitigación de riesgos o siniestros
+en las edificaciones, que comprende un sistema contra
+incendio, un sistema de evacuación de personas y un sis-
+tema de control de accesos.
+Sótano: Es la parte de una edificación cuyo techo se
+encuentra hasta 0.50 m. por encima del nivel medio de la
+vereda. Se considerará también como sótano la parte de
+la edificación que emerge del terreno circundante en un
+porcentaje inferior al 50% de la superficie total de sus pa-
+ramentos exteriores, aún cuando una o más de sus fa-
+chadas queden al descubierto parcial o totalmente. No
+puede estar destinado a vivienda.
+Subdivisión: Partición de terrenos habilitados en frac-
+ciones destinadas al mismo uso del lote matriz.
+Supervisor técnico: Persona natural o jurídica que
+tiene como responsabilidad verificar la ejecución de la obra
+de habilitación urbana o edificación.
+Terreno eriazo: Unidad inmobiliaria constituida por una
+superficie de terreno improductivo o no cultivado por falta
+o exceso de agua.
+
+--- PDF PAGE 12 ---
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+320482
+El Peruano
+Jueves 8 de junio de 2006
+Terreno natural: Estado del terreno anterior a cual-
+quier modificación practicada en él.
+Terreno rústico: Unidad inmobiliaria constituida por
+una superficie de terreno no habilitada para uso urbano y
+que por lo tanto no cuenta con accesibilidad, sistema de
+abastecimiento de agua, sistema de desagües, abasteci-
+miento de energía eléctrica, redes de iluminación pública,
+pistas ni veredas.
+Terreno urbano: Unidad inmobiliaria constituida por
+una superficie de terreno habilitado para uso urbano y que
+cuenta con accesibilidad, sistema de abastecimiento de
+agua, sistema de desagüe, abastecimiento de energía
+eléctrica y redes de iluminación pública y que ha sido so-
+metida a un proceso administrativo para adquirir esta con-
+dición. Puede o no contar con pistas y veredas.
+Tienda: Local para realizar transacciones comercia-
+les de venta de bienes y servicios.
+Vivienda: Edificación independiente o parte de una edi-
+ficación multifamiliar, compuesta por ambientes para el
+uso de una o varias personas, capaz de satisfacer sus
+necesidades de estar, dormir, comer, cocinar e higiene. El
+estacionamiento de vehículos, cuando existe, forma parte
+de la vivienda.
+Urbanización: Área de terreno que cuenta con reso-
+lución aprobatoria de recepción de las obras de habilita-
+ción Urbana.
+Uso del suelo: Determinación del tipo de actividades
+que se pueden realizar en las edificaciones que se ejecu-
+ten en cada lote según la zonificación asignada a los te-
+rrenos urbanos, de acuerdo a su vocación y en función de
+las necesidades de los habitantes de una ciudad. Puede
+ser residencial, comercial, industrial o de servicios.
+Ventilación natural: Renovación de aire que se logra
+por medios naturales.
+Ventilación forzada: Renovación de aire que se logra
+por medios mecánicos o electromecánicos.
+Vereda: Parte pavimentada de una vía, asignada a la
+circulación de personas.
+Vía: Espacio destinado al tránsito de vehículos y/o per-
+sonas.
+Vivienda unifamiliar: Unidad de vivienda sobre un lote
+único.
+NORMA G.050
+SEGURIDAD DURANTE LA CONSTRUCCIÓN
+CAPÍTULO I
+GENERALIDADES
+Articulo 1.- OBJETO
+La presente Norma especifica las consideraciones mí-
+nimas indispensables de seguridad a tener en cuenta en
+las actividades de construcción civil. Asimismo, en los
+trabajos de montaje y desmontaje, incluido cualquier pro-
+ceso de demolición, refacción o remodelación.
+Articulo 2.- CAMPO DE APLICACIÓN
+La presente Norma se aplica a todas las actividades
+de construcción, es decir, a los trabajos de edificación,
+obras de uso público, trabajos de montaje y desmontaje y
+cualquier proceso de operación o transporte en las obras,
+desde su preparación hasta la conclusión del proyecto;
+en general a toda actividad definida en el Gran Grupo 2,
+Gran Grupo 3, Gran Grupo 7, Gran Grupo 8 y Gran Grupo
+9, señaladas en la CLASIFICACION INTERNACIONAL
+UNIFORME DE OCUPACIONES - CIUO - 1988.
+Articulo 3.- DEFINICIONES
+Para los propósitos de esta Norma se aplican las si-
+guientes definiciones:
+3.1. Andamio: Estructura provisional con estabilidad,
+fija, suspendida o móvil, y los componentes en el que se
+apoye, que sirve de soporte en el espacio a trabajadores,
+equipos, herramientas y materiales, con exclusión de los
+aparatos elevadores.
+3.2. Aparato elevador: Todo aparato o montacarga,
+fijo o móvil, utilizado para izar o descender personas o
+cargas.
+3.3. Accesorio de izado: Mecanismo o aparejo por
+medio del cual se puede sujetar una carga o un aparato
+elevador pero que no es parte integrante de éstos.
+3.4. Construcción: Abarca las siguientes acepciones:
+Edificación, incluidas las excavaciones y las construc-
+ciones provisionales, las transformaciones estructurales,
+la renovación, la reparación, el mantenimiento (incluidos
+los trabajos de limpieza y pintura), y la demolición de
+todo tipo de edificios y estructuras. Obras de uso y servi-
+cio público: movimiento de tierras, trabajos de demoli-
+ción, obras viales, cunetas, terminales, intercambios via-
+les, aeropuertos, muelles, puertos, canales, embalses,
+obras pluviales y marítimas (terminales, refuerzos rom-
+peolas), carreteras y autopistas, ferrocarriles, puentes,
+túneles, trabajos de subsuelo, viaductos y obras relacio-
+nadas con la prestación de servicios como: comunica-
+ciones, desagüe, alcantarillado y suministro de agua y
+energía.
+Montaje electromecánico, montaje y desmontaje de edi-
+ficios y estructuras de elementos prefabricados.
+Procesos de preparación, habilitación y transporte de
+materiales.
+3.5. Empleador: Abarca las siguientes acepciones:
+Persona natural o jurídica que emplea uno o varios traba-
+jadores en una obra, y según el caso: el propietario, el
+contratista general, subcontratista y trabajadores indepen-
+dientes.
+3.6. Entibaciones: Apuntalar con madera las excava-
+ciones que ofrecen riesgo de hundimiento.
+3.7. Estrobos: Cabo unido por sus chicotes que sirve
+para suspender cosas pesadas.
+3.8. Eslingas: Cuerda trenzadas prevista de ganchos
+para levantar grandes pesos.
+3.9. Lugar de trabajo: Sitio en el que los trabajadores
+deban laborar, y que se halle bajo el control de un em-
+pleador.
+3.10. Obra: Cualquier lugar o jurisdicción en el que se
+realice alguno de los trabajos u operaciones descritas en
+el Artículo 3 (3.4).
+3.11. Persona competente: Persona en posesión de
+calificaciones adecuadas, tales como una formación apro-
+piada, conocimientos y experiencia para ejecutar funcio-
+nes específicas en condiciones de seguridad.
+3.12. Representante de los trabajadores (o del
+empleador): Persona elegida por las partes y con co-
+nocimiento de la autoridad oficial de trabajo, autoriza-
+da para ejecutar acciones y adquirir compromisos esta-
+blecidos por los dispositivos legales vigentes, en nom-
+bre de sus representados. Como condición indispensa-
+ble debe ser un trabajador de construcción que labore
+en la obra.
+3.13. Trabajador: persona empleada en la construc-
+ción.
+Articulo 4.- INSPECCIÓN DEL TRABAJO
+Para los efectos del control de cumplimiento de la pre-
+sente Norma se aplicará lo dispuesto en la Ley General
+de Inspección del Trabajo y Defensa del Trabajador –
+Decreto Legislativo N° 910, del dieciséis del marzo del
+dos mil uno.
+Articulo 5.- REQUISITOS DEL LUGAR DE TRABAJO
+5.1. CONSIDERACIONES GENERALES
+El lugar de trabajo debe reunir las condiciones nece-
+sarias para garantizar la seguridad y salud de los trabaja-
+dores.
+Se mantendrá en buen estado y convenientemente
+señali las vías de acceso a todos los lugares de trabajo.
+El empleador programará, delimitará desde el punto
+de vista de la seguridad y la salud del trabajador, la zoni-
+ficación del lugar de trabajo en la que se considera las
+siguientes áreas:
+• Área administrativa.
+• Área de servicios (SSHH, comedor y vestuario).
+• Área de operaciones de obra.
+• Área de preparación y habilitación de materiales y
+elementos prefabricados.
+• Área de almacenamiento de materiales.
+• Área de parqueo de equipos.
+• Vías de circulación peatonal y de transporte de ma-
+teriales.
+• Guardianía.
+• Área de acopio temporal de desmonte y de desper-
+dicios.
+
+--- PDF PAGE 13 ---
+El Peruano
+Jueves 8 de junio de 2006
+320483
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+Asimismo se deberá programar los medios de seguri-
+dad apropiados, la distribución y la disposición de cada
+uno de los elementos que los componen dentro de los
+lugares zonificados.
+Se adoptarán todas las precauciones necesarias para
+proteger a las personas que se encuentren en la obra y
+sus inmediaciones, de todos los riesgos que puedan deri-
+varse de la misma.
+El ingreso y tránsito de personas ajenas a la obra de-
+berá ser utilizando el equipo de protección personal ne-
+cesario, y será reglamentado por el responsable de Se-
+guridad de la Obra.
+Se debe prever medidas para evitar la producción de
+polvo en la zona de trabajo, con la aplicación de paliativos
+de polvos y en caso de no ser posible  utilizando equipos
+de protección personal y protecciones colectivas.
+5.2. INSTALACIONES ELÉCTRICAS PROVISIONA-
+LES
+Las Instalaciones eléctricas provisionales por la obra
+deberán ser ejecutadas y mantenidas por personal califi-
+cado.
+Toda obra deberá contar con « Línea de Tierra» en
+todos los circuitos eléctricos provisionales, deberá des-
+cargar en un pozo de tierra según lo establecido en el
+Código Nacional Electricidad.
+5.3. PRIMEROS AUXILIOS
+El empleador será responsable de garantizar en todo
+momento la disponibilidad de medios adecuados y de
+personal de rescate con formación apropiada para pres-
+tar primeros auxilios. Teniendo en consideración las ca-
+racterísticas de la obra, se dispondrán las facilidades ne-
+cesarias para garantizar la atención inmediata, y la eva-
+cuación a centros hospitalarios de las personas heridas o
+súbitamente enfermas.
+5.4. SERVICIOS DE BIENESTAR
+En el área asignada para la obra, se dispondrá, en fun-
+ción del número de trabajadores y de las características
+de la obra:
+• Suministro de agua potable.
+• Servicios higiénicos para hombres y para mujeres.
+• Duchas y lavatorios para hombres y para mujeres.
+• Vestidores para hombres y para mujeres.
+• Comedores.
+• Área de descanso (de acuerdo al espacio disponible
+de la obra).
+Para obras ubicadas y fuera del radio urbano, y según
+sus características, el empleador establecerá las condi-
+ciones para garantizar la alimentación de los trabajado-
+res, tanto en calidad como higiene.
+5.5. Comité de Seguridad
+En toda obra se formará el comité de seguridad que
+estará presidido por el responsable, según al siguiente
+detalle:
+• Obra de autoconstrucción: el responsable de la
+obra es el propietario o el maestro de obra.
+• Obra por contrato:
+- Hasta 20 trabajadores, el profesional responsable.
+- De 20 a 100 trabajadores  el profesional responsable
+y el representante de los trabajadores.
+- Más de 100 trabajadores: Un ingeniero especialista
+en seguridad, el ingeniero responsable y representante
+de los trabajadores.
+5.6. Información y Formación
+Se facilitará a los trabajadores:
+• Información sobre los riesgos de seguridad y salud
+por medio de vitrinas de información general, folletos, avi-
+sos gráficos, etc.
+• Instrucción para prevenir y controlar los riesgos de
+accidentes.
+• Manuales de seguridad  que ayuden a prevenir y con-
+trolar los riesgos de accidentes.
+5.7. Señalización
+Se deberán señalizar los sitios indicados por el res-
+ponsable de seguridad, de conformidad a las caracterís-
+ticas de señalización de cada caso en particular. Estos
+sistemas de señalización (carteles, vallas, balizas, ca-
+denas, sirenas, etc.) se mantendrán, modificarán y ade-
+cuarán según le evolución de los trabajos y sus riegos
+emergentes.
+Las señales deberán cumplir lo indicado en el Código
+Internacional de Señales de Seguridad.(Anexo 02).
+Para las obras en la vía pública deberá cumplirse lo
+indicado por la normativa vigente «Manual de dispositi-
+vos de Control de Transito Automotor para Calles y
+Carreteras» RM. N° 413-93-TCC-15-15 del 13 de octu-
+bre de 1993, del Ministerio de Transporte, Comunicacio-
+nes, Vivienda y Construcción.
+5.8. Orden y Limpieza
+La obra se mantendrá constantemente limpia, para lo
+cual se eliminarán periódicamente los desechos y des-
+perdicios, los que deben ser depositados en zonas espe-
+cíficas señaladas y/o en recipientes adecuados debida-
+mente rotulados.
+Articulo 6.- PLAN DE SEGURIDAD Y SALUD
+Toda obra de construcción, deberá contar con un Plan
+de Seguridad y Salud que garantice la integridad  física
+y salud de sus trabajadores, sean estos de contratación
+directa o subcontrata y toda persona que de una u otra
+forma tenga acceso a la obra.
+El plan de seguridad y salud, deberá integrarse al pro-
+ceso de construcción.
+6.1. Estándares de Seguridad y Salud y Procedi-
+mientos de Trabajo
+Previo a la elaboración de estándares y procedimien-
+tos de trabajo, se deberá hacer un análisis de riesgos
+de la obra, con el cual se identificarán los peligros aso-
+ciados a cada una de las actividades y se propondrán
+las medidas preventivas para eliminar o controlar di-
+chos peligros. Luego se identificarán los riegos que por
+su magnitud, sean considerados «Riegos Críticos» los
+mismos que deberán ser priorizados y atendidos en for-
+ma inmediata.
+6.2. Programa de Capacitación
+El programa de capacitación deberá incluir a todos los
+trabajadores de la obra, profesionales, técnicos y obre-
+ros, cualquiera sea su modalidad de contratación. Dicho
+programa deberá garantizar la transmisión efectiva de las
+medidas preventivas generales y específicas que garanti-
+cen el normal desarrollo de las actividades de obra, es
+decir, cada trabajador deberá comprender y ser capaz de
+aplicar los estándares de Seguridad y Salud y procedi-
+mientos de trabajo establecidos para los trabajos que le
+sean asignados.
+6.3. Mecanismos de Supervisión y Control
+La responsabilidad de supervisar el cumplimiento de
+estándares de seguridad y salud y procedimientos de tra-
+bajo, quedará delegada en el jefe inmediato de cada tra-
+bajador.
+El responsable de la obra debe colocar en lugar visi-
+ble. El Plan de Seguridad para ser presentado a los Ins-
+pectores de Seguridad del Ministerio de Trabajo.
+Articulo 7.- DECLARACION DE ACCIDENTES Y EN-
+FERMEDADES
+En caso de accidentes de trabajo se seguirán las pau-
+tas siguientes:
+7.1. Informe del Accidente
+El Responsable de Seguridad de la obra, elevara a su
+inmediato superior y dentro de las 24 horas de acaecido
+el accidente el informe correspondiente. (Ver formato.
+Anexo 03 – Uso Interno de la Empresa).
+Informe de accidentes se remitirá al Ministerio de Tra-
+bajo y Promoción Social.
+7.2. Formato para Registro de Índices de Acciden-
+tes
+El registro de índices de accidentes deberá llevarse
+mensualmente de acuerdo al formato establecido en el
+Anexo 04.
+Aún cuando no se hayan producido en el mes acci-
+dentes con perdida de tiempo o reportables, será obliga-
+torio llevar el referido registro, consignando las horas tra-
+
+--- PDF PAGE 14 ---
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+320484
+El Peruano
+Jueves 8 de junio de 2006
+bajadas y marcando CERO en los índices correspondien-
+tes al mes y tomando en cuenta estas horas trabajadas
+para el Índice Acumulativo.
+La empresa llevará un registro por cada obra y a su
+vez elaborará un reporte consolidado estadístico de se-
+guridad.
+7.3. Registro de Enfermedades Profesionales
+Se llevará un registro de las enfermedades profesio-
+nales que se detecten en los trabajadores de la obra, dando
+el aviso correspondiente a la autoridad competente.
+Articulo 8.- CALIFICACION DE LAS EMPRESAS
+CONTRATISTAS
+Para efectos de la adjudicación de obras públicas se
+deberá considerar dentro de la evaluación de los aspec-
+tos técnicos de las empresas postoras el Plan de Seguri-
+dad y Salud de la Obra, los índices de Seguridad y el his-
+torial del cumplimiento de Normas de Seguridad y Salud
+en el Trabajo de la empresa contratista. Estos aspectos
+técnicos deberán incidir en forma significativa dentro de
+la calificación técnica de la empresa contratista.
+(ver Anexo 06).
+Articulo 9.- PROTECCION CONTRA INCENDIOS
+9.1. Se revisará en forma periódica las instalaciones
+dirigidas a prever y controlar posibles incendios en la cons-
+trucción.
+El personal de seguridad tomará las medidas indi-
+cadas en la Norma NTP 350.043 (INDECOPI): Parte 1
+y Parte 2.
+9.2. El personal deberá recibir dentro de la charla de
+seguridad la instrucción adecuada para la prevención y
+extinción de los incendios consultando la NTP 833.026.1
+(INDECOPI)
+9.3. Los equipos de extinción se revisarán e inspec-
+cionarán en forma periódica y estarán debidamente iden-
+tificados y señalizados para su empleo a cualquier hora
+del día, consultando la NTP 833.034 (INDECOPI).
+9.4. Todo vehículo de transporte del personal con ma-
+quinaria de movimiento de tierra, deberá contar con extin-
+tores para combate de incendios de acuerdo a la NTP
+833.032 (INDECOPI).
+9.5. Adyacente a los extintores figurará el número te-
+lefónico de la Central de Bomberos.
+9.6. El acceso a los equipos de extinción será directo y
+libre de obstáculos.
+9.7. El aviso de no fumar se colocará en lugares visi-
+bles de la obra.
+Articulo 10.- EQUIPO BÁSICO DE PROTECCION
+PERSONAL (EPP)
+Todo el personal que labore en una obra de construc-
+ción, deberá usar el siguiente equipo de protección per-
+sonal:
+10.1. Ropa de trabajo adecuada a la estación y a las
+labores por ejecutar (overol o camisa y pantalón o mame-
+luco).
+10.2. Casco de seguridad tipo jockey para identificar a
+la categoría y ocupación de los trabajadores, los cascos
+de seguridad serán de colores específicos. Cada empre-
+sa definirá los colores asignados a las diferentes catego-
+rías y especialización de los obreros.
+10.3. Zapatos de seguridad y adicionalmente, bo-
+tas impermeables de jebe, para trabajos en zonas hú-
+medas.
+10.4. En zonas donde el ruido alcance niveles mayo-
+res de 80dB, los trabajadores deberán usar tapones o pro-
+tectores de oído. Se reconoce de manera práctica un ni-
+vel de 80 dB, cuando una persona deja de escuchar su
+propia voz en tono normal.
+10.5. En zonas expuestas a la acción de productos quí-
+micos se proveerá al trabajador de ropa y de elementos
+de protección adecuados.
+10.6. En zonas de gran cantidad de polvo, proveer al
+trabajador de anteojos y respiradores contra el polvo, o
+colocar en el ambiente aspersores de agua.
+10.7. En zonas lluviosas se proporcionará al trabaja-
+dor  «ropa de agua».
+10.8. Para trabajos en altura, se proveerá al trabaja-
+dor de un cinturón de seguridad formado por el cinturón
+propiamente dicho, un cabo de manila de diámetro míni-
+mo de ¾" y longitud suficiente que permita libertad de mo-
+vimientos al trabajador, y que termine en un gancho de
+acero con tope de seguro.
+10.9. El trabajador, en obras de alturas, deberá contar
+con una línea de vida, consistente en un cable de cuero
+de 3/8" o su equivalente de un materia de igual o mayor
+resistencia.
+10.10. En aquellos casos en que se esté trabajando
+en un nivel sobre el cual también se desarrollen otras la-
+bores, deberá instalarse una malla de protección con aber-
+tura cuadrada no mayor de 2 cm.
+10.11. Los frentes de trabajo que estén sobre 1,50m
+del nivel del terreno natural, deberán estar rodeados de
+barandas y debidamente señalizados.
+10.12. Los orificios tales como entradas a cajas de as-
+censor, escaleras o pases para futuros insertos, deberán
+ser debidamente cubiertos por una plataforma resistente
+y señalizados.
+10.13. Botiquín. En toda obra se deberá contar con un
+botiquín .Los elementos de primeros auxilios serán selec-
+cionados por el responsable de la seguridad, de acuerdo
+a la magnitud y tipo de la obra (ver anexo 1).
+10.14. Servicio de primeros auxilios. En caso de emer-
+gencia se ubicará en lugar visible un listado de teléfonos
+y direcciones de las Instituciones de auxilio para los ca-
+sos de emergencia.
+10.15. Para trabajos con equipos especiales : esmeri-
+les, soldadoras, sierras de cinta o de disco, garlopas, ta-
+ladros, chorros de arena (sandblast), etc., se exigirá que
+el trabajador use el siguiente equipo :
+Esmeriles y taladros: Lentes o caretas de plástico.
+Soldadora  eléctrica: Máscaras, guantes de cuero,
+mandil protector de cuero, mangas de cuero, según sea
+el caso.
+Equipo de oxicorte: Lentes de soldador, guantes y
+mandil de cuero.
+Sierras y garlopas: anteojos y respiradores contra el
+polvo.
+Sandblast:  máscara, mameluco, mandil protector y
+guantes.
+10.16. Los equipos de seguridad deberán cumplir con
+normas específicas de calidad nacionales o internaciona-
+les.
+10.17. Los trabajos de cualquier clase de soldadura
+se efectuarán en zonas en que la ventilación sobre el área
+de trabajo sea suficiente para evitar la sobre - exposición
+del trabajador a humos y gases.
+10.18. Los soldadores deberán contar con un certifi-
+cado médico expedido por un oftalmólogo que garantice
+que no tiene impedimento para los efectos secundarios
+del arco de soldadura.
+10.19. En los trabajos de oxicorte, los cilindros debe-
+rán asegurarse adecuadamente empleando en lo posible
+cadenas de seguridad. Asimismo, se verificará antes de
+su uso, las condiciones de las líneas de gas.
+CAPÍTULO 2
+ACTIVIDADES ESPECÍFICAS
+CONDICIONES DE SEGURIDAD
+EN EL DESARROLLO DE UNA
+OBRA DE CONSTRUCCIÓN
+Artículo 11.- ACCESOS, CIRCULACIÓN Y SEÑALI-
+ZACIÓN DENTRO DE LA OBRA:
+Toda obra de edificación contará con un cerco de pro-
+tección que limite el área de trabajo. Este cerco deberá
+contar con una puerta con elementos adecuados de ce-
+rramiento, la puerta será controlada por un vigilante que
+registre el ingreso y salida de materiales y personas de la
+obra.
+El acceso a las oficinas de la obra, deberá preverse en
+la forma más directa posible desde la entrada, buscando
+en lo posible que la ubicación de las mismas sea perimé-
+trica.
+Si para llegar a las oficinas de la obra, fuera necesario
+cruzar las zona de trabajo, el acceso deberá estar cubier-
+to para evitar accidentes por la caída de herramientas o
+materiales.
+11.1. El área  de trabajo estará libre de todo elemento
+punzante (clavos, alambres, fierros, etc.) y de sustancias
+tales como grasas, aceites u otros, que puedan causar
+
+--- PDF PAGE 15 ---
+El Peruano
+Jueves 8 de junio de 2006
+320485
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+accidentes por deslizamiento. Asimismo se deberá elimi-
+nar los conductores con tensión, proteger las instalacio-
+nes públicas existentes: agua, desagüe, etc.
+11.2. La circulación se realizará por rutas debidamen-
+te señalizadas con un ancho mínimo de 60 cm.
+11.3. El contratista deberá señalar los sitios indicados
+por el responsable de seguridad, de conformidad a las
+características de señalización de cada caso en particu-
+lar. Estos sistemas de señalización (carteles, vallas, bali-
+zas, cadenas, sirena, etc.) se mantendrán, modificarán y
+adecuarán según la evolución de los trabajos y sus riegos
+emergentes.
+11.4. Se deberá alertar adecuadamente la presencia
+de obstáculos que pudieran originar accidentes.
+11.5. En las horas diurnas se utilizarán barreras, o car-
+teles indicadores que permitan alertar debidamente el
+peligro.
+11.6. En horas nocturnas se utilizarán, complementa-
+riamente balizas de luz roja, en lo posible intermitentes.
+11.7. En horas nocturnas queda prohibido colocar ba-
+lizas de las denominadas de fuego abierto.
+11.8. En  forma periódica se realizarán charlas acerca
+de la seguridad en la obra.
+Artículo 12. ALMACENAMIENTO Y MANIPULEO DE
+MATERIALES
+12.1. El área de almacenamiento deberá disponer de
+una área de maniobra.
+12.2. Ubicación del área de almacenamiento y dispo-
+sición de los materiales (combustible lejos de balones de
+oxigeno, pinturas, etc.).
+12.3. Sistemas de protección de áreas de almacena-
+miento.
+12.4. El manipuleo de materiales será realizado por el
+personal especializado.
+12.5. Los materiales se apilaran hasta la altura reco-
+mendada por el fabricante.
+Artículo 13.- PROTECCIÓN EN TRABAJOS CON
+RIESGO DE CAÍDA
+13.1. Uso de Escaleras
+Antes de usar una escalera, éstas será inspeccionada
+visualmente.
+Si tiene rajaduras en largueros o peldaños, o los últi-
+mos están flojos, no deberán ser usadas.
+La altura del contrapaso de las escaleras será unifor-
+me e igual a 30 cm.
+Estarán apoyadas sobre el piso firme y nivelado.
+Se atará la escalera en el punto de apoyo superior.
+Sobresaldrá el apoyo superior por lo menos 60 cm.
+La inclinación de la escalera será tal que la relación
+entre la distancia del apoyo al pie del paramento y la altu-
+ra será de 1:4.
+La altura máxima a cubrir con una escalera portátil, no
+excederá de 5m.
+Antes de subir  por una escalera deberá verificarse la
+limpieza de la suela del calzado.
+Para el uso de este tipo de escaleras, se deberá exigir
+que el personal obrero se tome con ambas manos de los
+peldaños.
+Las herramientas se llevaran en bolsos especiales o
+serán izadas.
+Subirá o bajara una sola persona a la vez.
+Se deberá desplazar la escalera para alcanzar puntos
+distantes, no inclinarse exageradamente (no saliéndose
+de la vertical del larguero más de medio cuerpo).
+Estarán provistas de tacos antideslizantes en la base
+de los largueros.
+Las escaleras provisionales deberán tener como máxi-
+mo 20 contrapasos, cuya altura no excederá de 20 cm;
+para alturas mayores se preverá descansos.
+Las escaleras provisionales deberán contar con ba-
+randas de seguridad
+El ancho útil de las escaleras provisionales será de 60
+cm como mínimo.
+Las escaleras provisionales serán construidas con ma-
+dera en buen estado de conservación, sin nudos  que pue-
+dan alterar su resistencia.
+13.2. Uso de Andamios
+Los andamios que se usarán en obra, sea cual fuere
+su tipo corresponderán al diseño de un profesional res-
+ponsable, para garantizar a capacidad de carga, estabili-
+dad y un coeficiente de seguridad no menor de 2.
+Los andamios que se apoyen en el terreno deberán
+tener un elemento de repartición de carga.
+Los andamios se fijaran a la edificación de modo tal
+que se garantice la verticalidad y se eviten los movimien-
+to de oscilación.
+La plataforma de circulación y de trabajo en los anda-
+mios será de madera de un grosor no menor de 5cm (2")
+y de ancho mínimo de 25 cm (10").
+El ancho mínimo de la plataforma será de 50 cm.
+Las plataformas de trabajo deberán tener una baran-
+da de protección hacia el lado exterior del andamio. Asi-
+mismo los empalmes de los tablones se harán en el apo-
+yo del andamio y con un traslape no menor que 30 cm.
+Los tablones que conforman la plataforma de trabajo
+no deberán exceder mas de 30 cm del apoyo de andamio.
+En andamios móviles se deberá contar con estabiliza-
+dores que eviten su movimiento.
+No se moverá un andamio móvil con personal o mate-
+rial sobre él.
+Para evitar la caída de herramientas o materiales se
+colocaran en ambos bordes longitudinales un tablón que
+hará de rodapié o zócalo, de no menos de 10 cm (4") de
+alto.
+Artículo 14.- TRABAJOS CON EQUIPO DE IZAJE
+14.1. Todo equipo de elevación y transporte será ope-
+rado exclusivamente por personal que cuente con la for-
+mación adecuada para el manejo correcto del equipo.
+14.2. Los equipos de elevación y transporte deberán
+ser operados de acuerdo a lo establecido en el manual de
+operaciones correspondientes al equipo.
+14.3. El ascenso de personas sólo se realizará en equi-
+pos de elevación habilitados especialmente para tal fin.
+14.4. Las tareas de armado y desarmado de las es-
+tructuras de los equipos de izar, serán realizadas bajo la
+responsabilidad de Técnico competente, y por personal
+idóneo y con experiencia.
+14.5. Para el montaje de equipos de elevación y trans-
+porte se seguirán las instrucciones estipuladas por el fa-
+bricante.
+14.6. Se deberá suministrar todo equipo de protección
+personal requerido, así como prever los elementos para
+su correcta utilización (cinturones de seguridad y puntos
+de enganche efectivos).
+14.7. Los puntos de fijación y arriostramiento serán se-
+leccionados de manera de asegurar la estabilidad del sis-
+tema de izar con un margen de seguridad.
+14.8. Los equipos de izar que se construyan o impor-
+ten, tendrán indicadas en lugar visible las recomendacio-
+nes de velocidad y operación de las cargas máximas y las
+condiciones especiales de instalación tales como contra-
+pesos y fijación.
+14.9. No se deberá provocar sacudidas o aceleracio-
+nes bruscas durante las maniobras.
+14.10. El levantamiento de la carga se hará en forma
+vertical.
+14.11. No se remolcará equipos con la pluma.
+14.12. No levantar cargas que se encuentren traba-
+das.
+14.13. Dejar la pluma baja al terminar la tarea.
+14.14. Al circular la grúa, lo hará con la pluma baja,
+siempre que las circunstancias del terreno lo permitan.
+14.15. Al dejar la máquina, el operador bloqueará los
+controles y desconectará la llave principal.
+14.16. Antes del inicio de las operaciones se deberá
+verificar el estado de conservación de estrobos, cadenas
+y ganchos. Esta verificación se hará siguiendo lo estable-
+cido en las recomendaciones del fabricante.
+14.17. Cuando después de izada la carga se observe
+que no está correctamente asegurada, el maquinista hará
+sonar la señal de alarma y descenderá la carga para su
+arreglo.
+14.18. No se dejarán los aparatos de izar con carga
+suspendida.
+14.19. Cuando sea necesario guiar las cargas se utili-
+zarán cuerdas o ganchos.
+14.20. Se prohíbe la permanencia y el pasaje de tra-
+bajadores en la «sombra de caída».
+14.21. Los sistemas de operación del equipo serán con-
+fiables y en especial los sistemas de frenos tendrán ca-
+racterísticas de diseño y construcción que aseguren una
+respuesta segura en cualquier circunstancia de uso nor-
+mal. Deberán someterse a mantenimiento permanente, y
+
+--- PDF PAGE 16 ---
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+320486
+El Peruano
+Jueves 8 de junio de 2006
+en caso de duda sobre su funcionamiento, serán inme-
+diatamente puestos fuera de servicio y sometidos a las
+reparaciones necesarias.
+14.22. Para los casos de carga y descarga en que se
+utilice winche con plataforma de caída libre; las platafor-
+mas deberán estar equipadas con un dispositivo de segu-
+ridad capaz de sostenerla con su carga en esta etapa.
+14.23. Para la elevación de la carga se utilizarán reci-
+pientes adecuados. No se utilizará la carretilla de mano,
+pues existe peligro de desprendimiento o vuelco del ma-
+terial transportado si sus brazos golpean con los bordes
+del forjado o losa, salvo que la misma sea elevada dentro
+de una plataforma de elevación, y ésta cuente con un cer-
+co perimetral cuya altura sea superior a la de la carretilla.
+14.24. Las operaciones de izar se suspenderán cuan-
+do se presenten vientos superiores a 80 Km/h.
+14.25. Todo el equipo accionado con sistemas eléctri-
+cos deberán contar con conexión a tierra.
+14.26. Estrobos y Eslingas
+Se revisará el estado de estrobos, eslingas, cadenas
+y ganchos, para verificar su funcionamiento.
+La fijación del estrobo debe hacerse en los puntos es-
+tablecidos; si no los hay, se eslingará por el centro de gra-
+vedad, o por los puntos extremos más distantes.
+• Ubicar el ojal superior en el centro del gancho.
+• Verificar el cierre del mosquetón de seguridad.
+• Al usar grilletes, roscarlos hasta el fondo.
+• Los estrobos no deberán estar en contacto con ele-
+mentos que los deterioren.
+• La carga de trabajo para los estrobos será como
+máximo la quinta parte de su carga de rotura.
+14.27. Ganchos
+Los ganchos cumplirán las siguientes prescripciones :
+• Los ganchos serán de material adecuado y estarán
+provistos de pestillo u otros dispositivos de seguridad para
+evitar que la carga pueda soltarse.
+• Los ganchos deberán elegirse en función de los es-
+fuerzos a que estarán sometidos.
+• Las partes de los ganchos que puedan entrar en con-
+tacto con las eslingas no deben tener aristas vivas.
+• La carga de trabajo será mayor a la quinta parte de
+la carga de rotura.
+• Por cada equipo de izaje se designará a una perso-
+na para que, mediante el código internacional de señales,
+indique las maniobras que el operador debe realizar paso
+a paso. (Anexo 5).
+• El señalador indicará al operador la maniobra mas
+segura y pasará la carga a la menor altura posible.
+ 
+Artículo 15.- OBRAS DE CONSTRUCCION PESADA
+Se considera como obra de construcción pesada al
+conjunto de trabajos que, por su gran magnitud y ex-
+tensión, requieren el uso de equipo pesado, por ejem-
+plo: Obras de aprovechamiento de recursos. Irrigacio-
+nes (diques, presas, túneles, canales, embalses), plan-
+tas de energía, explotación de minerales, obras viales
+(puentes, carreteras, viaductos, aeropuertos, puertos,
+etc.).
+15.1. Obras de Movimiento de Tierras sin explo-
+sivos
+Señalización: a 150 m del frente de trabajo deben co-
+locarse letreros suficientemente visibles, que alerten so-
+bre la ejecución de trabajos en la zona.
+El acceso directo al frente de trabajo deberá estar ce-
+rrado con tranqueras debidamente pintadas para permitir
+su identificación, las que contarán además con sistemas
+luminosos que permitan su visibilidad en la noche.
+En las tranqueras de acceso principal deberá perma-
+necer personal de seguridad con equipo de comunicación
+que permita solicitar la autorización para el pase de per-
+sonas extrañas a la obra.
+En los casos que hubiera exigencia de tránsito tempo-
+ral en el frente de trabajo, se deberá contar con personal
+debidamente instruido para dirigir el tráfico en esta zona,
+premunido de dos paletas con mango de 30 cm, color rojo
+y verde.
+Las rutas alternas que sea necesario habilitar para el
+tránsito temporal, deberán ser planificadas y proyectadas
+antes de la ejecución de las obras. Estas rutas alternas
+formarán parte del proyecto de las obras.
+Cada equipo contará con el espacio suficiente para las
+operaciones de sus maniobras. Estos espacios no deben
+traslaparse.
+La operación de carga de combustible y mantenimien-
+to de los equipos será programada preferentemente fuera
+de las horas de trabajo
+Cada equipo será accionado exclusivamente por el
+operador asignado. En ningún caso deberá permanecer
+sobre la máquina personal alguno, aun cuando esté asig-
+nado como ayudante del operador del equipo.
+Todos los equipos contarán con instrumentos de se-
+ñalización y alarmas que permitan ubicarlos rápidamente
+durante sus operaciones.
+El equipo que eventualmente circule en zona urbana e
+interurbana, estará equipado con las luces reglamenta-
+rias para este efecto y, en los casos que sea necesario,
+será escoltado con vehículos auxiliares.
+Los equipos pesados deberán respetar las normas in-
+dicadas en los puentes. Si su peso sobrepasará la capa-
+cidad de carga del puente, se procederá al refuerzo de la
+estructura del puente o a la construcción de un badén.
+En los trabajos de excavación deberá conservarse el
+talud adecuado, a fin de garantizar la estabilidad de la
+excavación.
+Toda excavación será planificada y realizada teniendo
+en cuenta las estructuras existentes o en preparación, ad-
+yacentes a la zona de trabajo, las cuales deberán estar
+convenientemente señalizadas.
+15.2. Obras de Movimiento de Tierras con explo-
+sivos
+El diseño de la operación de perforación y voladura
+estará a cargo de un especialista responsable.
+Las voladuras se realizarán al final de la jornada y se-
+rán debidamente señalizadas.
+En toda obra de excavación que requiera del uso de
+explosivos, se deberá contar con un polvorín que cumpla
+con todas las exigencias de la entidad oficial correspon-
+diente (DICSCAMEC).
+El personal encargado del manipuleo y operación de
+los explosivos deberá contar con la aprobación y certifi-
+cación de la entidad oficial correspondiente.
+El acceso al polvorín deberá estar debidamente res-
+guardado durante las 24 horas del día, por no menos de
+dos vigilantes.
+No habrá explosivos ni accesorios de voladura en la
+zona durante la operación de perforación.
+Los trabajos de perforación serán ejecutados con
+personal que cuente con los equipos adecuados de se-
+guridad, tales como : guantes de cuero, máscaras con-
+tra el polvo, anteojos protectores, protectores contra el
+ruido, cascos de seguridad, y en los casos que se re-
+quiera, cinturón de seguridad. Esta relación es indicati-
+va más no limitativa y la calidad de los equipos estará
+normalizada.
+15.3. Excavaciones subterráneas: túneles, piques,
+chimeneas, galerías, cruceros, etc.
+Se tendrá especial cuidado en el desprendimiento de
+rocas, procediéndose al inicio de la jornada al desatado
+previo del material suelto y al desquinchado si fuera ne-
+cesario.
+Después de cada disparo el frente de la excavación
+deberá ventilarse hasta que se renueve el aire conta-
+minado.
+El reingreso a la labor después de cada disparo se
+realizará luego de verificarse la evacuación de aire con-
+taminado. En los casos necesarios se usará detectores
+de gas.
+Forma parte del equipo de perforación en excava-
+ciones subterráneas, el equipo de ventilación, el cual
+deberá ser instalado desde el inicio de la obra. La ca-
+pacidad de este equipo será siempre adecuada a la
+magnitud de la obra.
+Existirá en obra el equipo de emergencia con los equi-
+pos necesarios de primeros auxilios, para cubrir la posibi-
+lidad de atender accidentes y evacuar oportunamente al
+accidentado.
+Es responsabilidad del jefe de turno disponer la conti-
+nuación de los trabajos de perforación, en el caso de que
+se modifiquen las condiciones de estabilidad del terreno.
+Para los trabajos de carguío, eliminación de desmon-
+te, transporte de materiales y personal, sólo se emplea-
+rán equipos que en ningún caso sean accionados con
+gasolina, y en aquellos que se use otro tipo de combusti-
+
+--- PDF PAGE 17 ---
+El Peruano
+Jueves 8 de junio de 2006
+320487
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+ble, tal como petróleo u otros, éstos no deberán producir
+más de 500 ppm de monóxido de carbono (CO).
+Las rutas de circulación de vehículos dentro de la ga-
+lería deben estar señalizadas, previéndose zonas de res-
+guardo para el personal que transita a pie.
+Los equipos de transporte en general deberán estar
+dotados con alarmas sonoras y con la iluminación ade-
+cuada que permita distinguirlos oportunamente.
+Todo el personal que acceda al frente de trabajo debe
+contar con los siguientes equipos de protección personal :
+guantes de cuero, máscaras contra el polvo, anteojos pro-
+tectores, protectores contra el ruido, cascos de seguridad,
+botas de jebe, y en los casos que se requiera, ropa ade-
+cuada para trabajo en agua : pantalón y casaca imper-
+meable y cinturón de seguridad.
+El ámbito de los trabajos de excavación subterránea,
+desde la portada de la galería, hasta los frentes de traba-
+jo, estará iluminado con la intensidad adecuada a cada
+actividad.
+El personal que labora dentro de la galería contará con
+cascos de seguridad tipo minero, con iluminación propia
+para la eventualidad de falta de iluminación general.
+Todo equipo susceptible de sufrir accidentes por in-
+cendio, llevará un extintor  de polvo químico seco ABC,
+con la capacidad adecuada, de acuerdo a la NTP 833.032
+(INDECOPI).
+Las instalaciones eléctricas se realizarán con conduc-
+tores y accesorios a prueba de agua.
+En presencia de agua en las excavaciones subterrá-
+neas, el drenaje del agua se hará mediante cunetas late-
+rales. En los casos de contrapendiente la evacuación del
+agua se hará por bombeo, y la bomba se ubicará en luga-
+res señalizados.
+Los equipos para los trabajos de excavación subterrá-
+nea, contarán en lugar visible con las indicaciones del fa-
+bricante, que ilustren los cuidados y riesgos durante la
+operación del equipo.
+En los casos en los que se requiera sujetar zonas de
+aparente inestabilidad, usando sistemas de pernos de
+anclaje, se tendrá en consideración las recomendacio-
+nes del fabricante de los equipos de perforación, del sis-
+tema de anclaje empleado, y cuando la adherencia se
+consiga con productos químicos (epóxicos), el obrero
+encargado de aplicar el producto seguirá las recomen-
+daciones de seguridad indicadas por el fabricante del
+epóxico empleado.
+En los casos que se requiera, para la estabilización de
+los paneles y bóvedas del túnel, el uso de concreto lanza-
+do (shotcret), deberá ejecutarse con equipo especialmente
+diseñado para este tipo de trabajos y tomando las pre-
+cauciones debidas para que el rebote del material no cau-
+se daño al operador del equipo.
+Cuando se requiera el empleo de marcos de seguri-
+dad, se exigirá el diseño previo del anclaje de las piernas
+de los marcos y del ensamble entre las diferentes piezas
+que lo forman.
+Las conexiones neumáticas a los diferentes equipos
+accionados con este sistema, serán revisados periódi-
+camente, reemplazando cuando sea necesario las em-
+paquetaduras o la misma unión, cuando se detecte fu-
+gas de aire.
+Los barrenos de perforación se verificarán antes de
+ser usados en el frente de trabajo, retirando aquellos que
+muestren señales de fatiga.
+Artículo 16.- Construcciones hidráulicas : enroca-
+dos, bocatomas, derivaciones, obras marítimas
+Antes de iniciar cualquier obra definitiva en el cauce
+de un río, deberá estudiarse las posibilidades de desviar
+las aguas de modo que la zona de trabajo quede en seco,
+sin riesgo para el personal que laborará en la obra.
+Cuando para realizar defensas en el cauce de un
+río, se requiera de enrocados, se tendrán en cuenta las
+mismas normas de seguridad consideradas para la ex-
+cavación con explosivos, en la fase de extracción de la
+roca.
+Para el carguío, transporte y colocación de la roca, el
+personal encargado deberá contar con guantes de cuero,
+casco de seguridad, anteojos protectores y zapatos de
+seguridad.
+Los estrobos y demás elementos de carguío cumpli-
+rán con todos los requisitos estipulados en el artículo
+2.4.26.
+Cuando los trabajos de enrocado requieran labores
+bajo el agua, el personal encargado de la colocación de
+las rocas contará con el equipo de buceo adecuado, con
+las especificaciones de calidad estipuladas en normas
+nacionales o internacionales vigentes.
+Adicionalmente a lo indicado en el acápite anterior, el
+buzo u hombre rana deberá estar asegurado por medio
+de cuerdas, para evitar ser arrastrado por la corriente.
+En caso de obras marítimas, para realizar defen-
+sas que protejan de la acción del mar la zona costera,
+se tendrá en cuenta las mismas normas de seguridad
+consideradas para la excavación de roca con explosi-
+vos en la fase de extracción de la roca. Para el trans-
+porte y colocación de la roca, el personal encargado
+deberá contar con guantes de cuero, caso de seguri-
+dad, anteojo, zapatos de seguridad y equipo de flota-
+ción personal.
+Se mantendrá en zona adyacente a la de trabajo, un
+bote con operador para casos de emergencia.
+Cuando se emplee hombres rana, no equipados con
+balón de oxígeno, la compresora que inyecte aire, tendrá
+obligatoriamente los filtros y elementos de purificación
+adecuados.
+Se aplicarán todos los artículos precedentes que ga-
+ranticen la seguridad del personal obrero.
+En general, para todo trabajo sobre superficie de agua
+o a proximidad inmediata de ella, se tomarán disposicio-
+nes adecuadas para:
+• Impedir que los trabajadores puedan caer al agua.
+• Salvar a cualquier trabajador en peligro de aho-
+garse.
+• Proveer medios de transporte seguros y suficientes.
+Artículo 17.- Obras de montaje : obras de alta ten-
+sión, plantas hidroeléctricas
+Las conexiones eléctricas serán realizadas por perso-
+nal calificado.
+Las partes que giran o se hallen en movimiento (ejes,
+poleas, correas), se protegerán para evitar que tomen la
+ropa de los trabajadores.
+Todos los equipos eléctricos deben poseer puesta a
+tierra para evitar que el obrero sea víctima de una descar-
+ga eléctrica.
+Los equipos se inspeccionarán periódicamente.
+Las protecciones de seguridad que por razones de
+mantenimiento deban ser reparadas, serán repuestas en
+forma inmediata.
+Se evitarán que los cables o equipos se encuentren
+en contacto con el agua.
+No se atarán cables eléctricos a estructuras metálicas.
+No apagar un fuego eléctrico con agua, se usará
+polvo seco o CO2.El operario que usa un extintor no
+debe acercarse a menos 4 m de distancia para evitar el
+arco voltaico.
+No desconectar interruptores sin conocer el alcance
+de la interrupción.
+Las herramientas tendrán el mango de material ais-
+lante.
+Los zapatos de seguridad deben ser dieléctricos.
+Se usarán guantes dieléctricos.
+No se utilizarán busca- polos precarios armados con
+lamparitas.
+Las escaleras usadas por los electricistas no serán me-
+tálicas, únicamente se usarán escaleras de madera o plás-
+ticas.
+Artículo 18.- Obras de Infraestructura, Excavación
+y Demoliciones
+18.1. Excavaciones
+Antes de iniciar las excavaciones se eliminarán todos
+los objetos que puedan  desplomarse y que constituyen
+peligro para los trabajadores, tales como: árboles, rocas,
+rellenos, etc.
+Toda excavación será aislada y protegida mediante
+cerramientos con barandas u otros sistemas adecua-
+dos, ubicados a una distancia del borde de acuerdo a
+la profundidad de la excavación, y en ningún caso a
+menos de 1 m.
+Los taludes de las excavaciones se protegerán con
+apuntalamientos apropiados o recurriendo a otros me-
+dios que eviten el riesgo de desmoronamiento por pér-
+dida de cohesión o acción de presiones originadas por
+colinas o edificios colindantes a los bordes o a otras
+
+--- PDF PAGE 18 ---
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+320488
+El Peruano
+Jueves 8 de junio de 2006
+causas tales como la circulación de vehículos o la ac-
+ción de equipo pesado, que generen incremento de pre-
+siones y vibraciones.
+Si la profundidad de las excavaciones va a ser mayor
+de 2 m, se requiere contar con el estudio de mecánica de
+suelos que contenga las recomendaciones del proceso
+constructivo y que estén refrendadas por un ingeniero ci-
+vil colegiado.
+Se deberá prevenir los peligros de caída de materia-
+les u objetos, o de irrupción de agua en la excavación; o
+en zonas que modifiquen el grado de humedad de los ta-
+ludes de la excavación.
+Si la excavación se realiza en la vía pública, la señali-
+zación será hecha con elementos de clara visibilidad du-
+rante el día, y con luces rojas en la noche, de modo que
+se advierta su presencia.
+Si la excavación se efectúa al borde de una acera de
+vía pública, se deberá proteger la zona de excavación con
+barandas o defensas entabladas.
+En el caso anterior, el lado adyacente a la vía pública
+se apuntalará adecuadamente para evitar la posible so-
+cavación de la vía.
+Las vías públicas de circulación deben estar libres
+de material excavado u otro objeto que constituye un
+obstáculo.
+Si la excavación se realiza en zona adyacente a una
+edificación existente, se preverá que la cimentación del
+edificio existente esté suficientemente garantizada.
+Al excavar bajo el nivel de las cimentaciones existen-
+tes, se cumplirá con una estricta programación del proce-
+so constructivo, el mismo que cumplirá con las exigencias
+del diseño estructural realizado por el ingeniero estructu-
+ral responsable de las estructuras del edificio.
+El constructor o contratista de la obra, bajo su respon-
+sabilidad, propondrá, si lo considera necesario, modifica-
+ciones al proceso constructivo siempre y cuando manten-
+ga el criterio estructural del diseño del proyecto.
+En los casos en que las zanjas se realicen en terre-
+nos  estables, se evitara que el material producto de la
+excavación se acumule a menos de 2 m del borde de la
+zanja.
+Para profundidades mayores de 2 m, el acceso a las
+zanjas se hará con el uso de escaleras portátiles.
+En terrenos cuyo ángulo de deslizamiento no permita
+la estabilidad de la zanja, se realizará un entibamiento
+continuo cuyo diseño estará avalado por el ingeniero res-
+ponsable.
+En ningún caso el personal obrero que participe en
+labores de excavación, podrá hacerlo sin el uso de los
+elementos de protección adecuados y, específicamente,
+el casco de seguridad.
+Cuando las zanjas se ejecuten paralelas a vías de cir-
+culación, éstas serán debidamente señalizadas de modo
+que se evite el pase de vehículos que ocasionen derrum-
+bes en las zanjas.
+Cuando sea necesario instalar tuberías o equipos
+dentro de la zanja, estará prohibida la permanencia de
+personal obrero bajo la vertical del equipo o tubería a
+instalarse.
+Durante la operación de relleno de la zanja, se pro-
+hibirá la permanencia de personal obrera dentro de la
+zanja.
+En los momentos de nivelación y compactación de te-
+rreno, el equipo de colocación del material de relleno, tra-
+bajará a una distancia no menor de 20 m de la zona que
+se esté nivelando o compactando.
+Antes de iniciar la excavación en terrenos saturados,
+se requerirá de un estudio de mecánica de suelos, en el
+que se establezca las características del suelo, que per-
+mitan determinar la magnitud de los empujes a los que
+estarán sometidos los muros de sostenimiento definitivo
+o las ataguías provisionales, durante la construcción.
+Antes de iniciar la excavación se contará por lo menos
+con el diseño, debidamente avalado por el profesional res-
+ponsable, de por lo menos:
+a) Sistema de bombeo y líneas de evacuación de agua
+para mantener en condiciones de trabajo las zonas exca-
+vadas.
+b) Sistema de tablestacado , o caissons, a usarse du-
+rante la excavación.
+En el caso de empleo de caissons, en que se requiera
+la participación de buzos u hombres rana, se garantizará
+que el equipo de buceo contenga la garantía de la provi-
+sión de oxígeno, y que el buzo u hombre rana esté provis-
+to de un cabo de seguridad que permita levantarlo en caso
+de emergencia.
+En el caso del empleo de ataguías o tablestacado, el
+apuntalamiento y/o sostenimiento de los elementos es-
+tructurales se realizará paralelamente con la excavación
+y siguiendo las pautas dadas en el diseño estructural. El
+personal encargado de esta operación, contará con los
+equipos de protección adecuados a las operaciones que
+se realicen.
+Las operaciones de bombeo se realizarán teniendo en
+cuenta las características del terreno establecidas en el
+estudio de mecánica de suelos, de tal modo que se ga-
+rantice la estabilidad de las posibles edificaciones veci-
+nas a la zona de trabajo. En función de este estudio se
+elegirán los equipos de bombeo adecuados.
+El perímetro de la excavación será protegido por un
+cerco ubicado a una distancia equivalente a 2/5 de la pro-
+fundidad de la excavación y nunca menor de 2 m, medi-
+dos a partir del borde de la excavación.
+18.2. Demoliciones
+Antes del inicio de la demolición se elaborará un orde-
+namiento y planificación de la obra, la que contará con las
+medidas de protección de las zonas adyacentes a la de-
+molición.
+Todas las estructuras colindantes a la zona de demoli-
+ción serán debidamente protegidas y apuntaladas cuan-
+do la secuencia de la demolición elimine zonas de sus-
+tentación de estructuras vecinas.
+La eliminación de los materiales provenientes de los
+niveles altos de la estructura demolida, se ejecutará a tra-
+vés de canaletas cerradas que descarguen directamente
+sobre los camiones usados en la eliminación, o en reci-
+pientes especiales de almacenaje.
+Se limitará la zona de tránsito del público, las zonas
+de descarga, señalizando, o si fuese necesario, cerrando
+los puntos de descarga y carguío de desmonte.
+Los equipos de carguío y de eliminación circularán en
+un espacio suficientemente despejado y libre de circula-
+ción de vehículos ajenos al trabajo.
+El acceso a la zona de trabajo se realizará por escale-
+ras provisionales que cuenten con los elementos de se-
+guridad adecuados (barandas, descansos).
+Se ejercerá una supervisión frecuente por parte del res-
+ponsable de la obra, que garantice que se ha tomado las
+medidas de seguridad indicadas.
+ANEXO Nº 01
+BOTIQUÍN BÁSICO DE PRIMEROS AUXILIOS
+(El Botiquín deberá implementarse de acuerdo a la
+magnitud y tipo de obra así como a la posibilidad de auxi-
+lio externo tomando en consideración su cercanía a cen-
+tros de asistencia medica hospitalaria.)
+02 Paquetes de guantes quirúrgicos
+01 Frasco de yodopovidoma 120 ml solución anti-
+séptico
+01 Frasco de agua oxigenada mediano 120 ml
+01 Frasco de alcohol mediano 250 ml
+05 Paquetes de gasas esterilizadas de 10 cm X 10 cm
+08 Paquetes de apósitos
+01 Rollo de esparadrapo 5 cm X 4,5 m
+02 Rollos de venda elástica de 3 plg. X 5 yardas
+02 Rollos de venda elástica de 4 plg. X 5 yardas
+01 Paquete de algodón x 100 g
+01 Venda triangular
+10 paletas baja lengua (para entablillado de dedos)
+01 Frasco de solución de cloruro de sodio al 9/1000 x
+1 l (para lavado de heridas)
+02 Paquetes de gasa tipo jelonet (para quemaduras)
+02 Frascos de colirio de 10 ml
+01 Tijera punta roma
+01 Pinza
+01 Camilla rígida
+01 Frazada.
+
+--- PDF PAGE 19 ---
+El Peruano
+Jueves 8 de junio de 2006
+320489
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+
+--- PDF PAGE 20 ---
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+320490
+El Peruano
+Jueves 8 de junio de 2006
+
+--- PDF PAGE 21 ---
+El Peruano
+Jueves 8 de junio de 2006
+320491
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+ANEXO Nº 05
+CODIGO INTERNACIONAL DE  SEÑALES - IZAJE
+SEÑALES GESTUALES
+1. Características
+Una señal gestual deberá ser precisa, simple, amplia,
+fácil de realizar y comprender y claramente distinguible
+de cualquier otra señal gestual.
+La utilización de los dos brazos al mismo tiempo se
+hará de forma simétrica y para una sola señal gestual.
+Los gestos utilizados, por lo que respecta a las
+características indicadas anteriormente, podrán variar o
+ser más detallados que las representaciones recogidas
+en el apartado 3, a condición de que su significado y
+comprensión sean, por lo menos, equivalentes
+2. Reglas particulares de utilización
+1. La persona que emite las señales, denominada
+«encargado de las señales», dará las instrucciones de
+maniobra mediante señales gestuales al destinatario de
+las mismas, denominado «operador».
+2. El encargado de las señales deberá poder seguir
+visualmente el desarrollo de las maniobras sin estar
+amenazado por ellas.
+3. El encargado de las señales deberá dedicarse
+exclusivamente a dirigir las maniobras y a la seguridad de
+los trabajadores situados en las proximidades.
+ANEXO Nº 04
+4. Si no se dan las condiciones previstas en el punto
+2.2. se recurrirá a uno o varios encargados de las señales
+suplementarias.
+5. El operador deberá suspender la maniobra que esté
+realizando para solicitar nuevas instrucciones cuando no
+pueda ejecutar las órdenes recibidas con las garantías de
+seguridad necesarias.
+6. Accesorios de señalización gestual.
+El encargado de las señales deberá ser fácilmente
+reconocido por el operador.
+El encargado de las señales llevará uno o varios
+elementos de identificación apropiados tales como
+chaqueta, manguitos, brazal o casco y, cuando sea
+necesario paletas señalizadas.
+Los elementos de identificación indicados serán de
+colores vivos, a ser posible iguales para todos los
+elementos, y serán utilizados exclusivamente por el
+encargado de las señales.
+3. Gestos Codificados
+Consideración previa
+El conjunto de gestos codificados que se incluye no
+impide que puedan emplearse otros códigos, en particular
+en determinados sectores de actividad, aplicables a nivel
+comunitario e indicadores de idénticas maniobras.
+
+--- PDF PAGE 22 ---
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+320492
+El Peruano
+Jueves 8 de junio de 2006
+
+--- PDF PAGE 23 ---
+El Peruano
+Jueves 8 de junio de 2006
+320493
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+ANEXO Nº 06
+CLASIFICACIÓN DE LAS EMPRESAS EN FUNCIÓN
+DE ÍNDICES DE SEGURIDAD
+Los Índices que se registran son tres:
+• Índice de Frecuencias: Indica la cantidad de
+accidentes con pérdidas de tiempo o reportables sin
+pérdida de tiempo, ocurridos y relacionados a un período
+de tiempo de 200,000 horas trabajadas (OSHA).
+• Índice de Gravedad: Es el número de días perdidos
+o no trabajados por el personal de la obra efecto de los
+accidentes relacionándolos a un periodo de 200,00 hrs.
+de trabajo. (OSHA). Para el efecto acumulativo se
+suman todos los días perdidos por los lesionados
+durante los meses transcurridos en lo que va del año.
+Si el descanso medico de un lesionado pasara de un
+mes a otro se sumaran los días no trabajado
+correspondientes a cada mes.
+• Índice de Accidentabilidad: este índice establece una
+relacion entre los dos indices anteriores proporcinando una
+medida comparativa adicional.
+TIPO DE ESTADÍSTICA
+Se deberá llevar dos tipos de estadísticas
+• Mensual
+• Acumulativa
+En la estadística mensual sólo se tomaran en cuenta
+los accidentes ocurridos y los días perdidos durante el
+mes.
+En la estadística acumulativa se hará la suma de los
+accidentes ocurridos y los días no trabajados en la parte
+de año transcurrido.
+Formulas para el cálculo de los índices
+Para obtener los índices se usaran las formulas
+siguientes:
+De acuerdo a la legislación vigente, deberán incluirse para efectos estadísticos las horas hombre trabajadas y
+accidentes de empresas subcontratistas vinculadas contractualmente con el contratista principal
+
+--- PDF PAGE 24 ---
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+320494
+El Peruano
+Jueves 8 de junio de 2006
+TITULO II
+HABILITACIONES URBANAS
+CONSIDERACIONES GENERALES
+DE LAS HABILITACIONES
+NORMA GH. 010
+CAPITULO I
+ALCANCES Y CONTENIDO
+Artículo  1.- Las normas técnicas contenidas en el pre-
+sente Título se aplicarán a los procesos de habilitación de
+tierras para fines urbanos, en concordancia a las normas
+de Desarrollo Urbano de cada localidad, emitidas en cum-
+plimiento del Reglamento de Acondicionamiento Territo-
+rial y Desarrollo Urbano.
+Aún cuando un terreno rústico cuente con vías de ac-
+ceso o infraestructura de servicios, deberá seguir el pro-
+ceso de habilitación urbana, a menos que haya sido de-
+clarado habilitado de oficio.
+Artículo 2.- Las normas técnicas desarrolladas en el
+presente Título regulan los aspectos concernientes a la
+habilitación de terrenos, de acuerdo a lo siguiente:
+a) La descripción y características de los componentes
+físicos que integran la habilitación de un terreno rústico, a
+fin de que se encuentre apto para ejecutar edificaciones,
+según lo dispuesto en el Plan Urbano de la localidad;
+b) Las condiciones técnicas de diseño y de construc-
+ción que se requieren para proveer de acceso, de espa-
+cios públicos y de infraestructura  de servicios a un terre-
+no por habilitar;
+c) Los requerimientos de diseño y construcción de las
+vías públicas con las características de las aceras, ber-
+mas y calzadas;
+d) La distribución y dimensiones de los lotes, así como
+los aportes reglamentarios para  recreación pública y para
+el equipamiento social urbano;
+e) Los diferentes tipos de habilitaciones urbanas desti-
+nadas para fines residenciales, comerciales, industriales y
+de usos especiales, en función a la zonificación asignada;
+f) Las condiciones especiales que requieren las habili-
+taciones sobre terrenos ubicados en zonas de riberas y
+laderas y en zonas de reurbanización;
+g) El planeamiento integral;
+h) Las reservas para obras de carácter distrital, pro-
+vincial y regional, según sea el caso;
+i) Las servidumbres;
+j) La canalización de los cursos de agua;
+k) El mobiliario urbano; y
+l) La nomenclatura general.
+Artículo 3.- Las normas técnicas del presente Título
+comprenden:
+a) Los Componentes Estructurales que están compues-
+tos por:
+- Aceras y pavimentos;
+- Estabilización de suelos y taludes; y
+- Obras especiales y complementarias;
+b) Las Obras de Saneamiento, que están compuestas
+por:
+- Captación y conducción de agua para consumo hu-
+mano;
+- Plantas de tratamiento de agua para consumo hu-
+mano;
+- Almacenamiento de agua para consumo humano;
+- Estaciones de bombeo de agua para consumo hu-
+mano;
+- Redes de distribución de agua para consumo hu-
+mano;
+- Drenaje pluvial urbano;
+- Redes de aguas residuales;
+- Estaciones de bombeo de aguas residuales;
+- Plantas de tratamiento de aguas residuales; y
+- Consideraciones básicas de diseño de infraestructu-
+ra sanitaria.
+c) Las Obras de Suministro de Energía y Comunica-
+ciones, que están compuestas por:
+- Redes de distribución de energía eléctrica;
+- Redes de alumbrado público;
+- Subestaciones eléctricas; y
+- Redes e instalaciones de comunicaciones.
+Artículo 4.- Las habilitaciones urbanas podrán ejecu-
+tarse en todo el territorio nacional, con excepción de las
+zonas identificadas como:
+a) De interés arqueológico, histórico y patrimonio cul-
+tural;
+b) De protección ecológica
+c) De riesgo para la salud e integridad física de los
+pobladores
+d) Reserva nacional;
+e) Áreas destinadas a inversiones públicas para equi-
+pamiento urbano.
+f) Reserva para obras viales;
+g) Riberas de ríos, lagos o mares, cuyo límite no se
+encuentre determinado por el Instituto Nacional de Re-
+cursos Naturales – INRENA, el Instituto Nacional de De-
+fensa Civil – INDECI, la Marina de Guerra del Perú o por
+las entidades competentes; y,
+h) De alta dificultad de dotación de servicios públicos.
+CAPITULO II
+INDEPENDIZACIÓN Y SUBDIVISIÓN
+Artículo 5.- La independización de terrenos rústicos,
+o parcelaciones, que se ejecuten en áreas urbanas o de
+expansión urbana, deberán tener parcelas superiores a 1
+(una) hectárea.
+Articulo 6.- Las independizaciones o parcelaciones po-
+drán efectuarse simultáneamente con la ejecución de los
+proyectos de habilitación urbana para una o varias de las
+parcelas independizadas.
+Articulo 7.- Los predios sobre los que se emitan reso-
+luciones, mediante las cuales se autorice su Independi-
+zación o parcelación,  deberán encontrarse dentro de áreas
+urbanas o de expansión urbana, y contar con un planea-
+miento integral.
+En caso el predio se encuentre solo parcialmente den-
+tro de los límites del área de expansión, la independiza-
+ción se aprobará solo sobre esta parte.
+No se autorizarán independizaciones de predios fuera
+del área de expansión urbana.
+Articulo 8.- El planeamiento Integral deberá ser res-
+petado por todos los predios independizados, y tendrá una
+vigencia de 10 años.
+Articulo 9.- Los predios independizados deberán man-
+tener la zonificación asignada al lote matriz.
+Artículo 10.- Las subdivisiones constituyen las parti-
+ciones de predios ya habilitados y se sujetan a las condi-
+ciones propias de los lotes normativos de cada zonifica-
+ción. Estas  pueden ser de dos tipos:
+- Sin Obras: Cuando no requieren la ejecución de vías
+ni redes de servicios públicos
+- Con obras: Cuando requieren la ejecución de vías y
+redes de servicios públicos
+NORMA GH. 020
+COMPONENTES DE DISEÑO URBANO
+CAPITULO I
+GENERALIDADES
+Artículo 1.- Los componentes de diseño de una Habi-
+litación Urbana son los espacios públicos y los terrenos
+aptos para ser edificados.
+Los espacios públicos están, a su vez, conformados
+por las vías de circulación vehicular y peatonal, las áreas
+dedicadas a parques y plazas de uso público.
+Los terrenos edificables comprenden los lotes de libre
+disposición del propietario y los lotes que deben ser apor-
+tados reglamentariamente.
+Artículo 2.- Las habilitaciones urbanas deberán inter-
+comunicarse con el núcleo urbano del que forman parte,
+a través de una vía pública formalmente recepcionada o
+de hecho.
+
+--- PDF PAGE 25 ---
+El Peruano
+Jueves 8 de junio de 2006
+320495
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+Cuando se trate de habilitaciones urbanas que se ha-
+yan desarrollado colindantes a áreas consolidadas que
+no estén formalmente habilitadas, deberá formularse un
+Planeamiento Integral en el que se demuestre su integra-
+ción al sistema vial previsto para la zona.
+Artículo 3.- Las servidumbres establecidas al amparo
+de disposiciones expresas, para cables de alta tensión,
+cursos de agua para regadío, ductos para petróleo y deri-
+vados, etc. forman parte del diseño de la habilitación, de-
+biendo coordinarse con las empresas prestadoras del ser-
+vicio, para que en lo posible, sus recorridos se encuen-
+tren en vías públicas.
+Artículo 4.- Excepcionalmente los proyectistas de la
+habilitación urbana, podrán proponer soluciones alterna-
+tivas y/o innovadoras siempre que satisfagan los criterios
+establecidos en la presente Norma.
+CAPITULO II
+DISEÑO DE VIAS
+Artículo 5.- El diseño de las vías de una habilitación
+urbana deberá integrarse al sistema vial establecido en el
+Plan de Desarrollo Urbano de la ciudad, respetando la
+continuidad de las vías existentes. El sistema vial está
+constituido por vías expresas, vías arteriales, vías colec-
+toras, vías locales y pasajes.
+Artículo 6.- Las vías serán de uso público libre e irres-
+tricto. Las características de las secciones de las vías va-
+rían de acuerdo a su función.
+Artículo 7.- Las características de las secciones de
+vías que conforman del sistema vial primario de la ciudad
+serán establecidas por el Plan de Desarrollo Urbano y
+estarán constituidas por vías expresas, vías arteriales y
+vías colectoras.
+Artículo 8.- Las secciones de las vías locales princi-
+pales y secundarias, se diseñarán de acuerdo al tipo de
+habilitación urbana, en base a los siguientes módulos:
+TIPO DE HABILITACION
+VIVIENDA
+COMER-
+INDUS-
+USOS
+CIAL
+TRIAL
+ESPE-
+CIALES
+VIAS LOCALES
+PRINCIPALES
+ACERAS O
+VEREDAS
+1.80
+2.40
+3.00
+3.00
+2.40
+3.00
+ESTACIONAMIENTO
+2.40
+2.40
+3.00 3.00 - 6.00
+3.00
+3.00-6.00
+CALZADAS O
+3.60
+3.00 ó 3.30
+3.60
+3.60
+3.30-3.60
+PISTAS (modulo)
+sin
+con
+separador
+separador
+central
+central
+VIAS LOCALES
+SECUNDARIAS
+ACERAS O
+1.20
+2.40
+1.80
+1.80-2.40
+VEREDAS
+ESTACIONAMIENTO
+1.80
+5.40
+3.00
+2.20-5.40
+CALZADAS O
+2.70
+3.00
+3.60
+3.00
+PISTAS (modulo)
+Notas: Las medidas indicadas están indicadas en metros
+En los casos de habilitaciones en laderas, las aceras pue-
+den ser de 0.60 m. en los frentes que no habiliten lotes.
+La dotación de estacionamientos en las habilitaciones
+comerciales puede ser resuelta dentro del lote de acuer-
+do a los requerimientos establecidos en el certificado de
+parámetros urbanísticos.
+Artículo 9.- Las Vías Locales Principales de todas las
+habilitaciones Urbanas tendrán como mínimo, veredas y
+estacionamientos en cada frente que habilite lotes y dos
+módulos de calzada.
+Artículo 10.- Las vías locales secundarias tendrán
+como mínimo, dos módulos de veredas en cada frente
+que habilite lotes, dos módulos de calzada y por lo menos
+un módulo de estacionamiento.
+Artículo 11.- Las Vías Locales Secundarias de las Ha-
+bilitaciones Residenciales que constituyan acceso exclu-
+sivo a las viviendas, con tránsito vehicular y peatonal, ten-
+drán como mínimo 7.20 ml. de sección de circulación,
+debiendo contar con elementos que condicionen la velo-
+cidad de acceso de vehículos, solo para los casos de ha-
+bilitaciones urbanas que se ejecuten dentro de los alcan-
+ces de Programas de promoción del acceso a la propie-
+dad privada de la vivienda.
+Estas vías podrán tener un sólo acceso, cuando la
+longitud no sea mayor de 50 ml., a partir de lo cual debe-
+rán contar con acceso en sus dos extremos, no pudien-
+do, en ningún caso, tener más de 100 ml. de longitud.
+Artículo 12.- En las habilitaciones residenciales don-
+de se propongan lotes con frente a pasajes peatonales
+deberán proveerse áreas para el estacionamiento de ve-
+hículos a razón de uno por lote.
+En las vías locales sin franja de estacionamiento, este
+deberá proveerse dentro del lote.
+Artículo 13.- Las vías locales Secundarias de acceso
+único vehicular con una longitud no mayor de 100 ml. ten-
+drán en su extremo interior un ensanche de calzada, a
+manera de plazoleta de volteo, con un diámetro mínimo
+de 12 ml., que permita el giro y retroceso de un vehículo.
+En caso que la plazoleta de volteo constituya frente de
+lotes, se incluirá en la sección de vía una franja de esta-
+cionamiento entre la calzada y la vereda de acceso a los
+lotes.
+Artículo 14.- Las pendientes de las calzadas tendrán
+un máximo de 12%. Se permitirá pendientes de hasta 15%
+en zonas de volteo con tramos de hasta 50 ml. de longitud.
+Artículo 15.- En las habilitaciones residenciales, la dis-
+tancia mínima sobre una misma vía, entre dos intersec-
+ciones de vías de tránsito vehicular será de 40 ml; la dis-
+tancia máxima será de 300 ml., ambas medidas en los
+extremos de la manzana.
+Artículo 16.- Los pasajes peatonales deberán permi-
+tir únicamente el acceso de vehículos de emergencia.
+Los pasajes peatonales tendrán una sección igual a 1/20
+(un veinteavo) de su longitud, con un mínimo de 4.00 m.
+Artículo 17.- En casos que la topografía del terreno o
+la complejidad del sistema vial lo exigieran, se colocarán
+puentes peatonales, muros de contención, muros de ais-
+lamiento, parapetos, barandas y otros elementos que fue-
+ran necesarios para la libre circulación vehicular y la se-
+guridad de las personas.
+Artículo 18.- Las veredas deberán diferenciarse con
+relación a la berma o a la calzada, mediante un cambio
+de nivel o elementos que diferencien la zona para vehícu-
+los de la circulación de personas, de manera que se ga-
+rantice la seguridad de estas. El cambio de nivel reco-
+mendable es de 0.15 m. a 0.20 m. por encima del nivel de
+la berma o calzada. Tendrán un acabado antideslizante.
+La berma podrá resolverse en un plano inclinado entre el
+nivel de la calzada y el nivel de la vereda.
+Las veredas en pendiente tendrán descansos de 1.20
+m. de longitud, de acuerdo a lo siguiente:
+Pendientes hasta 2%
+tramos de longitud mayor a 50 m.
+Pendientes hasta 4%
+cada 50 m. como máximo
+Pendientes hasta 6%
+cada 30 m. como máximo
+Pendientes hasta 8%
+cada 15 m. como máximo
+Pendientes hasta 10%
+cada 10 m. como máximo
+Pendientes hasta 12%
+cada 5 m. como máximo
+Los bordes de una vereda, abierta hacia un plano infe-
+rior con una diferencia de nivel mayor de 0.30 m, deberán
+estar provistos de parapetos o barandas de seguridad con
+una altura no menor de 0.80 m. Las barandas llevarán un
+elemento corrido horizontal de protección a 0.15 m sobre
+el nivel del piso, o un sardinel de la misma dimensión.
+Artículo 19.- Las bermas de estacionamiento sin pavi-
+mento o con un pavimento diferente al de la calzada debe-
+rán tener sardineles enterrados al borde de la calzada.
+Las acequias, canales de regadío, postes de alumbra-
+do público y sub-estaciones eléctricas aéreas, se podrán
+colocar en las bermas de estacionamiento.
+Artículo 20.- La superficie de las calzadas tendrá una
+pendiente hacia los lados para el escurrimiento de aguas
+pluviales, de regadío o de limpieza.
+Artículo 21.- La unión de las calzadas entre dos ca-
+lles locales secundarias tendrá un radio de curvatura mí-
+nimo de 3 m. medido al borde del carril más cercano a la
+vereda.
+Artículo 22.- La unión de las calzadas entre dos calles
+locales principales tendrá un radio de curvatura mínimo de
+5 m. medido al borde del carril más cercano a la vereda.
+Artículo 23.- En las esquinas e intersecciones de vías
+se colocarán rampas para discapacitados para acceso a
+las veredas, ubicándose las mismas sobre las bermas o
+los separadores centrales. La pendiente de la rampa no
+será mayor al 12% y el ancho mínimo libre será de 0.90
+m. De no existir bermas se colocarán en las propias vere-
+das, en este caso la pendiente podrá ser de hasta 15%.
+
+--- PDF PAGE 26 ---
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+320496
+El Peruano
+Jueves 8 de junio de 2006
+Las aceras y rampas de las vías públicas deberán cons-
+tituir una ruta accesible, desde las paradas de transporte
+público o embarque de pasajeros, hasta el ingreso a los
+locales y establecimientos de uso público, salvo que las
+características físicas de la zona no lo permitan. En este
+último caso, se deberá colocar avisos en los lugares con-
+venientes, con el fin de prevenir a las personas con disca-
+pacidad.
+Artículo 24.- Los radios mínimos de las inflexiones de
+las tangentes de las vías locales serán los siguientes:
+Vías locales principales:
+60 m
+Vías locales secundarias:
+30 m
+En los trazos de vías que lo requieran, siempre que no
+se use curvas de transición se proveerá entre curva y con-
+tracurva una recta o tangente cuya longitud mínima será:
+Vías locales principales:
+30 m
+Vías locales secundarias:
+20 m
+CAPITULO III
+LOTIZACION
+Artículo 25.- Las manzanas estarán conformadas por
+uno o más lotes y estarán delimitadas por vías públicas,
+pasajes peatonales o parques públicos.
+Artículo 26.- Todos los lotes deben tener acceso des-
+de una vía pública con tránsito vehicular o peatonal. En
+los casos de vías expresas y arteriales, lo harán a través
+de una vía auxiliar.
+CAPITULO IV
+APORTES DE HABILITACION URBANA
+Artículo 27.- Las habilitaciones urbanas, según su tipo,
+deberán efectuar aportes obligatorios para recreación
+pública y para servicios públicos complementarios para
+educación y otros fines, en lotes regulares edificables.
+Estos aportes serán cedidos a título gratuito a la entidad
+beneficiaria que corresponda.
+El área del aporte se calcula como porcentaje del área
+bruta deducida la cesión para vías expresas, arteriales y
+colectoras, así como las reservas para obras de carácter
+regional o provincial
+Los aportes para cada entidad se ubicaran de manera
+concentrada, siendo el àrea mìnima la siguiente:
+Para Recreación Pública
+800 mt2
+Ministerio de Educación
+Lote normativo
+Otros fines
+Lote normativo
+Parques zonales
+Lote normativo
+Cuando el cálculo de área de aporte sea menor al área
+mínima requerida, podrá ser redimido en dinero.
+En todos los casos en que las áreas de aporte resulta-
+ran menores a los mínimos establecidos, el monto de la
+redención en dinero se calculará al valor de tasación aran-
+celaria del metro cuadrado del terreno urbano.
+Artículo 28.- Las áreas para recreación pública consti-
+tuirán un aporte obligatorio a la comunidad y en esa condi-
+ción deberán quedar inscritos en los Registros Públicos.
+Estarán ubicados dentro de la habilitación de manera
+que no haya ningún lote cuya distancia al área de recrea-
+ción pública, sea mayor de 300 ml. Pueden estar distribui-
+dos en varias zonas y deberán ser accesibles desde vías
+públicas.
+Artículo 29.- El ancho mínimo del aporte para recrea-
+ción pública será de 25 m., En el cálculo del área no se
+incluirán las veredas que forman parte de la sección trans-
+versal de la vía.
+Artículo 30.- Cuando el área por habilitar sea mayor a
+10 hectáreas se considerará un área concentrada con una
+superficie no menor al 30% del área total del aporte total
+requerido para recreación pública.
+Artículo 31.- No se considerará para el cálculo del área
+de aportes, las áreas comprendidas dentro de los lados de
+ángulos menores de 45 grados hasta una línea perpendi-
+cular a la bisectriz ubicada a 25 m del vértice del ángulo, ni
+las áreas de servidumbre bajo líneas de alta tensión.
+Artículo 32.- Cuando los separadores centrales de vías
+principales tengan un ancho mayor a 25 m, podrán ser
+computados como áreas de recreación pública.
+Artículo 33.- En casos de habilitaciones en terrenos
+con pendientes pronunciadas, las áreas de recreación
+pública podrán estar conformadas por terrazas o platafor-
+mas, con una pendiente máxima de 12% cada una y con
+comunicación entre los diferentes niveles.
+Artículo 34.- Las áreas de recreación pública serán
+construidas y aportadas para uso público y no podrán ser
+transferidas a terceros.
+Las áreas de recreación pública tendrán jardines, ve-
+redas interiores, iluminación, instalaciones para riego y
+mobiliario urbano. Se podrá proponer zonas de recrea-
+ción activa hasta alcanzar el 30% de la superficie del área
+de recreación aportada.
+Artículo 35.- Los aportes se indican en los capítulos
+correspondientes a cada tipo de habilitación urbana. Las
+Municipalidades Provinciales podrán establecer el régimen
+de aportes de su jurisdicción, ajustado a las condiciones
+específicas locales y a los objetivos establecidos en su
+Plan de Desarrollo Urbano, tomando como referencia lo
+indicado en la presente norma.
+Artículo 36.- Los aportes para el Ministerio de Educa-
+ción y Otros Fines, podrán permutarse por edificaciones
+ubicadas dentro de los límites de la habilitación, que res-
+pondan a las necesidades de la población y cuenten con
+la conformidad de la entidad beneficiaria. El valor de la
+edificación deberá corresponder al valor de tasación del
+aporte respectivo.
+CAPITULO V
+PLANEAMIENTO INTEGRAL
+Artículo 37.- En los casos que el área por habilitar se
+desarrolle en etapas o esta no colinde con zonas habilita-
+das o se plantee la parcelación del predio rústico, se de-
+berá elaborar un «Planeamiento Integral» que compren-
+da la red de vías y los usos de la totalidad del predio, así
+como una propuesta de integración a la trama urbana mas
+cercana, en función de los lineamientos establecidos en
+el Plan de Desarrollo Urbano correspondiente.
+En las localidades que carezcan de Plan de Desarro-
+llo Urbano, el Planeamiento Integral deberá proponer la
+zonificación y vías.
+Artículo 38.- Para el planeamiento integral de predios
+que no colinden con áreas habilitadas o con proyecto de
+habilitación urbana aprobado, el planeamiento compren-
+derá la integración al sector urbano más próximo.
+Artículo 39.- El Planeamiento Integral aprobado ten-
+drá una vigencia de 10 años. Las modificaciones al Plan
+de Desarrollo Urbano deberán tomar en cuenta los pla-
+neamientos integrales vigentes.
+Artículo 40.- Una vez aprobado, el Planeamiento In-
+tegral tendrá carácter obligatorio para las habilitaciones
+futuras, debiendo ser inscrito obligatoriamente en los Re-
+gistros Públicos.
+Artículo 41.- En los casos en que el Plan de Desarro-
+llo Urbano haya sido desarrollado hasta el nivel de unida-
+des de barrio, no será exigible la presentación del Pla-
+neamiento Integral.
+Artículo 42.- El Planeamiento Integral podrá estable-
+cer servidumbres de paso a través de propiedad de terce-
+ros para permitir la provisión de servicios públicos de sa-
+neamiento y energía eléctrica al predio por habilitar.
+Cuando los terrenos rústicos materia de habilitación
+se encuentren cruzados por cursos de agua de regadío,
+éstos deben ser canalizados por vías públicas.
+CAPITULO VI
+MOBILIARIO URBANO Y SEÑALIZACION
+Artículo 43.- El mobiliario urbano que corresponde pro-
+veer al habilitador, está compuesto por: luminarias, basu-
+reros, bancas, hidrantes contra incendios, y elementos de
+señalización.
+Opcionalmente, el mobiliario urbano que puede ser ins-
+talado en las vías públicas, previa autorización de la mu-
+nicipalidad es el siguiente: casetas de vigilantes, puestos
+comerciales, papeleras, cabinas telefónicas, paraderos,
+servicios higiénicos, jardineras, letreros con nombres de
+calles, placas informativas, carteleras, mapas urbanos,
+bancas, juegos infantiles, semáforos vehiculares y peato-
+nales. Deberá consultarse el Manual de Dispositivos de
+Control de Tránsito Automotor para Calles y Carreteras,
+aprobado por el Ministerio de Transportes y Comunica-
+ciones.
+
+--- PDF PAGE 27 ---
+El Peruano
+Jueves 8 de junio de 2006
+320497
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+El mobiliario urbano al que deba de aproximarse una
+persona en silla de ruedas, deberá tener un espacio libre
+de obstáculos, con una altura mínima de 0.75 m. y un
+ancho mínimo de 0.80 m. La altura máxima de los table-
+ros será de 0.80 m.
+Artículo 44.- En cada batería de mas de tres teléfo-
+nos públicos, por lo menos uno de ellos deberá ser acce-
+sible a personas con discapacidad y estar claramente se-
+ñalizado, donde el elemento más alto manipulable debe-
+rá estar a una altura máxima de 1.30m.
+Artículo 45.- Los soportes verticales de señales y se-
+máforos deberán tener una sección circular y deberán
+colocarse al borde exterior de la vereda.
+Artículo 46.- Cuando se instalen semáforos sonoros,
+éstos deberán emitir una señal indicadora del tiempo dis-
+ponible para el paso de peatones.
+Artículo 47.- En aquellos casos en que por restriccio-
+nes propias de la topografía o complejidad vial se requie-
+ra la instalación de puentes, escaleras u otros elementos
+que impidan el libre tránsito de personas con discapaci-
+dad, deberá señalizarse las rutas accesibles, de acuerdo
+a lo siguiente:
+a) Los avisos contendrán las señales de acceso y sus
+respectivas leyendas debajo de los mismos.
+b) Los caracteres de las leyendas serán de tipo Helvé-
+tico. Tendrán un tamaño adecuado a la distancia desde la
+cual serán leídos, con un alto o bajo relieve mínimo de
+0.8mm. Las leyendas irán también en escritura Braille.
+c) Las señales de acceso y sus leyendas serán blan-
+cas sobre fondo azul oscuro.
+d) Las señales de acceso, en los avisos adosados a
+paredes o mobiliario urbano, serán de 15cm. x 15cm. como
+mínimo. Estos avisos se instalarán a una altura de 1.40m.
+medida a su borde superior.
+e) Los avisos soportados por postes o colgados ten-
+drán, como mínimo, 40cm. de ancho y 60cm. de altura.
+f) Las señales de acceso ubicadas al centro de los es-
+pacios de estacionamiento vehicular accesibles, serán de
+1.60m x 1.60m.
+CAPITULO VII
+OBRAS DE CARÁCTER REGIONAL O PROVINCIAL
+Artículo 48.- En el caso que dentro del área por habi-
+litar, el Plan de Desarrollo Urbano haya previsto obras de
+carácter regional o provincial, tales como vías expresas,
+arteriales, intercambios viales o equipamientos urbanos,
+los propietarios de los terrenos están obligados a reser-
+var las áreas necesarias para dichos fines. Dichas áreas
+podrán ser utilizadas por los propietarios con edificacio-
+nes de carácter temporal, hasta que estas sean adquiri-
+das por la entidad ejecutora de las obras.
+Artículo 49.- Cuando una vía de nivel metropolitano,
+expresa, arterial, o un intercambio vial, afecte un área por
+habilitar de propiedad privada, el propietario podrá formu-
+lar una solución vial alternativa que sea eficiente o, en su
+defecto, deberá ejecutar únicamente las obras correspon-
+dientes a la parte de vía destinada al servicio de la habili-
+tación de su propiedad, dejando reservadas las áreas para
+la ejecución de las vías principales o de tránsito rápido
+(calzadas, separador central, alumbrado y otras), las que
+constituyen obras viales de carácter regional o provincial.
+La entidad ejecutora de las obras viales o de equipa-
+miento urbano deberá abonar el justiprecio del valor del
+terreno reservado, según lo determinado por el Consejo
+Nacional de Tasaciones, previamente a su ejecución.
+Artículo 50.- En todos los casos, las áreas de las re-
+servas para obras de carácter regional o provincial, se
+descontarán de las áreas brutas materia de la habilita-
+ción, para los efectos de cómputo de aportes, así como
+para el pago de tasas y derechos.
+CAPITULO VIII
+NOMENCLATURA
+Artículo 51.- En todas las habilitaciones en que exista
+partición de la tierra en lotes y agrupamiento de éstos en
+manzanas, deberá establecerse una nomenclatura. Dicha
+nomenclatura consistirá en letras para las manzanas y
+números para los lotes, ambos en forma correlativa.
+Artículo 52.- Deberá establecerse una nomenclatura
+provisional para las vías públicas y áreas de recreación,
+mediante letras o números o empleando los nombres pre-
+existentes para las vías con las que se empalman.
+Artículo 53.- La nomenclatura será propuesta por el
+propietario que solicita la habilitación a la Municipalidad
+correspondiente. Una vez aceptada, la nomenclatura de
+las vías, junto con el nombre de la manzana, se consigna-
+rá en letras negras sobre hitos de concreto pintados en
+blanco que serán colocados en todas las esquinas de las
+manzanas por el responsable de la habilitación.
+CAPITULO IX
+COMPONENTES Y CARACTERÍSTICAS DE LOS
+PROYECTOS
+Artículo 54.- Los proyectos elaborados por los profe-
+sionales responsables deberán cumplir con requisitos de
+información suficiente para:
+a) Comprender los alcances y características del pro-
+yecto por parte de los órganos de aprobación;
+b) Permitir las coordinaciones con las empresas pres-
+tadoras de los servicios de energía y agua potable, alcan-
+tarillado y gas.
+c) Lograr que el constructor cuente con todos los ele-
+mentos que le permitan estimar el costo de la habilitación
+y posteriormente ejecutarla con un mínimo de consultas.
+Artículo 55.- Los proyectos se dividen por especialida-
+des según los aspectos a que se refieren, y pueden ser de:
+a) Planeamiento Integral;
+b) Proyecto de Diseño Urbano, consistente en el traza-
+do y lotización, referente a la concepción general, localiza-
+ción, dimensiones, y finalidad de la habilitación urbana;
+c) Pavimentos, referente al trazado de los ejes de las
+vías, perfiles longitudinales y características de las obras
+de aceras y pavimentos;
+d) Ornamentación de Parques, referente al diseño, or-
+namentación y equipamiento de las áreas de recreación
+pública;
+e) Redes Eléctricas, referente a las obras y equipa-
+miento necesario para el alumbrado público y el aprovi-
+sionamiento domiciliario de energía eléctrica;
+f) Redes Sanitarias, referente a las obras y equipamiento
+necesario para el aprovisionamiento domiciliario de agua
+para consumo humano, evacuación y tratamiento de aguas
+servidas, aguas residuales y pluviales y riego;
+g) Redes de gas, referente a las obras y equipamiento
+necesario para el aprovisionamiento domiciliario de gas
+natural;
+h) Redes de comunicaciones referente a las obras y
+equipamiento necesario para los servicios de transmisión
+de voz y datos.
+Artículo 56.- El proyecto de Habilitación Urbana debe
+contener la siguiente información:
+a) Plano de localización, con coordenadas UTM (Uni-
+versal Transversa Mercator);
+b) Planeamiento Integral, cuando se requiera.
+c) Plano de trazado y lotización, con indicación de lo-
+tes, aportes, vías y secciones de vías y ejes de trazo, con
+indicación de curvas de nivel cada metro.
+d) Habilitaciones colindantes, cuando sea necesario
+para comprender la integración con el entorno.
+e) Plano de Ornamentación de Parques, cuando se
+requiera.
+Artículo 57.- El proyecto de Pavimentos debe conte-
+ner la siguiente información:
+a) Plano de trazado de ejes de vías;
+b) Plano de perfiles longitudinales de las vías;
+c) Plano de secciones viales;
+d) Memoria Descriptiva, conteniendo las especificacio-
+nes técnicas de los materiales y procedimiento de ejecu-
+ción.
+Artículo 58.- El proyecto de instalaciones eléctricas
+para habilitaciones urbanas debe contener la siguiente in-
+formación:
+a) Plano de redes primarias o de electrificación;
+b) Plano de redes secundarias;
+
+--- PDF PAGE 28 ---
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+320498
+El Peruano
+Jueves 8 de junio de 2006
+c) Plano de sistemas de transformación de alta o me-
+dia tensión a baja tensión;
+d) Plano de detalles constructivos;
+e) Especificaciones técnicas de los materiales; y
+f) Procedimiento de ejecución.
+Artículo 59.- El proyecto de instalaciones de gas para
+habilitaciones urbanas debe contener la siguiente infor-
+mación:
+a) Plano de redes
+b) Planos de detalles constructivos
+c) Especificaciones técnicas de los materiales
+d) Procedimiento de ejecución
+Artículo 60.- El proyecto de instalaciones sanitarias
+para habilitaciones urbanas debe contener la siguiente in-
+formación:
+a) Plano de redes primarias o de saneamiento;
+b) Plano de redes secundarias;
+c) Planos de sistemas de almacenamiento y bombeo
+de agua;
+d) Plano de detalles constructivos;
+e) Especificaciones técnicas de los materiales; y
+f) Procedimiento de ejecución.
+II.1 TIPOS DE HABILITACIONES
+NORMA TH.010
+HABILITACIONES RESIDENCIALES
+CAPITULO I
+GENERALIDADES
+Artículo 1.- Constituyen Habilitaciones Residenciales
+aquellos procesos de habilitación urbana que están desti-
+nados predominantemente a la edificación de viviendas y
+que se realizan sobre terrenos calificados con una Zonifi-
+cación afín.
+Artículo 2.- Las Habilitaciones Residenciales se cla-
+sifican en:
+a) Habilitaciones para uso de vivienda o Urbanizacio-
+nes
+b) Habilitaciones para uso de Vivienda Taller
+c) Habilitaciones para uso de Vivienda Tipo Club
+d) Habilitación y construcción urbana especial
+Artículo 3.- Las Habilitaciones Residenciales, de
+acuerdo a su clasificación, podrán llevarse a cabo sobre
+terrenos ubicados en zonas de expansión urbana, islas
+rústicas o áreas de playa o campestres, con sujeción a
+los parámetros establecidos en el Cuadro Resumen de
+Zonificación y las disposiciones del Plan de Desarrollo
+Urbano.
+Artículo 4.- Las Habilitaciones Residenciales deberán
+cumplir con efectuar aportes, en áreas de terreno habili-
+tado, o efectuar su redención en dinero cuando no se al-
+canza las áreas mínimas, para los siguientes fines espe-
+cíficos:
+a) Para Recreación Pública
+b) Para Ministerio de Educación y
+c) Para Otros Fines
+d) Para Parques Zonales
+Artículo 5.- Los aportes de Habilitación Urbana cons-
+tituyen un porcentaje del Área bruta descontando las áreas
+de cesión para vías expresas, arteriales, y las áreas de
+reserva para proyectos de carácter provincial o regional,
+y se fijan de acuerdo al tipo de Habilitación Residencial a
+ejecutar.
+CAPITULO II
+URBANIZACIONES
+Artículo 6.- Se denominan Habilitaciones para uso de
+Vivienda o Urbanizaciones a aquellas Habilitaciones Re-
+sidenciales conformadas por lotes para fines de edifica-
+ción para viviendas unifamiliares y/o multifamiliares, así
+como de sus servicios públicos complementarios y el co-
+mercio local.
+Artículo 7.- Las Urbanizaciones pueden ser de dife-
+rentes tipos, los cuáles se establecen en función a tres
+factores concurrentes:
+a) Densidad máxima permisible;
+b) Calidad mínima de obras y
+c) Modalidad de ejecución.
+Artículo 8.- La densidad máxima permisible se esta-
+blece en la Zonificación y como consecuencia de ella se
+establecen el área mínima y el frente mínimo de los Lotes a
+habilitar, de conformidad con el Plan de Desarrollo Urbano.
+Artículo 9.- En función de la densidad, las Habilitacio-
+nes para uso de Vivienda o Urbanizaciones se agrupan
+en seis tipos, de acuerdo al siguiente cuadro:
+TIPO ÁREA MINIMA FRENTE MÍNIMO
+TIPO DE
+DE LOTE
+DE LOTE
+VIVIENDA
+1
+450 M2
+15 ML
+UNIFAMILIAR
+2
+300 M2
+10 ML
+UNIFAMILIAR
+3
+160 M2
+8 ML
+UNIFAM / MULTIFAM
+4
+90 M2
+6 ML
+UNIFAM / MULTIFAM
+5
+(*)
+(*)
+UNIFAM / MULTIFAM
+6
+450 M2
+15 ML
+MULTIFAMILIAR
+1
+Corresponden a Habilitaciones Urbanas de  Baja
+Densidad a ser ejecutados en Zonas Residencia-
+les de Baja Densidad (R1).
+2
+Corresponden a Habilitaciones Urbanas de  Baja
+Densidad a ser ejecutados en Zonas Residencia-
+les de Baja Densidad (R2).
+3
+Corresponden a Habilitaciones Urbanas de  Densi-
+dad Media a ser ejecutados en Zonas Residencia-
+les de Densidad Media (R3).
+4
+Corresponden a Habilitaciones Urbanas de  Densi-
+dad Media a ser ejecutados en Zonas Residencia-
+les de Densidad Media (R4).
+5
+(*) Corresponden a Habilitaciones Urbanas con
+construcción simultánea, pertenecientes a progra-
+mas de  promoción del acceso a la propiedad pri-
+vada de la vivienda. No tendrán limitación en el
+número, dimensiones o área mínima de los lotes
+resultantes; y se podrán realizar en áreas califica-
+das como Zonas de Densidad Media (R3 y R4) y
+Densidad Alta (R5, R6, y R8) o en Zonas compati-
+bles con estas densidades. Los proyectos de habi-
+litación urbana de este tipo, se calificarán y autori-
+zarán como habilitaciones urbanas con construc-
+ción simultánea de viviendas. Para la aprobación
+de este tipo de proyectos de habilitación urbana
+deberá incluirse los anteproyectos arquitectónicos
+de las viviendas a ser ejecutadas, los que se apro-
+baran simultáneamente.
+6
+Corresponden a Habilitaciones Urbanas de  Densi-
+dad Alta a ser ejecutados en Zonas Residenciales
+de Alta Densidad (R5, R6 y R8).
+En función de las características propias de su con-
+texto urbano, las Municipalidades provinciales respecti-
+vas podrán establecer las dimensiones de los lotes nor-
+mativos mínimos, de acuerdo con su Plan de Desarrollo
+Urbano, tomando como base lo indicado en el cuadro del
+presente artículo.
+Artículo 10.- De acuerdo a su tipo, las Habilitaciones
+para uso de Vivienda o Urbanizaciones deberán cumplir
+con los aportes de habilitación urbana, de acuerdo al si-
+guiente cuadro:
+TIPO RECREACIÓN PARQUES
+SERVICIOS PÚBLICOS
+PÚBLICA
+ZONALES
+COMPLEMENTARIOS
+EDUCACIÓN OTROS FINES
+1
+8%
+2%
+2%
+1%
+2
+8%
+2%
+2%
+1%
+3
+8%
+1%
+2%
+2%
+4
+8%
+———
+2%
+3%
+5
+8%
+———
+2%
+———
+6
+15%
+2%
+3%
+4%
+Las Municipalidades provinciales podrán adecuar la
+distribución de los aportes del presente cuadro en función
+
+--- PDF PAGE 29 ---
+El Peruano
+Jueves 8 de junio de 2006
+320499
+NORMAS LEGALES
+R
+E
+P
+U
+B
+L
+I
+C
+A
+D
+E
+L
+P
+E
+R
+U
+de las demandas establecidas en su Plan de Desarrollo
+Urbano, manteniendo el porcentaje total correspondiente
+a cada tipo de habilitación urbana.
+Artículo 11.- De acuerdo a las características de las
+obras existirán 6 tipos diferentes de habilitación, de acuer-
+do a lo consignado en el siguiente cuadro:
+TI- CALZADAS
+ACERAS
+AGUA
+ENERGÍA
+TELÉ-
+PO (PISTAS)
+(VEREDAS) POTABLE
+DESAGÜE
+ELÉCTRICA FONO
+A
+CONCRETO CONCRETO CONEXIÓN CONEXIÓN PÚBLICA Y
+PÚBLICO
+SIMPLE
+DOMICI-
+DOMICI-
+DOMICI-
+DOMICI-
+LIARIA
+LIARIA
+LIARIA
+LIARIO
+B
+ASFALTO
+CONCRETO CONEXIÓN CONEXIÓN PÚBLICA Y
+PÚBLICO
+SIMPLE
+DOMICI-
+DOMICI-
+DOMICI-
+DOMICI-
+LIARIA
+LIARIA
+LIARIA
+LIARIO
+C
+ASFALTO
+ASFALTO
+CONEXIÓN CONEXIÓN PÚBLICA Y
+PÚBLICO
+CON
+DOMICI-
+DOMICI-
+DOMICI-
+SARDINEL
+LIARIA
+LIARIA
+LIARIA
+D
+SUELO
+SUELO ES- CONEXIÓN CONEXIÓN PÚBLICA Y
+PÚBLICO
+ESTABI-
+TABILIZADO DOMICI-
+DOMICI-
+DOMICI-
+LIZADO
+CON
+LIARIA
+LIARIA
+LIARIA
+SARDINEL
+E
+AFIRMADO
+DISEÑO
+CONEXIÓN POZO
+PÚBLICA Y
+PÚBLICO
+DOMICI-
+SÉPTICO
+DOMICI-
+LIARIA
+LIARIA
+F
+DISEÑO
+DISEÑO
+CONEXIÓN POZO
+PÚBLICA Y
+PÚBLICO
+DOMICI-
+SÉPTICO
+DOMICI-
+LIARIA
+LIARIA
+Artículo 12.- La calificación de una habilitación para
+uso de vivienda se hará considerando simultáneamente
+la denominación del tipo de habilitación correspondiente
+a cada uno de los dos factores anteriormente enunciados
+(densidad y calidad mínima de las obras).
+Artículo 13.- La calidad mínima de obras en las Habi-
+litaciones para uso de Vivienda o Urbanizaciones para fi-
+nes multifamiliares será la tipo B.
+Artículo 14.- De acuerdo a la modalidad de ejecución
+las Habilitaciones para uso de Vivienda o Urbanizaciones
+podrán ser:
+a) Habilitaciones Convencionales o simplemente Ur-
+banizaciones.
+b) Urbanizaciones con venta garantizada
+c) Urbanizaciones Progresivas.
+d) Urbanizaciones con Construcción Simultánea.
+Artículo 15.- Las Habilitaciones Convencionales, o sim-
+plemente Urbanizaciones, son aquellas que cumplen con
+la ejecución de las obras mínimas según su tipo, cum-
+pliendo con el procedimiento de recepción de obras, de
+manera previa a la venta de lotes.
+Artículo 16.- Las Habilitaciones para uso de Vivienda
+o Urbanizaciones con venta garantizada son aquellas en
+las que la venta de lotes se realiza de manera simultánea
+a la ejecución de obras de habilitación urbana.
+Este tipo de autorizaciones podrán ser otorgadas en
+aquellas habilitaciones que soliciten la ejecución de obras
+de habilitación urbana con construcción simultánea.
+Las solicitudes de ejecución de Habilitaciones residen-
+ciales o Urbanizaciones con Construcción Simultánea para
+venta de unidades  de vivienda, se obligan a especificar
+en los contratos de compraventa la calidad de las obras a
+ser ejecutadas y el plazo de ejecución, consignados en la
+Resolución de Aprobación del Proyecto.
+Articulo 17.- Las Habilitaciones para uso de vivienda
+o Urbanizaciones Progresivas son aquellas en las que se
+difiere la ejecución de las calzadas y/o aceras y que, cum-
+pliendo con la ejecución de las demás  obras mínimas,
+podrán solicitar la recepción de obras.
+En caso las obras no hayan sido concluidas por el ha-
+bilitador en un plazo de 10 años, la Municipalidad Distrital
+ejecutará  las obras pendientes.  El costo de las obras
+será sufragado por los adquirientes de los lotes, lo que
+estará consignado en la Resolución de aprobación del
+proyecto, en la Resolución de recepción de obras y en las
+minutas de compra-venta.
+Las habilitaciones o Urbanizaciones Tipo 5 y 6, esta-
+blecidas en el Artículo 9° de la presente norma, no pue-
+den ser declaradas como Urbanizaciones Progresivas.
+Artículo 18.- Las Habilitaciones para uso de vivienda
+o Urbanizaciones con Construcción Simultánea son aque-
+llas en las que la edificación de viviendas se realiza de
+manera simultánea a la ejecución de obras de habilita-
+ción urbana.
+Las Habilitaciones Urbanas Tipo 5, se declararán ne-
+cesariamente como Urbanizaciones con Construcción Si-
+multánea, donde se podrá realizar la recepción de obras
+de habilitación urbana, quedando pendientes las obras de
+edificación a ser ejecutadas por el mismo habilitador o
+por un tercero.
+CAPITULO III
+HABILITACIONES PARA USO DE VIVIENDA TALLER
+Artículo 19.- Son Habilitaciones conformadas por lo-
+tes destinados a edificaciones de uso mixto: viviendas e
+industria elemental y complementaria, así como de sus
+servicios públicos complementarios y comercio local, que
+se ejecutan sobre predios calificados como Zonas de Vi-
+vienda Taller (I1-R).
+Artículo 20.- Las Habilitaciones para uso de Vivienda
+Taller contarán con las mismas características de diseño
+que las Habilitaciones para uso de vivienda o Urbaniza-
+ciones Tipo 3 y la calidad mínima de obras será la Tipo C.
+Artículo 21.- Las Habilitaciones para uso de Vivienda
+Taller podrán declararse Progresivas, cuando formen parte
+de Programas de Saneamiento Físico Legal que ejecuten
+los Gobiernos Locales, es decir, diferirse la ejecución de
+las calzadas y/o aceras, y cumpliendo con la ejecución de
+las  obras mínimas, podrá efectuarse la recepción de obras.
+Artículo 22.- Las Habilitaciones para uso Vivienda
+Taller podrán ser autorizadas con Construcción Simultá-
+nea. Las obras de edificación deberán ser realizadas de
+manera simultánea a la ejecución de las obras de habili-
+tación urbana.
+Las solicitudes de ejecución de Habilitaciones para uso
+de Vivienda Taller con Construcción Simultánea para venta
+de unidades de vivienda-taller, se obligan a especificar en
+los contratos de compraventa la calidad de las obras a
+ser ejecutadas y el plazo de ejecución, consignados en la
+Resolución de Aprobación de Proyectos.
+CAPITULO IV
+HABILITACIONES PARA USO DE VIVIENDA TIPO
+CLUB, TEMPORAL O VACACIONAL
+Artículo 23.- Son Habilitaciones Residenciales con-
+formadas por una o mas viviendas agrupadas en condo-
+minio con áreas recreativas y sociales de uso común. Estas
+habilitaciones urbanas se ubican en Zonas Residenciales
+de Baja Densidad (R1), Zonas de Habilitación Recreacio-
+nal, o áreas de playa o campestres.
+Artículo  24.- El Área Bruta mínima para una habilita-
+ción para vivienda tipo club será de 1 Ha.
+Artículo 25.- Las habilitaciones para uso de Vivienda Tipo
+Club, temporal o vacacional permiten como máximo, la cons-
+trucción de 25 unidades de vivienda por Hectárea Bruta de
+terreno, pudiendo ser unifamiliares o en multifamiliares.
+Artículo  26.- Las obras de la habilitación urbana se-
+rán como mínimo, del Tipo D.
+Artículo  27.- Para el proceso de calificación de las
+Habilitaciones para uso de Vivienda Tipo Club, temporal o
+vacacional, deberá presentarse el anteproyecto de con-
+junto, donde se determinará las áreas a ser ocupadas por
+las viviendas, las áreas recreativas y sociales de uso co-
+mún y las alturas máximas de las edificaciones, los que
+constituirán los Parámetros urbanísticos y edificatorios de
+las unidades inmobiliarias que conforman la habilitación.
+Esta información deberá estar consignada en la Resolu-
+ción de aprobación de la habilitación, la Resolución de
+recepción de obras y las minutas de compra-venta de las
+unidades inmobiliarias en que se independice.
+Artículo 28.- El Área Libre de Uso Común destinada a
+áreas de recreación, jardines, vías vehiculares interiores y
+estacionamientos será como mínimo del 60% del área bruta.
+Artículo 29.- Las Habilitaciones para uso de Vivienda
+Tipo Club, temporal o vacacional, constituirán Habilitacio-
+nes con Construcción Simultánea, sin embargo, se podrá
+realizar la recepción de obras de habilitación urbana, que-
+dando pendientes las obras de edificación a ser ejecuta-
+das por el mismo habilitador o por un tercero. Los contra-
+tos de compraventa de las áreas destinadas a las vivien-
+das estipularán expresamente el tipo de viviendas a edifi-
+carse en ellas.
+Artículo 30.- En estas Habilitaciones se podrá inde-
+pendizar las áreas destinadas a las viviendas como área
+de propiedad exclusiva, estableciéndose condominio so-
+bre las áreas recreativas y sociales de uso común, así
+como el Área Libre de uso Común.

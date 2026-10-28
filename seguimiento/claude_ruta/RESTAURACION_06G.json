@@ -1,0 +1,31 @@
+{
+  "manifiesto": "entregas/06-cd20a685e89b42b1888d5ec1d83d8095/manifiesto.json",
+  "codigo": 0,
+  "salida": {
+    "manifiesto": "entregas/06-cd20a685e89b42b1888d5ec1d83d8095/manifiesto.json",
+    "destino": "tmp/restauracion_06g",
+    "miembros": 546,
+    "modulos_importados": 95,
+    "variables_clave_retiradas": [
+      "OPENAI_API_KEY",
+      "GEMINI_API_KEY",
+      "GOOGLE_API_KEY",
+      "ANTHROPIC_API_KEY"
+    ],
+    "pasos": {
+      "compilar": {
+        "codigo": 0,
+        "salida": ""
+      },
+      "importar": {
+        "codigo": 0,
+        "salida": ""
+      },
+      "pruebas": {
+        "codigo": 0,
+        "salida": "............................\n----------------------------------------------------------------------\nRan 28 tests in 15.349s\n\nOK\n"
+      }
+    },
+    "correcta": true
+  }
+}

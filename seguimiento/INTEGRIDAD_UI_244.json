@@ -1,0 +1,10 @@
+{
+  "base": "snapshot243",
+  "delta": "interfaz244",
+  "archivos": {
+    "draft2model/revision_web/construccion.js": "2cb79deb15ac996b1d1c263229665b22f2186e608106c7d6b0a0bc48a57de673",
+    "draft2model/revision_web/index.html": "432658c6fdb89074759fa5c12a353437e3ea09336f65e3d1bc359f6f77ee87b7",
+    "tests/revision_construccion_frontend.cjs": "4a41769586ab3e10f404bcceb8b4413eb4e42c39265ca1f0e84fe035d2268161"
+  },
+  "alcance": "Fuente congelada para QA interfaz; backendR241 se revisa por separado"
+}

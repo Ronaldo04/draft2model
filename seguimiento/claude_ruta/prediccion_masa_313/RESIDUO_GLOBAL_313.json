@@ -1,0 +1,9 @@
+{
+ "suma_diferencias_no_VS_kn": "-0.000025176093588",
+ "diferencia_VS_tabla_kn": "6.86126",
+ "desfase_CM_kn": "6.8681120841357",
+ "residuo_CM_menos_pesos_por_seccion_kn": "0.006877260229288",
+ "cota_redondeo_tabla_materiales_kn": "0.00095",
+ "cota_redondeo_CM_ETABS_kn": "0.00005",
+ "residuo_supera_cotas": true
+}

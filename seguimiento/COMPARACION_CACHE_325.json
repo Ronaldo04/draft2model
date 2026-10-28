@@ -1,0 +1,15 @@
+{
+  "verificador_particion_antes_despues": [
+    {
+      "llamadas": 7506,
+      "s": 17.985803800000003
+    },
+    {
+      "llamadas": 2502,
+      "s": 5.735256000000001
+    }
+  ],
+  "consulta_antes_s": 205.3909687999403,
+  "consulta_despues_s": 195.4454830000177,
+  "observacion": "Una medición por variante bajo perfil. No es SLA ni garantía de velocidad general; el plan completo regenerado coincide con el conservado."
+}

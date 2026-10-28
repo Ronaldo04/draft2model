@@ -1,0 +1,107 @@
+{
+  "estado": "revision_focal_sin_aprobacion",
+  "snapshot": "tmp/revision_geo09e_252",
+  "geometria09e_sha256": "249401dbcdd7a92c2f14bf145e211961c7d90d783fb510cb96f68407ab7b4c9d",
+  "fuente_E03_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+  "reproduccion": "python -B tmp/revision_geo09e_252/contraste_local.py",
+  "hallazgos": [
+    {
+      "id": "G252-01",
+      "prioridad": 1,
+      "estado": "alteracion_reproducible_parcialmente_declarada",
+      "elemento": "tanque/apoyos",
+      "hallazgo": "Cambio de separacion, no simple traslacion; falta fuente-modelo por apoyo y conexion explicita",
+      "control": {
+        "separacion_x_fuente_m": 2.276168400000003,
+        "separacion_x_modelo_m": 2.4129999999999985,
+        "diferencia_m": 0.1368315999999954,
+        "diferencia_pct": 6.011488429414769
+      },
+      "propuesta": "Preservar centros/huella fuente y particionar o justificar offset/conexion; no ajustar dimension para cero colgantes"
+    },
+    {
+      "id": "G252-02",
+      "prioridad": 1,
+      "estado": "inconsistencia_preparada_no_aplicada",
+      "elemento": "caras_mojadas",
+      "hallazgo": "Presion preparada selecciona fondo medio y extension entre ejes; formula difiere de gammaV sobre claro",
+      "control": {
+        "CIS": {
+          "dimensiones_claras_m": [
+            2.001999999999998,
+            2.149,
+            2.2199999999999998
+          ],
+          "caras_interiores_z_m": [
+            -2.4,
+            -0.18
+          ],
+          "nivel_escenario_z_m": -0.18,
+          "volumen_escenario_claro_m3": 9.55110155999999,
+          "peso_claro_kn": 95.51101559999991,
+          "peso_formula_sobre_fondo_medio_kn": 118.6395335999999,
+          "exceso_formula_pct": 24.215550274182206
+        },
+        "TAN": {
+          "dimensiones_claras_m": [
+            2.2129999999999983,
+            1.7,
+            1.5500000000000007
+          ],
+          "caras_interiores_z_m": [
+            12.6,
+            14.15
+          ],
+          "nivel_escenario_z_m": 13.7,
+          "volumen_escenario_claro_m3": 4.138309999999995,
+          "peso_claro_kn": 41.383099999999956,
+          "peso_formula_sobre_fondo_medio_kn": 55.01639999999993,
+          "exceso_formula_pct": 32.944124533928075
+        }
+      },
+      "normales_correctas": true,
+      "propuesta": "Definir caras fisicas y transporte conservativo de fuerza/momento al shell medio sin duplicar peso"
+    },
+    {
+      "id": "G252-03",
+      "prioridad": 2,
+      "estado": "distincion_fisica_modelo_pendiente",
+      "elemento": "C2_nuevas",
+      "hallazgo": "Frame nodal10.40..12.50 mide2.10m; relato apoyo fisico hasta12.40=2.00m, sin offset individual",
+      "propuesta": "Documentar tramo fisico y conexion al fondo medio, no confundir longitud nodal con cota impresa"
+    },
+    {
+      "id": "G252-04",
+      "prioridad": 2,
+      "estado": "limite_temporal",
+      "elemento": "configuracion",
+      "hallazgo": "Tres insumos configuracion actuales difieren de MARCADOR09E; geometria3905/scriptgeo/depositos/informe coinciden",
+      "propuesta": "No atribuir a09E validacion de bytes posteriores; emitir recibo por version"
+    },
+    {
+      "id": "G252-05",
+      "prioridad": 2,
+      "estado": "hipotesis_declarada_no_error_oculto",
+      "elemento": "C6",
+      "hallazgo": "Centro y orientacion compatibles248; seccion.20x.75/cuadro.15 discrepante; N0..N3 voladizo independiente sin superficies incidentes",
+      "propuesta": "Conservar hipotesis y pendiente de apoyo/conexion, no afirmar escalera resuelta"
+    },
+    {
+      "id": "G252-06",
+      "prioridad": null,
+      "estado": "concordancia_condicionada",
+      "elemento": "cisterna_PL10",
+      "hallazgo": "Claros cisterna2.002x2.149x2.22 compatibles por redondeo; acceso.55x.55; PL10 contornos yZ-.05..2.35 conservados; bases independientes hipotesis",
+      "propuesta": "Conservar procedencia y pendientes de caras/fundacion/datum"
+    }
+  ],
+  "ejecuciones": {
+    "malla": 0,
+    "producto": 0,
+    "planes": 0,
+    "api": 0,
+    "etabs": 0,
+    "gui": 0
+  },
+  "limite": "Algebra de datos congelados; valores agua condicionales no aplicados; no invalida globalmente el proyecto"
+}

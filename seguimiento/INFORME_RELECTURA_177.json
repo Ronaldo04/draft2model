@@ -1,0 +1,30 @@
+{
+  "estado": "integracion_focal_verificada",
+  "alcance": "Seleccion optativa de relectura en informe; cambios backend parciales previos ahora cubiertos por prueba focal con fuentes dobles",
+  "archivos": {
+    "draft2model/revision_web/index.html": "482ab01d57ed80cfecfc9498e42b42a5472d9fe31d782f9b6a9fc1cc0305e652",
+    "draft2model/revision_web/informes.js": "1b4c5012ef4f7df930f64593c20a56535e4669a54865d0757ddbc2418611a5dd",
+    "draft2model/informe.py": "c95a685ff0e81afa8c4dff031b4b120100f21c2a665d0da99590c46efc1662f3",
+    "draft2model/revision_entregables.py": "72997152264881b798cf15dff3f96ba292a7e2cf1284061996d452a5a0add04e",
+    "tests/informe_relectura_frontend.cjs": "a78c0d0108d877ee023e4e0bbdb904f9491dd624c48e2859d75d7451f4924527",
+    "tests/test_informe_relectura_modelo.py": "59134910eca61e4ba08e7fffbbd2182c186bff02104dc20d2b9f4badb7f3dc85",
+    "docs/INFORME_RELECTURA_MODELO.md": "9f3c760526f2a422d4fbf1a6f69b8eb3566e5a731b83a0312c84cb3d89d0f797"
+  },
+  "python": {
+    "pruebas": 4,
+    "resultado": "OK",
+    "segundos": 14.398,
+    "log": "tmp/informe_relectura_177.log"
+  },
+  "node": {
+    "informe_relectura_frontend": "OK",
+    "revision_informe_controles_frontend": "3 OK",
+    "revision_informe_revision_resultados_frontend": "22 OK"
+  },
+  "limites": [
+    "Fuentes de relectura dobles; no prueba de ETABS real",
+    "QA visual completa pendiente",
+    "No prueba global de instalacion ni del proyecto de referencia"
+  ],
+  "llamadas_api": 0
+}

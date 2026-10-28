@@ -1,0 +1,37 @@
+{
+  "fecha_utc": "2026-10-25T06:39:52.581058+00:00",
+  "revision": 350,
+  "responsable": "digitizacion_calibrada_350",
+  "estado": "implementado_y_prueba_focal_ok",
+  "comando": ".venv/Scripts/python.exe -B -m unittest tests.test_digitizacion_calibrada -v",
+  "python": "3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)]",
+  "pruebas_ejecutadas": 24,
+  "fallos": 0,
+  "errores": 0,
+  "salida": "test_afin_escala_rotacion_cizalla_traslacion_y_sin_aprobacion (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_ajuste_con_ancla_extra_y_residuo (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_ancla_de_otra_fuente_o_plano (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_anclas_colineales_y_casi_colineales (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_anclas_fuente_sha_o_bbox_distinto_no_se_mezclan (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_booleano_no_suplanta_pagina_entera_en_referencia (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_cm_mm_equivalentes_a_m_y_elevacion_explicita (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_control_con_misma_resolucion_se_rechaza (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_control_fisico_duplicado_no_es_independiente (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_controles_colineales_no_acreditan_exactitud (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_controles_no_participan_en_ajuste_y_verifican_solo_sus_puntos (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_extrapolacion_e_incertidumbre_fuera_de_limite (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_fuente_modificada_cada_identidad (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_huella_cubre_coordenadas_resueltas_y_referencias (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_limite_fisico_y_faltantes (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_limites_no_positivos_nan_bool_y_desconocidos (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_no_finito_en_punto_y_esquema_hostil (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_no_reutiliza_plano_con_igual_id_y_otra_cota (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_rechaza_aprobacion_inyectada_y_unidad_omitida (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_rotacion_de_90_grados_y_traslacion (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_transformacion_degenerada_o_fuera_escala (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_tres_anclas_no_son_validacion_aunque_residuo_cero (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_un_control_no_acredita_exactitud (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\ntest_uv_fuera_del_dibujo (tests.test_digitizacion_calibrada.DigitizacionCalibradaTests) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 0.035s\n\nOK\n",
+  "sha256": {
+    "draft2model/digitizacion_calibrada.py": "2d82f69f721c3934527a109393be8da16050141eedbbef8b7e8232d81f6be00a",
+    "tests/test_digitizacion_calibrada.py": "fa7378a86a179ffafcb647cb5237489aab7a340ab4f81f4d69a1572c8cb6ab8a",
+    "docs/DIGITIZACION_CALIBRADA.md": "aa7e12d3fb485791aa06a76a110a85efd8189a6241b45affdc455eeeea122531"
+  },
+  "reutiliza": [
+    "revision_superposicion.transformacion",
+    "revision_superposicion.aplicar"
+  ],
+  "alcance": [
+    "funcion pura",
+    "contrato cerrado por fuente y plano",
+    "afin exacta de tres anclas o minimos cuadrados con extras",
+    "residuos por referencia y controles separados",
+    "incertidumbre indicativa y extrapolacion",
+    "sin aprobar ni habilitar modelado"
+  ],
+  "limites": [
+    "pruebas exclusivamente sinteticas",
+    "sin planos privados ni llamadas a proveedores",
+    "sin integracion UI/API",
+    "sin ETABS ni suite completa",
+    "autenticidad/vigencia del original y registro de resolucion deben comprobarse en servicio llamante",
+    "exactitud solo contrastada en controles declarados; indicador no garantiza tolerancia global"
+  ]
+}

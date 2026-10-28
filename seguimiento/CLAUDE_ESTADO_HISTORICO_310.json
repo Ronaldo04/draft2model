@@ -1,0 +1,23 @@
+{
+  "tarea": "pdf_310",
+  "modo": "auditoria_pdf",
+  "estado": "revisado",
+  "encargo": "seguimiento/ENCARGO_CLAUDE_PDF_310_POPPLER.md",
+  "archivos": [],
+  "marcador": "seguimiento/claude_ruta/MARCADOR_PDF_310.json",
+  "prefijos_autorizados": [
+    "seguimiento/claude_ruta/diagnostico_pdf_310/"
+  ],
+  "propietario_implementacion": "Claude: solo diagnostico_pdf_310/ y marcador310. No editar309 ni producto.",
+  "propietario_revision": "Codex: revisión, integración y cierre; no editar carpeta309 durante trabajo de Claude",
+  "confirmacion_envio": "Captura del proyecto/conversación correctos; compositor vacío. set_value en edit264; texto310 comprobado; Return; burbuja nueva en historial y compositor vacío. Respuesta y cambios310 pendientes de comprobar por archivos.",
+  "creado_utc": "2026-10-24T07:15:05.080661+00:00",
+  "computer_use_suspendido": false,
+  "limite_computer_use": "Autorizado por usuario solo para coordinación. No consultar la ventana mientras trabaja; usar marcador local.",
+  "cuota_claude_observada": "92% semanal utilizado; límite visible. No reclamar finalización por actividad.",
+  "historial": "seguimiento/CLAUDE_ESTADO_HISTORICO_308.json",
+  "heartbeat": "Sigue pausado; no prometer vigilancia durante cuotas ni reactivarlo sin petición.",
+  "prueba_sonda": "seguimiento/test_sonda_pdf_309.py:6casosOK; modo PDF parametrizado por tarea, SHA y perímetro estrictos.",
+  "revision_anterior": "seguimiento/REVISION_PDF_310.json",
+  "revision": "seguimiento/REVISION_PDF_312.json"
+}

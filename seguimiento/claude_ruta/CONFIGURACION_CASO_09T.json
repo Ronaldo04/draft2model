@@ -1,0 +1,184 @@
+{
+  "validacion": "con geometría y malla real",
+  "recibo_malla": {
+    "segundos": 140.5,
+    "huella_preparacion": "83775b25c0070eb34c4d8f5444b516e8d410f9a34fe5c89ef7866fc6d7d7caed",
+    "nodos_derivados": 64,
+    "triangulos": 4192,
+    "frames_subdivididos": 0,
+    "nodos_colgantes_locales": 0,
+    "colgantes_muestra": []
+  },
+  "configuracion": "tmp/ruta201/configuracion09t.json",
+  "sha256": "94b810cb3c51c2a3f4b64619e3b93acb352489001633258e5c60d0340ee04c7a",
+  "geometria": "0e1295e190c14893912a5fd8e8523b77",
+  "normativa": {
+    "aplicado": [
+      {
+        "material": "CONCRETO-FC210",
+        "detalle": "f'c = 210 kgf/cm2 → Ec = 4700√f'c = 21328.9 MPa; ν = 0,15 derivado de G = Ec/2,3",
+        "cita": [
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.2",
+            "formula": "Ec = 4700 √f'c (MPa)"
+          },
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.4",
+            "formula": "G = Ec/2,3"
+          }
+        ]
+      },
+      {
+        "material": "CONCRETO-FC175",
+        "detalle": "f'c = 175 kgf/cm2 → Ec = 4700√f'c = 19470.5 MPa; ν = 0,15 derivado de G = Ec/2,3",
+        "cita": [
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.2",
+            "formula": "Ec = 4700 √f'c (MPa)"
+          },
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.4",
+            "formula": "G = Ec/2,3"
+          }
+        ]
+      },
+      {
+        "material": "ALBANILERIA-FM35",
+        "detalle": "f'm = 35 kgf/cm2, unidad arcilla → Em = 1716.2 MPa; ν = 0,25 (Gm = 0,4 Em)",
+        "cita": [
+          {
+            "codigo": "E.070",
+            "dispositivo": "DS 011-2006-VIVIENDA (fe de erratas 21/06/2006)",
+            "texto_registrado": "seguimiento/normativa_229/E070_DS011_2006.txt",
+            "articulo": "24.7",
+            "formula": "Em = 500 f'm; Gm = 0,4 Em",
+            "pagina_pdf": 21
+          }
+        ]
+      },
+      {
+        "espectro": "ESP-S1-R6-HIP",
+        "parametros": {
+          "Z": 0.45,
+          "U": 1.0,
+          "S": 1.0,
+          "R": 6.0,
+          "TP": 0.4,
+          "TL": 2.5,
+          "g": 9.80665
+        },
+        "sitio_metodo": "valor_tabulado",
+        "cita": [
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "41.1"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "18.1",
+            "tabla": "Tabla N° 6"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "11",
+            "tabla": "Tabla N° 1"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "19.1",
+            "tabla": "Tabla N° 7"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "22.1",
+            "tabla": "Tabla N° 10"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "26"
+          }
+        ]
+      }
+    ],
+    "faltantes": [],
+    "no_evaluado": [
+      "Irregularidades Ia/Ip con resultados del modelo (arts. 23–25)",
+      "Cortante mínimo dinámico (art. 44) tras el análisis",
+      "Derivas (arts. 50–51) tras el análisis",
+      "Diseño de elementos (E.060/E.070)"
+    ],
+    "aprobacion_ingenieria": null
+  },
+  "conteos": {
+    "puntos": 1896,
+    "superficies": 2040,
+    "frames": 128,
+    "columnas": 83,
+    "vigas": 45,
+    "cargas": 3002,
+    "apoyos": 180,
+    "diafragmas": 4
+  },
+  "cargas_kPa": {
+    "aligerado": 2.8,
+    "acabados": 1.0,
+    "tabiques": 0.248,
+    "peso_tabiques_piso_kN": 32.0,
+    "area_losa_m2": {
+      "2.6": 129.06,
+      "5.2": 129.06,
+      "7.8": 129.06,
+      "10.4": 129.34
+    }
+  },
+  "columnas_excluidas": [],
+  "contrato_consistente": true,
+  "faltantes_calculados": [],
+  "preparacion_malla": {
+    "huella_preparacion": "83775b25c0070eb34c4d8f5444b516e8d410f9a34fe5c89ef7866fc6d7d7caed",
+    "nodos_derivados": 64,
+    "triangulos": 4192,
+    "frames_subdivididos": 0,
+    "huella_triangulacion": "2f18102cf03088f26150bdbbfa8cb3239f44e368fc57353948869198c77eeb62"
+  },
+  "errores_por_ruta": {},
+  "errores_contrato": [],
+  "faltantes": [],
+  "aprobacion_ingenieria": null
+}

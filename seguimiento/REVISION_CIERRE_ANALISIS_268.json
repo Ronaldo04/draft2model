@@ -1,0 +1,23 @@
+{
+  "fecha_utc": "2026-10-23T04:06:52.993096+00:00",
+  "fuentes_sha256": {
+    "scripts/analizar_modelo_etabs.ps1": "9a168b8addc209edc7679968e8979904b2ca6c60e82beb22583580f6082f27fb",
+    "draft2model/analisis_etabs.py": "96e15b7f7b01f117ce8308d0504cec51bd67ae386314f7d286ef08f617a3814b",
+    "tests/test_cierre_analisis_267.py": "9f06111ec9fb3b84ab0e4fe46627efaea40d6d8c36e33002cd4059cf3c919281"
+  },
+  "revision_codigo": "El puente conserva objeto COM propio, PID nuevo e inicio; en finally ApplicationExit(false), WaitForExit y error si falla; publica respuesta tras cierre. El analizador exige declaración de cierre en modo real. No GetObject ni Stop-Process.",
+  "pruebas": {
+    "correctas": 3,
+    "errores": 0,
+    "omisiones": 0,
+    "duracion_s": 4.938,
+    "comando": ".venv/Scripts/python.exe -m unittest tests.test_cierre_analisis_267.CierreAnalisisTests.test_real_con_cierre_declarado_se_acepta tests.test_cierre_analisis_267.CierreAnalisisTests.test_real_sin_cierre_no_se_acepta tests.test_cierre_analisis_267.GuionAnalisisTests -v",
+    "entorno": "TEMP/TMP=tmp/t267root existente, bajo workspace",
+    "limites": "Transporte fabricado etiquetado real para validar guardas; prueba estática del guion y revisión de código. No ejecutó ETABS ni acredita un cierre nativo nuevo."
+  },
+  "primer_intento": {
+    "errores_fixture": 2,
+    "causa": "TEMP del sandbox C: provocó WinError5 al renombrar fixture antes de ejercitar producto; la tercera prueba estática pasó. Repetición focal con TEMP de workspace pasó3/3."
+  },
+  "goal_completo": false
+}

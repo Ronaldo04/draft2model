@@ -1,0 +1,45 @@
+{
+ "version_pdf": "PDF 1.7",
+ "fuentes": [
+  {
+   "xref": 3,
+   "tipo": "Type0",
+   "basefont": "Charis SIL Bold",
+   "nombre_recurso": "F0",
+   "descendiente": "/CIDFontType0",
+   "fontfile3": "/CIDFontType0C",
+   "cff_con_ROS": false,
+   "glifos": 676,
+   "tounicode": "4 0 R"
+  },
+  {
+   "xref": 9,
+   "tipo": "Type0",
+   "basefont": "Charis SIL Regular",
+   "nombre_recurso": "F1",
+   "descendiente": "/CIDFontType0",
+   "fontfile3": "/CIDFontType0C",
+   "cff_con_ROS": false,
+   "glifos": 924,
+   "tounicode": "10 0 R"
+  },
+  {
+   "xref": 15,
+   "tipo": "Type0",
+   "basefont": "Nimbus Mono PS Regular",
+   "nombre_recurso": "F2",
+   "descendiente": "/CIDFontType0",
+   "fontfile3": "/CIDFontType0C",
+   "cff_con_ROS": false,
+   "glifos": 654,
+   "tounicode": "16 0 R"
+  },
+  {
+   "xref": 24,
+   "tipo": "Type1",
+   "basefont": "Helvetica",
+   "nombre_recurso": "helv",
+   "incrustada": false
+  }
+ ]
+}

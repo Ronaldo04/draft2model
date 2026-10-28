@@ -1,0 +1,28 @@
+{
+  "tarea": "fusion_candidato_reuso_262",
+  "estado": "fusionado_pendiente_revision_codex",
+  "fecha": "2026-10-22",
+  "bases_verificadas": {
+    "draft2model/modelo_estructural.py": "d9a2272572a3a78f5ee2aae51b2fdd0c4fcdf6ac2c26a2142ebb6af1aab2604c",
+    "draft2model/operaciones_etabs.py": "91c2fbc272a150dadb858621db775bf5cf9a78fac6a23bf4e4cd4fd5c56823c4"
+  },
+  "aplicacion": "patch -p1 del candidato (sin conflictos) + helper copiado a draft2model/reuso_preparacion.py; test adaptado a tests/ sin tmp_pruebas ni comparaciones.json (comparación en memoria)",
+  "pruebas": [
+    "tests.test_reuso_preparacion_262: 6 OK (7,6 s)",
+    "tests.test_contenido_liquidos_258 + test_cotas_auxiliares_258 + test_liquidos_ruta201 + test_integracion_malla: OK (única falla previa era la escritura del artefacto, retirada)"
+  ],
+  "no_afecta": "corrida viva tmp/recorrido_09d1 (módulos cargados antes de la fusión; no se detuvo ni reinició)",
+  "pendiente_conservado": "masa ensamblada nativa del contenido (la lectura de masa por piso del runner es solo diagnóstica)",
+  "hashes": {
+    "draft2model/reuso_preparacion.py": "89c65684eca3b450609a511bc86e3a9cf0fc058d79164918e20907534199b538",
+    "draft2model/modelo_estructural.py": "1bb09bacce51b43da394d038b9fd239e69ab8f4fe375065a59680129ed00ab40",
+    "draft2model/operaciones_etabs.py": "d2b8e685494d7ccadca52d85b23c130cd68a8b37541a642186f8b15d9a0cc9ce",
+    "tests/test_reuso_preparacion_262.py": "bed950b2b719975c242ed5708baff1dafbf1fc8d4910d052fd35e22f20a3bcbb",
+    "tmp/reuso_preparacion_262/candidato.patch": "27e20d57392199047af81ffd49051b23ad2c0c1bdbfae4bdf2e7a4cd77eeeb4a",
+    "seguimiento/claude_ruta/recorrido_etabs_09t.py": "c315fbca5d409f0adf093e7cb29cbc08429aa896dcfbfb7cbabbb8dbb68a1430",
+    "seguimiento/claude_ruta/INFORME_09.md": "03e5beceb24b39e1e5737ddaa9adce44cad18f6dd0dd9858b18bfc24818ecff2",
+    "seguimiento/claude_ruta/metricas_extraccion_09.py": "1fd8d2e61807daa826f3f5ef49a1a453e6f949a108161a562e47f68c64a6bcc5",
+    "seguimiento/claude_ruta/METRICAS_EXTRACCION_09.json": "563deee7436c686bae982d0412e8fe17a7ab26f5b199a42140bb1a337684d4a7"
+  },
+  "apis_ejecutadas_por_claude": 0
+}

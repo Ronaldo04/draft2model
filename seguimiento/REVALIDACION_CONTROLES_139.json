@@ -1,0 +1,15 @@
+{
+  "fecha_utc": "2026-10-19T02:00:33.864249+00:00",
+  "hallazgo": "seguimiento/HALLAZGO_REVALIDACION_136.json",
+  "comando": ".venv/Scripts/python.exe -m unittest tests.test_revision_controles.ControlesWebTests.test_fuente_cambia_despues_del_recalculo_no_es_vigente -v",
+  "codigo": 0,
+  "pruebas": 1,
+  "segundos": 9.414,
+  "registro": "tmp/revalidacion_controles_codex_139.log",
+  "resultado": "Regresion de cambio de respuesta tras recalculo rechazada; consulta funciona al restaurar fuente.",
+  "limite": "Prueba focal; no acepta entrega completa ni sustituye suite estable o piloto real. Claude conserva propiedad de fuentes.",
+  "sha256_observados_al_final": {
+    "draft2model/revision_controles.py": "94eedd58316743d3418814feb1807613f783bf53ddaeaed40bd31f605316f9b0",
+    "tests/test_revision_controles.py": "2512768da4a6dadd203bd425880e31f1ac0c98f01e76010652e31506c4218a54"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "tarea": "356_correcciones_digitizacion",
+  "estado": "entregado",
+  "raiz": "D:/RONALDO CUCHILLA/1. RONALDO CUCHILLA/2. INGENIERÍA CIVIL DOCS AND PROJECTS/AECODE CURSOS/AECODE AI TALENT/PROYECTO FINAL",
+  "archivos": [
+    {
+      "ruta": "draft2model/revision_digitizacion.py",
+      "sha256": "cffca7e5a4723f8e8224b5f462db88da90c6e07651d8fe3c62af09de58f0a444"
+    },
+    {
+      "ruta": "draft2model/revision_web/digitizacion.js",
+      "sha256": "d023404a4e1a575278847155fb0c74bfa59dff3a2e8baf4dfcd4e42960b01699"
+    },
+    {
+      "ruta": "tests/test_revision_digitizacion.py",
+      "sha256": "c0139d3cd535ac1b72d0791f30e791aac6ff3f2f252a4dff4a8fdc064ca140c9"
+    },
+    {
+      "ruta": "tests/digitizacion_353_frontend.cjs",
+      "sha256": "62eadcbdfec179d1e5cbbd0c907f790546b2b6734c2190e1734dca09fc7af3ad"
+    },
+    {
+      "ruta": "docs/INTERFAZ_DIGITIZACION.md",
+      "sha256": "d510e025a4979de9c991a6062d0bb8eb67c15352fd9b5baaa23286de9eb06b83"
+    },
+    {
+      "ruta": "seguimiento/ANTIGRAVITY_356_INFORME.md",
+      "sha256": "359aefec56f1a0e5a4c57efc5bf85f673d71c89d655ea0c021cd90df5f3663f7"
+    }
+  ],
+  "pruebas": [
+    {
+      "comando": ".\\.venv\\Scripts\\python.exe -X utf8 -B -m unittest -v tests.test_revision_digitizacion",
+      "resultado": "OK (12 pruebas)",
+      "alcance": "sintetico"
+    },
+    {
+      "comando": "node tests/digitizacion_353_frontend.cjs",
+      "resultado": "OK (7 bloques)",
+      "alcance": "sintetico"
+    }
+  ],
+  "limitaciones": [
+    "No se editaron draft2model/digitizacion_calibrada.py, draft2model/revision_visual.py ni draft2model/revision_web/index.html; las 4 rutas HTTP y la carga del script permanecen sin cambios para integración de root.",
+    "Toda salida permanece estrictamente en estado borrador (disponible_para_modelado: false, aprueba_ingenieria: false, ejecuta_etabs: false, exactitud_documental_acreditada: false) y no incorpora puntos al modelo.",
+    "Las referencias textuales en geometría o conversión no acreditan ubicación uv_local en el dibujo; la alteración de resumen, pendientes, catálogo o banderas en disco es rechazada incluso tras recalcular hashes locales.",
+    "Validación ejecutada exclusivamente con fixtures sintéticas locales y DOM simulado, sin suite completa, sin APIs externas, sin claves, sin planos reales y sin ETABS."
+  ],
+  "apis_usadas": 0,
+  "etabs_usado": false
+}

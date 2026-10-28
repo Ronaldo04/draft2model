@@ -1,0 +1,19 @@
+{
+  "tarea": "tabular_web",
+  "estado": "entregado",
+  "archivos": {
+    "draft2model/revision_tabular.py": "5820876815f57bc9bf1e29965da60304b2ed5a4dbfeed475632f25f697d31ee9",
+    "tests/test_revision_tabular.py": "ca429e44a171e48073888bb30e0adb8fda5ac36d06f85262ca04abb63166fc87",
+    "docs/REVISION_TABULAR_WEB.md": "34aa038ac2e3b932d98abc80b90afbf92d5c6054c50ea950754d5c80895aee3f"
+  },
+  "pruebas": {
+    "comando": "TEMP=$PWD/tmp TMP=$PWD/tmp python -m unittest tests.test_revision_tabular tests.test_importacion_tabular tests.test_lectura_xlsx tests.test_gestion_geometria",
+    "resultado": "Ran 53 tests OK (6 nuevas; red/procesos bloqueados)"
+  },
+  "limites": [
+    "Prueba de enlaces no incluida (sandbox); rechazo implementado por lstat/resolve/reparse point",
+    "Importacion interrumpida se resuelve manualmente, sin endpoint de recuperacion",
+    "Sin HTTP/UI (Codex)",
+    "Sin red/API/ETABS/CU ni suite completa"
+  ]
+}

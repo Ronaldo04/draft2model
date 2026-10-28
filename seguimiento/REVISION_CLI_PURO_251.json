@@ -1,0 +1,46 @@
+{
+  "estado": "correcto",
+  "comprobaciones": [
+    {
+      "caso": "0.4.0 global",
+      "pasa": true
+    },
+    {
+      "caso": "0.4.0 mapaJSON",
+      "pasa": true
+    },
+    {
+      "caso": "0.5.0 global",
+      "pasa": true
+    },
+    {
+      "caso": "0.5.0 mapaJSON",
+      "pasa": true
+    },
+    {
+      "caso": "0.5 sinflag usa malla",
+      "pasa": true
+    },
+    {
+      "caso": "legacy conserva despacho",
+      "pasa": true
+    },
+    {
+      "caso": "conflicto rechazado antes generar",
+      "pasa": true
+    },
+    {
+      "caso": "JSONinvalido no genera",
+      "pasa": true
+    },
+    {
+      "caso": "ausente no genera",
+      "pasa": true
+    },
+    {
+      "caso": "legacy rechaza mapa incompatible",
+      "pasa": true
+    }
+  ],
+  "limites": "Cargador y generadores son dobles centinela. Comprueba despacho/argumentos/rechazos; no genera un plan real ni reemplaza validación de configuración. Pruebas originales3 con fixture expediente no corrieron por WinError5 del aislamiento."
+}

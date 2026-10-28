@@ -1,0 +1,14 @@
+{
+  "fecha_utc": "2026-10-24T19:08:35.759408+00:00",
+  "python": 1515,
+  "interfaz": 36,
+  "omisiones": [],
+  "archivos": 620,
+  "fuentes_estables": true,
+  "instantanea": "tmp\\validacion_ocr_335\\Fuentes_OCR_335.zip",
+  "sha256": "940f8a7ba8e37fd7b045a3f3e731805cd67a72118c3eb2f521e5bbd0d5fe0c8e",
+  "registro": "tmp/validacion_ocr_335/verificacion.json",
+  "entrega331_intacta": true,
+  "estado": "desarrollo_aislado_verificado_no_publicado",
+  "goal_completo": false
+}

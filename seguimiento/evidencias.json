@@ -1,0 +1,350 @@
+{
+  "reviews": [
+    {
+      "criterion": "O0.2",
+      "reviewer": "Codex (revision documental de software)",
+      "date": "2026-10-15",
+      "note": "Revision documental: hitos O0-O6, alcance, dependencias y criterios definidos. No acredita implementacion del producto.",
+      "files": {
+        "docs/PLAN_OPERACION.md": "4ece4e0ba6a9b02da45c60f7c39b92a19102a24a",
+        "docs/CONTEXTO_PROYECTO.md": "8d530f57e9240843db713ace3a3879e93efde9e8"
+      }
+    },
+    {
+      "criterion": "O0.3",
+      "reviewer": "Codex (revision documental de software)",
+      "date": "2026-10-15",
+      "note": "Exclusiones y guia revisadas. No acredita acceso efectivo del colaborador.",
+      "files": {
+        ".gitignore": "dbdb18eb86955ea0aa985e951680b5a4dd460ff6",
+        "docs/GUIA_GITHUB_PRIVADO.md": "c0b7f8faaef2e54e0c70d84986cb5ddfd616d387"
+      }
+    },
+    {
+      "criterion": "O3.3",
+      "reviewer": "Codex (revision documental de software)",
+      "date": "2026-10-15",
+      "note": "Protocolo y plantilla vacia revisados. No hay referencia anotada ni evaluacion ejecutada.",
+      "files": {
+        "docs/EVALUACION_VISION.md": "d3d478de3fce8faa6ee8db8f8ed9939f32cf2f1e",
+        "examples/referencia_vision.csv": "9960b2a98161da00a3942bb8dbcf7bedd43bdcdd"
+      }
+    },
+    {
+      "criterion": "O0.2",
+      "reviewer": "Codex (subagente de diagnóstico; revisión documental)",
+      "date": "2026-10-18",
+      "note": "Plan y contexto contrastados con la matriz vigente y secuencia acordada; implementaciones y pendientes separados. Solo revisión documental: no acredita software, suite global, piloto ni ingeniería.",
+      "files": {
+        "docs/PLAN_OPERACION.md": "4ece4e0ba6a9b02da45c60f7c39b92a19102a24a",
+        "docs/CONTEXTO_PROYECTO.md": "30e5bdd18711847aeb6efb68d4fc788a8eb2dda2"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "seguimiento-2026-10-18-113",
+      "criteria": [
+        "O4.22"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/explicaciones_codex_113.log",
+      "sha256_source": "b6f7729400e8174a7865a83e6bb0ae6c8e844ce200515aecac95bdf4fac20391",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "10 pruebas correctas; backend con transporte de prueba.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-114",
+      "criteria": [
+        "O4.21"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/contexto_http_114.log",
+      "sha256_source": "d224f92eb72978cc8c404e5ff200375872e24b4958f5d80c361d53bcb198600a",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "7 pruebas correctas, incluidas 4 importadas accidentalmente; no sumar con la pasada focal115.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-115",
+      "criteria": [
+        "O4.21"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/contexto_http_115.log",
+      "sha256_source": "3678639ad9d3eb246c4cfb5d65dfcd20746851724ebcbd271ed929ebd29187bf",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "3 pruebas HTTP correctas de contexto; transporte/fixtures locales.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-116",
+      "criteria": [
+        "O4.29"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/aprobacion_http_codex_116.log",
+      "sha256_source": "6ddcc05e991c0f6a27532597353380df3baed26f2cfbc0063d8b0def93bf937f",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "3 pruebas HTTP correctas de aprobación documental; no aprobación de resultados.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-117",
+      "criteria": [
+        "O4.14",
+        "O4.15"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/preprocesado_codex_117.log",
+      "sha256_source": "9b7bd29637cff7ceba6d00193d682c16ad2592ca543ef1220da39b6e867ed19d",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "15 pruebas correctas de cadena derivada; no escala métrica ni mejora de visión.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-118",
+      "criteria": [
+        "O4.22"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/explicaciones_tipos_118.log",
+      "sha256_source": "2798ce8bf400fc621fe2225a349ef7bd1504e1b426c9349e6c1715d9259fb843",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "1 prueba con subcasos de respuesta malformada; contingencia, sin LLM real.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-119-contexto",
+      "criteria": [
+        "O4.21"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/contexto_node_codex_119.log",
+      "sha256_source": "c88f869ea696c664c33464cb0af22dedad71c981e859711d4b873f273b8490fc",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "10/10 comprobaciones Node; DOM/HTTP simulados.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-119-explicaciones",
+      "criteria": [
+        "O4.22"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/explicaciones_node_codex_119.log",
+      "sha256_source": "8c3e278e4f3bc6c4bcfe5e31cdfa3c5af29c9a4d6f9b47c1b2424cf6ab277573",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "16/16 comprobaciones Node; DOM/HTTP simulados.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-120",
+      "criteria": [
+        "O4.15"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/preprocesado_http_120.log",
+      "sha256_source": "63fc286601ffcf1a408e44cc248f94bf24a63a0a344259a76be8056a829bc22c",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "2 pruebas HTTP correctas de preprocesamiento.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-121",
+      "criteria": [
+        "O4.21",
+        "O4.22",
+        "O4.29"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/informe_contexto_codex_121.log",
+      "sha256_source": "4910e0916bf175c2cd91ae82716de130bfe0ae136b5053daf1f7622592febdaf",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "10 pruebas correctas de informe con contexto; no aceptación final de paginación.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-122-registro",
+      "criteria": [
+        "O4.2",
+        "O4.21",
+        "O4.22",
+        "O4.29"
+      ],
+      "date": "2026-10-18",
+      "source": "docs/ENSAYO_INTERFAZ_CONTEXTO.md",
+      "sha256_source": "e8af50a931ef4a0ea232ef54a75583f55d1d8068f488bf76e92873a60e01e8b2",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "Ensayo documentado de navegador real con fixture, contingencia sin LLM e informe persistido; presentación PDF en reparación.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-122-captura",
+      "criteria": [
+        "O4.21",
+        "O4.29"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/interfaz_informe_122.png",
+      "sha256_source": "4364e28031c3b409e95ea065a12e938f24870d08e60f8db088f156175c157e1f",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "Captura conservada del escenario122; no aceptación de todo el producto ni de proveedor/ETABS reales.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-123",
+      "criteria": [
+        "O4.15"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/preprocesamiento_node_codex_123.log",
+      "sha256_source": "3618c772ac033c04e9dfc6d4608a9a552942cc511d07c6bbcd30bbfd56c26209",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "11/11 comprobaciones Node de preprocesamiento; sin navegador real.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-124",
+      "criteria": [
+        "O1.2",
+        "O3.9",
+        "O4.14"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/referencia_preparada_124.json",
+      "sha256_source": "d98bed763ff855dfa131844b0dbf1b2e3e2dccbfb190243efebf915848a1172b",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "3 PDF/3 páginas de provisional-001 preparados, sin errores y originales sin cambios según registro; sin envío, extracción métrica, geometría ni ETABS.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-125",
+      "criteria": [
+        "O4.18"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/tabular_codex_125.log",
+      "sha256_source": "118c3d7f30f6cb7549aea651898eb9907dab595c79145449fe902d00005d582b",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "6 pruebas correctas del backend tabular; UI en desarrollo.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-126",
+      "criteria": [
+        "O4.21",
+        "O4.29"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/informe_contexto_node_codex_126.log",
+      "sha256_source": "98a3e02f7051c5e105ba11fba6d3f5de2477432b26b74b3bc1d7f5f2fd982d1d",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "15/15 comprobaciones Node de opt-in de referencias; sin LLM real.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-126-sonda-sandbox",
+      "criteria": [
+        "O2.8",
+        "O2.11",
+        "O6.2"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/sonda_ps_codex_126.log",
+      "sha256_source": "7c4fa9019875aff57998af11585977d15fead6633d7a8a1d782fb748250cf351",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "Sonda PowerShell -File bloqueada en sandbox: AuthorizationManager/SecurityError; no demuestra defecto de ETABS.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-126-sonda-host",
+      "criteria": [
+        "O2.8",
+        "O2.11",
+        "O6.2"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/sonda_ps_host_codex_126.log",
+      "sha256_source": "926cd16db94f6e4035e6b5f41c7e93e107e456a274ad77e1ed1c26bdd2b3882f",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "Misma sonda en host autorizado devolvió marcador correcto; no acredita por sí sola suite ni análisis real.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-126-puente-host",
+      "criteria": [
+        "O2.8",
+        "O2.11",
+        "O6.2"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/puente_host_codex_126.log",
+      "sha256_source": "e662ec7733e45476b4ebf28aaf7d64127dd44d0042858bffeb9ce5263476ab30",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "31 pruebas con dobles correctas, código0 sin omisiones según log/entrega root; no nueva copia global ni ejecución ETABS real.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-127-paginacion",
+      "criteria": [
+        "O5.8",
+        "O4.29"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/paginacion_codex_127.log",
+      "sha256_source": "b6e716777c777f825b7e7ed114f53fffa0524fb01ff7eca7b4790da81ca86d98",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "4 pruebas focales correctas de reparación de paginación; la inspección visual posterior está separada del ensayo122 inicial.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-127-informe-contexto-http",
+      "criteria": [
+        "O4.21",
+        "O4.29"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/informe_contexto_http_codex_127.log",
+      "sha256_source": "2497b94a06a84e1da752dcdda82687537eb6a3251e3e98d3b1975db5d6d52666",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "3 pruebas HTTP de informe-contexto correctas en28.739s; fixtures sin proveedor ni ETABS reales.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    },
+    {
+      "id": "seguimiento-2026-10-18-128-revision-resultados",
+      "criteria": [
+        "O4.28"
+      ],
+      "date": "2026-10-18",
+      "source": "tmp/revision_resultados_codex_128.log",
+      "sha256_source": "f2ed678cae7ffa07138b9fbcf1da4fa6fa79cf1974a4ecb9140ddacb3dc579c4",
+      "kind": "observacion_historica_no_equivale_a_prueba_vigente",
+      "note": "9 pruebas backend correctas en13.261s en host autorizado, sin omisiones y con dobles. HTTP/UI permanece en desarrollo.",
+      "accepts_current_code": false,
+      "accepts_pilot": false
+    }
+  ]
+}

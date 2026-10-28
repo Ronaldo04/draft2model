@@ -1,0 +1,223 @@
+{
+  "estado": "verificado_sintetico",
+  "recibo": "tmp\\ensayo_masa_contenido_251\\runs\\codex253f\\registro.json",
+  "recibo_sha256": "e0b76392a71c49e10dc0911d0f7e4bb37d37153415807b679d1c955ff5ac8dd0",
+  "comprobaciones": [
+    {
+      "control": "recibo final y ensayo sintetico",
+      "pasa": true
+    },
+    {
+      "control": "todos retornos nativos0",
+      "pasa": true
+    },
+    {
+      "control": "cierre y aislamiento",
+      "pasa": true
+    },
+    {
+      "control": "script sin cambios desde ejecucion",
+      "pasa": true
+    },
+    {
+      "control": "gravedad previa por dos materiales no asignados",
+      "pasa": true
+    },
+    {
+      "control": "tres controles completos",
+      "pasa": true
+    },
+    {
+      "control": "SIN_AGUA/matrices y cola neutra",
+      "pasa": true
+    },
+    {
+      "control": "SIN_AGUA/estado final",
+      "pasa": true
+    },
+    {
+      "control": "SIN_AGUA/source_before",
+      "pasa": true
+    },
+    {
+      "control": "SIN_AGUA/source_after",
+      "pasa": true
+    },
+    {
+      "control": "SIN_AGUA/masaXY desde crudos",
+      "pasa": true
+    },
+    {
+      "control": "SIN_AGUA/filas sin duplicados ni otra fuente",
+      "pasa": true
+    },
+    {
+      "control": "SIN_AGUA/filas ligadas a matrices crudas",
+      "pasa": true
+    },
+    {
+      "control": "SIN_AGUA/ejes y masas finitas",
+      "pasa": true
+    },
+    {
+      "control": "SIN_AGUA/reaccion estatica independiente",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_025/matrices y cola neutra",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_025/estado final",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_025/source_before",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_025/source_after",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_025/masaXY desde crudos",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_025/filas sin duplicados ni otra fuente",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_025/filas ligadas a matrices crudas",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_025/ejes y masas finitas",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_025/centroide desde filas",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_025/masa positiva en fondo idealizado",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_025/reaccion estatica independiente",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_100/matrices y cola neutra",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_100/estado final",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_100/source_before",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_100/source_after",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_100/masaXY desde crudos",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_100/filas sin duplicados ni otra fuente",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_100/filas ligadas a matrices crudas",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_100/ejes y masas finitas",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_100/centroide desde filas",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_100/masa positiva en fondo idealizado",
+      "pasa": true
+    },
+    {
+      "control": "AGUA_100/reaccion estatica independiente",
+      "pasa": true
+    },
+    {
+      "control": "deltas0/25/100",
+      "pasa": true
+    },
+    {
+      "control": "tres EDB propios con hashes",
+      "pasa": true
+    }
+  ],
+  "gravedad_observada_m_s2": 9.806650199606521,
+  "peso_oraculo_kn": 95.46000000000001,
+  "masas_crudas_X": [
+    0,
+    2.433552692738806,
+    9.734210770955224
+  ],
+  "fallos_previos_conservados": [
+    {
+      "corrida": "a",
+      "recibo": "tmp\\ensayo_masa_contenido_251\\runs\\codex253a\\registro.next-4a384714119547bd9e05c8ed53686732.json",
+      "sha256": "cfa0bd7ce0640e5481793c118d2783b3b3eac0b3605971ceabc687bea9846369",
+      "estado": "failed",
+      "error": "Diaphragm.SetDiaphragm rigid returned 1",
+      "cierre0": true,
+      "pid_ausente": true
+    },
+    {
+      "corrida": "b",
+      "recibo": "tmp\\ensayo_masa_contenido_251\\runs\\codex253b\\registro.json",
+      "sha256": "4899fae188cab01184a39149216be6be01ebdbac215b692351c62e555f70ed72",
+      "estado": "failed",
+      "error": "Bottom pressure readback differs.",
+      "cierre0": true,
+      "pid_ausente": true
+    },
+    {
+      "corrida": "c",
+      "recibo": "tmp\\ensayo_masa_contenido_251\\runs\\codex253c\\registro.json",
+      "sha256": "4c0c8215a04b1adf0d129f3e40816b61b66fcd92f95454fdd3c9b2d8b6b29fbb",
+      "estado": "failed",
+      "error": "Assembled mass result arrays have inconsistent lengths.",
+      "cierre0": true,
+      "pid_ausente": true
+    },
+    {
+      "corrida": "d",
+      "recibo": "tmp\\ensayo_masa_contenido_251\\runs\\codex253d\\registro.json",
+      "sha256": "7a0bd7289f9ec25689c41baf8c4d66ea754a6798f122f3117efb8164cfd6ff72",
+      "estado": "failed",
+      "error": "Assembled mass result arrays have inconsistent lengths.",
+      "cierre0": true,
+      "pid_ausente": true
+    },
+    {
+      "corrida": "e",
+      "recibo": "tmp\\ensayo_masa_contenido_251\\runs\\codex253e\\registro.json",
+      "sha256": "24deae7c2d8ab07bfdd52651991b6c0857397c1ef14c0543604680a0463e8251",
+      "estado": "failed",
+      "error": "Method invocation failed because [System.Object[]] does not contain a method named 'op_Division'.",
+      "cierre0": true,
+      "pid_ausente": true
+    }
+  ],
+  "limites": [
+    "Caja sintetica con carga uniforme en fondo, no piloto",
+    "Masa distribuida en plano del fondoZ3, no centroide real del aguaZ4.11 ni hidrodinamica",
+    "No conecta biblioteca250 al contrato/plan/lector/UI",
+    "No valida presiones caras mojadas ni geometria del tanque real"
+  ]
+}

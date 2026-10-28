@@ -1,0 +1,121 @@
+{
+  "contrato": "draft2model.extraccion_preliminar",
+  "version_contrato": "0.1.0",
+  "caso": "sintetico-ext-001",
+  "procedencia": {
+    "tipo": "sintetico",
+    "descripcion": "Registro SINTÉTICO para probar el contrato. No proviene de planos reales; los hashes se calcularon sobre textos de prueba, no sobre archivos."
+  },
+  "alcance": {
+    "estado": "pendiente_verificar",
+    "uso": "pendiente",
+    "motivos": []
+  },
+  "sistema_coordenadas": "pagina_visible_normalizada",
+  "candidatos": [
+    {
+      "id": "C001",
+      "tipo": "cota",
+      "valor_propuesto": 2.6,
+      "unidad": "m",
+      "texto_fuente": "2.60",
+      "metodo": {"tipo": "sintetico", "descripcion": "Valor escrito a mano para la prueba."},
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "d330d1850c8e5c1bd8f6edcea62b045dfe38e96f48a2b52f828f44d0b1ba458b",
+          "recorte_id": "R0001",
+          "imagen_sha256": "810bd544fe445e93081943fe04c565412a9f246bc37d5335a04637ed4ad6ba65",
+          "bbox_normalizada": [0.20, 0.30, 0.26, 0.33]
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "tipo": "cota",
+      "valor_propuesto": null,
+      "unidad": "desconocida",
+      "observaciones": "Región con una cota que no se lee; el valor queda desconocido, no se completa.",
+      "metodo": {"tipo": "sintetico"},
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "d330d1850c8e5c1bd8f6edcea62b045dfe38e96f48a2b52f828f44d0b1ba458b",
+          "bbox_normalizada": [0.40, 0.30, 0.46, 0.33]
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "tipo": "cota",
+      "valor_propuesto": 260,
+      "unidad": "desconocida",
+      "texto_fuente": "260",
+      "metodo": {"tipo": "sintetico"},
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "d330d1850c8e5c1bd8f6edcea62b045dfe38e96f48a2b52f828f44d0b1ba458b",
+          "bbox_normalizada": [0.60, 0.30, 0.65, 0.33]
+        }
+      ],
+      "revision": {
+        "estado": "revisado",
+        "historial": [
+          {
+            "estado": "revisado",
+            "valor_revisado": 260,
+            "unidad_revisada": "cm",
+            "motivo": "Ejemplo sintético: la nota de unidades de la lámina ficticia indica centímetros.",
+            "fecha": "2026-10-14",
+            "revisor_declarado": "Revisor sintético de prueba"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C004",
+      "tipo": "etiqueta",
+      "valor_propuesto": "EJE A",
+      "unidad": "no_aplica",
+      "metodo": {"tipo": "sintetico"},
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "d330d1850c8e5c1bd8f6edcea62b045dfe38e96f48a2b52f828f44d0b1ba458b",
+          "bbox_normalizada": [0.10, 0.05, 0.14, 0.08]
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "tipo": "elemento",
+      "valor_propuesto": "muro",
+      "unidad": "no_aplica",
+      "metodo": {"tipo": "sintetico"},
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "d330d1850c8e5c1bd8f6edcea62b045dfe38e96f48a2b52f828f44d0b1ba458b",
+          "bbox_normalizada": [0.20, 0.35, 0.70, 0.38]
+        }
+      ],
+      "revision": {
+        "estado": "rechazado",
+        "historial": [
+          {
+            "estado": "rechazado",
+            "motivo": "Ejemplo sintético: la región corresponde a una línea de cota, no a un muro.",
+            "fecha": "2026-10-14",
+            "revisor_declarado": "Revisor sintético de prueba"
+          }
+        ]
+      }
+    }
+  ]
+}

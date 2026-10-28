@@ -1,0 +1,24 @@
+{
+  "fecha_utc": "2026-10-23T04:49:53.921320+00:00",
+  "estado": "integracion_y_pruebas_focales_verificadas_QA_visual_pendiente",
+  "igual_al_candidato_probado": true,
+  "sha256": {
+    "draft2model/revision_web/resultados.js": "3c0b7f9f1b109e5d246f5bcfef1a4eaafdc0cbbca728328e1c030e343e927634",
+    "tests/revision_listados_frontend.cjs": "760acb9d0bc5efab32856812bdcb966098d62199b12f1043db65954f72898bb3",
+    "tests/revision_resultados_frontend.cjs": "8c567ebd329f32f4dca308bb6c93d63c1fcb7a990294b0513bd342a86f5c1d94"
+  },
+  "comandos": [
+    "node tests/revision_listados_frontend.cjs",
+    "node tests/revision_resultados_frontend.cjs"
+  ],
+  "resultado": "ambos_exit0",
+  "alcance": "DOM/HTTP simulados del archivo de producto: resultados antes de modelos, errores aislados, carreras entre expedientes y descarga vigente.",
+  "http_estaticos_QA": {
+    "raiz": 200,
+    "resultados_js": 200,
+    "sha256_js": "3c0b7f9f1b109e5d246f5bcfef1a4eaafdc0cbbca728328e1c030e343e927634"
+  },
+  "visual": "Pendiente por bloqueo CDP del navegador; sin afirmar apertura de resultado/informe real.",
+  "runtime269": "Baseline restaurado y copia ZIP intacta tras terminar despliegue temporal JS.",
+  "goal_completo": false
+}

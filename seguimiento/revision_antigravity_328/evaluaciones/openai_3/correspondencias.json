@@ -1,0 +1,14 @@
+{
+  "contrato": "draft2model.correspondencias_vision",
+  "version_contrato": "0.1.0",
+  "caso": "provisional-001",
+  "huella_referencia": "66b2da0d87d29acc1ef832c955817ba23f474bc7d2146978dffd9f69626c9fd1",
+  "huella_extraccion": "48a895b694e05642cb3470caffbccf9c1f6dc7c967ac3b7e7894a42a931f3c23",
+  "revision": {
+    "estado": "revisado",
+    "revisor_declarado": "Codex (IA), revisión visual asistida; no humana",
+    "fecha": "2026-10-24"
+  },
+  "pares": [],
+  "sin_respaldo": []
+}

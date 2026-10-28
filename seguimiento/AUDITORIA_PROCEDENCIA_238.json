@@ -1,0 +1,68 @@
+{
+  "estado": "correcto",
+  "comprobaciones": [
+    {
+      "prueba": "snapshot_publicado_contra_copia_limpia",
+      "pasa": true,
+      "miembros": 530,
+      "faltan": [],
+      "difieren": []
+    },
+    {
+      "prueba": "destino_huella_canonica_registrada",
+      "pasa": true
+    },
+    {
+      "prueba": "origen_huella_canonica_O3",
+      "pasa": true
+    },
+    {
+      "prueba": "contenido_derivado_O3",
+      "pasa": true,
+      "candidatos": 60,
+      "diferencias": []
+    },
+    {
+      "prueba": "origen_huella_canonica_O4",
+      "pasa": true
+    },
+    {
+      "prueba": "contenido_derivado_O4",
+      "pasa": true,
+      "candidatos": 102,
+      "diferencias": []
+    },
+    {
+      "prueba": "origen_huella_canonica_G1",
+      "pasa": true
+    },
+    {
+      "prueba": "contenido_derivado_G1",
+      "pasa": true,
+      "candidatos": 32,
+      "diferencias": []
+    },
+    {
+      "prueba": "inventario_derivado_exacto",
+      "pasa": true,
+      "cantidad": 194
+    },
+    {
+      "prueba": "crudo_recuperado_intacto",
+      "pasa": true
+    },
+    {
+      "prueba": "extraccion_recuperada_registrada",
+      "pasa": true
+    },
+    {
+      "prueba": "recuperacion_59_12",
+      "pasa": true,
+      "validos": 59,
+      "cuarentena": 12
+    }
+  ],
+  "api_llamadas": 0,
+  "producto_modificado": false,
+  "alcance": "Integridad y conservación de datos; no prueba calidad de lectura, geometría ni cumplimiento normativo."
+}

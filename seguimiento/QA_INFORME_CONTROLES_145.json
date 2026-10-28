@@ -1,0 +1,26 @@
+{
+  "fecha_utc": "2026-10-19T02:09:38.627291+00:00",
+  "informe": "4f0efa7e96524a24a4d984ef36bb561d",
+  "controles": "a28212829659497b9e24bdae1fb90a81",
+  "analisis": "61ed5cf1cf654a72b40c46085a9ca2f3",
+  "estado": "sin_datos",
+  "apto_controlado": false,
+  "archivos_revalidados_por_servicio": [
+    "json",
+    "pdf"
+  ],
+  "sha256_pdf": "0f0c3285b6b7854f00b4a6743453c130ff500333b0f92b13d5505c50962cd74d",
+  "paginas_pdf": 3,
+  "id_y_sin_datos_en_pdf": true,
+  "captura": "tmp/qa_controles_142/informe_controles.png",
+  "pdf_render": "tmp/qa_controles_142/pdf_controles.png",
+  "fuentes_congeladas": "tmp/qa_controles_142/fuentes.json",
+  "errores_consola": [],
+  "sin_API_ETABS_reales": true,
+  "limite": "QA sintetica de seleccion explicita, creacion desde navegador y conservacion de controles incompletos en JSON/PDF; no piloto real.",
+  "revision_visual_pdf": "Pagina 2 renderizada e inspeccionada: SOLVER sin_datos, faltante critico y aviso lector separados; sin texto cortado observado.",
+  "incidencia_script_codex": "Tras guardar evidencia y superar asserts, print final consulto len(pdf) cerrado y produjo ValueError. No afecta artefactos; este chequeo posterior valida registro/imagenes.",
+  "servidor_cerrado": true,
+  "pestana_10_cerrada": true,
+  "sha256_captura": "07faa6f147ef02080fcbe671a9a08bfee0d0fd2b36966effa6512e83ed612a1d"
+}

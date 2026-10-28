@@ -1,0 +1,36 @@
+[
+  {
+    "cohorte": "openai_1",
+    "candidatos": 34,
+    "sugerencias": 3,
+    "observaciones_con_sugerencia": 3
+  },
+  {
+    "cohorte": "openai_2",
+    "estado": "sin_extraccion_evaluable",
+    "estado_original": "fallido"
+  },
+  {
+    "cohorte": "openai_3",
+    "candidatos": 60,
+    "sugerencias": 0,
+    "observaciones_con_sugerencia": 0
+  },
+  {
+    "cohorte": "openai_4",
+    "candidatos": 102,
+    "sugerencias": 6,
+    "observaciones_con_sugerencia": 6
+  },
+  {
+    "cohorte": "gemini_1",
+    "candidatos": 32,
+    "sugerencias": 1,
+    "observaciones_con_sugerencia": 1
+  },
+  {
+    "cohorte": "gemini_2",
+    "estado": "sin_extraccion_evaluable",
+    "estado_original": "fallido"
+  }
+]

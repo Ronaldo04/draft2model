@@ -1,0 +1,17 @@
+{
+  "codigo": 0,
+  "segundos": 1.7689601999009028,
+  "fuentes_sha256": {
+    "draft2model/cache_malla_pura.py": "df4e197f6d2f31bd730cf6113139e7057cfd0c43e5383b61abe561528b8ddaf3",
+    "tests/test_cache_malla_pura_268.py": "17cf06f4904679291239312e2c796b88750bc72a7707098b0f23ca33dfaae41b"
+  },
+  "fuentes_estables": true,
+  "log": "tmp/revision_concurrencia_281.log",
+  "alcance": "3focales nuevas: misma clave comparte cómputo/copia independiente, errores del líder y claves distintas/espera limitada. No nuevo benchmark real ni cobertura exhaustiva de intercalaciones.",
+  "pendientes": [
+    "La docstring aún dice No hay singleflight; corregir contradicción.",
+    "El perfil279 mide la cache previa, no acredita aceleración real de esta nueva agrupación.",
+    "Coste caliente137s por regeneración/validaciones repetidas sigue abierto."
+  ],
+  "goal_completo": false
+}

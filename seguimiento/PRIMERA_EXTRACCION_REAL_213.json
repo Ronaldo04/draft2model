@@ -1,0 +1,42 @@
+{
+  "estado": "extraccion_real_importada_pendiente_revision",
+  "proveedor": "openai",
+  "modelo_devuelto": "gpt-5.4-2026-03-05",
+  "intento": "3274c1b8c8344082a398aff54fee2519",
+  "extraccion_version": "6379ec0645b24b949644409b9dadfaa0",
+  "extraccion_fuente": "data\\private\\provisional-001\\vision\\respuestas\\8888d1f3bb58456084c7800bbfd7d3f5\\extraccion.json",
+  "sha256_extraccion_fuente": "5f797937f6d70bdc2593b45a93c2f8e23b481ae3c68a77fb297305a47d032ba2",
+  "sha256_respuesta_api": "73559e4b76804ed90f0d37d507e4d82dede71080935a2212bb7fc3dc3be5c2eb",
+  "candidatos": 34,
+  "tipos": {
+    "etiqueta": 13,
+    "cota": 14,
+    "elemento": 7
+  },
+  "recortes_con_lecturas": 5,
+  "recortes_sin_lecturas": [
+    "5ad79e7751644fe28236bab20bd3a674",
+    "6ec18f74a5e94c98ae6c86f834df51f7"
+  ],
+  "consumo": {
+    "input_tokens": 30174,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2198,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 32372
+  },
+  "coste_usd_calculado_tarifa_estandar_sin_cache": 0.108405,
+  "lecturas_aprobadas": 0,
+  "observacion_visual": "REC0002 contiene especificaciones, suelo y parámetros sísmicos legibles, pero no recibió candidatos. REC0004 planta con detalles tampoco recibió candidatos.",
+  "limitaciones": [
+    "No hay métrica de precisión global: falta verdad de referencia y contraste individual.",
+    "Cobertura5de7recortes no demuestra cobertura de todas las cotas ni todos los elementos.",
+    "Materiales/valores sísmicos en lámina son datos declarados del expediente, no normativa validada ni objetivos para calibrar nuestro resultado.",
+    "No usar cortantes/desplazamientos impresos en planos para ajustar el modelo a una respuesta esperada."
+  ]
+}

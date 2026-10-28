@@ -1,0 +1,14 @@
+{
+  "inicio_utc": "2026-10-24T12:33:46.620279+00:00",
+  "estado": "fallo",
+  "sha_edb_antes": "42371308a03d4f1bac8f5ed3aa5daf0421cdf3de27ff823f8f582c13ad2af394",
+  "goal_completo": false,
+  "llamadas_remotas": 0,
+  "recalculo": false,
+  "trabajo": "cfd7d89b050b4b2ba78fd95ef9e0c3cb",
+  "huella_preparacion": "8f1ee3cc2d6d21dd89f877b144f520b2ea14fbca11451b578a2e1f7882c79cb1",
+  "estado_lectura": "aceptado",
+  "lectura_id": "72fc8a7d36fe4a68a7b192f055bf623f",
+  "informe": "5fbeb92275eb4dfbb3d3457f6c4abee5",
+  "error": "ServicioEntregables.consultar() takes 3 positional arguments but 4 positional arguments (and 1 keyword-only argument) were given"
+}

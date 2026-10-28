@@ -1,0 +1,20 @@
+{
+  "revision": "areas contrastadas independientemente; imagen E01 revisada porCodex",
+  "instancias": [
+    {
+      "id": "L0001-E8",
+      "area_independiente": 0.31201787612099974,
+      "caja_independiente": 3.386608588636001,
+      "coincide": true,
+      "ratio_caja_poligono": 10.853892830559115
+    },
+    {
+      "id": "L0001-E19",
+      "area_independiente": 0.3147768861289961,
+      "caja_independiente": 3.3889878666540008,
+      "coincide": true,
+      "ratio_caja_poligono": 10.76631740128844
+    }
+  ],
+  "alcance": "No aprobaci\u00f3n de panelizaci\u00f3n/material/continuidadvertical ni exportaci\u00f3n aETABS"
+}

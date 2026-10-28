@@ -1,0 +1,1293 @@
+{
+ "tarea": "masa_313_contraste",
+ "prediccion_sha256": "eca3faa725aad9f543aeb84b58500ac88fca780660009c99ede40b7c61443682",
+ "lectura_nativa_sha256": "8418be814454dd4301f4826e08ede7772af3fb4993cc07ff03a04f64dfccdbc4",
+ "tolerancia_m": 0.0005,
+ "conteo": {
+  "acuerdo": 33,
+  "desacuerdo": 8,
+  "abstencion": 4
+ },
+ "rmax_acuerdos": 37,
+ "extremos_nativos_total_m": "6.353",
+ "extremos_predichos_no_abstenidos_m": 6.488,
+ "extremos_nativos_en_no_abstenidos_m": 5.553,
+ "extremos_nativos_en_abstenidos_m": 0.8,
+ "peso_kn_por_m": "1.080",
+ "desacuerdos": [
+  {
+   "viga": "VS-Z1-A-10",
+   "L_m": 0.313,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1328,
+    "J": 0.1771
+   },
+   "prediccion_rmax": {
+    "I": 0.1328,
+    "J": 0.1771
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  },
+  {
+   "viga": "VS-Z1-A-7",
+   "L_m": 0.107,
+   "nativo": {
+    "I": 0.105,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  },
+  {
+   "viga": "VS-Z2-A-18",
+   "L_m": 0.107,
+   "nativo": {
+    "I": 0.105,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  },
+  {
+   "viga": "VS-Z2-A-21",
+   "L_m": 0.313,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1328,
+    "J": 0.1771
+   },
+   "prediccion_rmax": {
+    "I": 0.1328,
+    "J": 0.1771
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  },
+  {
+   "viga": "VS-Z3-A-29",
+   "L_m": 0.107,
+   "nativo": {
+    "I": 0.105,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  },
+  {
+   "viga": "VS-Z3-A-32",
+   "L_m": 0.313,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1328,
+    "J": 0.1771
+   },
+   "prediccion_rmax": {
+    "I": 0.1328,
+    "J": 0.1771
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  },
+  {
+   "viga": "VS-Z4-A-40",
+   "L_m": 0.107,
+   "nativo": {
+    "I": 0.105,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  },
+  {
+   "viga": "VS-Z4-A-44",
+   "L_m": 0.113,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.111,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.1119
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.1119
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  }
+ ],
+ "abstenciones": [
+  {
+   "viga": "VS-Z1-2-11",
+   "L_m": 2.451,
+   "nativo": {
+    "I": 0.2,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [
+    "A2:J: sin frames; el punto pertenece a áreas (muro/losa)"
+   ],
+   "estado": "abstencion",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z2-2-22",
+   "L_m": 2.451,
+   "nativo": {
+    "I": 0.2,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [
+    "A2:J: sin frames; el punto pertenece a áreas (muro/losa)"
+   ],
+   "estado": "abstencion",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z3-2-33",
+   "L_m": 2.451,
+   "nativo": {
+    "I": 0.2,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [
+    "A2:J: sin frames; el punto pertenece a áreas (muro/losa)"
+   ],
+   "estado": "abstencion",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z4-2-45",
+   "L_m": 2.451,
+   "nativo": {
+    "I": 0.2,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [
+    "A2:J: sin frames; el punto pertenece a áreas (muro/losa)"
+   ],
+   "estado": "abstencion",
+   "rmax_acuerdo": true
+  }
+ ],
+ "filas": [
+  {
+   "viga": "VS-Z1-1-4",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z1-1-5",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z1-1-6",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z1-2-11",
+   "L_m": 2.451,
+   "nativo": {
+    "I": 0.2,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [
+    "A2:J: sin frames; el punto pertenece a áreas (muro/losa)"
+   ],
+   "estado": "abstencion",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z1-3-1",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z1-3-2",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z1-3-3",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z1-A-10",
+   "L_m": 0.313,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1328,
+    "J": 0.1771
+   },
+   "prediccion_rmax": {
+    "I": 0.1328,
+    "J": 0.1771
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  },
+  {
+   "viga": "VS-Z1-A-7",
+   "L_m": 0.107,
+   "nativo": {
+    "I": 0.105,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  },
+  {
+   "viga": "VS-Z1-A-8",
+   "L_m": 0.154,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.15,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.15
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.15
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z1-A-9",
+   "L_m": 2.176,
+   "nativo": {
+    "I": 0.15,
+    "J": 0.15,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.15,
+    "J": 0.15
+   },
+   "prediccion_rmax": {
+    "I": 0.15,
+    "J": 0.15
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z2-1-15",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z2-1-16",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z2-1-17",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z2-2-22",
+   "L_m": 2.451,
+   "nativo": {
+    "I": 0.2,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [
+    "A2:J: sin frames; el punto pertenece a áreas (muro/losa)"
+   ],
+   "estado": "abstencion",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z2-3-12",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z2-3-13",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z2-3-14",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z2-A-18",
+   "L_m": 0.107,
+   "nativo": {
+    "I": 0.105,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  },
+  {
+   "viga": "VS-Z2-A-19",
+   "L_m": 0.154,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.15,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.15
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.15
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z2-A-20",
+   "L_m": 2.176,
+   "nativo": {
+    "I": 0.15,
+    "J": 0.15,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.15,
+    "J": 0.15
+   },
+   "prediccion_rmax": {
+    "I": 0.15,
+    "J": 0.15
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z2-A-21",
+   "L_m": 0.313,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1328,
+    "J": 0.1771
+   },
+   "prediccion_rmax": {
+    "I": 0.1328,
+    "J": 0.1771
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  },
+  {
+   "viga": "VS-Z3-1-26",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z3-1-27",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z3-1-28",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z3-2-33",
+   "L_m": 2.451,
+   "nativo": {
+    "I": 0.2,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [
+    "A2:J: sin frames; el punto pertenece a áreas (muro/losa)"
+   ],
+   "estado": "abstencion",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z3-3-23",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z3-3-24",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z3-3-25",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z3-A-29",
+   "L_m": 0.107,
+   "nativo": {
+    "I": 0.105,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  },
+  {
+   "viga": "VS-Z3-A-30",
+   "L_m": 0.154,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.15,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.15
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.15
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z3-A-31",
+   "L_m": 2.176,
+   "nativo": {
+    "I": 0.15,
+    "J": 0.15,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.15,
+    "J": 0.15
+   },
+   "prediccion_rmax": {
+    "I": 0.15,
+    "J": 0.15
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z3-A-32",
+   "L_m": 0.313,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1328,
+    "J": 0.1771
+   },
+   "prediccion_rmax": {
+    "I": 0.1328,
+    "J": 0.1771
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  },
+  {
+   "viga": "VS-Z4-1-37",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z4-1-38",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z4-1-39",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z4-2-45",
+   "L_m": 2.451,
+   "nativo": {
+    "I": 0.2,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [
+    "A2:J: sin frames; el punto pertenece a áreas (muro/losa)"
+   ],
+   "estado": "abstencion",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z4-3-34",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1841,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z4-3-35",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z4-3-36",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z4-A-40",
+   "L_m": 0.107,
+   "nativo": {
+    "I": 0.105,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.1059,
+    "J": 0.0
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  },
+  {
+   "viga": "VS-Z4-A-41",
+   "L_m": 0.154,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.15,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.15
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.15
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z4-A-42",
+   "L_m": 2.176,
+   "nativo": {
+    "I": 0.15,
+    "J": 0.15,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.15,
+    "J": 0.15
+   },
+   "prediccion_rmax": {
+    "I": 0.15,
+    "J": 0.15
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z4-A-43",
+   "L_m": 0.2,
+   "nativo": {
+    "I": 0.15,
+    "J": 0.0,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.15,
+    "J": 0.0
+   },
+   "prediccion_rmax": {
+    "I": 0.15,
+    "J": 0.0
+   },
+   "tope_1pct": false,
+   "abstencion": [],
+   "estado": "acuerdo",
+   "rmax_acuerdo": true
+  },
+  {
+   "viga": "VS-Z4-A-44",
+   "L_m": 0.113,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.111,
+    "opt": "Auto",
+    "selfwt": "Auto"
+   },
+   "prediccion_cara": {
+    "I": 0.0,
+    "J": 0.1119
+   },
+   "prediccion_rmax": {
+    "I": 0.0,
+    "J": 0.1119
+   },
+   "tope_1pct": true,
+   "abstencion": [],
+   "estado": "desacuerdo",
+   "rmax_acuerdo": false
+  }
+ ]
+}

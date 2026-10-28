@@ -1,0 +1,10 @@
+{
+  "fecha_utc": "2026-10-25T19:36:56.442174+00:00",
+  "caso": "vivienda-unifamiliar-003",
+  "fuente": "Respuesta directa del usuario en chat",
+  "declaracion_literal": "No existen datos de E o G",
+  "interpretacion_limitada": "No hay valores experimentales de E/G aportados. No confirma peso específico ni concreto de peso normal.",
+  "peso_kN_m3": null,
+  "concreto_normal": null,
+  "aprobacion_ingenieria": null
+}

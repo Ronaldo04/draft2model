@@ -1,0 +1,143 @@
+{
+  "estado": "ensayo_real_revela_pendiente_malla",
+  "etabs": "21.1.0",
+  "dll": "1.29.0.0",
+  "modo": "real",
+  "datos_sinteticos": true,
+  "proceso_propio": [
+    14268
+  ],
+  "cierre_confirmado": true,
+  "error_motor": null,
+  "solver_ejecutado": false,
+  "evaluacion": {
+    "datos_sinteticos": true,
+    "cierre_confirmado": true,
+    "error_motor": null,
+    "escenarios": [
+      {
+        "caso": "piso",
+        "elementos_host": 11,
+        "elementos_abertura": 0,
+        "objetos_con_lectura_fallida": [
+          "HUECO_SINTETICO"
+        ],
+        "area_host_m2": 11.0,
+        "area_neta_esperada_m2": 11,
+        "area_host_dentro_hueco_m2": 0.0,
+        "elementos": [
+          {
+            "elemento": "HOST_SINTETICO-1",
+            "area_m2": 1.0,
+            "interseccion_hueco_m2": 0.0
+          },
+          {
+            "elemento": "HOST_SINTETICO-2",
+            "area_m2": 1.0,
+            "interseccion_hueco_m2": 0.0
+          },
+          {
+            "elemento": "HOST_SINTETICO-3",
+            "area_m2": 1.0,
+            "interseccion_hueco_m2": 0.0
+          },
+          {
+            "elemento": "HOST_SINTETICO-4",
+            "area_m2": 1.0,
+            "interseccion_hueco_m2": 0.0
+          },
+          {
+            "elemento": "HOST_SINTETICO-5",
+            "area_m2": 1.0,
+            "interseccion_hueco_m2": 0.0
+          },
+          {
+            "elemento": "HOST_SINTETICO-6",
+            "area_m2": 1.0,
+            "interseccion_hueco_m2": 0.0
+          },
+          {
+            "elemento": "HOST_SINTETICO-7",
+            "area_m2": 1.0,
+            "interseccion_hueco_m2": 0.0
+          },
+          {
+            "elemento": "HOST_SINTETICO-8",
+            "area_m2": 1.0,
+            "interseccion_hueco_m2": 0.0
+          },
+          {
+            "elemento": "HOST_SINTETICO-9",
+            "area_m2": 1.0,
+            "interseccion_hueco_m2": 0.0
+          },
+          {
+            "elemento": "HOST_SINTETICO-10",
+            "area_m2": 1.0,
+            "interseccion_hueco_m2": 0.0
+          },
+          {
+            "elemento": "HOST_SINTETICO-11",
+            "area_m2": 1.0,
+            "interseccion_hueco_m2": 0.0
+          }
+        ],
+        "criterios_geometricos_necesarios": false
+      },
+      {
+        "caso": "muro",
+        "elementos_host": 0,
+        "elementos_abertura": 0,
+        "objetos_con_lectura_fallida": [
+          "HOST_SINTETICO",
+          "HUECO_SINTETICO"
+        ],
+        "area_host_m2": 0.0,
+        "area_neta_esperada_m2": 11,
+        "area_host_dentro_hueco_m2": 0.0,
+        "elementos": [],
+        "criterios_geometricos_necesarios": false
+      },
+      {
+        "caso": "inclinado",
+        "elementos_host": 1,
+        "elementos_abertura": 0,
+        "objetos_con_lectura_fallida": [
+          "HUECO_SINTETICO"
+        ],
+        "area_host_m2": 16.970562748477143,
+        "area_neta_esperada_m2": 15.556349186104047,
+        "area_host_dentro_hueco_m2": 1.4142135623730951,
+        "elementos": [
+          {
+            "elemento": "HOST_SINTETICO",
+            "area_m2": 16.970562748477143,
+            "interseccion_hueco_m2": 1.4142135623730951
+          }
+        ],
+        "criterios_geometricos_necesarios": false
+      }
+    ],
+    "aprueba_modelo": false,
+    "autoriza_ejecucion_produccion": false,
+    "limites": [
+      "Solo suma de áreas e intersección con hueco rectangular sintético; no prueba calidad/conectividad/rigidez de malla ni ingeniería.",
+      "Un retorno GetElm fallido es lectura incompleta, no ausencia comprobada de elementos.",
+      "No se ejecutó solver ni se comprobaron cargas."
+    ],
+    "sha256_registro": "f018dfe9163134be6313d5ef77d2c6633abe701eb0e269b27adeddaddea3af2a"
+  },
+  "archivos_sha256": {
+    "scripts/ensayar_malla_aberturas_etabs.ps1": "3abd063f7de3c492f8bccfabc3965e5e527a53bf9f22b15486923b16657e686d",
+    "scripts/evaluar_malla_aberturas_etabs.py": "758a855062730a4b878f18c2dd7274ff6e41eff0875a465e973973359dba9180",
+    "docs/ENSAYO_MALLA_ABERTURAS.md": "1c6bc7547d84acaa3e1be16c816bfa1f8324b27ffaa56c20b783d3bb4af98cdd",
+    "tmp/malla179_host3/registro.json": "f018dfe9163134be6313d5ef77d2c6633abe701eb0e269b27adeddaddea3af2a",
+    "tmp/malla179_host3/evaluacion.json": "f39f14d4f2521113f910902bfe62d3ebdf055d4f562530b1ec790b3223dba1e6",
+    "tmp/malla179_host3/piso.WRN": "b26535d28f719400878bec842c87bcd66d45ade648ef6a07ac1749532bbd2119",
+    "tmp/malla179_host3/piso.edb": "dcdc6ceac5dd00c2f19d59666886b58ec0322a1c6b18821904abf91f22362a03",
+    "tmp/malla179_host3/muro.edb": "ad8d7db192f49a17cc83cb39771a1b0fd1cf8fff5acd03770a4e4dea7e76426c",
+    "tmp/malla179_host3/inclinado.edb": "16e24e32d8287022f14c0dabe8ab3e153dfcaa4189ebdd1235923988b01c723d"
+  },
+  "llamadas_api_proveedores": 0,
+  "conclusion": "No habilitar ruta producción: panel inclinado rellena hueco; muro lectura GetElm fallida; piso advertencia de malla. Implementar partición y verificar conexiones/cargas."
+}

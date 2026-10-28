@@ -1,0 +1,805 @@
+{
+  "contrato": "draft2model.referencia_vision_propuesta_ia",
+  "version_contrato": "0.1.0",
+  "caso": "provisional-001",
+  "sistema_coordenadas": "pagina_visible_normalizada",
+  "anotador": "Antigravity (IA)",
+  "fecha": "2026-10-24",
+  "estado": "propuesta_ia_pendiente_revision_codex",
+  "revision_humana_realizada": false,
+  "respuestas_previas_consultadas": false,
+  "observaciones": [
+    {
+      "id": "AG-0001",
+      "tipo": "etiqueta",
+      "valor": "A",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "imagen_sha256": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+          "bbox_normalizada": [
+            0.103376,
+            0.07715,
+            0.112964,
+            0.091284
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Burbuja del eje estructural A en el extremo superior de la lámina de cimentación."
+    },
+    {
+      "id": "AG-0002",
+      "tipo": "elemento",
+      "valor": "C-1",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "imagen_sha256": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+          "bbox_normalizada": [
+            0.110463,
+            0.09894,
+            0.12005,
+            0.104829
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Identificador de columna C-1 en intersección de eje A y eje 3."
+    },
+    {
+      "id": "AG-0003",
+      "tipo": "elemento",
+      "valor": "PL-1",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "imagen_sha256": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+          "bbox_normalizada": [
+            0.192163,
+            0.101296,
+            0.203835,
+            0.106596
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Identificador de placa PL-1 sobre viga de cimentación en eje 3."
+    },
+    {
+      "id": "AG-0004",
+      "tipo": "elemento",
+      "valor": "C-2",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "imagen_sha256": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+          "bbox_normalizada": [
+            0.2401,
+            0.09894,
+            0.250104,
+            0.104829
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Identificador de columna C-2 en eje 3 entre ejes C y D."
+    },
+    {
+      "id": "AG-0005",
+      "tipo": "elemento",
+      "valor": "PL-10",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "imagen_sha256": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+          "bbox_normalizada": [
+            0.510629,
+            0.09894,
+            0.527303,
+            0.106007
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Identificador de placa perimetral PL-10 en eje 3 entre ejes H e I."
+    },
+    {
+      "id": "AG-0006",
+      "tipo": "cota",
+      "valor": 1.3,
+      "unidad": "desconocida",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "imagen_sha256": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+          "bbox_normalizada": [
+            0.459775,
+            0.245583,
+            0.47228,
+            0.253828
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Cota horizontal 1.30 de ancho interior en foso de cisterna/ascensor. Sin sufijo explícito de unidad."
+    },
+    {
+      "id": "AG-0007",
+      "tipo": "elemento",
+      "valor": "C-6",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "imagen_sha256": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+          "bbox_normalizada": [
+            0.468112,
+            0.281508,
+            0.479366,
+            0.288575
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Identificador de columna C-6 al sur del foso de cisterna."
+    },
+    {
+      "id": "AG-0008",
+      "tipo": "cota",
+      "valor": 0.4,
+      "unidad": "desconocida",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "imagen_sha256": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+          "bbox_normalizada": [
+            0.553147,
+            0.35159,
+            0.56065,
+            0.355713
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Cota de ancho .40 de zapata aislada entre ejes H e I. Cifra aislada sin unidad explícita."
+    },
+    {
+      "id": "AG-0009",
+      "tipo": "cota",
+      "valor": 1.2,
+      "unidad": "desconocida",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "imagen_sha256": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+          "bbox_normalizada": [
+            0.563568,
+            0.320966,
+            0.566903,
+            0.345112
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Cota vertical de longitud 1.20 de zapata aislada entre ejes H e I."
+    },
+    {
+      "id": "AG-0010",
+      "tipo": "cota",
+      "valor": 1.5,
+      "unidad": "m",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "imagen_sha256": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+          "bbox_normalizada": [
+            0.860775,
+            0.826266,
+            0.876198,
+            0.832155
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Cota de profundidad de cimientos 1.50 m en cuadro RESUMEN : SUELOS con unidad m explícita en texto."
+    },
+    {
+      "id": "AG-0011",
+      "tipo": "etiqueta",
+      "valor": "E-01",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "imagen_sha256": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+          "bbox_normalizada": [
+            0.904127,
+            0.920495,
+            0.934556,
+            0.946408
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Identificador de lámina E-01 en el casillero principal del membrete."
+    },
+    {
+      "id": "AG-0012",
+      "tipo": "etiqueta",
+      "valor": "B",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0002",
+          "pagina": 1,
+          "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+          "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+          "bbox_normalizada": [
+            0.163401,
+            0.07715,
+            0.173822,
+            0.091284
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Burbuja del eje estructural B en la parte superior del plano de aligerados."
+    },
+    {
+      "id": "AG-0013",
+      "tipo": "elemento",
+      "valor": "VS(0.15x0.30)",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0002",
+          "pagina": 1,
+          "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+          "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+          "bbox_normalizada": [
+            0.137974,
+            0.09894,
+            0.166736,
+            0.104829
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Designación de viga semichata perimetral VS(0.15x0.30) sobre eje 3."
+    },
+    {
+      "id": "AG-0014",
+      "tipo": "cota",
+      "valor": 1.1,
+      "unidad": "desconocida",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0002",
+          "pagina": 1,
+          "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+          "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+          "bbox_normalizada": [
+            0.12005,
+            0.09894,
+            0.129221,
+            0.103651
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Cota horizontal 1.10 de bastón superior de vigueta de aligerado en tramo A-B."
+    },
+    {
+      "id": "AG-0015",
+      "tipo": "cota",
+      "valor": 0.8,
+      "unidad": "desconocida",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0002",
+          "pagina": 1,
+          "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+          "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+          "bbox_normalizada": [
+            0.117966,
+            0.13722,
+            0.126303,
+            0.14311
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Cota horizontal .80 en armadura de vigueta de aligerado."
+    },
+    {
+      "id": "AG-0016",
+      "tipo": "elemento",
+      "valor": "PL-8",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0002",
+          "pagina": 1,
+          "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+          "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+          "bbox_normalizada": [
+            0.417257,
+            0.260306,
+            0.429346,
+            0.266196
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Identificador de placa PL-8 en planta de aligerado del nivel tipo."
+    },
+    {
+      "id": "AG-0017",
+      "tipo": "etiqueta",
+      "valor": "CORTE 1-1",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0002",
+          "pagina": 1,
+          "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+          "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+          "bbox_normalizada": [
+            0.710713,
+            0.160777,
+            0.749062,
+            0.169611
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Título del detalle transversal CORTE 1-1 en cuadro CORTES VIGAS."
+    },
+    {
+      "id": "AG-0018",
+      "tipo": "cota",
+      "valor": null,
+      "unidad": "desconocida",
+      "legibilidad": "ambigua",
+      "evidencia": [
+        {
+          "archivo_id": "L0002",
+          "pagina": 1,
+          "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+          "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+          "bbox_normalizada": [
+            0.701959,
+            0.09894,
+            0.706961,
+            0.13722
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Cota vertical de peralte de viga con texto alternativo \"0.40 ó 0.50\"; ambigüedad real intrínseca, valor numérico JSON null."
+    },
+    {
+      "id": "AG-0019",
+      "tipo": "cota",
+      "valor": 0.15,
+      "unidad": "desconocida",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0002",
+          "pagina": 1,
+          "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+          "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+          "bbox_normalizada": [
+            0.71905,
+            0.143698,
+            0.725302,
+            0.148999
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Cota de ancho de sección transversal de viga .15 en CORTE 1-1."
+    },
+    {
+      "id": "AG-0020",
+      "tipo": "etiqueta",
+      "valor": "S/C=200 Kg/m2",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0002",
+          "pagina": 1,
+          "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+          "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+          "bbox_normalizada": [
+            0.779491,
+            0.421084,
+            0.844519,
+            0.432862
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Rótulo de sobrecarga de cálculo especificada para escalera típica."
+    },
+    {
+      "id": "AG-0021",
+      "tipo": "elemento",
+      "valor": "C-3",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0002",
+          "pagina": 1,
+          "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+          "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+          "bbox_normalizada": [
+            0.468945,
+            0.245583,
+            0.477699,
+            0.251472
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Identificador de columna C-3 adyacente a caja de escalera sobre eje H."
+    },
+    {
+      "id": "AG-0022",
+      "tipo": "etiqueta",
+      "valor": "E-02",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0002",
+          "pagina": 1,
+          "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+          "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+          "bbox_normalizada": [
+            0.904127,
+            0.920495,
+            0.934556,
+            0.946408
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Identificador de lámina E-02 en membrete principal."
+    },
+    {
+      "id": "AG-0023",
+      "tipo": "elemento",
+      "valor": "NACE C-2",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+          "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+          "bbox_normalizada": [
+            0.406419,
+            0.260306,
+            0.431013,
+            0.266784
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Rótulo de inicio de elemento estructural vertical NACE C-2 en techo del 4to nivel."
+    },
+    {
+      "id": "AG-0024",
+      "tipo": "elemento",
+      "valor": "PL-7",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+          "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+          "bbox_normalizada": [
+            0.388495,
+            0.277385,
+            0.39975,
+            0.283274
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Identificador de placa PL-7 en aligerado del 4to nivel."
+    },
+    {
+      "id": "AG-0025",
+      "tipo": "etiqueta",
+      "valor": "DETALLE: ALIGERADO TIPICO",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+          "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+          "bbox_normalizada": [
+            0.667361,
+            0.171967,
+            0.751146,
+            0.178445
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Título del detalle constructivo de corte típico de losa aligerada."
+    },
+    {
+      "id": "AG-0026",
+      "tipo": "cota",
+      "valor": 0.3,
+      "unidad": "desconocida",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+          "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+          "bbox_normalizada": [
+            0.685286,
+            0.169611,
+            0.689871,
+            0.174323
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Cota horizontal de ancho de ladrillo/bovedilla .30 en detalle de aligerado típico."
+    },
+    {
+      "id": "AG-0027",
+      "tipo": "cota",
+      "valor": 0.1,
+      "unidad": "desconocida",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+          "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+          "bbox_normalizada": [
+            0.708629,
+            0.170789,
+            0.713214,
+            0.174912
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Cota horizontal de ancho de vigueta de concreto .10 en aligerado típico."
+    },
+    {
+      "id": "AG-0028",
+      "tipo": "cota",
+      "valor": 0.05,
+      "unidad": "desconocida",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+          "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+          "bbox_normalizada": [
+            0.738641,
+            0.131331,
+            0.742393,
+            0.138398
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Cota vertical de espesor de loseta de compresión .05 en aligerado típico."
+    },
+    {
+      "id": "AG-0029",
+      "tipo": "cota",
+      "valor": 0.12,
+      "unidad": "desconocida",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+          "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+          "bbox_normalizada": [
+            0.738641,
+            0.147821,
+            0.742393,
+            0.154888
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Cota vertical de altura de ladrillo hueco .12 en sección de aligerado."
+    },
+    {
+      "id": "AG-0030",
+      "tipo": "cota",
+      "valor": 0.4,
+      "unidad": "m",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+          "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+          "bbox_normalizada": [
+            0.804085,
+            0.369258,
+            0.811588,
+            0.374558
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Longitud de empalme .40 para varilla 3/8\" bajo columna encabezada con \"T m.\"; unidad m explícita en tabla."
+    },
+    {
+      "id": "AG-0031",
+      "tipo": "etiqueta",
+      "valor": "DETALLE  MURO  PORTANTE    TIPICO",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+          "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+          "bbox_normalizada": [
+            0.70321,
+            0.673145,
+            0.822843,
+            0.68139
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Título de detalle de elevación y armadura en muro portante típico."
+    },
+    {
+      "id": "AG-0032",
+      "tipo": "cota",
+      "valor": 2.15,
+      "unidad": "desconocida",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+          "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+          "bbox_normalizada": [
+            0.717799,
+            0.826266,
+            0.720717,
+            0.836867
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Cota vertical 2.15 de altura libre interior en corte de cisterna."
+    },
+    {
+      "id": "AG-0033",
+      "tipo": "etiqueta",
+      "valor": "E-03",
+      "unidad": "no_aplica",
+      "legibilidad": "legible",
+      "evidencia": [
+        {
+          "archivo_id": "L0003",
+          "pagina": 1,
+          "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+          "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+          "bbox_normalizada": [
+            0.904127,
+            0.920495,
+            0.934556,
+            0.946408
+          ],
+          "imagen_ancho_px": 2399,
+          "imagen_alto_px": 1698
+        }
+      ],
+      "nota": "Identificador de lámina E-03 en membrete principal."
+    }
+  ]
+}

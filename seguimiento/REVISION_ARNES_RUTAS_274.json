@@ -1,0 +1,38 @@
+{
+  "fecha_utc": "2026-10-23T05:04:36.767645+00:00",
+  "criterio": "Corrección de arnés relativo en unidades distintas",
+  "fuente": "tests\\test_adaptador_etabs.py",
+  "sha256_observado_despues": "5af966a1cb6a549fc0159c656013ffb64e66dfe00a381435f51b0ffcf4da0281",
+  "revision": "TemporaryDirectory de esta prueba se crea explícitamente en cwd/tmp, no en TEMP; relpath real sin mocks ni omisiones.",
+  "ejecucion": {
+    "comando": "PYTHONPATH=tests .venv/Scripts/python.exe -B -m unittest test_adaptador_etabs.DobleTests.test_trabajo_relativo_no_rompe_rutas_del_subproceso -v",
+    "entorno": "host, TEMP sin sobrescribir",
+    "codigo": 0,
+    "pruebas": 1,
+    "segundos": 0.294,
+    "omitidas": 0
+  },
+  "limites": [
+    "Puente simulado, no ETABS nativo.",
+    "No sustituye el resultado histórico fallido de la suite267 ni prueba toda la versión final."
+  ],
+  "busqueda_ruta_antigua": {
+    "carpetas": [
+      "draft2model",
+      "scripts",
+      "examples",
+      "tests",
+      "docs"
+    ],
+    "archivos_adicionales": [
+      "README.md"
+    ],
+    "exclusiones": [
+      "RETOMAR.md",
+      "*.json"
+    ],
+    "texto": "proyecto_pueblo_libre",
+    "coincidencias": 0
+  },
+  "goal_completo": false
+}

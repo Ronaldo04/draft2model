@@ -1,0 +1,43 @@
+{
+  "tarea": "diagnostico_y_correccion_demora_controles_279",
+  "fecha": "2026-10-23",
+  "proceso_39028": {
+    "etapa": "controles (resultados_09.py)",
+    "estado": "vivo, no reiniciado",
+    "cpu_s": 14936,
+    "pared_h": 12.8,
+    "fase": "ServicioControles.crear → _cargar (revalidación antes de publicar); controles.json ya calculado 00:49 en .ctl-16m3kde6/paquete",
+    "causa": "≈20 verificaciones completas de verificar_analisis_aceptado por publicación (_fuentes ×5, cada una con varias revalidaciones de lectura/análisis); cada verificación regenera el plan y, en 39028 (código anterior a la cache), la malla en frío",
+    "resto_del_tiempo": "esperas/suspensión del equipo (CPU 4,15 h de 12,8 h de pared; un solo hilo)"
+  },
+  "medicion": {
+    "verificacion_fria_s": {
+      "pared": 581.9,
+      "cpu": 559.2,
+      "malla": 421.5,
+      "json_canonico_particion": 295.3
+    },
+    "verificacion_caliente_s": {
+      "pared": 137.5,
+      "cpu": 135.8,
+      "validar_geometria_56_llamadas": 43.2,
+      "datos_malla": 37.3,
+      "deepcopy": 27.1
+    },
+    "aceleracion_por_cache": 4.2
+  },
+  "correccion": [
+    "single-flight acotado en cache_malla_pura (misma clave: un cálculo, copias independientes; error del líder → cada llamador calcula y recibe su excepción; espera máxima 1800 s; claves distintas en paralelo)",
+    "sin cache de verificadores, aceptaciones ni vigencia; todas las revalidaciones siguen ejecutándose"
+  ],
+  "pruebas": "tests.test_cache_malla_pura_268 (incl. SingleFlightTests y concurrencia con 4 claves) + test_reuso_preparacion_262 + test_malla_rendimiento_246: 29 OK",
+  "pendiente_medido": "validar_geometria repetida 56×/verificación (43 s caliente) no es JSON puro: requiere diseño propio; no se aplicó",
+  "limite": "39028 sigue con el código anterior (sin cache): su publicación de controles termina sin estas mejoras; no se reinicia",
+  "hashes": {
+    "draft2model/cache_malla_pura.py": "df4e197f6d2f31bd730cf6113139e7057cfd0c43e5383b61abe561528b8ddaf3",
+    "tests/test_cache_malla_pura_268.py": "17cf06f4904679291239312e2c796b88750bc72a7707098b0f23ca33dfaae41b",
+    "tmp/ruta201/perfil_verificacion_279.json": "2085a5db9b672997e6aa26849fa72ee4eff02753416c0825f699b107110b772d",
+    "tmp/ruta201/perfil_verificacion_279.py": "9157b406168b9d1634e232403c4094ab993d12ecd140d6609bbf699b66b75fd8"
+  },
+  "apis": 0
+}

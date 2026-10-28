@@ -1,0 +1,27 @@
+{
+  "fecha_utc": "2026-10-23T04:17:35.634910+00:00",
+  "pruebas": [
+    {
+      "caso": "lectura_aceptada",
+      "correcto": true,
+      "reglas_cortante": 2,
+      "P_kN": 4792.8776043749995,
+      "abstenciones": 0,
+      "sha256_reglas": "3e2733e1f5da75782cf23986b03517f3bf7c5af1ff3a0acb13124ed412ef0366"
+    },
+    {
+      "caso": "sin_lectura_por_piso",
+      "correcto": true,
+      "reglas_cortante": 0,
+      "P_kN": null,
+      "abstenciones": 1,
+      "sha256_reglas": "6460b85b8e792e21315a8d604db9fb86ab7b7b98d5f1ce243c8f4899dfd59d80"
+    }
+  ],
+  "sha256_runner": "bfa46953e1515b7d0eee2ca93557be161db5f520eb56ea6a097e4f46a0ee96e3",
+  "fuente_estable": true,
+  "alcance": "Ejecución de etapa_reglas en destinos propios, con fuente nativa archivada y sin lectura disponible. No altera corrida activa ni demuestra validez profesional de las hipótesis.",
+  "etabs_ejecutado": false,
+  "api_remota": false,
+  "goal_completo": false
+}

@@ -1,0 +1,33 @@
+{
+  "tarea": "tabular_interfaz",
+  "estado": "entregado",
+  "archivos": {
+    "draft2model/revision_visual.py": "1224dfa2f14873c9d5f6d2969927181b93bc2d31c4c83999fc21e54253565bab",
+    "draft2model/revision_web/index.html": "95c6b2a3c279c0f46e086fc5ad7c0b5bd230153a1e4c59a5f138e6b562da18e0",
+    "draft2model/revision_web/app.js": "ffca6be0d231756f94ce954a922d2cdb0197b668e343dcb715936f5bfecc6fbb",
+    "draft2model/revision_web/tabular.js": "71e03883da59ae648ef7e3437fb61301698d8c6351066c265487555fa9c9c3b9",
+    "tests/test_revision_tabular_http.py": "6119c7f2588a8bcb89caead1671aa99b1271247bbc706b05019d0b89fd5b547e",
+    "tests/revision_tabular_frontend.cjs": "d92a88329bffb5dd6a89853efaf5a84f2f488e408d09fff45d31533c360a68cc",
+    "docs/REVISION_TABULAR_INTERFAZ.md": "442975fdb2a4de560e11a8445771307472f132267dca8127f562d9976f811f8f"
+  },
+  "pruebas": [
+    {
+      "comando": "TEMP=$PWD/tmp TMP=$PWD/tmp python -m unittest tests.test_revision_tabular_http tests.test_revision_tabular tests.test_revision_visual tests.test_revision_contexto_http",
+      "resultado": "Ran 37 tests OK (4 HTTP tabulares nuevas)"
+    },
+    {
+      "comando": "node tests/revision_tabular_frontend.cjs",
+      "resultado": "OK (5)"
+    },
+    {
+      "comando": "node tests/revision_conversion_frontend.cjs; node tests/revision_preparacion_frontend.cjs; node tests/revision_resultados_frontend.cjs",
+      "resultado": "10/10, 13/13, OK (regresion app.js)"
+    }
+  ],
+  "limites": [
+    "Prueba previa test_csv_y_xlsx_equivalentes_al_mismo_contrato puede fallar por hora del ZIP en libro(); no editada (fuera de propiedad)",
+    "tabular_version usa _cargar interno del servicio para geometria verificada",
+    "Sin endpoint de recuperacion de importacion interrumpida",
+    "Sin navegador real, red, API, ETABS, CU ni suite completa"
+  ]
+}

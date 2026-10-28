@@ -1,0 +1,15 @@
+{
+  "entrada_canonica_igual": true,
+  "salida_exacta_igual": false,
+  "dict_equivalente": true,
+  "cache": {
+    "entradas": 1,
+    "bytes": 2442,
+    "hits": 1,
+    "misses": 1,
+    "max_entradas": 32,
+    "max_bytes": 67108864
+  },
+  "fuente": "draft2model/cache_validacion_geometria.py",
+  "alcance": "Reordenar claves sin cambiar valores; comprobar independencia de la cache respecto al historial de llamadas. Sin ETABS/API."
+}

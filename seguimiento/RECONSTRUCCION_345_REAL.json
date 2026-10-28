@@ -1,0 +1,20 @@
+{
+  "trabajo": "dc91e30652e14eccaaf0f69a4565a684",
+  "modo": "real, servicio iniciado desde interfaz por autorización vigente",
+  "fuentes": {
+    "draft2model/reconstruccion_automatica.py": "95514a68c81f1ea172217bf3acc40c630a96f4d9e6ec0f0d23c87ccca676ff31",
+    "draft2model/revision_reconstruccion.py": "9adcd0d64c6b3f3d43fb16f351a2cc6fdb1d9e72f197e4352dc7c63b362a251a",
+    "draft2model/revision_web/reconstruccion.js": "f91b3a5ae42312be88d0c0755cdf0073d6e791b11896b70b3cb50032227cc0b0"
+  },
+  "estado_observado": {
+    "estado": "fallido_no_reintentar",
+    "fecha_utc": "2026-10-24T20:58:32.888662+00:00",
+    "paso": "Gemini devolvió HTTP 503; no se reintentó."
+  },
+  "cuotas": {
+    "openai": 5,
+    "gemini": 3
+  },
+  "sin_coordenadas_aportadas_por_codex": true,
+  "goal_completo": false
+}

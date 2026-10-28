@@ -1,0 +1,32 @@
+{
+  "fecha": "2026-10-22",
+  "informes_sha256": {
+    "AUDITORIA_DEPOSITOS_248.md": "f6d1dad751fb2e89d3f3af9d4cae29f64727f3b6592464cf058ebbde5de56d67",
+    "AUDITORIA_ESCALERA_248.md": "974151033a03545988508c0605b1d8ce2ce8f15d3758041109a2c9b1568df259",
+    "AUDITORIA_C6_PL10_248.md": "7ef91d1ee19bb7361a6638c0cf1a2c2a55aa9c7b9a7563693bdf661d7bc02415"
+  },
+  "revision_propia": "Vistas E03tanque/cisterna/techo, A03planta, E02detalle escalera, A03escalera, E01C6cuadro/corte2-2. Hashes/rotaciones/fuentes auditados; no verificación de todos los contornos ni aprobación técnica.",
+  "datos_confirmados": "Cisterna altura interior2.22; claros techo2.00/2.15; escaleragarganta.15 y huella.25/ancho1.20; cercoPL10.10/altura2.40/concreto175; C6cuadro.15×.75 con conflicto planta.20×.75.",
+  "control_hidrostatico_condicional": [
+    {
+      "escenario": "tanque_division_interior",
+      "h_m": 1.1,
+      "p_fondo_kPa": 11.0,
+      "F_por_m_kN_m": 6.05,
+      "brazo_m": 0.36666666666666664,
+      "estado": "referencia_condicional_no_nivel_operativo_confirmado"
+    },
+    {
+      "escenario": "cisterna_altura_interior",
+      "h_m": 2.22,
+      "p_fondo_kPa": 22.2,
+      "F_por_m_kN_m": 24.642,
+      "brazo_m": 0.74,
+      "estado": "referencia_condicional_no_nivel_operativo_confirmado"
+    }
+  ],
+  "volumen_cisterna_limite_m3": 9.546,
+  "peso_limite_agua_kN": 95.46,
+  "limites": "No confirma nivel operativo, sección/ejes de apoyo del tanque ni continuidadPL10/C6; no hay EMS. No modifica configuración y no prueba cargas nativas. A03/E02rotacion270: convertir coordenadas antes de cotejar.",
+  "aviso_claude": "pendiente_envio"
+}

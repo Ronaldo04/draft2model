@@ -1,0 +1,16 @@
+[
+  {
+    "etapa": "04",
+    "id": "d3de8e4b14fa4ccbbbe7931f0f983c34",
+    "fuentes": 23,
+    "logs": 7,
+    "integridad": "correcta"
+  },
+  {
+    "etapa": "06",
+    "id": "c54f77043471420fac2dc2a30cee5749",
+    "fuentes": 530,
+    "logs": 1,
+    "integridad": "correcta"
+  }
+]

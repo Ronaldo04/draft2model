@@ -1,0 +1,36 @@
+{
+  "fecha_utc": "2026-10-24T07:15:05.080661+00:00",
+  "marcador309_sha256": "a19461210c0997b5018e0fd694b03e36c544ee50035e7601478b54a12e1b18d6",
+  "archivos309_hash_verificado": 28,
+  "pdf_original_sin_cambios": true,
+  "reproduccion_independiente_mupdf96_identica": {
+    "7": true,
+    "8": true
+  },
+  "revision_visual_windows": "Páginas7/8 revisadas por Codex: prefijos completos.",
+  "poppler": {
+    "ejecutable": "C:/Users/HP/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/Library/bin/pdftoppm.exe",
+    "version": "26.07.0",
+    "dpi": 96,
+    "salida_codigo": 0,
+    "paginas": {
+      "7": {
+        "ruta": "tmp/pdfs/revision_310/poppler-7.png",
+        "sha256": "08f96efc3da1410ae4899d57f606340edcc437e411025aedfe9daa2d85288ce5"
+      },
+      "8": {
+        "ruta": "tmp/pdfs/revision_310/poppler-8.png",
+        "sha256": "1c551d4139ef7331106dfb116d4b0c861235a38aef98f05d2e61af37f8c28081"
+      }
+    },
+    "observacion": "Codex observa enp7 prefijos incompletos en los dos primeros bloques; no se acepta como cerrado el diagnóstico general.",
+    "avisos": [
+      "No display font Symbol",
+      "No display font ArialUnicode"
+    ]
+  },
+  "conclusion": "309 aceptada como investigación parcial y reproducción en dos motores; conclusión de artefacto de visualización no aceptada sin contrastar Poppler. Encargo310 adicional enviado.",
+  "causa_CFF": "Hipótesis de Claude, no adoptada como causa demostrada por Codex.",
+  "producto308_sin_cambios": true,
+  "goal_completo": false
+}

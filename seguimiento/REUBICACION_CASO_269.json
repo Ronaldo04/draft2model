@@ -1,0 +1,37 @@
+{
+  "fecha_utc": "2026-10-23T04:13:28.353755+00:00",
+  "huella_runtime": "8b4edeecf42001287149d86bf3d7a21043a58a8e1f843b402c5bcac8cdc95656",
+  "caso": "pueblo-libre-002",
+  "raiz_reubicada": "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\anexo_reubicado_268",
+  "pasos": [
+    {
+      "paso": "analisis_aceptado",
+      "estado": "verificado",
+      "segundos": 687.9436363000423,
+      "sha256_salida": "65e7e2eb01e79800b50aaa3425f15bb4276dc43cc91ef371b2c447d2ccd2d04b"
+    },
+    {
+      "paso": "resultado_normalizado_vinculado",
+      "estado": "verificado",
+      "segundos": 127.84154309995938,
+      "sha256_salida": "a1b9d66a4963e1a41be609b7868ec2990725c11d0e7bff5acb5eecc0a1bf53c1"
+    }
+  ],
+  "instalacion_nueva": false,
+  "etabs_ejecutado": false,
+  "api_remota": false,
+  "aprueba_ingenieria": false,
+  "goal_completo": false,
+  "expediente_sin_cambios": true,
+  "runtime_sin_cambios": true,
+  "cache": {
+    "entradas": 1,
+    "bytes": 6749689,
+    "hits": 2,
+    "misses": 1,
+    "max_entradas": 4,
+    "max_bytes": 67108864
+  },
+  "estado": "verificado",
+  "limites": "Verificación de evidencia archivada desde otra carpeta con dependencias instaladas existentes. No instalación nueva, relectura nativa en ruta nueva, reconstrucción del caso ni conformidad de ingeniería."
+}

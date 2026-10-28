@@ -1,0 +1,169 @@
+{
+  "fecha_utc": "2026-10-24T21:16:45.513934+00:00",
+  "anterior": "seguimiento/RETOMAR_CODEX_344.json",
+  "goal_completo": false,
+  "responsable": "Codex solo; sin Claude ni subagentes",
+  "autorizacion_vigente": [
+    "Proyecto3 autorizado expresamente por el usuario; supera el veto histórico338",
+    "Proyecto2 no autorizado",
+    "Ejecutar sistema sin interpretar/completar planos manualmente; mostrar interfaz",
+    "OpenAI máximo5 llamadas consumidas; Gemini2/5. Claves solo extracción de planos"
+  ],
+  "entrega331": "Conservar ZIP FINAL331 y anexo334 intactos; fuentes331 congeladas",
+  "proyecto3": {
+    "registro": "seguimiento/EJECUCION_PROYECTO3_340.json",
+    "caso": "vivienda-unifamiliar-003",
+    "extraccion": "edb0e7f4c1ac45fa91c2103f693ed2a4",
+    "lecturas": 130,
+    "pendientes": 130,
+    "revisadas": 0,
+    "geometria": false,
+    "etabs": false,
+    "api_segundos": 76.219,
+    "cobertura": "4 páginas declaradas parciales por el proveedor;42avisos de unidad sin respaldo literal",
+    "datos_usuario": {
+      "ubicacion": "San Juan de Miraflores, Lima",
+      "cisterna_incluida": true,
+      "estudio_suelos": "no aportado"
+    }
+  },
+  "interfaz": {
+    "version": "344 integrada en fuentes principales",
+    "url": "http://127.0.0.1:18346/",
+    "session_id": 80874,
+    "fuentes": "draft2model (raíz del proyecto)",
+    "navegador": "iab tab7 (nuevaInterfaz); usuario tiene también pestaña antigua18344 que falló, usar18346",
+    "expediente_abierto": "vivienda-unifamiliar-003",
+    "geometria_abierta": "25ef94672fac4e53863701b55e32f97d",
+    "capturas": [
+      "seguimiento/INTERFAZ344_MODELO3D.png",
+      "seguimiento/INTERFAZ344_EDITOR.png"
+    ],
+    "expediente3": "Permanece sin geometría.130lecturas pendientes. No se mezcla su estado con el modelo1.",
+    "procesos_anteriores": {
+      "97464": "servidor de desarrollo detenido intencionalmente tras abrir55044",
+      "64836": "servidor aislado detenido intencionalmente por visibilidad de red",
+      "82281": "servidor331 anterior; no se ha vuelto a sondear, no asumir terminal"
+    }
+  },
+  "desarrollo342": {
+    "archivos": [
+      "tmp/desarrollo_geometria_337/draft2model/anclajes_cotas.py",
+      "tmp/desarrollo_geometria_337/tests/test_anclajes_cotas.py"
+    ],
+    "comprobacion": "20pruebas focales anclajes+propuesta correctas; no suite completa",
+    "ensayo_real": "seguimiento/ANCLAJES_PROYECTO3_342.json",
+    "resultado": "36cotas sin relación; L0003 no procesada por límite de densidad. Ninguna geometría ni aprobación. No publicar como función resuelta.",
+    "siguiente": "Mejorar búsqueda espacial de líneas de cota sin límites por página completa; ampliar reconocimiento de cotas dibujadas/OCR y correspondencia, sin datos manuales ni reenvíos API. Integrar visualmente solo después de evidencia real."
+  },
+  "siguiente": [
+    "Consultar jobOpenAI6 c2b5... mismo handle80874; no otro envío duplicado. CuotaOpenAI adicional disponible4trasreserva6.",
+    "Leer mensajes del agente publicacion_github; esperar snapshot antes de editar fuente. Revisión de corte y evidencias antes de darle salida al PR.",
+    "Si lectura6termina: verificar respuesta compacta/expansión/solver y evidencia del programa sin interpretar imágenes ni rellenar datos. No aprobación ni geometría manual.",
+    "Si fallo de red o salida incompleta, conservar y diagnosticar; no reenvío automático. Uso soloOpenAI para siguientes4 autorizadas.",
+    "Continuar configuración automática, datos faltantes dentro de UI y orquestación hasta ETABS/informe; no achicar alcance ni declarar terminado por UI/pruebas parciales.",
+    "Con≤5%cuota no iniciar tarea pesada; con≤1%registrar todos los handles y terminar. Sin reset automático;0créditos."
+  ],
+  "interfaz344": {
+    "registro": "seguimiento/INTEGRACION_INTERFAZ_344.json",
+    "manual": "docs/INTERFAZ_POR_ETAPAS.md",
+    "cambios": [
+      "7etapas separadas; propósito/procesamiento/revisión/resultado",
+      "Visor3D girable con superficies, aberturas y frames de configuración vinculada",
+      "Editor de geometría y configuración dentro de la app; plantillas básicas sin valores físicos inventados",
+      "Ediciones identificadas sin guardar y recuperación por comprobación; versiones y aprobaciones originales intactas",
+      "JSON y herramientas auxiliares desplegables; sin llamadas API al navegar"
+    ],
+    "verificacion": {
+      "frontend": 38,
+      "http_python": 24,
+      "sin_omisiones": true,
+      "logs": [
+        "tmp/frontend_principal_344_final.log",
+        "tmp/http_principal_344.log"
+      ],
+      "visual": "Caso1:2356puntos/2502superficies; edición X0.123 detectada como borrador, descartada por relectura sin guardar. Capturas reales de app principal.",
+      "sin_nuevo_etabs": true,
+      "sin_nueva_api": true
+    },
+    "limites": [
+      "No reconstrucción autónoma completa aún",
+      "Formularios avanzados de ingeniería pendientes; el editor cubre estructura presente y plantillas básicas",
+      "Vista3D del sistema, no captura ni prueba nueva de ETABS"
+    ]
+  },
+  "desarrollo343_344": {
+    "carpeta": "tmp/desarrollo_geometria_337",
+    "ocr_343": "seguimiento/ANCLAJES_OCR_343/resultado.json;4páginas procesadas por OCR local;42cotas sin relación; sin cambios en expediente",
+    "reconstruccion_automatica": "Nuevo contrato topológico y solución de grafos de diferencias con unidades/evidencia; rechaza desconectados y contradicciones.6pruebas sintéticas correctas; no se ha usado con respuesta real ni integrado proveedor/UI. No distribuir como automatismo resuelto.",
+    "pruebas_python_focales": 26,
+    "archivos_nuevos": [
+      "draft2model/reconstruccion_automatica.py",
+      "tests/test_reconstruccion_automatica.py"
+    ],
+    "no_integrar_a_ciegas": "OCR/anclajes/solucionador quedan aislados; UI344 fue portada sin ellos."
+  },
+  "procesos_reconstruccion": {
+    "servidor": 80874,
+    "trabajo_activo": "c2b5a75b9f2643f0b9bcf23a18212b14",
+    "estado": "OpenAI real en ejecución, petición6total/primera5adicionales",
+    "carpeta": "data/private/vivienda-unifamiliar-003/reconstrucciones/c2b5a75b9f2643f0b9bcf23a18212b14",
+    "regla": "Primero consultar estado.json y handle80874; no reiniciar servidor, no reenviar mientras esté activo. Timeout o silencio de observación no es fin."
+  },
+  "reconstruccion_345_346": {
+    "estado": "Servicio integrado en fuentes principales y UI, todavía sin resultado real positivo",
+    "contrato_red": "0.2.0 compacto: tabla compartida de evidencias; expansión a0.1canónico; hashes originales fijados por programa",
+    "validacion": "44Python focales reconstrucción+HTTP y39frontend correctos; logs tmp/reconstruccion_346.log,tmp/frontend_346.log",
+    "programa": [
+      "preparar_originales automático hasta8páginas",
+      "petición proveedor OpenAI/Google, cuota persistente antes de envío y sin reintentos",
+      "solución de coordenadas por grafos de diferencias, no píxeles ni datos de Codex",
+      "detección de desconectados/contradicciones y unificación exacta de puntos",
+      "registro automático de geometría real en borrador si suficiente; simulación no importada como real",
+      "resultado y faltantes persistidos y mostrados en UI; consumo sincronizado al terminar; huellas del código y bloqueo al cambiarlo"
+    ],
+    "google3": "dc91e30652e14eccaaf0f69a4565a684:HTTP503, terminal, no lectura",
+    "google4": "f3b9069cfbc34e9da551033ef7aabe6e:MAX_TOKENS,15036salida+1334pensamiento; se conserva API pero no se importa texto parcial",
+    "pendientes": [
+      "lectura real positiva y calidad de reconstrucción",
+      "configuración automática desde datos de planos y normativas; continuación hasta ETABS/informe",
+      "formularios avanzados completos",
+      "multilote>8páginas",
+      "auditoría completa de alcance antes de goalcomplete"
+    ]
+  },
+  "autorizacion_api_346": {
+    "usuario": "Utiliza la API de open AI para las proximas5solicitudes",
+    "registro": "seguimiento/CONSUMO_API_211.json",
+    "openai": {
+      "limite_total": 10,
+      "anteriores": 5,
+      "nuevo_enviado": 6,
+      "adicionales_restantes_despues_de6": 4
+    },
+    "google": {
+      "usadas": 4,
+      "limite": 5,
+      "no_iniciar_mas": "usuario solicita las próximas5enOpenAI"
+    },
+    "solo": "Lectura/extracción de planos; nunca programación ni explicaciones",
+    "codigo": "seguimiento/autorizar_openai_346.py; idempotente, aplicado"
+  },
+  "publicacion_github_346": {
+    "agente": "/root/publicacion_github",
+    "autorizado_por_usuario": true,
+    "repositorio": "Ronaldo04/draft2model",
+    "main_observada": "8aa92af04779c1bb9b23ba63a02308a124de742a",
+    "plan": "snapshot limpio por allowlist, validación integrada, rama+PR conservando main ajena",
+    "propiedad": "agente solo entregas/publicacion_github_346 y seguimiento/PUBLICACION_GITHUB_346*; no editar fuentes principales",
+    "congelacion": "No modificar draft2model/tests/docs hasta que confirme snapshot capturado. API6activa también exige código estable.",
+    "exclusiones": [
+      "credenciales/planos privados",
+      "seguimiento/ tmp/ data/private/ output/ artefactos reales y archivos históricos",
+      "tracking/control y empaquetador histórico con sus pruebas de ese subsistema"
+    ],
+    "excepcion": "tests/fixtures/etabs21_sintetico/evidencia.zip solo si agente verifica procedencia sintética e inventario seguro; conservar tests producto, no ocultar omisiones",
+    "publicar": "espera confirmación técnica root después de resultados, no pedir otra autorización usuario ya dada. Adjuntar PR con attach_artifact si se crea.",
+    "estado": "preparación en curso"
+  }
+}

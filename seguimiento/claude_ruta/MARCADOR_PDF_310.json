@@ -1,0 +1,82 @@
+{
+ "tarea": "pdf_310",
+ "estado": "entrega_candidata",
+ "responsable": "Claude",
+ "fecha_utc": "2026-10-24T07:17:30+00:00",
+ "entradas": {
+  "pdf": {
+   "ruta": "tmp/recorrido_09d3/resultados/informe/informe.pdf",
+   "sha256": "ca4fc1432c509af1bc944f376e8f60f4a16f94fc3a8eff4e63b59ef2dbb5acf9"
+  },
+  "poppler": {
+   "ruta": "C:/Users/HP/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/Library/bin/pdftoppm.exe",
+   "version": "26.07.0"
+  },
+  "png_codex": {
+   "tmp/pdfs/revision_310/poppler-7.png": "08f96efc3da1410ae4899d57f606340edcc437e411025aedfe9daa2d85288ce5",
+   "tmp/pdfs/revision_310/poppler-8.png": "1c551d4139ef7331106dfb116d4b0c861235a38aef98f05d2e61af37f8c28081"
+  }
+ },
+ "resultados": {
+  "discrepancia": "No está en los píxeles: mi render Poppler 26.07.0 (aislado y secuencial) es idéntico byte a byte a los PNG de Codex; ampliación ×3 de los dos primeros bloques muestra «Estado», «Fórmula», «Fuente de regla» completos; comparación de forma por carácter (IoU ±2 px frente a MuPDF) con primer carácter ≥0.95 (p7) / ≥0.92 (p8) y desplazamiento de primera tinta 0 px en las 72 líneas.",
+  "causa_avisos": "Symbol/ArialUnicode solo aparecen con el pie Helvetica base-14 no incrustada (prueba mínima con/sin pie).",
+  "candidato": "Pie con Nimbus Sans Regular incrustado (pymupdf.Font('helv').buffer, ya presente en el cuerpo). Poppler sin avisos; cuerpo idéntico byte a byte en Poppler y en píxeles en MuPDF; solo cambian filas del pie (Poppler 8 páginas, Windows p7/p8); texto idéntico en 8 páginas; 18 evaluaciones 10 False/8 True, NO COHERENTE, 24 kN y 8 pies conservados.",
+  "base_reconstruida_identica_al_publicado": true
+ },
+ "informe": "seguimiento/claude_ruta/diagnostico_pdf_310/INFORME_DIAGNOSTICO_310.md",
+ "parche_propuesto": "draft2model/informe.py::_pdf — insert_font(fontname='D2MPie', fontbuffer=pymupdf.Font('helv').buffer) y fontname='D2MPie' en insert_text del pie (no aplicado).",
+ "archivos_permitidos_sha256": {
+  "seguimiento/claude_ruta/diagnostico_pdf_310/aviso_con_pie_helv.pdf": "2aa00ee253643c776e0b23eb4e2e363b2b72f06e7f956b90c6bdf778ef23c6b0",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/aviso_sin_pie.pdf": "87b04fc8bbf4f00fed7b99f12aceffa7781171b77f820fe6a3be9c12e9262188",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/base_reconstruida.pdf": "0a457b30577e8761cdcafe3adb4265d0952dc17b456e36725ec8ca5761aa271c",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/candidato_310.pdf": "f32d20a47c95c428ab6521ea6a0a9856ce785c1bee856e7854b456f39b89c781",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/codex_poppler7_recorte_izq_x3.png": "c5b248b3911cacab426e58c355f3566190231433f41f678feb86be5e57486e74",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/comparar_prefijos_forma.py": "2d75c282d20b10f68cdbb2ef32cde96ed7cdd1b6baaeabcd0c74fd72d4cfc8c6",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/contenido_original_vs_candidato.json": "0c654511837aa992f55e54f0efc32ca096aca783d06d0570ec39ab77a922e6dc",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/forma_poppler_candidato_p7.json": "5142d3d3d85ac5e516336cdf3e227d595a127ffeab4c7bf5a05c591b6c076ec1",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/forma_poppler_candidato_p8.json": "33eaed4e38f4a3fd728cf3f45c28b3de3ede0f82ec8148ee8699ba58a4f61e99",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/forma_poppler_codex_p7.json": "f94197e3078e911c37b4a54083fd49d0fcbeca928d7a0aeb301c2de81ec019ca",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/forma_poppler_codex_p8.json": "9a47c47cbe416b6c48642805674c41c9f636a608112b7a16debaae2270ea275a",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/INFORME_DIAGNOSTICO_310.md": "e58e941568e0acb083446034692866b5ed596629981533f2e30f422c1796d15a",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/mupdf7_pie_x3.png": "94d6c5cad2598d4070c705c9e698170329a18badaa61717f39d82d16bf733f47",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/pdf_candidato_310.py": "f2447dd2e42e9896e358f79d08da33b637b7f9c33e121eda8da902fce660e644",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/poppler7_pie_x3.png": "c3e524fdf749f5b48423db529a5036d88318776247dbd836ee6cf9d5d6d41746",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/poppler_candidato7_pie_x3.png": "ddee2912cdc801ecabba0c3e6dfbe831967ad05d4863b36fab33e8f94eb00cc9",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/aviso_con_pie_helv.png": "2efab7f5e8d6ec1c66adedefc58fd911215086eca92ea2c88c8c5fc72d4e763f",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/aviso_sin_pie.png": "73bf2bd0e3ddf57c304aec1076b061c0ec45513c9c1312471c1e8b148935195f",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/mupdf_p7_96.png": "63b3e9dbc287fa1e6ae6043a35216c919cd7b22a98f636230beb2edb25fabf56",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/mupdf_p8_96.png": "1e947be5515e6879b8b7bf2b74b71e4157691b2bffdf959b3b265fcb341e5bb0",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_aislado_p7.png": "08f96efc3da1410ae4899d57f606340edcc437e411025aedfe9daa2d85288ce5",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_aislado_p8.png": "1c551d4139ef7331106dfb116d4b0c861235a38aef98f05d2e61af37f8c28081",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_candidato-1.png": "81d8fa5fb68c47d1a74d2bbf16b288468acabd9a6c1b655efa60ea6b84d527f5",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_candidato-2.png": "1ef126158515cf2fd0175b4717097882362be99bf5188935c4a552b00e8401b5",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_candidato-3.png": "7abab01c70fd9162e2ff601d23610cdf8ad4be6421c968c9990e94b8230fd297",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_candidato-4.png": "9d6205d1e60a4cd240e13147c89f250fbf5b9a7f812dcc508c1576e28416254e",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_candidato-5.png": "b4167b12abb0212516f777c1285af6db9739a3c6d8349a695114e2cc6e39d4d2",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_candidato-6.png": "57cd30a421ed34026d51961b7933f3206c114e702b21d91c0c81f8aab16517a6",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_candidato-7.png": "b172eb70b8fcf42e314982d3575c9d0ef18a554c99b3c8db1a5976a8060c6270",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_candidato-8.png": "16b09a62296bf3190d2175137e2b1a892411584d0932763a8857f825e967cbc2",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_candidato.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_p7.stderr.txt": "6b76dedf9fefb6759a7c6ef6ed89ea38f6b993e297a0acdcbd6c6c84b47b8b17",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_p8.stderr.txt": "6b76dedf9fefb6759a7c6ef6ed89ea38f6b993e297a0acdcbd6c6c84b47b8b17",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_secuencial-1.png": "c9b5d7a8424ea6e3981e6a927bc39ac78ea84337ffe5289d0e28f33e77b950da",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_secuencial-2.png": "ad3cfd0f9c63800fb7da25571ca7bf5e00acd736d9e616e76270b363717f0654",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_secuencial-3.png": "0676413f05934cc0019633c076969147485491b1ba265da7d15981947742302d",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_secuencial-4.png": "862dd4c6208cb331261eb5d89dabeb8b72dbc9994097487eb2fa1e44abdd0207",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_secuencial-5.png": "c46da471009f8ce35c0fc91fe7c5a2d18d9fe027e8adbf119c9768d8fc8edd0d",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_secuencial-6.png": "d041b49bed720fbe6cd97fb3cb779ca6787022892ace8dacd1bddb2488e60673",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_secuencial-7.png": "08f96efc3da1410ae4899d57f606340edcc437e411025aedfe9daa2d85288ce5",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_secuencial-8.png": "1c551d4139ef7331106dfb116d4b0c861235a38aef98f05d2e61af37f8c28081",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_secuencial.stderr.txt": "6b76dedf9fefb6759a7c6ef6ed89ea38f6b993e297a0acdcbd6c6c84b47b8b17",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/windows_candidato/windows_aislado_p7.png": "13c918938e70df64512b52028d4e9b1a99685e5a3142be4586ce8178bd79517f",
+  "seguimiento/claude_ruta/diagnostico_pdf_310/renders/windows_candidato/windows_aislado_p8.png": "32680bf6675b924dca98e80f3b53b084f45b3515b3b1f512b1de5d1b18a2bbe9"
+ },
+ "limites": [
+  "Sin pdf.js/Acrobat: no se declara compatibilidad universal",
+  "IoU no es OCR; tolera hinting",
+  "La observación «do:/ula:» se atribuye al visor (hipótesis no verificada); no hay defecto de prefijos en los PNG",
+  "309, producto y entregas intactos; sin suites, APIs, claves ni ETABS"
+ ],
+ "siguiente_accion": "Codex decide integrar el cambio del pie con una prueba de fuentes incrustadas; revisar la observación de prefijos con el PNG a tamaño 1:1 en otro visor.",
+ "aceptacion_codex": false
+}

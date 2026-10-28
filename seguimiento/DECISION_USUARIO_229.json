@@ -1,0 +1,34 @@
+{
+  "fecha": "2026-10-21",
+  "fuente": "Respuestas explícitas del usuario en este chat",
+  "decisiones": {
+    "arquitectura": "Añadida por el usuario en la misma carpeta de los planos estructurales. Archivos localizados y abiertos por Codex.",
+    "normativa": "Usar todas las normas más vigentes y recientes del RNE aplicables al proyecto; no reproducir parámetros2005 como norma actual.",
+    "comparacion_manual": "Continúa aplazada hasta nuestros resultados propios.",
+    "api": "Sin ampliación de límites:4/5OpenAI y1/5Gemini consumidas."
+  },
+  "archivos": [
+    {
+      "ruta": "planos_muestra\\proyecto_pueblo_libre\\Arquitectura-Model1.pdf",
+      "sha256": "1f2e8d9c2507cc85bbcd6d6cc9fc217baf4d272c6620417c1985eeb3d4b8be54",
+      "paginas": 1
+    },
+    {
+      "ruta": "planos_muestra\\proyecto_pueblo_libre\\Arquitectura-Model2.pdf",
+      "sha256": "f63d63ce7674c21b3437145cfde2f6ab66abe814c445c5c65873db99067b87bf",
+      "paginas": 1
+    },
+    {
+      "ruta": "planos_muestra\\proyecto_pueblo_libre\\Arquitectura-Model3.pdf",
+      "sha256": "ead656045a3c95739e2bd7cab3c5daddb6d1e42ebaa7aaf9afb6c34be07dce4a",
+      "paginas": 1
+    }
+  ],
+  "observaciones_de_revision": [
+    "TresPDFcon1página cadauno, plantas primero/típica2-4/techo.",
+    "Cotas generales20x10m y cadenas entre ejes visibles.",
+    "NPT0.00,+2.60,NTT+10.40y+14.60 visibles; otros niveles requieren derivación justificada o cotejo.",
+    "Arquitectura y estructura usan ejes distintos: registrar correspondencia espacial antes de adoptar etiquetas."
+  ],
+  "seguimiento": "Encargo08 actualizado; auditoría normativa independiente229 en curso."
+}

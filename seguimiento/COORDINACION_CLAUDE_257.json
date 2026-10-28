@@ -1,0 +1,14 @@
+{
+  "estado": "enviado_confirmado",
+  "autorizacion": "Nueva instruccion directa del usuario de terminar el sistema completo para AECODE; reanuda el encargo de coordinacion ya autorizado. Se mantuvo la detencion de entradas en el turno interrumpido anterior.",
+  "conversacion": "Comandos CLI geometría",
+  "proyecto": "PROYECTO FINAL",
+  "ventana_observada": 3082800,
+  "encargo": "seguimiento\\CONTINUACION_CLAUDE_253.md",
+  "sha256_encargo": "a06a5ba33c46c2eb7b0edacaea4a429c4aa268a3afd4886a8a433b1f03df5962",
+  "evidencia": "Borrador propio251 identificado/seleccionado, reemplazado por257; Enter; mensaje visible en historial, compositor vacio; cola Enviar ahora detectada y pulsada; observacion posterior sin ese boton.",
+  "respuesta_confirmada": false,
+  "calidad_no_acreditada_por_envio": true,
+  "reparto": "Claude integra producto y ruta completa; Codex ensayo minimo cotas auxiliares257, revision y paquete final. No duplicar procesos vivos.",
+  "ultima_interrupcion": "Escape fisico en la comprobacion posterior al envio; no se emitieron mas entradas en ese turno. Envio ya observado, respuesta no observada."
+}

@@ -1,0 +1,23 @@
+{
+  "tarea": "masa_313",
+  "archivos_hash_verificados": 10,
+  "pruebas_focales": 7,
+  "predicciones_desde_plan_reproducidas": 45,
+  "resultado": {
+    "acuerdo": 33,
+    "desacuerdo": 8,
+    "abstencion": 4
+  },
+  "aceptacion": "Diagnóstico revisado; predictor no aceptado para incorporar al libro",
+  "hallazgos": [
+    "Manual instalado p128 atribuye regla automática a SAP2000; no acredita implementaciónETABS21",
+    "Fuente específica ETABS: extremos de viga según columnas conectadas y columna inferior; difiere del prototipo",
+    "R-max37 incluye4abstenciones; entre41noabstenidas coincide33, igual que regla primaria",
+    "Prerregistro con hashes no prueba ceguera: existía exposición previa declarada a resultados",
+    "Prototipo no valida ejes locales no nulos ni casos geométricos arbitrarios; no componente productivo"
+  ],
+  "fuente_oficial": "https://docs.csiamerica.com/help-files/etabs/Menus/Assign/Frame/End_Length_Offset.htm",
+  "siguiente": "seguimiento/ENCARGO_CLAUDE_EXTREMOS_314.md",
+  "masa_oficial": "no_coherente, tolerancia0.001 intacta",
+  "goal_completo": false
+}

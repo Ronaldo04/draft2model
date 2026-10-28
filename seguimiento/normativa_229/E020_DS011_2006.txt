@@ -1,0 +1,1194 @@
+--- PDF PAGE 1 ---
+NORMA E.020 
+ 
+CARGAS 
+ 
+CAPÍTULO 1 
+GENERALIDADES 
+ 
+Artículo 1.- ALCANCE  
+ 
+Las edificaciones y todas sus partes deberán ser capaces de resistir las cargas que se les 
+imponga como consecuencia de su uso previsto. Estas actuarán en las combinaciones 
+prescritas y no deben causar esfuerzos ni deformaciones que excedan los señalados para cada 
+material estructural en su norma de diseño específica. 
+En ningún caso las cargas empleadas en el diseño serán menores que los valores mínimos 
+establecidos en esta Norma. 
+Las cargas mínimas establecidas en esta Norma están dadas en condiciones de servicio. 
+Esta Norma se complementa con la NTE E.030 Diseño Sismorresistente y con las Normas 
+propias de diseño de los diversos materiales estructurales. 
+ 
+Artículo 2.- DEFINICIONES 
+ 
+Carga: Fuerza u otras acciones que resulten del peso de los materiales de construcción, 
+ocupantes y sus pertenencias, efectos del medio ambiente, movimientos diferenciales y 
+cambios dimensionales restringidos. 
+Carga Muerta.- Es el peso de los materiales, dispositivos de servicio, equipos, tabiques y otros 
+elementos soportados por la edificación, incluyendo su peso propio, que se propone sean 
+permanentes o con una variación en su magnitud, pequeña en el tiempo. 
+Carga Viva.- Es el peso de todos los ocupantes, materiales, equipos, muebles y otros 
+elementos movibles soportados por la edificación.  
+ 
+ 
+CAPÍTULO 2 
+CARGA MUERTA 
+ 
+Artículo 3.- MATERIALES 
+ 
+Se considerará el peso real de los materiales que conforman y de los que deberán soporta la 
+edificación calculados en base a los pesos unitarios que aparecen en el Anexo 1, pudiéndose 
+usar pesos unitarios menores cuando se justifique debidamente. 
+El peso real se podrá determinar por medio de análisis o usando los datos indicados en los 
+diseños y catálogos de los fabricantes. 
+ 
+Artículo 4.- DISPOSITIVOS DE SERVICIO Y EQUIPOS 
+ 
+Se considerará el peso de todos los dispositivos de servicio de la edificación, inclusive las 
+tuberías, ductos y equipos de calefacción y aire acondicionado, instalaciones eléctricas, 
+ascensores, maquinaria para ascensores y otros dispositivos fijos similares. El peso de todo 
+este material se incluirá en la carga muerta. 
+El peso de los equipos con el que se amueble una zona dada, será considerado como carga 
+viva. 
+ 
+
+--- PDF PAGE 2 ---
+1.1 
+TABIQUES 
+ 
+Se considerará el peso de todos los tabiques, usando los pesos reales en las ubicaciones que 
+indican los planos. Cuando exista tabiquería móvil, se aplicará lo indicado en el Artículo 6 (6.3). 
+ 
+ 
+CAPÍTULO 3 
+CARGA VIVA 
+ 
+Artículo 6.- CARGA VIVA DEL PISO 
+ 
+6.1 
+Carga Viva Mínima Repartida. 
+Se usará como mínimo los valores que se establecen en la Tabla 1 para los diferentes tipos de 
+ocupación o uso, valores que incluyen un margen para condiciones ordinarias de impacto. Su 
+conformidad se verificará de acuerdo a las disposiciones en Artículo 6 (6.4). 
+ 
+a) Cuando la ocupación o uso de un espacio no sea conforme con ninguno de los que figuran 
+en la Tabla 1, el proyectista determinará la carga viva justificándola ante las autoridades 
+competentes. 
+b) Las cargas vivas de diseño deberán estar claramente indicadas en los planos del proyecto. 
+ 
+TABLA 1  
+CARGAS VIVAS MÍNIMAS REPARTIDAS 
+ 
+OCUPACIÓN O USO 
+CARGAS REPARTIDAS kPa (Kgf/m2) 
+Almacenaje 
+5,0 (500) Ver 6.4 
+ 
+ 
+Baños 
+Igual a la carga principal del resto del área, 
+sin que sea necesario que exceda de 3,0 
+(300) 
+ 
+ 
+Bibliotecas 
+Ver 6.4  
+Salas de lectura 
+3,0 (300) 
+Salas de Almacenaje con estantes fijos (no 
+apilables 
+7,5 (750) 
+Corredores y escaleras 
+4,0 (400) 
+ 
+ 
+Centros de Educación 
+  
+Aulas 
+2,5 (250) 
+Talleres 
+3,5 (350) Ver 6,4 
+Auditorios, Gimnasios, etc. 
+De acuerdo a lugares de asambleas  
+Laboratorios 
+3,0 (300) Ver 6.4 
+Corredores y escaleras 
+4,0 (400) 
+ 
+ 
+Garajes 
+  
+Para parqueo exclusivo de vehículos de 
+2,5 (250) 
+
+--- PDF PAGE 3 ---
+pasajeros, con altura de entrada menor que 
+2,40 m  
+Para otros vehículos 
+ Ver 9.3 
+ 
+ 
+Hospitales 
+  
+Salas de operación, laboratorios, y áreas de 
+servicio 
+3,0 (300) 
+Cuartos 
+2,0 (200) 
+Corredores y escaleras 
+4,0 (400) 
+ 
+ 
+Hoteles 
+  
+Cuartos 
+2,0 (200) 
+Salas Públicas 
+De acuerdo a lugares de asambleas 
+Almacenaje y servicios 
+5,0 (500) 
+Corredores y escaleras 
+4,0 (400) 
+ 
+ 
+Industria 
+ Ver 6.4 
+ 
+ 
+Instituciones Penales 
+  
+Celdas y zona de habitación 
+2,0 (200) 
+Zonas públicas 
+De acuerdo a lugares de asamblea 
+Corredores y escaleras 
+4,0 (400) 
+ 
+ 
+Lugares de Asamblea 
+  
+Con asientos fijos 
+3,0 (300) 
+Con asientos movibles 
+4,0 (400) 
+Salones de baile, restaurantes, museos, 
+gimnasios y vestíbulos de teatros y cines. 
+4,0 (400) 
+Graderías y tribunas 
+5,0 (500) 
+Corredores y escaleras 
+5,0 (500) 
+ 
+ 
+Oficinas (*) 
+  
+Exceptuando salas de archivo y computación 
+2,5 (250) 
+Salas de archivo 
+5,0 (500) 
+Salas de computación  
+2,5 (250) Ver 6.4 
+Corredores y escaleras 
+4,0 (400) 
+ 
+ 
+Teatros 
+  
+Vestidores 
+2,0 (200) 
+Cuarto de Proyección 
+3,0 (300) Ver 6.4  
+Escenario 
+750 
+Zonas Públicas 
+De acuerdo a lugares de asamblea 
+
+--- PDF PAGE 4 ---
+ 
+ 
+Tiendas 
+5,0 (500) 
+Corredores y escaleras 
+5,0 (500) 
+ 
+ 
+Viviendas 
+2,0 (200) 
+Corredores y escaleras 
+2,0 (200) 
+(*) Estas cargas no incluyen la posible tabiquería móvil 
+ 
+6.2 
+Carga Viva Concentrada 
+ 
+a) 
+Los pisos y techos que soporten cualquier tipo de maquinaria u otras cargas vivas 
+concentradas en exceso de 5,0 kN (500 kgf) (incluido el peso de los apoyos o bases), 
+serán diseñados para poder soportar tal peso como una carga concentrada o como 
+grupo de cargas concentradas. 
+b) 
+Cuando exista una carga viva concentrada, se puede omitir la carga viva repartida en 
+la zona ocupada por la carga concentrada. 
+ 
+6.3 
+Tabiquería Móvil 
+El  piso de los tabiques móviles se incluirá como carga viva equivalente uniformemente 
+repartida por metro cuadrado, con un mínimo de 0,50 kPa (50 Kgf/m²), para divisiones 
+livianas móviles de media altura y de 1,0 kPa (100 kgf/m²) para divisiones móviles de 
+altura completa. 
+Cuando en el diseño se contemple tabiquerías móviles, deberá colocarse una nota al 
+respecto, tanto en los planos de arquitectura como en los de estructuras. 
+ 
+6.4 
+Conformidad 
+Para determinar si la magnitud de la carga viva real es conforme con la carga viva 
+mínima repartida, se hará una aproximación de la carga viva repartida real 
+promediando la carga total que en efecto se aplica sobre una región rectangular 
+representativa de 15 m2 que no tenga ningún lado menor que 3,00 m. 
+ 
+Artículo 7.- CARGA VIVA DEL TECHO 
+Se diseñarán los techos y las marquesinas tomando en cuenta las cargas vivas, las de 
+sismo, viento y otras prescritas a continuación. 
+ 
+7.1 
+Carga Viva.- Las cargas vivas mínimas serán las siguientes: 
+ 
+a) 
+Para los techos con una inclinación hasta de 3° con respecto a al horizontal, 1,0 kPa 
+(100 kgf/m²). 
+b) 
+Para techos con inclinación mayor de 3°, con respecto a la horizontal 1,0 kPa (100 
+kgf/m²) reducida en 0,05 kPa (5 kgf/m²), por cada grado de pendiente por encima de 3°, 
+hasta un mínimo de 0,50 kPa (59 kgf/m²). 
+c) 
+Para techos curvos, 0,50 kPa (50 kgf/m²). 
+d) 
+Para techos con coberturas livianas de planchas onduladas o plegadas, calaminas, 
+fibrocemento, material plástico, etc., cualquiera sea su pendiente, 0,30 kPa (30 kgf/m²), 
+excepto cuando en el techo pueda haber acumulación de nieve, en cuyo caso se 
+aplicará lo indicado en el Artículo 11. 
+e) 
+Cuando se trate de malecones o terrazas, se aplicará la carga viva correspondiente a 
+su uso particular, según se indica en la Tabla 1. 
+
+--- PDF PAGE 5 ---
+f) 
+Cuando los techos tengan jardines, la carga viva mínima de diseño de las porciones 
+con jardín será de 1,0 kPa (100 kgf/m²). Excepto cuando los jardines puedan ser de 
+uso común o público, en cuyo caso la carga viva de diseño será de 4,0 kPa (400 
+kgf/m²). 
+ 
+El peso de los materiales del jaqrdín será considerado como carga muerta y se hará 
+este cómputo sobre la base de tierra saturada. 
+ 
+Las zonas adyacentes a las porciones con jardín serán consideradas como áreas de 
+asamblea, a no ser que haya disposiciones específicas permanentes que impidan su 
+uso. 
+g) 
+Cuando se coloque algún anuncio o equipo en un techo, el diseño tomará en cuenta 
+todas las acciones que dicho anuncio o equipo ocasione. 
+ 
+Artículo 8.- CARGA VIVA PARA ACERAS, PISTAS, BARANDAS, PARAPETOS Y 
+COLUMNAS EN ZONAS DE ESTACIONAMIENTO  
+ 
+8.1 
+Aceras y Pistas 
+ 
+a) 
+Todas las aceras y pistas o porciones de las mismas que no apoyen sobre el suelo se 
+diseñarán para una carga viva mínima repartida de 5,0 kPa (500 Kgf/m2). 
+Cuando estén sujetas a la carga de rueda de camiones, intencional o accidental, se 
+diseñarán tales tramos de aceras o pistas para la carga vehicular máxima que se 
+pueda imponer. Ver 9.3. 
+b) 
+Los accesorios de aceras y pistas, incluidos los registros de inspección, las tapas de 
+registro y las rejillas, serán diseñados para las cargas prescritas en el inciso anterior. 
+ 
+8.2 
+Barandas y Parapetos 
+ 
+a) 
+Las barandas y parapetos se diseñarán para las fuerzas indicadas en las NTE E.030 
+Diseño Sismorresistente, las cargas de viento cuando sean aplicables y las que se 
+indican a continuación. 
+b) 
+Las barandas y parapetos serán diseñados para resistir la aplicación simultánea ó no 
+de las fuerzas indicadas en la Tabla 2, ambas aplicadas en su parte superior, 
+tomándose la combinación más desfavorable. 
+En ningún caso, la fuerza horizontal y la fuerza vertical total serán menors que 1,0 kN 
+(100 kgf). 
+ 
+TABLA 2 
+Barandas y Parapetos 
+Carga 
+Horizontal 
+kN/m (kgf/m) 
+Carga Vertical 
+kN/m (kgf/m) 
+Pozo para escaleras, balcones y techos en general 
+0,60 (60) 
+0,60 (60) 
+Viviendas unifamiliares 
+0,30 (30) 
+0,30 (30) 
+Balcones de teatros y lugares de asamblea 
+0,75 (75) 
+1,50 (150) 
+c) 
+Cuando las barandas y parapetos soporten equipos o instalaciones se tomarán en 
+cuenta las cargas adicionales que éstos impongan. 
+d) 
+Las barandas, parapetos o topes que se usan en zonas de estacionamiento para 
+resistir el impacto de los vehículos de pasajeros en movimiento serán diseñados para 
+soportar una carga horizontal de 5,0 kN (500 Kgf) por metro lineal, aplicada por lo 
+
+--- PDF PAGE 6 ---
+menos 0,60 m encima de la pista; pero en ningún caso la carga total será interior a 
+15,0 kN (1500 Kgf). 
+ 
+8.3 
+Columnas en zonas de Estacionamiento 
+ 
+A no ser que se les proteja de manera especial, las columnas en las zonas de 
+estacionamiento o que estén expuestas a impacto de vehículos en movimiento, serán 
+diseñadas para resistir la carga lateral debida al impacto de 15 kN (1500 Kgf), aplicada 
+por lo menos 0,60 m encima de la pista. 
+ 
+Artículo 9.- CARGAS VIVAS MÓVILES 
+ 
+9.1 
+Generalidades 
+Se considerará que las cargas establecidas en el Artículo 6 (6.1) y Artículo 7 (7.1), 
+incluyen un margen para las condiciones ordinarias de impacto. 
+ 
+9.2 
+Automóviles  
+Las zonas que se usen para el tránsito o estacionamiento de automóviles y que estén 
+restringidas a este uso por limitaciones físicas se diseñaran para la carga repartida 
+pertinente a las zonas de estacionamiento de tales vehículos, como se determina en la 
+Tabla 1, aplicada sin impacto. 
+ 
+9.3 
+Camiones 
+Las cargas mínimas, su distribución y el diseño de barandas y topes, cumplirán con los 
+requisitos aplicables a puentes carreteros. 
+ 
+9.4 
+Ferrocarriles  
+Las cargas mínimas y su distribución cumplirán con los requisitos aplicables a puentes 
+ferrocarrileros. 
+ 
+9.5 
+Puentes - Grúa 
+ 
+a) 
+Cargas Verticales 
+La carga vertical será la máxima real sobre rueda cuando la grúa esté izando a 
+capacidad plena. Para tomar en cuenta el impacto, la carga izada se aumentará en 
+25 % o la carga sobre rueda se aumentará en 15 %, la que produzca mayores 
+condiciones de esfuerzo. 
+ 
+b) 
+Cargas Horizontales 
+La carga transversal total, debida a la traslación del carro del puente-grúa, será el 20% 
+de la suma de la capacidad de carga y el peso del carro. Esta fuerza se supondrá 
+colocada en la parte superior de los rieles, actuando en ambos sentido 
+perpendicularmente a la vía de rodadura y debe ser distribuida proporcionalmente a la 
+rigidez lateral de las estructuras que soportan los rieles. 
+ 
+La carga longitudinal debida a la traslación de la grúa, será el 10% de la reacción 
+máxima total, sin incluir el impacto, aplicada en la parte superior del riel y actuando en 
+ambos sentidos paralelamente a la vía de rodadura. 
+ 
+9.6 
+Tecles Monorrieles 
+ 
+
+--- PDF PAGE 7 ---
+a) 
+Cargas Verticales  
+La carga vertical será la suma de la capacidad de carga y el peso del tecle. Para tomar 
+en cuenta el impacto, la carga vertical se aumentará en 10 % para tecles manuales y 
+en 25 % para tecles eléctricos. 
+ 
+b) 
+Cargas Horizontales 
+La carga transversal será el 20 % de la suma de la capacidad de carga y el peso del 
+tecle. 
+ 
+9.7 
+Ascensores, montacargas y escaleras mecánicas 
+Se aplicarán las cargas reales determinadas mediante análisis o usando los datos 
+indicados en los diseños y especificaciones técnicas del fabricante. 
+ 
+9.8 
+Motores  
+Para tomar en cuenta el impacto, las reacciones de las unidades a motor de explosión 
+se aumentarán por lo menos en 50 % y las de unidades a motor eléctrico se 
+aumentarán por lo menos en 25 %. Adicionalmente se deberá considerar las 
+vibraciones que estos puedan producir en las estructuras; para ello se tomarán en 
+cuenta las especificaciones del fabricante. 
+ 
+Artículo 10.- REDUCCION DE CARGA VIVA 
+ 
+Las cargas vivas mínimas repartidas indicadas en la Tabla 1 podrán reducirse para el 
+diseño, de acuerdo a la siguiente expresión: 
+ 
+ 
+ 
+Donde: 
+ 
+ 
+Lr = Intensidad de la carga viva reducida. 
+ 
+ 
+Lo = Intensidad de la carga viva sin reducir (Tabla 1). 
+Ai = Área de influencia del elemento estructural en m², que se calculará 
+mediante: 
+ 
+ 
+ 
+ 
+ 
+At = Área tributaria del elemento en m². 
+ 
+ 
+k = Factor de carga viva sorbe el elemento (ver Tabla 3). 
+ 
+
+--- PDF PAGE 8 ---
+TABLA 3 
+Factor de Carga Viva sobre el Elemento 
+ 
+ELEMENTO 
+FACTOR k 
+Columnas y muros 
+2 
+Vigas interiores 
+Viga de borde 
+Vigas en volado 
+Vigas de borde que soportan volados 
+2 
+2 
+1 
+1 
+Tijerales principales que soportan techos livianos 
+1 
+Losas macizas o nervadas en dos direcciones 
+Losas macizas o nervadas en una dirección 
+1 
+1 
+Vigas prefabricadas aisladas o no conectadas 
+monolíticamente a otros elementos paralelos 
+1 
+Vigas de acero o de madera no conectadas por 
+corte al diafragma de piso 
+1 
+Vigas isostáticas 
+1 
+ 
+Las reducciones en la carga viva estarán sujetas a las siguientes limitaciones: 
+ 
+a) 
+El área de influencia (Ai) deberá ser mayor que 40 m², en caso contrario no se 
+aplicará ninguna reducción. 
+b) 
+El valor de la carga viva reducida (Lr) no deberá ser menor que 0,5 Lo. 
+c) 
+Para columnas o muros que soporten más de un piso deberán sumarse las áreas 
+de influencia de los diferentes pisos. 
+d) 
+No se permitirá reducción alguna de carga viva para cálculo del esfuerzo de corte 
+(punzonamiento) en el perímetro de las columnas en estructuras de losas sin 
+vigas. 
+e) 
+En estacionamientos de vehículos de pasajeros no se permitirá reducir la carga 
+viva, salvo para los elementos (columnas, muros) que soporten dos o más pisos, 
+para los cuales la reducción máxima será del 20%. 
+f) 
+En los lugares de asamblea, bibliotecas, archivos, depósitos y almacenes, 
+industrias, tiendas, teatros, cines y en todos aquellos en los cuales la sobrecarga 
+sea de 5 kPa (500 kgf/m²) o más, no se permitirá reducir la carga viva, salvo para 
+los elementos (columnas, muros) que soporten dos o más pisos para los cuales 
+la reducción máxima será del 20%. 
+g) 
+El valor de la carga viva reducida (Lr), para la carga viva del techo especificada 
+en el capítulo 7, no será menos que 0,50 Lo. 
+h) 
+Para losas en una dirección, el área tributaria (At) que se emplee en la 
+determinación de Ai no deberá exceder del producto del claro libre por un ancho 
+de 1,5 veces el claro libre. 
+ 
+Artículo 11.- CARGAS DE NIEVE 
+ 
+11.1 
+GENERALIDADES 
+La estructura y todos los elementos de techo que estén expuestos a la acción de carga 
+de nieve serán diseñados para resistir las cargas producidas por la posible 
+acumulación de la nieve en el techo. La sobrecarga de nieve en una superficie cubierta 
+es el peso de la nieve que, en las condiciones climatológicas más desfavorables, 
+puede acumularse sobre ella. 
+
+--- PDF PAGE 9 ---
+En zonas en la cuales exista posibilidad de nevadas importantes, deberá prestarse 
+especial atención en la selección apropiada de las pendientes de los techos. 
+La carga de nieve debe considerarse como carga viva. No será necesario incluir en el 
+diseño el efecto simultáneo de viento y carga de nieve. 
+ 
+11.2 
+CARGA BÁSICA DE NIEVE SOBRE EL SUELO (QS) 
+Para determinar este valor, deberá tomarse en cuenta las condiciones geográficas y 
+climáticas de la región donde se ubicará la estructura. La carga básica se establecerá 
+de un análisis estadístico de la información disponible en la zona, para un período 
+medio de retorno de 50 años (probabilidad anual del 2% de ser excedida). 
+El valor mínimo de la carga básica de nieve sobre el suelo (QS) será de 0,40 kPa 
+(40kgf/m²) que equivalen a 0,40 m de nieve fresca (peso específico de 1 kN/m³ (100 
+kgf/m³)) o a 0,20 m de nieve compactada (peso específico de 2 kN/m³ (200 kgf/m³)). 
+ 
+11.3 
+CARGA DE NIEVE SOBRE LOS TECHOS (Qt) 
+ 
+a) 
+Para techos a una o dos aguas con inclinaciones menores o iguales a 15° (pendiente ≤ 
+27%) y para techos curvos con una relación flecha/luz ≤ 0,1 o ángulo vertical menor o 
+igual a 10° (calculado desde el borde hasta el centro) la carga de diseño (QT), sobre la 
+proyección horizontal, será: 
+ 
+Qt = QS 
+ 
+b) 
+Para techos a una o dos aguas con inclinaciones comprendidas entre 15° y 30° la 
+carga de diseño (Qt), sobre la proyección horizontal, será: 
+ 
+Qt = 0,80 QS 
+ 
+c) 
+Para techos a una o dos aguas con inclinaciones mayores que 30° la carga de diseño 
+(Qt), sobre la proyección horizontal, será: 
+ 
+Qt = CS (0,80 QS)  donde CS = 1 – 0,0025(θ° - 30°), 
+siendo CS un factor adimensional. 
+ 
+d) 
+Para los techos a dos aguas con inclinaciones mayores que 15° deberán investigarse 
+los esfuerzos internos para las condiciones de carga balanceada y desbalanceada 
+como se indica a continuación: 
+ 
+ 
+
+--- PDF PAGE 10 ---
+ 
+ 
+e) 
+Para los techos curvos, dependiendo de la relación h/ℓ, deberán investigarse los 
+esfuerzos internos para las condiciones de cargas balanceada y desbalanceada, que 
+se indica a continuación: 
+ 
+ 
+
+--- PDF PAGE 11 ---
+ 
+ 
+Artículo 12.- CARGAS DEBIDAS AL VIENTO 
+ 
+12.1 
+GENERALIDADES 
+La estructura, los elementos de cierre y los componentes exteriores de todas las 
+edificaciones expuestas a la acción del viento, serán diseñados para resistir las cargas 
+(presiones y/o succiones) exteriores e interiores debidas al viento, suponiendo que 
+éste actúa en dos direcciones horizontales perpendiculares entre sí. En la estructura la 
+ocurrencia de presiones y/o succiones exteriores serán consideradas simultáneamente. 
+ 
+12.2 
+CLASIFICACIÓN DE LAS EDIFICACIONES  
+ 
+Tipo 1. Edificaciones poco sensibles a las ráfagas y a los efectos dinámicos del viento, 
+tales como edificios de poca altura o esbeltez y edificaciones cerradas con cobertura 
+capaz de soportar las cargas sin variar su geometría. Para este tipo de edificaciones 
+se aplicará lo dispuesto en los Artículos 12 (12.3) y 12 (12.4). 
+Tipo 2. Edificaciones cuya esbeltez las hace sensibles a las ráfagas, tales como 
+tanques elevados y anuncios y en general estructuras con una dimensión corta en la 
+dirección del viento. Para este tipo de edificaciones la carga exterior especificada en el 
+Artículo 12 (12.4) se multiplicará por 1,2. 
+
+--- PDF PAGE 12 ---
+Tipo 3. Edificaciones que representan problemas aerodinámicos especiales tales 
+como domos, arcos, antenas, chimeneas esbeltas y cubiertas colgantes. Para este tipo 
+de edificaciones las presiones de diseño se determinarán a partir de procedimientos 
+de análisis reconocidos en ingeniería, pero no serán menores que las especificadas 
+para el Tipo 1. 
+ 
+12.3 
+VELOCIDAD DE DISEÑO 
+La velocidad de diseño del viento hasta 10 m de altura será la velocidad máxima 
+adecuada a la zona de ubicación de la edificación (Ver Anexo 2) pero no menos de 75 
+Km/h. La velocidad de diseño del viento en cada altura de la edificación se obtendrá 
+de la siguiente expresión. 
+ 
+
+
+22
+.0
+10
+h
+V
+Vh 
+ 
+ 
+Donde: 
+Vh : es la velocidad de diseño en la altura h en Km/h 
+V : es la velocidad de diseño hasta 10 m de altura en Km/h 
+h : es la altura sobre el terreno en metros  
+ 
+ 
+12.4 
+CARGA EXTERIOR DE VIENTO 
+La carga exterior (presión o succión) ejercida por el viento se supondrá estática y 
+perpendicular a la superficie sobre la cual se actúa. Se calculará mediante la expresión: 
+ 
+2
+005
+.0
+h
+h
+V
+C
+P 
+ 
+ 
+Donde: 
+Ph : presión o succión del viento a una altura h en Kg/m2 
+C : factor de forma adimensional indicado en la Tabla 4 
+Vh : velocidad de diseño a la altura h, en Km/h, definida en el Artículo 12 
+(12.3) 
+ 
+TABLA 5.4 
+FACTORES DE FORMA (C) * 
+  
+CONSTRUCCIÓN 
+BARLOVENTO 
+SOTAVENTO 
+Superficies verticales de edificios 
++0.8 
+-0.6 
+Anuncios, muros aislados, elementos con una 
+dimensión corta en la dirección del viento 
++1.5 
+ 
+Tanques de agua, chimeneas y otros de sección 
+circular o elíptica 
++0.7 
+ 
+Tanques de agua, chimeneas, y otros de sección 
+cuadrada o rectangular 
++2.0 
+ 
+Arcos y cubiertas cilíndricas con un ángulo de 
+inclinación que no exceda 45° 
++0.8 
+-0.5 
+Superficies inclinadas a 15° o menos 
++0.3 
+-0.6 
+
+--- PDF PAGE 13 ---
+-0.7 
+Superficies inclinadas entre 15° y 60° 
++0.7 
+-0.3 
+-0.6 
+Superficies inclinadas entre 60° y la vertical 
++0.8 
+-0.6 
+Superficies verticales o inclinadas (planas o 
+curvas) paralelas a la dirección del viento 
+-0,7 
+-0,7 
+* El signo positivo indica presión y el negativo succión. 
+ 
+12.5 
+CARGA INTERIOR DE VIENTO  
+Para el diseño de los elementos de cierre, incluyendo sus fijaciones y anclajes, que 
+limitan en cualquier dirección el nivel que se analiza, tales como paneles de vidrio, 
+coberturas, alféizares y elementos de cerramiento, se adicionará a las cargas 
+exteriores calculadas según el Artículo 12 (12.4), las cargas interiores (presiones y 
+succiones) calculadas con los factores de forma para presión interior de la Tabla 5. 
+ 
+TABLA 5 
+FACTORES DE FORMA PARA DETERMINAR CARGAS ADICIONALES EN ELEMENTOS 
+DE CIERRE (C) 
+ 
+A B E R T U R A S 
+Uniforme en lados a 
+barlovento y 
+sotavento 
+Principales en lado a 
+barlovento 
+Principales en lado a 
+sotavento o en los costados 
+±0,3 
++0,8 
+-0,6 
+  
+ 
+CAPÍTULO 4 
+OTRAS CARGAS 
+ 
+Artículo 13.- PRESIONES DE TIERRA 
+ 
+13.1 
+Todo muro de contención será diseñado para resistir, en adición a las cargas 
+verticales que actúan sobre él, la presión lateral del suelo y sobrecargas, más la 
+presión hidrostática correspondiente al máximo nivel probable del agua freática. 
+13.2 
+Se considerarán las subpresiones causadas por la presión hidrostática 
+13.3 
+Para el cálculo de la magnitud y ubicación de las presiones laterales del suelo se 
+podrá emplear cualquiera de los métodos aceptados en la Mecánica de Suelos. 
+13.4 
+Cuando la presión lateral del suelo se opone a la acción estructural de otras fuerzas (ej. 
+Cisternas enterradas), no se tomará en cuenta en esta combinación de cargas, pero sí 
+se debe considerar su acción en el diseño. 
+ 
+Artículo 14.- CARGAS DE CONSTRUCCIÓN  
+Previo al inicio de obra el profesional responsable de la misma, evaluará las cargas 
+reales que puedan producirse durante el proceso constructivo y verificará que no 
+exceda de las cargas vivas de uso, indicadas en los documentos del proyecto. 
+
+--- PDF PAGE 14 ---
+Si las cargas reales en el proceso constructivo excedieran de las cargas vivas de uso, 
+deberá consultar con el proyectista. 
+ 
+Artículo 15.- FUERZAS TERMICAS 
+El diseño de edificaciones tomará en cuenta las fuerzas y los movimientos que 
+resulten de un cambio mínimo de temperatura de 20° C para construcciones de 
+concreto y/o albañilería y 30°C para construcciones de metal. 
+ 
+Artículo 16.- CONTRACCIÓN  
+El diseño de estructuras de concreto armado, cuando se prevea que la contracción 
+pueda originar esfuerzos importantes, se tomará en consideración las fuerzas y 
+movimientos resultantes de la contracción del concreto en una cantidad 0,00025 veces 
+la distancia entre juntas. 
+ 
+ 
+CAPÍTULO 5 
+DISTRIBUCION Y COMBINACIÓN DE CARGAS 
+ 
+Artículo 17.- DISTRIBUCIÓN DE CARGAS VERTICALES  
+La distribución de cargas verticales a los elementos de soporte se establecerá sobre la 
+base de un método reconocido de análisis elástico o de acuerdo a sus áreas tributarias. 
+Se tendrá en cuenta el desplazamiento instantáneo y diferido de los soportes cuando 
+ellos sean significativos. 
+ 
+Artículo 18.- DISTRIBUCIÓN DE CARGAS HORIZONTALES 
+ 
+18.1 
+Se supondrá que las cargas horizontales sobre la estructura son distribuidas a las 
+columnas, pórticos y muros por los sistemas de pisos y techo que actúan como 
+diafragmas horizontales. La proporción de la carga horizontal total que resistirá 
+cualquier columna, pórtico o muro se determinará sobre la base de su rigidez relativa, 
+considerando la excentricidad natural y accidental de la carga aplicada. 
+18.2 
+Cuando la existencia de aberturas, la excesiva relación largo/ancho en las losas de 
+piso o techo o la flexibilidad del sistema de piso o techo no permitan su 
+comportamiento como diafragma rígido, la rigidez de cada columna estructural tomará 
+en cuenta las deflexiones adicionales de piso mediante algún método reconocido de 
+análisis 
+ 
+Artículo 19.- COMBINACIÓN DE CARGAS  
+Excepto en los casos indicados en las normas propias de los diversos materiales 
+estructurales, todas las cargas consideradas en la presente Norma se considerará que 
+actúan en las siguientes combinaciones, la que produzca los efectos más 
+desfavorables en el elemento estructural considerando , con las reducciones, cuando 
+sean aplicables, indicadas en el Artículo 10. 
+ 
+(1) D 
+(2) D + L 
+(3) D + (W o 0,70 E) 
+(4) D + T  
+(5) α [D + L + (W o 0,70 E)] 
+(6) α [D + L +T] 
+(7) α [D + (W o 0,70 E) + T] 
+
+--- PDF PAGE 15 ---
+(8) α [D + L + (W o 0,70 E) + T] 
+  
+Donde: 
+ 
+D =  Carga muerta, según Capítulo 2. 
+L  =  Carga viva, Capítulo 3. 
+W =  Carga de viento, según Artículo 12. 
+E =   Carga de sismo, según NTE E.030 Diseño de Sismorresistente. 
+T = Acciones por cambios de temperatura, contracciones y/o deformaciones diferidas 
+en los materiales componentes, asentamientos de apoyos o combinaciones de 
+todos ellos.  
+α  = Factor que tendrá un valor mínimo de 0.75 para las combinaciones (5), (6) y (7); y 
+de 0.67 para la combinación (8). En estos casos no se permitirá un aumento de 
+los esfuerzos admisibles. 
+  
+ 
+CAPÍTULO 6 
+ESTABILIDAD 
+ 
+Artículo 20.- GENERALIDADES 
+ 
+20.1 
+La estabilidad requerida será suministrada sólo por las cargas muertas más la acción 
+de los anclajes permanentes que se provean. 
+20.2 
+El peso de la tierra sobre las zapatas o cimentaciones, calculado con el pero unitario 
+mínimo de la tierra, puede ser considerado como parte de las cargas muertas. 
+ 
+Artículo 21.- VOLTEO 
+La edificación o cualquiera de sus partes, será diseñada para proveer un coeficiente 
+de seguridad mínimo de 1.5 contra falla por volteo. 
+ 
+Artículo 22.- DESLIZAMIENTO 
+ 
+22.1 
+La edificación o cualquiera de sus partes será diseñada para proveer un coeficiente de 
+seguridad mínimo de 1.25 contra falla por deslizamiento. 
+22.2 
+Los coeficientes de fricción que se asuman serán establecidos por el proyectista a 
+partir de valores usuales empleados en ingeniería. 
+ 
+ 
+CAPÍTULO 7 
+RIGIDEZ 
+ 
+Artículo 23.- METODO DE CÁLCULO 
+El cálculo de las deformaciones de la estructura o de sus componentes será efectuado 
+por métodos aceptados en ingeniería. 
+ 
+Artículo 24.- DESPLAZAMIENTOS LATERALES 
+En edificaciones el máximo desplazamiento relativo entre pisos, causado por las 
+fuerzas de viento, será del 1% de la altura del piso. 
+En el caso de fuerzas de sismo el máximo desplazamiento será el indicado en los 
+numerales pertinentes de la NTE E.030 Diseño Sismorresistente. 
+ 
+
+--- PDF PAGE 16 ---
+Artículo 25.- FLECHAS 
+ 
+25.1 
+Excepto en los casos expresamente cubiertos en las Normas propias de los diversos 
+materiales estructurales, la flecha de cualquier elemento estructural no excederá los 
+valores indicados en la Tabla 6, excepto cuando soporte paneles de vidrio en cuyo 
+caso se aplicará lo indicado en el Artículo 25 (25.2). 
+ 
+TABLA 6 
+FLECHAS MAXIMAS PARA ELEMENTOS ESTRUCTURALES 
+ 
+TIPO DE ELEMENTO 
+FLECHA PRODUCIDA POR 
+LA CARGA VIVA 
+FLECHA PRODUCIDA POR 
+LA CARGA VIVA MÁS LAS 
+FLECHAS DIFERIDAS 
+Pisos 
+L/360 
+L/240* 
+Techos 
+L/180 
+- 
+L                  : Luz del elemento. Para volados se tomará como L, el doble de la 
+longitud del elemento. 
+Flecha diferida: Se establece en función de cada material de acuerdo a su Norma 
+respectiva. La flecha diferida se calculará para las cargas 
+permanentes 
+más 
+la 
+fracción 
+de 
+sobrecarga 
+que 
+actúa 
+permanentemente. 
+ 
+*  No aplicable a estructuras metálicas. 
+  
+25.2 
+Excepto en los casos expresamente cubiertos en las Normas propias de los diversos 
+materiales estructurales, la flecha para carga viva más la parte correspondiente a las 
+flechas diferidas, de elementos estructurales que soportan paneles de vidrio no 
+excederá en ningún caso 20 mm. 
+ 
+Artículo 26.- ACUMULACIÓN DE AGUA 
+Todos los techos tendrán suficiente pendiente o contraflecha para asegurar el drenaje 
+adecuado del agua, después de que ocurran las deformaciones diferidas. 
+Alternativamente 
+serán 
+diseñados 
+para 
+soportar 
+adicionalmente 
+la 
+posible 
+acumulación de agua debido a la deflexión. 
+El límite de deflexión para techos indicados en la Tabla 6, no garantiza que no se 
+produzca acumulación de agua debida a la deflexión. 
+
+--- PDF PAGE 17 ---
+ANEXO 1 
+PESOS UNITARIOS 
+ 
+MATERIALES 
+PESO kN/m³ (Kg/m3) 
+Aislamientos de: 
+ 
+Corcho 
+2,0 (200) 
+Fibra de Vidrio 
+3,0 (300) 
+Fibrocemento 
+6,0 (600) 
+Poliuretano y poliestireno 
+2,0 (200) 
+  
+ 
+Albañilería de: 
+ 
+Adobe  
+16,0 (1600) 
+Unidades de albañilería cocida sólidas 
+18,0 (1800) 
+Unidades de albañilería cocida huecas 
+13,5 (1350) 
+  
+ 
+Concreto Simple de: 
+ 
+Cascote de ladrillo 
+18,0 (1800) 
+Grava 
+23,0 (2300) 
+Pómez 
+16,0 (1600) 
+  
+ 
+ Concreto Armado 
+Añadir 1,0 (100) al peso del 
+concreto simple. 
+ 
+ 
+Enlucido o Revoque de:  
+ 
+Mortero de cemento 
+20,0 (2000) 
+Mortero de cal y cemento  
+18,5 (1850) 
+Mortero de cal  
+17,0 (1700) 
+Yeso 
+10,0 (1000) 
+  
+ 
+Líquidos:  
+ 
+Aceites 
+9,3 (930) 
+Ácido Muriático  
+12,0 (1200) 
+Acido Nítrico 
+15,0 (1500) 
+Acido sulfúrico 
+18,0 (1800) 
+Agua dulce 
+10,0 (1000) 
+Agua de mar 
+10,3 (1030) 
+Alcohol  
+8,0 (800) 
+Gasolina  
+6,7 (670) 
+Kerosene  
+8,7 (870) 
+
+--- PDF PAGE 18 ---
+Petróleo 
+8,7 (870) 
+Soda Caústica  
+17,0 (1700) 
+  
+ 
+Maderas: 
+ 
+Coníferas 
+7,5 (750) 
+Grupo A* 
+11,0 (1100) 
+Grupo B*  
+10,0 (1000) 
+Grupo C* 
+9,0 (900) 
+* NTE E.101 Agrupamiento de Madera para uso estructural 
+ 
+ 
+Mampostería de: 
+ 
+Bloques de Vidrio 
+10,0 (1000) 
+Caliza 
+24,0 (2400) 
+Granito 
+26,0 (2600) 
+Mármol  
+27,0 (2700) 
+Pómez 
+12,0 (1200) 
+  
+ 
+Materiales almacenados: 
+ 
+Azúcar  
+7,5 (750) 
+Basuras Domésticas 
+6,6 (660) 
+Briquetas de carbón de piedra  
+17,5 (1750) 
+Carbón de piedra  
+15,5 (1550) 
+Cebada 
+6,5 (650) 
+Cemento  
+14,5 (1450) 
+Coke 
+12,0 (1200) 
+Frutas  
+6,5 (650) 
+Harinas  
+7,0 (700) 
+Hielo 
+9,2 (920) 
+Leña 
+6,0 (600) 
+Lignito 
+12,5 (1250) 
+Papas 
+7,0 (700) 
+Papel 
+10,0 (1000) 
+Pastos secos  
+4,0 (400) 
+Sal  
+10,0 (1000) 
+Trigo, frijoles, pallares, arroz  
+7,5 (750) 
+Turba 
+6,0 (600) 
+  
+ 
+Materiales amontonados: 
+ 
+
+--- PDF PAGE 19 ---
+Arena húmeda 
+18,0 (1800) 
+Caliza molida 
+16,0 (1600) 
+Carburo 
+9,0 (900) 
+Coke 
+5,2 (520) 
+Escorias de altos hornos 
+15,0 (1500) 
+Escorias de carbón 
+10,0 (1000) 
+Grava y arena secas 
+16,0 (1600) 
+Nieva fresca 
+1,0 (100) 
+Piedra pómez 
+7,0 (700) 
+Tierra seca 
+16,0 (1600) 
+Tierra saturada 
+18,0 (1800) 
+  
+ 
+Metales: 
+ 
+Acero  
+78,5 (7850) 
+Aluminio  
+27,5 (2750) 
+Bronce 
+85,0 (5000) 
+Cobre 
+89,0 (8900) 
+Estaño  
+74,0 (7400) 
+Fundición 
+72,5 (7250) 
+Hierro dulce 
+78,0 (7800) 
+Latón  
+85,0 (8500) 
+Mercurio  
+136,0 (13600) 
+Níquel 
+90,0 (9000) 
+Plomo  
+114,0 (11400) 
+Zinc 
+69,0 (6900) 
+ 
+ 
+Otros: 
+ 
+Acrílicos  
+12,0 (1200) 
+Cartón bituminado 
+6,0 (600) 
+Concreto asfáltico  
+24,0 (2400) 
+Ladrillo pastelero  
+16,0 (1600) 
+Locetas 
+24,0 (2400) 
+Teja artesanal 
+16,0 (1600) 
+Teja industrial  
+18,0 (1800) 
+Vidrios 
+25,0 (2500) 
+ 
+ 
+Losas aligeradas armadas en una sola 
+dirección de Concreto Armado 
+ 
+
+--- PDF PAGE 20 ---
+Con vigueta 0,10 m de ancho y 0,40 m entre 
+ejes 
+ 
+Espesor del aligerado (m) 
+Espesor de losa 
+superior en 
+metros 
+Peso propio kPa 
+(kgf/m²) 
+0,17 
+0,05 
+2,8 (280) 
+0,20 
+0,05 
+3,0 (300) 
+0,25 
+0,05 
+3,5 (350) 
+0,30 
+0,05 
+4,2 (420) 
+ 
+
+--- PDF PAGE 21 ---
+ANEXO 2 
+MAPA EÓLICO DEL PERÚ 
+ 
+Este mapa sirve de guía, para establecer las velocidades básicas del viento en la zona donde 
+se ubica la estructura, se debe tener en cuenta la variabilidad debida a las condiciones locales 
+(topográficas, climáticas). 
+Si hubiera mediciones confiables en la zona en cuestión, podrá adoptarse la velocidad 
+proveniente del estudio. 
+ 
+ 

@@ -1,0 +1,27 @@
+{
+  "fecha_utc": "2026-10-19T02:25:06.453115+00:00",
+  "estado": "verificacion local reproducible aceptada; piloto pendiente",
+  "informe": "tmp\\c146\\copia_limpia.json",
+  "sha256_informe": "3e9814fc055612a9c05ac72c85b49037195e2eebe6ece77d4334b1acf6ff974f",
+  "codigo_wrapper": 0,
+  "python_pruebas": 850,
+  "python_segundos": 484.394,
+  "interfaz_archivos": 26,
+  "interfaz_fallos": 0,
+  "interfaz_skip_todo": 0,
+  "omisiones": [],
+  "entorno_aislado": true,
+  "user_site": false,
+  "fuentes_copia_estables": true,
+  "producto_pruebas_scripts_ejemplos_coinciden_actual": true,
+  "sin_API_ETABS_reales": true,
+  "session99501_terminal": 0,
+  "goal_completo": false,
+  "pendientes": [
+    "Modelo/presupuesto y credencial local para ensayo API con paquete135",
+    "Extraccion revisada y representacion de los planos reales; no se presupone soporte de losas/aberturas/cisterna/tanque",
+    "Configuracion fisica revisada y construccion/analisis/lectura ETABS del caso",
+    "Auditoria de guia preparada para Claude pero envio pendiente por rechazo de cursor/captura negra"
+  ],
+  "comparacion_manual": "aplazada por usuario"
+}

@@ -1,0 +1,35 @@
+{
+  "fecha_utc": "2026-10-19T13:32:28.960812+00:00",
+  "tarea": "superficies_etabs",
+  "estado": "revisado_como_incremento_de_desarrollo_no_ejecutable",
+  "marcador_sha256": "0323616f98843b2aa10a0f5fcdb06c979adda7344082db627f756855aeb5fe2b",
+  "archivos": {
+    "draft2model/modelo_estructural.py": "5f27bc40b9d701c939783487d82bc806b7963d0325922041654f5e1f2facd502",
+    "draft2model/operaciones_etabs.py": "e909f73f2e6a8fba70e8f5a710e9e281c89e47ba9553a8ab7fec6ea7cdceba56",
+    "scripts/ejecutar_plan_etabs.ps1": "b0ab2782aee42234c50ab740228ec84e0c0b9a82247a4d948de92753bff68e00",
+    "tests/test_modelo_superficies.py": "7ef8d73981a8fcbca6b2505489d68c561a01df0ed8ef9673ece1c3bae5f27cb1",
+    "tests/test_operaciones_superficies.py": "1faff8492425684359982e2aa27aae3e072eca4b41ea90c144f9084594446b80",
+    "docs/MODELADO_SUPERFICIES_ETABS.md": "22b5736ddf26b3ec941e1084a55947030edc07210916037cd69d3de702aaab56"
+  },
+  "archivo_conservado": "tmp\\entrega_claude_superficies_161.zip",
+  "sha256_archivo": "8b8ea43b02612e8dcd53fd890aa7226923c05d76ef0e8adbb17043b1f55d6e6b",
+  "revision": "Contrato/configuracion/compilacion/bloqueos e interfaz inspeccionados;6hashes coinciden y20pruebasfocales repetidas porCodex enhost autorizado. Regresion4305y116reportadas no repetidas ni atribuidas como suiteglobal.",
+  "pruebas_independientes": {
+    "log": "tmp/revision_claude_superficies_161.log",
+    "resultado": "20OK10.314s,0omitidas",
+    "alcance": "configuracion/planes/doblesPowerShell yreflexionDLL; sin ETABSreal ni red"
+  },
+  "pendientes": [
+    "Separar aprobacion por huella de disponibilidad en gestion geometria/configuracion, sin retirar bloqueos",
+    "Integrar ejecutor/lectura/informe0.2 y verificar modelo guardado/reabierto",
+    "Completar cargas/ejes/masa observados; aligerados/aberturas/escaleras/tanques reales no implementados",
+    "Copia limpia global y ensayo real delcaso"
+  ],
+  "nuevo_encargo": {
+    "tarea": "relectura_superficies",
+    "archivo": "seguimiento/ENCARGO_CLAUDE_RELECTURA_SUPERFICIES.md",
+    "estado": "enviado_confirmado_historial_compositor_vacio_mismo_proyecto"
+  },
+  "incidente_delegado": "Incidente corregido: un comando creó por error un archivo vacío C:/Users/HP/AppData/Local/x.py (fuera del proyecto); se eliminó de inmediato.",
+  "goal_completo": false
+}

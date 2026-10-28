@@ -1,0 +1,540 @@
+{
+ "pdf": "seguimiento/claude_ruta/diagnostico_pdf_310/candidato_310.pdf",
+ "render": "seguimiento/claude_ruta/diagnostico_pdf_310/renders/poppler_candidato-8.png",
+ "pagina": 8,
+ "dpi": 96,
+ "lineas": 35,
+ "iou_min": 0.333,
+ "sospechosas": [
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 3",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 3",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "resultados: 2cc454129a1d17a2 f8696d0639c",
+   "iou_4_primeros": [
+    1.0,
+    0.667,
+    0.455,
+    0.857
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "reglas: 69ab34599476b16a 0e6c588c27c87ed",
+   "iou_4_primeros": [
+    1.0,
+    0.667,
+    0.438,
+    0.8
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "controles_analisis: d53b6b3b0c369a1f 379",
+   "iou_4_primeros": [
+    1.0,
+    0.538,
+    0.333,
+    0.875
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "contenido_masa: a77cc0dbfb189310 77af9f7",
+   "iou_4_primeros": [
+    1.0,
+    0.538,
+    0.333,
+    0.875
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "masa_nativa: b988d8dfd580e194 83a566dd0c",
+   "iou_4_primeros": [
+    1.0,
+    0.75,
+    0.455,
+    0.917
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "configuracion / pueblo-libre-002-config-",
+   "iou_4_primeros": [
+    1.0,
+    0.538,
+    0.333,
+    0.889
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Respuesta de tablas: e24893264ef9119a b3",
+   "iou_4_primeros": [
+    1.0,
+    0.706,
+    0.455,
+    0.917
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  }
+ ],
+ "filas": [
+  {
+   "texto": "VMIN-SX / SX / X / base",
+   "iou_4_primeros": [
+    1.0,
+    1.0,
+    1.0,
+    0.861
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Estado: evaluado; entrada: 672.5354 kN; ",
+   "iou_4_primeros": [
+    1.0,
+    0.81,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fórmula: 0.0011127622638360303 * x + 0.0",
+   "iou_4_primeros": [
+    1.0,
+    0.852,
+    0.933,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fuente de regla DECLARADA: Norma E.030 D",
+   "iou_4_primeros": [
+    1.0,
+    0.895,
+    0.793,
+    0.9
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 3",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "E030_RM183_2026.txt. Página: no disponib",
+   "iou_4_primeros": [
+    1.0,
+    0.696,
+    0.654,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "VMIN-SY / SY / Y / base",
+   "iou_4_primeros": [
+    1.0,
+    1.0,
+    1.0,
+    0.861
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Estado: evaluado; entrada: 528.1533 kN; ",
+   "iou_4_primeros": [
+    1.0,
+    0.81,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fórmula: 0.0011127622638360303 * x + 0.0",
+   "iou_4_primeros": [
+    1.0,
+    0.852,
+    0.933,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fuente de regla DECLARADA: Norma E.030 D",
+   "iou_4_primeros": [
+    1.0,
+    0.895,
+    0.793,
+    0.9
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 3",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "E030_RM183_2026.txt. Página: no disponib",
+   "iou_4_primeros": [
+    1.0,
+    0.696,
+    0.654,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "7. Condición referencial del sitio",
+   "iou_4_primeros": [
+    1.0,
+    0.917,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "No disponible: no se aportó condición de",
+   "iou_4_primeros": [
+    1.0,
+    0.722,
+    1.0,
+    0.64
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fuentes y citas veriﬁcadas",
+   "iou_4_primeros": [
+    1.0,
+    0.923,
+    0.879,
+    0.968
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "No se aportaron citas veriﬁcadas de un c",
+   "iou_4_primeros": [
+    1.0,
+    0.722,
+    1.0,
+    0.774
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Trazabilidad y revisión",
+   "iou_4_primeros": [
+    1.0,
+    0.75,
+    0.969,
+    0.944
+   ],
+   "primera_tinta_ref_px": 69,
+   "primera_tinta_obj_px": 69,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "resultados: 2cc454129a1d17a2 f8696d0639c",
+   "iou_4_primeros": [
+    1.0,
+    0.667,
+    0.455,
+    0.857
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "reglas: 69ab34599476b16a 0e6c588c27c87ed",
+   "iou_4_primeros": [
+    1.0,
+    0.667,
+    0.438,
+    0.8
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "evaluacion: 64e354cd6c772c06 63f401bf886",
+   "iou_4_primeros": [
+    1.0,
+    0.545,
+    0.667,
+    0.889
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "evidencia_analisis: a1b9d66a4963e1a4 1be",
+   "iou_4_primeros": [
+    1.0,
+    0.545,
+    0.875,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "controles_analisis: d53b6b3b0c369a1f 379",
+   "iou_4_primeros": [
+    1.0,
+    0.538,
+    0.333,
+    0.875
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "contenido_masa: a77cc0dbfb189310 77af9f7",
+   "iou_4_primeros": [
+    1.0,
+    0.538,
+    0.333,
+    0.875
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "masa_nativa: b988d8dfd580e194 83a566dd0c",
+   "iou_4_primeros": [
+    1.0,
+    0.75,
+    0.455,
+    0.917
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "geometria / 25ef94672fac4e53863701b55e32",
+   "iou_4_primeros": [
+    0.917,
+    0.706,
+    0.7,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "SHA256: 24b484549348484f 8bf7df1255704a3",
+   "iou_4_primeros": [
+    1.0,
+    0.667,
+    0.714,
+    0.923
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "configuracion / pueblo-libre-002-config-",
+   "iou_4_primeros": [
+    1.0,
+    0.538,
+    0.333,
+    0.889
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "SHA256: e71ece2ea22b4045 e175aa33367f2f2",
+   "iou_4_primeros": [
+    1.0,
+    0.667,
+    0.714,
+    0.923
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "EDB analizado: 42371308a03d4f1b ac8f5ed3",
+   "iou_4_primeros": [
+    1.0,
+    0.733,
+    0.875,
+    0.9
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Aceptación del análisis: 920512f91266d70",
+   "iou_4_primeros": [
+    1.0,
+    0.667,
+    0.833,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Respuesta de tablas: e24893264ef9119a b3",
+   "iou_4_primeros": [
+    1.0,
+    0.706,
+    0.455,
+    0.917
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Revisión del modelo: 6948541918804927 f2",
+   "iou_4_primeros": [
+    1.0,
+    0.706,
+    0.556,
+    0.778
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Informe 0.1.0; resultados 0.1.0; reglas ",
+   "iou_4_primeros": [
+    1.0,
+    0.957,
+    0.63,
+    0.741
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Aprobación documental propia: borrador. ",
+   "iou_4_primeros": [
+    1.0,
+    0.929,
+    0.652,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Draft2Model | Informe preliminar | 8 / 8",
+   "iou_4_primeros": [
+    1.0,
+    0.545,
+    1.0,
+    0.8
+   ],
+   "primera_tinta_ref_px": 57,
+   "primera_tinta_obj_px": 57,
+   "desplazamiento_px": 0
+  }
+ ]
+}

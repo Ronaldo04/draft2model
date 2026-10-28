@@ -1,0 +1,24 @@
+{
+  "reparto": "REPARTO_WEB_MASA_267",
+  "estado": "confirmado_por_claude",
+  "fecha": "2026-10-22",
+  "codex_exclusivo": [
+    "draft2model/revision_lecturas.py",
+    "draft2model/revision_entregables.py",
+    "draft2model/informe.py (solo puente de fuente web en _masa_nativa)",
+    "draft2model/revision_web/lecturas.js",
+    "draft2model/revision_web/informes.js",
+    "draft2model/revision_web/index.html"
+  ],
+  "ediciones_en_curso_de_claude_en_esos_archivos": "ninguna; la última edición de informe.py (sección masa_nativa y CLI) está en la entrega 06-cbfdd041",
+  "claude_conserva": [
+    "libro_masa.py",
+    "lectura_analisis.py",
+    "scripts/leer_analisis_etabs.ps1",
+    "normativa_e030.py",
+    "seguimiento/claude_ruta/recorrido_etabs_09t.py",
+    "seguimiento/claude_ruta/resultados_09.py"
+  ],
+  "cadena_viva": "resultados_09.py sobre tmp/recorrido_09d1 (lectura → masa nativa → normalización → controles → reglas → informe por CLI); no se relanza 09D",
+  "nota": "Si la cadena CLI necesita cambiar algo de informe.py fuera de _masa_nativa, se avisará antes de editar."
+}

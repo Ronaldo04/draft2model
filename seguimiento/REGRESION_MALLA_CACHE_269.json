@@ -1,0 +1,15 @@
+{
+  "fecha_utc": "2026-10-23T04:26:04.126962+00:00",
+  "pruebas": 8,
+  "fallos": 0,
+  "errores": 0,
+  "omisiones": 0,
+  "segundos": 23.249,
+  "log": "tmp/regresion_malla_cache_269.log",
+  "sha256_log": "abc1aa36fee756f5fa6a0e562365ec2d31ea7f3c37e05434a4ad1fcdc7d0756b",
+  "sha256_test_archivo_observado_tras_pruebas": "25cd877a74301f23dfb5d1ba14c2973e4e7b59f4fe4c41bc5e7e6a24c95b55aa",
+  "alcance": "Regresiones de malla: igualdad completa, entrada inválida, mutaciones durante cálculo, partición/compatibilidad adulteradas y concurrencia. No prueba piloto ETABS.",
+  "sesion": 63348,
+  "estado_sesion": "terminal0",
+  "goal_completo": false
+}

@@ -1,0 +1,33 @@
+{
+  "fecha_utc": "2026-10-23T20:59:50.120282+00:00",
+  "runtime": "tmp\\runtime_qa_292",
+  "huella_fuentes": "c707cd1cdeef600d230150289bf840c10d8842c4d485bceac582aecd33f09f01",
+  "evaluaciones_reales": 18,
+  "valores_y_decisiones_iguales_286": true,
+  "cocientes_entrada_kN_salida_1": true,
+  "rechazos_con_aprobacion_vigente": [
+    {
+      "unidad": "s",
+      "rechazada_por_unidad": true
+    },
+    {
+      "unidad": "kN·m",
+      "rechazada_por_unidad": true
+    },
+    {
+      "unidad": 1,
+      "rechazada_por_unidad": true
+    },
+    {
+      "unidad": null,
+      "rechazada_por_unidad": true
+    }
+  ],
+  "compatibilidad_sin_campo": true,
+  "HTML_sintetico_render_completo": true,
+  "sha256_reglas_reales": "10beff5d910d72a6c28ab387a03cbe1e896c22e4e32bca203862cf8c69f8d736",
+  "limites": "No revisión normativa profesional ni nueva revalidación de fuentes nativas; informe/PDF real corregido aún pendiente.",
+  "api_remota": false,
+  "etabs_ejecutado": false,
+  "goal_completo": false
+}

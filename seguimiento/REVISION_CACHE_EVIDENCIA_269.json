@@ -1,0 +1,15 @@
+{
+  "fecha_utc": "2026-10-23T04:19:27.410379+00:00",
+  "pruebas": 2,
+  "errores": 0,
+  "omisiones": 0,
+  "segundos": 4.576,
+  "resultado": "Plan rechaza original y geometría archivada alterados pese a cache caliente.",
+  "alcance": "Fixtures públicas de generación de plan; sin ETABS ni APIs.",
+  "fuentes_sha256": {
+    "seguimiento/test_cache_evidencia_269.py": "08a94318debaed735def48a47e436e9ceb77eb08883644cceb5fe6a718c1128b",
+    "draft2model/malla_preparacion.py": "7c29f9b5df88d36479fe7308c70785d429cc40ff11b3b7ec0979c79d9de19b89",
+    "draft2model/cache_malla_pura.py": "0926ced7eb4abc3874425ae4db724f4c1ff2dd254ce8173e4cd1e17932073c95"
+  },
+  "goal_completo": false
+}

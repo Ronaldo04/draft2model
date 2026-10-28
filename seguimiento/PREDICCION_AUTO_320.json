@@ -1,0 +1,2682 @@
+{
+  "contrato": "draft2model.prediccion_offsets_auto_candidato",
+  "version_candidato": "0.2.0-319",
+  "lee_solver": false,
+  "configuracion": {
+    "etabs_version": "21.1.0",
+    "unidades": "kN_m_C",
+    "tolerancia_union_m": 0.001,
+    "procedencia_tolerancia": "configuracion_verificada",
+    "vigas": null
+  },
+  "estado": "prediccion",
+  "tolerancia_ensayada": true,
+  "problemas_plan": [],
+  "vigas": [
+    {
+      "viga": "VS-Z1-1-4",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N1-V0211",
+        "N1-V0234"
+      ],
+      "L_m": 0.18599999999999994,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N1-V0211",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E28-P1",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N1-V0234",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": "experimental_315/316: un extremo -> L − 2·tol",
+      "offsets": {
+        "I": 0.18399999999999994,
+        "J": 0.0,
+        "suma": 0.18399999999999994,
+        "Lc": 0.0020000000000000018
+      },
+      "descuento_peso": {
+        "kN": 0.19871999999999995,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z1-1-5",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N1-V0234",
+        "N1-V0278"
+      ],
+      "L_m": 0.5999999999999996,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N1-V0234",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N1-V0278",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)",
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.0,
+        "suma": 0.0,
+        "Lc": 0.5999999999999996
+      },
+      "descuento_peso": {
+        "kN": 0.0,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z1-1-6",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N1-V0278",
+        "N1-V0301"
+      ],
+      "L_m": 0.21499999999999986,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N1-V0278",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N1-V0301",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A4-P1",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.2,
+        "suma": 0.2,
+        "Lc": 0.014999999999999847
+      },
+      "descuento_peso": {
+        "kN": 0.21599999999999997,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z1-2-11",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N1-V0336",
+        "N1-V0383"
+      ],
+      "L_m": 2.4510000000000005,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N1-V0336",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E16-P1",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N1-V0383",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.2,
+        "J": 0.0,
+        "suma": 0.2,
+        "Lc": 2.2510000000000003
+      },
+      "descuento_peso": {
+        "kN": 0.21599999999999997,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z1-3-1",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N1-V0189",
+        "N1-V0212"
+      ],
+      "L_m": 0.18599999999999994,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N1-V0189",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E3-P1",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N1-V0212",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": "experimental_315/316: un extremo -> L − 2·tol",
+      "offsets": {
+        "I": 0.18399999999999994,
+        "J": 0.0,
+        "suma": 0.18399999999999994,
+        "Lc": 0.0020000000000000018
+      },
+      "descuento_peso": {
+        "kN": 0.19871999999999995,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z1-3-2",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N1-V0212",
+        "N1-V0256"
+      ],
+      "L_m": 0.5999999999999996,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N1-V0212",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N1-V0256",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)",
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.0,
+        "suma": 0.0,
+        "Lc": 0.5999999999999996
+      },
+      "descuento_peso": {
+        "kN": 0.0,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z1-3-3",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N1-V0256",
+        "N1-V0279"
+      ],
+      "L_m": 0.21499999999999986,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N1-V0256",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N1-V0279",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A1-P1",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.2,
+        "suma": 0.2,
+        "Lc": 0.014999999999999847
+      },
+      "descuento_peso": {
+        "kN": 0.21599999999999997,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z1-A-10",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N1-V0011",
+        "N1-V0012"
+      ],
+      "L_m": 0.3129999999999997,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N1-V0011",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A9-P1",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N1-V0012",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E18-P1",
+              "seccion": "COL-4-Y",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [],
+      "regla_exceso": "experimental_315/316: ambos extremos -> 0/0",
+      "offsets": {
+        "I": 0.0,
+        "J": 0.0,
+        "suma": 0.0,
+        "Lc": 0.3129999999999997
+      },
+      "descuento_peso": {
+        "kN": 0.0,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z1-A-7",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N1-V0008",
+        "N1-V0009"
+      ],
+      "L_m": 0.1070000000000002,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N1-V0008",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A8-P1",
+              "seccion": "COL-4-Y",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N1-V0009",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": "experimental_315/316: un extremo -> L − 2·tol",
+      "offsets": {
+        "I": 0.1050000000000002,
+        "J": 0.0,
+        "suma": 0.1050000000000002,
+        "Lc": 0.0020000000000000018
+      },
+      "descuento_peso": {
+        "kN": 0.11340000000000021,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z1-A-8",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N1-V0009",
+        "N1-V0010"
+      ],
+      "L_m": 0.15399999999999991,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N1-V0009",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N1-V0010",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E13-P1",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.15,
+        "suma": 0.15,
+        "Lc": 0.00399999999999992
+      },
+      "descuento_peso": {
+        "kN": 0.162,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z1-A-9",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N1-V0010",
+        "N1-V0011"
+      ],
+      "L_m": 2.176,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N1-V0010",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E13-P1",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N1-V0011",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A9-P1",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.15,
+        "J": 0.15,
+        "suma": 0.3,
+        "Lc": 1.8760000000000003
+      },
+      "descuento_peso": {
+        "kN": 0.324,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z2-1-15",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N2-V0211",
+        "N2-V0234"
+      ],
+      "L_m": 0.18599999999999994,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N2-V0211",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E28-P2",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N2-V0234",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": "experimental_315/316: un extremo -> L − 2·tol",
+      "offsets": {
+        "I": 0.18399999999999994,
+        "J": 0.0,
+        "suma": 0.18399999999999994,
+        "Lc": 0.0020000000000000018
+      },
+      "descuento_peso": {
+        "kN": 0.19871999999999995,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z2-1-16",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N2-V0234",
+        "N2-V0278"
+      ],
+      "L_m": 0.5999999999999996,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N2-V0234",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N2-V0278",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)",
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.0,
+        "suma": 0.0,
+        "Lc": 0.5999999999999996
+      },
+      "descuento_peso": {
+        "kN": 0.0,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z2-1-17",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N2-V0278",
+        "N2-V0301"
+      ],
+      "L_m": 0.21499999999999986,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N2-V0278",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N2-V0301",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A4-P2",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.2,
+        "suma": 0.2,
+        "Lc": 0.014999999999999847
+      },
+      "descuento_peso": {
+        "kN": 0.21599999999999997,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z2-2-22",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N2-V0336",
+        "N2-V0383"
+      ],
+      "L_m": 2.4510000000000005,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N2-V0336",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E16-P2",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N2-V0383",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.2,
+        "J": 0.0,
+        "suma": 0.2,
+        "Lc": 2.2510000000000003
+      },
+      "descuento_peso": {
+        "kN": 0.21599999999999997,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z2-3-12",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N2-V0189",
+        "N2-V0212"
+      ],
+      "L_m": 0.18599999999999994,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N2-V0189",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E3-P2",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N2-V0212",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": "experimental_315/316: un extremo -> L − 2·tol",
+      "offsets": {
+        "I": 0.18399999999999994,
+        "J": 0.0,
+        "suma": 0.18399999999999994,
+        "Lc": 0.0020000000000000018
+      },
+      "descuento_peso": {
+        "kN": 0.19871999999999995,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z2-3-13",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N2-V0212",
+        "N2-V0256"
+      ],
+      "L_m": 0.5999999999999996,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N2-V0212",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N2-V0256",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)",
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.0,
+        "suma": 0.0,
+        "Lc": 0.5999999999999996
+      },
+      "descuento_peso": {
+        "kN": 0.0,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z2-3-14",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N2-V0256",
+        "N2-V0279"
+      ],
+      "L_m": 0.21499999999999986,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N2-V0256",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N2-V0279",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A1-P2",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.2,
+        "suma": 0.2,
+        "Lc": 0.014999999999999847
+      },
+      "descuento_peso": {
+        "kN": 0.21599999999999997,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z2-A-18",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N2-V0008",
+        "N2-V0009"
+      ],
+      "L_m": 0.1070000000000002,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N2-V0008",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A8-P2",
+              "seccion": "COL-4-Y",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N2-V0009",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": "experimental_315/316: un extremo -> L − 2·tol",
+      "offsets": {
+        "I": 0.1050000000000002,
+        "J": 0.0,
+        "suma": 0.1050000000000002,
+        "Lc": 0.0020000000000000018
+      },
+      "descuento_peso": {
+        "kN": 0.11340000000000021,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z2-A-19",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N2-V0009",
+        "N2-V0010"
+      ],
+      "L_m": 0.15399999999999991,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N2-V0009",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N2-V0010",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E13-P2",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.15,
+        "suma": 0.15,
+        "Lc": 0.00399999999999992
+      },
+      "descuento_peso": {
+        "kN": 0.162,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z2-A-20",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N2-V0010",
+        "N2-V0011"
+      ],
+      "L_m": 2.176,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N2-V0010",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E13-P2",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N2-V0011",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A9-P2",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.15,
+        "J": 0.15,
+        "suma": 0.3,
+        "Lc": 1.8760000000000003
+      },
+      "descuento_peso": {
+        "kN": 0.324,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z2-A-21",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N2-V0011",
+        "N2-V0012"
+      ],
+      "L_m": 0.3129999999999997,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N2-V0011",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A9-P2",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N2-V0012",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E18-P2",
+              "seccion": "COL-4-Y",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [],
+      "regla_exceso": "experimental_315/316: ambos extremos -> 0/0",
+      "offsets": {
+        "I": 0.0,
+        "J": 0.0,
+        "suma": 0.0,
+        "Lc": 0.3129999999999997
+      },
+      "descuento_peso": {
+        "kN": 0.0,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z3-1-26",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N3-V0211",
+        "N3-V0234"
+      ],
+      "L_m": 0.18599999999999994,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N3-V0211",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E28-P3",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N3-V0234",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": "experimental_315/316: un extremo -> L − 2·tol",
+      "offsets": {
+        "I": 0.18399999999999994,
+        "J": 0.0,
+        "suma": 0.18399999999999994,
+        "Lc": 0.0020000000000000018
+      },
+      "descuento_peso": {
+        "kN": 0.19871999999999995,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z3-1-27",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N3-V0234",
+        "N3-V0278"
+      ],
+      "L_m": 0.5999999999999996,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N3-V0234",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N3-V0278",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)",
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.0,
+        "suma": 0.0,
+        "Lc": 0.5999999999999996
+      },
+      "descuento_peso": {
+        "kN": 0.0,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z3-1-28",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N3-V0278",
+        "N3-V0301"
+      ],
+      "L_m": 0.21499999999999986,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N3-V0278",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N3-V0301",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A4-P3",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.2,
+        "suma": 0.2,
+        "Lc": 0.014999999999999847
+      },
+      "descuento_peso": {
+        "kN": 0.21599999999999997,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z3-2-33",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N3-V0336",
+        "N3-V0383"
+      ],
+      "L_m": 2.4510000000000005,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N3-V0336",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E16-P3",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N3-V0383",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.2,
+        "J": 0.0,
+        "suma": 0.2,
+        "Lc": 2.2510000000000003
+      },
+      "descuento_peso": {
+        "kN": 0.21599999999999997,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z3-3-23",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N3-V0189",
+        "N3-V0212"
+      ],
+      "L_m": 0.18599999999999994,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N3-V0189",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E3-P3",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N3-V0212",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": "experimental_315/316: un extremo -> L − 2·tol",
+      "offsets": {
+        "I": 0.18399999999999994,
+        "J": 0.0,
+        "suma": 0.18399999999999994,
+        "Lc": 0.0020000000000000018
+      },
+      "descuento_peso": {
+        "kN": 0.19871999999999995,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z3-3-24",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N3-V0212",
+        "N3-V0256"
+      ],
+      "L_m": 0.5999999999999996,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N3-V0212",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N3-V0256",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)",
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.0,
+        "suma": 0.0,
+        "Lc": 0.5999999999999996
+      },
+      "descuento_peso": {
+        "kN": 0.0,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z3-3-25",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N3-V0256",
+        "N3-V0279"
+      ],
+      "L_m": 0.21499999999999986,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N3-V0256",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N3-V0279",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A1-P3",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.2,
+        "suma": 0.2,
+        "Lc": 0.014999999999999847
+      },
+      "descuento_peso": {
+        "kN": 0.21599999999999997,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z3-A-29",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N3-V0008",
+        "N3-V0009"
+      ],
+      "L_m": 0.1070000000000002,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N3-V0008",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A8-P3",
+              "seccion": "COL-4-Y",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N3-V0009",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": "experimental_315/316: un extremo -> L − 2·tol",
+      "offsets": {
+        "I": 0.1050000000000002,
+        "J": 0.0,
+        "suma": 0.1050000000000002,
+        "Lc": 0.0020000000000000018
+      },
+      "descuento_peso": {
+        "kN": 0.11340000000000021,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z3-A-30",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N3-V0009",
+        "N3-V0010"
+      ],
+      "L_m": 0.15399999999999991,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N3-V0009",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N3-V0010",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E13-P3",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.15,
+        "suma": 0.15,
+        "Lc": 0.00399999999999992
+      },
+      "descuento_peso": {
+        "kN": 0.162,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z3-A-31",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N3-V0010",
+        "N3-V0011"
+      ],
+      "L_m": 2.176,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N3-V0010",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E13-P3",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N3-V0011",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A9-P3",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.15,
+        "J": 0.15,
+        "suma": 0.3,
+        "Lc": 1.8760000000000003
+      },
+      "descuento_peso": {
+        "kN": 0.324,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z3-A-32",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N3-V0011",
+        "N3-V0012"
+      ],
+      "L_m": 0.3129999999999997,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N3-V0011",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A9-P3",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N3-V0012",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E18-P3",
+              "seccion": "COL-4-Y",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [],
+      "regla_exceso": "experimental_315/316: ambos extremos -> 0/0",
+      "offsets": {
+        "I": 0.0,
+        "J": 0.0,
+        "suma": 0.0,
+        "Lc": 0.3129999999999997
+      },
+      "descuento_peso": {
+        "kN": 0.0,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z4-1-37",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N4-V0212",
+        "N4-V0235"
+      ],
+      "L_m": 0.18599999999999994,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N4-V0212",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E28-P4",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N4-V0235",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": "experimental_315/316: un extremo -> L − 2·tol",
+      "offsets": {
+        "I": 0.18399999999999994,
+        "J": 0.0,
+        "suma": 0.18399999999999994,
+        "Lc": 0.0020000000000000018
+      },
+      "descuento_peso": {
+        "kN": 0.19871999999999995,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z4-1-38",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N4-V0235",
+        "N4-V0279"
+      ],
+      "L_m": 0.5999999999999996,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N4-V0235",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N4-V0279",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)",
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.0,
+        "suma": 0.0,
+        "Lc": 0.5999999999999996
+      },
+      "descuento_peso": {
+        "kN": 0.0,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z4-1-39",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N4-V0279",
+        "N4-V0302"
+      ],
+      "L_m": 0.21499999999999986,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N4-V0279",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N4-V0302",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A4-P4",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.2,
+        "suma": 0.2,
+        "Lc": 0.014999999999999847
+      },
+      "descuento_peso": {
+        "kN": 0.21599999999999997,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z4-2-45",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N4-V0337",
+        "N4-V0384"
+      ],
+      "L_m": 2.4510000000000005,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N4-V0337",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E16-P4",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N4-V0384",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.2,
+        "J": 0.0,
+        "suma": 0.2,
+        "Lc": 2.2510000000000003
+      },
+      "descuento_peso": {
+        "kN": 0.21599999999999997,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z4-3-34",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N4-V0190",
+        "N4-V0213"
+      ],
+      "L_m": 0.18599999999999994,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N4-V0190",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E3-P4",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N4-V0213",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": "experimental_315/316: un extremo -> L − 2·tol",
+      "offsets": {
+        "I": 0.18399999999999994,
+        "J": 0.0,
+        "suma": 0.18399999999999994,
+        "Lc": 0.0020000000000000018
+      },
+      "descuento_peso": {
+        "kN": 0.19871999999999995,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z4-3-35",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N4-V0213",
+        "N4-V0257"
+      ],
+      "L_m": 0.5999999999999996,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N4-V0213",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N4-V0257",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)",
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.0,
+        "suma": 0.0,
+        "Lc": 0.5999999999999996
+      },
+      "descuento_peso": {
+        "kN": 0.0,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z4-3-36",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N4-V0257",
+        "N4-V0280"
+      ],
+      "L_m": 0.21499999999999986,
+      "direccion_xy": [
+        1.0,
+        0.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N4-V0257",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N4-V0280",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A1-P4",
+              "seccion": "COL-2-X",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.2,
+        "suma": 0.2,
+        "Lc": 0.014999999999999847
+      },
+      "descuento_peso": {
+        "kN": 0.21599999999999997,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z4-A-40",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N4-V0008",
+        "N4-V0009"
+      ],
+      "L_m": 0.1070000000000002,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N4-V0008",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A8-P4",
+              "seccion": "COL-4-Y",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N4-V0009",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": "experimental_315/316: un extremo -> L − 2·tol",
+      "offsets": {
+        "I": 0.1050000000000002,
+        "J": 0.0,
+        "suma": 0.1050000000000002,
+        "Lc": 0.0020000000000000018
+      },
+      "descuento_peso": {
+        "kN": 0.11340000000000021,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z4-A-41",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N4-V0009",
+        "N4-V0010"
+      ],
+      "L_m": 0.15399999999999991,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N4-V0009",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N4-V0010",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E13-P4",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.0,
+        "J": 0.15,
+        "suma": 0.15,
+        "Lc": 0.00399999999999992
+      },
+      "descuento_peso": {
+        "kN": 0.162,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z4-A-42",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N4-V0010",
+        "N4-V0011"
+      ],
+      "L_m": 2.176,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N4-V0010",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E13-P4",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N4-V0011",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A9-P4",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.15,
+        "J": 0.15,
+        "suma": 0.3,
+        "Lc": 1.8760000000000003
+      },
+      "descuento_peso": {
+        "kN": 0.324,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z4-A-43",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N4-V0011",
+        "N4-V0012"
+      ],
+      "L_m": 0.20000000000000018,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N4-V0011",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-A9-P4",
+              "seccion": "COL-5-Y",
+              "angulo": 0.0,
+              "cara_m": 0.15
+            }
+          ],
+          "offset_bruto_m": 0.15,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N4-V0012",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        }
+      ],
+      "salvedades": [
+        "J: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": null,
+      "offsets": {
+        "I": 0.15,
+        "J": 0.0,
+        "suma": 0.15,
+        "Lc": 0.05000000000000018
+      },
+      "descuento_peso": {
+        "kN": 0.162,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    },
+    {
+      "viga": "VS-Z4-A-44",
+      "seccion": "VS-15X30",
+      "puntos": [
+        "N4-V0012",
+        "N4-V0013"
+      ],
+      "L_m": 0.11299999999999955,
+      "direccion_xy": [
+        0.0,
+        1.0
+      ],
+      "extremos": [
+        {
+          "lado": "I",
+          "punto": "N4-V0012",
+          "columnas_inferiores": [],
+          "offset_bruto_m": 0.0,
+          "procedencia": [
+            "experimental_315: sin columna junto a muro -> 0 (un caso)"
+          ]
+        },
+        {
+          "lado": "J",
+          "punto": "N4-V0013",
+          "columnas_inferiores": [
+            {
+              "columna": "COL-E18-P4",
+              "seccion": "COL-4-Y",
+              "angulo": 0.0,
+              "cara_m": 0.2
+            }
+          ],
+          "offset_bruto_m": 0.2,
+          "procedencia": [
+            "documental: columnas inferiores; experimental_315: proyección a la cara"
+          ]
+        }
+      ],
+      "salvedades": [
+        "I: muro sin columna (evidencia limitada)"
+      ],
+      "regla_exceso": "experimental_315/316: un extremo -> L − 2·tol",
+      "offsets": {
+        "I": 0.0,
+        "J": 0.11099999999999954,
+        "suma": 0.11099999999999954,
+        "Lc": 0.0020000000000000018
+      },
+      "descuento_peso": {
+        "kN": 0.11987999999999951,
+        "area_m2": 0.045,
+        "gamma_kN_m3": 24.0,
+        "material": "CONCRETO-FC210",
+        "peso_cero_declarado": false,
+        "procedencia": "experimental_278: SelfWtOpt Auto excluye peso en offsets de viga"
+      },
+      "abstencion": []
+    }
+  ],
+  "cobertura": {
+    "pedidas": 45,
+    "completas": 45,
+    "abstenidas": 0
+  },
+  "totales": {
+    "vigas": 45,
+    "offsets_m": 6.353000000000003,
+    "descuento_kN": 6.8612400000000004
+  },
+  "bloqueo_totales": [],
+  "aviso": "Candidato no integrado; totales solo sin problemas de plan y con cobertura completa; no aprueba masa ni ingeniería.",
+  "plan": {
+    "ruta": "data\\private\\pueblo-libre-002\\modelos_construidos\\0f37271307b6449c89c458c60a1640c7\\plan.json",
+    "sha256": "05af3b2594b13946a0e564da4248b206d5ce18c72c1318ef7a0f33ba46bc9d1a"
+  },
+  "configuracion_fuente": {
+    "ruta": "tmp\\configuracion_318_reparacion\\registro.json",
+    "sha256": "d75b43f84bc613fe625912a5b2852a8892ef038235385553e0bba96a88c14078",
+    "sha256_edb": "42371308a03d4f1bac8f5ed3aa5daf0421cdf3de27ff823f8f582c13ad2af394"
+  },
+  "ensayo_ciego": false,
+  "aprueba_ingenieria": false
+}

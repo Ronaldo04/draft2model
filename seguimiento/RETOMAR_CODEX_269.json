@@ -1,0 +1,49 @@
+{
+  "fecha_utc": "2026-10-23T04:49:53.921320+00:00",
+  "clasificacion_turno_anterior": "progreso",
+  "goal_completo": false,
+  "runtime": "tmp/runtime_repro_269",
+  "huella_runtime": "8b4edeecf42001287149d86bf3d7a21043a58a8e1f843b402c5bcac8cdc95656",
+  "reubicacion": {
+    "sesion": 42258,
+    "estado": "terminal0_dos_pasos_verificados_fuentes_y_expediente_sin_cambios",
+    "script": "seguimiento/verificar_reubicacion_269.py",
+    "evidencia_destino": "seguimiento/REUBICACION_CASO_269.json",
+    "no_reiniciar": true,
+    "alcance": "Revalida análisis y vínculo de13resultados desde copia reubicada; no ETABS ni red.",
+    "pid": 27804,
+    "creacion_local": "2026-10-22T23:13:22.13066-05:00",
+    "cpu_s_observado": 396.21875,
+    "analisis_s": 687.9436363000423,
+    "vinculo_resultados_s": 127.84154309995938
+  },
+  "paquete268": {
+    "estado": "fallido_no_publicable",
+    "evidencia": "entregas/AECODE_CANDIDATO_268/ERROR_EMPAQUETADO.json",
+    "fuente_cambiada_durante_copia": "draft2model/lectura_analisis.py",
+    "causa_observada": "Claude añadió dos tablas de diagnóstico sin caso; no usar ZIP fallido como entrega final."
+  },
+  "verificaciones_nuevas": [
+    "seguimiento/REVISION_REGLAS_P_269.json",
+    "seguimiento/REVISION_CACHE_EVIDENCIA_269.json"
+  ],
+  "criterios_cierre": "seguimiento/CRITERIOS_CIERRE_269.json",
+  "vista_usuario": "entregas/VISTA_MODELO_ETABS_268/analizado.EDB",
+  "propietarios": "Claude producto y runner; Codex revisión, anexo y seguimiento. Sin Computer Use rutinario.",
+  "controles_claude": {
+    "pid": 39028,
+    "creacion_local": "2026-10-22T21:24:50.286587-05:00",
+    "estado": "vivo_confirmado_CIM_host",
+    "cpu_s_observado": 6693.9375,
+    "no_reiniciar_solo_por_espera": true
+  },
+  "siguiente_accion": "Revisar nuevo entregable/controles/diagnóstico masa de Claude; QA visual real pendiente por canal CDP. No usar pestañas2/3 como resultados aprobados; no repetir suites. Runtime269 baseline válido de nuevo; despliegue experimental está documentado y cerrado.",
+  "regresion_malla": "seguimiento/REGRESION_MALLA_CACHE_269.json",
+  "coordinacion270": "seguimiento/COORDINACION_CLAUDE_270.json",
+  "qa270": "seguimiento/QA_LISTADOS_270.json",
+  "candidato_ui270": "seguimiento/REVISION_LISTADOS_270.json",
+  "integracion_listados": "seguimiento/REVISION_INTEGRACION_LISTADOS_271.json",
+  "perfil_geometria": "seguimiento/PERFIL_GEOMETRIA_271.json",
+  "qa_servidor13597": "terminal1_detenido_por_CtrlC_para_liberar_recursos_bloqueo_browser",
+  "runtime269": "baseline_restaurado_integralmente_por_hash"
+}

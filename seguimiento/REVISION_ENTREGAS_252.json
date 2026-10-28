@@ -1,0 +1,109 @@
+{
+  "estado": "revisado_incremental_con_limites",
+  "integridad": "seguimiento/INTEGRIDAD_ENTREGAS_251.json",
+  "snapshot": "tmp\\revision_codex_251",
+  "comprobaciones": [
+    {
+      "caso": "fuente revisada draft2model/malla_preparacion.py",
+      "pasa": true
+    },
+    {
+      "caso": "fuente revisada draft2model/particion_superficies.py",
+      "pasa": true
+    },
+    {
+      "caso": "fuente revisada draft2model/compatibilidad_particiones.py",
+      "pasa": true
+    },
+    {
+      "caso": "fuente revisada draft2model/triangulacion_particiones.py",
+      "pasa": true
+    },
+    {
+      "caso": "fuente revisada tests/test_malla_rendimiento_246.py",
+      "pasa": true
+    },
+    {
+      "caso": "fuente revisada draft2model\\masa_contenido.py",
+      "pasa": true
+    },
+    {
+      "caso": "fuente revisada tests\\test_masa_contenido.py",
+      "pasa": true
+    },
+    {
+      "caso": "fuente revisada docs\\MASA_CONTENIDO.md",
+      "pasa": true
+    },
+    {
+      "caso": "fixture liga recibo nativo",
+      "pasa": true
+    },
+    {
+      "caso": "secciones construccion",
+      "pasa": true
+    },
+    {
+      "caso": "secciones reapertura",
+      "pasa": true
+    },
+    {
+      "caso": "resultados fixture no alterados",
+      "pasa": true
+    },
+    {
+      "caso": "recibo nativo igual al auditado249",
+      "pasa": true
+    },
+    {
+      "caso": "relectura sintética verificada",
+      "pasa": true
+    },
+    {
+      "caso": "EDB sintético coincide relectura",
+      "pasa": true
+    },
+    {
+      "caso": "fragmentos normativos conservados",
+      "pasa": true
+    },
+    {
+      "caso": "texto fuente normativa E030_RM183_2026.txt",
+      "pasa": true
+    },
+    {
+      "caso": "texto fuente normativa E060_DS010_2009.txt",
+      "pasa": true
+    },
+    {
+      "caso": "texto fuente normativa E020_DS011_2006.txt",
+      "pasa": true
+    },
+    {
+      "caso": "focales declaradas182",
+      "pasa": true
+    },
+    {
+      "caso": "focales declaradas53",
+      "pasa": true
+    },
+    {
+      "caso": "validación negativa plantilla sin instancia",
+      "pasa": true
+    }
+  ],
+  "ejecuciones_propias": {
+    "contrato_L_plan_CLI": "5OK7.182s en host tras cuota restablecida",
+    "normativa_fixtureL": "7OK0.001s en aislamiento",
+    "despacho_CLI": "10contrastes purosOK",
+    "plantilla": "Entrada inválida devuelve1 yJSON; sin instancia/EDB"
+  },
+  "entorno": "Primer auto-reviewHOST no ejecutado por cuota. ordinaryUsageAllowed volviótrue/primary9% y nueva revisión automática autorizó5pruebas. Restauración de bytes local no ejecutó código. Tres pruebas CLI con fixtures fallaron por WinError5 en aislamiento; se conservan como fallos de entorno, no éxito ni fallo funcional.",
+  "limites": [
+    "No es piloto completo ni aceptación de09E",
+    "Masa deagua solo biblioteca sin consumidores; R249-02abierta",
+    "Escalera y escenarios siguen pendientes",
+    "AcoplamientoIxy no probado; acotar lenguaje generalETABS",
+    "No se repitió suite general ni solver nativo"
+  ]
+}

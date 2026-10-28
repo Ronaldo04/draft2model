@@ -1,0 +1,66 @@
+{
+ "tarea": "auto_315",
+ "estado": "entrega_candidata",
+ "responsable": "Claude",
+ "llamadas_remotas": 0,
+ "ensayo_ciego": false,
+ "fecha_utc": "2026-10-24T08:24:47+00:00",
+ "ejecucion": {
+  "corrida_principal": {
+   "pid": 14212,
+   "error": "colisión de variables PowerShell en K04 (harness)",
+   "application_exit": 0,
+   "salio": true,
+   "edb": null
+  },
+  "reparacion_unica": {
+   "pid": 44832,
+   "inicio_utc": "2026-10-24T08:08:55.6800492Z",
+   "modelo_A": "completo (análisis 0)",
+   "edb_A_sha256": "50318cc561352f95b0fbaa8f66e4788c394ae209c325d081ca31d3edbfa08e73",
+   "modelo_B": "bloqueado por modal ETABS 'Error in dimensioning Arrays. Check available space on disk.' (disco libre suficiente); timeout 900 s",
+   "cierre": "instancia propia ya no existía al terminar el harness; sin terminación forzada; sesiones ajenas 6988/23928/38168 intactas"
+  },
+  "version_etabs": [
+   "21.1.0",
+   0
+  ],
+  "tolerancia_union_por_defecto_m": 0.001
+ },
+ "resultado": {
+  "regla_propuesta": "solo columnas inferiores; distancia a la cara a lo largo del eje de la viga (proyección por ejes locales); muros, superiores y otras vigas 0; suma>=L: un extremo -> L-0,002 m; ambos -> 0/0",
+  "offsets_tras_analisis": true,
+  "H_tol": "abierta (modelo B no ejecutado)"
+ },
+ "archivos_permitidos_sha256": {
+  "seguimiento/claude_ruta/ensayo_auto_315/analizar_315.py": "358cb6a777dfde614465af847d725fffafb7c197e4430a90d684251b1a7a5444",
+  "seguimiento/claude_ruta/ensayo_auto_315/CIERRE_REPARACION_315.json": "ec0e3bce533ef6e98d6a7b37741d0dbf0a1fee3c546ece95da852d43c1f6c21a",
+  "seguimiento/claude_ruta/ensayo_auto_315/CONTRASTE_315_A.json": "583bed42bcea6ec672420d0356a0cc2b5080c8ad531ad5962e22073366a8495b",
+  "seguimiento/claude_ruta/ensayo_auto_315/corrida_principal/registro_315.json": "a75c961928072c6710faa2da4854dd0fb74b7e25abcc5dac1a15d9fc7821be17",
+  "seguimiento/claude_ruta/ensayo_auto_315/corrida_principal.inicio": "6effdcde6559f6c9a81a14cb09978057bd68ddbc2323ebdf36217cb03eddfabd",
+  "seguimiento/claude_ruta/ensayo_auto_315/corrida_principal.salida.txt": "6d84ab7ecc82b1270694621ceac51d4abfb9be0f0c73c8076c9a3490e6221bcd",
+  "seguimiento/claude_ruta/ensayo_auto_315/corrida_reparacion/auto_315_A.$et": "a62cb729bf2b64c6eae6f0703e939224c6410eb01c30a63965d93dd628808584",
+  "seguimiento/claude_ruta/ensayo_auto_315/corrida_reparacion/auto_315_A.EDB": "50318cc561352f95b0fbaa8f66e4788c394ae209c325d081ca31d3edbfa08e73",
+  "seguimiento/claude_ruta/ensayo_auto_315/corrida_reparacion/auto_315_A.ico": "9e7ce32521d059c4dfd2094043a33a3894fcdd315d5120d1a8a38d822565d2ce",
+  "seguimiento/claude_ruta/ensayo_auto_315/corrida_reparacion/auto_315_A.LOG": "6f7be26c85ccd817eb2e0a321545a0ed72d84a182588c616c1cb15ea412d87ea",
+  "seguimiento/claude_ruta/ensayo_auto_315/corrida_reparacion/auto_315_A.OUT": "fb8c6b2a3a741a8d3a063ab162cd572791940506de5ef2c4b4dcdb999f8a5669",
+  "seguimiento/claude_ruta/ensayo_auto_315/corrida_reparacion/registro_315.json": "eab801286655d66a9248b7e29189baeec51fe4047c6b88e0c1ee1b78bfa20a88",
+  "seguimiento/claude_ruta/ensayo_auto_315/corrida_reparacion.inicio": "85dc04355293f87e68da1b53ead9d92c06ec3289d3c67ae790756dd43d03b401",
+  "seguimiento/claude_ruta/ensayo_auto_315/corrida_reparacion.salida.txt": "1f5d17f7e806c48988db6a8d6171ccdd5dd72bdecf886658ab7f2f3459835d93",
+  "seguimiento/claude_ruta/ensayo_auto_315/ensayar_auto_315.ps1": "1e75faa241181901c2211a72e8d4928e9de0f84a86b8018c55da87362028ea5e",
+  "seguimiento/claude_ruta/ensayo_auto_315/ensayar_auto_315_corrida_principal.ps1": "52f6a8631b47512a17ce00980163ff2a34050ccf044122cc88fe77a2cedf3654",
+  "seguimiento/claude_ruta/ensayo_auto_315/INFORME_AUTO_315.md": "31d9a11fac13644a639a8a151f503bf75fe4c282ef4d17230e7ea293c12a6ef5",
+  "seguimiento/claude_ruta/ensayo_auto_315/MATRIZ_PREVIA_315.json": "5e37f80d59b31fb7f2643ff2e1f87dc82badd343cd85a9852bc5469d2fadb730",
+  "seguimiento/claude_ruta/ensayo_auto_315/registro_faseA_copia_0818.json": "1ccfc06a883a630f182cb3e368a1df74248947694b310cbd3bd03b865d0f2ff9",
+  "seguimiento/claude_ruta/ensayo_auto_315/REPARACION_315.md": "a30dcc19b70445cd65cf34f1234d0ae4c5c652186092461fc69d30c188c597b9",
+  "seguimiento/claude_ruta/ensayo_auto_315/SELLO_MATRIZ_315.sha256": "c1a3612368d5e15f0147bee2f8588b745231189409330a8c51ebfa6fa7d310dd"
+ },
+ "limites": [
+  "Un solo conjunto sintético, ETABS 21.1.0, kN-m, secciones rectangulares",
+  "No ciego respecto de 314",
+  "No integra producto ni libro; no aprueba ingeniería",
+  "Modelo B (tolerancia) bloqueado por modal; sin tercera corrida"
+ ],
+ "siguiente_accion": "Ensayo B aislado (SetMergeTol en modelo recién creado en instancia nueva) si Codex lo autoriza; Codex decide integración.",
+ "aceptacion_codex": false
+}

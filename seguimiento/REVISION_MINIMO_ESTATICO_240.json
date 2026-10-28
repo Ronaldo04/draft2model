@@ -1,0 +1,95 @@
+{
+  "estado": "correcto",
+  "modulo_sha256": "850f257320d63a9a094143197200e086db0f0731a54bb8cbda27f912c94fd8f8",
+  "comprobaciones": [
+    {
+      "prueba": "V_T_0",
+      "pasa": true,
+      "esperado": 140.625,
+      "observado": 140.625
+    },
+    {
+      "prueba": "V_T_0.08",
+      "pasa": true,
+      "esperado": 140.625,
+      "observado": 140.625
+    },
+    {
+      "prueba": "V_T_0.4",
+      "pasa": true,
+      "esperado": 140.625,
+      "observado": 140.625
+    },
+    {
+      "prueba": "V_T_1",
+      "pasa": true,
+      "esperado": 56.25,
+      "observado": 56.25
+    },
+    {
+      "prueba": "V_T_2.5",
+      "pasa": true,
+      "esperado": 49.5,
+      "observado": 49.5
+    },
+    {
+      "prueba": "V_T_5",
+      "pasa": true,
+      "esperado": 49.5,
+      "observado": 49.5
+    },
+    {
+      "prueba": "V_T_10",
+      "pasa": true,
+      "esperado": 49.5,
+      "observado": 49.5
+    },
+    {
+      "prueba": "rechazo_TL_0.2",
+      "pasa": true
+    },
+    {
+      "prueba": "rechazo_TP_0",
+      "pasa": true
+    },
+    {
+      "prueba": "rechazo_R_0",
+      "pasa": true
+    },
+    {
+      "prueba": "rechazo_R_-1",
+      "pasa": true
+    },
+    {
+      "prueba": "rechazo_Z_0",
+      "pasa": true
+    },
+    {
+      "prueba": "rechazo_U_0",
+      "pasa": true
+    },
+    {
+      "prueba": "rechazo_S_0",
+      "pasa": true
+    },
+    {
+      "prueba": "rechazo_P_kN_0",
+      "pasa": true
+    },
+    {
+      "prueba": "rechazo_T_-1",
+      "pasa": true
+    },
+    {
+      "prueba": "rechazo_T_nan",
+      "pasa": true
+    },
+    {
+      "prueba": "distincion_espectro_estatico_en_T0",
+      "pasa": true
+    }
+  ],
+  "alcance": "Captura aislada de función corregida. No aceptación de entrega09 ni aplicación al piloto; interpolación e integración siguen pendientes.",
+  "api_llamadas": 0,
+  "producto_modificado": false
+}

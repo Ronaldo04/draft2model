@@ -1,0 +1,17 @@
+{
+  "caso": "provisional-001",
+  "paquete": "bfda0ef3570049b1bc4dca02f11848c6",
+  "expediente_sha256": "3b1ca4a73227157f7a1987b4c95623b72aa7f6c90da3bc30cbd326d0c3f9f98b",
+  "solicitud_sha256": "256170601baa00656fd7c902453e15a1c208a2ef8e8044da577e6c43cd50d181",
+  "imagenes": 10,
+  "fuentes_comprobadas": 25,
+  "duracion_s": 2.609,
+  "validacion_local": "cargar_paquete: hashes, imágenes, fuentes y geometría vinculada aceptados",
+  "api_real": false,
+  "etabs": false,
+  "escrituras_en_expediente": false,
+  "limitaciones": [
+    "No prueba legibilidad semántica, extracción multimodal ni suficiencia de ingeniería.",
+    "No modifica autorización, modelo ni gasto."
+  ]
+}

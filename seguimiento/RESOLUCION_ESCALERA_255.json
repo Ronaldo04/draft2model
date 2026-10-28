@@ -1,0 +1,255 @@
+{
+  "estado": "resolucion_parcial_sin_aprobacion",
+  "niveles_confirmados_usuario_m": [
+    0,
+    2.6,
+    5.2,
+    7.8,
+    10.4
+  ],
+  "fuente_niveles": "seguimiento/DECISION_USUARIO_246.json",
+  "tabla_entrepiso": [
+    {
+      "entrepiso": 1,
+      "z_extremos_confirmados_usuario_m": [
+        0.0,
+        2.6
+      ],
+      "desnivel_m": 2.6,
+      "contrahuellas_confirmadas": null,
+      "cotas_descansos_confirmadas_m": null,
+      "garganta_tipica_leida_m": 0.15,
+      "base_espesores": "E02 detalle tipico, no asignacion automatica por tramo",
+      "apoyos_resueltos": false,
+      "trazado_leido": "arranque/llegada rectos A01/A02",
+      "numeros_visibles": "A01 1..9 hasta corte; A02 1..15",
+      "candidato16": {
+        "contrahuella_m": 0.1625,
+        "desarrollo_15_huellas_si_025_m": 3.75
+      },
+      "alternativa15": {
+        "contrahuella_m": 0.17333333333333334,
+        "intervalos_entre15_marcas_m": 3.5
+      }
+    },
+    {
+      "entrepiso": 2,
+      "z_extremos_confirmados_usuario_m": [
+        2.6,
+        5.2
+      ],
+      "desnivel_m": 2.6,
+      "contrahuellas_confirmadas": null,
+      "cotas_descansos_confirmadas_m": null,
+      "garganta_tipica_leida_m": 0.15,
+      "base_espesores": "E02 detalle tipico, no asignacion automatica por tramo",
+      "apoyos_resueltos": false,
+      "trazado_leido": "U superior -> exterior -> inferior; planta tipicaA02 / llegadaA03",
+      "candidato_no_aprobado": {
+        "contrahuellas_por_tramo": [
+          4,
+          8,
+          4
+        ],
+        "contrahuella_m": 0.1625,
+        "descansos_z_m": [
+          3.25,
+          4.55
+        ]
+      },
+      "numeros_visibles": "A02 16..22 parcialmente cortado; sin numeracion propia de cada piso"
+    },
+    {
+      "entrepiso": 3,
+      "z_extremos_confirmados_usuario_m": [
+        5.2,
+        7.8
+      ],
+      "desnivel_m": 2.6,
+      "contrahuellas_confirmadas": null,
+      "cotas_descansos_confirmadas_m": null,
+      "garganta_tipica_leida_m": 0.15,
+      "base_espesores": "E02 detalle tipico, no asignacion automatica por tramo",
+      "apoyos_resueltos": false,
+      "trazado_leido": "U superior -> exterior -> inferior; planta tipicaA02 / llegadaA03",
+      "candidato_no_aprobado": {
+        "contrahuellas_por_tramo": [
+          4,
+          8,
+          4
+        ],
+        "contrahuella_m": 0.1625,
+        "descansos_z_m": [
+          5.85,
+          7.15
+        ]
+      },
+      "numeros_visibles": "A02 16..22 parcialmente cortado; sin numeracion propia de cada piso"
+    },
+    {
+      "entrepiso": 4,
+      "z_extremos_confirmados_usuario_m": [
+        7.8,
+        10.4
+      ],
+      "desnivel_m": 2.6,
+      "contrahuellas_confirmadas": null,
+      "cotas_descansos_confirmadas_m": null,
+      "garganta_tipica_leida_m": 0.15,
+      "base_espesores": "E02 detalle tipico, no asignacion automatica por tramo",
+      "apoyos_resueltos": false,
+      "trazado_leido": "U superior -> exterior -> inferior; planta tipicaA02 / llegadaA03",
+      "candidato_no_aprobado": {
+        "contrahuellas_por_tramo": [
+          4,
+          8,
+          4
+        ],
+        "contrahuella_m": 0.1625,
+        "descansos_z_m": [
+          8.45,
+          9.75
+        ]
+      },
+      "numeros_visibles": "A03 50..64, arranque49 no rotulado"
+    }
+  ],
+  "controles": {
+    "a03_numeros_impresos": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ],
+    "a03_cantidad_numeros_impresos": 15,
+    "a03_arranque49": "no rotulado; completacion hipotetica de borde",
+    "pares_misma_posicion_a02_a03": [
+      [
+        17,
+        50
+      ],
+      [
+        18,
+        51
+      ],
+      [
+        19,
+        52
+      ],
+      [
+        20,
+        53
+      ],
+      [
+        21,
+        54
+      ],
+      [
+        22,
+        55
+      ]
+    ],
+    "diferencia_numeracion": 33,
+    "diferencia_esperada_dos_entrepiso16": 32,
+    "hipotesis_U_ultimo": {
+      "contrahuellas_por_tramo": [
+        4,
+        8,
+        4
+      ],
+      "contrahuella_m": 0.1625,
+      "huella_m": 0.25,
+      "intervalos_visibles_por_tramo": [
+        3,
+        7,
+        3
+      ],
+      "desarrollos_horizontales_m": [
+        0.75,
+        1.75,
+        0.75
+      ],
+      "descansos_candidatos_z_m": [
+        8.45,
+        9.75
+      ],
+      "llegada_z_m": 10.4,
+      "envolvente_local_m": [
+        1.95,
+        4.15
+      ]
+    },
+    "primero_si15": {
+      "contrahuella_m": 0.17333333333333334,
+      "intervalos_entre15_marcas": 14,
+      "desarrollo_14_huellas_m": 3.5
+    },
+    "primero_si16": {
+      "contrahuella_m": 0.1625,
+      "huellas_entre16_contrahuellas": 15,
+      "desarrollo_15_huellas_m": 3.75
+    },
+    "alternativa_numerica_no_geometria_confirmada": [
+      15,
+      16,
+      17,
+      16
+    ],
+    "no_prueba": [
+      "numero real de contrahuellas por piso",
+      "cotas reales de descansos",
+      "conectividad C6",
+      "malla o modelo"
+    ]
+  },
+  "conflictos_condicionados": [
+    {
+      "hecho": "A03 imprime15 numeros50..64",
+      "inferencia": "4+8+4 exige arranque49 no rotulado"
+    },
+    {
+      "hecho": "A02/A03 pares posicion equivalente difieren33",
+      "condicion": "Si misma fase y numeracion acumulada, repeticion16 en dos entrepisos exigiria32",
+      "resolucion": "No elegir convencion ni repetir reparto automaticamente"
+    }
+  ],
+  "conexion_C6_H": {
+    "medido_derivado_248": "C6 centro15.388,4.798; lado largoX; discrepancia.15cuadro/.20planta",
+    "contacto_Z_no_confirmado": true,
+    "limitacion_modelo09E": "C6N0..N3 independiente no prueba apoyo deU; no inventar prolongacionN4",
+    "encuentros_tipicos_E02": [
+      "3-3",
+      "3-3 o10-10",
+      "2-2 profundidadlocal.50/general.50o.40"
+    ]
+  },
+  "pregunta_unica": {
+    "texto": "En el primer entrepiso0 a2.60, los numeros1..15 deA02 son15 huellas mas la llegada que forma la16a contrahuella, o15 contrahuellas en total?",
+    "alternativas": [
+      "A:16 contrahuellas de.1625m; identificar llegada",
+      "B:15 contrahuellas de.173333m; no extrapolar",
+      "C:sin conteo verificado, mantener pendiente y consultar solo ese detalle"
+    ],
+    "no_equivale_a": "aprobacion del modelo ni de repeticion entrepisos ni conexionC6"
+  },
+  "reproduccion": "python -B tmp/escalera_resolucion_255/contraste_conteos.py",
+  "ejecuciones": {
+    "pdf_reabiertos": 0,
+    "producto": 0,
+    "malla": 0,
+    "etabs": 0,
+    "api_red": 0,
+    "gui": 0
+  }
+}

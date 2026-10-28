@@ -1,0 +1,10 @@
+{
+  "encargo": "seguimiento/CONTINUACION_CLAUDE_274_EXTREMOS.md",
+  "estado": "enviado_confirmado",
+  "conversacion": "Comandos CLI geometría",
+  "proyecto_visible": "PROYECTO FINAL",
+  "envio": "Reemplazo de a autorizado expresamente por el usuario. set_value del compositor202, Return, observación posterior: mensaje en historial, heading262 y compositor202 vacío. No se consultará rutinariamente la ventana.",
+  "proceso_controles": {"pid":39028,"creacion":"2026-10-22T21:24:50.286587-05:00","estado":"vivo confirmado mediante CIM host en este turno; no reiniciado"},
+  "restriccion_proyectos": "seguimiento/ORDEN_PROYECTOS_273.md",
+  "goal_completo": false
+}

@@ -1,0 +1,420 @@
+{
+ "tarea": "benchmark_311_inventario",
+ "caso": "provisional-001",
+ "apis_ejecutadas": 0,
+ "fuentes_sha256": {
+  "seguimiento/CONSUMO_API_211.json": "413b9c712c4b85cc29b1a74b095372718dc73d41bf9b990d956c407cd5473619",
+  "seguimiento/claude_ruta/METRICAS_EXTRACCION_09.json": "03b1435be07e1faa30f39eebf2199618849fbb9dcfd2ad47a8940ee6cac8b32a",
+  "seguimiento/referencia_humana_308/fuentes.json": "3a035307b6e50dcd4189584a84c81d81f565fe376fc5e76815c6c7e4bd501bf4"
+ },
+ "limites_consumo_registrados": {
+  "openai": "4/5",
+  "gemini": "2/5",
+  "nota": "Incluye OpenAI 2 truncada y Gemini 2 fallida. No se ejecuta otra petición."
+ },
+ "kit_humano": {
+  "caso": "provisional-001",
+  "observaciones_anotadas": 0,
+  "revision_humana_realizada": false,
+  "paginas": [
+   "L0001/p1",
+   "L0002/p1",
+   "L0003/p1"
+  ]
+ },
+ "cohortes": [
+  {
+   "cohorte": "openai_1",
+   "proveedor": "openai",
+   "numero": 1,
+   "modelo_solicitado": "gpt-5.4",
+   "modelo_devuelto": "gpt-5.4-2026-03-05",
+   "fecha_utc": "2026-10-21T08:15:43.698886+00:00",
+   "caso": "provisional-001",
+   "estado": "respuesta_pendiente_revision",
+   "simulada": false,
+   "plan_sha256": "1782d6e18e8b90a0d7998b6bbe26f78ba3ecb088e28dbb4cff2d462e02c99913",
+   "plan_coincide_consumo": true,
+   "respuesta_api": {
+    "ruta": "data/private/provisional-001/vision/intentos_openai/3274c1b8c8344082a398aff54fee2519/respuesta_api.json",
+    "sha256_registrado": "73559e4b76804ed90f0d37d507e4d82dede71080935a2212bb7fc3dc3be5c2eb",
+    "sha256_actual": "73559e4b76804ed90f0d37d507e4d82dede71080935a2212bb7fc3dc3be5c2eb",
+    "coincide": true
+   },
+   "candidatos_metricas09": 34,
+   "etapas_metricas09": null,
+   "aprobacion_ingenieria": null,
+   "version_importada": null,
+   "extraccion_previa_correccion": {
+    "ruta": "data/private/provisional-001/vision/respuestas/8888d1f3bb58456084c7800bbfd7d3f5/extraccion.json",
+    "sha256": "5f797937f6d70bdc2593b45a93c2f8e23b481ae3c68a77fb297305a47d032ba2",
+    "huella_contrato": "d33c0be5fc5119638f9ce11329c2772b6a4e292b9ff55ec6dec52b4173760e1d",
+    "contrato": "draft2model.extraccion_preliminar",
+    "version_contrato": "0.1.0",
+    "caso": "provisional-001",
+    "procedencia_tipo": "expediente",
+    "consistente": true,
+    "errores": 0,
+    "candidatos": 34,
+    "por_tipo": {
+     "etiqueta": 13,
+     "cota": 14,
+     "elemento": 7
+    },
+    "valor_null": 0,
+    "por_lamina": {
+     "L0001/p1": 10,
+     "L0002/p1": 16,
+     "L0003/p1": 8
+    },
+    "originales_sha256": [
+     "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+     "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+     "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5"
+    ],
+    "candidatos_sin_evidencia": 0,
+    "originales_en_kit_humano": {
+     "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa": "L0002/p1",
+     "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134": "L0003/p1",
+     "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5": "L0001/p1"
+    }
+   },
+   "candidatos_coinciden_metricas09": true,
+   "uso_en_benchmark": "propuestas_originales_evaluables_con_referencia_y_correspondencias_revisadas"
+  },
+  {
+   "cohorte": "openai_2",
+   "proveedor": "openai",
+   "numero": 2,
+   "modelo_solicitado": "gpt-5.4",
+   "modelo_devuelto": "gpt-5.4-2026-03-05",
+   "fecha_utc": "2026-10-21T13:40:41.213522+00:00",
+   "caso": "provisional-001",
+   "estado": "fallido",
+   "simulada": false,
+   "plan_sha256": "0ba6c68fa35ff6b8b75c199c77ecd382eafa7806c8c8080eadb047df98d2445c",
+   "plan_coincide_consumo": true,
+   "respuesta_api": {
+    "ruta": "data/private/provisional-001/vision/intentos_openai/2608fea66a074f13b9692988860934f0/respuesta_api.json",
+    "sha256_registrado": "0700554e877081216388117cb2d49801b7fce7116cdd45d1030db58e84f61492",
+    "sha256_actual": "0700554e877081216388117cb2d49801b7fce7116cdd45d1030db58e84f61492",
+    "coincide": true
+   },
+   "candidatos_metricas09": null,
+   "etapas_metricas09": {
+    "respuesta_cruda": {
+     "estado": "truncada",
+     "causa": "max_output_tokens8192",
+     "bytes_salida_parcial": 22241,
+     "candidatos": "no contados"
+    },
+    "importacion": "Ninguna; salida parcial conservada sin reparación silenciosa."
+   },
+   "aprobacion_ingenieria": null,
+   "version_importada": null,
+   "extraccion_previa_correccion": null,
+   "uso_en_benchmark": "excluida_de_metricas_de_exactitud: sin extracción importada (fallo registrado; se informa aparte)",
+   "motivo": "La API no devolvió una respuesta completada; no se importa una salida parcial."
+  },
+  {
+   "cohorte": "openai_3",
+   "proveedor": "openai",
+   "numero": 3,
+   "modelo_solicitado": "gpt-5.4",
+   "modelo_devuelto": "gpt-5.4-2026-03-05",
+   "fecha_utc": "2026-10-21T13:46:32.499840+00:00",
+   "caso": "provisional-001",
+   "estado": "respuesta_pendiente_revision",
+   "simulada": false,
+   "plan_sha256": "42c014527b09c3eb03be64b670a3524be0fd4946841fea7395719d1521ddc8ff",
+   "plan_coincide_consumo": true,
+   "respuesta_api": {
+    "ruta": "data/private/provisional-001/vision/intentos_openai/e1862b9a03db48399e5d5ab543b3a9dc/respuesta_api.json",
+    "sha256_registrado": "31a999301381fd22b8ecd8829b87e9c091914b561dcd0767b6d7e0574b720e05",
+    "sha256_actual": "31a999301381fd22b8ecd8829b87e9c091914b561dcd0767b6d7e0574b720e05",
+    "coincide": true
+   },
+   "candidatos_metricas09": 60,
+   "etapas_metricas09": null,
+   "aprobacion_ingenieria": null,
+   "version_importada": null,
+   "extraccion_previa_correccion": {
+    "ruta": "data/private/provisional-001/vision/respuestas/1ef9cd221f4c408e904dfd0e7dacfa3b/extraccion.json",
+    "sha256": "d2b334b740488907ddbb0cc680cb2749389c8f2a8628040a21fabe7ef7a78f85",
+    "huella_contrato": "48a895b694e05642cb3470caffbccf9c1f6dc7c967ac3b7e7894a42a931f3c23",
+    "contrato": "draft2model.extraccion_preliminar",
+    "version_contrato": "0.1.0",
+    "caso": "provisional-001",
+    "procedencia_tipo": "expediente",
+    "consistente": true,
+    "errores": 0,
+    "candidatos": 60,
+    "por_tipo": {
+     "elemento": 34,
+     "cota": 26
+    },
+    "valor_null": 0,
+    "por_lamina": {
+     "L0001/p1": 60
+    },
+    "originales_sha256": [
+     "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5"
+    ],
+    "candidatos_sin_evidencia": 0,
+    "originales_en_kit_humano": {
+     "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5": "L0001/p1"
+    }
+   },
+   "candidatos_coinciden_metricas09": true,
+   "uso_en_benchmark": "propuestas_originales_evaluables_con_referencia_y_correspondencias_revisadas"
+  },
+  {
+   "cohorte": "openai_4",
+   "proveedor": "openai",
+   "numero": 4,
+   "modelo_solicitado": "gpt-5.4",
+   "modelo_devuelto": "gpt-5.4-2026-03-05",
+   "fecha_utc": "2026-10-21T13:51:06.803570+00:00",
+   "caso": "provisional-001",
+   "estado": "respuesta_pendiente_revision",
+   "simulada": false,
+   "plan_sha256": "3876a844fad73e6c745ecd5c9e5e366be82ecb2997a1b506006555749b8026b2",
+   "plan_coincide_consumo": true,
+   "respuesta_api": {
+    "ruta": "data/private/provisional-001/vision/intentos_openai/e59541d8f132493ca4a99cd6c27d59e3/respuesta_api.json",
+    "sha256_registrado": "f3cb630ac361e96bcaa44785d1cea33d1c7ee5d0ad8398f50cc8db46608d9fde",
+    "sha256_actual": "f3cb630ac361e96bcaa44785d1cea33d1c7ee5d0ad8398f50cc8db46608d9fde",
+    "coincide": true
+   },
+   "candidatos_metricas09": 102,
+   "etapas_metricas09": null,
+   "aprobacion_ingenieria": null,
+   "version_importada": null,
+   "extraccion_previa_correccion": {
+    "ruta": "data/private/provisional-001/vision/respuestas/e5fec04ca29943c880cbf9958c349c53/extraccion.json",
+    "sha256": "c989ee6034b22cf923ef2b12dcca0e6c8c3bdfc9ff1cbfca23cf4f27ce458f6c",
+    "huella_contrato": "3be8412a447312ca61cccdcf9a66ac69320b39caa2038ccbe9b77e9e1c2d8550",
+    "contrato": "draft2model.extraccion_preliminar",
+    "version_contrato": "0.1.0",
+    "caso": "provisional-001",
+    "procedencia_tipo": "expediente",
+    "consistente": true,
+    "errores": 0,
+    "candidatos": 102,
+    "por_tipo": {
+     "elemento": 8,
+     "cota": 40,
+     "etiqueta": 54
+    },
+    "valor_null": 0,
+    "por_lamina": {
+     "L0003/p1": 72,
+     "L0002/p1": 30
+    },
+    "originales_sha256": [
+     "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+     "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134"
+    ],
+    "candidatos_sin_evidencia": 0,
+    "originales_en_kit_humano": {
+     "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa": "L0002/p1",
+     "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134": "L0003/p1"
+    }
+   },
+   "candidatos_coinciden_metricas09": true,
+   "uso_en_benchmark": "propuestas_originales_evaluables_con_referencia_y_correspondencias_revisadas"
+  },
+  {
+   "cohorte": "gemini_1",
+   "proveedor": "gemini",
+   "numero": 1,
+   "modelo_solicitado": "gemini-3.8-flash",
+   "modelo_devuelto": "gemini-3.8-flash",
+   "fecha_utc": "2026-10-21T14:01:28.725379+00:00",
+   "caso": "provisional-001",
+   "estado": "respuesta_pendiente_revision",
+   "simulada": false,
+   "plan_sha256": "81aa21d12ad2fef2037773054dd3274be5119093512f60f0fc506fec6f7292aa",
+   "plan_coincide_consumo": true,
+   "respuesta_api": {
+    "ruta": "data/private/provisional-001/vision/intentos_gemini/14d200db6ce04940a3d339d61d16b9e9/respuesta_api.json",
+    "sha256_registrado": "69df7726c04c1566f93d8989e52e2e8df764ea6d147cadc092b1e7ef30eef0dc",
+    "sha256_actual": "69df7726c04c1566f93d8989e52e2e8df764ea6d147cadc092b1e7ef30eef0dc",
+    "coincide": true
+   },
+   "candidatos_metricas09": 32,
+   "etapas_metricas09": null,
+   "aprobacion_ingenieria": null,
+   "version_importada": null,
+   "extraccion_previa_correccion": {
+    "ruta": "data/private/provisional-001/vision/respuestas/5b965382f6684417a678a57d98fdd15c/extraccion.json",
+    "sha256": "ad690afa8accc55c9b152cfbb633e36d7c0e82526c933d753c95063fac3c77c1",
+    "huella_contrato": "169bc37e9cd6525860f046abbe797f386f02bafbef3e3b89fa81f4769540402b",
+    "contrato": "draft2model.extraccion_preliminar",
+    "version_contrato": "0.1.0",
+    "caso": "provisional-001",
+    "procedencia_tipo": "expediente",
+    "consistente": true,
+    "errores": 0,
+    "candidatos": 32,
+    "por_tipo": {
+     "etiqueta": 10,
+     "cota": 19,
+     "elemento": 3
+    },
+    "valor_null": 0,
+    "por_lamina": {
+     "L0001/p1": 32
+    },
+    "originales_sha256": [
+     "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5"
+    ],
+    "candidatos_sin_evidencia": 0,
+    "originales_en_kit_humano": {
+     "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5": "L0001/p1"
+    }
+   },
+   "candidatos_coinciden_metricas09": true,
+   "uso_en_benchmark": "propuestas_originales_evaluables_con_referencia_y_correspondencias_revisadas"
+  },
+  {
+   "cohorte": "gemini_2",
+   "proveedor": "gemini",
+   "numero": 2,
+   "modelo_solicitado": "gemini-3.8-flash",
+   "modelo_devuelto": "gemini-3.8-flash",
+   "fecha_utc": "2026-10-21T14:40:03.216626+00:00",
+   "caso": "provisional-001",
+   "estado": "fallido",
+   "simulada": false,
+   "plan_sha256": "ffa82dba3adbbe21cbad62452f8b6ee55eb0475567085ac2caa6315afddb8be6",
+   "plan_coincide_consumo": true,
+   "respuesta_api": {
+    "ruta": "data/private/provisional-001/vision/intentos_gemini/1f11d8e291ad4ad2a5a44600223b515b/respuesta_api.json",
+    "sha256_registrado": "ad585553f29504e58a10268762dd31171006065c7cbb54bc2d9611613890a2dc",
+    "sha256_actual": "ad585553f29504e58a10268762dd31171006065c7cbb54bc2d9611613890a2dc",
+    "coincide": true
+   },
+   "candidatos_metricas09": null,
+   "etapas_metricas09": {
+    "respuesta_cruda": {
+     "candidatos": 71,
+     "fuente": "DIAGNOSTICO_GEMINI_235"
+    },
+    "validacion_inicial": {
+     "estado": "fallida",
+     "invalidos": 12,
+     "importados": 0
+    },
+    "recuperacion_local": {
+     "adaptables": 59,
+     "cuarentena": 12,
+     "persistido": false,
+     "fuente": "REVISION_NORMATIVA_RECUPERACION_236",
+     "nota": "en memoria; no es extracción productiva ni importada"
+    }
+   },
+   "aprobacion_ingenieria": null,
+   "version_importada": null,
+   "extraccion_previa_correccion": null,
+   "uso_en_benchmark": "excluida_de_metricas_de_exactitud: sin extracción importada (fallo registrado; se informa aparte)",
+   "motivo": "La ejecución no completó la importación; revisa sus archivos privados. No se reintentó."
+  }
+ ],
+ "registros_derivados_no_ligados_a_recibo": [
+  {
+   "ruta": "data/private/provisional-001/vision/respuestas/34528ff1579441758ae0adf34d60f144/extraccion.json",
+   "sha256": "4e21896e824ae791e0fc757db03eab95e6b931a9ea11b432d581686d9214de99",
+   "huella_contrato": "c5062584b4d854b47e55fca6230576514288113dafe033133902883276cb3ceb",
+   "contrato": "draft2model.extraccion_preliminar",
+   "version_contrato": "0.2.0",
+   "caso": "provisional-001",
+   "procedencia_tipo": "expediente",
+   "consistente": true,
+   "errores": 0,
+   "candidatos": 59,
+   "por_tipo": {
+    "etiqueta": 4,
+    "cota": 29,
+    "cantidad": 8,
+    "propiedad": 5,
+    "carga": 2,
+    "parametro": 7,
+    "resultado_impreso": 4
+   },
+   "valor_null": 0,
+   "por_lamina": {
+    "L0001/p1": 59
+   },
+   "originales_sha256": [
+    "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5"
+   ],
+   "candidatos_sin_evidencia": 0,
+   "procedencia_descripcion": "Respuesta visual de origen declarado. Solicitud 53db194429ce4055b7fca29dbed99386.",
+   "archivos": [
+    "extraccion.json",
+    "origen_web.json",
+    "registro.json",
+    "respuesta_original.json"
+   ],
+   "originales_en_kit_humano": {
+    "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5": "L0001/p1"
+   },
+   "clasificacion": "derivada_recuperacion_con_cuarentena (no cruda; separada de cohortes primarias; no sumar copias)"
+  },
+  {
+   "ruta": "data/private/provisional-001/vision/respuestas/f51b8418119c4426ab7c5dea231bd81d/extraccion.json",
+   "sha256": "dff3601c2e1c4af219b169fd0ec6da04124f4814096378421f6c275c32951d20",
+   "huella_contrato": "b602ebf34158b32599fe285b796a05d9d53d86cc05916c0970051319e65a8c10",
+   "contrato": "draft2model.extraccion_preliminar",
+   "version_contrato": "0.2.0",
+   "caso": "provisional-001",
+   "procedencia_tipo": "expediente",
+   "consistente": true,
+   "errores": 0,
+   "candidatos": 59,
+   "por_tipo": {
+    "etiqueta": 4,
+    "cota": 29,
+    "cantidad": 8,
+    "propiedad": 5,
+    "carga": 2,
+    "parametro": 7,
+    "resultado_impreso": 4
+   },
+   "valor_null": 0,
+   "por_lamina": {
+    "L0001/p1": 59
+   },
+   "originales_sha256": [
+    "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5"
+   ],
+   "candidatos_sin_evidencia": 0,
+   "procedencia_descripcion": "Respuesta visual de origen declarado. Solicitud 53db194429ce4055b7fca29dbed99386.",
+   "archivos": [
+    "extraccion.json",
+    "registro.json",
+    "respuesta_original.json"
+   ],
+   "originales_en_kit_humano": {
+    "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5": "L0001/p1"
+   },
+   "clasificacion": "derivada_recuperacion_con_cuarentena (no cruda; separada de cohortes primarias; no sumar copias)"
+  }
+ ],
+ "denominadores": {
+  "peticiones": 6,
+  "fallidas": 2,
+  "cohortes_con_extraccion_previa": 4,
+  "candidatos_por_cohorte": {
+   "openai_1": 34,
+   "openai_3": 60,
+   "openai_4": 102,
+   "gemini_1": 32
+  },
+  "nota": "Recuentos por cohorte; NO sumar entre cohortes (mismas láminas/recortes en distintas peticiones)."
+ },
+ "excluidas_correcciones": "Versiones en extracciones/ (importaciones y correcciones asistidas, p. ej. reubicación C039) no se usan como propuestas originales.",
+ "metricas_de_exactitud": null,
+ "motivo_sin_metricas": "No existe referencia humana revisada ni correspondencias revisadas."
+}

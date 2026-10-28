@@ -1,0 +1,24 @@
+{
+  "fuente": "Respuesta directa del usuario a call_04fde077f7c74df196ab4ab98da7a824",
+  "finalidad": "revision_extraccion_planos",
+  "prioridad": [
+    "openai",
+    "gemini"
+  ],
+  "limite_peticiones_por_proveedor": {
+    "openai": 5,
+    "gemini": 5
+  },
+  "openai_usd_maximo": 5,
+  "gemini_solo_gratuito": true,
+  "seleccion_modelos_delegada_por_usuario": true,
+  "ejecutor_exclusivo": "Codex",
+  "claves": "data/private/credenciales.local.md",
+  "no_autoriza": [
+    "programación",
+    "explicaciones",
+    "pruebas genéricas",
+    "otros proveedores",
+    "reintentos automáticos"
+  ]
+}

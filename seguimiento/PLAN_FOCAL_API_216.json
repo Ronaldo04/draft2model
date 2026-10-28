@@ -1,0 +1,13 @@
+{
+  "estado": "preparado_sin_envio",
+  "motivo": "Petición2 truncada. Nueva selección3regiones focales no equivalea reenvío del mismo plan.",
+  "recortes": [
+    "data\\private\\provisional-001\\recortes\\a4753cd445fb450fa7c5c3177fc6fe8c\\recorte.json",
+    "data\\private\\provisional-001\\recortes\\c6bef19fdeee4743aee7a382176d3ba1\\recorte.json",
+    "data\\private\\provisional-001\\recortes\\98a92cd3f4e9498b86271837e8a50750\\recorte.json"
+  ],
+  "paquete": "9501325ddffd4ec393c1250756cf54e8",
+  "plan": "data\\private\\provisional-001\\vision\\planes_openai\\cd940e99922f4b1483589fd263a54cd1\\plan.json",
+  "max_output_tokens": 16384,
+  "alcance": "Solo lectura de texto/cotas y evidencia. Parámetros impresos son declaraciones del expediente, no normativa validada ni valores para calibrar resultados."
+}

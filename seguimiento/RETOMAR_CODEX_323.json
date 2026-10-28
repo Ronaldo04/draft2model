@@ -1,0 +1,96 @@
+{
+  "fecha_utc": "2026-10-24T13:57:20.096569+00:00",
+  "goal_completo": false,
+  "anterior": "seguimiento/RETOMAR_CODEX_322.json",
+  "responsable_unico": "Codex; el usuario retiró Claude. Sin nuevas delegaciones ni Computer Use para Claude.",
+  "distribucion_validada": "entregas/AECODE_ENTREGA_322",
+  "advertencia": "322:608fuentes,1464Python+36interfaz,5comprobaciones0 ysinomisiones.312preservado como histórico.",
+  "integracion": "Estimación experimental opcional de peso efectivo Auto: lectura de configuración, núcleo con validación oficial del plan, libro bruto preservado, backend, CLI, informe e interfaz.",
+  "pruebas_observadas": {
+    "python_focal": "48OK, tmp/integracion_auto_322.log",
+    "frontend": "36archivos OK, tmp/frontend_auto_322.log",
+    "global": "ZIP322 exacto:1464Python+36interfaz,5comprobaciones0,sin omisiones,608fuentes estables. tmp/validacion_distribucion_322/"
+  },
+  "recorrido_real": {
+    "registro": "seguimiento/FLUJO_AUTO_322.json",
+    "exec": null,
+    "instruccion": "88113terminó0;30753terminó1 porfirma del guion después de publicar. No repetir lectura/generación/consulta. Evidencia consolidada.",
+    "informe": "5fbeb92275eb4dfbb3d3457f6c4abee5",
+    "exec_terminal": 88113,
+    "codigo": 0,
+    "estado": "terminado"
+  },
+  "siguiente": [
+    "No esperar ni repetir83528/79735/45942/79524:todos terminales. No publicar323; NO_USAR.md explica rechazo.322sigueválido y hashes restaurados.",
+    "La mejora de rendimiento sigue abierta. Perfil muestra regeneración de malla y particiones/compatibilidad repetidas. Evaluar cache de resultados geométricos puros por contexto conservando VERIFICAR completo por consumo, salidas independientes y rechazos de mutaciones. No cambiar marshal2 de nuevo sin evidencia nueva.",
+    "Antes de otra suite global, comprobar focales y comparar una regeneración real contra plan completo conservado; medir la mejora, y solo entonces empaquetar. No pruebasnativas, API, Claude, subagentes, modelo manual ni proyectos2/3.",
+    "Referencia humanaP04todavíaausente; no inventar anotaciones. Mantener alcanceíntegro y limitaciones reales."
+  ],
+  "restricciones": [
+    "Sin llamadas LLM adicionales ni lectura de credenciales.",
+    "No modelo ETABS manual ni proyectos2/3.",
+    "Sin EMS ni aprobación profesional; conservar18evaluaciones y10no satisfactorias.",
+    "No ensanchar tolerancias ni corregir entradas a partir de resultados nativos.",
+    "Heartbeat Claude permanece pausado."
+  ],
+  "limites_estimacion": "21.1.0, kN_m_C, geometría rectangular cubierta y configuración nativa verificada. Abstenerse fuera del perfil; no acredita conformidad normativa global.",
+  "paquete_candidato": "entregas/AECODE_ENTREGA_323",
+  "huella_candidata": "0d1f91eb13217b94b6b26e7bd1f40c98a041df758997e72e153d0d6be85c1f3b",
+  "global": {
+    "exec": 67623,
+    "registro": "tmp/validacion_distribucion_322/estado.json",
+    "estado": "terminal0",
+    "no_repetir": true,
+    "python": 1464,
+    "interfaz": 36,
+    "archivos_intactos": 608,
+    "tiempo_suite_s": 1205.735
+  },
+  "servidor": {
+    "exec": 14719,
+    "url": "http://127.0.0.1:18323/",
+    "fuentes": "ZIP322 extraído",
+    "nota": "IAB pestaña5; solo revisión. Servidor sandbox6448 cerrado; host14719 vigente al iniciar."
+  },
+  "qa_enlaces": "seguimiento/QA_ENLACES_322.json:82enlaces sin rotos",
+  "pdf_preparado": "seguimiento/revisar_pdf_auto_322.py; ejecutar solo cuando FLUJO_AUTO_322.json tenga informe",
+  "consolidacion_preparada": "seguimiento/cerrar_corte_322.py; ejecutar solo tras estado global terminal0 y flujo terminado",
+  "rendimiento": {
+    "recorrido_qa_pared_s": 3555.265134,
+    "nota": "Incluye comprobaciones repetidas de evidencias, creación, incidencia del guion y reanudación de consulta. No es tiempo de modelado ni SLA.",
+    "lectura_instancia_etabs_aproximada_s": 46.4,
+    "limitacion": "Las verificaciones del expediente real siguen siendo lentas; la suite no demuestra rendimiento interactivo para cualquier proyecto."
+  },
+  "qa_pdf": "Seis páginas revisadas; SHA del PDF publicado idéntico al revisado. QA_PDF_AUTO_322.json.",
+  "cuota": {
+    "restante5h_observado": 22,
+    "restante_semanal_observado": 41,
+    "reset_manual": "intacto"
+  },
+  "guia": "entregas/AECODE_ENTREGA_322/LEER_PRIMERO.md",
+  "evidencia_validacion": "seguimiento/VALIDACION_DISTRIBUCION_322.json",
+  "estado_hito": "Diagnóstico323 cerrado; propuesta rechazada. Fuentes públicas exactamente322. Goalabierto.",
+  "cambio323": "particion_superficies._binario_local:marshal4 en lugar de2; comparación tipada completa y fallback JSON conservados. README/guías actualizados.3pruebas adicionales.",
+  "focal323": "18pruebas correctas; ensayo100capturas:formato2=.633s,4=.316s. No implica velocidad2x del flujo completo.",
+  "perfil323": {
+    "antes": "seguimiento/PERFIL_MODELO_323.json",
+    "despues_exec": null,
+    "estado": "cancelado_terminal1",
+    "script": "seguimiento/perfilar_modelo_323.py --despues"
+  },
+  "global323": {
+    "exec": 45942,
+    "registro": "tmp/validacion_distribucion_323/estado.json",
+    "estado": "cancelado_terminal1",
+    "no_repetir": true
+  },
+  "correccion324": "Captura4 con fuente propia retenida y validación aislada;19focalesOK incluida detección de acierto sinfallback. Perfil corregido324 en curso; NOempaquetar antes de medir.",
+  "perfil_corregido324": {
+    "exec": null,
+    "registro": "seguimiento/PERFIL_MODELO_323_corregido324.json",
+    "no_repetir": true,
+    "estado": "terminal0",
+    "exec_terminal": 79524
+  },
+  "rechazo": "seguimiento/RECHAZO_RENDIMIENTO_323.json"
+}

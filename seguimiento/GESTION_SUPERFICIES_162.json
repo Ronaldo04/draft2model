@@ -1,0 +1,23 @@
+{
+  "estado": "gestion_aprobacion_declarada_integrada_sin_ejecucion_02",
+  "archivos": {
+    "draft2model/validacion_geometria.py": "cabfa2ba1db7ae3ba529bd6eb3513affb0ab29c72f642b7be8f8eab25357a0fb",
+    "draft2model/gestion_geometria.py": "aec706b458954f8873778a700c3090cadc340bb0ed59eeab6177de6523bbd053",
+    "draft2model/gestion_configuracion.py": "adfeb97f37e8031b00415f843b4d44d61ddc75a7819eabf706542c17fc33bd38",
+    "draft2model/modelo_estructural.py": "b0293051f5a2f5ca412e246e2a7cb939e2e38f5deb5c51edb8d0cb96f08d228b",
+    "draft2model/revision_web/configuracion.js": "30f6e0dbef8e07aa9a24598a3e1e3c4ac5d7e59dfb55cb861f86b748f0d31930",
+    "tests/test_gestion_superficies.py": "25143968c876954a0f104e779308326024c4c73906aa7d21601b65e8d7927644",
+    "tests/configuracion_html_check.cjs": "c95d6399114a9a2ac600ad378eaf2f8dc8fd944a64e30a48cd18cebcdf0e1361"
+  },
+  "validacion": {
+    "regresion": "49 pruebas:48 OK y1 omitida por permiso de enlaces, tmp/gestion_superficies_regresion_162.log",
+    "comprobacion_omitida_resuelta": "1 OK host, tmp/gestion_junction_host_162.log",
+    "cliente": "tests/configuracion_html_check.cjs OK con estados0.1/0.2; corregido harness CustomEvent/dispatchEvent",
+    "casos": "4 tests nuevos de gestion con versiones reales en disco, sin mock de consultar_version"
+  },
+  "limites": [
+    "disponible_para_modelado falso",
+    "plan0.2 desarrollo no ejecutable",
+    "sin prueba ETABS real ni referencia"
+  ]
+}

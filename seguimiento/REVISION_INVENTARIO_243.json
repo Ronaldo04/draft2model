@@ -1,0 +1,35 @@
+{
+  "estado": "hallazgos_reproducidos",
+  "snapshot": "tmp/revision_codex_243",
+  "api_llamadas": 0,
+  "comprobaciones": [
+    {
+      "id": "R243-01",
+      "esperado": "no_ajustado",
+      "observado": {
+        "estado": "ajustado",
+        "caja_pt": [
+          0,
+          0.0,
+          32,
+          12.0
+        ],
+        "orientacion": "x_largo",
+        "lados_verticales_confirmados": 0,
+        "distancia_al_punto_pt": 0.0,
+        "dim_m": [
+          0.4,
+          0.15
+        ]
+      },
+      "pasa": false
+    },
+    {
+      "id": "R243-02",
+      "esperado_componentes": 2,
+      "observado_componentes": 1,
+      "pasa": false
+    }
+  ],
+  "alcance": "Fallos de clasificación/conectividad; no demuestra por sí mismo cuántos elementos del caso real resultan afectados. El inventario continúa sin aprobación."
+}

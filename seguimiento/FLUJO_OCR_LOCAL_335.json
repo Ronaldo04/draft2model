@@ -1,0 +1,149 @@
+{
+  "modo": "HTTP en memoria y motor Tesseract real, expediente aislado de primera lámina",
+  "api_calls": 0,
+  "etabs_nativo": false,
+  "ejecuciones_ocr": 1,
+  "consultas": [
+    {
+      "candidato": "C001",
+      "pared_s": 6.215487299952656,
+      "respuesta": {
+        "caso": "ocr-piloto-335",
+        "version": "f4b16664e8344b65918be25849366ac8",
+        "candidato": "C001",
+        "expediente_sha256": "720018420ebed03830c687f12c7729dcad5df33e849ce941cde3b5f341b46013",
+        "huella": "7d1fd5013c3540eab0eef7cc3407bfd6837c85a9e16f2084849c97121e14b81f",
+        "metodo": "ocr_local",
+        "modifica_datos": false,
+        "texto_fuente": "C-1",
+        "fuentes": [
+          {
+            "archivo_id": "L0001",
+            "pagina": 1,
+            "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+            "metodo": "ocr_local",
+            "estado": "unica",
+            "total": 1,
+            "regiones": [
+              {
+                "texto_ocr": "C-1",
+                "confianza_ocr": 67.238037,
+                "bbox_normalizada": [
+                  0.119384765625,
+                  0.5707384403036577,
+                  0.13330078125,
+                  0.5779848171152518
+                ]
+              }
+            ],
+            "modifica_datos": false,
+            "verificado_visualmente": false,
+            "aviso": "La confianza OCR no es probabilidad calibrada ni aprobación; contrastar con la imagen.",
+            "render_sha256": "78ffd19a517b4fc210132dc44cd9c53fdab01f48598f18c5ad68dee777b3bcf0",
+            "perfil_ocr": {
+              "motor": "tesseract",
+              "ejecutable_sha256": "babb405f4366b480d02cd8ff2bac8d497170f6c1711ce6f3d5d8bf0fb7fa6ed9",
+              "modelos": {
+                "spa": "6f2e04d02774a18f01bed44b1111f2cd7f3ba7ac9dc4373cd3f898a40ea6b464",
+                "eng": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+              },
+              "idiomas": "spa+eng",
+              "psm": 11,
+              "algoritmo": "d2m-ocr-local-1",
+              "max_lado": 4096
+            }
+          }
+        ],
+        "estado": "propuestas_sin_aplicar"
+      }
+    },
+    {
+      "candidato": "C002",
+      "pared_s": 0.15077489998657256,
+      "respuesta": {
+        "caso": "ocr-piloto-335",
+        "version": "f4b16664e8344b65918be25849366ac8",
+        "candidato": "C002",
+        "expediente_sha256": "720018420ebed03830c687f12c7729dcad5df33e849ce941cde3b5f341b46013",
+        "huella": "7d1fd5013c3540eab0eef7cc3407bfd6837c85a9e16f2084849c97121e14b81f",
+        "metodo": "ocr_local",
+        "modifica_datos": false,
+        "texto_fuente": "C-2",
+        "fuentes": [
+          {
+            "archivo_id": "L0001",
+            "pagina": 1,
+            "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+            "metodo": "ocr_local",
+            "estado": "ambigua",
+            "total": 4,
+            "regiones": [
+              {
+                "texto_ocr": "C-2",
+                "confianza_ocr": 50.170166,
+                "bbox_normalizada": [
+                  0.265869140625,
+                  0.09972394755003451,
+                  0.275146484375,
+                  0.10420979986197378
+                ]
+              },
+              {
+                "texto_ocr": "c-2",
+                "confianza_ocr": 36.469646,
+                "bbox_normalizada": [
+                  0.265869140625,
+                  0.44616977225672877,
+                  0.275146484375,
+                  0.45065562456866803
+                ]
+              },
+              {
+                "texto_ocr": "c-2",
+                "confianza_ocr": 50.79789,
+                "bbox_normalizada": [
+                  0.37158203125,
+                  0.44616977225672877,
+                  0.381103515625,
+                  0.45065562456866803
+                ]
+              },
+              {
+                "texto_ocr": "C-2",
+                "confianza_ocr": 85.310059,
+                "bbox_normalizada": [
+                  0.214599609375,
+                  0.572463768115942,
+                  0.230224609375,
+                  0.5797101449275363
+                ]
+              }
+            ],
+            "modifica_datos": false,
+            "verificado_visualmente": false,
+            "aviso": "La confianza OCR no es probabilidad calibrada ni aprobación; contrastar con la imagen.",
+            "render_sha256": "78ffd19a517b4fc210132dc44cd9c53fdab01f48598f18c5ad68dee777b3bcf0",
+            "perfil_ocr": {
+              "motor": "tesseract",
+              "ejecutable_sha256": "babb405f4366b480d02cd8ff2bac8d497170f6c1711ce6f3d5d8bf0fb7fa6ed9",
+              "modelos": {
+                "spa": "6f2e04d02774a18f01bed44b1111f2cd7f3ba7ac9dc4373cd3f898a40ea6b464",
+                "eng": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+              },
+              "idiomas": "spa+eng",
+              "psm": 11,
+              "algoritmo": "d2m-ocr-local-1",
+              "max_lado": 4096
+            }
+          }
+        ],
+        "estado": "propuestas_sin_aplicar"
+      }
+    }
+  ],
+  "original_y_extraccion_intactos": true,
+  "crea_versiones_por_buscar": false,
+  "entrega331_intacta": true,
+  "modelo_del_piloto_original_modificado": false,
+  "limite": "Lecturas locales propuestas; no validación global de precisión ni modelado automático."
+}

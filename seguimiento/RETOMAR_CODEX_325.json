@@ -1,0 +1,103 @@
+{
+  "fecha_utc": "2026-10-24T14:23:16.025080+00:00",
+  "goal_completo": false,
+  "anterior": "seguimiento/RETOMAR_CODEX_323.json",
+  "responsable_unico": "Codex; el usuario retiró Claude. Sin nuevas delegaciones ni Computer Use para Claude.",
+  "distribucion_validada": "entregas/AECODE_ENTREGA_325",
+  "advertencia": "325:1471Python+36interfaz,5comprobaciones0,sin omisiones,609fuentes estables,82enlaces válidos.322preservado;323NOaceptado.",
+  "integracion": "Estimación experimental opcional de peso efectivo Auto: lectura de configuración, núcleo con validación oficial del plan, libro bruto preservado, backend, CLI, informe e interfaz.",
+  "pruebas_observadas": {
+    "python_focal": "48OK, tmp/integracion_auto_322.log",
+    "frontend": "36archivos OK, tmp/frontend_auto_322.log",
+    "global": "ZIP322 exacto:1464Python+36interfaz,5comprobaciones0,sin omisiones,608fuentes estables. tmp/validacion_distribucion_322/"
+  },
+  "recorrido_real": {
+    "registro": "seguimiento/FLUJO_AUTO_322.json",
+    "exec": null,
+    "instruccion": "88113terminó0;30753terminó1 porfirma del guion después de publicar. No repetir lectura/generación/consulta. Evidencia consolidada.",
+    "informe": "5fbeb92275eb4dfbb3d3457f6c4abee5",
+    "exec_terminal": 88113,
+    "codigo": 0,
+    "estado": "terminado"
+  },
+  "siguiente": [
+    "Referencia humanaP04ausente también tras este hito:Downloads/referencia_humana*.json y kit sin archivo. El usuario había prometido completarla. No inventar verdad ni métricas.",
+    "Al recibir la ruta/JSON, recepción311, correspondencias revisadas por archivo/página/región/tipo (no por valores acertados) y métricas por cohortes originales. No repetir extracciones conservadas ni APIs.",
+    "No repetir suites/perfiles/ETABS/informes322/325:todos terminaron. No trabajos de actividad aparente ni nuevas optimizaciones por sondear el bloqueo.",
+    "Si se reanuda un goal bloqueado, iniciar auditoría fresca del bloqueo. Mantener soloCodex; no Claude/subagentes/modelomanual/proyectos2/3 hasta validar primero.",
+    "Conservar límites:sinEMS,sin aprobación profesional,contrastebruto no_coherente,10comparaciones no satisfactorias,perfilAutoexperimental,latencia aún alta. No afirmar universalidad."
+  ],
+  "restricciones": [
+    "Sin llamadas LLM adicionales ni lectura de credenciales.",
+    "No modelo ETABS manual ni proyectos2/3.",
+    "Sin EMS ni aprobación profesional; conservar18evaluaciones y10no satisfactorias.",
+    "No ensanchar tolerancias ni corregir entradas a partir de resultados nativos.",
+    "Heartbeat Claude permanece pausado."
+  ],
+  "limites_estimacion": "21.1.0, kN_m_C, geometría rectangular cubierta y configuración nativa verificada. Abstenerse fuera del perfil; no acredita conformidad normativa global.",
+  "paquete_candidato": "entregas/AECODE_ENTREGA_325",
+  "huella_candidata": "3465f8d19e39107bf169f2ebede6b6d072949258154029ec74a7c79d1fc88bd0",
+  "global": {
+    "exec": 67623,
+    "registro": "tmp/validacion_distribucion_322/estado.json",
+    "estado": "terminal0",
+    "no_repetir": true,
+    "python": 1464,
+    "interfaz": 36,
+    "archivos_intactos": 608,
+    "tiempo_suite_s": 1205.735
+  },
+  "servidor": {
+    "exec": 14719,
+    "url": "http://127.0.0.1:18323/",
+    "fuentes": "ZIP322 extraído",
+    "nota": "IAB pestaña5; solo revisión. Servidor sandbox6448 cerrado; host14719 vigente al iniciar."
+  },
+  "qa_enlaces": "seguimiento/QA_ENLACES_322.json:82enlaces sin rotos",
+  "pdf_preparado": "seguimiento/revisar_pdf_auto_322.py; ejecutar solo cuando FLUJO_AUTO_322.json tenga informe",
+  "consolidacion_preparada": "seguimiento/cerrar_corte_322.py; ejecutar solo tras estado global terminal0 y flujo terminado",
+  "rendimiento": {
+    "recorrido_qa_pared_s": 3555.265134,
+    "nota": "Incluye comprobaciones repetidas de evidencias, creación, incidencia del guion y reanudación de consulta. No es tiempo de modelado ni SLA.",
+    "lectura_instancia_etabs_aproximada_s": 46.4,
+    "limitacion": "Las verificaciones del expediente real siguen siendo lentas; la suite no demuestra rendimiento interactivo para cualquier proyecto."
+  },
+  "qa_pdf": "Seis páginas revisadas; SHA del PDF publicado idéntico al revisado. QA_PDF_AUTO_322.json.",
+  "cuota": {
+    "restante5h_observado": 8,
+    "restante_semanal_observado": 39,
+    "reset_manual": "intacto"
+  },
+  "guia": "entregas/AECODE_ENTREGA_325/LEER_PRIMERO.md",
+  "evidencia_validacion": "seguimiento/VALIDACION_DISTRIBUCION_325.json",
+  "estado_hito": "325validado; referencia humanaP04 todavía ausente. SoloCodex.",
+  "cambio325": "Fuente completa verificada en cada consumo; cache LRUporcontexto16MiB/8192entradas,JSONexactoorden+SHA,salidas independientes,16focaleshistoricas+6nuevas=21total.",
+  "perfil325": {
+    "exec": null,
+    "registro": "seguimiento/PERFIL_MODELO_323_cache325.json",
+    "estado": "terminal0",
+    "no_repetir": true,
+    "exec_terminal": 51958
+  },
+  "global325": {
+    "exec": null,
+    "registro": "tmp/validacion_distribucion_325/estado.json",
+    "estado": "terminal0",
+    "no_repetir": true,
+    "exec_terminal": 64009,
+    "codigo": 0
+  },
+  "focal325": "7nuevas de cache,21iniciales de particion y18de integracion de malla/compatibilidad. Perfil195.445s frente205.391s;2502verificadorespuros frente7506,7511verificaciones completas de fuente conservadas.",
+  "auditoria_bloqueo": {
+    "condicion": "Falta referencia humana independienteP04 y revisión de correspondencias; no existe JSON ni ruta entregada.",
+    "turnos_consecutivos_con_condicion": [
+      "cierre322",
+      "diagnostico323",
+      "cierre325"
+    ],
+    "independiente_completado": "Software integrado, suite1471+36, integridad, documentación, caso nativo322, consulta regenerada325 y optimización verificada. No quedan procesos críticos en curso.",
+    "goal_completo": false,
+    "estado_confirmado_por_herramienta": "blocked"
+  },
+  "estado_goal": "blocked"
+}

@@ -1,0 +1,53 @@
+{
+  "estado": "discrepancia_precision_momento",
+  "fuente": "tmp/l2/fuentes/private/sintetico-001/lecturas_analisis/ca905c66e68848e6a17e94bd5a0f03a1/respuesta.json",
+  "sha256_respuesta": "cc531a0a50d309f3db7d624e973741c606fbaebb58209197b912d76182606eec",
+  "fila": {
+    "OutputCase": "CHIDRO",
+    "CaseType": "LinStatic",
+    "FX": "-53.8",
+    "FY": "0",
+    "FZ": "0",
+    "MX": "0",
+    "MY": "-25.5933",
+    "MZ": "135.725",
+    "X": "0",
+    "Y": "0",
+    "Z": "0"
+  },
+  "esperado_aplicado_F_M": [
+    53.8,
+    0,
+    0,
+    0,
+    25.593333333333334,
+    -135.725
+  ],
+  "reaccion_F_M": [
+    -53.8,
+    0.0,
+    0.0,
+    0.0,
+    -25.5933,
+    135.725
+  ],
+  "residuo": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.3333333334439885e-05,
+    0.0
+  ],
+  "limite_computacional": [
+    5.379999999999999e-06,
+    1e-07,
+    1e-07,
+    1e-07,
+    2.559333333333333e-06,
+    1.35725e-05
+  ],
+  "interpretacion": "El residuo MY excede el umbral del ensayo. Es compatible con redondeo de tabla de presentación, pero no demuestra equilibrio con ese criterio. Obtener lectura de precisión suficiente antes de concluir.",
+  "api_real_multimodal": false,
+  "nueva_ejecucion_etabs": false
+}

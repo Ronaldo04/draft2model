@@ -1,0 +1,24 @@
+{
+  "fecha_utc": "2026-10-22T17:37:16.334188+00:00",
+  "huella_fuentes": "87f79d0511866223e1e51007e099474c3de9523fd7be5ec282736ba368f38fc2",
+  "copia": "tmp/validacion_paquete_258/fuentes",
+  "revision_visual": true,
+  "browser": "IAB",
+  "observado": [
+    "Inicio visible sin expediente, formulario de ingreso y estados deshabilitados coherentes",
+    "Selección demo-integrada-sintetica responde y muestra condición de muestra provisional",
+    "No hay versiones de resultados en el selector de la demo: sus informes CLI no equivalen a resultados importados en la UI"
+  ],
+  "limitaciones": [
+    "Inspección de inicio y selección, no recorrido web completo",
+    "No acredita piloto ni informe real"
+  ],
+  "servidores_propios_cerrados": [
+    "28163",
+    "11213",
+    "12727"
+  ],
+  "incidente": "Proceso en sandbox no alcanzable desde IAB; proceso host autorizado sí respondió. Sin cambiar políticas.",
+  "apis_remotas": 0,
+  "etabs": false
+}

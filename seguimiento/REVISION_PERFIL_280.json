@@ -1,0 +1,38 @@
+{
+  "fecha_utc": "2026-10-23T15:26:24.251684+00:00",
+  "fuente": "tmp\\ruta201\\perfil_verificacion_279.json",
+  "sha256_fuente": "2085a5db9b672997e6aa26849fa72ee4eff02753416c0825f699b107110b772d",
+  "fria": {
+    "pared_s": 581.8830960000632,
+    "cpu_s": 559.21875,
+    "cache": {
+      "entradas": 1,
+      "bytes": 6749689,
+      "hits": 0,
+      "misses": 1,
+      "max_entradas": 4,
+      "max_bytes": 67108864
+    }
+  },
+  "caliente": {
+    "pared_s": 137.4756474000169,
+    "cpu_s": 135.84375,
+    "cache": {
+      "entradas": 1,
+      "bytes": 6749689,
+      "hits": 1,
+      "misses": 1,
+      "max_entradas": 4,
+      "max_bytes": 67108864
+    }
+  },
+  "observacion": "Con profiler, la llamada caliente aún tarda137.5s; regeneración de plan120.4s,56validaciones de geometría43.2s acumulados. En fría, serialización JSON y verificación del contexto de particiones dominan parte importante de la malla. Tiempos anidados no se suman.",
+  "revision_codigo": "_ContextoGeometria.verificar serializa toda la geometría en cada consumo; conservar la comprobación contra mutación y el vínculo íntegro al cambiar su coste. No caché de aceptaciones/evidencias.",
+  "limitaciones": [
+    "Perfil producido por Claude, inspeccionado por Codex; no medición independiente repetida.",
+    "cProfile modifica el tiempo observado; no extrapolar a tiempo normal del sistema.",
+    "No se registró huella completa de fuentes antes de cada llamada ni hash de las dos salidas; no es benchmark de equivalencia con fuentes congeladas.",
+    "No acredita aceptación de controles, informe o paquete final."
+  ],
+  "goal_completo": false
+}

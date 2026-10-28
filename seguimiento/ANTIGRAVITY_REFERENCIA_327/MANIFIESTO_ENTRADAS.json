@@ -1,0 +1,13 @@
+{
+  "algoritmo": "SHA256",
+  "archivos": {
+    "INSTRUCCIONES.md": "f4317662590e923e90820c4d887454906dfe0facc63d4db5b055976adcd012a9",
+    "entradas/fuentes.json": "c6d4718a108790968c72e02d8d421ceb8298f932d16b1e8582953327ba7f0b7a",
+    "entradas/imagenes/archivo-0001-pagina-0001.png": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+    "entradas/imagenes/archivo-0002-pagina-0001.png": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+    "entradas/imagenes/archivo-0003-pagina-0001.png": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+    "entradas/originales/lamina-0001.pdf": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+    "entradas/originales/lamina-0002.pdf": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+    "entradas/originales/lamina-0003.pdf": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134"
+  }
+}

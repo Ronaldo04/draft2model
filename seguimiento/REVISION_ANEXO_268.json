@@ -1,0 +1,46 @@
+{
+  "integridad_zip": true,
+  "originales_reubicados": [
+    {
+      "lamina": "L0001",
+      "bytes_coinciden": true,
+      "sha256_coincide": true
+    },
+    {
+      "lamina": "L0002",
+      "bytes_coinciden": true,
+      "sha256_coincide": true
+    },
+    {
+      "lamina": "L0003",
+      "bytes_coinciden": true,
+      "sha256_coincide": true
+    },
+    {
+      "lamina": "L0004",
+      "bytes_coinciden": true,
+      "sha256_coincide": true
+    },
+    {
+      "lamina": "L0005",
+      "bytes_coinciden": true,
+      "sha256_coincide": true
+    },
+    {
+      "lamina": "L0006",
+      "bytes_coinciden": true,
+      "sha256_coincide": true
+    }
+  ],
+  "captura_con_solicitud_historica_forma_valida": true,
+  "captura_no_se_acepta_como_ruta_nueva": true,
+  "limite": "Validacion pura de forma/ruta, no revalidacion completa del analisis, apertura EDB ni reconstruccion. Bytes historicos no modificados.",
+  "anexo": "entregas/ANEXO_CASO_CANDIDATO_268",
+  "zip_sha256": "41ff53dce55bedec9678243611616e284a29ada74b4a94fec84e0de3c1704ffe",
+  "archivos": 274,
+  "exportador_pruebas": {
+    "correctas": 5,
+    "duracion_s": 0.358
+  },
+  "goal_completo": false
+}

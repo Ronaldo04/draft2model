@@ -1,0 +1,192 @@
+{
+  "estado": "ensayo_real_identifica_y_corrige_espesor_capa",
+  "modo": "real",
+  "datos_sinteticos": true,
+  "edb_sha_antes": "bbf2460c88e4f0c94364964e4c9e91bbae0f657100ec5255d5cf1133323e64d2",
+  "edb_sha_despues": "bbf2460c88e4f0c94364964e4c9e91bbae0f657100ec5255d5cf1133323e64d2",
+  "cierres": [
+    {
+      "confirmado": true,
+      "fase": "construccion"
+    },
+    {
+      "confirmado": true,
+      "fase": "reapertura"
+    }
+  ],
+  "error_motor": null,
+  "fases": [
+    {
+      "lecturas": {
+        "Ribbed": {
+          "slab": {
+            "SlabType": {
+              "nombre": "Ribbed",
+              "valor": 3
+            },
+            "ShellType": {
+              "nombre": "ShellThin",
+              "valor": 1
+            },
+            "MatProp": "MAT_SINTETICO",
+            "Thickness": 0.05,
+            "color": 0,
+            "notes": "",
+            "GUID": "c04ece2b-518e-438b-bdb5-2c068d430499"
+          },
+          "parametros": {
+            "OverallDepth": 0.25,
+            "SlabThickness": 0.05,
+            "StemWidthTop": 0.12,
+            "StemWidthBot": 0.1,
+            "RibSpacing": 0.6,
+            "RibsParallelTo": 1
+          },
+          "ejes": {
+            "Ang": 30,
+            "Advanced": false
+          }
+        },
+        "Waffle": {
+          "slab": {
+            "SlabType": {
+              "nombre": "Waffle",
+              "valor": 4
+            },
+            "ShellType": {
+              "nombre": "ShellThin",
+              "valor": 1
+            },
+            "MatProp": "MAT_SINTETICO",
+            "Thickness": 0.05,
+            "color": 0,
+            "notes": "",
+            "GUID": "bd24ca1b-c268-438b-b702-9a3ef2326e0d"
+          },
+          "parametros": {
+            "OverallDepth": 0.25,
+            "SlabThickness": 0.05,
+            "StemWidthTop": 0.12,
+            "StemWidthBot": 0.1,
+            "RibSpacingDir1": 0.6,
+            "RibSpacingDir2": 0.7
+          },
+          "ejes": {
+            "Ang": 30,
+            "Advanced": false
+          }
+        }
+      },
+      "guardado": true,
+      "fase": "construccion",
+      "unidades": "kN_m_C",
+      "procesos_nuevos": [
+        39344
+      ]
+    },
+    {
+      "lecturas": {
+        "Ribbed": {
+          "slab": {
+            "SlabType": {
+              "nombre": "Ribbed",
+              "valor": 3
+            },
+            "ShellType": {
+              "nombre": "ShellThin",
+              "valor": 1
+            },
+            "MatProp": "MAT_SINTETICO",
+            "Thickness": 50,
+            "color": 0,
+            "notes": "",
+            "GUID": "c04ece2b-518e-438b-bdb5-2c068d430499"
+          },
+          "parametros": {
+            "OverallDepth": 250,
+            "SlabThickness": 50,
+            "StemWidthTop": 120,
+            "StemWidthBot": 100,
+            "RibSpacing": 600,
+            "RibsParallelTo": 1
+          },
+          "ejes": {
+            "Ang": 30,
+            "Advanced": false
+          }
+        },
+        "Waffle": {
+          "slab": {
+            "SlabType": {
+              "nombre": "Waffle",
+              "valor": 4
+            },
+            "ShellType": {
+              "nombre": "ShellThin",
+              "valor": 1
+            },
+            "MatProp": "MAT_SINTETICO",
+            "Thickness": 50,
+            "color": 0,
+            "notes": "",
+            "GUID": "bd24ca1b-c268-438b-b702-9a3ef2326e0d"
+          },
+          "parametros": {
+            "OverallDepth": 250,
+            "SlabThickness": 50,
+            "StemWidthTop": 120,
+            "StemWidthBot": 100,
+            "RibSpacingDir1": 600,
+            "RibSpacingDir2": 699.9999999999999
+          },
+          "ejes": {
+            "Ang": 30,
+            "Advanced": false
+          }
+        }
+      },
+      "guardado": false,
+      "fase": "reapertura",
+      "unidades": "N_mm_C",
+      "procesos_nuevos": [
+        24892
+      ]
+    }
+  ],
+  "hallazgo": "GetSlab.Thickness=capa; OverallDepth separado. Casetonada nativa0.7m se relee699.9999999999999mm. Ejes30deg y Advancedfalse persistieron.",
+  "cambios": [
+    "Compilador SetSlab/getter usa capa_m",
+    "Expectativa final de lector aplica SlabThickness tras setter específico",
+    "Doble de transporte actualiza Thickness igual que ETABS",
+    "Fixture nativa y prueba detectan regresión del alto total tomado como capa"
+  ],
+  "pruebas": {
+    "bateria": "46 ejecutadas62.160s;2subfallos en1método por antigua expectativa0.25. Resto sin fallo",
+    "correccion_expectativa": "Mismo método actualizado a0.05 y repetido:1OK0.110s, ambos subcasos",
+    "logs": [
+      "tmp/ajuste_capa181.log",
+      "tmp/capa181_expectativa_corregida.log"
+    ]
+  },
+  "incidencia_auxiliar": "Motor código0 y2cierresconfirmados; wrapper final falló al imprimir Unicode cp1252. Corregido errors=backslashreplace sin repetir ensayo innecesario.",
+  "limites": [
+    "No solver/malla/cargas ni comparación de ingeniería",
+    "No prueba del caso referencia; dos propiedades sintéticas",
+    "Producción superficies/aligerados sigue bloqueada hasta integración completa"
+  ],
+  "archivos_sha256": {
+    "scripts/ensayar_aligerados_etabs.ps1": "afbf2c2cd512227b115236f603fe1faf734067682941bf0804dc2a0dd216ff52",
+    "draft2model/operaciones_etabs.py": "aaf0ceb4176d4e5b7bb30923764dba3029205df241c87ac9c313fa935272494b",
+    "draft2model/verificacion_modelo_guardado.py": "d6dc3cfbc86a0f06d42c0cbbf38a1e73ae4714293d25e586165f84ff9b29f6f4",
+    "tests/test_losas_aligeradas.py": "5611e80786d09bb2572a7173c3497c03ff325caffb1bdce62116abc0340bb020",
+    "tests/test_verificacion_modelo_guardado.py": "96732a21bf29b8d9f1364b3f20c73bdb5d220223bb70a2d94ec60455ea36bac4",
+    "tests/fixtures/aligerados_etabs21_181.json": "0f938048eb0a56e76c879dd2b93b830527fbd2bce48f90722293e64e9ed05d97",
+    "docs/LOSAS_ALIGERADAS_ETABS.md": "39d9d1c34e2e3fdf484bd9829a1ddb489105629a3b53c8eb70203f6abf5dc81a",
+    "docs/VERIFICACION_MODELO_GUARDADO.md": "a4bfe5946b4a5f94fbd9cdcfcbb0628bb14757f1a739c3606d43980115af4bd3",
+    "tmp/aligerados181/registro.json": "0cd0ab9784ca3dbe273a580739d3bed5664eb7e752eeca1d2a7f80d5691a176e",
+    "tmp/aligerados181/aligerados.EDB": "bbf2460c88e4f0c94364964e4c9e91bbae0f657100ec5255d5cf1133323e64d2",
+    "tmp/ajuste_capa181.log": "d3be83040fc5ad72a1ae630731e11ba91c9fce6c68aec0ecee4f9f31ab23e624",
+    "tmp/capa181_expectativa_corregida.log": "4f8cb1089041a9a8277a6d758262b9da7b5eed8528bb58853bcf1ee505df213f"
+  },
+  "llamadas_api_proveedores": 0
+}

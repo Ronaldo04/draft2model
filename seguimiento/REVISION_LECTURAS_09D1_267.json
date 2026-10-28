@@ -1,0 +1,121 @@
+{
+  "fecha_utc": "2026-10-22T23:04:37.787834+00:00",
+  "caso": "pueblo-libre-002",
+  "analisis": "7203c79a3ece4438b36d267ba80f3c4b",
+  "modo": "real",
+  "lecturas": [
+    {
+      "lectura": "74d78008b7804616abcbf5dbd23a08b7",
+      "tipo": "reacciones",
+      "aceptada_real_con_fuentes_coincidentes": true
+    },
+    {
+      "lectura": "ddcf711b19e74f5a8043f9c1271d5ffa",
+      "tipo": "modal",
+      "aceptada_real_con_fuentes_coincidentes": true
+    },
+    {
+      "lectura": "376b4c1c72a349ef98b7e6677c9de772",
+      "tipo": "derivas",
+      "aceptada_real_con_fuentes_coincidentes": true
+    }
+  ],
+  "equilibrio_agua": [
+    {
+      "campo": "FX",
+      "reaccion_esperada": 0,
+      "reaccion_observada": 0.0,
+      "error_absoluto": 0.0,
+      "semiancho_redondeo_textual": 0.5,
+      "coincide": true
+    },
+    {
+      "campo": "FY",
+      "reaccion_esperada": 0,
+      "reaccion_observada": 0.0,
+      "error_absoluto": 0.0,
+      "semiancho_redondeo_textual": 0.5,
+      "coincide": true
+    },
+    {
+      "campo": "FZ",
+      "reaccion_esperada": 134.95082340000002,
+      "reaccion_observada": 134.9508,
+      "error_absoluto": 2.340000003187015e-05,
+      "semiancho_redondeo_textual": 5e-05,
+      "coincide": true
+    },
+    {
+      "campo": "MX",
+      "reaccion_esperada": 506.01169578990005,
+      "reaccion_observada": 506.0117,
+      "error_absoluto": 4.210099973533943e-06,
+      "semiancho_redondeo_textual": 5e-05,
+      "coincide": true
+    },
+    {
+      "campo": "MY",
+      "reaccion_esperada": -2020.7794384659005,
+      "reaccion_observada": -2020.7794,
+      "error_absoluto": 3.8465900615847204e-05,
+      "semiancho_redondeo_textual": 5e-05,
+      "coincide": true
+    },
+    {
+      "campo": "MZ",
+      "reaccion_esperada": 0,
+      "reaccion_observada": 0.0,
+      "error_absoluto": 0.0,
+      "semiancho_redondeo_textual": 0.5,
+      "coincide": true
+    }
+  ],
+  "periodos_primeros3_s": [
+    1.339,
+    0.358,
+    0.224
+  ],
+  "participacion_modal_acumulada_modo12": {
+    "SumUX": 0.9411,
+    "SumUY": 0.9662,
+    "SumRZ": 0.9667
+  },
+  "derivas_elasticas": {
+    "SX": {
+      "direccion": "X",
+      "maximo_elastico": 0.001402,
+      "piso": "N3"
+    },
+    "SY": {
+      "direccion": "Y",
+      "maximo_elastico": 0.005976,
+      "piso": "N3"
+    }
+  },
+  "fuentes_sha256": {
+    "data\\private\\pueblo-libre-002\\analisis_etabs\\7203c79a3ece4438b36d267ba80f3c4b\\aceptacion_analisis.json": "920512f91266d70c4aa83ca1bf4fa42a4a5893b43963581ec4e730be3cbc8adf",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\74d78008b7804616abcbf5dbd23a08b7\\solicitud.json": "e2ebbc0fa85921aab38e71a8dd1288796f3266078c3dd388510e2f3d2f3ede69",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\74d78008b7804616abcbf5dbd23a08b7\\respuesta.json": "c14e6e472b14f19cd5b2823b10dbbdc43d087d095ff2f3df4d95c9587e0bac4c",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\74d78008b7804616abcbf5dbd23a08b7\\aceptacion_lectura.json": "989daa5c89df318b1092f9699ada8a481dd29d565002c3768b00f1474eaffd19",
+    "tmp\\recorrido_09d1\\lectura_reacciones.json": "2c496aed5f01c044c9985125beb5e579649a9720a2b0db0288dd0bd3a4a80602",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\ddcf711b19e74f5a8043f9c1271d5ffa\\solicitud.json": "56cafdf131242165f2fcf35c49b16994e17a92ffe1425af763666052c5c6752d",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\ddcf711b19e74f5a8043f9c1271d5ffa\\respuesta.json": "19d046aed4d272ad45064ec87631e576d4b81f1074d240a9942211d7901227f6",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\ddcf711b19e74f5a8043f9c1271d5ffa\\aceptacion_lectura.json": "36e1c551705578609d5560e7ea39f78ee2fee21d2510cd7bcc208a96fd963dc2",
+    "tmp\\recorrido_09d1\\lectura_modal.json": "9b2cb7ca7e00cb9df82e7003cd2f8e118c9f0e70a9583220b05466c415848097",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\376b4c1c72a349ef98b7e6677c9de772\\solicitud.json": "1a9cc26188cc1e5cc53602d0947f4b4e032bf65aa7d5b26fb7226b7e9573fb7b",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\376b4c1c72a349ef98b7e6677c9de772\\respuesta.json": "86603a07ca6ba5cdf287544029c8b643f6679fcb35254924e716c73224cc26a6",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\376b4c1c72a349ef98b7e6677c9de772\\aceptacion_lectura.json": "d70d4d13bcb0866302a99e80464a07a0528e949a2afa8cfdf724c0bb904ca7bf",
+    "tmp\\recorrido_09d1\\lectura_derivas.json": "3abcdd09ffa18c596eb2977895ffa6a345954a5bced0979c49d100fca5f0e261",
+    "seguimiento\\CONTRASTE_PRESIONES_264.json": "2641d08669167e022158cb7ca78991c9da3a8583ace7dfcabf5fddf602375d96",
+    "tmp\\ruta201\\configuracion09dt.json": "aba6827c8ab32b494809b96f0f6e55ba3c8ab22eeb32ffe6abdcd5aa1738b52e",
+    "data\\private\\pueblo-libre-002\\modelos_construidos\\0f37271307b6449c89c458c60a1640c7\\configuracion.json": "d4ac7417408370114476ee00c4ef12111133f162584c13b5f930884fb3fb8974"
+  },
+  "fuentes_estables": true,
+  "limites": [
+    "Contraste del escenario y entradas declaradas; no confirma hipótesis de los planos ni ingeniería.",
+    "Equilibrio estático global del agua no acredita masa ensamblada, distribución dinámica ni hidrodinámica.",
+    "Derivas son crudas elásticas; evaluación normativa e informe final se verifican por separado.",
+    "No se ejecutó ETABS, solver ni API remota."
+  ],
+  "goal_completo": false
+}

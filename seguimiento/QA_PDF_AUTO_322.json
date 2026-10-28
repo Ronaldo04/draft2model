@@ -1,0 +1,14 @@
+{
+  "informe": "5fbeb92275eb4dfbb3d3457f6c4abee5",
+  "publicado": true,
+  "sha256_pdf": "49ae24aded49d4ed056a0b9676d29ac01bebbc6f5250ef12492f259eeeaf4594",
+  "paginas": 6,
+  "paginas_seccion_auto": [
+    2
+  ],
+  "renderizado_poppler": true,
+  "inspeccion_visual": "Seis páginas revisadas en contacto y página2 ampliada: tablas legibles, sin superposición ni recorte observado. Página6 contiene cierre de trazabilidad.",
+  "contacto": "tmp\\pdfs\\auto_322\\contacto.png",
+  "pdf_modificado": false,
+  "aceptacion_pendiente": null
+}

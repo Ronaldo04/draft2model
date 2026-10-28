@@ -1,0 +1,62 @@
+{
+  "fecha_utc": "2026-10-23T05:07:09.009457+00:00",
+  "trabajo_web": "f56fdeaffd5142379d3350c4527854a3",
+  "lectura": "4b6119a82d8143b2a9e336f2f91649cf",
+  "analisis": "7203c79a3ece4438b36d267ba80f3c4b",
+  "sha256_edb": "42371308a03d4f1bac8f5ed3aa5daf0421cdf3de27ff823f8f582c13ad2af394",
+  "recibos_y_enlaces_revisados": true,
+  "fuentes_estables": true,
+  "casos": [
+    "CM",
+    "CAGUA",
+    "MODAL-E030"
+  ],
+  "filas_por_tabla": {
+    "Base Reactions": 14,
+    "Modal Participating Mass Ratios": 12
+  },
+  "participacion_ultimo_modo": {
+    "Mode": "12",
+    "SumUX": "0.9411",
+    "SumUY": "0.9662",
+    "SumRZ": "0.9667"
+  },
+  "coincidencia_lecturas_previas": [
+    "CM: todos los campos de la lectura anterior",
+    "CAGUA: todos los campos de la lectura anterior",
+    "modal: 12 filas completas"
+  ],
+  "diferencias_esquema": [
+    {
+      "caso": "CM",
+      "campos_adicionales_web": {
+        "StepNumber": null
+      }
+    },
+    {
+      "caso": "CAGUA",
+      "campos_adicionales_web": {
+        "StepNumber": null
+      }
+    }
+  ],
+  "fuentes_sha256": {
+    "data\\private\\pueblo-libre-002\\trabajos_lecturas\\f56fdeaffd5142379d3350c4527854a3\\preparacion.json": "d444639aa5120195fe8f9ff120e81a69e8b202100c8858d91fccbee2da50da71",
+    "data\\private\\pueblo-libre-002\\trabajos_lecturas\\f56fdeaffd5142379d3350c4527854a3\\evidencia_analisis.json": "47f4bfd209b328ff7c5fba3942059cde6c86681eeae08e9818ae7cb5737455c8",
+    "data\\private\\pueblo-libre-002\\trabajos_lecturas\\f56fdeaffd5142379d3350c4527854a3\\expediente.json": "56080c2ab3211d2980cd039567ecb025d97e80ac1b3e342c6efb979dbb654776",
+    "data\\private\\pueblo-libre-002\\expediente.json": "56080c2ab3211d2980cd039567ecb025d97e80ac1b3e342c6efb979dbb654776",
+    "data\\private\\pueblo-libre-002\\trabajos_lecturas\\f56fdeaffd5142379d3350c4527854a3\\aceptacion_web.json": "9adb903bad32141da69bb339cd67e5cba3c9976201d2619df06c9219087ac1fd",
+    "data\\private\\pueblo-libre-002\\lecturas_etabs\\4b6119a82d8143b2a9e336f2f91649cf\\aceptacion_lectura.json": "c90e5fd4137d635c13f26621a44bb2e79bd9ada2590bc53390f62e290c4f29da",
+    "data\\private\\pueblo-libre-002\\lecturas_etabs\\4b6119a82d8143b2a9e336f2f91649cf\\evidencia_analisis.json": "43e24da53271499818216c95e5a3bb379199eecc42db80d64af164824a190841",
+    "data\\private\\pueblo-libre-002\\lecturas_etabs\\4b6119a82d8143b2a9e336f2f91649cf\\respuesta.json": "be6051686f7afba0d59b58ae70ddc177ff1302dc9f52286e71cc58367d308774",
+    "data\\private\\pueblo-libre-002\\lecturas_etabs\\4b6119a82d8143b2a9e336f2f91649cf\\solicitud.json": "28af78b459104bfcd41633cc48ecbd7c4f966d8c1f0df1955c39ae8409806b25",
+    "data\\private\\pueblo-libre-002\\analisis_etabs\\7203c79a3ece4438b36d267ba80f3c4b\\aceptacion_analisis.json": "920512f91266d70c4aa83ca1bf4fa42a4a5893b43963581ec4e730be3cbc8adf",
+    "data\\private\\pueblo-libre-002\\analisis_etabs\\7203c79a3ece4438b36d267ba80f3c4b\\analizado.edb": "42371308a03d4f1bac8f5ed3aa5daf0421cdf3de27ff823f8f582c13ad2af394",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\74d78008b7804616abcbf5dbd23a08b7\\respuesta.json": "c14e6e472b14f19cd5b2823b10dbbdc43d087d095ff2f3df4d95c9587e0bac4c",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\ddcf711b19e74f5a8043f9c1271d5ffa\\respuesta.json": "19d046aed4d272ad45064ec87631e576d4b81f1074d240a9942211d7901227f6"
+  },
+  "alcance": "Revisión focal independiente de integridad y valores conservados de lectura web real. No invoca verificar_analisis_aceptado ni sustituye su revalidación completa, controles finales o QA del navegador. Cierre de instancia respaldado por recibos, sin observación propia del PID.",
+  "etabs_ejecutado": false,
+  "api_remota": false,
+  "goal_completo": false
+}

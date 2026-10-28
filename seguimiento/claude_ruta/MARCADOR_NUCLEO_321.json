@@ -1,0 +1,48 @@
+{
+ "tarea": "nucleo_321",
+ "estado": "entrega_candidata",
+ "responsable": "Claude",
+ "llamadas_remotas": 0,
+ "ensayo_ciego": false,
+ "fecha_utc": "2026-10-24T09:08:39+00:00",
+ "entregables": {
+  "fuente_propuesta": "fuentes/estimacion_extremos_auto.py (destino draft2model/; núcleo + entrada pública con validar_plan_por_version + CLI)",
+  "pruebas": {
+   "test_nucleo_317_en_321.py": 8,
+   "test_nucleo_validacion_321.py": 11,
+   "test_entrada_publica_321.py": 13,
+   "total_OK": 32
+  },
+  "nota_integracion": "NOTA_INTEGRACION_321.md",
+  "piloto": "PILOTO_ENTRADA_PUBLICA_321.json (45/45; offsets idénticos a PREDICCION_AUTO_320 en 45 vigas)"
+ },
+ "terminado": [
+  "núcleo reutilizable",
+  "entrada pública con validador real",
+  "clasificación de 40 escrituras y 4 tablas de la lista blanca",
+  "ItemType grupo/selección y referencias inexistentes como problemas",
+  "CLI JSON estricto sin sobrescritura con huellas",
+  "pruebas focales",
+  "nota de integración"
+ ],
+ "pendiente": [
+  "integración real y pruebas en el paquete público (Codex)",
+  "vinculación tolerancia-recibo en el consumidor",
+  "residuo CM 0,006877 kN fuera de VS"
+ ],
+ "archivos_permitidos_sha256": {
+  "seguimiento/claude_ruta/nucleo_auto_321/fuentes/estimacion_extremos_auto.py": "cc74e025b30ca477de93a5a88bc9da771b448857c171a6b75d43b936ddff38d3",
+  "seguimiento/claude_ruta/nucleo_auto_321/NOTA_INTEGRACION_321.md": "ed1e0873ae1c16cb7d2448efd08e0620299bf93c3795e015683701a7e9b5c9fb",
+  "seguimiento/claude_ruta/nucleo_auto_321/PILOTO_ENTRADA_PUBLICA_321.json": "e8eded0e5936d3653faaa942c2633171b4fba2d866f64321076fd928cab42e7d",
+  "seguimiento/claude_ruta/nucleo_auto_321/pruebas/test_entrada_publica_321.py": "f98889a98e65044a3d7e0a06a96d212c8f6b3a19caa2100e7887a472f9213dde",
+  "seguimiento/claude_ruta/nucleo_auto_321/pruebas/test_nucleo_317_en_321.py": "f260d04b669ab251d1aec77618595f8dd102068eed2321393f124aed31d78d0d",
+  "seguimiento/claude_ruta/nucleo_auto_321/pruebas/test_nucleo_validacion_321.py": "04b2cf3c4a4c2c24c8f2f4459fd269cdb447c927aab07a2301891e9c5891c399"
+ },
+ "limites": [
+  "Núcleo aislado, no flujo integrado",
+  "Perfil empírico ETABS 21.1.0 / kN_m_C / rectangulares / 0-90° / tol 0,001-0,005",
+  "No declara masa coherente; no modifica libro ni JSON históricos",
+  "No se ejecutó suite global"
+ ],
+ "aceptacion_codex": false
+}

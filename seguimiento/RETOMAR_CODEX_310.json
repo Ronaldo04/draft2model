@@ -1,0 +1,67 @@
+{
+  "fecha_utc": "2026-10-24T07:15:05.080661+00:00",
+  "goal_completo": false,
+  "anterior": "seguimiento/RETOMAR_CODEX_306.json",
+  "distribucion_actual": "entregas/AECODE_ENTREGA_308",
+  "huella_fuentes": "7d69e57b4a0f7427e75e9113366276c0fe2bfcffc52bd6319fabdd51fa86e82a",
+  "complemento": "entregas/COMPLEMENTO_CORREGIDO_303",
+  "guia": "entregas/AECODE_ENTREGA_308/LEER_PRIMERO.md",
+  "validacion": "1424Python y36frontend306 correctas,599fuentes.308 solo6documentos, código/pruebas/dependencias idénticos.79enlaces comprobados. No repetir suites/instalación.",
+  "evidencia_validacion": "entregas/AECODE_ENTREGA_308/VALIDACION.json",
+  "auditoria": "seguimiento/AUDITORIA_P01_P14_308.json",
+  "descarga": "seguimiento/QA_DESCARGA_Y_306_307.json: usuario descargóChrome303;117212B ySHAcoinciden. Apertura306 comprobada, no afirmar descarga308.",
+  "arranque": "seguimiento/ARRANQUE_VACIO_308.json: ZIP308 extraído con raíz vacía, sinclaves/proveedores/ETABS; servidor18310 cerrado.",
+  "claude": {
+    "registro": "seguimiento/CLAUDE_ESTADO.json",
+    "tarea_actual": 310,
+    "encargo": "seguimiento/ENCARGO_CLAUDE_PDF_310_POPPLER.md",
+    "marcador": "seguimiento/claude_ruta/MARCADOR_PDF_310.json",
+    "estado": "enviado, pendiente entrega; no afirmar terminación",
+    "revisado309": "seguimiento/REVISION_PDF_310.json",
+    "control": "NativeCU reanudado por humano y solo usado para coordinación; ningún Escape posterior. No sondear ventana; primero estado_claude.py.",
+    "cuota_visible": "Claude92%semanal usado al iniciar309; no prometer ejecución si se agota."
+  },
+  "referencia_humana": {
+    "estado": "Usuario respondió que completará el anotador; todavía no entregóruta/JSON. No puntuar ni inferir aprobación.",
+    "kit": "seguimiento/referencia_humana_308/Anotar_referencia.html",
+    "instrucciones": "seguimiento/referencia_humana_308/LEER_PRIMERO.md",
+    "qa": "seguimiento/QA_ANOTADOR_308.json:3imágenes mismas del primerproyecto,0observaciones, exportación vacía bloqueada, JSválido.",
+    "fuente": "Caso inicial provisional-001, mismos3PDFestructurales del primerproyecto, no proyectos2/3.",
+    "pendiente": "Al recibirJSON humano, validar y preparar/revisar correspondencias con candidatos anteriores a corrección antes de medir. No crear verdad humana con IA."
+  },
+  "servidores": [
+    {
+      "exec": 36115,
+      "url": "http://127.0.0.1:18303/",
+      "runtime": "ZIP303",
+      "estado": "handle confirmado vivo en esta coordinación"
+    },
+    {
+      "exec": 95011,
+      "url": "http://127.0.0.1:18306/",
+      "runtime": "ZIP306, códigoidéntico308",
+      "estado": "handle confirmado vivo en esta coordinación"
+    }
+  ],
+  "navegadores": "IABqa306 era tab2/18306; reconstruir binding si falta. Chrome debugger quedódesconectado tras waitForEvent(download); NUNCA repetir esa espera ni variante asíncrona/Promise.all: bloqueó1025s. Descarga real ya quedóverificada por archivo y usuario.",
+  "restricciones": [
+    "No nuevasAPI: OpenAI4/5,Gemini2/5 consumidas, exclusivamenteplanos; no leercredenciales.",
+    "No procesar proyectos2/3 hasta validarprimero. Modelo manual retenido/aplazado; no pedirlo.",
+    "No modificar producto308 ni carpeta310 mientrasClaude trabaja; propuesta310 requiere revisión e integración porCodex.",
+    "Heartbeat coordinar-entregas-de-claude siguePAUSADO; no reactivar sin petición.",
+    "Sin aprobación profesional; hipótesis suelo/sistema, sinEMS;10comparaciones no satisfactorias y masa no_coherente conservados."
+  ],
+  "cuota": {
+    "ultima_observacion_utc": "2026-10-24T06:41:55Z",
+    "restante5h_observado": 100,
+    "restanteSemanal_observado": 69,
+    "incidencia": "Auto-review porcuota bloqueócrearLEER_PRIMERO308 antes delreset; acciónnoejecutada. Trasrestablecimiento100% se repitiómismapatch yseguardó. Sinresetmanual.",
+    "politica": "<=5%no iniciartrabajospesados;<=1%guardaryterminar; no declararlogrado poragotamiento."
+  },
+  "siguiente": [
+    "Ejecutar solo estado_claude.py para entrega310. Ante candidato:SHA/perímetro, lectura breve y prueba focal; no confiar en conclusión por marcador.",
+    "Completar índices/evidencias externas pendientes sin cambiar fuentes congeladas; matrizP12 sigueabierta porPoppler.",
+    "Esperar referencia humana efectiva paraP04; aceptación de hacerla no equivale a archivo anotado.",
+    "No reconstruirhistorial ni relanzarglobales. Mantenerobjetivoíntegro; no marcarcompleto conP04/P12 abiertos."
+  ]
+}

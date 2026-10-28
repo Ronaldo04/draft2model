@@ -1,0 +1,45 @@
+{
+  "fecha_utc": "2026-10-22T17:45:23.584689+00:00",
+  "comando": ".venv/Scripts/python.exe -B -m seguimiento.reproducir_contenido_260",
+  "casos": [
+    {
+      "tipo_deposito": "list",
+      "excepcion": null,
+      "consistente": false,
+      "errores": [
+        "$.liquidos.contenido[0].deposito: se requiere texto no vacío",
+        "$.liquidos.contenido: declaraciones de líquido sin estado de contenido: FONDO"
+      ]
+    },
+    {
+      "tipo_deposito": "dict",
+      "excepcion": null,
+      "consistente": false,
+      "errores": [
+        "$.liquidos.contenido[0].deposito: se requiere texto no vacío",
+        "$.liquidos.contenido: declaraciones de líquido sin estado de contenido: FONDO"
+      ]
+    },
+    {
+      "tipo_deposito": "bool",
+      "excepcion": null,
+      "consistente": false,
+      "errores": [
+        "$.liquidos.contenido[0].deposito: se requiere texto no vacío",
+        "$.liquidos.contenido: declaraciones de líquido sin estado de contenido: FONDO"
+      ]
+    },
+    {
+      "tipo_deposito": "NoneType",
+      "excepcion": null,
+      "consistente": false,
+      "errores": [
+        "$.liquidos.contenido[0].deposito: se requiere texto no vacío",
+        "$.liquidos.contenido: declaraciones de líquido sin estado de contenido: FONDO"
+      ]
+    }
+  ],
+  "apis_remotas": 0,
+  "etabs": false,
+  "aceptacion_global": false
+}

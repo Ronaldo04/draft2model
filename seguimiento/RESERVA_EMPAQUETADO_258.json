@@ -1,0 +1,19 @@
+{
+  "responsable": "Codex",
+  "fecha_utc": "2026-10-22T17:27:20.307661+00:00",
+  "archivos": {
+    "scripts/crear_paquete_aecode.py": "3aabea0631d3f51abb76bfd3d447a9585c96283a163a25afc7d7aa7885b9e506",
+    "tests/test_paquete_aecode.py": "5bbdad8864af851d9e45266b92d3b4d534d7b10b90b6f7de586bf5480622e3a9",
+    "docs/ENTREGA_AECODE.md": "78f53b50b99c03e0a6511ab8762a92e92ab974779fc4d3ff7b812aeeacf17dd7"
+  },
+  "pruebas": {
+    "comando": ".venv/Scripts/python.exe -B -m unittest tests.test_paquete_aecode -q",
+    "resultado": "8 pruebas OK, 1.015s"
+  },
+  "paquete": "entregas/AECODE_CANDIDATO_258",
+  "huella_fuentes": "87f79d0511866223e1e51007e099474c3de9523fd7be5ec282736ba368f38fc2",
+  "alcance": "564 archivos incluidos con wheels exactos del lock; no datos privados ni resultados reales",
+  "validacion": "tmp/validacion_paquete_258/verificacion.json; consultar resultado terminal",
+  "aceptacion_global": false,
+  "acuerdo_claude_confirmado": false
+}

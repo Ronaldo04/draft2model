@@ -1,0 +1,75 @@
+{
+ "tarea": "extremos_314",
+ "estado": "entrega_candidata",
+ "responsable": "Claude",
+ "ensayo_ciego": false,
+ "fecha_utc": "2026-10-24T08:00:35+00:00",
+ "fuente_documental": {
+  "url": "https://docs.csiamerica.com/help-files/etabs/Menus/Assign/Frame/End_Length_Offset.htm",
+  "titulo": "End Length Offsets (ETABS help)",
+  "version": "no indicada; ETABS.chm local no extraíble con hh.exe",
+  "base_313_retirada": "CSI Analysis Reference p.128 es regla de SAP2000"
+ },
+ "resultado": {
+  "por_extremo": {
+   "R-cara_313": {
+    "acuerdo": 75,
+    "abstencion": 4,
+    "desacuerdo": 11
+   },
+   "R-ETABS_314": {
+    "abstencion": 65,
+    "acuerdo": 25
+   },
+   "R-ETABS-B3cero": {
+    "abstencion": 32,
+    "acuerdo": 58
+   }
+  },
+  "por_viga": {
+   "R-cara_313": {
+    "acuerdo": 33,
+    "abstencion": 4,
+    "desacuerdo": 8
+   },
+   "R-ETABS_314": {
+    "abstencion": 41,
+    "acuerdo": 4
+   },
+   "R-ETABS-B3cero": {
+    "abstencion": 16,
+    "acuerdo": 29
+   }
+  },
+  "conclusion": "R-ETABS no tiene desacuerdos donde la documentación determina (25/25 extremos); los 11 desacuerdos de 313 pasan a abstención B2 (offsets>=L sin regla). No reduce desacuerdos a aciertos; cobertura baja (B3 46 extremos, B2 16 vigas).",
+  "geometria_nativa": "plan = geometría archivada (|ΔL|max 4.4e-16 m); desacuerdos no son geométricos",
+  "patron_observado_no_adoptado": "un extremo en exceso: Lc nativa 0,002 m (13 vigas); ambos en exceso: 0/0 (3 vigas)",
+  "r313_denominadores_comparables": "41 no abstenidas: R-cara 33 y R-max 33"
+ },
+ "archivos_permitidos_sha256": {
+  "seguimiento/claude_ruta/extremos_etabs_314/CONTRASTE_314.json": "6dd65983fb4f2401e0d00caf4b8c00e47984b2b7cc700ea28f74e4660ca45d8c",
+  "seguimiento/claude_ruta/extremos_etabs_314/contraste_314.py": "dcc341bdd0710348b75806a8e8d4d555d0e83a27d45dd140eae15b4ed303813c",
+  "seguimiento/claude_ruta/extremos_etabs_314/GEOMETRIA_NATIVA_314.json": "0320d9828870fab80cb47ebdb6b56a07acbc004b70e5ebad450457a491bea176",
+  "seguimiento/claude_ruta/extremos_etabs_314/geometria_nativa_314.py": "ed6867b73d4d27c56f0ce6cd57fbcec0654c75254a0b0ee5ebf7110bcf450a93",
+  "seguimiento/claude_ruta/extremos_etabs_314/INFORME_EXTREMOS_314.md": "6ea55c25d8f23e12669fe50dd4265bc69f933ffb079c14f8f15d9a1c0d6fabef",
+  "seguimiento/claude_ruta/extremos_etabs_314/PREDICCION_314.json": "1606df7395f95017344db568577187e801f8a8f827d72989be3457fcef464a1f",
+  "seguimiento/claude_ruta/extremos_etabs_314/predictor_etabs_314.py": "9773488ab23cda1d5ff917a4f94cf55f4053b774d02ae426b106b6cdf74b53de",
+  "seguimiento/claude_ruta/extremos_etabs_314/REGLA_314.md": "00de280cf13234403edc2c99921e5df32ec782cebbf1a88786b338f79e0af926",
+  "seguimiento/claude_ruta/extremos_etabs_314/SELLO_REGLA_314.sha256": "91dcf599c063cfd87e13f3ad48021dcc1b8d8dca1e41e098bea1fc896e46811c",
+  "seguimiento/claude_ruta/extremos_etabs_314/test_predictor_etabs_314.py": "5f779d2f6f5182082f5f891b2293239dac84b03e26d75d046a76349d442ef5bf"
+ },
+ "comprobaciones": [
+  "6 pruebas sintéticas OK con independencia estática",
+  "313 sin cambios (predictor y predicción con mismos hashes)",
+  "misma población y denominadores en las tres reglas"
+ ],
+ "limites": [
+  "Ensayo no ciego (313 conocido); el sello no acredita cronología",
+  "½·dimensión máxima inferida de 'se basa en'",
+  "Muros y tratamiento >=L no documentados",
+  "Sin ETABS, APIs, modelo manual ni proyectos 2/3",
+  "No integra libro ni verifica masa"
+ ],
+ "siguiente_accion": "Documentación CSI de ETABS 21 sobre Auto con offsets>=L y muros, o prueba controlada autorizada; Codex decide integración.",
+ "aceptacion_codex": false
+}

@@ -1,0 +1,161 @@
+{
+  "estado": "revision_focal_con_hallazgos",
+  "snapshot": "tmp/revision_codex_236",
+  "normativa": [
+    {
+      "prueba": "C_T=0",
+      "esperado": 1,
+      "observado": 1.0,
+      "pasa": true
+    },
+    {
+      "prueba": "C_T=0.08",
+      "esperado": 2.5,
+      "observado": 2.5,
+      "pasa": true
+    },
+    {
+      "prueba": "C_T=0.4",
+      "esperado": 2.5,
+      "observado": 2.5,
+      "pasa": true
+    },
+    {
+      "prueba": "C_T=1",
+      "esperado": 1,
+      "observado": 1.0,
+      "pasa": true
+    },
+    {
+      "prueba": "C_T=2.5",
+      "esperado": 0.4,
+      "observado": 0.4,
+      "pasa": true
+    },
+    {
+      "prueba": "C_T=5",
+      "esperado": 0.1,
+      "observado": 0.1,
+      "pasa": true
+    },
+    {
+      "prueba": "Ec_210_kgfcm2_a_kNm2",
+      "esperado": 21328869.79776472,
+      "observado": 21328869.79776472,
+      "pasa": true
+    },
+    {
+      "prueba": "Em_35_arcilla",
+      "esperado": 1716163.75,
+      "observado": 1716163.75,
+      "pasa": true
+    },
+    {
+      "prueba": "V_minimo_art34_2",
+      "esperado_minimo_aplicable_kN": 49.5,
+      "observado": {
+        "C": 0.025,
+        "C_R": 0.003125,
+        "cumple_C_R_minimo": false,
+        "V_kN": 1.4062500000000002,
+        "cita": [
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "34.1"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "34.2"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "18.3"
+          }
+        ]
+      },
+      "pasa": false
+    },
+    {
+      "prueba": "rechazo_TL_menor_TP",
+      "pasa": false,
+      "observado": {
+        "C": 2.5,
+        "C_R": 0.8333333333333334,
+        "cumple_C_R_minimo": true,
+        "V_kN": 375.0,
+        "cita": [
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "34.1"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "34.2"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "18.3"
+          }
+        ]
+      }
+    }
+  ],
+  "recuperacion_real_en_memoria": {
+    "candidatos": 59,
+    "cuarentena": 12,
+    "cobertura": [
+      {
+        "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+        "estado": "parcial",
+        "observacion": "Se listaron las secciones de columnas C-1 a C-6 y las primeras filas del cuadro de placas; el resto de filas del cuadro de placas queda pendiente."
+      },
+      {
+        "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+        "estado": "completa",
+        "observacion": "Todas las especificaciones técnicas principales, recubrimientos, sobrecargas y traslapes han sido digitalizados."
+      },
+      {
+        "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+        "estado": "completa",
+        "observacion": "Todos los parámetros sísmicos y datos del resumen de suelos han sido extraídos completamente."
+      }
+    ],
+    "advertencias": [
+      "fuera_mvp",
+      "resultado_impreso",
+      "resultado_impreso",
+      "resultado_impreso",
+      "resultado_impreso",
+      "cobertura_incompleta",
+      "candidatos_en_cuarentena",
+      "cobertura_con_cuarentena",
+      "cobertura_con_cuarentena"
+    ]
+  },
+  "persistido": false,
+  "alcance": "Pruebas independientes contra fórmulas/artículos oficiales ya revisados; no modelo real ni aprobación de ingeniería."
+}

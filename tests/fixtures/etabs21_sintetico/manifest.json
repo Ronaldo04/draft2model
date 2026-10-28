@@ -1,0 +1,286 @@
+{
+  "contrato": "draft2model.fixture_etabs_sintetico",
+  "version": "1.0.0",
+  "datos_sinteticos": true,
+  "origen": "Capturas locales de fixtures inventadas en ETABS21.1,17-10-2026; reproducción de archivos, sin ejecución del motor al probar.",
+  "aviso": "No contiene planos reales ni credenciales. Las rutas Windows declaradas de las capturas son históricas; no se accede a ellas. No certifica ingeniería.",
+  "sha256_zip": "f309fc057a2427ec5f62c34b4e6775d0b9acca9b9f81cd35f19d51f2c5553a17",
+  "archivos": {
+    "analisis/adf97fbc232141e8ae687872c0d71232/aceptacion_analisis.json": {
+      "sha256": "9d12b95615bbad21959ade62baa2d0e3503d394e9613a2aede067ab74047625d",
+      "bytes": 849
+    },
+    "analisis/adf97fbc232141e8ae687872c0d71232/analizado.edb": {
+      "sha256": "d317cb7f88b5d62cee61fae8a69a1bbf4e4cdfb07705e3bc595772801ed34bb7",
+      "bytes": 141331
+    },
+    "analisis/adf97fbc232141e8ae687872c0d71232/entrada.edb": {
+      "sha256": "6a64847429bd78295f806c153277b2c18e814ad2dd6b4ad47823aa2d01451351",
+      "bytes": 80999
+    },
+    "analisis/adf97fbc232141e8ae687872c0d71232/respuesta.json": {
+      "sha256": "bb0ef53009de0fe2bf15a48b8bd21f6006a1dbab04a90332e15914f2afd3e314",
+      "bytes": 950
+    },
+    "analisis/adf97fbc232141e8ae687872c0d71232/solicitud.json": {
+      "sha256": "f87d73c565929efaa4c0cc7d679ea495c1424f1256d31e0322710ed09757ea9e",
+      "bytes": 1102
+    },
+    "esquema/construccion/b8b0a4e515d64767aeceaae1001e9fc6/plan.json": {
+      "sha256": "a51308c72ec7bde6e59060ad9e49c42bb54e1b4c13e3b853252db4f17a813a75",
+      "bytes": 64747
+    },
+    "esquema/construccion/b8b0a4e515d64767aeceaae1001e9fc6/respuesta.json": {
+      "sha256": "87b3423209ad8b1eef62edfd2a050eb23b58aafc4b2a8e34a9769cf989a96212",
+      "bytes": 669
+    },
+    "esquema/tablas_damping_reales.json": {
+      "sha256": "e8c51e16a1f01e9dc93718ef01527c0a130efe90aae34d587d502dcb3d9de9da",
+      "bytes": 129556
+    },
+    "esquema/tablas_dinamicas_reales.json": {
+      "sha256": "4712616ada22a8c8e3c6763521a82d4db1aa69c7d6da7ec1d220577647bcb0a4",
+      "bytes": 118965
+    },
+    "informe_historico.json": {
+      "sha256": "3d0a519a824d55fcca96da3716c14c3d155cc1bb47dc4fe3a8a1a894460eddb6",
+      "bytes": 8033
+    },
+    "otro_analisis/28f6d928fac949acadd19f294e6bf644/aceptacion_analisis.json": {
+      "sha256": "e007fe7210ac3ff09d36220a191ec8a233ebd5b881d383c750084d1ec906677b",
+      "bytes": 881
+    },
+    "otro_analisis/28f6d928fac949acadd19f294e6bf644/analizado.edb": {
+      "sha256": "fb3c1743e674f41a887317797452d89c94dfc8015c660d8e3af39567b2a618aa",
+      "bytes": 141317
+    },
+    "otro_analisis/28f6d928fac949acadd19f294e6bf644/entrada.edb": {
+      "sha256": "6a64847429bd78295f806c153277b2c18e814ad2dd6b4ad47823aa2d01451351",
+      "bytes": 80999
+    },
+    "otro_analisis/28f6d928fac949acadd19f294e6bf644/respuesta.json": {
+      "sha256": "cc64f36167907f67420dec96b456841da580245dd5dbd43744b6d89fcc1d769e",
+      "bytes": 1015
+    },
+    "otro_analisis/28f6d928fac949acadd19f294e6bf644/solicitud.json": {
+      "sha256": "df3f75b71b88bc349d64a3ba988b6af9d385e609571b4b1dd82ab159bce333ca",
+      "bytes": 1166
+    },
+    "private/demo-integrada-sintetica/aprobaciones_modelo/b596d594ceaf4f8687f6ea502a376591/aprobacion.json": {
+      "sha256": "e2e0aff6c52726e4d6c253eb560b23f194d51cc2f29f7612aa1554069f60327b",
+      "bytes": 1812
+    },
+    "private/demo-integrada-sintetica/configuraciones_estructurales/1a2127bdef5842b6af1fe2791a471da5/configuracion.json": {
+      "sha256": "c6168345e31b3a710d99e33871ab33852dc78b7296ee0b5f68caa37cd1bed020",
+      "bytes": 6887
+    },
+    "private/demo-integrada-sintetica/configuraciones_estructurales/1a2127bdef5842b6af1fe2791a471da5/version.json": {
+      "sha256": "d8055cdb5d5cdfdf7ca36ef2071a9263db69a5e1a477e33bf1e7ee3b39c0afde",
+      "bytes": 1060
+    },
+    "private/demo-integrada-sintetica/configuraciones_estructurales/42ced3b3625f46a5b195fea1724491ec/configuracion.json": {
+      "sha256": "8bf89e959a90dee34c0668cb22a43081d32f6e194710bdf9a50b2eb5225f3e50",
+      "bytes": 6887
+    },
+    "private/demo-integrada-sintetica/configuraciones_estructurales/42ced3b3625f46a5b195fea1724491ec/fuente_importada.json": {
+      "sha256": "7821bb7f3eb4a2947c13eda1309a2d30bbbf441f624d28a6a23267fc044986b4",
+      "bytes": 5000
+    },
+    "private/demo-integrada-sintetica/configuraciones_estructurales/42ced3b3625f46a5b195fea1724491ec/version.json": {
+      "sha256": "eeb1073256ced550e76c07d7fd72caa951c7ead6f1bed24fe622f09c1b13a3c4",
+      "bytes": 681
+    },
+    "private/demo-integrada-sintetica/configuraciones_estructurales/a32f72fa6e7040fab6813c328385fb66/configuracion.json": {
+      "sha256": "5375ee982068653686f0bcbe6c11b3b1484e84c7d10ddd73cc630124c7d778a8",
+      "bytes": 7226
+    },
+    "private/demo-integrada-sintetica/configuraciones_estructurales/a32f72fa6e7040fab6813c328385fb66/version.json": {
+      "sha256": "d2a37a39a983cb90368ba151e518df2ec852429c370ad277dde31f0661dd508c",
+      "bytes": 1141
+    },
+    "private/demo-integrada-sintetica/conversiones_geometria/4421c2f4ea41411fbcf3408e53f1d5b7/exportacion.json": {
+      "sha256": "3f42add69e19c3b4387a16d893e5ee3ef5e01c69528df80a162403639b5faeb3",
+      "bytes": 5567
+    },
+    "private/demo-integrada-sintetica/conversiones_geometria/4421c2f4ea41411fbcf3408e53f1d5b7/geometria.json": {
+      "sha256": "d21217088a8f28d1d8525d530f3fe58c8a3fbaa14fd8bc4879bd270cd6feaf8b",
+      "bytes": 823
+    },
+    "private/demo-integrada-sintetica/conversiones_geometria/4421c2f4ea41411fbcf3408e53f1d5b7/manifiesto.json": {
+      "sha256": "bc7d3e45dfc8abdfd5934542031e862dcc118e0a720b910304173164546c95f5",
+      "bytes": 2211
+    },
+    "private/demo-integrada-sintetica/conversiones_geometria/4421c2f4ea41411fbcf3408e53f1d5b7/trazabilidad.json": {
+      "sha256": "2823ab724e5357a949e5fc0f58986ee7ba65e6a9d6a75609a2039b2c49d8dad4",
+      "bytes": 3783
+    },
+    "private/demo-integrada-sintetica/expediente.json": {
+      "sha256": "7130b5af2c904bc35953556ee964f2c4dc48b652b4820ff847207e105f379610",
+      "bytes": 1016
+    },
+    "private/demo-integrada-sintetica/extracciones/3b31bcb2ef9541c48bb31d7ee2694533/extraccion.json": {
+      "sha256": "d0a2cf9a061cd36abeb2c70f91dd79d4e88ca1b9a04599c5b00b26d555e457cd",
+      "bytes": 3240
+    },
+    "private/demo-integrada-sintetica/extracciones/3b31bcb2ef9541c48bb31d7ee2694533/reporte.json": {
+      "sha256": "9219b2f5ee676eb3c869efa62128b80b247cf6f27765ef15abd501d9a2210ee2",
+      "bytes": 1352
+    },
+    "private/demo-integrada-sintetica/extracciones/3b31bcb2ef9541c48bb31d7ee2694533/version.json": {
+      "sha256": "66e23292624a200956f86d4babcf2ee82042b96af8b7912d9e7bbcd23381b1b1",
+      "bytes": 963
+    },
+    "private/demo-integrada-sintetica/extracciones/5186b977903e420c970f73c2dc0a9827/extraccion.json": {
+      "sha256": "dd3331d9f4481776a7ce57652c0b89c3db02829caad3b72c26bba17bf196c928",
+      "bytes": 4027
+    },
+    "private/demo-integrada-sintetica/extracciones/5186b977903e420c970f73c2dc0a9827/reporte.json": {
+      "sha256": "e06cff2a5b8bfac3653484c9f35115dbccf61fac1ce3893606ee872895d0ecbb",
+      "bytes": 1352
+    },
+    "private/demo-integrada-sintetica/extracciones/5186b977903e420c970f73c2dc0a9827/version.json": {
+      "sha256": "84896a70e0416e07cd3cb9f3e3914fd3c6fd5269997f9c8560f2649a1996734b",
+      "bytes": 963
+    },
+    "private/demo-integrada-sintetica/extracciones/59daf0661053493d91c9f079e0f4a520/extraccion.json": {
+      "sha256": "81f171b39eaa5f7cbbcbe7393cc64e081936fb69ccb7752974b49988e5e8e2b4",
+      "bytes": 2836
+    },
+    "private/demo-integrada-sintetica/extracciones/59daf0661053493d91c9f079e0f4a520/reporte.json": {
+      "sha256": "dc0966d16de9054b4b41f3b6171d73aca3a6c3f93a8bcc8da1171df621b386f4",
+      "bytes": 1352
+    },
+    "private/demo-integrada-sintetica/extracciones/59daf0661053493d91c9f079e0f4a520/version.json": {
+      "sha256": "4d1038058ce86298cf0acc27754821187ccb96c763b1988306b34fecfeff0275",
+      "bytes": 963
+    },
+    "private/demo-integrada-sintetica/extracciones/6a45ae6e478e4858a19688017725288d/extraccion.json": {
+      "sha256": "a71df50bdfd344e5e5b7d11d44df14d5890007e21dd89897a336afcb755131c6",
+      "bytes": 2442
+    },
+    "private/demo-integrada-sintetica/extracciones/6a45ae6e478e4858a19688017725288d/fuente_importada.json": {
+      "sha256": "da756af09eef021530ab1f80b37fdb19d873fb398d7c9a88eab325d8065d9d80",
+      "bytes": 2547
+    },
+    "private/demo-integrada-sintetica/extracciones/6a45ae6e478e4858a19688017725288d/reporte.json": {
+      "sha256": "66122fcb9d957ddefe08c639568cdafda70ec0a7d049facce0d62f37ce77b699",
+      "bytes": 1352
+    },
+    "private/demo-integrada-sintetica/extracciones/6a45ae6e478e4858a19688017725288d/version.json": {
+      "sha256": "f0427c1df29195df8ff582a9992821b8d212722a0dce61908e24d78d5f2cfc42",
+      "bytes": 811
+    },
+    "private/demo-integrada-sintetica/extracciones/d8019dee603248ffac4dd6a87242167d/extraccion.json": {
+      "sha256": "f4c8d9fb0a0a0a7ad134c9dc97dca30fdadca6491121014165f89622f0167800",
+      "bytes": 3633
+    },
+    "private/demo-integrada-sintetica/extracciones/d8019dee603248ffac4dd6a87242167d/reporte.json": {
+      "sha256": "cc96d927f634e8b5ad411056d29caa331f3013d7b7f9fdeed0f541ae0821e602",
+      "bytes": 1352
+    },
+    "private/demo-integrada-sintetica/extracciones/d8019dee603248ffac4dd6a87242167d/version.json": {
+      "sha256": "9e6cf506880e8640697e9bb546ddb6e7c73f330e434858bee93e0c55956bf8aa",
+      "bytes": 963
+    },
+    "private/demo-integrada-sintetica/geometrias/6f22b68880384eb296e0b09ffd68e5e3/geometria.json": {
+      "sha256": "c7b790f7ad918946f3758c23a2c7c6d180a49c3260856f1fa517bf271ce55f76",
+      "bytes": 1272
+    },
+    "private/demo-integrada-sintetica/geometrias/6f22b68880384eb296e0b09ffd68e5e3/version.json": {
+      "sha256": "61e3fae042c60b66c9c20823e555be3c10cb992fe7c8ee626ad507bbe391d20d",
+      "bytes": 2978
+    },
+    "private/demo-integrada-sintetica/geometrias/d783e95f4b4a4e7296fabf59276c5d21/geometria.json": {
+      "sha256": "d21217088a8f28d1d8525d530f3fe58c8a3fbaa14fd8bc4879bd270cd6feaf8b",
+      "bytes": 823
+    },
+    "private/demo-integrada-sintetica/geometrias/d783e95f4b4a4e7296fabf59276c5d21/version.json": {
+      "sha256": "9b02ab7f695e37f1a1137fb00abe4a9581d61cfad571ba9b7b1908c2318c1cc0",
+      "bytes": 2742
+    },
+    "private/demo-integrada-sintetica/geometrias/f79e9175699947739bff5e36207b19b4/fuente_importada.json": {
+      "sha256": "d21217088a8f28d1d8525d530f3fe58c8a3fbaa14fd8bc4879bd270cd6feaf8b",
+      "bytes": 823
+    },
+    "private/demo-integrada-sintetica/geometrias/f79e9175699947739bff5e36207b19b4/geometria.json": {
+      "sha256": "d21217088a8f28d1d8525d530f3fe58c8a3fbaa14fd8bc4879bd270cd6feaf8b",
+      "bytes": 823
+    },
+    "private/demo-integrada-sintetica/geometrias/f79e9175699947739bff5e36207b19b4/version.json": {
+      "sha256": "48d3ecd20bf8a91e5c4d42314534f9e770078fe648af0f7268cffa1528d86a9d",
+      "bytes": 2306
+    },
+    "private/demo-integrada-sintetica/modelos_construidos/225f8c4a9a0744fbb702a9f0b9affdc0/aceptacion_integracion.json": {
+      "sha256": "eb733936987443982c634b79971c2dcbfe32469a9afeca47529272a63d472a3f",
+      "bytes": 1231
+    },
+    "private/demo-integrada-sintetica/modelos_construidos/225f8c4a9a0744fbb702a9f0b9affdc0/configuracion.json": {
+      "sha256": "afdc6e7431aafe1118b72541485684669de42ed441cfb62cb0352650c07af483",
+      "bytes": 6400
+    },
+    "private/demo-integrada-sintetica/modelos_construidos/225f8c4a9a0744fbb702a9f0b9affdc0/modelo.edb": {
+      "sha256": "6a64847429bd78295f806c153277b2c18e814ad2dd6b4ad47823aa2d01451351",
+      "bytes": 80999
+    },
+    "private/demo-integrada-sintetica/modelos_construidos/225f8c4a9a0744fbb702a9f0b9affdc0/plan.json": {
+      "sha256": "40606496771a98bf4fbd5e55094325d317a896ffe4bfa0066490bfbcf3fdf066",
+      "bytes": 40566
+    },
+    "private/demo-integrada-sintetica/modelos_construidos/225f8c4a9a0744fbb702a9f0b9affdc0/respuesta.json": {
+      "sha256": "bcd30987d3c4c685c84cc06f1865ae6f80fc6d29b3c0a8475a4df266260f13ae",
+      "bytes": 1432
+    },
+    "private/demo-integrada-sintetica/modelos_construidos/225f8c4a9a0744fbb702a9f0b9affdc0/solicitud.json": {
+      "sha256": "00b3253407b90a183e3b4a6e7a6cb7b14263b39156a99bd0390533b38b016555",
+      "bytes": 36733
+    },
+    "private/demo-integrada-sintetica/modelos_construidos/225f8c4a9a0744fbb702a9f0b9affdc0/traza.jsonl": {
+      "sha256": "46666623591d15f84958bb2dcd04dd1cc896758bc3fbba2692d3fbdbc28129ad",
+      "bytes": 10248
+    },
+    "private/demo-integrada-sintetica/modelos_construidos/225f8c4a9a0744fbb702a9f0b9affdc0/version.json": {
+      "sha256": "30272c4e06710055fae88324b0194b0f41718e27920ee67bea2ae7c77b078b0c",
+      "bytes": 1930
+    },
+    "private/demo-integrada-sintetica/originales/lamina-0001.pdf": {
+      "sha256": "386f1e70bcb77d1ce30d981e7a78578cceaf6a15c00e4cbb3887203ea27cf271",
+      "bytes": 981
+    },
+    "private/demo-integrada-sintetica/planes/ec70a42d15f043fa870e5035c2aeb05f/plan.json": {
+      "sha256": "15a31e87e1341211781ab3b76b50dd3b2f4f4c19b39ca06ad8e29ff66ef1c655",
+      "bytes": 3977
+    },
+    "private/demo-integrada-sintetica/planes/ec70a42d15f043fa870e5035c2aeb05f/version.json": {
+      "sha256": "12adbf948034c5107a7e51597d4b803cc84170abc63dfaf0a6a22b7661c54375",
+      "bytes": 697
+    },
+    "private/demo-integrada-sintetica/resultado_estatico_005/analizado.edb": {
+      "sha256": "d317cb7f88b5d62cee61fae8a69a1bbf4e4cdfb07705e3bc595772801ed34bb7",
+      "bytes": 141331
+    },
+    "private/demo-integrada-sintetica/resultado_estatico_005/mapeo.json": {
+      "sha256": "ef1137b9a0c7f759ca22375b0bccb0b8aec41f4c8468c7f31b866cd3dfa47b2d",
+      "bytes": 2685
+    },
+    "private/demo-integrada-sintetica/resultados_estructurales/72c06efb3bfe477bb1fe565809aeddec/configuracion.json": {
+      "sha256": "fa2811d0b265c3d2eca98610c84bd6ee4e7b128e338c4cd9d52bc8f7f3ae02d1",
+      "bytes": 6693
+    },
+    "private/demo-integrada-sintetica/resultados_estructurales/72c06efb3bfe477bb1fe565809aeddec/mapeo.json": {
+      "sha256": "ef1137b9a0c7f759ca22375b0bccb0b8aec41f4c8468c7f31b866cd3dfa47b2d",
+      "bytes": 2685
+    },
+    "private/demo-integrada-sintetica/resultados_estructurales/72c06efb3bfe477bb1fe565809aeddec/respuesta_puente.json": {
+      "sha256": "73853029ad2c273d49da3f320b9b457469ec5837cbc1d9e25d94c1fa533e66e6",
+      "bytes": 1479
+    },
+    "private/demo-integrada-sintetica/resultados_estructurales/72c06efb3bfe477bb1fe565809aeddec/resultados.json": {
+      "sha256": "9cca3321ad21364fd5ebd5fca4accc2a2b6bb7719b60325f7d9957c25f7769db",
+      "bytes": 1967
+    },
+    "private/demo-integrada-sintetica/resultados_estructurales/72c06efb3bfe477bb1fe565809aeddec/trazabilidad.json": {
+      "sha256": "ac22a9ca09960d499928f271c041b069add433a5f34d140c0d260ecd926a3261",
+      "bytes": 1709
+    }
+  }
+}

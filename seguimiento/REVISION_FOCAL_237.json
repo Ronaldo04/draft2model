@@ -1,0 +1,10 @@
+{
+  "snapshot": "tmp/revision_codex_236",
+  "grupo": "tests.test_vision_semantica_ruta07",
+  "resultado": "19 pruebas OK",
+  "duracion_s": 6.458,
+  "entorno": "host; aislamiento previo produjo WinError5 al renombrar temporales en las19 preparaciones, no fallo funcional atribuido al producto",
+  "alcance": "semantica, reubicacion pendiente, lectura manual, vigencia y cuarentena; no acredita geometria/modelo real ni cierre",
+  "hallazgos_abiertos": "R236-01 y R236-02; encargo09 enviado y observado",
+  "api_llamadas": 0
+}

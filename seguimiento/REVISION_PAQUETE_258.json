@@ -1,0 +1,29 @@
+{
+  "fecha_utc": "2026-10-22T17:31:13.251332+00:00",
+  "responsable": "Codex",
+  "paquete": "entregas/AECODE_CANDIDATO_258",
+  "archivos": 564,
+  "huella_fuentes": "87f79d0511866223e1e51007e099474c3de9523fd7be5ec282736ba368f38fc2",
+  "zip_sha256": "8be5da4bc2881c754fb9bffd6d0134e83d65ef4615b3d0a1e6b527f39fcfbc67",
+  "pruebas_empaquetado": "8 OK, 1.015s",
+  "instalacion_aislada": true,
+  "pasos_instalacion": 6,
+  "demo_sintetica_verificada": true,
+  "arranque_http_host": 200,
+  "apis_remotas": 0,
+  "etabs_ejecutado": false,
+  "piloto_verificado": false,
+  "aceptacion_global": false,
+  "fallo_previo": "Socket HTTP bloqueado por sandbox WinError10013; no fallo acreditado del producto. Se conserva registro original y reintento; comprobación host autorizada200.",
+  "evidencias": {
+    "verificacion.json": "f50521f76be129521e5c6dfb45737b04ad77298318bedf22b9cde5ebff6e002c",
+    "instalacion/verificacion.json": "5f7ecc58ccb6d5b3ebd12cbe2bac0f2d1ab9b55ddc284291747676df64e4d491",
+    "http_reintento.json": "a8b271340da65062ccd76d1a47abfe3d4994ebc04e22de5879414d84c0e33ebe",
+    "http_host.json": "38c26bcad5dc4a10599d1afb43ca9adc00d65cdee2266b5344346600b59634dd"
+  },
+  "limites": [
+    "Sin revisión visual del navegador en esta copia",
+    "Sin prueba real de ETABS ni visión",
+    "Fuentes congeladas258; regenerar paquete tras integración de Claude"
+  ]
+}

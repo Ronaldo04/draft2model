@@ -1,0 +1,96 @@
+{
+  "tarea": "relectura_superficies",
+  "estado": "entregado",
+  "fecha": "2026-10-19",
+  "archivos": {
+    "draft2model/verificacion_modelo_guardado.py": "ca2bd25b4f82a5a0fafb2e710d4ea87a36c0863f0f946dc0edb31c7c6109f20d",
+    "scripts/verificar_modelo_guardado.ps1": "fc802ab6a99cab4906c2f6abe0f7646a810632aca66829796d543874c7e86380",
+    "tests/test_verificacion_modelo_guardado.py": "01f4e7ba97e3b16ff01214d62cad66b120f3c92e7414fc68ffce014943b0645b",
+    "docs/VERIFICACION_MODELO_GUARDADO.md": "96cf4ebf4c0c7a21b39de8ff4d0d75fe00baa8d07069d507203029e31db60cf8"
+  },
+  "api": {
+    "modulo": "draft2model.verificacion_modelo_guardado",
+    "clase": "VerificadorModeloGuardado(config).preparar_verificacion(edb, sha256_edb, plan, *, criterios, ejes_locales_area=None, version_etabs_esperada=None) -> ejecutar_verificacion(prep, confirmar_lectura=True)",
+    "puras": [
+      "expectativa_desde_plan",
+      "validar_criterios",
+      "consulta_desde_expectativa",
+      "validar_observado",
+      "comparar",
+      "cargar_resultado"
+    ],
+    "configuracion": [
+      "configuracion_real",
+      "configuracion_doble_powershell"
+    ],
+    "contrato_resultado": "draft2model.verificacion_modelo_guardado 0.1.0 (estado verificado|discrepancias|incompleto)",
+    "guia": "docs/VERIFICACION_MODELO_GUARDADO.md"
+  },
+  "pruebas": [
+    {
+      "comando": ".venv/Scripts/python.exe -m unittest -v tests.test_verificacion_modelo_guardado",
+      "entorno": "TEMP/TMP=tmp/relectura_qa; Windows PowerShell 5.1; ensamblado ETABSv1 falso compilado en la prueba",
+      "resultado": "16 OK, 0 omitidas",
+      "codigo_salida": 0,
+      "log": "tmp/relectura_qa/pruebas.log"
+    }
+  ],
+  "cobertura": {
+    "alcance": [
+      "unidades",
+      "pisos",
+      "puntos",
+      "frames",
+      "areas (contorno ordenado y propiedad)",
+      "propiedades_area (losa/muro)",
+      "propiedades_frame (rectangulo)",
+      "materiales (tipo, E, U, A, peso)",
+      "cargas_area",
+      "cargas_punto",
+      "cargas_frame",
+      "fuente_masa"
+    ],
+    "ejes_locales_area": "leidos siempre; comparados solo con criterio explicito; si no, sin_criterio y no afirmados",
+    "fuera_de_alcance": [
+      "apoyos",
+      "diafragmas",
+      "patrones_de_carga",
+      "casos",
+      "combinaciones",
+      "funciones_espectrales",
+      "tablas_editables",
+      "marcas_de_ejecucion"
+    ],
+    "no_comparado_sin_criterio": [
+      "masa por volumen M",
+      "modulo G",
+      "elevaciones derivadas (se comparan alturas)"
+    ]
+  },
+  "firmas_contrastadas": {
+    "fuente": "Reflexion de metadatos de ETABSv1.dll 1.29.0.0 (sin iniciar ETABS); tmp/relectura_qa/firmas_reflejadas.json",
+    "lista_blanca_script": "31 firmas exactas (lectores + CreateObjectProgID, ApplicationStart, Hide, OpenFile, GetModelFilename, GetPresentUnits, ApplicationExit(false)); prueba contra DLL instalada OK",
+    "destacadas": [
+      "cAreaObj.GetLoadUniform",
+      "cPropMaterial.GetMassSource_1",
+      "cAreaObj.GetLocalAxes",
+      "cPropMaterial.GetMPIsotropic (incluye G)"
+    ],
+    "inexistentes": [
+      "cMassSource",
+      "cSourceMass"
+    ]
+  },
+  "limites": [
+    "Sin ETABS real, API externa, instalaciones ni suite global; dobles no acreditan ETABS ni solver.",
+    "No retira BLOQUEO_INTEGRACION/BLOQUEO_SUPERFICIES ni habilita ejecutor o modelo 0.2; no aprueba ni certifica.",
+    "Pendiente de prueba real (Codex): unidades al reabrir (si no son kN_m_C se detiene sin cambiarlas), orden de GetPoints, agrupacion de cargas repetidas, OpenFile sobre la copia.",
+    "Varias cargas con la misma clave quedan incompletas: no se emparejan por orden ni aproximacion.",
+    "Umbrales numericos de lectura explicitos en [0, 1e-6]; no son tolerancias de ingenieria."
+  ],
+  "conflictos": [
+    "El encargo cita scripts/leer_tablas_etabs.ps1, inexistente; se siguieron los patrones de scripts/leer_analisis_etabs.ps1 y draft2model/lectura_analisis.py/adaptador_etabs.py (instancia nueva propia, bloqueo, tiempo, estado incierto).",
+    "Ningun archivo fuera de los cuatro autorizados editado. Artefactos incidentales: tmp/relectura_qa (log, firmas reflejadas) y __pycache__.",
+    "Integracion pendiente de Codex: sha256_edb desde la respuesta aceptada del ejecutor, bloqueo compartido, servicios/UI/informe y politica de aceptacion."
+  ]
+}

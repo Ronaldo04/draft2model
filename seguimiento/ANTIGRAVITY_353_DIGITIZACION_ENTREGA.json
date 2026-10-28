@@ -1,0 +1,52 @@
+{
+  "tarea": "353_digitizacion_web",
+  "estado": "entregado",
+  "raiz": "D:/RONALDO CUCHILLA/1. RONALDO CUCHILLA/2. INGENIERÍA CIVIL DOCS AND PROJECTS/AECODE CURSOS/AECODE AI TALENT/PROYECTO FINAL",
+  "archivos": [
+    {
+      "ruta": "draft2model/revision_digitizacion.py",
+      "sha256": "0ff142215d8abd4c4350ac502de8bcd5d370525b0b1bd12cc4156bc896bbfc34"
+    },
+    {
+      "ruta": "draft2model/revision_web/digitizacion.js",
+      "sha256": "47c4acc890af5f10833b6e8b0363b4fea7221a167392f9d4535a277b60593d43"
+    },
+    {
+      "ruta": "tests/test_revision_digitizacion.py",
+      "sha256": "fd1567a36976679db22b74d7bc939bd81417687851db0c986b741a12e7d009be"
+    },
+    {
+      "ruta": "tests/digitizacion_353_frontend.cjs",
+      "sha256": "07ddbee0abad3e7df3aecaf4478120c45c177aa227caa265278f5cc9fd7d6b09"
+    },
+    {
+      "ruta": "docs/INTERFAZ_DIGITIZACION.md",
+      "sha256": "b94497f622a257d1c5c8430dd5801bfe18b49f852318899898ff82f1eb9f9460"
+    },
+    {
+      "ruta": "seguimiento/ANTIGRAVITY_353_DIGITIZACION_INFORME.md",
+      "sha256": "0b838afb0ba80da2f86faa7320b25f9fbca81ab4a6ca0fe3c3f462aeb14a0d3a"
+    }
+  ],
+  "pruebas": [
+    {
+      "comando": ".\\.venv\\Scripts\\python.exe -X utf8 -B -m unittest -v tests.test_revision_digitizacion",
+      "resultado": "OK (10 pruebas)",
+      "alcance": "sintetico"
+    },
+    {
+      "comando": "node tests/digitizacion_353_frontend.cjs",
+      "resultado": "OK (5 bloques)",
+      "alcance": "sintetico"
+    }
+  ],
+  "limitaciones": [
+    "No se editaron draft2model/revision_visual.py ni draft2model/revision_web/index.html; la conexión de las 4 rutas HTTP y del script queda reservada a Codex.",
+    "Toda salida se conserva en estado borrador (disponible_para_modelado: false, aprueba_ingenieria: false, ejecuta_etabs: false) y no incorpora puntos al modelo ni crea superficies o barras.",
+    "Tres anclas con residuo nulo resuelven exactamente los 6 parámetros afines y nunca se acreditan como verificación independiente.",
+    "Cuando la geometría 0.3 carece de referencias documentales en sus vértices, se emplea únicamente descriptor numérico geométrico, conservando exactitud_documental_acreditada: false y pendientes explícitos.",
+    "Validación realizada exclusivamente sobre fixtures sintéticas locales, sin llamadas a APIs externas, sin planos piloto reales y sin ETABS."
+  ],
+  "apis_usadas": 0,
+  "etabs_usado": false
+}

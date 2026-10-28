@@ -1,0 +1,20 @@
+{
+  "entregas": [
+    {
+      "etapa": "04",
+      "id": "900585f146cf4335aed45768d8bc6747",
+      "fuentes": 23,
+      "logs": 8,
+      "integridad": "correcta"
+    },
+    {
+      "etapa": "06",
+      "id": "e96facbfa6d84161b3be7aafcf02e828",
+      "fuentes": 522,
+      "logs": 1,
+      "integridad": "correcta"
+    }
+  ],
+  "fuentes_copia_c207": 699,
+  "archivos_legitimos_credenciales": "presentes en restauración06"
+}

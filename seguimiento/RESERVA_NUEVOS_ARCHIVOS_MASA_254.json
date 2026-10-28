@@ -1,0 +1,14 @@
+{
+  "responsable": "Codex",
+  "estado": "archivos_nuevos_independientes_disponibles_para_integracion",
+  "acuerdo_claude_confirmado": false,
+  "archivos": [
+    "draft2model/masa_ensamblada.py",
+    "tests/test_masa_ensamblada.py",
+    "tests/fixtures/masa_ensamblada_253f/extracto_sintetico_253f.json",
+    "tests/fixtures/masa_ensamblada_253f/manifest.json",
+    "docs/MASA_ENSAMBLADA.md"
+  ],
+  "evidencia": "seguimiento/PORTADO_MASA_ENSAMBLADA_254.json",
+  "alcance": "Validador puro de payload; sin consumidores ni nueva ejecucion ETABS"
+}

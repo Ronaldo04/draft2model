@@ -1,0 +1,24 @@
+{
+  "tarea": "masa_313",
+  "modo": "auditoria_aislada",
+  "estado": "revisado",
+  "encargo": "seguimiento/ENCARGO_CLAUDE_MASA_313.md",
+  "archivos": [],
+  "marcador": "seguimiento/claude_ruta/MARCADOR_MASA_313.json",
+  "prefijos_autorizados": [
+    "seguimiento/claude_ruta/prediccion_masa_313/"
+  ],
+  "propietario_implementacion": "Claude solo prediccion_masa_313/ y marcador; Codex conserva distribución312 congelada.",
+  "propietario_revision": "Codex verifica independencia de entradas, archivos y prueba focal antes de integrar.",
+  "confirmacion_envio": "Captura proyecto PROYECTO FINAL/conversación Comandos CLI geometría; compositor vacío. set_value264, texto visible; Return, burbuja del encargo313 visible y compositor vacío. No confundir actividad con entrega.",
+  "creado_utc": "2026-10-24T07:34:25.935426+00:00",
+  "computer_use_suspendido": false,
+  "limite_computer_use": "Autorizado por usuario solo para coordinación. No consultar la ventana mientras trabaja; usar marcador local.",
+  "cuota_claude_observada": "95% semanal utilizado; reset mar27oct21:00. Encargo exige parcial verificable si llega al límite.",
+  "historial": "seguimiento/CLAUDE_ESTADO_HISTORICO_308.json",
+  "heartbeat": "Sigue pausado; no prometer vigilancia durante cuotas ni reactivarlo sin petición.",
+  "prueba_sonda": "seguimiento/test_sonda_pdf_309.py:6casosOK; modo PDF parametrizado por tarea, SHA y perímetro estrictos.",
+  "revision_anterior": "seguimiento/REVISION_BENCHMARK_312.json",
+  "siguiente_dependencia": "Marcador313 y revisión; benchmark sigue pendiente de referencia humana efectiva.",
+  "revision": "seguimiento/REVISION_MASA_314.json"
+}

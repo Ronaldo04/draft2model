@@ -1,0 +1,247 @@
+{
+  "revision": "analisis_267",
+  "creado_utc": "2026-10-22T22:53:55.964182+00:00",
+  "autor": "Codex, revisión independiente de software; sin aprobación de ingeniería",
+  "alcance": "Lectura de ZIP, manifiestos, logs, marcador y evidencia aceptada; sin ETABS ni APIs ni recuperación/reinicio ni suite de pruebas.",
+  "candidata": {
+    "manifiesto": "entregas/06-cbfdd04193974a83a6849657ece30b26/manifiesto.json",
+    "sha256_manifiesto": "5b7919b2cb7fb39008ffdc2216796e6483ca173addf79f138148564395df41a0",
+    "sha256_esperado": "a2288e218a3cf969b2e8904ea57fec971585a9cc6432316d1fa1a060233d1828",
+    "sha256_actual": "a2288e218a3cf969b2e8904ea57fec971585a9cc6432316d1fa1a060233d1828",
+    "entradas": 564,
+    "archivos_manifestados": 564,
+    "crc_error": null,
+    "duplicados": [],
+    "faltantes": [],
+    "extra": [],
+    "hashes_incorrectos": [],
+    "rutas_inseguras": [],
+    "logs": [
+      {
+        "ruta": "entregas/06-cbfdd04193974a83a6849657ece30b26/logs/focos266.log",
+        "sha256_esperado": "6b93f90ed951e896a00e5bd2f62eade8966ee0b381759f955a0f383795217d7e",
+        "sha256_actual": "6b93f90ed951e896a00e5bd2f62eade8966ee0b381759f955a0f383795217d7e",
+        "ultimas_lineas": [
+          "........................................................",
+          "----------------------------------------------------------------------",
+          "Ran 56 tests in 25.197s",
+          "",
+          "OK"
+        ]
+      }
+    ],
+    "integridad_ok": true
+  },
+  "anterior": {
+    "manifiesto": "entregas/06-b6d886c5244b4eb68307ff4f60284620/manifiesto.json",
+    "sha256_manifiesto": "cf95ded6f0a91fe521257b27ccd40d05d6d0ecd9678162f5c6a1f6cb74158e1a",
+    "sha256_esperado": "6ffe5b329a0bbda58901d65aab28f0fb4f46b823710d809eb7d008df496bd950",
+    "sha256_actual": "6ffe5b329a0bbda58901d65aab28f0fb4f46b823710d809eb7d008df496bd950",
+    "entradas": 564,
+    "archivos_manifestados": 564,
+    "crc_error": null,
+    "duplicados": [],
+    "faltantes": [],
+    "extra": [],
+    "hashes_incorrectos": [],
+    "rutas_inseguras": [],
+    "logs": [
+      {
+        "ruta": "entregas/06-b6d886c5244b4eb68307ff4f60284620/logs/focos263.log",
+        "sha256_esperado": "42d36bb98a46bfde191ac6dc593e7b0da673a8a815454716677695edffe185c3",
+        "sha256_actual": "42d36bb98a46bfde191ac6dc593e7b0da673a8a815454716677695edffe185c3",
+        "ultimas_lineas": [
+          "",
+          "OK",
+          "Geometría en borrador: C:\\Users\\HP\\AppData\\Local\\Temp\\tmp2fkqm_66\\geometria.json",
+          "Ingreso tabular supervisado; sin aprobación de ingeniería, modelo ETABS ni análisis.",
+          "Informe documental en borrador JSON/HTML/PDF: C:\\Users\\HP\\AppData\\Local\\Temp\\tmp2tkzum8_\\cli",
+          "Informe documental en borrador JSON/HTML/PDF: C:\\Users\\HP\\AppData\\Local\\Temp\\tmplv7_r0_h\\cli"
+        ]
+      }
+    ],
+    "integridad_ok": true
+  },
+  "cambio": {
+    "archivos_modificados_o_nuevos": [
+      "docs/RETOMAR.md",
+      "draft2model/lectura_analisis.py",
+      "draft2model/libro_masa.py",
+      "tests/test_libro_masa_263.py"
+    ],
+    "archivos_eliminados": [],
+    "descripcion": "La candidata valida tipos exactos y texto decimal de AssembledJointMass en lector y contraste libro_masa, rechaza booleanos, identificadores no textuales, triples inválidos y valores no finitos en el contraste; agrega regresiones y actualiza RETOMAR.",
+    "candidata_difiere_workspace_actual_en": [
+      "docs/RETOMAR.md",
+      "draft2model/informe.py",
+      "draft2model/revision_entregables.py",
+      "draft2model/revision_lecturas.py",
+      "draft2model/revision_web/index.html",
+      "draft2model/revision_web/informes.js",
+      "draft2model/revision_web/lecturas.js"
+    ],
+    "nota": "El snapshot es inmutable y anterior a integración web267; diferencias del workspace no invalidan por sí mismas sus hashes internos."
+  },
+  "marcador": {
+    "ruta": "seguimiento/claude_ruta/MARCADOR_09D1_ANALISIS.json",
+    "sha256": "8493bb715b9cbda3cc32d94b45063e39effadfbc2492168381c405cf34580943",
+    "hashes": [
+      {
+        "ruta": "tmp/recorrido_09d1/registro.json",
+        "sha256_esperado": "1fb7914b77aea1af29d3d3b1bb4af044f1b9ea64ff60569625af3976e6fefd78",
+        "sha256_actual": "1fb7914b77aea1af29d3d3b1bb4af044f1b9ea64ff60569625af3976e6fefd78",
+        "coincide": true
+      },
+      {
+        "ruta": "tmp/recorrido_09d1/relectura_resultado.json",
+        "sha256_esperado": "817545dac2116c3f0be97425f8117213d49d9722247b38d8160783b8e711a2a3",
+        "sha256_actual": "817545dac2116c3f0be97425f8117213d49d9722247b38d8160783b8e711a2a3",
+        "coincide": true
+      },
+      {
+        "ruta": "tmp/recorrido_09d1/revision_controles_09d1.json",
+        "sha256_esperado": "2dcd2725f87de6a18498945c593993e0f71df5f5867102d8534b20e671a942ff",
+        "sha256_actual": "2dcd2725f87de6a18498945c593993e0f71df5f5867102d8534b20e671a942ff",
+        "coincide": true
+      },
+      {
+        "ruta": "tmp/ruta201/recorrido09d1_relectura.log",
+        "sha256_esperado": "330b476db1cc82fc453fc9b4a0fd5cffb019d1a83e1d77c7bedb4113d16d0b20",
+        "sha256_actual": "330b476db1cc82fc453fc9b4a0fd5cffb019d1a83e1d77c7bedb4113d16d0b20",
+        "coincide": true
+      },
+      {
+        "ruta": "tmp/ruta201/recorrido09d1_analisis.log",
+        "sha256_esperado": "856c8e2cc512c5dd86cbdfcfc3b112ef15c0871ac008947137cf294a707e86e0",
+        "sha256_actual": "856c8e2cc512c5dd86cbdfcfc3b112ef15c0871ac008947137cf294a707e86e0",
+        "coincide": true
+      },
+      {
+        "ruta": "data\\private\\pueblo-libre-002\\analisis_etabs\\7203c79a3ece4438b36d267ba80f3c4b\\aceptacion_analisis.json",
+        "sha256_esperado": "920512f91266d70c4aa83ca1bf4fa42a4a5893b43963581ec4e730be3cbc8adf",
+        "sha256_actual": "920512f91266d70c4aa83ca1bf4fa42a4a5893b43963581ec4e730be3cbc8adf",
+        "coincide": true
+      },
+      {
+        "ruta": "data\\private\\pueblo-libre-002\\analisis_etabs\\7203c79a3ece4438b36d267ba80f3c4b\\respuesta.json",
+        "sha256_esperado": "abdf0dc7bb8c0af4d07be13b56aabbc37c1fdc6d315dd2817d40f247e7e43f64",
+        "sha256_actual": "abdf0dc7bb8c0af4d07be13b56aabbc37c1fdc6d315dd2817d40f247e7e43f64",
+        "coincide": true
+      }
+    ],
+    "todos_coinciden": true
+  },
+  "analisis_aceptado": {
+    "ok": true,
+    "evidencia": {
+      "caso": "pueblo-libre-002",
+      "corrida_id": "7203c79a3ece4438b36d267ba80f3c4b",
+      "modo": "real",
+      "datos_sinteticos": false,
+      "modelo_id": "0f37271307b6449c89c458c60a1640c7",
+      "huella_modelo": "218bd163acff15b401d8af86b66f4a04762ed01c92a847c9a106d44d80338f6e",
+      "aprobacion_id": "8dfb5a90c81b43dfbf2b44ccd1b5c836",
+      "sha256_aprobacion": "6948541918804927f2c2a8779e2ba651107a79b36dd3a9d2665ecdb1d5fbfc1c",
+      "sha256_edb_analizado": "42371308a03d4f1bac8f5ed3aa5daf0421cdf3de27ff823f8f582c13ad2af394",
+      "sha256_entrada": "b2a9c40bbda8bc2e39501c190391590676d79189e3f6148afbab256b1504e680",
+      "sha256_aceptacion": "920512f91266d70c4aa83ca1bf4fa42a4a5893b43963581ec4e730be3cbc8adf",
+      "sha256_solicitud": "585c684f7cc19342bbe144eccacea1cc0061d8b2e412a7cdb29a05e4a5c7c91f",
+      "sha256_respuesta": "abdf0dc7bb8c0af4d07be13b56aabbc37c1fdc6d315dd2817d40f247e7e43f64",
+      "version_etabs": "21.1.0",
+      "casos": [
+        "CM",
+        "CV",
+        "CAGUA",
+        "MODAL-E030",
+        "SX",
+        "SY"
+      ],
+      "estados_casos": {
+        "CAGUA": 4,
+        "CM": 4,
+        "CV": 4,
+        "MODAL-E030": 4,
+        "SX": 4,
+        "SY": 4
+      },
+      "configuracion": {
+        "id": "pueblo-libre-002-config-09dt",
+        "huella": "e71ece2ea22b4045e175aa33367f2f294a3073647506349ef373e135e949a2a9"
+      },
+      "geometria": {
+        "id": "25ef94672fac4e53863701b55e32f97d",
+        "sha256": "24b484549348484f8bf7df1255704a38f2cd77c3b282d2b69ba5b46f0afb68c2"
+      },
+      "analisis_ejecutado": true,
+      "aprueba_resultados": false
+    },
+    "archivos_corrida_sin_cambios": true,
+    "coste_verificacion": {
+      "duracion_exacta_s": null,
+      "duracion_observada": "superior a 300 s según espera acumulada del mismo handle; no se instrumentó cronómetro al inicio",
+      "handle": 49905,
+      "regeneracion_plan_malla": "Ruta confirmada por código: verificar_analisis_aceptado → _verificar_analisis → revision_modelo.consultar_aprobacion → consultar → _validar → generar_plan_malla (configuración 0.5.0).",
+      "interpretacion": "Coste de verificación/regeneración del plan y fuentes; no mide throughput de ETABS. No se reinició por silencio.",
+      "proteccion": "subprocess.Popen bloqueado durante la invocación; no hubo lanzamiento de procesos."
+    }
+  },
+  "resultados": {
+    "ruta": "tmp/recorrido_09d1/registro_resultados.json",
+    "sha256": "e5a0308bd156841919abfd3a6733210a2d2f744c1326ccf1a4f8f1b36340b42d",
+    "registro": {
+      "caso": "pueblo-libre-002",
+      "aprueba_ingenieria": false,
+      "errores": [
+        {
+          "etapa": "lectura",
+          "tipo": "ModuleNotFoundError",
+          "error": "No module named 'draft2model'"
+        },
+        {
+          "etapa": "lectura",
+          "tipo": "ErrorBloqueo",
+          "error": "El estado de ETABS quedó incierto tras una interrupción. Comprobar el motor y registrar recuperación antes de otra operación."
+        }
+      ]
+    },
+    "logs": [
+      {
+        "ruta": "tmp/ruta201/resultados09d1.log",
+        "bytes": 869,
+        "sha256": "6f03132a31e572db30799218c075b7e0b4d3a69bf6e5d27a6205f4bfa253ec0e"
+      },
+      {
+        "ruta": "tmp/ruta201/resultados09d1b.log",
+        "bytes": 1595,
+        "sha256": "4958254e03b232b02e95c95f6eb4e9d09a521e5536c90ebfd588d24cc91b2c6f"
+      },
+      {
+        "ruta": "tmp/ruta201/resultados09d1c.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "marcador_motor_incierto_presente": false,
+    "recuperacion_historica_observada": {
+      "ruta": "tmp/d2/motor.lock.incierto.json.resuelto.25e2e3bb21154882836cdad634e781e8.recuperacion.json",
+      "sha256": "49a94d64c4f935d385d3acafa22318fdfe44aa7f1b44c65128428a8c88379da5",
+      "contenido": {
+        "motor_inactivo_declarado": true,
+        "revisor_declarado": "Claude (ruta 09): comprobación propia de procesos; no ingeniería",
+        "motivo": "Lectura d4a9f336 (masa por piso) terminó con error 'Tabla sin campo de caso admitido'; su proceso 38216 ya no existe. La instancia de análisis propia 35120 (analizado.EDB de 7203c79a) quedó abierta por el puente de análisis y se cerró con ApplicationExit verificado (cierre_analisis_35120.log). Solo quedan las instancias ajenas 6988/23928/38168, no tocadas.",
+        "fecha_utc": "2026-10-22T22:41:35.402592+00:00",
+        "identidad_revisor": "declarada_no_verificada"
+      }
+    },
+    "diagnostico": "El registro conserva dos intentos fallidos: importación del módulo y bloqueo protector por estado incierto. No prueba lectura exitosa, normalización, controles, masa nativa ni informe terminado. Al revisar no existe marcador incierto activo y sí un recibo histórico de recuperación; esto no verifica estado actual del motor ni autoriza nuevas operaciones.",
+    "pendiente": "Responsable del recorrido debe comprobar evidencia y estado externo y completar resultados; esta revisión no recupera, reinicia ni vuelve a ejecutar el recorrido.",
+    "nota_concurrencia": "El registro de errores es histórico. No se atribuye a una ejecución externa posterior; el log resultados09d1c vacío tampoco prueba éxito o fracaso actual. La recuperación histórica fue leída, no realizada por esta revisión."
+  },
+  "limites": [
+    "No se corrieron suites ni se reejecutaron pruebas declaradas en logs; se verificaron su integridad y contenido final.",
+    "Análisis aceptado y CSI4 no aprueban resultados ni ingeniería ni normativa.",
+    "No se inspeccionó ni controló ETABS; no se hicieron llamadas externas.",
+    "No se demuestra captura real de AssembledJointMass ni cierre del flujo resultados→informe.",
+    "Estados externos y archivos pueden cambiar después de esta lectura."
+  ]
+}

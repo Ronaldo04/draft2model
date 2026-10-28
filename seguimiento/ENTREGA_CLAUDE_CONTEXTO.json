@@ -1,0 +1,28 @@
+{
+  "tarea": "contexto_web",
+  "estado": "entregado",
+  "archivos": [
+    {
+      "ruta": "draft2model/revision_contexto.py",
+      "sha256": "9f25b0ae8e89945d47112e5d0c872be719804a60d47952970e6f48d2d9e1afd4"
+    },
+    {
+      "ruta": "tests/test_revision_contexto.py",
+      "sha256": "40ba5434aecc67339d4de3ee34fbc76fa17cee9780b858c63a03c9d911e1ddac"
+    },
+    {
+      "ruta": "docs/REVISION_CONTEXTO_WEB.md",
+      "sha256": "b6e55729a05e50be2094e9821f5444077b6d3d34801276b9bb0a60cb806d697f"
+    }
+  ],
+  "pruebas": {
+    "comando": "TEMP=$PWD/tmp TMP=$PWD/tmp python -m unittest tests.test_revision_contexto tests.test_fuentes tests.test_sitio tests.test_evaluacion_estructural",
+    "resultado": "Ran 24 tests OK (8 nuevas de contexto; Popen/urlopen/socket bloqueados)"
+  },
+  "limites": [
+    "Sin HTTP/UI ni integracion con informe (Codex)",
+    "version.json sin huella propia; validado semanticamente",
+    "Cada consulta crea un derivado nuevo, sin clave idempotente",
+    "Sin red/LLM/API/ETABS/CU ni suite completa"
+  ]
+}

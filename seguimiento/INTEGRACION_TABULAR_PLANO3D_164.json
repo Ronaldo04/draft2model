@@ -1,0 +1,34 @@
+{
+  "estado": "integracion_local_revisada_pendiente_QA_visual_3d",
+  "hashes_entregados": {
+    "tabular": {
+      "draft2model/importacion_tabular.py": true,
+      "draft2model/revision_tabular.py": true,
+      "draft2model/lectura_xlsx.py": true,
+      "draft2model/revision_web/tabular.js": true,
+      "tests/test_tabular_superficies.py": true,
+      "docs/TABULAR_SUPERFICIES.md": true
+    },
+    "plano3d": {
+      "draft2model/revision_superposicion.py": true,
+      "draft2model/revision_web/superposicion.js": true,
+      "tests/test_superposicion_plano3d.py": true,
+      "docs/SUPERPOSICION_PLANO3D.md": true
+    }
+  },
+  "pruebas": {
+    "python": "13 nuevas focales OK4.096s, tmp/revision_tabular_plano3d_164.log",
+    "cliente_tabular": "7 OK tests/revision_tabular_frontend.cjs (2nuevas conservadas)",
+    "cliente_superposicion": "9 OK tests/revision_superposicion_frontend.cjs (2nuevas plano3D)"
+  },
+  "cambios_codex": [
+    "index describe3/5tablas segun version explicita",
+    "pruebas DOM plano3D vertical/body exacto/base invalida/no coplanar",
+    "pruebas tabulares dejan fuentes sin leer al mezclar version/cantidad"
+  ],
+  "limites": [
+    "QA navegador plano3D pendiente",
+    "no prueba referencia ni ETABS",
+    "sin nueva suite global de arbol completo"
+  ]
+}

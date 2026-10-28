@@ -1,0 +1,47 @@
+{
+  "fecha_utc": "2026-10-22T18:03:48.119028+00:00",
+  "aceptacion_global": false,
+  "etabs": false,
+  "apis_remotas": 0,
+  "entregas": [
+    {
+      "id": "85895489a41a416593c2195f65f542dc",
+      "archivos": 10,
+      "zip_sha256": "23c8cae47ac5deb1a4f829627057f3b68f786c8ded6d20e599a5516f59b92c44",
+      "integridad": true
+    },
+    {
+      "id": "05696cd0914e4ff6a988540001e35c67",
+      "archivos": 559,
+      "zip_sha256": "ed4b82429c7af7763c57b519ee0a94f092b90a2f6cea6ab70f3bed1986b0eb17",
+      "integridad": true
+    }
+  ],
+  "focal_snapshot": {
+    "codigo": 0,
+    "log": "tmp\\revision_entregas_263\\focal_snapshot.log",
+    "sha256_log": "c77dfe4d3548a18654e6e8fa6bc5ec22ce43c8a65e8ab3cd55ab10e46995eb2b"
+  },
+  "focal_portado": {
+    "codigo": 0,
+    "log": "tmp\\revision_entregas_263\\focal_portado.log",
+    "sha256_log": "71da97e745f593ae7ffb83d3e5f69cadd2e59be81f28369da3ab89789879d477"
+  },
+  "portado262": {
+    "archivos": {
+      "draft2model/reuso_preparacion.py": "89c65684eca3b450609a511bc86e3a9cf0fc058d79164918e20907534199b538",
+      "draft2model/modelo_estructural.py": "1bb09bacce51b43da394d038b9fd239e69ab8f4fe375065a59680129ed00ab40",
+      "draft2model/operaciones_etabs.py": "d2b8e685494d7ccadca52d85b23c130cd68a8b37541a642186f8b15d9a0cc9ce",
+      "tests/test_reuso_preparacion_262.py": "bed950b2b719975c242ed5708baff1dafbf1fc8d4910d052fd35e22f20a3bcbb"
+    },
+    "fuentes_estables": true,
+    "helper_igual_al_candidato": true
+  },
+  "aceptado_incremental": true,
+  "limites": [
+    "No ejecución nativa ni piloto final",
+    "Portado262 es posterior a los snapshots258",
+    "Masa ensamblada sigue sin evidencia real",
+    "La prueba del informe usa contratos sintéticos"
+  ]
+}

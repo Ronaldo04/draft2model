@@ -1,0 +1,20 @@
+{
+  "alcance": "Solo inclusi\u00f3n de3fuentesUI en copia en prueba; no resultado de suite",
+  "archivos": [
+    {
+      "archivo": "draft2model/revision_web/construccion.js",
+      "existe": true,
+      "coincide": true
+    },
+    {
+      "archivo": "draft2model/revision_web/index.html",
+      "existe": true,
+      "coincide": true
+    },
+    {
+      "archivo": "tests/revision_construccion_frontend.cjs",
+      "existe": true,
+      "coincide": true
+    }
+  ]
+}

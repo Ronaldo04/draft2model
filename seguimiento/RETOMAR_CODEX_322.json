@@ -1,0 +1,75 @@
+{
+  "fecha_utc": "2026-10-24T13:34:37.414451+00:00",
+  "goal_completo": false,
+  "anterior": "seguimiento/RETOMAR_CODEX_321.json",
+  "responsable_unico": "Codex; el usuario retiró Claude. Sin nuevas delegaciones ni Computer Use para Claude.",
+  "distribucion_validada": "entregas/AECODE_ENTREGA_322",
+  "advertencia": "322:608fuentes,1464Python+36interfaz,5comprobaciones0 ysinomisiones.312preservado como histórico.",
+  "integracion": "Estimación experimental opcional de peso efectivo Auto: lectura de configuración, núcleo con validación oficial del plan, libro bruto preservado, backend, CLI, informe e interfaz.",
+  "pruebas_observadas": {
+    "python_focal": "48OK, tmp/integracion_auto_322.log",
+    "frontend": "36archivos OK, tmp/frontend_auto_322.log",
+    "global": "ZIP322 exacto:1464Python+36interfaz,5comprobaciones0,sin omisiones,608fuentes estables. tmp/validacion_distribucion_322/"
+  },
+  "recorrido_real": {
+    "registro": "seguimiento/FLUJO_AUTO_322.json",
+    "exec": null,
+    "instruccion": "88113terminó0;30753terminó1 porfirma del guion después de publicar. No repetir lectura/generación/consulta. Evidencia consolidada.",
+    "informe": "5fbeb92275eb4dfbb3d3457f6c4abee5",
+    "exec_terminal": 88113,
+    "codigo": 0,
+    "estado": "terminado"
+  },
+  "siguiente": [
+    "No repetir suite, ETABS, generación ni consulta322: ya terminaron y están ligados a la huella del ZIP.",
+    "Falta referencia humanaP04 prometida por el usuario. Comprobar solo la ruta/JSON que entregue o Downloads/referencia_humana.json; no inventar anotaciones.",
+    "Al recibirla usar recepción311, revisar correspondencias y puntuar cohortes originales por separado. No nuevasAPI para repetir extracciones ya conservadas.",
+    "La comparación ETABS manual sigue aplazada. No procesar proyectos2/3 hasta validar el primero.",
+    "Conservar limitaciones: perfilAuto experimental, masa bruta no_coherente,10comparaciones no satisfactorias,sinEMS/sin aprobación profesional. No declarar soporte universal.",
+    "Si no hay referencia ni cambio material, evitar GUI, nuevas pruebas y sondeos repetidos. Claude y heartbeat continúan fuera de ejecución."
+  ],
+  "restricciones": [
+    "Sin llamadas LLM adicionales ni lectura de credenciales.",
+    "No modelo ETABS manual ni proyectos2/3.",
+    "Sin EMS ni aprobación profesional; conservar18evaluaciones y10no satisfactorias.",
+    "No ensanchar tolerancias ni corregir entradas a partir de resultados nativos.",
+    "Heartbeat Claude permanece pausado."
+  ],
+  "limites_estimacion": "21.1.0, kN_m_C, geometría rectangular cubierta y configuración nativa verificada. Abstenerse fuera del perfil; no acredita conformidad normativa global.",
+  "paquete_candidato": "entregas/AECODE_ENTREGA_322",
+  "huella_candidata": "fbfaff05ec5a3ea7739bf3a9b49d7b4709ea0282bac11c0f383a981a72d95812",
+  "global": {
+    "exec": 67623,
+    "registro": "tmp/validacion_distribucion_322/estado.json",
+    "estado": "terminal0",
+    "no_repetir": true,
+    "python": 1464,
+    "interfaz": 36,
+    "archivos_intactos": 608,
+    "tiempo_suite_s": 1205.735
+  },
+  "servidor": {
+    "exec": 14719,
+    "url": "http://127.0.0.1:18323/",
+    "fuentes": "ZIP322 extraído",
+    "nota": "IAB pestaña5; solo revisión. Servidor sandbox6448 cerrado; host14719 vigente al iniciar."
+  },
+  "qa_enlaces": "seguimiento/QA_ENLACES_322.json:82enlaces sin rotos",
+  "pdf_preparado": "seguimiento/revisar_pdf_auto_322.py; ejecutar solo cuando FLUJO_AUTO_322.json tenga informe",
+  "consolidacion_preparada": "seguimiento/cerrar_corte_322.py; ejecutar solo tras estado global terminal0 y flujo terminado",
+  "rendimiento": {
+    "recorrido_qa_pared_s": 3555.265134,
+    "nota": "Incluye comprobaciones repetidas de evidencias, creación, incidencia del guion y reanudación de consulta. No es tiempo de modelado ni SLA.",
+    "lectura_instancia_etabs_aproximada_s": 46.4,
+    "limitacion": "Las verificaciones del expediente real siguen siendo lentas; la suite no demuestra rendimiento interactivo para cualquier proyecto."
+  },
+  "qa_pdf": "Seis páginas revisadas; SHA del PDF publicado idéntico al revisado. QA_PDF_AUTO_322.json.",
+  "cuota": {
+    "restante5h_observado": 44,
+    "restante_semanal_observado": 44,
+    "reset_manual": "intacto"
+  },
+  "guia": "entregas/AECODE_ENTREGA_322/LEER_PRIMERO.md",
+  "evidencia_validacion": "seguimiento/VALIDACION_DISTRIBUCION_322.json",
+  "estado_hito": "Software322 validado; goal global abierto. Solo Codex."
+}

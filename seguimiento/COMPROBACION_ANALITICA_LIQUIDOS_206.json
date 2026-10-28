@@ -1,0 +1,31 @@
+{
+  "estado": "comprobacion_independiente_parcial",
+  "datos_sinteticos": true,
+  "fuerza_analitica_kn": [
+    53.8,
+    0,
+    0
+  ],
+  "momento_analitico_kn_m": [
+    0,
+    25.593333333333334,
+    -135.725
+  ],
+  "metodo": "Integrales exactas racionales sobre rectángulo 5x2.6 menos hueco y=1.5..2.5,z=.8..2.0; nivel1.5,gamma10; sin importar calculadores del producto.",
+  "relectura_real": "Hash de respuesta vinculado; cierre declarado en respuesta; copia sin cambio de SHA; resultado verificado sin discrepancias/incompletos; cobertura líquidos completa.",
+  "snapshot_observacion": {
+    "configuracion.json": "0a30b0722cef7f2a003d05a05100ad2c99c6481a2ce251afc87395619bb91c38",
+    "plan.json": "9c9e721aadf9e299de5596aff94969b7f22a89d11ee81eac6194149da653a631",
+    "registro_observado.json": "a0087c70f9005e9ee3c652bb85b2bb7e4af8ae6e57a5150b6f28e184b95dfb3e",
+    "geometria.json": "8280e8ba4ec46fdfbb38986e7623f68a965221180beb38c78444a3dea18d9656",
+    "respuesta.json": "bbe0c2a03ae048640dacc1916cf8a5139d7fd10a08fb28f43bce0dae76c7f653",
+    "relectura_resultado.json": "f60ee105a1845e25c6912fb7876ce99939ddfcb65ac96cbe49e544ed21214b53",
+    "cierre.log": "4ff0f9814d52b4647fab2458c9aae0c2952378896f663c09cea1dfe2bb2e579d"
+  },
+  "limites": [
+    "No es aceptación de etapa02, no hay entrega inmutable aún.",
+    "Fuerza/momento analíticos contrastados con carga fuente reportada; falta verificar equilibrio de reacciones del solver.",
+    "No acredita múltiples recipientes ni referencia real ni normativa.",
+    "No invoca ETABS ni API ni modifica fuentes del ensayo."
+  ]
+}

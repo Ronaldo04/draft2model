@@ -1,0 +1,37 @@
+{
+  "tarea": "correccion_guia_final",
+  "estado": "entregado",
+  "archivos": {
+    "README.md": "000d9bb75b98cf7f1914ff5aa251f61c97921890ec23430741c91b15aa869789",
+    "docs/GUIA_REPRODUCIBLE.md": "2e45315052f641f6fabfbbf126ca84abeed854c12f76c4ec4430077331fb6734",
+    "docs/CIERRE_DESARROLLO.md": "eb502cd348753ad1386a9a0102cbc97ee986a4238e5decd4ded2df6cdf272f09",
+    "docs/CONEXION_OPENAI.md": "1a909037a65b2e8fd37f555af715f08d8d6598d8f3c4a585ed557a3848e6fa3b",
+    "docs/PLAN_ENSAYO_REFERENCIA.md": "5b4b3edf268675b63809425ba5305187132da33b1f35dd43559758325f00e19f",
+    "docs/ACCESOS_Y_PROVEEDORES.md": "97deb8f9faa62b53cd55409b89c542c68c92a628490a410b30a8ad09d2c7f3cf"
+  },
+  "correcciones": {
+    "D1": "README estados (derivadas, contexto/explicaciones/aprobacion/revision/controles integrados, superposicion, tabular), copia146/148 e instalacion129, enlaces Accesos y Cierre",
+    "D2": "GUIA instalacion129 vigente (inst19 antecedente) y copia146/148 vigente (068/100 antecedentes); no cubre cambios de proveedores",
+    "D3": "CIERRE copia limpia realizada por Codex; QA143/145; paquete135; estado proveedores",
+    "D4": "Herencia de clave: fijar variable y arrancar revision_visual en la MISMA consola; el .cmd no hereda (GUIA §3/§4.3, CONEXION, ACCESOS §3, PLAN §0)",
+    "D5": "Tres vias de transmision: CLI vision, POST /api/proveedor/ejecutar (imagenes), POST /api/explicaciones/ejecutar (texto)",
+    "D6": "GUIA §5 incluye modulo proveedor_openai ejecutar",
+    "D7": "PLAN: paquete135 (10 imagenes) preferente, superposicion antes de aprobar geometria, §6b controles postsolver, campos opcionales revision_resultados/controles_analisis en informe; nota de proveedores",
+    "D8": "Metodo SecureString/BSTR valido en PowerShell 5.1 y 7 sin persistir; -MaskInput solo PS7 y opcional"
+  },
+  "comprobaciones": [
+    "Enlaces locales de los 6 documentos: 82 OK, 0 rotos",
+    "Rutas /api citadas: 41 existen en revision_visual.py; 3 falsos positivos son URL externas de OpenAI",
+    "Flags contra --help: revision_visual --raiz/--puerto/--sin-navegador; proveedor_openai ejecutar --expediente/--plan/--autorizar-envio; demo-integrada --salida/--verificar; preparar-openai --caso/--solicitud/--modelo; verificar_instalacion_limpia --wheels/--salida; renderizar_informe --pdf/--salida: todos presentes",
+    "Variables OPENAI_API_KEY/GEMINI_API_KEY/COMPATIBLE_API_KEY/D2M_COMPATIBLE_ENDPOINT presentes en codigo en implementacion (solo nombres)",
+    "Paquete 135 existe en data/private (solo directorio); tmp/c146/copia_limpia.json completa:true codigo:0"
+  ],
+  "limites": [
+    "Solo documentacion; sin red, API, ETABS, suites, instalaciones ni CU; no se leyeron claves",
+    "Gemini y modo compatible descritos como en implementacion por Codex, sin afirmar funcionamiento; nombres de variables segun codigo actual que puede cambiar",
+    "Metodo SecureString/BSTR no ejecutado aqui (instruccion documental); condiciones Gemini citadas por URL oficial sin consultarlas (sin red)",
+    "Archivo temporal de verificacion creado en tmp fue eliminado por estar fuera del alcance autorizado",
+    "No se declara goal ni soporte fisico completo de la referencia; comparacion manual sigue aplazada"
+  ],
+  "conflictos": []
+}

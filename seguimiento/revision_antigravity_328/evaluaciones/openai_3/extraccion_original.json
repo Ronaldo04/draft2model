@@ -1,0 +1,1880 @@
+{
+  "contrato": "draft2model.extraccion_preliminar",
+  "version_contrato": "0.1.0",
+  "caso": "provisional-001",
+  "procedencia": {
+    "tipo": "expediente",
+    "expediente_sha256": "3b1ca4a73227157f7a1987b4c95623b72aa7f6c90da3bc30cbd326d0c3f9f98b",
+    "descripcion": "Respuesta visual de origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec."
+  },
+  "alcance": {
+    "estado": "fuera_mvp_declarado",
+    "uso": "pruebas_procesamiento",
+    "motivos": [
+      "Sistema constructivo y cantidad de pisos fuera del MVP, según declaración."
+    ]
+  },
+  "sistema_coordenadas": "pagina_visible_normalizada",
+  "candidatos": [
+    {
+      "id": "C001",
+      "tipo": "elemento",
+      "valor_propuesto": "C-1",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.09909789354141481,
+            0.5708409975971497,
+            0.15470757958750045,
+            0.5893247162150965
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C002",
+      "tipo": "elemento",
+      "valor_propuesto": "C-2",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.21388852987507787,
+            0.573081448338719,
+            0.28378327288713046,
+            0.5893247162150965
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C003",
+      "tipo": "elemento",
+      "valor_propuesto": "0.15x0.40",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.2404179213833022,
+            0.573081448338719,
+            0.30521085833608086,
+            0.5893247162150965
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C004",
+      "tipo": "elemento",
+      "valor_propuesto": "C-3",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.30878212257757265,
+            0.5736415610241113,
+            0.3715343371066417,
+            0.5898848289004888
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C005",
+      "tipo": "elemento",
+      "valor_propuesto": "0.15x0.60",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.3332707916620874,
+            0.5736415610241113,
+            0.40265535406821257,
+            0.5898848289004888
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C006",
+      "tipo": "elemento",
+      "valor_propuesto": "C-4",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.40469607649192213,
+            0.5742016737095037,
+            0.46846865223284606,
+            0.5898848289004888
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C007",
+      "tipo": "elemento",
+      "valor_propuesto": "0.15x0.40",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.43326619042385606,
+            0.5742016737095037,
+            0.5031609334359087,
+            0.5898848289004888
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C008",
+      "tipo": "elemento",
+      "valor_propuesto": "C-5",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.5199968934315126,
+            0.5736415610241113,
+            0.5817287467487269,
+            0.5898848289004888
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C009",
+      "tipo": "elemento",
+      "valor_propuesto": "0.15x0.30",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.5475466461515918,
+            0.5736415610241113,
+            0.5995850679561857,
+            0.5898848289004888
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C010",
+      "tipo": "elemento",
+      "valor_propuesto": "C-6",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.09654699051177786,
+            0.6828635346756152,
+            0.14399378686302525,
+            0.6991068025519928
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C011",
+      "tipo": "elemento",
+      "valor_propuesto": "0.15x0.75",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.12205602080814741,
+            0.6828635346756152,
+            0.19144058321427262,
+            0.6991068025519928
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C012",
+      "tipo": "elemento",
+      "valor_propuesto": "PL-1",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.2689880353152361,
+            0.7394349159002402,
+            0.3031701359123713,
+            0.7517573949788714
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C013",
+      "tipo": "elemento",
+      "valor_propuesto": "PL-2",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.2689880353152361,
+            0.7570784654900985,
+            0.3036803165182987,
+            0.7694009445687298
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C014",
+      "tipo": "elemento",
+      "valor_propuesto": "PL-3",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.2689880353152361,
+            0.7750020714226531,
+            0.3036803165182987,
+            0.7873245505012842
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C015",
+      "tipo": "cota",
+      "valor_propuesto": 0.15,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.22307178078177087,
+            0.6047278150633855,
+            0.2342957541121735,
+            0.610608998260005
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C016",
+      "tipo": "cota",
+      "valor_propuesto": 0.4,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.23582629592995563,
+            0.6097688292319164,
+            0.2465400886544309,
+            0.627972491507167
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C017",
+      "tipo": "cota",
+      "valor_propuesto": 6,
+      "unidad": "desconocida",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.24143828259515696,
+            0.6150898997431435,
+            0.26490659046781695,
+            0.6237716463667247
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C018",
+      "tipo": "cota",
+      "valor_propuesto": 0.15,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.3296995274205956,
+            0.5963261247825006,
+            0.34041332014507086,
+            0.6024873643218162
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C019",
+      "tipo": "cota",
+      "valor_propuesto": 0.6,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.3450049455984174,
+            0.6038876460352971,
+            0.3557187383228926,
+            0.6324533929903057
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C020",
+      "tipo": "cota",
+      "valor_propuesto": 8,
+      "unidad": "desconocida",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.3465354874161996,
+            0.6136896180296628,
+            0.3694936146829322,
+            0.6220913083105477
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C021",
+      "tipo": "cota",
+      "valor_propuesto": 0.15,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.4347967322416383,
+            0.6047278150633855,
+            0.44500034436018604,
+            0.610608998260005
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C022",
+      "tipo": "cota",
+      "valor_propuesto": 0.4,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.4506123310253874,
+            0.6097688292319164,
+            0.46030576253800776,
+            0.627972491507167
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C023",
+      "tipo": "cota",
+      "valor_propuesto": 6,
+      "unidad": "desconocida",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.4587752207202257,
+            0.6145297870577512,
+            0.4817333479869582,
+            0.6237716463667247
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C024",
+      "tipo": "cota",
+      "valor_propuesto": 0.15,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.541424478880463,
+            0.5980064628386776,
+            0.5516280909990109,
+            0.6038876460352971
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C025",
+      "tipo": "cota",
+      "valor_propuesto": 0.3,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.5322412279737699,
+            0.6092087165465241,
+            0.5424448400923179,
+            0.6240517027094208
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C026",
+      "tipo": "cota",
+      "valor_propuesto": 4,
+      "unidad": "desconocida",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.5546891746345752,
+            0.6092087165465241,
+            0.5771371212953804,
+            0.6181705195128014
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C027",
+      "tipo": "cota",
+      "valor_propuesto": 0.15,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.11389313111330916,
+            0.7234717043665589,
+            0.1235865626259296,
+            0.7290728312204822
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C028",
+      "tipo": "cota",
+      "valor_propuesto": 0.75,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.12715782686742133,
+            0.7271124368216091,
+            0.13838180019782395,
+            0.7716413953102991
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C029",
+      "tipo": "cota",
+      "valor_propuesto": 8,
+      "unidad": "desconocida",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.13225963292669526,
+            0.7444759300687712,
+            0.15623812140528262,
+            0.7539978457204407
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C030",
+      "tipo": "elemento",
+      "valor_propuesto": "fy = 4,200 Kg/cm2",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.662856356083086,
+            0.7020425234899329,
+            0.7169827513353115,
+            0.7144680805369127
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C031",
+      "tipo": "elemento",
+      "valor_propuesto": "f'c = 210 Kg/cm2",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.662856356083086,
+            0.7252729127516778,
+            0.6992792118694362,
+            0.7371582281879195
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C032",
+      "tipo": "elemento",
+      "valor_propuesto": "C - H = 1:12+30% PIEDRA GRANDE 6” MAX.",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.6630014670623144,
+            0.7455319731543625,
+            0.7372982884272997,
+            0.7566069261744967
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C033",
+      "tipo": "elemento",
+      "valor_propuesto": "C - H = 1:10+30% PIEDRA GRANDE 6” MAX.",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.6630014670623144,
+            0.7582276510067114,
+            0.7372982884272997,
+            0.7693026040268456
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C034",
+      "tipo": "elemento",
+      "valor_propuesto": "C - H = 1:8 +25% PIEDRA MEDIANA DE 3” MAX.",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.6630014670623144,
+            0.7706532080536912,
+            0.7422320617210683,
+            0.7825385234899329
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C035",
+      "tipo": "elemento",
+      "valor_propuesto": "f'm = 35 Kg/cm2",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.7161120854599405,
+            0.7917226308724833,
+            0.7409260629080118,
+            0.80198722147651
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C036",
+      "tipo": "elemento",
+      "valor_propuesto": "CEMENTO - ARENA = 1:5",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.662856356083086,
+            0.8041481879194631,
+            0.7034874302670622,
+            0.8149530201342282
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C037",
+      "tipo": "elemento",
+      "valor_propuesto": "1:8 = CEMENTO HORMIGON",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.662856356083086,
+            0.8257578523489932,
+            0.7014558765578633,
+            0.8365626845637584
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C038",
+      "tipo": "elemento",
+      "valor_propuesto": "4.00 Kg/cm2",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.6973927691394659,
+            0.8473675167785234,
+            0.7216263026706231,
+            0.8587125906040268
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C039",
+      "tipo": "cota",
+      "valor_propuesto": 2,
+      "unidad": "cm",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.7343960688427299,
+            0.8576321073825504,
+            0.749922943620178,
+            0.8692473020134227
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C040",
+      "tipo": "cota",
+      "valor_propuesto": 2.5,
+      "unidad": "cm",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.7343960688427299,
+            0.8705979060402684,
+            0.7503582765578635,
+            0.8814027382550335
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C041",
+      "tipo": "cota",
+      "valor_propuesto": 3.5,
+      "unidad": "cm",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.7343960688427299,
+            0.8835637046979866,
+            0.7510838314540058,
+            0.8946386577181209
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C042",
+      "tipo": "cota",
+      "valor_propuesto": 7.5,
+      "unidad": "cm",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.7343960688427299,
+            0.8962593825503354,
+            0.7512289424332343,
+            0.9078745771812081
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C043",
+      "tipo": "cota",
+      "valor_propuesto": 200,
+      "unidad": "desconocida",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.6926041068249258,
+            0.9132769932885906,
+            0.712048978041543,
+            0.9240818255033558
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C044",
+      "tipo": "cota",
+      "valor_propuesto": 150,
+      "unidad": "desconocida",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.6805598955489615,
+            0.9248921879194631,
+            0.6998596557863501,
+            0.9356970201342282
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C045",
+      "tipo": "cota",
+      "valor_propuesto": 40,
+      "unidad": "cm",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.6772223430267061,
+            0.9481225771812081,
+            0.6872350005934719,
+            0.9500134228187919
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C046",
+      "tipo": "cota",
+      "valor_propuesto": 70,
+      "unidad": "cm",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.6979732130563798,
+            0.9481225771812081,
+            0.7084212035608307,
+            0.9500134228187919
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C047",
+      "tipo": "elemento",
+      "valor_propuesto": "Z=0.40",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.8144099893175074,
+            0.7571917449664429,
+            0.8261877364985162,
+            0.7633220134228188
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C048",
+      "tipo": "elemento",
+      "valor_propuesto": "U=1.00",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.8326820083086053,
+            0.7573119463087248,
+            0.8446799002967358,
+            0.7633220134228188
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C049",
+      "tipo": "elemento",
+      "valor_propuesto": "S=1.00",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.8506238100890207,
+            0.7571917449664429,
+            0.8624015572700297,
+            0.7633220134228188
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C050",
+      "tipo": "elemento",
+      "valor_propuesto": "Tp=0.40",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.8653735121661721,
+            0.7571917449664429,
+            0.8807836486646884,
+            0.7633220134228188
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C051",
+      "tipo": "elemento",
+      "valor_propuesto": "Rx=6",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.8883786445103856,
+            0.7571917449664429,
+            0.8975146540059347,
+            0.7633220134228188
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C052",
+      "tipo": "elemento",
+      "valor_propuesto": "Ry=6",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.9016974053412462,
+            0.7571917449664429,
+            0.9091823287833827,
+            0.7633220134228188
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C053",
+      "tipo": "elemento",
+      "valor_propuesto": "C=2.50",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.8144099893175074,
+            0.7674088590604027,
+            0.8273985329376854,
+            0.7735391275167784
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C054",
+      "tipo": "elemento",
+      "valor_propuesto": "Vx=0.166 Peso",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.8561274302670622,
+            0.7674088590604027,
+            0.8813340106824925,
+            0.7735391275167784
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C055",
+      "tipo": "elemento",
+      "valor_propuesto": "Vy=0.166Peso",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.8893692961424332,
+            0.7674088590604027,
+            0.9086319667655786,
+            0.7735391275167784
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C056",
+      "tipo": "cota",
+      "valor_propuesto": 11.741,
+      "unidad": "mm",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.8333424427299703,
+            0.791929932885906,
+            0.8528252581602374,
+            0.7990218120805369
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C057",
+      "tipo": "cota",
+      "valor_propuesto": 13.464,
+      "unidad": "mm",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.8624015572700297,
+            0.791929932885906,
+            0.8821045175074184,
+            0.7990218120805369
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C058",
+      "tipo": "elemento",
+      "valor_propuesto": "4.00 Kg/cm2",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.8605303264094956,
+            0.825826711409396,
+            0.8821045175074184,
+            0.8325579865771813
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C059",
+      "tipo": "cota",
+      "valor_propuesto": 1.5,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.8590993851632046,
+            0.8330387919463088,
+            0.8697764083086053,
+            0.839770067114094
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C060",
+      "tipo": "elemento",
+      "valor_propuesto": "GRAVA ARENOSA (GP)",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "openai",
+        "version": "gpt-5.4",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.8549166338278931,
+            0.8402508724832215,
+            0.8891491513353116,
+            0.8469821476510067
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    }
+  ]
+}

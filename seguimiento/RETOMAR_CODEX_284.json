@@ -1,0 +1,28 @@
+{
+  "fecha_utc": "2026-10-23T15:57:57.585447+00:00",
+  "goal_completo": false,
+  "clasificacion": "progreso",
+  "entrega_codex": "seguimiento/ENTREGA_CONTEXTO_284.md",
+  "candidato": "tmp/candidato_contexto_282",
+  "candidato_estado": "7pruebasOK,5planes completos idénticos; NO integrado por Codex; entregado a Claude para revisar/integrar",
+  "prueba_candidato": "seguimiento/REVISION_CONTEXTO_284.json",
+  "coordinacion": "Mensaje284 visible en historial y compositor vacío tras Return; resultado y fallo de orden comunicados.",
+  "revision_resumen": "seguimiento/REVISION_RESUMEN_284.json",
+  "cache_validacion": "NO aceptada todavía: REPRODUCCION_ORDEN_CACHE_284.json muestra dependencia del historial en orden JSON de salida. Claude debe corregir y demostrar regresión.",
+  "QA_historica": {
+    "informe": "dccadc6138fb412bab4122eded6df107",
+    "fuentes": "tmp/runtime_qa_276",
+    "archivos_preservados": true,
+    "sesion17813": "terminal1 por CtrlC intencional tras revisión del informe y detección de defecto283; no es fallo del producto ni nueva corrida ETABS",
+    "motivo_cierre": "Liberar recursos de QA de versión histórica; nueva QA solo cuando correcciones/integración estén estables",
+    "descarga_UI": "No confirmada; no confundir archivo conservado con descarga probada.",
+    "tab5": "binding perdido por kernel CUA; no usar referencia antigua. Inventario antes de recuperar/cerrar; no afirmar estado actual."
+  },
+  "siguiente": [
+    "Revisar marcador de integración del candidato y corrección de orden en cache; no repetir comparación de5planes salvo cambios.",
+    "Revisar regresiones/perfil de optimizaciones nuevas de generación de plan de Claude.",
+    "Revisar controles publicados y continuación real de reglas/informe.",
+    "Crear copia estable nueva para QA del informe/panel corregidos y probar descargas mediante flujo documentado sin waitForEvent bloqueante."
+  ],
+  "restricciones": "Proyectos2/3 sin procesar; APIs OA4/5 y Gemini2/5; no tocar instancias ETABS ajenas ni reiniciar39028 por espera."
+}

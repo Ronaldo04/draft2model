@@ -1,0 +1,53 @@
+{
+  "contrato": "draft2model.modelo_estructural",
+  "version_contrato": "0.1.0",
+  "id": "modelo-software-sintetico-001",
+  "caso": "sintetico-001",
+  "datos_sinteticos": true,
+  "unidades": {"longitud": "m", "fuerza": "kN", "tiempo": "s", "temperatura": "C"},
+  "geometria_origen": {
+    "version_id": "00000000000000000000000000000000",
+    "sha256_geometria": "0000000000000000000000000000000000000000000000000000000000000000",
+    "huella_contenido": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "plantilla": {
+    "id": "shell-frame-lineal-sintetica", "version": "0.1.0",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "representacion": "Shell isotrópico y frames rectangulares solo para probar infraestructura de software.",
+    "limitaciones": ["No representa ni calibra albañilería o confinamiento.", "No es un modelo de obra real; la plantilla y la geometría deben vincularse a artefactos revisados antes de uso."],
+    "fuente": "F-SINTETICA"
+  },
+  "fuentes": [{"id": "F-SINTETICA", "descripcion": "Valores inventados EXCLUSIVAMENTE para pruebas de software. Ninguno es un parámetro de ingeniería real.", "referencia": "Ejemplo sintético; hashes cero son marcadores que deben sustituirse al vincular artefactos.", "sha256": "0000000000000000000000000000000000000000000000000000000000000000"}],
+  "hipotesis": [{"id": "H1", "descripcion": "Hipótesis sintética: shell isotrópico lineal y conexiones nodales declaradas. No se demuestra estabilidad o equivalencia estructural.", "fuente": "F-SINTETICA"}],
+  "sitio": {"descripcion": "Sitio SINTÉTICO", "ubicacion": "Sin ubicación real", "sistema_resistente": "Representación genérica de prueba, sin tipología normativa", "parametros": [{"id": "parametro-prueba", "valor": 1, "unidad": "1", "fuente": "F-SINTETICA"}], "fuente": "F-SINTETICA"},
+  "materiales": [{"id": "MAT1", "tipo": "isotropo_lineal", "E_kN_m2": 1000000, "poisson": 0.2, "peso_kN_m3": 10, "fuente": "F-SINTETICA"}],
+  "secciones": [
+    {"id": "SHELL15", "tipo": "shell_muro", "material": "MAT1", "dimensiones": {"espesor_m": 0.15}, "fuente": "F-SINTETICA"},
+    {"id": "FRAME", "tipo": "frame_rectangular", "material": "MAT1", "dimensiones": {"ancho_m": 0.2, "alto_m": 0.3}, "fuente": "F-SINTETICA"}
+  ],
+  "puntos": [
+    {"id": "A0", "nodo_geometria": "A", "nivel_geometria": "N0"}, {"id": "B0", "nodo_geometria": "B", "nivel_geometria": "N0"},
+    {"id": "C0", "nodo_geometria": "C", "nivel_geometria": "N0"}, {"id": "D0", "nodo_geometria": "D", "nivel_geometria": "N0"},
+    {"id": "A1", "nodo_geometria": "A", "nivel_geometria": "N1"}, {"id": "B1", "nodo_geometria": "B", "nivel_geometria": "N1"},
+    {"id": "C1", "nodo_geometria": "C", "nivel_geometria": "N1"}, {"id": "D1", "nodo_geometria": "D", "nivel_geometria": "N1"}
+  ],
+  "frames": [{"id": "COL1", "inicio": "A0", "fin": "A1", "tipo": "columna", "fuente": "F-SINTETICA"}, {"id": "V1", "inicio": "A1", "fin": "B1", "tipo": "viga", "fuente": "F-SINTETICA"}],
+  "asignaciones_muros": [{"objetivo": "M1", "seccion": "SHELL15", "fuente": "F-SINTETICA"}, {"objetivo": "M2", "seccion": "SHELL15", "fuente": "F-SINTETICA"}, {"objetivo": "M3", "seccion": "SHELL15", "fuente": "F-SINTETICA"}, {"objetivo": "M4", "seccion": "SHELL15", "fuente": "F-SINTETICA"}],
+  "asignaciones_frames": [{"objetivo": "COL1", "seccion": "FRAME", "fuente": "F-SINTETICA"}, {"objetivo": "V1", "seccion": "FRAME", "fuente": "F-SINTETICA"}],
+  "patrones": [{"id": "D", "tipo": "muerta", "multiplicador_peso_propio": 1, "fuente": "F-SINTETICA"}, {"id": "L", "tipo": "viva", "multiplicador_peso_propio": 0, "fuente": "F-SINTETICA"}],
+  "cargas": [{"id": "P1", "patron": "L", "objetivo_tipo": "punto", "objetivo": "B1", "componentes": [0, 0, -1], "unidad": "kN", "sistema": "global", "fuente": "F-SINTETICA"}],
+  "masa": {"metodo": "patrones", "gravedad_m_s2": 9.81, "incluir_masa_propia": false, "factores_patrones": [{"patron": "D", "factor": 1}, {"patron": "L", "factor": 0.25}], "masas_puntos": [], "fuente": "F-SINTETICA"},
+  "apoyos": [{"punto": "A0", "restricciones": [true, true, true, true, true, true], "fuente": "F-SINTETICA"}, {"punto": "B0", "restricciones": [true, true, true, true, true, true], "fuente": "F-SINTETICA"}, {"punto": "C0", "restricciones": [true, true, true, true, true, true], "fuente": "F-SINTETICA"}, {"punto": "D0", "restricciones": [true, true, true, true, true, true], "fuente": "F-SINTETICA"}],
+  "diafragmas": [{"id": "DIA1", "tipo": "rigido", "puntos": ["A1", "B1", "C1", "D1"], "fuente": "F-SINTETICA"}],
+  "sin_diafragma": [{"punto": "A0", "motivo": "Base de prueba", "fuente": "F-SINTETICA"}, {"punto": "B0", "motivo": "Base de prueba", "fuente": "F-SINTETICA"}, {"punto": "C0", "motivo": "Base de prueba", "fuente": "F-SINTETICA"}, {"punto": "D0", "motivo": "Base de prueba", "fuente": "F-SINTETICA"}],
+  "espectros": [{"id": "ESP-PRUEBA", "unidad_aceleracion": "m/s2", "puntos": [[0, 0.1], [1, 0.1], [2, 0.05]], "fuente": "F-SINTETICA"}],
+  "casos": [
+    {"id": "EST", "tipo": "estatico_lineal", "parametros": {"patrones": [{"patron": "D", "factor": 1}, {"patron": "L", "factor": 1}]}, "fuente": "F-SINTETICA"},
+    {"id": "MOD", "tipo": "modal_eigen", "parametros": {"numero_modos": 3}, "fuente": "F-SINTETICA"},
+    {"id": "EX", "tipo": "espectro_respuesta", "parametros": {"modal": "MOD", "espectro": "ESP-PRUEBA", "direccion": "UX", "factor": 1, "amortiguamiento": 0.05, "combinacion_modal": "CQC"}, "fuente": "F-SINTETICA"}
+  ],
+  "combinaciones": [{"id": "COMB1", "tipo": "lineal", "casos": [{"caso": "EST", "factor": 1}, {"caso": "EX", "factor": 1}], "fuente": "F-SINTETICA"}],
+  "analisis": {"casos_ejecutar": ["EST", "MOD", "EX"], "combinaciones_resultados": ["COMB1"], "fuente": "F-SINTETICA"},
+  "faltantes": [],
+  "revision": {"estado": "borrador", "aprobacion": null}
+}

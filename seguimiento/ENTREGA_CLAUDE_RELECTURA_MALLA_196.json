@@ -1,0 +1,50 @@
+{
+  "tarea": "relectura_malla_196",
+  "estado": "entregado",
+  "fecha": "2026-10-21",
+  "carpeta": "D:/RONALDO CUCHILLA/1. RONALDO CUCHILLA/2. INGENIERÍA CIVIL DOCS AND PROJECTS/AECODE CURSOS/AECODE AI TALENT/PROYECTO FINAL",
+  "archivos": {
+    "draft2model/verificacion_modelo_guardado.py": "1f9add60d54cc00b52e315ae1556416c83d7c8a7953964fa8581089b0a2d5e50",
+    "scripts/verificar_modelo_guardado.ps1": "e44676be31eae921e32738c02eac5899e3000e9646a45c5d616048b24e3a4cf8",
+    "docs/VERIFICACION_MODELO_GUARDADO.md": "7efd9d441b8be013f17b92b9348f7d57fbbf4f3e2e0dd9236b1cc325d55a5c0c",
+    "docs/RELECTURA_MALLA_ETABS.md": "45f507b70c923509faa5dd4280670cb08f2854c9b7f27b70e64692dcf1b6e76d",
+    "tests/test_relectura_malla.py": "adb707fd8306df36186989b05ac7456ab510dad753a4d5fdb8bec42433729553"
+  },
+  "informe": {
+    "seguimiento/INFORME_CLAUDE_RELECTURA_MALLA_196.md": "0133bc90f3e88a944f775605512788d0495d5c60feac17cba10a5efba400954e"
+  },
+  "hashes_previos": {
+    "draft2model/verificacion_modelo_guardado.py": "91b68901f8e9c60af036dcc6c04188c64bd4202f25a058c9e5bd38372c483503",
+    "scripts/verificar_modelo_guardado.ps1": "e44676be31eae921e32738c02eac5899e3000e9646a45c5d616048b24e3a4cf8",
+    "docs/VERIFICACION_MODELO_GUARDADO.md": "a4bfe5946b4a5f94fbd9cdcfcbb0628bb14757f1a739c3606d43980115af4bd3"
+  },
+  "script_sin_cambios": true,
+  "pruebas": [
+    {
+      "comando": ".venv/Scripts/python.exe -m unittest -v tests.test_relectura_malla tests.test_verificacion_modelo_guardado tests.test_contorno_nativo tests.test_relectura_representaciones_csi tests.test_relectura_presion tests.test_vinculo_verificacion_modelo tests.test_revision_verificacion_modelo tests.test_revision_verificacion_modelo_http tests.test_informe_relectura_modelo",
+      "resultado": "75 OK",
+      "omisiones": 0,
+      "codigo": 0,
+      "log": "tmp/claude_relectura_196/pruebas.log",
+      "log_sha256": "57a92711838db51491f8f70fe1e4a63d512d80860a4e911aa9e522c14a0ceed1"
+    }
+  ],
+  "plan_real_194_leido": {
+    "ruta": "tmp/n194/plan.json",
+    "sha256": "6057be560a626ad1cb885651b93f9d65986ae01edca6db42a97c7be607d538c7",
+    "operaciones": 294,
+    "sin_lector": 0,
+    "modificado": false
+  },
+  "no_ejecutado": [
+    "ETABS real",
+    "reapertura del EDB 194",
+    "solver",
+    "suite global"
+  ],
+  "no_afirmado": [
+    "masa_propia_por_elemento",
+    "calidad_y_rigidez_de_malla",
+    "efecto_estructural_del_diafragma"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "estado": "portado_verificado_offline",
+  "responsable": "Codex: archivos nuevos independientes",
+  "fuente_recibo_sha256": "e0b76392a71c49e10dc0911d0f7e4bb37d37153415807b679d1c955ff5ac8dd0",
+  "fixture_contrastado_con_crudos_y_filas": true,
+  "archivos": [
+    {
+      "ruta": "draft2model/masa_ensamblada.py",
+      "sha256": "6cde910fb8b048ae385ac389fe5f40603db7dff5332bda1ad417ecf2251cdceb"
+    },
+    {
+      "ruta": "tests/test_masa_ensamblada.py",
+      "sha256": "8452d75308f99496113512d7e13046ffa35a162093e750e0f0f67765f6003bb4"
+    },
+    {
+      "ruta": "tests/fixtures/masa_ensamblada_253f/extracto_sintetico_253f.json",
+      "sha256": "96b17ec8e2d09b1a77a44692cd9f7b9e16f1f7fb283fa802dc8bc40b20a2d425"
+    },
+    {
+      "ruta": "tests/fixtures/masa_ensamblada_253f/manifest.json",
+      "sha256": "ee4c2271dfb2ba3c2a7cf4b5e0d869146dcdd422a3c46edf7183d24951f76506"
+    },
+    {
+      "ruta": "docs/MASA_ENSAMBLADA.md",
+      "sha256": "8c72da55e79982f5232a48ba50044acf38a401a99ba388d7fb6d2df169529a8f"
+    }
+  ],
+  "limites": [
+    "Validación de payload, no nueva ejecución nativa ni verificaciónEDB",
+    "Sin consumidores en contrato/plan/lector/UI; R249-02 permanece abierto",
+    "Sin edición de archivos existentes de Claude"
+  ],
+  "prueba_destino": {
+    "comando": ".venv/Scripts/python.exe -B -m unittest tests.test_masa_ensamblada -q",
+    "resultado": "29OK0.059s"
+  }
+}

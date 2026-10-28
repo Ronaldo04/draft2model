@@ -1,0 +1,35 @@
+{
+  "tarea": "revision_resultados_integracion",
+  "estado": "entregado",
+  "archivos": {
+    "draft2model/revision_visual.py": "8f56953c397ce6ce20065639404dfc1fb219de798893dba5e877701c961453f6",
+    "draft2model/revision_web/index.html": "74269ff5b64dc120329ef1632627a553912840d74cb8baf529ae75ed6f6f6085",
+    "draft2model/revision_web/app.js": "1ca3f27e16f4f4418a33017c7533ccb5af375dc9f27f34c1c21a15cc33d82141",
+    "tests/test_revision_aprobacion_resultados_http.py": "45c9c197a45a0f4c6699fd08d9fbe44a85b3840bd5900aee588c7b730307bdca",
+    "docs/INTEGRACION_REVISION_RESULTADOS.md": "0cf712b678d48fb0abf20a3d2943246b30aa61703072b2498a2e0b08005a3fc6"
+  },
+  "pruebas": [
+    {
+      "comando": "TEMP=$PWD/tmp TMP=$PWD/tmp python -m unittest tests.test_revision_aprobacion_resultados_http tests.test_revision_visual tests.test_revision_tabular_http tests.test_revision_resultados_http",
+      "resultado": "Ran 37 tests OK (5 nuevas HTTP revision resultados)"
+    },
+    {
+      "comando": "node tests/revision_aprobacion_resultados_frontend.cjs",
+      "resultado": "21/21 OK (componente del subagente, una pasada)"
+    },
+    {
+      "comando": "node tests/revision_tabular_frontend.cjs; revision_conversion; revision_resultados; revision_preparacion",
+      "resultado": "5/5, 10/10, OK, 13/13 (regresion app.js)"
+    },
+    {
+      "comando": "montaje temporal (scratchpad) revision_resultados.js+app.js+resultados.js",
+      "resultado": "OK: export global, resultReviewControls, d2m-result lista analisis sin preseleccion, controles falsos"
+    }
+  ],
+  "limites": [
+    "Referencia opcional al informe pendiente de root",
+    "Montaje sin navegador real (node:vm)",
+    "Registrar repetido crea otra declaracion (contrato backend)",
+    "Sin red/API/ETABS/CU ni suite completa"
+  ]
+}

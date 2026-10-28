@@ -1,0 +1,69 @@
+{
+  "fecha_utc": "2026-10-19T12:41:01.059900+00:00",
+  "fase": "arquitectura multiproveedor en integracion",
+  "requisito_usuario": "Elegir proveedores/modelos intercambiables; claves locales, sin acoplar producto a una empresa. Una clave no garantiza protocolo/capacidades.",
+  "implementado": [
+    "Registro comun de protocolos, modelos explicitos sin catalogo comercial fijo",
+    "OpenAI Responses conservado, Gemini generateContent y Chat Completions compatible configurado",
+    "Vision y explicaciones usan proveedor vinculado a plan/SHA; claves separadas por proveedor",
+    "Endpoint compatible HTTPS validado y vinculado al plan; sin redirecciones ni reintentos",
+    "Opciones UI generadas desde registro, cambio de proveedor consume confirmacion, CLI preparar-proveedor"
+  ],
+  "pruebas": [
+    {
+      "log": "tmp/gemini_integracion_149.log",
+      "codigo": 0,
+      "pruebas": 41,
+      "segundos": 72.466,
+      "limite": "Primera iteracion; incluyo descubrimiento duplicado de clase importada, corregido despues."
+    },
+    {
+      "log": "tmp/multiproveedor_150.log",
+      "codigo": 0,
+      "pruebas": 32,
+      "segundos": 85.355,
+      "limite": "Focal de servicios/protocolos durante integracion; no suite global estable."
+    },
+    {
+      "log": "tmp/multiproveedor_http_cli_151.log",
+      "codigo": 0,
+      "pruebas": 18,
+      "segundos": 13.69
+    },
+    {
+      "log": "tmp/multiproveedor_node_151.log",
+      "codigo": 0,
+      "baterias": 2,
+      "limite": "DOM simulado, incluye cambio de proveedor y confirmacion."
+    }
+  ],
+  "sin_API_real": true,
+  "sin_ETABS_real": true,
+  "pendiente": [
+    "Adaptador nativo Anthropic preparado para Claude, NO enviado",
+    "Revision y pruebas de transportes/modelos restantes",
+    "QA navegador actual y regresion global de fuentes estables",
+    "Credencial/modelo/cuenta/condiciones y ensayo real autorizado con planos"
+  ],
+  "CU": "Detenido por Escape fisico del usuario al intentar observar Claude; no continuar entradas ni inferir envio. Requiere reanudacion explicita para coordinar nueva tarea.",
+  "archivos_observados": {
+    "draft2model/proveedores.py": "aea639ff7ca565526ab434527da4e513d1b2e0657cb3b602ed40e72d7ee2e5df",
+    "draft2model/proveedor_openai.py": "0e07f028605e7cc7ba3d49f4764c389137906454cd86dcdcc5b03063fde7d072",
+    "draft2model/proveedor_gemini.py": "c640746916c1aae4ece3e7f5a7a4b20392555444b8d7e83384f7d911471fbbdd",
+    "draft2model/proveedor_compatible.py": "f74fe896e1e7246b871bd97a3fa7cdbbeb8d20cf8b00e4131c52a8f005095704",
+    "draft2model/revision_proveedor.py": "94cc51918bbfeb3d805735b7ca93ff745c5453ad4e3f8e44d52489cbe1aa045f",
+    "draft2model/revision_explicaciones.py": "7b3a30366fc1e3206fe088a3f7fe6975ef27bc15e79c64c248338e6199a555a9",
+    "draft2model/revision_visual.py": "7af6dcd8e3adb98913bf97e27a77975bda1026e121794f994be914837df90b93",
+    "draft2model/cli_vision.py": "12983ac65c99651e415229f207abd731d0fedfe10e666135b2b9476fb816e986",
+    "draft2model/revision_web/index.html": "f97c2ca6390c4de9b50d94e11f1250d8478b07a4a67d50da2abb6bfc066209bc",
+    "draft2model/revision_web/proveedor.js": "d05de9eff61ce9a35a673cb8fdc48debe56854584e42f055eb8e8fd9b69fcf95",
+    "draft2model/revision_web/explicaciones.js": "edcf4f66ac564e31d0a442a61ff2e9b743b62e11c07350bca3ab1f33bc121f5c",
+    "tests/test_proveedor_gemini.py": "62a64a4f0fd913630d53abfbbc3ebf088623d2d487c42cfcad2a63feaeb7d6fe",
+    "tests/test_proveedores_intercambiables.py": "90f1f93e01a5e4a94a2f78a273d89f6ed965081175c77f5e269278f33c7b8fae",
+    "tests/test_revision_proveedor.py": "9307c15b0253e04aab69c9faf65caa6f567efaca39c16548a9622fb360acc242",
+    "tests/test_revision_explicaciones.py": "988c963df398b38648c2efc036c5f4575c1f55a19aca6f519476e38ce4fb2337",
+    "tests/revision_proveedor_frontend.cjs": "bdcbee4d18e120d53d2a261949b1ab5a25511c4630d861750585c7562c4c6b66",
+    "tests/revision_explicaciones_frontend.cjs": "27d7364acdc7e2b0a5f481ff33313f4204db98aace24907bc013cfff38bf0e20"
+  },
+  "goal_completo": false
+}

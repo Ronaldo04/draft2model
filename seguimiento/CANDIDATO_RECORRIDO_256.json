@@ -1,0 +1,8 @@
+{
+  "estado": "candidato_aislado_no_portado",
+  "fuente_actual_sha256": "3f28c4787b49c44c49f70a251d6faecad9d4b83bb9903cd9f88224eea409dcc9",
+  "modal_E030_preservado": true,
+  "runner_vivo_sin_modificar": true,
+  "motivo": "El agente alcanzó cuota; root completa y verifica candidato. El runner vivo cambió y permanece propiedad de Claude.",
+  "candidato_sha256": "cb3076f5c6237da3ff416b853b71b4d4a62b39fb93822fc115bc527fbbf4b7ac"
+}

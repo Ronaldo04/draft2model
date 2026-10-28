@@ -1,0 +1,28 @@
+{
+  "tarea": "359_contornos_ui",
+  "responsable": "Antigravity",
+  "raiz": "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL",
+  "estado": "enviado",
+  "enviado_utc": "2026-10-25T19:25:56.689785+00:00",
+  "encargo": "seguimiento/ENCARGO_ANTIGRAVITY_359_CONTORNOS_UI.md",
+  "sha256_encargo": "34d20274c87d702bdb1b55b7dea2ab474d910052fe0d946cc30afc8a6931dccb",
+  "marcador": "seguimiento/ANTIGRAVITY_359_ENTREGA.json",
+  "archivos_permitidos": [
+    "draft2model/revision_web/contornos.js",
+    "tests/contornos_359_frontend.cjs",
+    "docs/INTERFAZ_CONTORNOS.md",
+    "seguimiento/ANTIGRAVITY_359_INFORME.md"
+  ],
+  "archivos_necesarios": [
+    "draft2model/revision_web/contornos.js",
+    "tests/contornos_359_frontend.cjs",
+    "docs/INTERFAZ_CONTORNOS.md"
+  ],
+  "apis_autorizadas": false,
+  "etabs_autorizado": false,
+  "conversacion": "Revisar Y Continuar Tarea De Codex",
+  "conversation_id": "58f95083-5391-40e6-bbe6-58c2b929f14f",
+  "ventana_id": 198378,
+  "verificacion_envio": "Textoenhistorial+compositorvacio+Workingverificadosvisualmente;noacreditafinalizacion",
+  "reparto": "AGsoloJScontornos359. Rootservicio/shared. Child357entregado. Noedicionessimultaneas."
+}

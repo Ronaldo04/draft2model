@@ -1,0 +1,23 @@
+{
+  "fecha_utc": "2026-10-23T21:26:35.648473+00:00",
+  "proceso": {
+    "pid": 30852,
+    "padre": 32484,
+    "creacion_local": "2026-10-23T15:50:28.2199659-05:00",
+    "etapa": "informe",
+    "corrida": "tmp/recorrido_09d3"
+  },
+  "CPU_s_observaciones": [
+    1992.1875,
+    2014.4375
+  ],
+  "incremento_CPU_s": 22.25,
+  "memoria_bytes_observaciones": [
+    748830720,
+    605966336
+  ],
+  "interpretacion": "Proceso vivo con trabajo de CPU entre dos observaciones; no prueba finalizacion ni permite afirmar bloqueo. No reiniciado ni duplicado.",
+  "inspeccion_codigo": "etapa_informe crea y exporta con revalidacion de evidencia/masa/contenido/controles; exportar_informe vuelve a comprobar controles al final. Estas comprobaciones deben conservar integridad; la optimizacion requiere perfil, no quitarlas.",
+  "claude293": "Sin marcador ni cambios frontend observados en esta consulta; envio informado por usuario, no atribuir recepcion o trabajo actual sin evidencia.",
+  "goal_completo": false
+}

@@ -1,0 +1,14 @@
+{
+  "original": "seguimiento\\claude_ruta\\recorrido_etabs_09t.py",
+  "sha256": "79e1cb11e24ef1c854641fb882c8093c6daae28635f5b8c325ad3abc15e66275",
+  "contrato": "draft2model/revision_modelo.py",
+  "contrato_sha256": "877038d111f7af7a6ea8cb706551a4c154ea87bb01b6a3829d7ac81a9ea68f56",
+  "CONTROLES": [
+    "geometria_conectividad",
+    "materiales_secciones",
+    "cargas_masa",
+    "apoyos_diafragmas",
+    "casos_combinaciones"
+  ],
+  "ejecutado": false
+}

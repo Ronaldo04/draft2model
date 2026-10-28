@@ -1,0 +1,19 @@
+{
+  "origen": "seguimiento\\claude_ruta\\ensayo_auto_315\\ensayar_auto_315.ps1",
+  "origen_sha256": "1e75faa241181901c2211a72e8d4928e9de0f84a86b8018c55da87362028ea5e",
+  "derivado_sha256": "94c04791f3be8a414be197501006d421fb96931d65a60bbb45d4f1caa6589d76",
+  "cambios": [
+    "foreach($modelo in @('A','B'))",
+    "$tolA=$null",
+    "'registro_315.json'",
+    "auto_315_$modelo.edb",
+    "# nunca cierra ni toca otras sesiones; no abre EDB reales. Una sola instancia para los modelos A (tolerancia por defecto) y B (5x).",
+    "Check ($sap.GetMergeTol([ref]$t0)) 'GetMergeTol'"
+  ],
+  "matriz": "Mismo modelo_B sellado315, sin casos nuevos ni ajuste a resultados",
+  "justificacion": "315B bloqueó en segunda construcción de instancia reutilizada. Una única ejecución B aislada discrimina ese contexto; causa todavía no probada.",
+  "presupuesto": "Una ejecución adicional B, máximo180s; no reintentos automáticos, no repetir A ni piloto.",
+  "limites": "Extensión técnica del presupuesto local315, no elusión de cuota ni autorización de nube; cero llamadas remotas.",
+  "nativo_ejecutado": false,
+  "goal_completo": false
+}

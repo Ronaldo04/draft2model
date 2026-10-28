@@ -1,0 +1,43 @@
+{
+  "tarea": "defectos_flujo_web_lecturas_09d1",
+  "fecha": "2026-10-22",
+  "defectos_y_correcciones": [
+    {
+      "defecto": "revision_lecturas._utc: el patrón admitía 7 decimales .NET pero fromisoformat (3.10) los rechazaba; la lectura real df2c6eda fue aceptada por el lector y el trabajo web 0a1e1e75 quedó incierto",
+      "correccion": "normalización a 6 decimales solo para validar (también ljust en lectura_analisis._utc)",
+      "prueba": "tests/test_fecha_net_267.py"
+    },
+    {
+      "defecto": "sin operación de recuperación del motor web (operacion_pendiente.json bloqueaba todo)",
+      "correccion": "ServicioEjecucion.confirmar_recuperacion",
+      "prueba": "tests/test_recuperacion_motor_web_267.py"
+    },
+    {
+      "defecto": "tablas de masa sin campo de caso rechazadas por el lector",
+      "correccion": "lista explícita TABLAS_SIN_CASO (guion y lector)",
+      "prueba": "TablasSinCasoTests"
+    }
+  ],
+  "recuperaciones_web": [
+    "3ff7d186 (trabajo 51b31622, sin lanzar ETABS)",
+    "b4370018 (trabajo 0a1e1e75, lectura aceptada pero worker fallido)"
+  ],
+  "pruebas": "test_fecha_net_267 + test_lectura_analisis + test_revision_lecturas: 23 OK; test_recuperacion_motor_web_267 + test_revision_ejecucion: 13 OK",
+  "en_curso": [
+    "controles→reglas→informe (resultados09d1e.log)",
+    "lectura diagnóstica Mass Summary by Story / Centers Of Mass"
+  ],
+  "hashes": {
+    "draft2model/revision_lecturas.py": "17ebae85467f59a3f128dd504ee654ca17f02d7c48cb7a27b4d423f01ec76c13",
+    "draft2model/lectura_analisis.py": "ad99b149cfef23eaaeea085ed7e5eb5b98a80b256e42f77f35dfda96c4c138b7",
+    "scripts/leer_analisis_etabs.ps1": "bef4f99d21cd65a64fdd3d205560d1c4c0033269e54c47b65035c5eae2c6d829",
+    "draft2model/revision_ejecucion.py": "0f887fc9a48e7d20fe8e638dcef294b5f8e6bc825b8e9235063538a25585775f",
+    "tests/test_fecha_net_267.py": "b5395b713f0b2c3a861d62c14114c8a07bec650b32374ce84fe6f5b2b8f8cd99",
+    "tests/test_recuperacion_motor_web_267.py": "73e4f0608226fe48682f9a061e4ff323db221427c635958544a460bec6769192",
+    "tests/test_libro_masa_263.py": "0063fc115c68b4b27877a24c67914f2b8b9946733cb4cc5dfb55c14dd39057d7",
+    "seguimiento/claude_ruta/HALLAZGO_MASA_09D1.json": "b9a67a2da850a0065e4edede97f407bf564dd054a906bb7f3563949fbc9ffe42",
+    "data/private/.ejecucion_web/recuperacion_b4370018c11049d498ba826f6746dc53.json": "a8acac1f7ad400597ca2855ae9ad9da43e306fb4f1b7085feccf7f7c149d71a0",
+    "data/private/pueblo-libre-002/trabajos_lecturas/0a1e1e75dfee4d9d8632d16efeef89c5/error_worker.json": "e95daf96b1ad71499cc0eb77f55da449ee182cbdf1d189b67877659a3b7d6352"
+  },
+  "apis_ejecutadas_por_claude": 0
+}

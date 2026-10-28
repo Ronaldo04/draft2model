@@ -1,0 +1,361 @@
+{
+  "fecha_utc": "2026-10-23T15:07:49.690879+00:00",
+  "lectura": "6da62ea363484498a3e13315c99b328a",
+  "analisis": "7203c79a3ece4438b36d267ba80f3c4b",
+  "sha256_edb": "42371308a03d4f1bac8f5ed3aa5daf0421cdf3de27ff823f8f582c13ad2af394",
+  "fuentes_sha256": {
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\6da62ea363484498a3e13315c99b328a\\solicitud.json": "ae57649d9c7cc090030062e4f919a91632ed4e6146506f0ebfc565541fdaefea",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\6da62ea363484498a3e13315c99b328a\\respuesta.json": "8418be814454dd4301f4826e08ede7772af3fb4993cc07ff03a04f64dfccdbc4",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\6da62ea363484498a3e13315c99b328a\\aceptacion_lectura.json": "2a216c4d47a6e357254c994fefa4587d0933cf4dc7876ccc4542b36ecde7be8f",
+    "tmp\\recorrido_09d1\\lectura\\2eca39b2592c4c1d8a0cdb800eb06ddf\\respuesta.json": "f2502a0d9cec6119907152417d15acb6afed0cd432cd9419db36aa13a9cfa1c4",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\461c751056c74acaa6d738b29f4df633\\respuesta.json": "c29f4d60f9a310301adc232c2007ec7a7183d966e2094d28852f849dc7a4ef19"
+  },
+  "cobertura_frames": 128,
+  "vigas": [
+    {
+      "nombre": "VS-Z4-3-34",
+      "longitud_m": "0.186",
+      "extremos_m": "0.184",
+      "peso_bruto_kn": "0.200880000000000033480000000",
+      "peso_extremos_kn": "0.198720000000000033120000000"
+    },
+    {
+      "nombre": "VS-Z4-3-35",
+      "longitud_m": "0.6",
+      "extremos_m": "0",
+      "peso_bruto_kn": "0.6480000000000001080000000",
+      "peso_extremos_kn": "0E-24"
+    },
+    {
+      "nombre": "VS-Z4-3-36",
+      "longitud_m": "0.215",
+      "extremos_m": "0.2",
+      "peso_bruto_kn": "0.232200000000000038700000000",
+      "peso_extremos_kn": "0.2160000000000000360000000"
+    },
+    {
+      "nombre": "VS-Z4-1-37",
+      "longitud_m": "0.186",
+      "extremos_m": "0.184",
+      "peso_bruto_kn": "0.200880000000000033480000000",
+      "peso_extremos_kn": "0.198720000000000033120000000"
+    },
+    {
+      "nombre": "VS-Z4-1-38",
+      "longitud_m": "0.6",
+      "extremos_m": "0",
+      "peso_bruto_kn": "0.6480000000000001080000000",
+      "peso_extremos_kn": "0E-24"
+    },
+    {
+      "nombre": "VS-Z4-1-39",
+      "longitud_m": "0.215",
+      "extremos_m": "0.2",
+      "peso_bruto_kn": "0.232200000000000038700000000",
+      "peso_extremos_kn": "0.2160000000000000360000000"
+    },
+    {
+      "nombre": "VS-Z4-A-40",
+      "longitud_m": "0.10700000000000045",
+      "extremos_m": "0.105",
+      "peso_bruto_kn": "0.1155600000000005052600000000",
+      "peso_extremos_kn": "0.113400000000000018900000000"
+    },
+    {
+      "nombre": "VS-Z4-A-41",
+      "longitud_m": "0.154",
+      "extremos_m": "0.15",
+      "peso_bruto_kn": "0.166320000000000027720000000",
+      "peso_extremos_kn": "0.16200000000000002700000000"
+    },
+    {
+      "nombre": "VS-Z4-A-42",
+      "longitud_m": "2.176",
+      "extremos_m": "0.30",
+      "peso_bruto_kn": "2.350080000000000391680000000",
+      "peso_extremos_kn": "0.32400000000000005400000000"
+    },
+    {
+      "nombre": "VS-Z4-A-43",
+      "longitud_m": "0.2",
+      "extremos_m": "0.15",
+      "peso_bruto_kn": "0.2160000000000000360000000",
+      "peso_extremos_kn": "0.16200000000000002700000000"
+    },
+    {
+      "nombre": "VS-Z4-A-44",
+      "longitud_m": "0.113",
+      "extremos_m": "0.111",
+      "peso_bruto_kn": "0.122040000000000020340000000",
+      "peso_extremos_kn": "0.119880000000000019980000000"
+    },
+    {
+      "nombre": "VS-Z4-2-45",
+      "longitud_m": "2.451",
+      "extremos_m": "0.2",
+      "peso_bruto_kn": "2.647080000000000441180000000",
+      "peso_extremos_kn": "0.2160000000000000360000000"
+    },
+    {
+      "nombre": "VS-Z3-3-23",
+      "longitud_m": "0.186",
+      "extremos_m": "0.184",
+      "peso_bruto_kn": "0.200880000000000033480000000",
+      "peso_extremos_kn": "0.198720000000000033120000000"
+    },
+    {
+      "nombre": "VS-Z3-3-24",
+      "longitud_m": "0.6",
+      "extremos_m": "0",
+      "peso_bruto_kn": "0.6480000000000001080000000",
+      "peso_extremos_kn": "0E-24"
+    },
+    {
+      "nombre": "VS-Z3-3-25",
+      "longitud_m": "0.215",
+      "extremos_m": "0.2",
+      "peso_bruto_kn": "0.232200000000000038700000000",
+      "peso_extremos_kn": "0.2160000000000000360000000"
+    },
+    {
+      "nombre": "VS-Z3-1-26",
+      "longitud_m": "0.186",
+      "extremos_m": "0.184",
+      "peso_bruto_kn": "0.200880000000000033480000000",
+      "peso_extremos_kn": "0.198720000000000033120000000"
+    },
+    {
+      "nombre": "VS-Z3-1-27",
+      "longitud_m": "0.6",
+      "extremos_m": "0",
+      "peso_bruto_kn": "0.6480000000000001080000000",
+      "peso_extremos_kn": "0E-24"
+    },
+    {
+      "nombre": "VS-Z3-1-28",
+      "longitud_m": "0.215",
+      "extremos_m": "0.2",
+      "peso_bruto_kn": "0.232200000000000038700000000",
+      "peso_extremos_kn": "0.2160000000000000360000000"
+    },
+    {
+      "nombre": "VS-Z3-A-29",
+      "longitud_m": "0.10700000000000045",
+      "extremos_m": "0.105",
+      "peso_bruto_kn": "0.1155600000000005052600000000",
+      "peso_extremos_kn": "0.113400000000000018900000000"
+    },
+    {
+      "nombre": "VS-Z3-A-30",
+      "longitud_m": "0.154",
+      "extremos_m": "0.15",
+      "peso_bruto_kn": "0.166320000000000027720000000",
+      "peso_extremos_kn": "0.16200000000000002700000000"
+    },
+    {
+      "nombre": "VS-Z3-A-31",
+      "longitud_m": "2.176",
+      "extremos_m": "0.30",
+      "peso_bruto_kn": "2.350080000000000391680000000",
+      "peso_extremos_kn": "0.32400000000000005400000000"
+    },
+    {
+      "nombre": "VS-Z3-A-32",
+      "longitud_m": "0.313",
+      "extremos_m": "0",
+      "peso_bruto_kn": "0.338040000000000056340000000",
+      "peso_extremos_kn": "0E-24"
+    },
+    {
+      "nombre": "VS-Z3-2-33",
+      "longitud_m": "2.451",
+      "extremos_m": "0.2",
+      "peso_bruto_kn": "2.647080000000000441180000000",
+      "peso_extremos_kn": "0.2160000000000000360000000"
+    },
+    {
+      "nombre": "VS-Z2-3-12",
+      "longitud_m": "0.186",
+      "extremos_m": "0.184",
+      "peso_bruto_kn": "0.200880000000000033480000000",
+      "peso_extremos_kn": "0.198720000000000033120000000"
+    },
+    {
+      "nombre": "VS-Z2-3-13",
+      "longitud_m": "0.6",
+      "extremos_m": "0",
+      "peso_bruto_kn": "0.6480000000000001080000000",
+      "peso_extremos_kn": "0E-24"
+    },
+    {
+      "nombre": "VS-Z2-3-14",
+      "longitud_m": "0.215",
+      "extremos_m": "0.2",
+      "peso_bruto_kn": "0.232200000000000038700000000",
+      "peso_extremos_kn": "0.2160000000000000360000000"
+    },
+    {
+      "nombre": "VS-Z2-1-15",
+      "longitud_m": "0.186",
+      "extremos_m": "0.184",
+      "peso_bruto_kn": "0.200880000000000033480000000",
+      "peso_extremos_kn": "0.198720000000000033120000000"
+    },
+    {
+      "nombre": "VS-Z2-1-16",
+      "longitud_m": "0.6",
+      "extremos_m": "0",
+      "peso_bruto_kn": "0.6480000000000001080000000",
+      "peso_extremos_kn": "0E-24"
+    },
+    {
+      "nombre": "VS-Z2-1-17",
+      "longitud_m": "0.215",
+      "extremos_m": "0.2",
+      "peso_bruto_kn": "0.232200000000000038700000000",
+      "peso_extremos_kn": "0.2160000000000000360000000"
+    },
+    {
+      "nombre": "VS-Z2-A-18",
+      "longitud_m": "0.10700000000000045",
+      "extremos_m": "0.105",
+      "peso_bruto_kn": "0.1155600000000005052600000000",
+      "peso_extremos_kn": "0.113400000000000018900000000"
+    },
+    {
+      "nombre": "VS-Z2-A-19",
+      "longitud_m": "0.154",
+      "extremos_m": "0.15",
+      "peso_bruto_kn": "0.166320000000000027720000000",
+      "peso_extremos_kn": "0.16200000000000002700000000"
+    },
+    {
+      "nombre": "VS-Z2-A-20",
+      "longitud_m": "2.176",
+      "extremos_m": "0.30",
+      "peso_bruto_kn": "2.350080000000000391680000000",
+      "peso_extremos_kn": "0.32400000000000005400000000"
+    },
+    {
+      "nombre": "VS-Z2-A-21",
+      "longitud_m": "0.313",
+      "extremos_m": "0",
+      "peso_bruto_kn": "0.338040000000000056340000000",
+      "peso_extremos_kn": "0E-24"
+    },
+    {
+      "nombre": "VS-Z2-2-22",
+      "longitud_m": "2.451",
+      "extremos_m": "0.2",
+      "peso_bruto_kn": "2.647080000000000441180000000",
+      "peso_extremos_kn": "0.2160000000000000360000000"
+    },
+    {
+      "nombre": "VS-Z1-3-1",
+      "longitud_m": "0.186",
+      "extremos_m": "0.184",
+      "peso_bruto_kn": "0.200880000000000033480000000",
+      "peso_extremos_kn": "0.198720000000000033120000000"
+    },
+    {
+      "nombre": "VS-Z1-3-2",
+      "longitud_m": "0.6",
+      "extremos_m": "0",
+      "peso_bruto_kn": "0.6480000000000001080000000",
+      "peso_extremos_kn": "0E-24"
+    },
+    {
+      "nombre": "VS-Z1-3-3",
+      "longitud_m": "0.215",
+      "extremos_m": "0.2",
+      "peso_bruto_kn": "0.232200000000000038700000000",
+      "peso_extremos_kn": "0.2160000000000000360000000"
+    },
+    {
+      "nombre": "VS-Z1-1-4",
+      "longitud_m": "0.186",
+      "extremos_m": "0.184",
+      "peso_bruto_kn": "0.200880000000000033480000000",
+      "peso_extremos_kn": "0.198720000000000033120000000"
+    },
+    {
+      "nombre": "VS-Z1-1-5",
+      "longitud_m": "0.6",
+      "extremos_m": "0",
+      "peso_bruto_kn": "0.6480000000000001080000000",
+      "peso_extremos_kn": "0E-24"
+    },
+    {
+      "nombre": "VS-Z1-1-6",
+      "longitud_m": "0.215",
+      "extremos_m": "0.2",
+      "peso_bruto_kn": "0.232200000000000038700000000",
+      "peso_extremos_kn": "0.2160000000000000360000000"
+    },
+    {
+      "nombre": "VS-Z1-A-7",
+      "longitud_m": "0.10700000000000045",
+      "extremos_m": "0.105",
+      "peso_bruto_kn": "0.1155600000000005052600000000",
+      "peso_extremos_kn": "0.113400000000000018900000000"
+    },
+    {
+      "nombre": "VS-Z1-A-8",
+      "longitud_m": "0.154",
+      "extremos_m": "0.15",
+      "peso_bruto_kn": "0.166320000000000027720000000",
+      "peso_extremos_kn": "0.16200000000000002700000000"
+    },
+    {
+      "nombre": "VS-Z1-A-9",
+      "longitud_m": "2.176",
+      "extremos_m": "0.30",
+      "peso_bruto_kn": "2.350080000000000391680000000",
+      "peso_extremos_kn": "0.32400000000000005400000000"
+    },
+    {
+      "nombre": "VS-Z1-A-10",
+      "longitud_m": "0.313",
+      "extremos_m": "0",
+      "peso_bruto_kn": "0.338040000000000056340000000",
+      "peso_extremos_kn": "0E-24"
+    },
+    {
+      "nombre": "VS-Z1-2-11",
+      "longitud_m": "2.451",
+      "extremos_m": "0.2",
+      "peso_bruto_kn": "2.647080000000000441180000000",
+      "peso_extremos_kn": "0.2160000000000000360000000"
+    }
+  ],
+  "totales": {
+    "longitud_m": "28.81200000000000180",
+    "extremos_m": "6.353",
+    "peso_bruto_kn": "31.11696000000000713016000000",
+    "peso_extremos_kn": "6.861240000000001143540000000",
+    "peso_neto_calculado_kn": "24.25572000000000598662000000",
+    "peso_tabla_materiales_kn": "24.2557",
+    "diferencia_redondeo_kn": "0.00002000000000598662000000"
+  },
+  "opciones_observadas": {
+    "OffsetOpt": [
+      "Auto"
+    ],
+    "SelfWtOpt": [
+      "Auto"
+    ],
+    "RigidFact": [
+      "0"
+    ]
+  },
+  "fuentes_estables": true,
+  "alcance": "Recibo nativo de extremos del mismo análisis y aritmética por45vigas a partir de relectura geométrica archivada. Explica diferencia por sección para este EDB, no prueba universal de la regla Auto ni validación profesional.",
+  "limites": [
+    "La conciliación usa offsets observados: no es predicción independiente de esos offsets.",
+    "El libro independiente original y el contraste global fallido se conservan; no cambiar tolerancia para pasar.",
+    "Residuo CM global distinto de la diferencia por sección sigue sin atribución exacta."
+  ],
+  "etabs_ejecutado": false,
+  "api_remota": false,
+  "goal_completo": false
+}

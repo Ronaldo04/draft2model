@@ -1,0 +1,60 @@
+{
+  "fecha_utc": "2026-10-25T07:32:47.106Z",
+  "revision": 354,
+  "estado": "defectos_reproducidos",
+  "producto_sha256": {
+    "draft2model/revision_web/parametros.js": "d11b232fb864e3ea9f557177cf27d254a414a56f6f0fbcb59cb5d3cd7b6c372c",
+    "draft2model/revision_web/preparacion_configuracion.js": "f2130179f223987ffd9d74f6cb2b2ea1fbace2e1a7fae7d1ea7f80eb56557276"
+  },
+  "prueba_sha256": "c430fc5e357999e106b42ed3d1a4647e2048f0386b5ee4c5d24f7e52929efed7",
+  "comando": "node tests/parametros_354_frontend.cjs",
+  "pruebas": [
+    {
+      "prueba": "Preparar es local; navegar/preparar no ejecuta proveedor",
+      "ok": true
+    },
+    {
+      "prueba": "Consentimiento realiza un solo envío; error no genera retry",
+      "ok": true
+    },
+    {
+      "prueba": "Cuota cero impide enviar aunque se prepare y consienta",
+      "ok": true
+    },
+    {
+      "prueba": "Evento de hijo conserva preparación origen y SHA de configuración",
+      "ok": false,
+      "error": "Falta SHA del hijo en evento d2m-preconfig-created.\n+ actual - expected\n\n+ undefined\n- 'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'\n",
+      "stack": "AssertionError [ERR_ASSERTION]: Falta SHA del hijo en evento d2m-preconfig-created.\n+ actual - expected\n\n+ undefined\n- 'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'\n\n    at D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tests\\parametros_354_frontend.cjs:62:405\n    at async check (D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tests\\parametros_354_frontend.cjs:55:35)\n    at async D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tests\\parametros_354_frontend.cjs:62:2"
+    },
+    {
+      "prueba": "Edición sin guardar bloquea preparar/enviar y protege textarea ante hijo",
+      "ok": true
+    },
+    {
+      "prueba": "Aplicación en vuelo sobre otra rama notifica sin reemplazarla",
+      "ok": true
+    },
+    {
+      "prueba": "Respuesta tardía de otro caso no publica hijo ni reactiva lectura",
+      "ok": true
+    },
+    {
+      "prueba": "Sondeo antiguo del mismo caso no sustituye lectura seleccionada",
+      "ok": false,
+      "error": "Respuesta tardía de J1 sustituyó la lectura J2 actualmente seleccionada.",
+      "stack": "AssertionError [ERR_ASSERTION]: Respuesta tardía de J1 sustituyó la lectura J2 actualmente seleccionada.\n    at D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tests\\parametros_354_frontend.cjs:83:10\n    at async check (D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tests\\parametros_354_frontend.cjs:55:35)\n    at async D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tests\\parametros_354_frontend.cjs:78:2"
+    }
+  ],
+  "aprobadas": 6,
+  "fallidas": 2,
+  "apis_reales": 0,
+  "etabs": false,
+  "gui": false,
+  "limites": [
+    "DOM y API simulados; no acredita navegador/HTTP reales",
+    "Producto solo leído; snapshots congelados al inicio",
+    "No suite completa; no llamadas reales ni claves",
+    "La disponibilidad de rutas y controles backend no se valida en esta revisión"
+  ]
+}

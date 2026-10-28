@@ -1,0 +1,29 @@
+{
+  "fecha_utc": "2026-10-19T01:59:51.278850+00:00",
+  "propietario_fuentes": "Claude; sin ediciones Codex",
+  "verificacion": "tmp/verificacion_cierre_claude_133.json",
+  "suite": {
+    "pruebas": 848,
+    "fallos": 1,
+    "segundos": 532.41,
+    "codigo": 1
+  },
+  "interfaz": {
+    "archivos": 26,
+    "codigo": 0
+  },
+  "fallo": "test_seleccion_snapshot_render_pdf_sin_mutacion_ni_autoseleccion",
+  "diagnostico": {
+    "id_exacto_en_texto_extraido": false,
+    "id_presente_tras_NFKC": true,
+    "ligadura_ff_observada": true
+  },
+  "correccion_136_en_fuentes": true,
+  "regresion_136_presente": true,
+  "estado": "Suite previa fallida; fuentes posteriores modificadas por Claude. Requiere entrega y verificacion estable; no aceptado.",
+  "sha256_observados": {
+    "draft2model/revision_controles.py": "94eedd58316743d3418814feb1807613f783bf53ddaeaed40bd31f605316f9b0",
+    "tests/test_revision_controles.py": "2512768da4a6dadd203bd425880e31f1ac0c98f01e76010652e31506c4218a54",
+    "tests/test_informe_revision_resultados.py": "1ce19ebfcd548b0f1abb39a303269e493c9a210570eb91f80b26bfadf0f2bcf1"
+  }
+}

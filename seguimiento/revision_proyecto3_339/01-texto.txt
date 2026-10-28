@@ -1,0 +1,123 @@
+A
+B
+C
+A
+B
+C
+1
+2
+3
+4
+5
+1
+2
+3
+4
+5
+A
+B
+C
+A
+B
+C
+1
+2
+3
+4
+5
+1
+2
+3
+4
+5
+A
+B
+C
+A
+B
+C
+1
+2
+3
+4
+5
+INGRESO
+NPT. +0.00
+HALL
+NPT. +0.45
+CUARTO DE SERV.
+NPT. +0.45
+COCINA
+NPT. +0.45
+SALA
+NPT. +0.45
+COMEDOR
+NPT. +0.45
+JARDÍN
+NIV. +0.30
+DORMITORIO 01
+NPT. +3.55
+DORMITORIO 02
+NPT. +3.55
+SS.HH.
+NPT. +3.55
+DORMITORIO
+PRINCIPAL
+NPT. +3.55
+VESTIDOR
+NPT. +3.55
+SS.HH.
+NPT. +3.55
+AZOTEA
+NPT. +6.65
+AZOTEA
+NPT. +6.65
+A
+A
+B
+B
+A
+A
+B
+B
+A
+A
+B
+B
+PLANTA PRIMER NIVEL
+PLANTA SEGUNDO NIVEL
+PLANTA AZOTEA
+V1
+V2
+V3
+P1
+P2
+P3
+P3
+P2
+P3
+P3
+P3
+P3
+P4
+V3
+V4
+V6
+V6
+V7
+V5
+V5
+M1
+HALL
+NPT. +3.55
+SS.HH
+Therma
+Therma
+Piso laminado
+Piso laminado
+Piso laminado
+Porcelanato
+Porcelanato
+Porcelanato
+Porcelanato
+Porcelanato

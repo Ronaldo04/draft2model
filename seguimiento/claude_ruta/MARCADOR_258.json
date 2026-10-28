@@ -1,0 +1,51 @@
+{
+  "tarea": "ruta253_bloque_258_integracion_general",
+  "estado": "entregado_pendiente_revision_codex",
+  "fecha": "2026-10-22",
+  "entregas": {
+    "parcial_10_archivos": "06-85895489a41a416593c2195f65f542dc",
+    "snapshot_completo": "06-05696cd0914e4ff6a988540001e35c67 (restauración code 0: 559 miembros, 96 módulos, 16 pruebas focales; -X utf8)"
+  },
+  "geometria_09d_v3": {
+    "09d": "d0acfe83fd8a450bb5e193b46f9294b0",
+    "09d_t": "561fc15d5d7941f2a64ba926081f662e",
+    "09d_t_aprobada": "25ef94672fac4e53863701b55e32f97d"
+  },
+  "cambios": [
+    "niveles[].tipo piso|auxiliar (contrato, validador, plan): NCF/NTF/NTT ya no son Story; N0 base, N1-N4 pisos",
+    "liquidos.contenido en contrato 0.5 con estados lleno/vacio/desconocido/ausente_confirmado y masa_contenido.auditar dentro del validador general; plan.contenido_masa ligado por huella_liquidos",
+    "informe: sección contenido_masa derivada del plan del MODELO ANALIZADO (fuente raiz/caso + evidencia), masa_nativa_verificada=False obligatorio (Codex 261)",
+    "fix Codex 260: tipos inválidos en liquidos.contenido -> error controlado",
+    "runner 256 fusionado: --configuracion aplicado, alcance 09D, configuracion_fuente en registros nuevos, LOSAS ESC-15",
+    "revision_controles_09.py: sidecar de controles con revisor/alcance reales (revisión propia de software de Claude)"
+  ],
+  "observado": {
+    "analisis_09t4": "RECHAZADO por la guarda del runner 256: el registro antiguo no tiene sha256_plantilla_esperada/anterior; el registro conserva analisis_error. No se eludió ni se editó el registro.",
+    "malla_09d_v3": "311,1 s, 104 nodos derivados, 5231 triángulos, 0 colgantes locales (tmp/ruta201/malla_real_09dt.json); validación de contrato en curso"
+  },
+  "hashes": {
+    "seguimiento/claude_ruta/recorrido_etabs_09t.py": "9df53c81276463aed91a6817adbf4256022e3053d8899e35f2d3a2b3a85131bc",
+    "seguimiento/claude_ruta/validacion_etapas_255.py": "853bea2c9b7a45fa8f3fc56e6b93b295f3a3be4919cd702a4dfb0d79547fd644",
+    "seguimiento/claude_ruta/test_recorrido_09t_256.py": "b951c8d1d56c81d1e8defb2465e702b5cc6f3aad267716a19caac8fb29b63633",
+    "seguimiento/claude_ruta/fixtures_recorrido_256/congelado.json": "a5f6e8376b816f975cafaa62b320e5dfac07af51cd8a6a4bb679a63dfd71622d",
+    "seguimiento/claude_ruta/fixtures_recorrido_256/original/recorrido_etabs_09t.py": "79e1cb11e24ef1c854641fb882c8093c6daae28635f5b8c325ad3abc15e66275",
+    "seguimiento/claude_ruta/revision_controles_09.py": "2242799725672f883cd7674267a911c45e660b0f65baf30421f556620eda8997",
+    "seguimiento/claude_ruta/geometria_09d.py": "2bb4dabf95e8afeb4e64963601d834d77c582b8fb23331b630edc0bd4840c3c1",
+    "seguimiento/claude_ruta/configuracion_09d.py": "e0c584f864f9542a2fe26007f0282224755e21c1eb78608e6b5602349a7e1870",
+    "seguimiento/claude_ruta/VERSIONES_09.json": "3fd8581e62fd3057848ced88b1666ead02cc901be4dbb24bba0d115f43bf119f",
+    "tmp/recorrido_09t4/revision_controles_09t4.json": "3c30d63abd250805c73ac1403d3b8813ed143e3a246433b34eb7ad17bb425ca7",
+    "tmp/recorrido_09t4/registro.json": "c4e4df2eeef2fe40147111c33186d3002f91f77a279785191516a160b9fbb1be",
+    "entregas/06-85895489a41a416593c2195f65f542dc/manifiesto.json": "e4fd7ce85e6ea60bc367b12ad0f8cfb6bc31a3f12b3c3e7a410c582f035dcafb",
+    "entregas/06-05696cd0914e4ff6a988540001e35c67/manifiesto.json": "9293d18a82c6b1b222a678b1286dfbdd0c83df26c22f0d35b7e5f35525926b28",
+    "tmp/ruta201/restauracion_06_258b.log": "de74e22d503c9bcf7385c7904cfc4af019302b42175e077fa2631c81ae8234e7",
+    "tmp/ruta201/focos258.log": "f07acb92e0802c5cf0282acc215ff51b4140f1ddc6092a6610760ac7b4b43482"
+  },
+  "no_declara": [
+    "cierre del encargo 09",
+    "aprobación de ingeniería",
+    "masa ensamblada nativa del agua",
+    "suelo real",
+    "análisis de 09D"
+  ],
+  "apis_ejecutadas_por_claude": 0
+}

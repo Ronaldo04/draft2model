@@ -1,0 +1,11 @@
+{
+  "estado": "monitor_con_cola_verificado",
+  "cambio": "Conserva entregas anteriores no revisadas aunque ultima_entrega avance; acepta dos carpetas seguras. No toca código de producto ni procesos Claude.",
+  "pruebas": "3 OK 0.226s: tres etapas entre sondeos, anterior alterada no oculta por última revisada, ruta fuera de proyecto rechazada.",
+  "fuentes": {
+    "seguimiento\\estado_claude.py": "14102b7092b5eb5d60d73b2ce4f868ab0f94fa1a22f768222cdf1c6b1faadd17",
+    "seguimiento\\test_estado_claude_ruta.py": "02b2566c252a1a0c03b477d205b870e1de71c9456f22f8a1df6c2f20d7f1c84f"
+  },
+  "estado_observado": "sin_marcador etapa02; es declaración local, no comprobación de proceso vivo",
+  "otra_evidencia": "seguimiento/REVISION_PAQUETE_REFERENCIA_205.json"
+}

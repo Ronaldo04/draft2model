@@ -1,0 +1,156 @@
+{
+  "hallazgo": "distribucion_de_masa_ensamblada_no_fisica",
+  "fecha": "2026-10-22",
+  "fuente": {
+    "lectura": "9b1080d1f35d4007aef5fd92f527cea0",
+    "sha256_respuesta": "730f46c4a14168fa3eaa3bd159ab559759f1b72741e0dbf311d8692309596e8c"
+  },
+  "total_U1": 548.7267285730835,
+  "por_cota_U1": {
+    "-2.5": 3.5916,
+    "-2.4": 0.569,
+    "-0.18": 2.0274,
+    "-0.105": 5.2869,
+    "-0.05": 0.1609,
+    "0.0": 2.9303,
+    "2.35": 0.1681,
+    "2.6": 29.05,
+    "3.25": 0.3702,
+    "4.55": 0.2996,
+    "5.2": 7.3101,
+    "5.85": 1.2924,
+    "7.15": 0.5885,
+    "7.8": 4.3739,
+    "8.45": 0.0909,
+    "9.75": 0.6815,
+    "10.4": 487.8536,
+    "12.5": 0.0,
+    "12.6": 0.0,
+    "13.7": 2.082,
+    "14.25": 0.0
+  },
+  "nudos_mayores": [
+    {
+      "nudo": "N4-V0014",
+      "xyz": [
+        "0.075",
+        "6.467",
+        "10.4"
+      ],
+      "U1": 127.24783449670926
+    },
+    {
+      "nudo": "N4-V0015",
+      "xyz": [
+        "0.075",
+        "6.918",
+        "10.4"
+      ],
+      "U1": 124.49936210375704
+    },
+    {
+      "nudo": "N4-V0017",
+      "xyz": [
+        "0.075",
+        "7.372",
+        "10.4"
+      ],
+      "U1": 122.1694574485603
+    },
+    {
+      "nudo": "N4-V0016",
+      "xyz": [
+        "0.075",
+        "7.15",
+        "10.4"
+      ],
+      "U1": 107.61370213251683
+    },
+    {
+      "nudo": "N1-V0506",
+      "xyz": [
+        "14.938",
+        "7.372",
+        "2.6"
+      ],
+      "U1": 13.415166868629461
+    },
+    {
+      "nudo": "N1-V0509",
+      "xyz": [
+        "14.938",
+        "9.943",
+        "2.6"
+      ],
+      "U1": 11.284825245876544
+    }
+  ],
+  "bloques": {
+    "tanque": {
+      "peso_propio_kn": 112.63728000000005,
+      "cargas_kn": {},
+      "agua_kn": 39.39210000000001,
+      "masa_libro": 15.502682363498245,
+      "masa_nativa_nudos_z>=12.5": 2.081966209656,
+      "mitad_apoyos_masa": 0.0,
+      "masa_libro_con_apoyos": 15.502682363498245
+    },
+    "cisterna": {
+      "peso_propio_kn": 139.17745919999996,
+      "cargas_kn": {},
+      "agua_kn": 95.55872340000003,
+      "masa_libro": 23.936429116976747,
+      "masa_nativa_nudos_z<0": 11.635808653522837
+    },
+    "nota": "El tanque recibe además la mitad superior de sus 4 apoyos (frames NACE) en los nudos z=12,5; la cisterna no tiene frames.",
+    "apoyos_considerados": []
+  },
+  "lectura": "Masas por piso nativas físicas (N1 129,4; N2 127,3; N3 109,9; N4 122,2; Base 60,0); los 4 nudos 'concentrados' son masas de diafragma informadas en un nudo por diafragma. Total ETABS 548,73 vs libro 549,43 kN·s²/m (−0,127 %, fuera de 1e-3: NO coherente). Causa principal localizada en Material List by Section Property: las vigas VS-15X30 pesan 24,256 kN en ETABS frente a 31,117 kN del libro (ETABS excluye los tramos extremos dentro de muros/columnas; el libro cuenta longitud total). Explica 6,861 de 6,868 kN del caso CM; 0,007 kN sin asignar.",
+  "consecuencia": "Los periodos, derivas y cortantes no quedan invalidados por la distribución; el centroide observable de masa_ensamblada no es físico con diafragmas rígidos. La masa nativa sigue sin acreditarse por la diferencia de −0,127 % frente al libro.",
+  "siguiente": "Controles en curso (participación modal y contraste gravitatorio FZ vs libro); lectura de tablas sin campo de caso (Mass Summary by Story / Centers Of Mass) en el lector general para separar masa de piso de reparto por nudo.",
+  "resolucion": {
+    "fecha": "2026-10-22",
+    "lectura": "1e57078658d945108a5db58def5aaebd",
+    "sha256_diagnostico": "a6b847e51b6aed24e691e8c081a30400f8ebd136aa05bbae7cd8eabe1936f6cf",
+    "masa_por_piso_UX": {
+      "N4": 122.2012,
+      "N3": 109.9045,
+      "N2": 127.2674,
+      "N1": 129.3644,
+      "Base": 59.9893
+    },
+    "suma": 548.7268,
+    "centros_de_masa": [
+      {
+        "Story": "N1",
+        "Diaphragm": "DIAF-N1",
+        "MassX": "127.2478",
+        "XCM": "7.5494",
+        "YCM": "5.0293"
+      },
+      {
+        "Story": "N2",
+        "Diaphragm": "DIAF-N2",
+        "MassX": "124.4994",
+        "XCM": "7.3898",
+        "YCM": "5.0249"
+      },
+      {
+        "Story": "N3",
+        "Diaphragm": "DIAF-N3",
+        "MassX": "107.6137",
+        "XCM": "6.5933",
+        "YCM": "5.177"
+      },
+      {
+        "Story": "N4",
+        "Diaphragm": "DIAF-N4",
+        "MassX": "122.1695",
+        "XCM": "8.8639",
+        "YCM": "4.7626"
+      }
+    ],
+    "explicacion": "Las masas por piso nativas son físicas (N1 129,36; N2 127,27; N3 109,90; N4 122,20; Base 59,99; suma 548,73 = total ensamblado). Las masas de diafragma (127,2478/124,4994/107,6137/122,1695) coinciden EXACTAMENTE con los 4 nudos 'concentrados': AssembledJointMass informa la masa lateral de cada diafragma rígido en un único nudo, cuyas coordenadas no son su centro de masa (XCM≈6,6–8,9; YCM≈4,8–5,2). La concentración era un artefacto del informe por nudo, no un error del modelo."
+  },
+  "causa_desfase": "seguimiento/claude_ruta/HALLAZGO_DESFASE_CM_09D1.json"
+}

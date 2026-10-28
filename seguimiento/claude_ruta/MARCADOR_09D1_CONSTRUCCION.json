@@ -1,0 +1,40 @@
+{
+  "tarea": "recorrido_09d1_construccion",
+  "estado": "construccion_ok_relectura_en_curso",
+  "fecha": "2026-10-22",
+  "configuracion": {
+    "importada": "d1e1380a7a79410eb865142485c9612c",
+    "revisada": "e1756ed0f3f3486780fd1656d9d606c2",
+    "aprobada": "96ecb95b6e864f6a910dbfc86f971523"
+  },
+  "plan": {
+    "huella": "58045e323a8d866a455ed480271503870e34ef3e1b4b0bdbd0b7850984f6b23d",
+    "operaciones": 36550,
+    "niveles_auxiliares": [
+      "NCF",
+      "NTF",
+      "NTT"
+    ],
+    "contenido": "TANQUE lleno, CISTERNA lleno, 134,951 kN"
+  },
+  "construccion": {
+    "pid_propio": 42368,
+    "modelo": "0f37271307b6449c89c458c60a1640c7",
+    "sha256_edb": "b2a9c40bbda8bc2e39501c190391590676d79189e3f6148afbab256b1504e680",
+    "cierre_confirmado": true
+  },
+  "instancias_ajenas_intactas": [
+    6988,
+    23928,
+    38168
+  ],
+  "hashes": {
+    "tmp/recorrido_09d1/plan.json": "82412a96db0f57b9ebca10a6683cd1a46dff7a1e9172937928b56f21db0fc30b",
+    "tmp/recorrido_09d1/configuracion.json": "f3b737978b419acf331e8b85b2ea7d69c76827a22b7468d306051a950ca652fb",
+    "tmp/recorrido_09d1/modelo.edb": "b2a9c40bbda8bc2e39501c190391590676d79189e3f6148afbab256b1504e680",
+    "tmp/recorrido_09d1/registro.json": "81b0c0c74c8e5ad45b47b66e41f1212e7ad9e2a059bf161db888e7bd5b8fd37a",
+    "tmp/ruta201/recorrido09d1_construccion.log": "33f4bf55f19418abb346a617fcfc449358d8d06cf805447e7bb21038c5da5770",
+    "tmp/ruta201/configuracion09dt.json": "aba6827c8ab32b494809b96f0f6e55ba3c8ab22eeb32ffe6abdcd5aa1738b52e"
+  },
+  "apis_ejecutadas_por_claude": 0
+}

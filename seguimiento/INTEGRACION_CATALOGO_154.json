@@ -1,0 +1,50 @@
+{
+  "fecha_utc": "2026-10-19T12:52:05.498068+00:00",
+  "estado": "avance_local",
+  "cambios": [
+    "Capacidad detalle_auto del registro expuesta en HTML y aplicada en cliente sin condicion por marca",
+    "CLI generica comprobada con todos los protocolos registrados sin claves ni red",
+    "Transporte compatible comprobado con dobles: solo body y cabecera, destino cambiado bloqueado antes de enviar, HTTP429 y URLError sin secreto ni reintentos",
+    "Guia de protocolos y accesos actualizada con limites y evidencias locales"
+  ],
+  "archivos": {
+    "draft2model/proveedor_openai.py": "40470437bd6ddee249974fbcfd87fa54c2fbf62bb3f5bef6fc308734f5906eee",
+    "draft2model/revision_visual.py": "ec096d34985068bf0f3b16890998fcb6a5148588dfb0a921925b2a2608ec38b9",
+    "draft2model/revision_web/proveedor.js": "db069b5e1f451e5dcbc2934782be57a5891d60d956f95127493230dec1b7dcd1",
+    "tests/revision_proveedor_frontend.cjs": "0958bb9d8ccea1f32d022bc4ddc1cb7ad5bfe2375f16f971b93a74df278319ba",
+    "tests/test_revision_proveedor_http.py": "042f27cb2d0e6017f152e74de48f2c891c25ff7f8de37a385edaf1820b7165fd",
+    "tests/test_proveedores_intercambiables.py": "2a0f661a7a0e76d14f07af634afe50027cd8deb677497ac53ed2afcee6e6435b",
+    "tests/test_cli_vision.py": "57d2e067b60faa0868195998fcfb9c271b0df7b6845aa03f7d53a5646a9f3479",
+    "docs/ACCESOS_Y_PROVEEDORES.md": "cc6205c654be5dd7b7ef7cd412e22857c83abd84c5f623e3fc9554cffeedc4d1",
+    "docs/PROVEEDORES_IA.md": "60b466e2ed9a0af42fd229d9c47a8b408769cd79154dff00da7fc3443eead5c7"
+  },
+  "pruebas": [
+    {
+      "log": "tmp/catalogo_154_python.log",
+      "resultado": "1OK"
+    },
+    {
+      "log": "tmp/catalogo_154_node.log",
+      "resultado": "16/16OK"
+    },
+    {
+      "log": "tmp/compatible_154_python.log",
+      "resultado": "4OK"
+    },
+    {
+      "log": "tmp/cli_catalogo_154.log",
+      "resultado": "1OK"
+    }
+  ],
+  "enlaces_locales_comprobados": 3,
+  "api_real": false,
+  "etabs_real": false,
+  "copia_global_vigente_para_cambios": false,
+  "pendientes": [
+    "Claude: adaptador Anthropic; marcador pendiente",
+    "Revision de representacion estructural de los planos",
+    "Integracion y copia limpia final",
+    "Ensayo real con credencial/modelo y configuracion tecnica revisada"
+  ],
+  "goal_completo": false
+}

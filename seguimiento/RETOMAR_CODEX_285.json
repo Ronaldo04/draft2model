@@ -1,0 +1,65 @@
+{
+  "fecha_utc": "2026-10-23T16:15:21.304790+00:00",
+  "goal_completo": false,
+  "clasificacion": "checkpoint_de_continuidad",
+  "cuota_observada": {
+    "ventana_300min_restante_porcentaje": 25,
+    "semanal_restante_porcentaje": 41,
+    "compartida_entre_chats": true,
+    "reset_manual_usado": false
+  },
+  "politica_cuota": {
+    "restante_hasta_5": "No iniciar nuevas pruebas largas ni trabajos costosos; guardar estado y cerrar operaciones propias de forma segura.",
+    "restante_hasta_1": "Guardar novedades y terminar sin nuevos encargos, GUI o pruebas. No declarar goal completo, pausado o bloqueado por cuota.",
+    "precision": "No es posible garantizar un corte exacto antes del ultimo token; revisar cuota antes de operaciones costosas y entre hitos."
+  },
+  "claude": {
+    "encargo": "seguimiento/CONTINUACION_CLAUDE_285_CIERRE_DESDE_ARTEFACTO.md",
+    "envio": "Confirmado visualmente en historial y compositor vacio en la coordinacion anterior.",
+    "objetivo": "Continuacion aislada desde control publicado para reglas/informe/panel sin duplicar ETABS ni pisar registro09d1.",
+    "marcador_ahora": "sin_marcador, etapa04 trabajando; no demuestra inactividad ni finalizacion.",
+    "proceso_historico": {
+      "pid": 39028,
+      "creacion": "2026-10-22T21:24:50.286587-05:00",
+      "comando": "seguimiento/claude_ruta/resultados_09.py --trabajo tmp/recorrido_09d1 --etapa controles",
+      "estado": "Ultima observacion anterior vivo; NO comprobado en este checkpoint. Verificar identidad por CIM host antes de actuar; no detener ni relanzar por espera."
+    }
+  },
+  "evidencias_aceptadas": [
+    "seguimiento/REVISION_INTEGRACION_285.json:13 focales OK, orden de cache corregido; candidato integrado identico al verificado284.",
+    "seguimiento/REVISION_CONTROLES_REALES_285.json:control f4d1eb0004804d499d369587ff44c85e, hashes y nucleo recalculados; no equivale a aprobacion normativa o de ingenieria.",
+    "seguimiento/REVISION_RESUMEN_284.json:resumen puro2502superficies,5referencias de piso incluida base,3auxiliares; QA nueva pendiente."
+  ],
+  "qa_activa": {
+    "sesion_exec": 6981,
+    "url": "http://127.0.0.1:18285/",
+    "runtime": "tmp/runtime_qa_285",
+    "archivos": 588,
+    "huella": "ca1f84347986b38311306edf58771fd44f3d44c71182faed732c964834bad2f3",
+    "raiz": "data/private",
+    "estado": "Servidor observado vivo en este checkpoint. Navegador por recuperar; no duplicar servidor.",
+    "comando_desde_runtime": "../../.venv/Scripts/python.exe -B -m draft2model.revision_visual --raiz ../../data/private --puerto 18285 --sin-navegador",
+    "browser": "CUA kernel reiniciado; inventario anterior truncado. Reescribir documentacion y listar tabs con emit:false; no asumir tab ni binding.",
+    "limites": "Abrir artefactos existentes. No ejecutar modelado, analisis o proveedores, ni crear informes duplicados."
+  },
+  "qa_historica": {
+    "sesion17813": "CERRADA intencionalmente; no reiniciar.",
+    "informe": "dccadc6138fb412bab4122eded6df107",
+    "ruta": "tmp/anexo_reubicado_268/pueblo-libre-002/informes/dccadc6138fb412bab4122eded6df107",
+    "estado": "Conservado, no final, resumen semantico defectuoso283; descargasUI no confirmadas. No editar evidencia historica."
+  },
+  "siguiente": [
+    "Consultar cuota y ejecutar solo estado_claude.py; revisar marcador nuevo si existe.",
+    "Recuperar QA18285 y abrir resultados/controles/informe/panel existentes del primer caso; si hay solicitud pendiente, observar antes de reenviar.",
+    "Revisar continuacion285 de Claude y nueva evidencia real de reglas/informe/panel; comprobar cambios con pruebas focales.",
+    "Al estabilizar fuentes, terminar paquete reproducible y validacion final; no reutilizar paquetes candidatos como entrega final."
+  ],
+  "restricciones": [
+    "Claude producto/tests/runner; Codex seguimiento/QA. Comprobar cambios antes de editar.",
+    "Proyectos2/3 solo inventariados, no procesarlos hasta validar primero.",
+    "APIs OpenAI4/5 y Gemini2/5 consumidas; solo planos, no llamadas adicionales por reanudacion.",
+    "Contraste oficial de masa sigue no_coherente; escenarios suelo/sistema son hipotesis; no ajustar tolerancias para aprobar.",
+    "No tocar instancias ETABS ajenas, ni reiniciar procesos por reinicio de cuota."
+  ],
+  "reanudacion": "Leer este JSON y primera seccion docs/RETOMAR.md; no releer historial ni repetir pruebas ya aceptadas salvo cambios relevantes."
+}

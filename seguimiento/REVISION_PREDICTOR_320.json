@@ -1,0 +1,23 @@
+{
+  "tarea": "predictor_319",
+  "hashes_verificados": 11,
+  "pruebas_repetidas": 19,
+  "cuatro_reproducciones": "317produce totales;319los bloquea. Comparación ejecutada porCodex con resultado0.",
+  "plan_real": "validar_plan_por_version:sin errores; predicción regenerada porCodex con cfg318nativaverificada",
+  "prediccion": "seguimiento/PREDICCION_AUTO_320.json",
+  "contraste": "seguimiento/CONTRASTE_AUTO_320.json",
+  "cobertura": {
+    "vigas": 45,
+    "extremos": 90,
+    "acuerdos": 90,
+    "abstenciones": 0
+  },
+  "descuento_kn": 6.8612400000000004,
+  "error_max_m": 4.579669976578771e-16,
+  "decision": "Aceptado como candidato acotado para preparar integración; no aceptación de producción ni masa oficial",
+  "pendiente": "Puerta de plan real válido, escrituras/referencias no cubiertas, CLI y consumo junto al libro. Encargo321.",
+  "ensayo_ciego": false,
+  "aprueba_ingenieria": false,
+  "producto312": "intacto",
+  "goal_completo": false
+}

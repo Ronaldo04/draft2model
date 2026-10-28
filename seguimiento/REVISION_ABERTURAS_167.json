@@ -1,0 +1,18 @@
+{
+  "estado": "geometria_aberturas_incremento_revisado",
+  "hashes": {
+    "draft2model/contratos.py": true,
+    "draft2model/geometria_aberturas.py": true,
+    "draft2model/validacion_geometria.py": true,
+    "draft2model/gestion_geometria.py": true,
+    "draft2model/plan_modelado.py": true,
+    "tests/test_geometria_aberturas.py": true,
+    "docs/GEOMETRIA_ABERTURAS.md": true
+  },
+  "pruebas": "10OK0.244s tmp/revision_aberturas_167.log",
+  "limites": [
+    "geometria/propuesta .3 sin configuracion/ejecucion ETABS .3",
+    "ingreso y superposicion .3 asignados al agente",
+    "sin planos reales ni API/ETABS"
+  ]
+}

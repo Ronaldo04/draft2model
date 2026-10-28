@@ -1,0 +1,82 @@
+{
+  "tarea": "cierre_desarrollo",
+  "estado": "entregado",
+  "archivos": {
+    "draft2model/controles_analisis.py": "522975ea9c6aa7311bfe5298d6f9a99dc13f5fe99faa556eb5e456e5d3b2e4c5",
+    "draft2model/revision_controles.py": "94eedd58316743d3418814feb1807613f783bf53ddaeaed40bd31f605316f9b0",
+    "draft2model/revision_visual.py": "67e55f9189e6ff6479b99bd49ecf22e187e93e4c92a17592a606c9a1b8a25839",
+    "draft2model/informe.py": "18f4cc199d647d3d357112c0a17826fa4d4c7b3778ba52d2ea160e951566b956",
+    "draft2model/revision_entregables.py": "76ea70a6c683106ad36f678fb47a0b4230f83d2cae87f32e0b9ff3ff4f110ccf",
+    "draft2model/revision_explicaciones.py": "17d08d66641fdee68173868432a80cb2ef5d152b82dd7b2e9a633c02dae1bae7",
+    "draft2model/revision_superposicion.py": "87b19d305388fcafe929735c7b54379b3d6da136645976ca00e1793db9587072",
+    "draft2model/revision_web/index.html": "662bfd9d02c4cddbf3f4d7fbebb3956d1691c6b0832efd003ae200abc5b96ad5",
+    "draft2model/revision_web/app.js": "40f1f5da9fb2f85bfc68c267dae919401041d650dcf2d4880d3f8a9044d8de09",
+    "draft2model/revision_web/controles.js": "1a4eb06fd47cabbb234bde12c542f77acc6086806e9930b479e89d627297447f",
+    "draft2model/revision_web/informes.js": "d5551f97dd7e23eb4aeb869e5e5e5663250bea386e61dfc658913444668940c2",
+    "draft2model/revision_web/contexto.js": "8138d03c4717cd5a5eae31c794396f57c91cfd0e394b40d802afdf1a866b741a",
+    "tests/test_controles_analisis.py": "34cb8eb536204040172263b16427d359d343c47eea7a60ecff37559d31cf32c8",
+    "tests/test_revision_controles.py": "2512768da4a6dadd203bd425880e31f1ac0c98f01e76010652e31506c4218a54",
+    "tests/test_informe_controles.py": "e28ea19be64bbb8a846109d974254edde4e9be500002b8d7f11ca0869d9aa56f",
+    "tests/test_informe_explicacion.py": "a91a6fe95d09fde3a7dc22039c8346232656b4f3a2ba45f5ff9629d3f46dd932",
+    "tests/revision_controles_frontend.cjs": "66bd742397794ae61024d101d473acd41ff41eb8c2c8979658f3f5c5c320ff9c",
+    "tests/revision_informe_controles_frontend.cjs": "9db3ad751acd35bde24bced5936cd9a472f216e1844aeccef8d1b25910453281",
+    "tests/revision_explicaciones_frontend.cjs": "546048eeb5feba41056cd9a1b0b1431ee6aa0be264bd52839384c59a78a79072",
+    "tests/test_revision_superposicion.py": "e18e2972acbc739607265fb9bf1bda932f743a8b0599a94d8e197ab387955833",
+    "tests/test_informe_revision_resultados.py": "1ce19ebfcd548b0f1abb39a303269e493c9a210570eb91f80b26bfadf0f2bcf1",
+    "docs/CONTROLES_ANALISIS.md": "a9338a8fc09e1903126299941238ee7a2defbcaccb31f5e0a696d465faffca04",
+    "docs/CIERRE_DESARROLLO.md": "d00aab1d124daa597c2d2a7ec72c17cfc84a52c32c9b6f2bbe76424d2cdf5e9f",
+    "docs/GUIA_REPRODUCIBLE.md": "fd0d44ffc83e2c1e24582fa3f3e21aec0caf077580bc36fc0b422a02b5707499",
+    "docs/PENDIENTES_FUNCIONALES_CIERRE.md": "233efcea1e3a01628f314d02de6855814eaa3d75731e8ea52f162d97fe9d0aac",
+    "docs/MATRIZ_CIERRE_VIGENTE.md": "fa4081bad387a0b41aba0856c801737aaa388c36d3d2d9ea9b8818b04892d7fa",
+    "docs/REVISION_SUPERPOSICION.md": "f3d2c32c13ea88a294548ac5886adfb188e7edaeb2a6fd667fbcb76f37cb16ef"
+  },
+  "fases": {
+    "fase1_controles_postsolver": "completada: nucleo corregido (declaracion externa sola no proyecta controlado), servicio persistente revalidado, HTTP, UI, opt-in informe JSON/HTML/PDF con aprobacion hija y descarga revalidadas, guia CONTROLES_ANALISIS.md",
+    "fase2_integracion": "completada: sitio limite=franja incierta en informe/explicaciones/UI contexto; correccion Codex 137 integrada con SHA identicos a su ficha; revalidacion final analoga en superposicion; prueba Node obsoleta actualizada",
+    "fase3_validacion": "dos pasadas globales; la 138 da suite 850 OK y Node 26/26 sin omisiones, pero validacion_local_completa=false por archivos nuevos de otro actor en seguimiento/ durante la ejecucion; no se presenta como verde",
+    "fase4_documentacion": "completada: CIERRE_DESARROLLO.md, GUIA_REPRODUCIBLE, PENDIENTES, MATRIZ, contraste con REFERENCIA_LEGIBILIDAD_134 sin datos del cajetin"
+  },
+  "pruebas": [
+    {
+      "comando": "tmp/instalacion_129/v/Scripts/python.exe scripts/verificar_proyecto.py --salida tmp/verificacion_cierre_claude_133.json --temporales tmp/vc133 --node C:/Users/HP/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "resultado": "codigo 1: suite 848 con 1 fallo (ligadura PDF intermitente en test_informe_revision_resultados), interfaz 26/26, PowerShell -File/pip/CLI OK; inestable por cambios de otro actor en seguimiento/CORRECCION_REVALIDACION_137.json, CLAUDE_ESTADO.json, HALLAZGO_REVALIDACION_136.json",
+      "log": "tmp/verificacion/64d1e4e281cf49229ee9d86d44676953/"
+    },
+    {
+      "comando": "tmp/instalacion_129/v/Scripts/python.exe scripts/verificar_proyecto.py --salida tmp/verificacion_cierre_claude_138.json --temporales tmp/vc138 --node C:/Users/HP/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "resultado": "codigo 1 solo por inestabilidad: suite 850 OK 518.655s sin omisiones; interfaz TAP 26 pass/0 fail/0 skip/0 todo; PowerShell -File/pip/CLI OK. Archivos nuevos de otro actor durante la ejecucion: seguimiento/PREPARACION_INFORME_CONTROLES_144.json, PREPARACION_QA_CONTROLES_142.json, QA_CONTROLES_143.json, QA_INFORME_CONTROLES_145.json. Ningun archivo de draft2model/tests/scripts/examples cambio.",
+      "log": "tmp/verificacion/7da7ba1542da431c9385ddceffcfb3eb/"
+    },
+    {
+      "comando": "TEMP=TMP=tmp python -m unittest tests.test_revision_controles tests.test_revision_superposicion tests.test_informe_revision_resultados",
+      "resultado": "20 OK 73.914s, incluye regresion 137 y geometria cambiada durante render",
+      "log": "tmp/focal_cierre_137.log"
+    },
+    {
+      "comando": "focales fase 1/2: test_controles_analisis, test_revision_controles, test_informe_controles, test_informe_explicacion, informe/entregables/aprobacion/contexto/sitio; node tests/*frontend.cjs",
+      "resultado": "OK; Node controles 3/3, informe-controles 3/3; todos los frontends OK"
+    }
+  ],
+  "omisiones": [],
+  "correcciones_registradas": [
+    "CORRECCION_REVALIDACION_137 integrada: draft2model/revision_controles.py sha 94eedd58... y tests/test_revision_controles.py sha 2512768d... iguales a la ficha Codex",
+    "Revalidacion final de geometria en revision_superposicion.consultar con regresion test_geometria_cambia_durante_render_no_es_vigente",
+    "tests/test_informe_revision_resultados.py: NFKC ante ligadura U+FB00 en IDs aleatorios (fallo intermitente previo, no causado por este encargo)",
+    "tests/revision_explicaciones_frontend.cjs: expectativa obsoleta pendiente del contrato final sustituida por comprobacion del opt-in vigente del informe"
+  ],
+  "pendientes_externos": [
+    "Copia limpia completa en host autorizado (scripts/verificar_copia_limpia.py --node) con seguimiento/ estable durante la ejecucion",
+    "Revision visual en navegador de superposicion, controles e informe con controles; aqui solo DOM simulado",
+    "Ensayo real segun PLAN_ENSAYO_REFERENCIA: credencial/modelo locales, extraccion visual y decisiones fisicas revisadas",
+    "ETABS real sobre configuracion revisada: tablas modales/reacciones/cargas reales; el lector no extrae el log del solver (fuente declarada o sin_datos)",
+    "Criterios revisados de controles/reglas/corpus/capa de sitio del caso; sin tolerancias por defecto",
+    "Losas aligeradas/aberturas/escalera/cisterna/tanque sin representacion en el contrato: decidir con la referencia revisada",
+    "Comparacion manual ETABS aplazada por el usuario y medicion de costo/tiempo"
+  ],
+  "limites": [
+    "test_informe_controles sustituye ServicioControles.consultar porque la fixture de resultados usa un analisis en modo real que no admite lectura doble; la cadena real lectura->controles se cubre con transporte doble en test_revision_controles",
+    "La ligadura del PDF puede alterar IDs copiados desde el PDF; JSON/HTML conservan el ID exacto",
+    "No se declara goal ni piloto completo por fixtures; sin red, API, ETABS real, Computer Use ni instalaciones"
+  ],
+  "conflictos": []
+}

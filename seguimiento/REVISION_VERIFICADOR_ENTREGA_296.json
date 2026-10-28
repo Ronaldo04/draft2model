@@ -1,0 +1,13 @@
+{
+  "pruebas_focales": "7/7 OK",
+  "ensayo_archivos_reales_historicos": {
+    "estado": "integridad_verificada_no_aceptacion_funcional",
+    "huella_fuentes": "6edc3b423f62984b309aa348ab0343becb48d22fb27f20ba35db831b15cb31da",
+    "caso": "pueblo-libre-002",
+    "archivos_fuentes": 577,
+    "archivos_complemento": 34,
+    "aprueba_ingenieria": false
+  },
+  "nota": "Integridad solamente: fuentes267 e informe09d2 son históricos. No acredita combinación funcional final.",
+  "goal_completo": false
+}

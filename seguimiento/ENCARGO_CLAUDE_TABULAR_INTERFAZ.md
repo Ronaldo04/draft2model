@@ -1,0 +1,13 @@
+# Integración HTTP e interfaz de contingencia tabular
+
+Codex revisó ServicioTabular y ejecutó sus6pruebas: OK1.659s, tmp/tabular_codex_125.log. Confirma misma carpeta PROYECTO FINAL. Implementa ahora su integración completa con la revisión local existente.
+
+Propiedad exclusiva: draft2model/revision_visual.py; draft2model/revision_web/index.html y app.js (solo montaje/panel tabular); nuevo draft2model/revision_web/tabular.js; nuevos tests/test_revision_tabular_http.py y tests/web_tabular.test.js (ajusta nombres a convención real); docs/REVISION_TABULAR_INTERFAZ.md; seguimiento/ENTREGA_CLAUDE_TABULAR_INTERFAZ.json. No editar servicio tabular, informe.py ni revisión de resultados, ni catálogos de seguimiento. Puedes leer todo. Conserva cambios existentes; no reformatear archivos completos.
+
+Objetivo: usuario selecciona expediente, adjunta metadatos JSON y tres CSV exactos o un XLSX, registra versión, ve historial/detalle y geometría propuesta, y mediante acción SEPARADA confirmada importa BORRADOR al historial geométrico. Reutiliza ServicioTabular sin duplicar validación. Rutas POST /api/tabular/crear e importar; GET /api/tabular/historial y version. Sigue sesión local, rechazo de origen, sanitización, cabeceras y manejo de errores existentes. Solo crear permite24MiB JSON; otras rutas conservan límite2MiB. Ninguna ruta privada/bytes de fuente expuestos.
+
+Interfaz coherente con conversion.js/preparacion.js y eventos vigentes: estado ligado a caso+huella; descartar respuestas antiguas al cambiar caso, no heredar confirmaciones. Validación útil antes de leer archivos grandes; no inferir metadatos/unidades. Mostrar contingencia tabular supervisada, sin visión/ETABS ni aprobación automática. Crear no importa; importar requiere versión+huella exacta y confirmacion_explicita. Replay usa recibo del servicio y refresca historial geométrico mediante evento d2m-geometry-created con contrato existente. No generar aprobación. Errores accesibles y texto mediante textContent, no HTML de archivos.
+
+Pruebas focales HTTP y Node: flujo CSV y XLSX o backend representativo, sesión/caso/huella/confirmación, fuente alterada, cuerpo grande permitido exclusivamente crear, estado obsoleto, importación separada y evento. Usa datos sintéticos; nada de red externa/API/ETABS/instalación/CU ni suite completa. TEMP/TMP=tmp del proyecto. Una pasada focal y reparación necesaria, logs compactos.
+
+Entrega chat≤10líneas. Última escritura marcador tarea=tabular_interfaz, estado=entregado o bloqueado, archivos mapa ruta:sha256 de archivos modificados autorizados, pruebas comando/resultado, limites. El marcador no sustituye revisión de Codex. No consultar ni modificar ventana de otros participantes.

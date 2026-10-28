@@ -1,0 +1,29 @@
+{
+  "snapshot": "tmp/revision_codex_246",
+  "entregas": [
+    {
+      "id": "f6bf94ddfcfa4e82a2c65a00ead643ea",
+      "fuentes": 25,
+      "logs": 6,
+      "integridad": "correcta"
+    },
+    {
+      "id": "1da89b0ce9d042a9a19ad1d7c320a289",
+      "fuentes": 535,
+      "logs": 1,
+      "integridad": "correcta"
+    },
+    {
+      "id": "dd25d50b73964115939212915084f78d",
+      "fuentes": 3,
+      "logs": 3,
+      "integridad": "correcta"
+    },
+    {
+      "id": "26f220ab94c540b1abb7b8263ba44d10",
+      "fuentes": 536,
+      "logs": 1,
+      "integridad": "correcta"
+    }
+  ]
+}

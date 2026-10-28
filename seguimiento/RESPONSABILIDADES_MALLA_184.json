@@ -1,0 +1,34 @@
+{
+  "propietario": "Claude",
+  "archivos_existentes_autorizados": [
+    "draft2model/modelo_estructural.py",
+    "draft2model/operaciones_etabs.py",
+    "draft2model/ejecutor_etabs.py",
+    "draft2model/ejecucion_modelo.py",
+    "draft2model/revision_modelo.py",
+    "draft2model/gestion_configuracion.py",
+    "draft2model/revision_configuracion.py",
+    "draft2model/triangulacion_particiones.py",
+    "scripts/ejecutar_plan_etabs.ps1",
+    "draft2model/cortes_superficies.py"
+  ],
+  "hashes_al_asignar": {
+    "draft2model/modelo_estructural.py": "ec35bec8d377974ef80fe9b9d5d3a0f63849f33344de9fef7f4847af75f4bcb1",
+    "draft2model/operaciones_etabs.py": "aaf0ceb4176d4e5b7bb30923764dba3029205df241c87ac9c313fa935272494b",
+    "draft2model/ejecutor_etabs.py": "40bf36c86daa8b680457cb655f99f00e03654101f9b7abae8ab640cf0364b034",
+    "draft2model/ejecucion_modelo.py": "20d4c8ba7670531ca5cfaf6720b059f2ab87c1123fb66ab58a6c02fde2e9b5ff",
+    "draft2model/revision_modelo.py": "b2b9d63751d205436da8fe6c1f9e8a4b5ed1dd4de52c889accb5230cc2e2e2bd",
+    "draft2model/gestion_configuracion.py": "4c3631915d29ab97f664f6a6b3163da70f0db4b4718091e1a9b6fc4e4dc16d33",
+    "draft2model/revision_configuracion.py": "ffd88fea15f935be3d92c179cee8468a25664f7d0ab18a3059337208e734599f",
+    "draft2model/triangulacion_particiones.py": "e232f144bfd4b3201a7b3617e51825619e0e8f78c8c00b0a437d934cab4432ee",
+    "scripts/ejecutar_plan_etabs.ps1": "ae0b0ef3278afc45cd7c05253336ff3d7a0cdb60c09b20e364591af2d8128bf1",
+    "draft2model/cortes_superficies.py": "39d5b66c30e157ed841c2b9a29303faf724c6d575f212098b05c8cd8399b8184"
+  },
+  "nuevos_autorizados": [
+    "draft2model/malla_*.py",
+    "tests/test_integracion_malla*.py",
+    "docs/INTEGRACION_MALLA_ETABS.md"
+  ],
+  "codex": "Lector/vinculo/analisis/normalizacion/controles/informes/servidor/UI/geometria/particion/compatibilidad/scripts ensayo nativo",
+  "adenda": "seguimiento/NOTA_CORTES_LIBRES_186.md"
+}

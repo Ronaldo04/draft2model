@@ -1,0 +1,10 @@
+{
+  "snapshot": "tmp\\revision_rendimiento_codex_247",
+  "sha256": {
+    "draft2model/malla_preparacion.py": "542d271a4e363af3da7db8eafc93659aeeb04ac32e42c5f43bf769ac33c6714b",
+    "draft2model/particion_superficies.py": "8ce5915a68db664a7a87e9448117f69119201714c4d269e7205402a8f5864193",
+    "draft2model/compatibilidad_particiones.py": "466930a1a3f20c3ce5344a6a211f2b4f5c3ab4fdce97760feb52736ed5561877",
+    "draft2model/triangulacion_particiones.py": "f371a8c2a88627043d3699337af51187fdb8aa43eaac6eaa842b43b95b4a8bb3",
+    "tests/test_malla_rendimiento_246.py": "cd6f594f67afdd958afe6273d56dd825d1120d24ef87f0f0c81267e4ab4acd37"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "estado": "revisado_focal",
+  "archivos": {
+    "draft2model/revision_visual.py": "395ebf3bd95cffa7792bcc5bb997ccb59f28e0163e7f6fb7ba018a8b211be641",
+    "draft2model/revision_web/configuracion.js": "f1c2674acbc8379eab2cd71ac2698109d964a3939e2c7cf4413a97e4d658a43d",
+    "draft2model/revision_web/index.html": "ea699ac4bbd261416558536bbd63bd484296b51d2f4302eb65ffe66d47f67e7f",
+    "tests/test_ui_malla.py": "0b2098663c0629588ea745b9e85b99575e303165010ea467d1cfae81e1cd5b2b",
+    "tests/ui_malla_frontend.cjs": "5e9ff3b68d0284dda2668cbd897d1c5af9ba92e51d69e29b496ef549fd838fea",
+    "docs/CONFIGURACION_MALLA_WEB.md": "c8380b1e521c4401ba17aa5b266971df71cc988feae8dd5180e0993eca25f5c9",
+    "seguimiento/INFORME_CLAUDE_UI_MALLA_189.md": "f86848eb03c3f48c4814353cb50530d608ea8f94a1d89a60f36e7c74475f245b"
+  },
+  "marcador_sha256": "36e7c47e7944dee6b3f70e09ef8dd117f0ea24ea0c50f09c3c6515b8471967a3",
+  "pruebas_python": "5OK0omit10.671s log tmp/revision_ui_195.log",
+  "prueba_node": "tests/ui_malla_frontend.cjs OK",
+  "limites": [
+    "Sin QA visual nuevo",
+    "Sin ensayo de referencia",
+    "Servicio.malla no devuelve huella de configuración; cliente compara identidad/expediente/version y huella vigente local."
+  ],
+  "api_ia": 0
+}

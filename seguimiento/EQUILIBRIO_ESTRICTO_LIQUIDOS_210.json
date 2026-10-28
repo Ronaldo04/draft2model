@@ -1,0 +1,45 @@
+{
+  "estado": "equilibrio_estricto_sintetico_contrastado",
+  "fuente": "tmp/l2/fuentes/private/sintetico-001/lecturas_analisis/9dd921cdf6e445f1b7da962d78e005b0/respuesta.json",
+  "sha256_respuesta": "d53dd71f51522aa22301f63262b374912a21501f7a0d90b0a2e0034baa685d80",
+  "sha256_edb": "39d58663426d42a02145d3edd57bf024933da2dd87bcacb1edbbe6f319ba1946",
+  "reaccion": [
+    -53.799999999999535,
+    0.0,
+    0.0,
+    0.0,
+    -25.593333333332723,
+    135.7249999999993
+  ],
+  "aplicado_analitico_independiente": [
+    53.8,
+    0,
+    0,
+    0,
+    25.593333333333334,
+    -135.725
+  ],
+  "residuo": [
+    4.618527782440651e-13,
+    0.0,
+    0.0,
+    0.0,
+    6.110667527536862e-13,
+    -6.821210263296962e-13
+  ],
+  "umbral_original": [
+    5.379999999999999e-06,
+    1e-07,
+    1e-07,
+    1e-07,
+    2.559333333333333e-06,
+    1.35725e-05
+  ],
+  "max_residuo_absoluto": 6.821210263296962e-13,
+  "limites": [
+    "Solo ensayo sintético l2; no acepta todavía toda etapa02.",
+    "La lectura de tabla redondeada208 conserva su fallo original; no se alteró tolerancia.",
+    "No acredita referencia real, múltiples recipientes ni normativa.",
+    "Sin nueva ejecución ETABS por Codex, sinAPIexterna."
+  ]
+}

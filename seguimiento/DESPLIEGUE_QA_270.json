@@ -1,0 +1,19 @@
+{
+  "fecha_utc": "2026-10-23T04:42:32.110905+00:00",
+  "tipo": "despliegue_QA_solo_JS_sin_reiniciar_backend",
+  "baseline_zip": "tmp\\runtime_repro_269_baseline.zip",
+  "sha256_baseline_zip": "7f2d9fc0c8806a5f82b787540985b21dc6075f3092307637f54f25f7e5ec00bb",
+  "huella_baseline": "8b4edeecf42001287149d86bf3d7a21043a58a8e1f843b402c5bcac8cdc95656",
+  "cambio": {
+    "draft2model/revision_web/resultados.js": "3c0b7f9f1b109e5d246f5bcfef1a4eaafdc0cbbca728328e1c030e343e927634"
+  },
+  "backend_python_sin_cambios": true,
+  "expediente_modificado": false,
+  "servidor_sesion": 13597,
+  "historia": "La evidencia REUBICACION_CASO_269.json corresponde al baseline preservado en ZIP. El directorio runtime es ahora despliegue QA270; no atribuirle íntegramente la huella antigua.",
+  "goal_completo": false,
+  "estado_final": "servidor_QA_detenido_y_baseline_runtime269_restaurado",
+  "motivo": "Recarga y CDP del navegador agotaron plazo; recuperación de pestaña existente y nueva también falló. HTML/JS estáticos respondieron200. No declarar QA visual del cambio como aprobada.",
+  "servidor_sesion_estado": "terminal1_tras_ControlC_y_conexiones_cliente_abortadas10053",
+  "baseline_restaurado_por_todos_los_hashes": true
+}

@@ -1,0 +1,39 @@
+{
+  "estado": "incrementos_197_a_201_revisados",
+  "vinculo_presion": {
+    "modulo": "draft2model/vinculo_presion_malla.py",
+    "tests": "6OK17.553s tmp/vinculo_presion_197_final.log",
+    "aplicado": false,
+    "limite": "Todavía propuesta ligada al plan0.4; rutaClaude02 completa transporte/configuración."
+  },
+  "construccion198": {
+    "operaciones_nativas": 294,
+    "sha256_modelo": "a597406d9dee11d82a30eee10eb7054c3a5f0f75cf79d3a8a319c0779a40b571",
+    "raiz": "tmp/n198/fuentes/private",
+    "modelo_id": "81af6b76b72c4ce5a25db549136b5e98",
+    "consulta_postproceso": "pendiente/vigente; fuentes y registro existen tras terminarPython",
+    "cierre": "ApplicationExit(false)0 comprobado hostPID7468;tmp/cierre_host_198.json",
+    "limitacion": "Cierre automático inicial falló por Get-FileHash ausente; driverahoraSHA.NET, no repetir construcción por rutina."
+  },
+  "relectura199": {
+    "id": "315191e6ed2c426ca095774b129d3c26",
+    "motor_real": true,
+    "instancia_cerrada": true,
+    "edb_intacto": true,
+    "resultado_inicial": "incompleto: solo normalización de malla N_mm_C",
+    "comparacion_posterior": "mismos bytes, fixdimensional; verificado0discrepancias0incompletosmallacompleta, NOsegunda lectura",
+    "archivo": "tmp/r199/315191e6ed2c426ca095774b129d3c26/comparacion_unidades_200.json",
+    "criterios": "Computacionales1e-8relativo/absolutos, no ingeniería",
+    "tests_fix": "7OK2.203s tmp/relectura_unidades_200.log"
+  },
+  "QA_UI": "Se observó panel0.4 con2hosts36triangulos29nodos15derivados1frame1corte y0faltantes. NO captura ni QA integral conservada; no afirmar QA PDF/recorrido completo. Servidor29281 detenido y tabs temporales no se dejan como entrega.",
+  "ruta201": {
+    "enviada": true,
+    "verificacion": "mensaje visible en historial y compositor vacío tras Enter; luego estado.json local reportó trabajando etapa01",
+    "implementa": "Claude",
+    "revisa": "Codex",
+    "etapas": 6,
+    "trabajo_en_cuotas": "No garantizado durante suspensión/límites"
+  },
+  "api_ia": 0
+}

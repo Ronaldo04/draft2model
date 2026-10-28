@@ -1,0 +1,26 @@
+{
+  "tipo": "integracion_local_sintetica",
+  "resultado": "correcto",
+  "ruta_publica": "/api/version",
+  "proveedor_llamado": false,
+  "datos_modificados_por_consulta": false,
+  "aviso_no_es_aprobacion": true,
+  "sha256_extraccion": "a7b780b9201f2723820e697791a301cfa3fa2da46b48feb82a90c74a58eed25e",
+  "advertencias": [
+    {
+      "ruta": "$.alcance.estado",
+      "codigo": "fuera_mvp",
+      "mensaje": "Caso provisional fuera del MVP: solo para pruebas de procesamiento."
+    },
+    {
+      "ruta": "$.candidatos[0]",
+      "codigo": "valor_sin_correspondencia_literal",
+      "mensaje": "La cota propuesta no coincide con ningún número del texto declarado; revise la imagen, sin convertir ni corregir automáticamente."
+    },
+    {
+      "ruta": "$.candidatos[0]",
+      "codigo": "unidad_sin_respaldo_literal",
+      "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+    }
+  ]
+}

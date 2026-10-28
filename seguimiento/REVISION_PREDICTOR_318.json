@@ -1,0 +1,76 @@
+{
+  "tarea": "predictor317",
+  "hashes_verificados": 8,
+  "pruebas_delegadas_repetidas": 8,
+  "hallazgos_codex_sinteticos": [
+    {
+      "caso": "viga_solicitada_inexistente",
+      "cobertura": {
+        "pedidas": 1,
+        "con_offsets": 1,
+        "con_descuento": 1,
+        "abstenidas": 0
+      },
+      "totales": {
+        "vigas": 1,
+        "offsets_m": 0.5,
+        "descuento_kN": 1.0000000000000002
+      },
+      "problemas_plan": [],
+      "aceptado_con_totales": true
+    },
+    {
+      "caso": "punto_duplicado",
+      "cobertura": {
+        "pedidas": 1,
+        "con_offsets": 1,
+        "con_descuento": 1,
+        "abstenidas": 0
+      },
+      "totales": {
+        "vigas": 1,
+        "offsets_m": 0.5,
+        "descuento_kN": 1.0000000000000002
+      },
+      "problemas_plan": [
+        "punto duplicado a"
+      ],
+      "aceptado_con_totales": true
+    },
+    {
+      "caso": "extremos_explicitos_no_auto",
+      "cobertura": {
+        "pedidas": 1,
+        "con_offsets": 1,
+        "con_descuento": 1,
+        "abstenidas": 0
+      },
+      "totales": {
+        "vigas": 1,
+        "offsets_m": 0.5,
+        "descuento_kN": 1.0000000000000002
+      },
+      "problemas_plan": [],
+      "aceptado_con_totales": true
+    },
+    {
+      "caso": "peso_volumetrico_negativo",
+      "cobertura": {
+        "pedidas": 1,
+        "con_offsets": 1,
+        "con_descuento": 1,
+        "abstenidas": 0
+      },
+      "totales": {
+        "vigas": 1,
+        "offsets_m": 0.5,
+        "descuento_kN": -1.0000000000000002
+      },
+      "problemas_plan": [],
+      "aceptado_con_totales": true
+    }
+  ],
+  "decision": "No integrar317: omisión de solicitudes/duplicados, opcionesAuto ignoradas y peso negativo admitido",
+  "producto312": "sin cambios",
+  "goal_completo": false
+}

@@ -1,0 +1,44 @@
+{
+  "fecha_utc": "2026-10-23T04:03:06.228738+00:00",
+  "fuente": "tmp\\recorrido_09d1\\lectura\\2eca39b2592c4c1d8a0cdb800eb06ddf\\respuesta.json",
+  "sha256": "f2502a0d9cec6119907152417d15acb6afed0cd432cd9419db36aa13a9cfa1c4",
+  "edb_leido_sha256": "b2a9c40bbda8bc2e39501c190391590676d79189e3f6148afbab256b1504e680",
+  "unidades_originales": "N_mm_C",
+  "peso_shells_por_seccion_kn": {
+    "DEP-FONDO-20": 45.57635039999994,
+    "DEP-MURO-15": 20.253078000000016,
+    "DEP-MURO-20": 147.63448799999986,
+    "DEP-TAPA-15": 17.320582799999965,
+    "ESC-15": 104.79484744724627,
+    "CERCO-10": 57.300480000000036,
+    "LOSA-MEMB-05": 0.0,
+    "DEP-TAPA-20": 21.030239999999985,
+    "PLACA-10": 860.6020273277361,
+    "MURO-KK-15": 1223.4455999999993
+  },
+  "peso_frames_por_seccion_kn": {
+    "COL-1-L-MAS-Y": 24.336000000000006,
+    "COL-1-L-MENOS-Y": 24.336000000000006,
+    "COL-2-X": 161.87358084892492,
+    "COL-5-Y": 22.464,
+    "COL-4-X": 14.976000000000003,
+    "COL-4-Y": 29.952,
+    "COL-3-Y": 44.928,
+    "COL-6-X": 28.080000000000005,
+    "VS-15X30": 31.116960000000006
+  },
+  "peso_shells_kn": 2497.9576939749813,
+  "peso_frames_kn": 382.0625408489249,
+  "cargas_por_patron_kn": {
+    "D": 2118.0724772602334,
+    "L": 1019.9785836345286
+  },
+  "CM_geometria_releida_kn": 4998.09271208414,
+  "delta_shells_con_libro_kn": -1.3642420526593924e-12,
+  "delta_frames_con_libro_kn": 0.0,
+  "delta_D_con_libro_kn": 5.4569682106375694e-12,
+  "limites": "Integral geométrica de objetos/peso específico re-leídos del EDB construido previo al análisis. No descuenta offsets/intersecciones ni prueba cómo el solver calcula peso efectivo; gravedad dirección10 tratada como carga por área real. No nueva llamada ni prueba de modelo final.",
+  "fuentes_estables": true,
+  "aprueba_ingenieria": false,
+  "goal_completo": false
+}

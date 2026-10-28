@@ -1,0 +1,745 @@
+{
+  "fecha_utc": "2026-10-24T20:01:10.522984+00:00",
+  "caso": "vivienda-unifamiliar-003",
+  "etapa": "lecturas_importadas_pendientes_sin_geometria",
+  "codigo_sistema": "software331 exacto, sin modificaciones",
+  "fuentes": "tmp\\validacion_distribucion_331\\fuentes",
+  "manifest": "data\\private\\vivienda-unifamiliar-003\\expediente.json",
+  "revision": "data\\private\\vivienda-unifamiliar-003\\revision_documental\\aa9330e6aea4429da42a06a0ad05b25a\\revision.json",
+  "solicitud": "data\\private\\vivienda-unifamiliar-003\\vision\\solicitudes\\9756ef56426c44bf8a16907a0e2e6f3c\\solicitud.json",
+  "plan": "data\\private\\vivienda-unifamiliar-003\\vision\\planes_openai\\7300001c93cd4fb3acc54172ab64d8cf\\plan.json",
+  "imagenes": 8,
+  "recortes": "Páginas completas, misma regla para todos los PDF; sin selección semántica manual.",
+  "peticion_sha256": "c3dd732c695807b7b91a470754415d5184d4b4f1237816c88a43215074fd320e",
+  "reserva_usd": 1,
+  "estimacion_interna_usd": 0.341495,
+  "datos_aportados_usuario": {
+    "ubicacion": "San Juan de Miraflores, Lima",
+    "cisterna_incluida": true,
+    "estudio_suelos": "no aportado"
+  },
+  "datos_modelo_completados_por_codex": false,
+  "revisiones_fabricadas": false,
+  "modelo_generado": false,
+  "analisis_etabs": false,
+  "goal_completo": false,
+  "peticion_openai_numero": 5,
+  "resultado": "data\\private\\vivienda-unifamiliar-003\\vision\\intentos_openai\\65a0ea05dbb0463ba9c2667afe36a493\\resultado.json",
+  "uso": {
+    "input_tokens": 23308,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 10329,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 33637
+  },
+  "duracion_api_segundos": 76.219,
+  "version_importada": "edb0e7f4c1ac45fa91c2103f693ed2a4",
+  "candidatos": 130,
+  "pendientes": 130,
+  "candidatos_exportados_revisados": 0,
+  "comprobacion": {
+    "correcta": true,
+    "problemas_evidencia": [],
+    "expediente_sha256": "45c6ff5154414917e3964ca46a178c249b7f11a74483c7493fa62631575ad44e",
+    "archivos_verificados": [
+      {
+        "tipo": "original",
+        "id": "L0001",
+        "sha256": "bd70ac9e2c27f2b4e8f45f3ee90b40126469ff2ed23ee0e3083169a409c26f87"
+      },
+      {
+        "tipo": "original",
+        "id": "L0002",
+        "sha256": "d5e86eed310ca30f79d2ad7c1f9c7de6ff2d64c1df769512118850be2e127a6f"
+      },
+      {
+        "tipo": "original",
+        "id": "L0003",
+        "sha256": "547f34d01f5876e50e2ba2d3bb4ea8d0ec66ec239840390650c946cd4bcc29ee"
+      },
+      {
+        "tipo": "original",
+        "id": "L0004",
+        "sha256": "57f829749e53d2356f356fb1886187c594f65b811a14bc8e1b8d151bcc277881"
+      },
+      {
+        "tipo": "imagen_recorte",
+        "id": "8baea77892584ffd861e026d6ed26f25",
+        "sha256": "b54dc851655d78e3cd5c84e3d03cb8506f776ec0921207b772686e87c0773fea"
+      },
+      {
+        "tipo": "imagen_recorte",
+        "id": "d8961f5c8bc34af0b31552fbd40efa79",
+        "sha256": "0d0e6f4676f603d4d63cafef079587478a7ada0c9607a1e42588bb6a041b7f85"
+      },
+      {
+        "tipo": "imagen_recorte",
+        "id": "e1bc5a46a61041daa6efd751847799ac",
+        "sha256": "f29461fa8a21385508af9fa6c4c0444d3c838f3aaed05a23716b046f9bdccdce"
+      },
+      {
+        "tipo": "imagen_recorte",
+        "id": "f127291764bd4698b20f6107af3cc59c",
+        "sha256": "0f7867e489e1bc53ab04376f917943bcb5b4c1834706a2180b3aa659bb20e600"
+      }
+    ],
+    "validacion": {
+      "aviso": "Extracción preliminar. Revisar un candidato confirma o corrige lo leído en la evidencia; no aprueba datos de ingeniería ni valida la estructura. Las coordenadas bbox_normalizada son relativas a la página visible, no metros.",
+      "consistente": true,
+      "inventario_aportado": true,
+      "errores": [],
+      "advertencias": [
+        {
+          "ruta": "$.candidatos[12]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[14]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[16]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[18]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[21]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[23]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[25]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[26]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[28]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[30]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[32]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[34]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[36]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[38]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[40]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[42]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[44]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[45]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[49]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[50]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[51]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[52]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[53]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[55]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[57]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[59]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[61]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[63]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[65]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[67]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[69]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[70]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[71]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[72]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[73]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[93].tipo",
+          "codigo": "resultado_impreso",
+          "mensaje": "Resultado previo impreso: se conserva como lectura, nunca como entrada ni calibración."
+        },
+        {
+          "ruta": "$.candidatos[94].tipo",
+          "codigo": "resultado_impreso",
+          "mensaje": "Resultado previo impreso: se conserva como lectura, nunca como entrada ni calibración."
+        },
+        {
+          "ruta": "$.candidatos[101]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[102]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[103]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[106]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[107]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[108]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.candidatos[129]",
+          "codigo": "unidad_sin_respaldo_literal",
+          "mensaje": "La unidad propuesta no aparece en el texto declarado. Compruebe si está impresa en la región o en un encabezado con evidencia; no inferirla."
+        },
+        {
+          "ruta": "$.cobertura[0].estado",
+          "codigo": "cobertura_incompleta",
+          "mensaje": "Recorte e1bc5a46a61041daa6efd751847799ac: cobertura parcial; hay lecturas sin extraer."
+        },
+        {
+          "ruta": "$.cobertura[1].estado",
+          "codigo": "cobertura_incompleta",
+          "mensaje": "Recorte 8baea77892584ffd861e026d6ed26f25: cobertura parcial; hay lecturas sin extraer."
+        },
+        {
+          "ruta": "$.cobertura[2].estado",
+          "codigo": "cobertura_incompleta",
+          "mensaje": "Recorte d8961f5c8bc34af0b31552fbd40efa79: cobertura parcial; hay lecturas sin extraer."
+        },
+        {
+          "ruta": "$.cobertura[3].estado",
+          "codigo": "cobertura_incompleta",
+          "mensaje": "Recorte f127291764bd4698b20f6107af3cc59c: cobertura parcial; hay lecturas sin extraer."
+        }
+      ],
+      "referencias": {
+        "C001": [
+          "comprobada"
+        ],
+        "C002": [
+          "comprobada"
+        ],
+        "C003": [
+          "comprobada"
+        ],
+        "C004": [
+          "comprobada"
+        ],
+        "C005": [
+          "comprobada"
+        ],
+        "C006": [
+          "comprobada"
+        ],
+        "C007": [
+          "comprobada"
+        ],
+        "C008": [
+          "comprobada"
+        ],
+        "C009": [
+          "comprobada"
+        ],
+        "C010": [
+          "comprobada"
+        ],
+        "C011": [
+          "comprobada"
+        ],
+        "C012": [
+          "comprobada"
+        ],
+        "C013": [
+          "comprobada"
+        ],
+        "C014": [
+          "comprobada"
+        ],
+        "C015": [
+          "comprobada"
+        ],
+        "C016": [
+          "comprobada"
+        ],
+        "C017": [
+          "comprobada"
+        ],
+        "C018": [
+          "comprobada"
+        ],
+        "C019": [
+          "comprobada"
+        ],
+        "C020": [
+          "comprobada"
+        ],
+        "C021": [
+          "comprobada"
+        ],
+        "C022": [
+          "comprobada"
+        ],
+        "C023": [
+          "comprobada"
+        ],
+        "C024": [
+          "comprobada"
+        ],
+        "C025": [
+          "comprobada"
+        ],
+        "C026": [
+          "comprobada"
+        ],
+        "C027": [
+          "comprobada"
+        ],
+        "C028": [
+          "comprobada"
+        ],
+        "C029": [
+          "comprobada"
+        ],
+        "C030": [
+          "comprobada"
+        ],
+        "C031": [
+          "comprobada"
+        ],
+        "C032": [
+          "comprobada"
+        ],
+        "C033": [
+          "comprobada"
+        ],
+        "C034": [
+          "comprobada"
+        ],
+        "C035": [
+          "comprobada"
+        ],
+        "C036": [
+          "comprobada"
+        ],
+        "C037": [
+          "comprobada"
+        ],
+        "C038": [
+          "comprobada"
+        ],
+        "C039": [
+          "comprobada"
+        ],
+        "C040": [
+          "comprobada"
+        ],
+        "C041": [
+          "comprobada"
+        ],
+        "C042": [
+          "comprobada"
+        ],
+        "C043": [
+          "comprobada"
+        ],
+        "C044": [
+          "comprobada"
+        ],
+        "C045": [
+          "comprobada"
+        ],
+        "C046": [
+          "comprobada"
+        ],
+        "C047": [
+          "comprobada"
+        ],
+        "C048": [
+          "comprobada"
+        ],
+        "C049": [
+          "comprobada"
+        ],
+        "C050": [
+          "comprobada"
+        ],
+        "C051": [
+          "comprobada"
+        ],
+        "C052": [
+          "comprobada"
+        ],
+        "C053": [
+          "comprobada"
+        ],
+        "C054": [
+          "comprobada"
+        ],
+        "C055": [
+          "comprobada"
+        ],
+        "C056": [
+          "comprobada"
+        ],
+        "C057": [
+          "comprobada"
+        ],
+        "C058": [
+          "comprobada"
+        ],
+        "C059": [
+          "comprobada"
+        ],
+        "C060": [
+          "comprobada"
+        ],
+        "C061": [
+          "comprobada"
+        ],
+        "C062": [
+          "comprobada"
+        ],
+        "C063": [
+          "comprobada"
+        ],
+        "C064": [
+          "comprobada"
+        ],
+        "C065": [
+          "comprobada"
+        ],
+        "C066": [
+          "comprobada"
+        ],
+        "C067": [
+          "comprobada"
+        ],
+        "C068": [
+          "comprobada"
+        ],
+        "C069": [
+          "comprobada"
+        ],
+        "C070": [
+          "comprobada"
+        ],
+        "C071": [
+          "comprobada"
+        ],
+        "C072": [
+          "comprobada"
+        ],
+        "C073": [
+          "comprobada"
+        ],
+        "C074": [
+          "comprobada"
+        ],
+        "C075": [
+          "comprobada"
+        ],
+        "C076": [
+          "comprobada"
+        ],
+        "C077": [
+          "comprobada"
+        ],
+        "C078": [
+          "comprobada"
+        ],
+        "C079": [
+          "comprobada"
+        ],
+        "C080": [
+          "comprobada"
+        ],
+        "C081": [
+          "comprobada"
+        ],
+        "C082": [
+          "comprobada"
+        ],
+        "C083": [
+          "comprobada"
+        ],
+        "C084": [
+          "comprobada"
+        ],
+        "C085": [
+          "comprobada"
+        ],
+        "C086": [
+          "comprobada"
+        ],
+        "C087": [
+          "comprobada"
+        ],
+        "C088": [
+          "comprobada"
+        ],
+        "C089": [
+          "comprobada"
+        ],
+        "C090": [
+          "comprobada"
+        ],
+        "C091": [
+          "comprobada"
+        ],
+        "C092": [
+          "comprobada"
+        ],
+        "C093": [
+          "comprobada"
+        ],
+        "C094": [
+          "comprobada"
+        ],
+        "C095": [
+          "comprobada"
+        ],
+        "C096": [
+          "comprobada"
+        ],
+        "C097": [
+          "comprobada"
+        ],
+        "C098": [
+          "comprobada"
+        ],
+        "C099": [
+          "comprobada"
+        ],
+        "C100": [
+          "comprobada"
+        ],
+        "C101": [
+          "comprobada"
+        ],
+        "C102": [
+          "comprobada"
+        ],
+        "C103": [
+          "comprobada"
+        ],
+        "C104": [
+          "comprobada"
+        ],
+        "C105": [
+          "comprobada"
+        ],
+        "C106": [
+          "comprobada"
+        ],
+        "C107": [
+          "comprobada"
+        ],
+        "C108": [
+          "comprobada"
+        ],
+        "C109": [
+          "comprobada"
+        ],
+        "C110": [
+          "comprobada"
+        ],
+        "C111": [
+          "comprobada"
+        ],
+        "C112": [
+          "comprobada"
+        ],
+        "C113": [
+          "comprobada"
+        ],
+        "C114": [
+          "comprobada"
+        ],
+        "C115": [
+          "comprobada"
+        ],
+        "C116": [
+          "comprobada"
+        ],
+        "C117": [
+          "comprobada"
+        ],
+        "C118": [
+          "comprobada"
+        ],
+        "C119": [
+          "comprobada"
+        ],
+        "C120": [
+          "comprobada"
+        ],
+        "C121": [
+          "comprobada"
+        ],
+        "C122": [
+          "comprobada"
+        ],
+        "C123": [
+          "comprobada"
+        ],
+        "C124": [
+          "comprobada"
+        ],
+        "C125": [
+          "comprobada"
+        ],
+        "C126": [
+          "comprobada"
+        ],
+        "C127": [
+          "comprobada"
+        ],
+        "C128": [
+          "comprobada"
+        ],
+        "C129": [
+          "comprobada"
+        ],
+        "C130": [
+          "comprobada"
+        ]
+      },
+      "resumen": {
+        "candidatos": 130,
+        "pendientes": 130,
+        "revisados": 0,
+        "rechazados": 0,
+        "valores_desconocidos": 0,
+        "unidades_desconocidas": 0,
+        "evidencias": 130,
+        "referencias_no_comprobadas": 0,
+        "referencias_comprobadas": 130
+      }
+    }
+  },
+  "geometrias_generadas": [],
+  "limite_observado": "Conversión requiere lecturas revisadas y manifiesto; no se proporcionaron manualmente."
+}

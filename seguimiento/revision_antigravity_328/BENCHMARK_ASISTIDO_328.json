@@ -1,0 +1,374 @@
+{
+  "contrato": "seguimiento.benchmark_asistido_328",
+  "fecha_utc": "2026-10-24T17:28:37.407843+00:00",
+  "revision_humana_realizada": false,
+  "referencia_origen": "Antigravity IA revisado y corregido por Codex IA, excepción solicitada por usuario.",
+  "fuente_referencia_fijada": {
+    "fecha_utc": "2026-10-24T17:18:51.825730+00:00",
+    "sha256_referencia": "0a3dc0d89ffb4a52d3e06fd0de508f214afb667bb660703c73657749d40a0ce5",
+    "revision_humana_realizada": false,
+    "referencia_fijada_antes_de_consultar_candidatos": true,
+    "observaciones": 33,
+    "ambiguas": 1
+  },
+  "observaciones_referencia_total": 33,
+  "observaciones_ambiguas": 1,
+  "peticiones_originales": 6,
+  "cohortes_con_extraccion_valida": 4,
+  "fallidas": 2,
+  "peticiones_nuevas": 0,
+  "criterio_pares": "Tipo, documento, página y ubicación física; revisión explícita. No se seleccionaron por igualdad del valor.",
+  "criterio_ambito": "Solo observaciones en láminas de contexto efectivamente enviadas en cada cohorte. No sumar resultados de tareas distintas.",
+  "cohortes": [
+    {
+      "cohorte": "openai_1",
+      "estado": "evaluacion_experimental_asistida",
+      "laminas_enviadas": [
+        "L0001",
+        "L0002",
+        "L0003"
+      ],
+      "candidatos": 34,
+      "metricas": {
+        "observaciones": 33,
+        "ambiguas_excluidas": 1,
+        "cobertura": {
+          "numerador": 2,
+          "denominador": 32,
+          "proporcion": 0.0625
+        },
+        "exactitud_valor_legible_emparejado": {
+          "numerador": 2,
+          "denominador": 2,
+          "proporcion": 1.0
+        },
+        "exactitud_unidad_emparejada": {
+          "numerador": 2,
+          "denominador": 2,
+          "proporcion": 1.0
+        },
+        "lecturas_completas_sobre_legibles": {
+          "numerador": 1,
+          "denominador": 32,
+          "proporcion": 0.03125
+        },
+        "abstenciones_correctas_sobre_ilegibles": {
+          "numerador": 0,
+          "denominador": 0,
+          "proporcion": null
+        },
+        "abstenciones_incorrectas_sobre_legibles": 0,
+        "unidades_referencia_desconocidas": 11,
+        "unidades_propuestas_desconocidas": 0,
+        "omisiones": [
+          "AG-0001",
+          "AG-0002",
+          "AG-0003",
+          "AG-0004",
+          "AG-0005",
+          "AG-0006",
+          "AG-0007",
+          "AG-0008",
+          "AG-0009",
+          "AG-0010",
+          "AG-0011",
+          "AG-0012",
+          "AG-0014",
+          "AG-0015",
+          "AG-0016",
+          "AG-0019",
+          "AG-0020",
+          "AG-0021",
+          "AG-0022",
+          "AG-0023",
+          "AG-0024",
+          "AG-0025",
+          "AG-0026",
+          "AG-0027",
+          "AG-0028",
+          "AG-0029",
+          "AG-0030",
+          "AG-0031",
+          "AG-0032",
+          "AG-0033"
+        ]
+      },
+      "evidencia_confirmada_sobre_emitidos": {
+        "numerador": 1,
+        "denominador": 34,
+        "proporcion": 0.029411764705882353
+      },
+      "sin_clasificar": 31
+    },
+    {
+      "cohorte": "openai_2",
+      "estado": "fallida_sin_extraccion_evaluable",
+      "candidatos": null
+    },
+    {
+      "cohorte": "openai_3",
+      "estado": "evaluacion_experimental_asistida",
+      "laminas_enviadas": [
+        "L0001"
+      ],
+      "candidatos": 60,
+      "metricas": {
+        "observaciones": 11,
+        "ambiguas_excluidas": 0,
+        "cobertura": {
+          "numerador": 0,
+          "denominador": 11,
+          "proporcion": 0.0
+        },
+        "exactitud_valor_legible_emparejado": {
+          "numerador": 0,
+          "denominador": 0,
+          "proporcion": null
+        },
+        "exactitud_unidad_emparejada": {
+          "numerador": 0,
+          "denominador": 0,
+          "proporcion": null
+        },
+        "lecturas_completas_sobre_legibles": {
+          "numerador": 0,
+          "denominador": 11,
+          "proporcion": 0.0
+        },
+        "abstenciones_correctas_sobre_ilegibles": {
+          "numerador": 0,
+          "denominador": 0,
+          "proporcion": null
+        },
+        "abstenciones_incorrectas_sobre_legibles": 0,
+        "unidades_referencia_desconocidas": 3,
+        "unidades_propuestas_desconocidas": 0,
+        "omisiones": [
+          "AG-0001",
+          "AG-0002",
+          "AG-0003",
+          "AG-0004",
+          "AG-0005",
+          "AG-0006",
+          "AG-0007",
+          "AG-0008",
+          "AG-0009",
+          "AG-0010",
+          "AG-0011"
+        ]
+      },
+      "evidencia_confirmada_sobre_emitidos": {
+        "numerador": 0,
+        "denominador": 60,
+        "proporcion": 0.0
+      },
+      "sin_clasificar": 60
+    },
+    {
+      "cohorte": "openai_4",
+      "estado": "evaluacion_experimental_asistida",
+      "laminas_enviadas": [
+        "L0002",
+        "L0003"
+      ],
+      "candidatos": 102,
+      "metricas": {
+        "observaciones": 22,
+        "ambiguas_excluidas": 1,
+        "cobertura": {
+          "numerador": 6,
+          "denominador": 21,
+          "proporcion": 0.2857142857142857
+        },
+        "exactitud_valor_legible_emparejado": {
+          "numerador": 6,
+          "denominador": 6,
+          "proporcion": 1.0
+        },
+        "exactitud_unidad_emparejada": {
+          "numerador": 1,
+          "denominador": 6,
+          "proporcion": 0.16666666666666666
+        },
+        "lecturas_completas_sobre_legibles": {
+          "numerador": 0,
+          "denominador": 21,
+          "proporcion": 0.0
+        },
+        "abstenciones_correctas_sobre_ilegibles": {
+          "numerador": 0,
+          "denominador": 0,
+          "proporcion": null
+        },
+        "abstenciones_incorrectas_sobre_legibles": 0,
+        "unidades_referencia_desconocidas": 8,
+        "unidades_propuestas_desconocidas": 0,
+        "omisiones": [
+          "AG-0012",
+          "AG-0013",
+          "AG-0014",
+          "AG-0015",
+          "AG-0016",
+          "AG-0017",
+          "AG-0019",
+          "AG-0021",
+          "AG-0022",
+          "AG-0023",
+          "AG-0024",
+          "AG-0025",
+          "AG-0030",
+          "AG-0031",
+          "AG-0033"
+        ]
+      },
+      "evidencia_confirmada_sobre_emitidos": {
+        "numerador": 3,
+        "denominador": 102,
+        "proporcion": 0.029411764705882353
+      },
+      "sin_clasificar": 96
+    },
+    {
+      "cohorte": "gemini_1",
+      "estado": "evaluacion_experimental_asistida",
+      "laminas_enviadas": [
+        "L0001"
+      ],
+      "candidatos": 32,
+      "metricas": {
+        "observaciones": 11,
+        "ambiguas_excluidas": 0,
+        "cobertura": {
+          "numerador": 1,
+          "denominador": 11,
+          "proporcion": 0.09090909090909091
+        },
+        "exactitud_valor_legible_emparejado": {
+          "numerador": 1,
+          "denominador": 1,
+          "proporcion": 1.0
+        },
+        "exactitud_unidad_emparejada": {
+          "numerador": 1,
+          "denominador": 1,
+          "proporcion": 1.0
+        },
+        "lecturas_completas_sobre_legibles": {
+          "numerador": 1,
+          "denominador": 11,
+          "proporcion": 0.09090909090909091
+        },
+        "abstenciones_correctas_sobre_ilegibles": {
+          "numerador": 0,
+          "denominador": 0,
+          "proporcion": null
+        },
+        "abstenciones_incorrectas_sobre_legibles": 0,
+        "unidades_referencia_desconocidas": 3,
+        "unidades_propuestas_desconocidas": 0,
+        "omisiones": [
+          "AG-0001",
+          "AG-0002",
+          "AG-0003",
+          "AG-0004",
+          "AG-0005",
+          "AG-0006",
+          "AG-0007",
+          "AG-0008",
+          "AG-0009",
+          "AG-0011"
+        ]
+      },
+      "evidencia_confirmada_sobre_emitidos": {
+        "numerador": 1,
+        "denominador": 32,
+        "proporcion": 0.03125
+      },
+      "sin_clasificar": 31
+    },
+    {
+      "cohorte": "gemini_2",
+      "estado": "fallida_sin_extraccion_evaluable",
+      "candidatos": null
+    }
+  ],
+  "decisiones_pares": [
+    {
+      "cohorte": "openai_1",
+      "observacion": "AG-0013",
+      "candidato": "C011",
+      "evidencia_correcta": false,
+      "motivo": "Región situada sobre la viga; no muestra el rótulo VS."
+    },
+    {
+      "cohorte": "openai_1",
+      "observacion": "AG-0017",
+      "candidato": "C021",
+      "evidencia_correcta": true,
+      "motivo": "Título CORTE1-1 reconocible en su ubicación; primer carácter parcialmente cortado."
+    },
+    {
+      "cohorte": "openai_1",
+      "observacion": "AG-0018",
+      "candidato": "C025",
+      "evidencia_correcta": false,
+      "motivo": "No contiene la dimensión alternativa. La referencia es ambigua y se excluye de exactitud."
+    },
+    {
+      "cohorte": "openai_4",
+      "observacion": "AG-0020",
+      "candidato": "C074",
+      "evidencia_correcta": false,
+      "motivo": "Recorte no contiene el sufijo completo de la etiqueta Kg/m2."
+    },
+    {
+      "cohorte": "openai_4",
+      "observacion": "AG-0026",
+      "candidato": "C070",
+      "evidencia_correcta": true,
+      "motivo": "Cota .30 visible en la región del detalle de aligerado."
+    },
+    {
+      "cohorte": "openai_4",
+      "observacion": "AG-0027",
+      "candidato": "C071",
+      "evidencia_correcta": false,
+      "motivo": "Solo aparece el dígito final; no respalda .10 completa."
+    },
+    {
+      "cohorte": "openai_4",
+      "observacion": "AG-0028",
+      "candidato": "C066",
+      "evidencia_correcta": false,
+      "motivo": "Cota .05 cortada: no respalda el valor completo."
+    },
+    {
+      "cohorte": "openai_4",
+      "observacion": "AG-0029",
+      "candidato": "C067",
+      "evidencia_correcta": true,
+      "motivo": "Cota .12 visible en la sección de aligerado."
+    },
+    {
+      "cohorte": "openai_4",
+      "observacion": "AG-0032",
+      "candidato": "C054",
+      "evidencia_correcta": true,
+      "motivo": "Cota2.15 visible en planta TECHO CISTERNA; no equivale a altura de corte."
+    },
+    {
+      "cohorte": "gemini_1",
+      "observacion": "AG-0010",
+      "candidato": "C032",
+      "evidencia_correcta": true,
+      "motivo": "1.50 m. visible en nota de suelos."
+    }
+  ],
+  "limites": [
+    "Referencia asistida por IA, no verdad humana independiente ni aprobación de ingeniería.",
+    "Muestra parcial con taxonomía explícita: identificadores estructurales se anotaron como elemento; ejes y títulos como etiqueta. Discrepancias de tipo reducen emparejamientos.",
+    "No clasificar como falsas todas las propuestas sin referencia en una muestra parcial.",
+    "No hay umbral de aceptación comercial aprobado; una exactitud condicionada alta no demuestra cobertura ni automatización.",
+    "Resultados previos a las correcciones geométricas del modelo. No confundir con la calidad del modelo final supervisado."
+  ]
+}

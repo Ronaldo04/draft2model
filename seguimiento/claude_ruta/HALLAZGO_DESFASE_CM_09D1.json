@@ -1,0 +1,51 @@
+{
+  "hallazgo": "causa_localizada_desfase_CM_6868",
+  "fecha": "2026-10-22",
+  "lectura": "461c751056c74acaa6d738b29f4df633",
+  "sha256_fuente": "395f671386174319c499c0ac672c386cfc22f99027808257c827d5d9a38e5395",
+  "vigas_VS_15X30": {
+    "etabs_peso_kn": 24.2557,
+    "etabs_longitud_m": 28.812,
+    "libro_peso_kn": 31.116959999999988,
+    "diferencia_kn": 6.861259999999987,
+    "longitud_equivalente_al_peso_m": 22.45898148148148
+  },
+  "otras_secciones": "columnas, apoyos inclinados (Brace) y muros MURO-KK-15/PLACA-10 coinciden con el libro dentro de 1e-3 kN",
+  "desfase_total_kn": 6.868112084133827,
+  "residuo_no_asignado_kn": 0.006852084133839753,
+  "interpretacion": "ETABS informa la longitud total de las vigas (28,812 m) pero su peso equivale a ~22,46 m: excluye el peso de los tramos extremos dentro de muros/columnas (longitudes de extremo automáticas por conectividad). El libro cuenta la longitud total (convención declarada «sin descuento de solapes»). Explica 6,861 de 6,868 kN; 0,007 kN quedan sin asignar.",
+  "no_hace": [
+    "no se ajusta el libro a la respuesta",
+    "no se cambia la tolerancia 1e-3",
+    "no se afirma la regla exacta de ETABS para los extremos sin más evidencia"
+  ],
+  "estado_contraste": "no_coherente frente al libro independiente; causa demostrada por elemento para las vigas; conciliación explícita coherente a −1,1e-6",
+  "comprobacion_extremos_274": {
+    "fecha": "2026-10-23",
+    "lectura": "6da62ea363484498a3e13315c99b328a",
+    "sha256_tabla": "f8ce1e17b7ec084b8a4ff7a86cd593a1dbcfaf2bb7bd6d31f30e8a2554e1677f",
+    "valores": "128 frames con OffsetOpt=Auto, RigidFact=0, SelfWtOpt=Auto; offsets automáticos no nulos en vigas y columnas",
+    "aritmetica": {
+      "vigas_VS_suma_offsets_m": 6.353,
+      "vigas_peso_offsets_kn": 6.86124,
+      "diferencia_material_list_kn": 6.86126,
+      "columnas_con_offsets_kn": {
+        "COL-2-X": 8.64,
+        "COL-4-Y": 3.456,
+        "COL-5-Y": 2.592
+      },
+      "columnas_descontadas_por_ETABS": "no (sus pesos coinciden con el libro)"
+    },
+    "conclusion": "Con SelfWtOpt=Auto, en este EDB ETABS excluye el peso de los tramos extremos de las VIGAS y no el de las columnas; explica 6,86124 de 6,868112 kN (residuo 0,00687 kN sin asignar).",
+    "conciliacion_explicita": {
+      "archivo": "tmp\\recorrido_09d1\\resultados\\libro_masa_conciliado.json",
+      "sha256": "4dc4444841a9388c7ff362d7ca51cd6fcc252defbf4d674c7485413f1a884214",
+      "masa_conciliada": 548.7273372041184,
+      "masa_observada_U1": 548.7267285730835,
+      "diferencia_relativa": -1.109e-06,
+      "independiente": false
+    },
+    "contraste_oficial": "sin cambios: libro independiente vs nativo −0,127 % → no_coherente (tolerancia 1e-3 intacta)",
+    "fuentes_externas_consultadas": "ninguna nueva; las referencias CSI citadas por Codex no se usaron como prueba del valor en este archivo"
+  }
+}

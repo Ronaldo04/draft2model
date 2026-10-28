@@ -1,0 +1,31 @@
+{
+  "fecha_utc": "2026-10-23T16:25:00.482778+00:00",
+  "runtime": "tmp/runtime_qa_285",
+  "url": "http://127.0.0.1:18285/",
+  "caso": "pueblo-libre-002",
+  "pestana": "IAB5",
+  "observacion_DOM": "modeloEstado y resultadoEstado: Consultando versiones y comprobando fuentes; opciones Consultando versiones. No hay resultado terminal ni fallo observado.",
+  "inicio_servidor": "2026-10-23T11:09:57.055482-05:00",
+  "procesos_confirmados": [
+    {
+      "pid": 28660,
+      "user_ticks_100ns": 4482968750,
+      "kernel_ticks_100ns": 298437500
+    },
+    {
+      "pid": 14860,
+      "user_ticks_100ns": 3927968750,
+      "kernel_ticks_100ns": 310781250
+    }
+  ],
+  "diagnostico_estatico": "ServicioResultados._listar mantiene self.app.lock mientras consulta todas las versiones; _consultar tambien valida bajo ese bloqueo. Frontend resultados.js ya solicita ambas columnas en paralelo. El bloqueo serializa verificaciones, aunque HTTP sea multihilo. No es un perfil por solicitud y no atribuye todo el tiempo a una sola funcion.",
+  "inventario": {
+    "modelos": 3,
+    "resultados": 1
+  },
+  "acciones": "No recargar ni duplicar solicitudes pendientes. Capturar fin y duracion real antes de declarar fallo. Revisar coste general de listar/versiones; no cachear aprobaciones/vigencia ni omitir validacion en apertura.",
+  "prioridad": "Rendimiento del recorrido principal sigue pendiente de aceptacion, independiente de la instalacion287 verificada.",
+  "etabs_ejecutado": false,
+  "api_remota": false,
+  "goal_completo": false
+}

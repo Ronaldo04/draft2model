@@ -1,0 +1,57 @@
+{
+  "tarea": "compatibilidad_particiones_182",
+  "estado": "entregado",
+  "fecha": "2026-10-20",
+  "carpeta": "D:/RONALDO CUCHILLA/1. RONALDO CUCHILLA/2. INGENIERÍA CIVIL DOCS AND PROJECTS/AECODE CURSOS/AECODE AI TALENT/PROYECTO FINAL",
+  "archivos": {
+    "draft2model/compatibilidad_particiones.py": "358d2ff2dae073ad1dcd5434cf1d4d538eb03364a07cc91e4c025ae54d169519",
+    "tests/test_compatibilidad_particiones.py": "060b8eb4bfc40c514328906e063997b37c2da63b9b419a8b6412cbae1e6dabea",
+    "docs/COMPATIBILIDAD_PARTICIONES.md": "85e8e3e5e2393a514a9aa96ab9cf7daed17332cdac30397caa909156ff832287"
+  },
+  "informe": {
+    "seguimiento/INFORME_CLAUDE_COMPATIBILIDAD_182.md": "4a19d7795903f6f87dcfa29576d32e2cb7a7adae774cc5a2087d3a25a26ca294"
+  },
+  "api": {
+    "funcion": "compatibilizar_particiones(geometria, particiones, conexiones) -> dict",
+    "error": "ErrorCompatibilidad(ValueError)",
+    "auxiliar": "huella_conexiones(documento)",
+    "contrato_entrada": "draft2model.conexiones_borde 0.1.0",
+    "contrato_salida": "draft2model.compatibilidad_particiones 0.1.0 (ejecutable=false, aprueba_ingenieria=false)"
+  },
+  "evidencia": {
+    "pruebas": [
+      {
+        "comando": ".venv/Scripts/python.exe -m unittest -v tests.test_compatibilidad_particiones",
+        "resultado": "8 OK",
+        "omisiones": 0,
+        "codigo": 0,
+        "log": "tmp/claude_compatibilidad_182/pruebas.log",
+        "log_sha256": "5931bceea7d0d26d734f77a9ab6f12a6aadf4822bc3a620e7736275942147246"
+      },
+      {
+        "comando": ".venv/Scripts/python.exe -m unittest tests.test_particion_superficies",
+        "resultado": "10 OK",
+        "omisiones": 0,
+        "codigo": 0,
+        "log": "tmp/claude_compatibilidad_182/regresion_particion.log",
+        "log_sha256": "140fb3d7309b97620e235bf4f728cdbee527854728a3600c25a366b6e3167da9"
+      }
+    ],
+    "particion_180_sin_editar": "fcb0ee3fe0a173e9848207b1cb40075d71e7677b7fcdb4f64d980badd7ce5248"
+  },
+  "limites": [
+    "Sin declaración no hay unión; coincidencia visual no autoriza unir.",
+    "Conexiones solo entre aristas exteriores colineales con solape positivo bajo el criterio ε existente (exacto).",
+    "Puntos distintos más cercanos que el criterio se rechazan; no hay fusión por proximidad ni redondeo.",
+    "Celdas con nodos colineales; calidad de malla no evaluada.",
+    "No acredita frames, apoyos, diafragmas, ejes, material, cargas, masa, rigidez ni ETABS."
+  ],
+  "pendientes_codex": [
+    "frames/barras en nodos compartidos y bordes",
+    "apoyos/diafragmas/ejes/material/cargas/masa de piezas",
+    "calidad de malla",
+    "transporte ETABS, guardado, reapertura y relectura",
+    "verificación real de la unión estructural"
+  ],
+  "restricciones": "cero API, sin credenciales, sin ETABS real, sin instalaciones ni políticas, sin suite global; ningún archivo existente editado"
+}

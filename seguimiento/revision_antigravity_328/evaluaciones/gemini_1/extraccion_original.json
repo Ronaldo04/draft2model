@@ -1,0 +1,1012 @@
+{
+  "contrato": "draft2model.extraccion_preliminar",
+  "version_contrato": "0.1.0",
+  "caso": "provisional-001",
+  "procedencia": {
+    "tipo": "expediente",
+    "expediente_sha256": "3b1ca4a73227157f7a1987b4c95623b72aa7f6c90da3bc30cbd326d0c3f9f98b",
+    "descripcion": "Respuesta visual de origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec."
+  },
+  "alcance": {
+    "estado": "fuera_mvp_declarado",
+    "uso": "pruebas_procesamiento",
+    "motivos": [
+      "Sistema constructivo y cantidad de pisos fuera del MVP, según declaración."
+    ]
+  },
+  "sistema_coordenadas": "pagina_visible_normalizada",
+  "candidatos": [
+    {
+      "id": "C001",
+      "tipo": "etiqueta",
+      "valor_propuesto": "C-1 (Detalle)",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.11899493717258308,
+            0.5711210539398459,
+            0.1746046232186687,
+            0.5812030822769078
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C002",
+      "tipo": "cota",
+      "valor_propuesto": 0.4,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.45724467890244347,
+            0.5938056176982351,
+            0.5082627394951825,
+            0.59856657552407
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C003",
+      "tipo": "cota",
+      "valor_propuesto": 0.4,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.11338295050738177,
+            0.6092087165465241,
+            0.1169542147488735,
+            0.6156500124285359
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C004",
+      "tipo": "cota",
+      "valor_propuesto": 0.15,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.12001529838443785,
+            0.6324533929903057,
+            0.45724467890244347,
+            0.6372143508161405
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C005",
+      "tipo": "cota",
+      "valor_propuesto": 0.15,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.14399378686302525,
+            0.6024873643218162,
+            0.14756505110451698,
+            0.608928660203828
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C006",
+      "tipo": "etiqueta",
+      "valor_propuesto": "C-2 (0.15x0.40)",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.217969974722497,
+            0.5716811666252382,
+            0.28378327288713046,
+            0.5820432513049962
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C007",
+      "tipo": "cota",
+      "valor_propuesto": 0.15,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.22766340623511738,
+            0.6061280967768664,
+            0.23327539290031873,
+            0.6108890546027012
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C008",
+      "tipo": "cota",
+      "valor_propuesto": 0.4,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.23735683774773783,
+            0.6248918717375093,
+            0.24092810198922956,
+            0.631053111276825
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C009",
+      "tipo": "etiqueta",
+      "valor_propuesto": "C-3(0.15x0.60)",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.3082719419716452,
+            0.5719612229679343,
+            0.36898343407700485,
+            0.5823233076476924
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C010",
+      "tipo": "cota",
+      "valor_propuesto": 0.15,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.32918934681466827,
+            0.5963261247825006,
+            0.3348013334798696,
+            0.6013671389510316
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C011",
+      "tipo": "cota",
+      "valor_propuesto": 0.6,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.33684205590357913,
+            0.6248918717375093,
+            0.34041332014507086,
+            0.631053111276825
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C012",
+      "tipo": "etiqueta",
+      "valor_propuesto": "C-4 (0.15x0.40)",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.4021451734622852,
+            0.5719612229679343,
+            0.4694890134447009,
+            0.5820432513049962
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C013",
+      "tipo": "cota",
+      "valor_propuesto": 0.15,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.41387932739861516,
+            0.6061280967768664,
+            0.4200014946697439,
+            0.6108890546027012
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C014",
+      "tipo": "cota",
+      "valor_propuesto": 0.4,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.424082939517163,
+            0.6248918717375093,
+            0.4276542037586548,
+            0.631053111276825
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C015",
+      "tipo": "etiqueta",
+      "valor_propuesto": "C-5(0.15x0.30)",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.5143849067663113,
+            0.5719612229679343,
+            0.5781574825072351,
+            0.5820432513049962
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C016",
+      "tipo": "cota",
+      "valor_propuesto": 0.15,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.5368328534271165,
+            0.5982865191813738,
+            0.5424448400923179,
+            0.6033275333499047
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C017",
+      "tipo": "cota",
+      "valor_propuesto": 0.3,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.5271394219144961,
+            0.6167702377993206,
+            0.5307106861559878,
+            0.6229314773386362
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C018",
+      "tipo": "etiqueta",
+      "valor_propuesto": "C-6(0.15x0.75)",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.09858771293548743,
+            0.6820233656475267,
+            0.16287046928233873,
+            0.692665506669981
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C019",
+      "tipo": "cota",
+      "valor_propuesto": 0.15,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.3960230061911565,
+            0.7164702957991548,
+            0.4521428728431696,
+            0.7215113099676858
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C020",
+      "tipo": "cota",
+      "valor_propuesto": 0.75,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.4725500970802652,
+            0.7450360427541636,
+            0.5082627394951825,
+            0.7514773386361753
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C021",
+      "tipo": "elemento",
+      "valor_propuesto": "PL-1",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.26592695167967173,
+            0.7548380147485293,
+            0.28378327288713046,
+            0.7618394233159334
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C022",
+      "tipo": "elemento",
+      "valor_propuesto": "PL-2",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.26592695167967173,
+            0.7722015079956913,
+            0.28378327288713046,
+            0.7792029165630955
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C023",
+      "tipo": "elemento",
+      "valor_propuesto": "PL-3",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.26592695167967173,
+            0.7892849449001574,
+            0.28378327288713046,
+            0.7965664098102576
+          ],
+          "recorte_id": "a4753cd445fb450fa7c5c3177fc6fe8c",
+          "imagen_sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C024",
+      "tipo": "etiqueta",
+      "valor_propuesto": "VARILLAS fy = 4,200 Kg/cm2.",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.6643074658753709,
+            0.9013916778523491,
+            0.7100174243323442,
+            0.9446110067114094
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C025",
+      "tipo": "etiqueta",
+      "valor_propuesto": "f'c = 210 Kg/cm2.",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.6643074658753709,
+            0.7201406174496644,
+            0.6933296617210682,
+            0.725543033557047
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C026",
+      "tipo": "cota",
+      "valor_propuesto": 2,
+      "unidad": "cm",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.7348314017804154,
+            0.7960445637583893,
+            0.7510838314540058,
+            0.8003664966442954
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C027",
+      "tipo": "cota",
+      "valor_propuesto": 2.5,
+      "unidad": "cm",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.7348314017804154,
+            0.8041481879194631,
+            0.7510838314540058,
+            0.8084701208053691
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C028",
+      "tipo": "cota",
+      "valor_propuesto": 3.5,
+      "unidad": "cm",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.7348314017804154,
+            0.8130621744966443,
+            0.7510838314540058,
+            0.8173841073825504
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C029",
+      "tipo": "cota",
+      "valor_propuesto": 7.5,
+      "unidad": "cm",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.7348314017804154,
+            0.8206255570469799,
+            0.7510838314540058,
+            0.8249474899328859
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C030",
+      "tipo": "etiqueta",
+      "valor_propuesto": "1er AL 4to PISO = 200 kg/m2",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.6641623548961424,
+            0.8287291812080537,
+            0.7136451988130564,
+            0.833591355704698
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C031",
+      "tipo": "etiqueta",
+      "valor_propuesto": "AZOTEA = 150 kg/m2",
+      "unidad": "no_aplica",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.6641623548961424,
+            0.8365626845637584,
+            0.6973927691394659,
+            0.8414248590604027
+          ],
+          "recorte_id": "c6bef19fdeee4743aee7a382176d3ba1",
+          "imagen_sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    },
+    {
+      "id": "C032",
+      "tipo": "cota",
+      "valor_propuesto": 1.5,
+      "unidad": "m",
+      "metodo": {
+        "tipo": "vision",
+        "herramienta": "gemini",
+        "version": "gemini-3.8-flash",
+        "descripcion": "Origen declarado. Solicitud 23ec86ac1c8848958f7f420ccb6f45ec; SHA256 6e99beb66ffc672d0e3c3f695bb06fcc061cd1ac3d9d44a147ddc3ceb1dfe2c5."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.862181412462908,
+            0.8283509395973154,
+            0.8739591596439168,
+            0.8319569798657718
+          ],
+          "recorte_id": "98a92cd3f4e9498b86271837e8a50750",
+          "imagen_sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571"
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      }
+    }
+  ]
+}

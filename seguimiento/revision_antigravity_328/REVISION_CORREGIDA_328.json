@@ -1,0 +1,415 @@
+{
+  "integridad": [
+    {
+      "archivo": "salidas/referencia_propuesta_ia.json",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/observaciones.csv",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/ENTREGA.md",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0001.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0002.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0003.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0004.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0005.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0006.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0007.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0008.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0009.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0010.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0011.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0012.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0013.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0014.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0015.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0016.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0017.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0018.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0019.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0020.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0021.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0022.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0023.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0024.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0025.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0026.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0027.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0028.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0029.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0030.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0031.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0032.png",
+      "coincide": true
+    },
+    {
+      "archivo": "salidas/recortes/AG-0033.png",
+      "coincide": true
+    },
+    {
+      "archivo": "L0001 PDF",
+      "coincide": true
+    },
+    {
+      "archivo": "imagenes/archivo-0001-pagina-0001.png",
+      "coincide": true
+    },
+    {
+      "archivo": "L0002 PDF",
+      "coincide": true
+    },
+    {
+      "archivo": "imagenes/archivo-0002-pagina-0001.png",
+      "coincide": true
+    },
+    {
+      "archivo": "L0003 PDF",
+      "coincide": true
+    },
+    {
+      "archivo": "imagenes/archivo-0003-pagina-0001.png",
+      "coincide": true
+    }
+  ],
+  "fuentes_publicas325_sin_cambios": true,
+  "observaciones": 33,
+  "por_clase": {
+    "etiqueta": 9,
+    "elemento": 10,
+    "cota": 14
+  },
+  "propuesta_sha256": "274cb2c5fd89abc0c77212c042b34c29daa41df9c7d772810622b11bbbf2f95e",
+  "revision_visual": "pendiente",
+  "revision_humana_realizada": false,
+  "resumen_observaciones": [
+    {
+      "id": "AG-0001",
+      "tipo": "etiqueta",
+      "valor": "A",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0002",
+      "tipo": "elemento",
+      "valor": "C-1",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0003",
+      "tipo": "elemento",
+      "valor": "PL-1",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0004",
+      "tipo": "elemento",
+      "valor": "C-2",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0005",
+      "tipo": "elemento",
+      "valor": "PL-10",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0006",
+      "tipo": "cota",
+      "valor": 1.3,
+      "unidad": "desconocida",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0007",
+      "tipo": "elemento",
+      "valor": "C-6",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0008",
+      "tipo": "cota",
+      "valor": 0.4,
+      "unidad": "desconocida",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0009",
+      "tipo": "cota",
+      "valor": 1.2,
+      "unidad": "desconocida",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0010",
+      "tipo": "cota",
+      "valor": 1.5,
+      "unidad": "m",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0011",
+      "tipo": "etiqueta",
+      "valor": "E-01",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0012",
+      "tipo": "etiqueta",
+      "valor": "B",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0013",
+      "tipo": "elemento",
+      "valor": "VS(0.15x0.30)",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0014",
+      "tipo": "cota",
+      "valor": 1.1,
+      "unidad": "desconocida",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0015",
+      "tipo": "cota",
+      "valor": 0.8,
+      "unidad": "desconocida",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0016",
+      "tipo": "elemento",
+      "valor": "PL-8",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0017",
+      "tipo": "etiqueta",
+      "valor": "CORTE 1-1",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0018",
+      "tipo": "cota",
+      "valor": null,
+      "unidad": "desconocida",
+      "legibilidad": "ambigua"
+    },
+    {
+      "id": "AG-0019",
+      "tipo": "cota",
+      "valor": 0.15,
+      "unidad": "desconocida",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0020",
+      "tipo": "etiqueta",
+      "valor": "S/C=200 Kg/m2",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0021",
+      "tipo": "elemento",
+      "valor": "C-3",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0022",
+      "tipo": "etiqueta",
+      "valor": "E-02",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0023",
+      "tipo": "elemento",
+      "valor": "NACE C-2",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0024",
+      "tipo": "elemento",
+      "valor": "PL-9",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0025",
+      "tipo": "etiqueta",
+      "valor": "DETALLE: ALIGERADO TIPICO",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0026",
+      "tipo": "cota",
+      "valor": 0.3,
+      "unidad": "desconocida",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0027",
+      "tipo": "cota",
+      "valor": 0.1,
+      "unidad": "desconocida",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0028",
+      "tipo": "cota",
+      "valor": 0.05,
+      "unidad": "desconocida",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0029",
+      "tipo": "cota",
+      "valor": 0.12,
+      "unidad": "desconocida",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0030",
+      "tipo": "cota",
+      "valor": 0.4,
+      "unidad": "m",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0031",
+      "tipo": "etiqueta",
+      "valor": "DETALLE. MURO PORTANTE TIPICO",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0032",
+      "tipo": "cota",
+      "valor": 2.15,
+      "unidad": "desconocida",
+      "legibilidad": "legible"
+    },
+    {
+      "id": "AG-0033",
+      "tipo": "etiqueta",
+      "valor": "E-03",
+      "unidad": "no_aplica",
+      "legibilidad": "legible"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+id,archivo_id,pagina,tipo,x0,y0,x1,y1,valor_json,unidad,legibilidad
+AG-0001,L0001,1,etiqueta,0.103376,0.07715,0.112964,0.091284,"""A""",no_aplica,legible
+AG-0002,L0001,1,elemento,0.110463,0.09894,0.12005,0.104829,"""C-1""",no_aplica,legible
+AG-0003,L0001,1,elemento,0.192163,0.101296,0.203835,0.106596,"""PL-1""",no_aplica,legible
+AG-0004,L0001,1,elemento,0.2401,0.09894,0.250104,0.104829,"""C-2""",no_aplica,legible
+AG-0005,L0001,1,elemento,0.510629,0.09894,0.527303,0.106007,"""PL-10""",no_aplica,legible
+AG-0006,L0001,1,cota,0.459775,0.245583,0.47228,0.253828,1.3,desconocida,legible
+AG-0007,L0001,1,elemento,0.468112,0.281508,0.479366,0.288575,"""C-6""",no_aplica,legible
+AG-0008,L0001,1,cota,0.553147,0.35159,0.56065,0.355713,0.4,desconocida,legible
+AG-0009,L0001,1,cota,0.563568,0.320966,0.566903,0.345112,1.2,desconocida,legible
+AG-0010,L0001,1,cota,0.860775,0.826266,0.876198,0.832155,1.5,m,legible
+AG-0011,L0001,1,etiqueta,0.904127,0.920495,0.934556,0.946408,"""E-01""",no_aplica,legible
+AG-0012,L0002,1,etiqueta,0.161,0.049,0.175,0.067,"""B""",no_aplica,legible
+AG-0013,L0002,1,elemento,0.135,0.073,0.167,0.082,"""VS(0.15x0.30)""",no_aplica,legible
+AG-0014,L0002,1,cota,0.12005,0.09894,0.129221,0.103651,1.1,desconocida,legible
+AG-0015,L0002,1,cota,0.117,0.116,0.127,0.126,0.8,desconocida,legible
+AG-0016,L0002,1,elemento,0.41,0.19,0.426,0.199,"""PL-8""",no_aplica,legible
+AG-0017,L0002,1,etiqueta,0.71,0.171,0.75,0.183,"""CORTE 1-1""",no_aplica,legible
+AG-0018,L0002,1,cota,0.701959,0.09894,0.706961,0.13722,null,desconocida,ambigua
+AG-0019,L0002,1,cota,0.725,0.125,0.738,0.136,0.15,desconocida,legible
+AG-0020,L0002,1,etiqueta,0.785,0.409,0.907,0.438,"""S/C=200 Kg/m2""",no_aplica,legible
+AG-0021,L0002,1,elemento,0.461,0.168,0.475,0.177,"""C-3""",no_aplica,legible
+AG-0022,L0002,1,etiqueta,0.904127,0.920495,0.934556,0.946408,"""E-02""",no_aplica,legible
+AG-0023,L0003,1,elemento,0.406419,0.260306,0.431013,0.266784,"""NACE C-2""",no_aplica,legible
+AG-0024,L0003,1,elemento,0.407,0.309,0.429,0.326,"""PL-9""",no_aplica,legible
+AG-0025,L0003,1,etiqueta,0.643,0.185,0.757,0.202,"""DETALLE: ALIGERADO TIPICO""",no_aplica,legible
+AG-0026,L0003,1,cota,0.685286,0.169611,0.689871,0.174323,0.3,desconocida,legible
+AG-0027,L0003,1,cota,0.708629,0.170789,0.713214,0.174912,0.1,desconocida,legible
+AG-0028,L0003,1,cota,0.738641,0.131331,0.742393,0.138398,0.05,desconocida,legible
+AG-0029,L0003,1,cota,0.738641,0.147821,0.742393,0.154888,0.12,desconocida,legible
+AG-0030,L0003,1,cota,0.817,0.3675,0.831,0.377,0.4,m,legible
+AG-0031,L0003,1,etiqueta,0.704,0.708,0.861,0.731,"""DETALLE. MURO PORTANTE TIPICO""",no_aplica,legible
+AG-0032,L0003,1,cota,0.717799,0.826266,0.720717,0.836867,2.15,desconocida,legible
+AG-0033,L0003,1,etiqueta,0.904127,0.920495,0.934556,0.946408,"""E-03""",no_aplica,legible

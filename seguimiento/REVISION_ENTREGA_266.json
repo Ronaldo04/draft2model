@@ -1,0 +1,22 @@
+{
+  "fecha_utc": "2026-10-22T18:26:26.828172+00:00",
+  "entrega_id": "b6d886c5244b4eb68307ff4f60284620",
+  "archivos": 564,
+  "integridad_zip_archivos_logs": true,
+  "foco_codigo": 0,
+  "log": "tmp/revision_entrega_266/focal.log",
+  "log_sha256": "d3fd6d28d98cbcfe07a6f4fb9ce176da6040133d0dae0992768af16574bd100c",
+  "reproduccion_bool_corresponde_a_snapshot": true,
+  "estado": "revisado_con_hallazgo_de_tipado",
+  "aceptado_sin_hallazgos": false,
+  "aceptacion_global": false,
+  "hallazgo": "REPRODUCCION_MASA_BOOL_266.json:boolTrue es convertidoa1 por el adaptador antes del validador estricto",
+  "limites": [
+    "Masa ensamblada nativa del caso aún no capturada: depende del análisis 09D en curso (fases.masa_nativa).",
+    "Captura AssembledJointMass_1 no ejecutada todavía en ETABS por el lector general (solo validada con el extracto 253f convertido).",
+    "Fuente esperada MsSrc1 declarada (fuente por defecto editada por SetMassSource_1); si difiere, el contraste falla.",
+    "Reglas E.030 en borrador; sitio referencial no disponible."
+  ],
+  "apis_remotas": 0,
+  "etabs": false
+}

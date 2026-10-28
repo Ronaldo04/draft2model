@@ -1,0 +1,28 @@
+
+
+ ETABS Ultimate 64-bit 21.1.0 Build 3261 (Analysis Build 9942/64)               
+ File: D:\RONALDO CUCHILLA\1. ...\ensayo_codex_auto_316\corrida_B\auto_316_B.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+       1               -   -   -   -   -   -
+       2               A   A   A   A   A   A
+       3               -   -   -   -   -   -
+       4               A   A   A   A   A   A
+       5               -   -   -   -   -   -
+       6 TO       7    A   A   A   A   A   A
+       8               -   -   -   -   -   -
+       9               A   A   A   A   A   A
+      10               -   -   -   -   -   -
+      11               A   A   A   A   A   A
+      12               -   -   -   -   -   -
+      13 TO      14    A   A   A   A   A   A

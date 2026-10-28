@@ -1,0 +1,39 @@
+{
+  "tarea": "encargo_09_hito_09D",
+  "estado": "entregado_pendiente_revision_codex",
+  "fecha": "2026-10-22",
+  "entregas": {
+    "04": {
+      "manifiesto": "entregas/04-5b8365a8989f4fb7bc6574a730de2596/manifiesto.json",
+      "zip_sha256": "492cd06cceaa1a5a4d8c25523ff41caa81dfe9ad91d4e26bad21020c4019a3d1"
+    },
+    "06": {
+      "manifiesto": "entregas/06-cd20a685e89b42b1888d5ec1d83d8095/manifiesto.json",
+      "zip_sha256": "6a508bb4a5916ad286eec34ac4044e335207493e1ed39e7910ce03cfd1f26d2a"
+    }
+  },
+  "restauracion_06_codigo": 0,
+  "hashes": {
+    "seguimiento/claude_ruta/INFORME_09.md": "7936a07a761dd5cbc8001328f2343d7555661ea5740d0949c712ca164d123ff6",
+    "seguimiento/claude_ruta/estado.json": "4d0f932a3cf6e68b279737b5b824d5ac4f6b55553bfe47cb54365e51d0e34d6a",
+    "seguimiento/claude_ruta/RESTAURACION_06G.json": "acc9b3a4e0310a978c338040f08a81592c528fbfd088cdac5020b069f0ddb465",
+    "seguimiento/claude_ruta/configuracion_09b.py": "db6540ac009b31a22dace77300283de69cb7c1b87f4c95367fb323f72a3d9f09",
+    "seguimiento/ACUERDO_RESERVA_246.json": "b9a957eef6afcff47098eea76699010f59c6f2b57e29811c1d426e0d73f4ca5d",
+    "docs/COLUMNA_L_NATIVA.md": "4e3e9b082f66fc0d06827affadbfc61e164ad70f26bdcdb84050c9ebe7f2c09d",
+    "tests/fixtures/columna_l_etabs21_246.json": "a2b476ace7ef57dcfcc00a17d6417bde606ebb6ffc5be43093029861c1f58bbc",
+    "entregas/04-5b8365a8989f4fb7bc6574a730de2596/manifiesto.json": "6602365dde2553bbe303e612db0421e6d3df047efea23ddcd5d6f684c4906319",
+    "entregas/06-cd20a685e89b42b1888d5ec1d83d8095/manifiesto.json": "353eaec3a82840819ba4d1b531114de97b1a5f3999fb7d02e85f330207279cfa",
+    "draft2model/malla_preparacion.py": "542d271a4e363af3da7db8eafc93659aeeb04ac32e42c5f43bf769ac33c6714b",
+    "draft2model/particion_superficies.py": "8ce5915a68db664a7a87e9448117f69119201714c4d269e7205402a8f5864193",
+    "draft2model/compatibilidad_particiones.py": "466930a1a3f20c3ce5344a6a211f2b4f5c3ab4fdce97760feb52736ed5561877",
+    "draft2model/triangulacion_particiones.py": "f371a8c2a88627043d3699337af51187fdb8aa43eaac6eaa842b43b95b4a8bb3",
+    "tests/test_malla_rendimiento_246.py": "cd6f594f67afdd958afe6273d56dd825d1120d24ef87f0f0c81267e4ab4acd37"
+  },
+  "no_declara": [
+    "cierre del encargo 09",
+    "aprobación de ingeniería",
+    "cumplimiento normativo",
+    "todos los técnicos resueltos"
+  ],
+  "apis_ejecutadas_por_claude": 0
+}

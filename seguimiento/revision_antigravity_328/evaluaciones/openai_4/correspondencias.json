@@ -1,0 +1,63 @@
+{
+  "contrato": "draft2model.correspondencias_vision",
+  "version_contrato": "0.1.0",
+  "caso": "provisional-001",
+  "huella_referencia": "71e859f68e5c253015e1f1d962aa22cd7b22c1c09c8952c128f613d79608edeb",
+  "huella_extraccion": "3be8412a447312ca61cccdcf9a66ac69320b39caa2038ccbe9b77e9e1c2d8550",
+  "revision": {
+    "estado": "revisado",
+    "revisor_declarado": "Codex (IA), revisión visual asistida; no humana",
+    "fecha": "2026-10-24"
+  },
+  "pares": [
+    {
+      "observacion_id": "AG-0020",
+      "candidato_id": "C074",
+      "indice_evidencia_referencia": 0,
+      "indice_evidencia_candidato": 0,
+      "principal": true,
+      "evidencia_correcta": false
+    },
+    {
+      "observacion_id": "AG-0026",
+      "candidato_id": "C070",
+      "indice_evidencia_referencia": 0,
+      "indice_evidencia_candidato": 0,
+      "principal": true,
+      "evidencia_correcta": true
+    },
+    {
+      "observacion_id": "AG-0027",
+      "candidato_id": "C071",
+      "indice_evidencia_referencia": 0,
+      "indice_evidencia_candidato": 0,
+      "principal": true,
+      "evidencia_correcta": false
+    },
+    {
+      "observacion_id": "AG-0028",
+      "candidato_id": "C066",
+      "indice_evidencia_referencia": 0,
+      "indice_evidencia_candidato": 0,
+      "principal": true,
+      "evidencia_correcta": false
+    },
+    {
+      "observacion_id": "AG-0029",
+      "candidato_id": "C067",
+      "indice_evidencia_referencia": 0,
+      "indice_evidencia_candidato": 0,
+      "principal": true,
+      "evidencia_correcta": true
+    },
+    {
+      "observacion_id": "AG-0032",
+      "candidato_id": "C054",
+      "indice_evidencia_referencia": 0,
+      "indice_evidencia_candidato": 0,
+      "principal": true,
+      "evidencia_correcta": true
+    }
+  ],
+  "sin_respaldo": []
+}

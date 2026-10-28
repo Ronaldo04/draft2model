@@ -1,0 +1,156 @@
+{
+  "metodo": "OCR local aislado333; sin modificar entrega331",
+  "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+  "render_sha256": "78ffd19a517b4fc210132dc44cd9c53fdab01f48598f18c5ad68dee777b3bcf0",
+  "perfil": {
+    "motor": "tesseract",
+    "ejecutable_sha256": "babb405f4366b480d02cd8ff2bac8d497170f6c1711ce6f3d5d8bf0fb7fa6ed9",
+    "idiomas": "spa+eng",
+    "psm": 11
+  },
+  "palabras": 700,
+  "api_calls": 0,
+  "lectura_sha256": "4938f58453d26f1bc0e40cd95e72bb47e16de2aa0dad5c91464364ca9cbae067",
+  "coincidencias": {
+    "C-1": {
+      "metodo": "ocr_local",
+      "estado": "unica",
+      "total": 1,
+      "regiones": [
+        {
+          "texto_ocr": "C-1",
+          "confianza_ocr": 67.238037,
+          "bbox_normalizada": [
+            0.119384765625,
+            0.5707384403036577,
+            0.13330078125,
+            0.5779848171152518
+          ]
+        }
+      ],
+      "modifica_datos": false,
+      "verificado_visualmente": false,
+      "aviso": "La confianza OCR no es probabilidad calibrada ni aprobación; contrastar con la imagen."
+    },
+    "C-2": {
+      "metodo": "ocr_local",
+      "estado": "ambigua",
+      "total": 4,
+      "regiones": [
+        {
+          "texto_ocr": "C-2",
+          "confianza_ocr": 50.170166,
+          "bbox_normalizada": [
+            0.265869140625,
+            0.09972394755003451,
+            0.275146484375,
+            0.10420979986197378
+          ]
+        },
+        {
+          "texto_ocr": "c-2",
+          "confianza_ocr": 36.469646,
+          "bbox_normalizada": [
+            0.265869140625,
+            0.44616977225672877,
+            0.275146484375,
+            0.45065562456866803
+          ]
+        },
+        {
+          "texto_ocr": "c-2",
+          "confianza_ocr": 50.79789,
+          "bbox_normalizada": [
+            0.37158203125,
+            0.44616977225672877,
+            0.381103515625,
+            0.45065562456866803
+          ]
+        },
+        {
+          "texto_ocr": "C-2",
+          "confianza_ocr": 85.310059,
+          "bbox_normalizada": [
+            0.214599609375,
+            0.572463768115942,
+            0.230224609375,
+            0.5797101449275363
+          ]
+        }
+      ],
+      "modifica_datos": false,
+      "verificado_visualmente": false,
+      "aviso": "La confianza OCR no es probabilidad calibrada ni aprobación; contrastar con la imagen."
+    },
+    "C-6": {
+      "metodo": "ocr_local",
+      "estado": "unica",
+      "total": 1,
+      "regiones": [
+        {
+          "texto_ocr": "C-6",
+          "confianza_ocr": 58.570335,
+          "bbox_normalizada": [
+            0.468994140625,
+            0.2836438923395445,
+            0.478515625,
+            0.2881297446514838
+          ]
+        }
+      ],
+      "modifica_datos": false,
+      "verificado_visualmente": false,
+      "aviso": "La confianza OCR no es probabilidad calibrada ni aprobación; contrastar con la imagen."
+    },
+    "PL-1": {
+      "metodo": "ocr_local",
+      "estado": "unica",
+      "total": 1,
+      "regiones": [
+        {
+          "texto_ocr": "PL-1",
+          "confianza_ocr": 87.514458,
+          "bbox_normalizada": [
+            0.266845703125,
+            0.7570738440303658,
+            0.280517578125,
+            0.7625948930296756
+          ]
+        }
+      ],
+      "modifica_datos": false,
+      "verificado_visualmente": false,
+      "aviso": "La confianza OCR no es probabilidad calibrada ni aprobación; contrastar con la imagen."
+    },
+    "PL-10": {
+      "metodo": "ocr_local",
+      "estado": "ambigua",
+      "total": 2,
+      "regiones": [
+        {
+          "texto_ocr": "PL-10",
+          "confianza_ocr": 87.324707,
+          "bbox_normalizada": [
+            0.511962890625,
+            0.10144927536231885,
+            0.52685546875,
+            0.10593512767425811
+          ]
+        },
+        {
+          "texto_ocr": "PL-10",
+          "confianza_ocr": 89.783447,
+          "bbox_normalizada": [
+            0.511962890625,
+            0.4451345755693582,
+            0.52685546875,
+            0.4499654934437543
+          ]
+        }
+      ],
+      "modifica_datos": false,
+      "verificado_visualmente": false,
+      "aviso": "La confianza OCR no es probabilidad calibrada ni aprobación; contrastar con la imagen."
+    }
+  }
+}

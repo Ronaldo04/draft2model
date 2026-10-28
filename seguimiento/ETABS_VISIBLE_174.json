@@ -1,0 +1,34 @@
+{
+  "estado": "API_local_conectada_y_copia_visible",
+  "conexion": {
+    "fecha_utc": "2026-10-20T23:20:07.3249473Z",
+    "id_proceso": 39368,
+    "version": "21.1.0",
+    "modelo": "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\etabs_visible_174\\copia\\modelo.EDB",
+    "visible": true,
+    "unidades_presentes": "N_mm_C",
+    "puntos": 4,
+    "areas": 1,
+    "modelo_bloqueado": false,
+    "geometria_modificada": false,
+    "guardado": false,
+    "analisis_ejecutado": false,
+    "instancia_cerrada": false
+  },
+  "archivos_sha256": {
+    "tmp\\d4\\ensayo\\modelo.edb": "c71d19cff0c891021787c95d01bd0a0464279cc38821e1b5a1dda49d8e1fa305",
+    "tmp\\etabs_visible_174\\copia\\modelo.edb": "c71d19cff0c891021787c95d01bd0a0464279cc38821e1b5a1dda49d8e1fa305"
+  },
+  "evidencias": [
+    "tmp/etabs_visible_174/apertura.json",
+    "tmp/etabs_visible_174/conexion.json"
+  ],
+  "instancia_dejada_abierta_para_usuario": true,
+  "limites": [
+    "Modelo sintetico anterior; no planos del usuario",
+    "Sin analisis nuevo ni aceptacion estructural",
+    "Lector de unidades sigue pendiente: archivo abreN_mm_C",
+    "No usar modelo manual del usuario antes de resultadosfinales"
+  ],
+  "preferencia_IA": "solo Google Gemini y OpenAI"
+}

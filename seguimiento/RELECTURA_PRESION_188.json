@@ -1,0 +1,32 @@
+{
+  "estado": "lector_componentes_no_uniformes_local_verificado",
+  "archivos": {
+    "draft2model/relectura_presion.py": "972635356ab4e6fbb10739b545167289929ea9df4e934627cc8d0ca4a94bd5b8",
+    "tests/test_relectura_presion.py": "b2dc82097412802605f7e88b693b0c14ee57d01a3af06b5a218a2f3e3a5cd368",
+    "tests/fixtures/tabla_presion_real_186.json": "02793e0db25aead77f2673ff6a4da5594f51ec7966ed051bccf6de7561bf1ba0"
+  },
+  "pruebas": [
+    {
+      "comando": "python -m unittest tests.test_relectura_presion tests.test_cargas_liquidos_etabs -v",
+      "resultado": "10 OK antes del sexto test nuevo"
+    },
+    {
+      "comando": "python -m unittest tests.test_relectura_presion -v",
+      "resultado": "6 OK, 0 omitidas, 0.031s"
+    }
+  ],
+  "origen": "Tabla22registros capturada en ensayo ETABS real186; no nueva lectura ETABS",
+  "unidades": [
+    "N_m_C",
+    "N_cm_C",
+    "N_mm_C",
+    "kN_m_C",
+    "kN_cm_C",
+    "kN_mm_C"
+  ],
+  "limites": [
+    "Integración con el lector y transporte normal pendiente",
+    "Comparación de asignación no acredita equilibrio ni ingeniería"
+  ],
+  "llamadas_api_ia": 0
+}

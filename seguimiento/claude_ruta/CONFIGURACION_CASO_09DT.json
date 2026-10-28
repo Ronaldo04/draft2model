@@ -1,0 +1,227 @@
+{
+  "validacion": "con geometría y malla real",
+  "recibo_malla": {
+    "segundos": 311.1,
+    "huella_preparacion": "822f748f8119957301507cbe73e5c28a4e8de7a953d5cc17279be5e814dd8e5d",
+    "nodos_derivados": 104,
+    "triangulos": 5231,
+    "frames_subdivididos": 0,
+    "nodos_colgantes_locales": 0,
+    "colgantes_muestra": [],
+    "contenido": {
+      "estado": "contabilidad_declarada_coherente",
+      "escenarios": [
+        {
+          "deposito": "TANQUE",
+          "estado": "lleno",
+          "fuente": "F-L0003-DEPOSITOS",
+          "declaracion": "AGUA-TAN",
+          "modo": "patron_presion",
+          "patron_masa": "AGUA-TAN",
+          "volumen_m3": 3.93921,
+          "peso_kn": 39.3921,
+          "masa_kn_s2_m": 4.016876303324785,
+          "factor_contenido": 1,
+          "fz_presion_kn": -39.39210000000001
+        },
+        {
+          "deposito": "CISTERNA",
+          "estado": "lleno",
+          "fuente": "F-L0003-DEPOSITOS",
+          "declaracion": "AGUA-CIS",
+          "modo": "patron_presion",
+          "patron_masa": "AGUA-CIS",
+          "volumen_m3": 9.555872340000004,
+          "peso_kn": 95.55872340000005,
+          "masa_kn_s2_m": 9.744277954245339,
+          "factor_contenido": 1,
+          "fz_presion_kn": -95.55872340000002
+        }
+      ],
+      "peso_total_kn": 134.95082340000005,
+      "masa_total_kn_s2_m": 13.761154257570123,
+      "aprueba_ingenieria": false,
+      "crea_cargas": false,
+      "ejecutable": false,
+      "huella_liquidos": "149fd8afd20b3439dd350fde65308cc0ea51877bc5b183161af4baa3d0c5db7c",
+      "estados": {
+        "TANQUE": "lleno",
+        "CISTERNA": "lleno"
+      },
+      "masa_nativa_verificada": false,
+      "nota": "Inventario declarado y coherente con presiones y fuente de masa; la masa ensamblada en ETABS se acredita aparte (masa_ensamblada) tras el análisis."
+    }
+  },
+  "configuracion": "tmp/ruta201/configuracion09dt.json",
+  "sha256": "aba6827c8ab32b494809b96f0f6e55ba3c8ab22eeb32ffe6abdcd5aa1738b52e",
+  "geometria": "25ef94672fac4e53863701b55e32f97d",
+  "normativa": {
+    "aplicado": [
+      {
+        "material": "CONCRETO-FC210",
+        "detalle": "f'c = 210 kgf/cm2 → Ec = 4700√f'c = 21328.9 MPa; ν = 0,15 derivado de G = Ec/2,3",
+        "cita": [
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.2",
+            "formula": "Ec = 4700 √f'c (MPa)"
+          },
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.4",
+            "formula": "G = Ec/2,3"
+          }
+        ]
+      },
+      {
+        "material": "CONCRETO-FC175",
+        "detalle": "f'c = 175 kgf/cm2 → Ec = 4700√f'c = 19470.5 MPa; ν = 0,15 derivado de G = Ec/2,3",
+        "cita": [
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.2",
+            "formula": "Ec = 4700 √f'c (MPa)"
+          },
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.4",
+            "formula": "G = Ec/2,3"
+          }
+        ]
+      },
+      {
+        "material": "ALBANILERIA-FM35",
+        "detalle": "f'm = 35 kgf/cm2, unidad arcilla → Em = 1716.2 MPa; ν = 0,25 (Gm = 0,4 Em)",
+        "cita": [
+          {
+            "codigo": "E.070",
+            "dispositivo": "DS 011-2006-VIVIENDA (fe de erratas 21/06/2006)",
+            "texto_registrado": "seguimiento/normativa_229/E070_DS011_2006.txt",
+            "articulo": "24.7",
+            "formula": "Em = 500 f'm; Gm = 0,4 Em",
+            "pagina_pdf": 21
+          }
+        ]
+      },
+      {
+        "espectro": "ESP-S1-R6-HIP",
+        "parametros": {
+          "Z": 0.45,
+          "U": 1.0,
+          "S": 1.0,
+          "R": 6.0,
+          "TP": 0.4,
+          "TL": 2.5,
+          "g": 9.80665
+        },
+        "sitio_metodo": "valor_tabulado",
+        "cita": [
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "41.1"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "18.1",
+            "tabla": "Tabla N° 6"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "11",
+            "tabla": "Tabla N° 1"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "19.1",
+            "tabla": "Tabla N° 7"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "22.1",
+            "tabla": "Tabla N° 10"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "26"
+          }
+        ]
+      }
+    ],
+    "faltantes": [],
+    "no_evaluado": [
+      "Irregularidades Ia/Ip con resultados del modelo (arts. 23–25)",
+      "Cortante mínimo dinámico (art. 44) tras el análisis",
+      "Derivas (arts. 50–51) tras el análisis",
+      "Diseño de elementos (E.060/E.070)"
+    ],
+    "aprobacion_ingenieria": null
+  },
+  "conteos": {
+    "puntos": 2356,
+    "superficies": 2502,
+    "frames": 128,
+    "columnas": 79,
+    "vigas": 45,
+    "cargas": 3610,
+    "apoyos": 203,
+    "diafragmas": 4
+  },
+  "cargas_kPa": {
+    "aligerado": 2.8,
+    "acabados": 1.0,
+    "tabiques": 0.248,
+    "peso_tabiques_piso_kN": 32.0,
+    "area_losa_m2": {
+      "2.6": 129.06,
+      "5.2": 129.06,
+      "7.8": 129.06,
+      "10.4": 129.34
+    }
+  },
+  "columnas_excluidas": [],
+  "contrato_consistente": true,
+  "faltantes_calculados": [],
+  "preparacion_malla": {
+    "huella_preparacion": "822f748f8119957301507cbe73e5c28a4e8de7a953d5cc17279be5e814dd8e5d",
+    "nodos_derivados": 104,
+    "triangulos": 5231,
+    "frames_subdivididos": 0,
+    "huella_triangulacion": "61a7e33216423d2d456ae3897969a608bc5f125ee404b8a9dea1a7568af06139"
+  },
+  "errores_por_ruta": {},
+  "errores_contrato": [],
+  "faltantes": [],
+  "aprobacion_ingenieria": null
+}

@@ -1,0 +1,48 @@
+{
+  "proveedor": "gemini",
+  "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent",
+  "modelo": "gemini-3.8-flash",
+  "solicitud_id": "53db194429ce4055b7fca29dbed99386",
+  "solicitud_sha256": "1cecce24a2d653ae225c0005a1bfe5779f21cd5f4652e04f9e15c7cc64570f17",
+  "peticion_sha256": "4d486ce55ce355f5ba04e057d8d42a9bcc2fb55c334a553d1508bd78f4fa39de",
+  "bytes_peticion": 1463188,
+  "imagenes": [
+    {
+      "id": "CTX0001",
+      "sha256": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+      "rol": "contexto"
+    },
+    {
+      "id": "REC0001",
+      "sha256": "a81b5a1eec6fb7d3b2a6819aa75a78da8e0ff6d25c15e1e7d40004bf5cdbf203",
+      "rol": "recorte"
+    },
+    {
+      "id": "REC0002",
+      "sha256": "05f4113a051bec06be69aa15598ae846623473d5972cb8e83c2ce8f628747641",
+      "rol": "recorte"
+    },
+    {
+      "id": "REC0003",
+      "sha256": "ac0d39cc81210731d94343192f397f9e664cbead521a1cbde3d83caa89938571",
+      "rol": "recorte"
+    }
+  ],
+  "max_output_tokens": 16384,
+  "detalle": "auto",
+  "store": null,
+  "costo_estimado": null,
+  "nota_costo": "Sin tarifa configurada; el límite de salida no limita el costo total de entrada e imágenes.",
+  "nota_almacenamiento": "No se atribuye store=false al proveedor seleccionado. Revisar sus condiciones y el nivel de cuenta antes de enviar.",
+  "formato_peticion": "envoltorio_local; SHA incluye modelo, destino y cuerpo cuando corresponde; solo body se transmite",
+  "fecha_utc": "2026-10-21T14:40:02.424276+00:00",
+  "nivel": "Free, sin facturación: confirmado expresamente por el usuario",
+  "fuentes": [
+    "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+    "https://ai.google.dev/gemini-api/docs/pricing"
+  ],
+  "finalidad": "revision_extraccion_planos",
+  "reintentos": 0,
+  "herramientas_externas": false,
+  "facturacion_habilitada_por_codex": false
+}

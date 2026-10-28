@@ -1,0 +1,18 @@
+{
+  "snapshot": "tmp/revision_codex_251",
+  "entregas": [
+    {
+      "id": "5b8365a8989f4fb7bc6574a730de2596",
+      "fuentes": 24,
+      "logs": 6,
+      "integridad": "correcta"
+    },
+    {
+      "id": "cd20a685e89b42b1888d5ec1d83d8095",
+      "fuentes": 546,
+      "logs": 1,
+      "integridad": "correcta"
+    }
+  ],
+  "ejecucion_codigo": false
+}

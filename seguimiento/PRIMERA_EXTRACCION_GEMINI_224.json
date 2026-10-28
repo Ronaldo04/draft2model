@@ -1,0 +1,42 @@
+{
+  "estado": "importada_pendiente_revision",
+  "proveedor": "gemini",
+  "modelo_devuelto": "gemini-3.8-flash",
+  "intento": "14d200db6ce04940a3d339d61d16b9e9",
+  "respuesta_api_sha256": "69df7726c04c1566f93d8989e52e2e8df764ea6d147cadc092b1e7ef30eef0dc",
+  "version_extraccion": "1cde498b56c34b03866d0583a0e8ad3d",
+  "candidatos": 32,
+  "cobertura_recortes": {
+    "REC0001": 23,
+    "REC0002": 8,
+    "REC0003": 1
+  },
+  "uso": {
+    "promptTokenCount": 5271,
+    "candidatesTokenCount": 3952,
+    "totalTokenCount": 10151,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 4356
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 915
+      }
+    ],
+    "thoughtsTokenCount": 928,
+    "serviceTier": "standard"
+  },
+  "contador_openai": 4,
+  "contador_gemini": 1,
+  "coste_openai_calculado_usd": 0.5403575,
+  "gemini_nivel": "Free sin facturación confirmado por usuario",
+  "lecturas_aprobadas": 0,
+  "contraste_visual_acotado": [
+    "Especificaciones: fc210,fy4200,recubrimientos2/2.5/3.5/7.5cm y cargas200/150 concuerdan en valor textual; faltan fm35 y presión admisible4.",
+    "REC0003: solo profundidad1.5m extraída; parámetros sísmicos y presión admisible4 claramente legibles quedaron omitidos.",
+    "Los valores y bboxes restantes no se consideran verificados. Comparación con60candidatos OpenAI no es ranking de precisión."
+  ],
+  "conclusion": "Integración real Gemini operativa para este envío y artefacto pendiente revisable. Cobertura insuficiente: no usar JSON válido como evidencia de lectura completa ni aprobación de ingeniería."
+}

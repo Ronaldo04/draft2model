@@ -1,0 +1,7 @@
+{
+  "estado": "propuesta_matematica_revisada",
+  "integridad_insumos": true,
+  "comprobaciones": "9 tests propios OK0.013s; informe y modulo revisados",
+  "alcance": "Fuerza y momento para caja rectangular idealizada; no modelo nativo ni producto",
+  "informe_sha256": "79d91c39d163de20673597ab26955cfb5865ce89f035e0ae0ab9239b0ac6f04b"
+}

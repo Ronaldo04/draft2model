@@ -1,0 +1,28 @@
+{
+  "inicio_utc": "2026-10-24T08:31:03.452369+00:00",
+  "datos_sinteticos": true,
+  "llamadas_remotas": 0,
+  "estado": "terminado",
+  "goal_completo": false,
+  "pid_harness": 26164,
+  "codigo": 0,
+  "fin_utc": "2026-10-24T08:31:53.260242+00:00",
+  "recibo_sha256": "fc8e22f656852c0cca37be4e23c1a4f41b662b089ad3325b958af5559e7ee682",
+  "error_nativo": null,
+  "cierre": {
+    "application_exit": 0,
+    "pid": 32156,
+    "salio": true,
+    "etabs_tras_cierre": [
+      6988,
+      23928,
+      38168
+    ]
+  },
+  "fases": [
+    {
+      "modelo": "B",
+      "analisis": 0
+    }
+  ]
+}

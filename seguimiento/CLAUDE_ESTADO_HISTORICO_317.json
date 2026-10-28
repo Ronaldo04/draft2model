@@ -1,0 +1,24 @@
+{
+  "tarea": "predictor_317",
+  "modo": "auditoria_aislada",
+  "estado": "revisado",
+  "encargo": "seguimiento/ENCARGO_CLAUDE_PREDICTOR_317.md",
+  "archivos": [],
+  "marcador": "seguimiento/claude_ruta/MARCADOR_PREDICTOR_317.json",
+  "prefijos_autorizados": [
+    "seguimiento/claude_ruta/predictor_auto_317/"
+  ],
+  "propietario_implementacion": "Claude solo predictor_auto_317/ y marcador. Codex conserva integración y verificación de configuración del piloto.",
+  "propietario_revision": "Codex verifica independencia de entradas, archivos y prueba focal antes de integrar.",
+  "confirmacion_envio": "Captura proyecto correcto/compositor vacío. set_value264, captura de texto317, Return, mensaje visible en historial y compositor vacío.",
+  "creado_utc": "2026-10-24T07:34:25.935426+00:00",
+  "computer_use_suspendido": false,
+  "limite_computer_use": "Autorizado por usuario solo para coordinación. No consultar la ventana mientras trabaja; usar marcador local.",
+  "cuota_claude_observada": "98% semanal utilizado; respetar límite, parcial si ocurre. No reset del usuario.",
+  "historial": "seguimiento/CLAUDE_ESTADO_HISTORICO_308.json",
+  "heartbeat": "Sigue pausado; no prometer vigilancia durante cuotas ni reactivarlo sin petición.",
+  "prueba_sonda": "seguimiento/test_sonda_pdf_309.py:6casosOK; modo PDF parametrizado por tarea, SHA y perímetro estrictos.",
+  "revision_anterior": "seguimiento/REVISION_AUTO_316.json",
+  "siguiente_dependencia": "Recibo317 y pruebas; aún no integrado ni masa verificada.",
+  "revision": "seguimiento/REVISION_PREDICTOR_318.json"
+}

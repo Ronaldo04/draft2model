@@ -1,0 +1,34 @@
+# Encargo353: interfaz y servicio de digitización calibrada
+
+Responsable Antigravity. El350 de malla ya está revisado por Codex (hashes y10pruebas focales OK). El351 preparado antes NO se envió y ha sido reasignado a un subagente de Codex; NO EJECUTARLO. Tu siguiente trabajo independiente es este353.
+Raíz exacta D:/RONALDO CUCHILLA/1. RONALDO CUCHILLA/2. INGENIERÍA CIVIL DOCS AND PROJECTS/AECODE CURSOS/AECODE AI TALENT/PROYECTO FINAL. Verifica carpeta al empezar. No historiales, SQLite ni JSONL de Codex.
+
+## Archivos de escritura exclusivos
+- draft2model/revision_digitizacion.py NUEVO
+- draft2model/revision_web/digitizacion.js NUEVO
+- tests/test_revision_digitizacion.py NUEVO
+- tests/digitizacion_353_frontend.cjs NUEVO
+- docs/INTERFAZ_DIGITIZACION.md NUEVO
+- seguimiento/ANTIGRAVITY_353_DIGITIZACION_INFORME.md
+- seguimiento/ANTIGRAVITY_353_DIGITIZACION_ENTREGA.json (último archivo)
+Temporales solo tmp/antigravity353/. No modificar otros archivos. Codex integra rutas/assets en revision_visual.py y no te corresponde editarlos.
+NO API/claves/ETABS/GitHub, no reiniciar servidores, no interpretar planos reales ni escribir geometría de pilotos. Usa solo fixtures sintéticas en pruebas. Codex trabaja motor de lectura de parámetros y preparacion_configuracion/UI; otro agente integra políticas de malla y es dueño revision_politicas_malla.py/politicas_malla.js. No duplicar.
+
+## Problema y propósito
+Geometría relacional actual omite contornos que sí se dibujan pero no tienen cotas para todos sus vértices. Ya existe NUEVO módulo puro draft2model/digitizacion_calibrada.py y docs/DIGITIZACION_CALIBRADA.md (24pruebas revisadas) que calcula transformación afín desde3+anclas métricas, residuos, controles independientes e incertidumbre indicativa. Su salida es siempre borrador; ninguna bandera acredita ingeniería.
+Necesitamos servicio persistente y formulario que permitan recibir/revisar propuestas de puntos normalizados sin escribir coordenadas físicas manualmente ni JSON externo. Las propuestas IA podrán ser aportadas por Codex mediante el contrato del servicio; no llames tú al proveedor ni inventes anclas. No reimplementar álgebra, reutilizar el módulo puro.
+
+## Ruta de trabajo consecutiva
+1. Lee digitizacion_calibrada.py y su guía, gestion_geometria.py, revision_superposicion.py, revision_parametros.py y contrato geométrico. Define clase ServicioDigitizacion(app) con métodos preparar(body), consultar(caso,fp,id), listar(caso,fp) y calcular(body). Prepara registro versionado de propuesta/calibración y datos geométricos de referencia desde una versión0.3 vigente del mismo expediente. Original ID/SHA/página/dibujo y región deben comprobarse contra bytes originales mediante app._original y manifiesto/revisión documental; no confiar en SHA recibido ni rutas del usuario. Geometría/cota/plano/unidad y referencias resueltas ligadas por hash exacto. Rechazar links o rutas fuera del caso, tampering, fuente/geometría cambiadas, anclas/controles de otro plano. Conserva datos sintéticos como tales y origen; no crear aprobación ni habilitar ETABS.
+
+2. Invoca calibrar_digitizacion(propuesta,fuente_vigente=...,puntos_resueltos=...). Construye registro de referencias usando coordenadas de la geometría comprobada/registro de resolución existente, NO coordenadas métricas nuevas enviadas por el navegador o IA. No atribuyas referencia documental a un punto si la geometría/lectura no la contiene. Si falta vínculo documental de puntos al dibujo, conserva pendiente explícito y nunca presentes esa ausencia como exactitud comprobada. Anclas son propuesta de correspondencia, no aprobación humana. Conserva resultado, hashes de entradas/código/versión y resumen que distinga cálculo posible y contraste en controles. No incorporar puntos automáticamente al modelo ni crear superficies/frames nuevos; la integración de contornos queda en otro paso de Codex. Aquí termina con coordenadas calculadas en BORRADOR y huella reproducible.
+
+3. Crear IIFE digitizacion.js para etapa3 D2MEtapas.containers.get('geometria'). Contexto: docs y geoRecord globales, evento d2m-geometry-opened, API api(url,body). Formularios para elegir original/página/región/dibujo/plano y tolerancias; seleccionar IDs de referencia ya resueltos y revisar ubicaciones normalizadas de anclas/controles/puntos nuevos; SIN pedir coordenadas físicas ni JSON externo. Coordenadas normalizadas son revisables, nunca metros. Distinguir panel de propuesta automática/revisión del ingeniero, explicar límites. Puede aceptar evento d2m-digitizacion-propuesta con datos estructurados de IA (define/documenta formato) para rellenar todo automáticamente y permitir correcciones en pantalla. Evita que3anclas con residual0 se presenten como verificación independiente. Botón preparar/calcular explícito; listar versiones conservadas, abrir resultado y mostrar puntos/errores/pendientes/incertidumbre de modo claro. Cambiar caso borra selección y bloquea respuestas tardías; cambiar datos invalida cálculo/huella anterior. No modificar servidor, entorno ni seguridad. Rutas a integrar por Codex: GET /api/digitizacion/historial, /api/digitizacion/registro; POST /api/digitizacion/preparar, /api/digitizacion/calcular.
+
+4. Pruebas backend con archivos/originales sintéticos reales y persistencia, fuente/geometría alterada, no aceptar métricas desde navegador, propuestas calculadas en borrador, carencia de vínculo documental visible y no verificable, naturaleza preservada. Pruebas DOM de carga automática por evento, corrección de formularios, invalidación de datos y cambio de caso. Sin suite completa ni ejecución de ETABS/API. Pruebas Windows rename/socket pueden requerir host fuera de aislamiento si tu herramienta lo permite; no relajar validación.
+
+## Decisiones de seguridad y alcance
+No basta con que coincidan dos textos de SHA; verifica bytes y cadenas mediante mecanismos existentes. No inventar rol/identidad de revisor, cotas, incertidumbre, unidades, escala, suelo ni continuidad. Los criterios/tolerancias se declaran; no son normativos. Si registro existente carece de referencias suficientes, resultado con pendiente, no fabricar referencia para pasar módulo. Puedes usar un descriptor confiable de geometría como referencia numérica, pero distingue eso de evidencia de su ubicación en un dibujo y conserva la exactitud documental como no acreditada. Ante ambigüedad elige alternativa conservadora documentada y continúa con lo independiente.
+
+## Entrega
+Escribir marcador SOLO AL FINAL con tarea='353_digitizacion_web',estado='entregado' o 'bloqueado',raiz absoluta,archivos[{ruta,sha256}],pruebas[{comando,resultado,alcance:'sintetico'}],limitaciones,apis_usadas:0,etabs_usado:false. No incluir el propio marcador en hashes. Informe<=1página, respuesta<=10líneas. Completa todos los hitos sin esperar a Codex entre ellos. Codex revisará e integrará; no tocar archivos fuera de lista.

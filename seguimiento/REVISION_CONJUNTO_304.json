@@ -1,0 +1,26 @@
+{
+  "fecha_utc": "2026-10-24T01:38:53.115259+00:00",
+  "fuentes_extraidas_597_intactas": true,
+  "verificador_desde_distribucion_instalada": true,
+  "comando": [
+    "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\validacion_distribucion_303\\.venv\\Scripts\\python.exe",
+    "scripts/verificar_entrega_aecode.py",
+    "--fuentes",
+    "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\entregas\\AECODE_RC_303",
+    "--complemento",
+    "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\entregas\\COMPLEMENTO_CORREGIDO_303",
+    "--huella-esperada",
+    "5fd73861327c0e447b87158032ffc9a69899a01c1376c736e03920f7a6e6aa1c"
+  ],
+  "codigo": 0,
+  "resultado": {
+    "estado": "integridad_verificada_no_aceptacion_funcional",
+    "huella_fuentes": "5fd73861327c0e447b87158032ffc9a69899a01c1376c736e03920f7a6e6aa1c",
+    "caso": "pueblo-libre-002",
+    "archivos_fuentes": 597,
+    "archivos_complemento": 34,
+    "aprueba_ingenieria": false
+  },
+  "funcionamiento_integral": "pendiente QA y global304",
+  "goal_completo": false
+}

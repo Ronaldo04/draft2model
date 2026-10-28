@@ -1,0 +1,15 @@
+{
+  "estado": "revisado_focal",
+  "archivos": {
+    "draft2model/compatibilidad_particiones.py": "358d2ff2dae073ad1dcd5434cf1d4d538eb03364a07cc91e4c025ae54d169519",
+    "tests/test_compatibilidad_particiones.py": "060b8eb4bfc40c514328906e063997b37c2da63b9b419a8b6412cbae1e6dabea",
+    "docs/COMPATIBILIDAD_PARTICIONES.md": "85e8e3e5e2393a514a9aa96ab9cf7daed17332cdac30397caa909156ff832287"
+  },
+  "hashes_coinciden": true,
+  "pruebas": 8,
+  "omisiones": 0,
+  "resultado": "OK",
+  "segundos": 0.717,
+  "log": "tmp/revision_compatibilidad184.log",
+  "limites": "Puro, sin motor ni cargas; integración y ensayo propios pendientes"
+}

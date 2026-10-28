@@ -1,0 +1,19 @@
+{
+  "entrega": "eac56aa9f2d64b5ab899508e3544970e",
+  "estado": "revisada_focal_incremento_sintetico",
+  "integridad": "17fuentes/12logsSHAcorrectos",
+  "prueba": "18OK35.982s,0omisiones",
+  "log": "tmp/revision_codex_212/revision_focal.log",
+  "base": "tmp/revision_codex_212/BASE_REVISION.json",
+  "evidencia_nativa_independiente": [
+    "COMPROBACION_ANALITICA_LIQUIDOS_206.json",
+    "COMPROBACION_ANALISIS_LIQUIDOS_207.json",
+    "PRECISION_REACCIONES_208.json",
+    "EQUILIBRIO_ESTRICTO_LIQUIDOS_210.json"
+  ],
+  "limitaciones": [
+    "No instalación limpia de esta copia de revisión",
+    "No QAintegral ni referencia real ni ingeniería",
+    "Caso nativo esuno; demáscasos cubiertos porpruebasde software"
+  ]
+}

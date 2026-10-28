@@ -1,0 +1,23 @@
+{
+  "fecha_utc": "2026-10-22T18:25:33.541442+00:00",
+  "casos": [
+    {
+      "caso": "numerico_texto",
+      "forma_lector": "aceptada",
+      "contraste": "coherente"
+    },
+    {
+      "caso": "booleano_no_es_masa",
+      "forma_lector": "aceptada",
+      "contraste": "coherente"
+    }
+  ],
+  "etabs": false,
+  "apis_remotas": 0,
+  "alcance": "Tipado y conversión del adaptador con un JSON sintético de una fila, no evidencia de ejecución nativa",
+  "hallazgo": "float(True) convierte booleano a masa1 antes de llegar al validador estricto; no debe aceptarse como masa tipada",
+  "fuentes": {
+    "draft2model/libro_masa.py": "d32baa3633e117a7e33383fa45fbcc61d58a4fdc888e211b8803364bc3310b3e",
+    "draft2model/lectura_analisis.py": "c93715a1ae3da83f84253b89d1c948ec86d3f32f42598a151c1901ce39e9f20d"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "fecha_utc": "2026-10-24T22:38:45+00:00",
+  "anterior": "seguimiento/RETOMAR_CODEX_346.json",
+  "goal_completo": false,
+  "interfaz": {
+    "url": "http://127.0.0.1:18346/",
+    "expediente_abierto": "vivienda-unifamiliar-003",
+    "version": "347 (reconstrucción con gpt-6.1-sol, recuperación local, declaración trazable de unidad y frames propuestos en visor 3D)"
+  },
+  "reconstruccion_347": {
+    "archivos_actualizados": [
+      "draft2model/reconstruccion_automatica.py",
+      "draft2model/revision_reconstruccion.py",
+      "draft2model/revision_visual.py",
+      "draft2model/revision_web/reconstruccion.js",
+      "draft2model/revision_web/modelo_3d.js",
+      "tests/test_reconstruccion_automatica.py",
+      "tests/test_revision_reconstruccion.py",
+      "tests/revision_reconstruccion_345_frontend.cjs"
+    ],
+    "trabajo_recuperado_gpt54": {
+      "id": "c2b5a75b9f2643f0b9bcf23a18212b14",
+      "modelo": "gpt-5.4",
+      "estado": "terminado_con_faltantes",
+      "conflictos_detectados": 21
+    },
+    "trabajo_nuevo_gpt61sol": {
+      "id": "ec9ddc49ee79431ba9d70ccc63229a53",
+      "caso": "vivienda-unifamiliar-003",
+      "modelo": "gpt-6.1-sol",
+      "estado": "terminado_con_faltantes",
+      "duracion_segundos": 129.25,
+      "uso_tokens": {
+        "input_tokens": 31322,
+        "output_tokens": 10139,
+        "reasoning_tokens": 2471,
+        "total_tokens": 41461
+      },
+      "resumen": {
+        "origen_local": "A2_N1",
+        "niveles": 6,
+        "puntos": 29,
+        "puntos_desconectados": 0,
+        "medidas": 6,
+        "alineaciones": 32,
+        "elementos_validos": 49,
+        "elementos_totales": 49,
+        "elementos_incompletos": [],
+        "conflictos_detectados": 0,
+        "bloqueos_coordenadas": 1,
+        "unico_bloqueo_coordenadas": "Falta una unidad de longitud respaldada por el plano."
+      }
+    },
+    "cuota_openai": {
+      "usadas": 7,
+      "limite_autorizado": 10,
+      "restantes": 3
+    }
+  },
+  "publicacion_github_347": {
+    "carpeta_limpia": "entregas/publicacion_github_346/proyecto",
+    "repositorio_destino": "https://github.com/Ronaldo04/draft2model.git",
+    "estado": "copia limpia sincronizada y verificada; pendiente login OAuth en Git Credential Manager de Windows para clonar/subir rama"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "estado": "evidencia_contrastada",
+  "copia": "tmp/c201b",
+  "fuentes_hash_coincidentes": 660,
+  "sin_fuentes_privadas": true,
+  "comprobaciones": [
+    {
+      "nombre": "dependencias",
+      "codigo": 0,
+      "sha256_log": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+      "resumen_test": []
+    },
+    {
+      "nombre": "arranque_cli",
+      "codigo": 0,
+      "sha256_log": "6b5c1c5d47d8e13befa2a8151db23bab9e6ec98029c81b5c72df57803f01c4e9",
+      "resumen_test": []
+    },
+    {
+      "nombre": "powershell_scripts",
+      "codigo": 0,
+      "sha256_log": "926cd16db94f6e4035e6b5f41c7e93e107e456a274ad77e1ed1c26bdd2b3882f",
+      "resumen_test": [
+        "OK"
+      ]
+    },
+    {
+      "nombre": "suite",
+      "codigo": 0,
+      "sha256_log": "3e55bb0d6170931c8b208f6909a7322b0f6a08139a210742f449c74616db0d24",
+      "resumen_test": [
+        "OK",
+        "Ran 1160 tests in 729.861s",
+        "OK"
+      ]
+    },
+    {
+      "nombre": "interfaz",
+      "codigo": 0,
+      "sha256_log": "bfd452de9807b364fb01ca08e0a648a4519f3f79932253207842b6c585e1bddf",
+      "resumen_test": [
+        "OK",
+        "OK",
+        "OK"
+      ]
+    }
+  ],
+  "limites": [
+    "No reejecuté la suite completa: se inspeccionaron fuentes y logs de la ejecución conservada.",
+    "No acredita ETABS ni visión real en esa copia ni piloto.",
+    "Cambio posterior de redacción en UI declarado por Claude requiere contraste separado.",
+    "Comprobaciones de evidencia temporal se trasladaron a scriptoperativo; no atribuirlas a la suiteportable."
+  ]
+}

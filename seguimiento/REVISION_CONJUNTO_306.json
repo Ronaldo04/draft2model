@@ -1,0 +1,13 @@
+{
+  "fecha_utc": "2026-10-24T02:25:09.573280+00:00",
+  "codigo": 0,
+  "verificador": "tmp/validacion_distribucion_306/fuentes/scripts/verificar_entrega_aecode.py",
+  "python": "entorno offline303",
+  "fuentes": "entregas/AECODE_RC_306",
+  "complemento": "entregas/COMPLEMENTO_CORREGIDO_303",
+  "huella_fuentes": "105d172afa510864e7487b7721f31e369467c49c2a2f67d310efa44f169ccd79",
+  "archivos_fuentes": 599,
+  "archivos_complemento": 34,
+  "estado": "integridad_verificada_no_aceptacion_funcional",
+  "goal_completo": false
+}

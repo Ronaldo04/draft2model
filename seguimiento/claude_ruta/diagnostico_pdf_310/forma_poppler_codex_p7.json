@@ -1,0 +1,540 @@
+{
+ "pdf": "tmp/recorrido_09d3/resultados/informe/informe.pdf",
+ "render": "tmp/pdfs/revision_310/poppler-7.png",
+ "pagina": 7,
+ "dpi": 96,
+ "lineas": 37,
+ "iou_min": 0.455,
+ "sospechosas": [
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 5",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 5",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 5",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 5",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 5",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 5",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Draft2Model | Informe preliminar | 7 / 8",
+   "iou_4_primeros": [
+    0.95,
+    0.455,
+    0.812,
+    0.8
+   ],
+   "primera_tinta_ref_px": 57,
+   "primera_tinta_obj_px": 57,
+   "desplazamiento_px": 0
+  }
+ ],
+ "filas": [
+  {
+   "texto": "DERIVA-S1-ALB-SX / SX / X / N3",
+   "iou_4_primeros": [
+    1.0,
+    0.966,
+    0.952,
+    0.957
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Estado: evaluado; entrada: 0.001402 1; e",
+   "iou_4_primeros": [
+    1.0,
+    0.81,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fórmula: 4.5 * x + 0.0; satisfacción de ",
+   "iou_4_primeros": [
+    1.0,
+    0.852,
+    0.933,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fuente de regla DECLARADA: Norma E.030 D",
+   "iou_4_primeros": [
+    1.0,
+    0.895,
+    0.793,
+    0.9
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 5",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "normativa_229/E030_RM183_2026.txt. Págin",
+   "iou_4_primeros": [
+    1.0,
+    0.958,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "DERIVA-S1-ALB-SX / SX / X / N4",
+   "iou_4_primeros": [
+    1.0,
+    0.966,
+    0.952,
+    0.957
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Estado: evaluado; entrada: 0.000145 1; e",
+   "iou_4_primeros": [
+    1.0,
+    0.81,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fórmula: 4.5 * x + 0.0; satisfacción de ",
+   "iou_4_primeros": [
+    1.0,
+    0.852,
+    0.933,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fuente de regla DECLARADA: Norma E.030 D",
+   "iou_4_primeros": [
+    1.0,
+    0.895,
+    0.793,
+    0.9
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 5",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "normativa_229/E030_RM183_2026.txt. Págin",
+   "iou_4_primeros": [
+    1.0,
+    0.958,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "DERIVA-S1-ALB-SY / SY / Y / N1",
+   "iou_4_primeros": [
+    1.0,
+    0.966,
+    0.952,
+    0.957
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Estado: evaluado; entrada: 0.002029 1; e",
+   "iou_4_primeros": [
+    1.0,
+    0.81,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fórmula: 4.5 * x + 0.0; satisfacción de ",
+   "iou_4_primeros": [
+    1.0,
+    0.852,
+    0.933,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fuente de regla DECLARADA: Norma E.030 D",
+   "iou_4_primeros": [
+    1.0,
+    0.895,
+    0.793,
+    0.9
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 5",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "normativa_229/E030_RM183_2026.txt. Págin",
+   "iou_4_primeros": [
+    1.0,
+    0.958,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "DERIVA-S1-ALB-SY / SY / Y / N2",
+   "iou_4_primeros": [
+    1.0,
+    0.966,
+    0.952,
+    0.957
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Estado: evaluado; entrada: 0.004786 1; e",
+   "iou_4_primeros": [
+    1.0,
+    0.81,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fórmula: 4.5 * x + 0.0; satisfacción de ",
+   "iou_4_primeros": [
+    1.0,
+    0.852,
+    0.933,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fuente de regla DECLARADA: Norma E.030 D",
+   "iou_4_primeros": [
+    1.0,
+    0.895,
+    0.793,
+    0.9
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 5",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "normativa_229/E030_RM183_2026.txt. Págin",
+   "iou_4_primeros": [
+    1.0,
+    0.958,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "DERIVA-S1-ALB-SY / SY / Y / N3",
+   "iou_4_primeros": [
+    1.0,
+    0.966,
+    0.952,
+    0.957
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Estado: evaluado; entrada: 0.005976 1; e",
+   "iou_4_primeros": [
+    1.0,
+    0.81,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fórmula: 4.5 * x + 0.0; satisfacción de ",
+   "iou_4_primeros": [
+    1.0,
+    0.852,
+    0.933,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fuente de regla DECLARADA: Norma E.030 D",
+   "iou_4_primeros": [
+    1.0,
+    0.895,
+    0.793,
+    0.9
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 5",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "normativa_229/E030_RM183_2026.txt. Págin",
+   "iou_4_primeros": [
+    1.0,
+    0.958,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "DERIVA-S1-ALB-SY / SY / Y / N4",
+   "iou_4_primeros": [
+    1.0,
+    0.966,
+    0.952,
+    0.957
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Estado: evaluado; entrada: 0.000548 1; e",
+   "iou_4_primeros": [
+    1.0,
+    0.81,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fórmula: 4.5 * x + 0.0; satisfacción de ",
+   "iou_4_primeros": [
+    1.0,
+    0.852,
+    0.933,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Fuente de regla DECLARADA: Norma E.030 D",
+   "iou_4_primeros": [
+    1.0,
+    0.895,
+    0.793,
+    0.9
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Peruano, 2026-05-03) · Apartado: Arts. 5",
+   "iou_4_primeros": [
+    1.0,
+    0.792,
+    0.462,
+    1.0
+   ],
+   "primera_tinta_ref_px": 71,
+   "primera_tinta_obj_px": 71,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "normativa_229/E030_RM183_2026.txt. Págin",
+   "iou_4_primeros": [
+    1.0,
+    0.958,
+    1.0,
+    1.0
+   ],
+   "primera_tinta_ref_px": 70,
+   "primera_tinta_obj_px": 70,
+   "desplazamiento_px": 0
+  },
+  {
+   "texto": "Draft2Model | Informe preliminar | 7 / 8",
+   "iou_4_primeros": [
+    0.95,
+    0.455,
+    0.812,
+    0.8
+   ],
+   "primera_tinta_ref_px": 57,
+   "primera_tinta_obj_px": 57,
+   "desplazamiento_px": 0
+  }
+ ]
+}

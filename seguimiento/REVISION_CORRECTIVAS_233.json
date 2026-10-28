@@ -1,0 +1,50 @@
+{
+  "estado": "incremento_revisado_con_limites",
+  "entregas": [
+    "900585f146cf4335aed45768d8bc6747",
+    "e96facbfa6d84161b3be7aafcf02e828"
+  ],
+  "integridad": "seguimiento/INTEGRIDAD_CORRECTIVAS_233.json",
+  "focal_codex": "15 Python OK2.425s y Node de lecturas semánticas OK sobre tmp/revision_codex_233 congelada",
+  "logs_c207_contrastados": [
+    {
+      "nombre": "dependencias",
+      "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+      "resumen": []
+    },
+    {
+      "nombre": "arranque_cli",
+      "sha256": "0f72f3849258186e7dcc67cb5d5c6a1e90727190980f900ff2ee88dd20110d1f",
+      "resumen": []
+    },
+    {
+      "nombre": "powershell_scripts",
+      "sha256": "926cd16db94f6e4035e6b5f41c7e93e107e456a274ad77e1ed1c26bdd2b3882f",
+      "resumen": []
+    },
+    {
+      "nombre": "suite",
+      "sha256": "dc4832b3eb3be15eaebc61305db6c48e373b86eaf6d5b4ccd2d906a6f9d136e9",
+      "resumen": [
+        "Ran 1175 tests in 921.194s",
+        "OK"
+      ]
+    },
+    {
+      "nombre": "interfaz",
+      "sha256": "a9350da1e9f048cb1948120b21fd04cae75f0e70e984572dadc9481368d571fb",
+      "resumen": [
+        "# tests 31",
+        "# fail 0",
+        "# skipped 0"
+      ]
+    }
+  ],
+  "resuelto": "Snapshot06 contiene los3archivos de código legítimos previamente excluidos.",
+  "pendientes": [
+    "R232: corregir región manteniendo valor pendiente.",
+    "08 con arquitectura y aplicaciónRNEvigente.",
+    "Recorrido nativo/informe completo delcasoreal no acreditado."
+  ],
+  "goal_completo": false
+}

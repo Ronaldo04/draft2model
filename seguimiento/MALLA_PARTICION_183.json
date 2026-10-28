@@ -1,0 +1,402 @@
+{
+  "estado": "ensayo_real_geometria_intrahost_verificada",
+  "datos_sinteticos": true,
+  "instancia_propia": [
+    36380
+  ],
+  "cierre_confirmado": true,
+  "error_motor": null,
+  "solver_ejecutado": false,
+  "escenarios": [
+    {
+      "caso": "piso",
+      "elementos_host": 34,
+      "elementos_abertura": 0,
+      "objetos_con_lectura_fallida": [],
+      "area_host_m2": 11.0,
+      "area_neta_esperada_m2": 11,
+      "area_host_dentro_hueco_m2": 0.0,
+      "elementos": [
+        {
+          "elemento": "CELDA1-1",
+          "area_m2": 0.16666666666666663,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA1-2",
+          "area_m2": 0.8333333333333334,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA1-3",
+          "area_m2": 0.5,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA2-1",
+          "area_m2": 0.08333333333333337,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA2-2",
+          "area_m2": 0.16666666666666663,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA2-3",
+          "area_m2": 0.16666666666666663,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA2-4",
+          "area_m2": 0.08333333333333337,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA3-1",
+          "area_m2": 0.125,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA3-2",
+          "area_m2": 0.25,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA3-3",
+          "area_m2": 0.125,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA4-1",
+          "area_m2": 0.25,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA4-2",
+          "area_m2": 0.25,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA5-1",
+          "area_m2": 0.25,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA5-2",
+          "area_m2": 0.25,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA6-1",
+          "area_m2": 0.25,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA6-2",
+          "area_m2": 0.25,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA7-1",
+          "area_m2": 0.25,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA7-2",
+          "area_m2": 0.25,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA8-1",
+          "area_m2": 0.25,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA8-2",
+          "area_m2": 0.25,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA9-1",
+          "area_m2": 0.75,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA9-2",
+          "area_m2": 0.25,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA10-1",
+          "area_m2": 0.3333333333333335,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA10-2",
+          "area_m2": 0.9000000000000001,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA10-3",
+          "area_m2": 0.9000000000000001,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA10-4",
+          "area_m2": 0.30000000000000004,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA10-5",
+          "area_m2": 0.2666666666666666,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA10-6",
+          "area_m2": 0.2999999999999998,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA11-1",
+          "area_m2": 0.75,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA11-2",
+          "area_m2": 0.25,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA12-1",
+          "area_m2": 0.16666666666666607,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA12-2",
+          "area_m2": 0.16666666666666652,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA12-3",
+          "area_m2": 0.3333333333333337,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA12-4",
+          "area_m2": 0.3333333333333335,
+          "interseccion_hueco_m2": 0.0
+        }
+      ],
+      "topologia": {
+        "nodos": 29,
+        "coordenadas_con_varios_nombres": [],
+        "aristas_sin_pareja_interior": [],
+        "aristas_repetidas": [],
+        "nodos_colgantes": [],
+        "elementos_invertidos": [],
+        "elementos_no_convexos": [],
+        "solapes": [],
+        "conformidad_geometrica_comprobada": true
+      },
+      "puntos_fuera_plano": [],
+      "criterios_geometricos_necesarios": true
+    },
+    {
+      "caso": "muro",
+      "elementos_host": 12,
+      "elementos_abertura": 0,
+      "objetos_con_lectura_fallida": [],
+      "area_host_m2": 11.0,
+      "area_neta_esperada_m2": 11,
+      "area_host_dentro_hueco_m2": 0.0,
+      "elementos": [
+        {
+          "elemento": "CELDA1",
+          "area_m2": 1.5,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA2",
+          "area_m2": 0.5,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA3",
+          "area_m2": 0.5,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA4",
+          "area_m2": 0.5,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA5",
+          "area_m2": 0.5,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA6",
+          "area_m2": 0.5,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA7",
+          "area_m2": 0.5,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA8",
+          "area_m2": 0.5,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA9",
+          "area_m2": 1.0,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA10",
+          "area_m2": 3.0,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA11",
+          "area_m2": 1.0,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA12",
+          "area_m2": 1.0,
+          "interseccion_hueco_m2": 0.0
+        }
+      ],
+      "topologia": {
+        "nodos": 12,
+        "coordenadas_con_varios_nombres": [],
+        "aristas_sin_pareja_interior": [],
+        "aristas_repetidas": [],
+        "nodos_colgantes": [],
+        "elementos_invertidos": [],
+        "elementos_no_convexos": [],
+        "solapes": [],
+        "conformidad_geometrica_comprobada": true
+      },
+      "puntos_fuera_plano": [],
+      "criterios_geometricos_necesarios": true
+    },
+    {
+      "caso": "inclinado",
+      "elementos_host": 12,
+      "elementos_abertura": 0,
+      "objetos_con_lectura_fallida": [],
+      "area_host_m2": 15.556349186104047,
+      "area_neta_esperada_m2": 15.556349186104047,
+      "area_host_dentro_hueco_m2": 0.0,
+      "elementos": [
+        {
+          "elemento": "CELDA1",
+          "area_m2": 2.121320343559643,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA2",
+          "area_m2": 0.7071067811865476,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA3",
+          "area_m2": 0.7071067811865476,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA4",
+          "area_m2": 0.7071067811865476,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA5",
+          "area_m2": 0.7071067811865476,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA6",
+          "area_m2": 0.7071067811865476,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA7",
+          "area_m2": 0.7071067811865476,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA8",
+          "area_m2": 0.7071067811865476,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA9",
+          "area_m2": 1.4142135623730951,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA10",
+          "area_m2": 4.242640687119286,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA11",
+          "area_m2": 1.4142135623730951,
+          "interseccion_hueco_m2": 0.0
+        },
+        {
+          "elemento": "CELDA12",
+          "area_m2": 1.4142135623730951,
+          "interseccion_hueco_m2": 0.0
+        }
+      ],
+      "topologia": {
+        "nodos": 12,
+        "coordenadas_con_varios_nombres": [],
+        "aristas_sin_pareja_interior": [],
+        "aristas_repetidas": [],
+        "nodos_colgantes": [],
+        "elementos_invertidos": [],
+        "elementos_no_convexos": [],
+        "solapes": [],
+        "conformidad_geometrica_comprobada": true
+      },
+      "puntos_fuera_plano": [],
+      "criterios_geometricos_necesarios": true
+    }
+  ],
+  "pruebas": {
+    "cantidad": 6,
+    "resultado": "OK",
+    "segundos": 0.419,
+    "log": "tmp/diagnostico_malla183.log"
+  },
+  "archivos_sha256": {
+    "draft2model/triangulacion_particiones.py": "e232f144bfd4b3201a7b3617e51825619e0e8f78c8c00b0a437d934cab4432ee",
+    "tests/test_triangulacion_particiones.py": "489e7c8eb601c878835bad2d2000c7aa612bc0ecf6561857915b78c1d8c5bcd6",
+    "tests/test_evaluacion_malla.py": "df37bcc79ad3f2adfce49d89a51f3854db7df9788d149dd179313a9b0bb8154d",
+    "scripts/ensayar_malla_aberturas_etabs.ps1": "b508c8fb486da6f1916d547bfaeef726b259202ab181a699e7e353a20e5613d1",
+    "scripts/evaluar_malla_aberturas_etabs.py": "3059f29627fec2af91728a5e3a4f208aab2ec3b5408a292aafb2a85afb15ed97",
+    "docs/TRIANGULACION_PARTICIONES.md": "c1218efc3b734f708f9280d5a426689adfeaa25f5b00983fc2d8c4269ea47b10",
+    "tmp/triangulaciones183.json": "93daec54df5302ffd7fe040acf6583028a3ba9ee481b52b99f21f729f159b3d3",
+    "tmp/particion183/registro.json": "508cec27c061385d748d83b8ea7c14c45a353bf66e30ce95f36d5ce6cf874eb1",
+    "tmp/particion183/evaluacion_geometrica_completa.json": "a34c42ec80efd843a8082bb78963e39af358ac6bf23ac97febb32dc0bf5e5d75",
+    "tmp/diagnostico_malla183.log": "fabb187111a723f4982f6c0096eccbe0faf23c52306a69a589f27eee7cc2fda4",
+    "tmp/particion183/piso.edb": "e635c66549d85659b6f73ee4bd5279dbdc489922c3b11f1e782f86fca6a7fa5f",
+    "tmp/particion183/muro.edb": "9427e97d193822d71b7d4f35da08477bea533ec828d6dc2839ccd30dabbd0075",
+    "tmp/particion183/inclinado.edb": "a2b0fb5eb09a249b65ef819acae8c377ecd68cd31223a53c9eb4c5a38f19dd27"
+  },
+  "wrn_observados": [],
+  "limites": [
+    "Solo geometría intrahost sintética, no ingeniería ni calidad de malla",
+    "Sin solver, cargas, interhost ni frames",
+    "No habilita producción; integración184 pendiente"
+  ],
+  "llamadas_api_proveedores": 0
+}

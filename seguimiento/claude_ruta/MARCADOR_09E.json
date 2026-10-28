@@ -1,0 +1,30 @@
+{
+  "tarea": "encargo_09_hito_09E",
+  "estado": "documentado_pendiente_revision_codex",
+  "fecha": "2026-10-22",
+  "geometria": "3905c919e83848269a931855504fe547",
+  "entregas": "sin cambios de producto desde 09D (04-5b8365a8…, 06-cd20a685…)",
+  "hashes": {
+    "seguimiento/claude_ruta/INFORME_09.md": "7b03aafc65e373eff922c424c599a74d26284602373827f2cb753d322307cd06",
+    "seguimiento/claude_ruta/estado.json": "97895ef6abe441a427a137db8f2e33e500271d0df3827bb75460e6f512af686c",
+    "seguimiento/claude_ruta/geometria_09c.py": "ea6bf80afc70ab34c1bbcf62ce87d17d142b9c3332a03d98d40d057bca0d8bef",
+    "seguimiento/claude_ruta/GEOMETRIA_09C.json": "5b6fb84f6635b35f63b390ec10f4c9e76c00e29e023a10657f64f6ac8adfaa21",
+    "seguimiento/claude_ruta/configuracion_09c.py": "ba4e9d5ed152b44412f27656f4f0e8848ba0ee524656c1d56d58dcd56e488b03",
+    "seguimiento/claude_ruta/CONFIGURACION_CASO_09C.json": "384aca5941d64bac9fb43fda00a4b7ed11f59487aaf4435cd4d8fa0a85160dc9",
+    "seguimiento/claude_ruta/DEPOSITOS_09C.json": "f622706e621df9ceea679755c18277b0e068f8a88c8bd6b153005ad9db7f74b6",
+    "seguimiento/claude_ruta/escenarios_sismicos_09.py": "002d91014eaab68bea22250e7391a97c7fcd650bc3d9eeb624d04bd52132d394",
+    "seguimiento/claude_ruta/ESCENARIOS_SISMICOS_09.json": "c6b73eab527b9cdb749cb170e66139e19e8cbe2344a47d434173e728e9cc8428",
+    "seguimiento/claude_ruta/evidencia09/geometria09c_alzado.png": "75b5a238a529561f69d38badbb4b13c096265e3f86f391481c595513065b50cd",
+    "tmp/ruta201/configuracion09c.json": "b1b304e4347bf8da996f7d1606827fd8703191a6f028e6fb450b58c29ac0c6bc",
+    "tmp/ruta201/malla_real_09c.json": "a58aab358455dc86ddf45d873a9fbacdf1314fdfe602dbf3622d42b3f2b4ef52",
+    "data/private/pueblo-libre-002/geometrias/3905c919e83848269a931855504fe547/geometria.json": "249401dbcdd7a92c2f14bf145e211961c7d90d783fb510cb96f68407ab7b4c9d"
+  },
+  "no_declara": [
+    "cierre del encargo 09",
+    "aprobación de ingeniería",
+    "todos los técnicos resueltos (escalera no modelada)",
+    "suelo real",
+    "nivel operativo de agua"
+  ],
+  "apis_ejecutadas_por_claude": 0
+}

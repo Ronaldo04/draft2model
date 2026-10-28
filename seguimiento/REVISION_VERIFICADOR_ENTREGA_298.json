@@ -1,0 +1,15 @@
+{
+  "fecha_utc": "2026-10-23T21:28:18.159298+00:00",
+  "pruebas_focales": "9/9 OK0.418s",
+  "ensayo_archivos_reales_historicos": {
+    "estado": "integridad_verificada_no_aceptacion_funcional",
+    "huella_fuentes": "6edc3b423f62984b309aa348ab0343becb48d22fb27f20ba35db831b15cb31da",
+    "caso": "pueblo-libre-002",
+    "archivos_fuentes": 577,
+    "archivos_complemento": 34,
+    "aprueba_ingenieria": false
+  },
+  "comprueba": "ZIP externo, miembros y ZIP del caso; fuentes esperadas; mismo caso/resultado/analisis/modelo; SHA del EDB archivado igual al analizado y leido. No autentica al autor ni acredita aceptación funcional.",
+  "nota": "Candidatos históricos267/291; no distribución final.",
+  "goal_completo": false
+}

@@ -1,0 +1,8 @@
+{
+  "etapa": "03",
+  "entrega": "3d77e1cfec3b432cb27d7bc7caf255b7",
+  "estado": "revisada_con_limites",
+  "conclusion": "9 pruebas focales OK en copia congelada tmp/revision_codex_214, 5.142s. Integridad de 15 fuentes y 7 logs comprobada. Matriz distingue evidencia sintética. No se acredita piloto ni se revalida aquí el ensayo nativo r3.",
+  "goal_completo": false,
+  "integridad": "seguimiento/INTEGRIDAD_ENTREGAS_214.json"
+}

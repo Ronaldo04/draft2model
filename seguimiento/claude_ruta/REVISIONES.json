@@ -1,0 +1,636 @@
+{
+  "revisadas": [
+    "44de5008dc8747c2a0e8a7fba0671eab",
+    "eac56aa9f2d64b5ab899508e3544970e",
+    "3d77e1cfec3b432cb27d7bc7caf255b7",
+    "a889275a312449dc8ba28db6338e3983",
+    "1fe803815b054933a90e66daadacbf5e",
+    "a0292ab2b8154a109c9b19bbd38191c4",
+    "900585f146cf4335aed45768d8bc6747",
+    "e96facbfa6d84161b3be7aafcf02e828",
+    "d3de8e4b14fa4ccbbbe7931f0f983c34",
+    "c54f77043471420fac2dc2a30cee5749",
+    "2f1d24d2ad4b4cdfa4ff49f12299268e",
+    "f6bf94ddfcfa4e82a2c65a00ead643ea",
+    "1da89b0ce9d042a9a19ad1d7c320a289",
+    "dd25d50b73964115939212915084f78d",
+    "26f220ab94c540b1abb7b8263ba44d10",
+    "5b8365a8989f4fb7bc6574a730de2596",
+    "cd20a685e89b42b1888d5ec1d83d8095",
+    "85895489a41a416593c2195f65f542dc",
+    "05696cd0914e4ff6a988540001e35c67",
+    "b6d886c5244b4eb68307ff4f60284620",
+    "cbfdd04193974a83a6849657ece30b26"
+  ],
+  "observaciones": [
+    {
+      "id": "R202-01",
+      "prioridad": "P2",
+      "etapas": [
+        "03",
+        "05",
+        "06"
+      ],
+      "hallazgo": "La documentación marcada vigente conserva inventarios históricos como actuales: contrato geométrico0.1, módulos ya integrados como en desarrollo y copia100 como última amplia, mientras README menciona146/148.",
+      "fuentes": [
+        "docs/CONTEXTO_PROYECTO.md:48",
+        "docs/CONTEXTO_PROYECTO.md:54",
+        "docs/CONTEXTO_PROYECTO.md:63",
+        "README.md:36"
+      ],
+      "criterio_aceptacion": "Actualizar matriz/guía/contexto con evidencia por versión y fecha; conservar fallos históricos como históricos y no atribuir850tests antiguos al árbol actual. No eliminar requisitos para hacer coincidir documentos."
+    },
+    {
+      "id": "R202-02",
+      "prioridad": "P1",
+      "etapas": [
+        "03",
+        "04",
+        "06"
+      ],
+      "hallazgo": "La matriz y contexto tratan comparación manual como condición de cierre inmediato. El usuario la aplazó hasta que entreguemos nuestros resultados finales y retiene ese modelo.",
+      "fuentes": [
+        "docs/CONTEXTO_PROYECTO.md:69",
+        "docs/MATRIZ_CIERRE_VIGENTE.md"
+      ],
+      "criterio_aceptacion": "Distinguir piloto real actual y comparación manual aplazada por el usuario; no usar ese modelo como guía ni pedirlo para desbloquear infraestructura. No afirmar generalización a albañilería de1-2niveles solo por funcionar otra referencia."
+    },
+    {
+      "id": "R202-03",
+      "prioridad": "P2",
+      "etapas": [
+        "03",
+        "05"
+      ],
+      "hallazgo": "README ofrece proveedores compatible/Gemini como en implementación; el recorrido autorizado actual es soloGoogle/OpenAI. UI antigua aún mostrabaAnthropic/compatible aunque gate limita llamadas.",
+      "fuentes": [
+        "README.md:33",
+        "seguimiento/claude_ruta/03_INTEGRACION_REFERENCIA.md"
+      ],
+      "criterio_aceptacion": "Documentar soloGoogle/OpenAI como operativos autorizados, coherenciaUI/CLI/gate, preservar lectura de datos históricos sin habilitar proveedor extra; explicar ningunaAPI adicional requerida paraETABS local."
+    },
+    {
+      "id": "R202-04",
+      "prioridad": "coordinacion",
+      "etapas": [
+        "01",
+        "03",
+        "05"
+      ],
+      "hallazgo": "La ruta no enumeraba archivos raíz necesarios para guía/instalación. Se amplía propiedad explícitamente sin necesidad de nuevo mensaje.",
+      "archivos_autorizados": [
+        "README.md",
+        "requirements.txt",
+        "requirements-win-py310.lock",
+        "Abrir revision de planos.cmd",
+        "Abrir control de avance.cmd"
+      ],
+      "criterio_aceptacion": "Puedes modificar esos archivos y conservarlos en snapshots; sonda de revisión ya los admite. No tocar claves ni otros privados."
+    },
+    {
+      "id": "R203-01",
+      "prioridad": "P2",
+      "etapas": [
+        "02",
+        "03",
+        "05"
+      ],
+      "hallazgo": "Etapa01: configuracion.js acepta una respuesta 0.4 sin huella_configuracion. Contraejemplo independiente sobre el snapshot: al omitir la huella sigue mostrando la preparación. La prueba de huella distinta sí pasa.",
+      "criterio_aceptacion": "Para contratos de malla exigir huella_configuracion válida e igual a la abierta; rechazar ausencia/null/tipo incorrecto y conservar comprobación contra respuestas tardías. Añadir regresión negativa.",
+      "evidencia": "tmp/revision_codex_203/huella_ausente.log"
+    },
+    {
+      "id": "R203-02",
+      "prioridad": "P2",
+      "etapas": [
+        "05"
+      ],
+      "hallazgo": "crear_entrega_ruta.py no admite README.md ni lanzadores raíz autorizados; admite cualquier prefijo requirements. Alinear lista explícita con ruta/sonda. La entrega01 real se dejó en entregas/ raíz; Codex adaptó monitor a ambos destinos seguros sin modificar manifiestos.",
+      "criterio_aceptacion": "Aceptar archivos raíz explícitos de R202-04 y rechazar otros; fijar campos reservados también en API crear, no solo CLI. Conservar snapshots existentes."
+    },
+    {
+      "id": "R204-01",
+      "prioridad": "P1",
+      "etapas": [
+        "03",
+        "04",
+        "06"
+      ],
+      "hallazgo": "Consulta del usuario sobre normativa y entradas: Codex dejó documento referencial transparente en seguimiento/REFERENCIA_NORMATIVA_Y_ENTRADAS_204.md. Evaluador genérico y corpus revisable no acreditan adaptación integral RNE. No se acreditó corpus/reglas reales aplicados al piloto; matriz vigente ya exige seleccionar fuentes y reglas reales.",
+      "criterio_aceptacion": "Conservar en matriz requisito→entrada→implementación→evidencia el alcance normativo real. Identificar normas/ediciones/artículos y parámetros efectivamente usados; no llamar cumplimiento E.020/E.030/E.050/E.060/E.070 al soporte genérico. Revisar modificatorias E.030 de2026 y su aplicabilidad antes de adoptar textos antiguos. Documento204 es referencia personal del usuario, no orden de añadir diseño universal ni autorización para inventar criterios técnicos."
+    },
+    {
+      "id": "R205-01",
+      "prioridad": "evidencia",
+      "etapas": [
+        "04"
+      ],
+      "hallazgo": "Codex volvió a validar el paquete real135 con cargar_paquete: 10 imágenes,25 referencias de fuente, huellas e integridad geométrica vinculada aceptadas; expediente sin cambios. No API/no ETABS.",
+      "evidencia": "seguimiento/REVISION_PAQUETE_REFERENCIA_205.json",
+      "criterio_aceptacion": "Usar esta evidencia solo para integridad/preparación. No acredita legibilidad semántica ni extracción ni parámetros de ingeniería. Piloto real y sus autorizaciones siguen pendientes."
+    },
+    {
+      "id": "R206-01",
+      "prioridad": "evidencia",
+      "etapas": [
+        "02",
+        "06"
+      ],
+      "hallazgo": "Codex comprobó independientemente el ensayo l2 ya guardado: geometría exacta por SHA; integral racional rectángulo menos abertura F=[53.8,0,0]kN y M=[0,25.593333333333334,-135.725]kN·m coincide con la carga fuente reportada. Respuesta de relectura real coincide por SHA con el resultado, informa instancia cerrada y SHAantes=después=modelo guardado, cobertura líquidos completa sin discrepancias/incompletos.",
+      "evidencia": "seguimiento/COMPROBACION_ANALITICA_LIQUIDOS_206.json",
+      "criterio_aceptacion": "Evidencia parcial, no aceptación02 ni piloto. Conservé bytes observados en tmp/revision_codex_206. Falta contrastar reacciones del solver y el resto de casos/recorrido. No repetir nativo solo por esta revisión."
+    },
+    {
+      "id": "R207-01",
+      "prioridad": "P2",
+      "etapas": [
+        "02",
+        "05"
+      ],
+      "hallazgo": "Revisión de scripts/ensayar_plan_liquidos.py: main/reanudar retornan0 aunque las fases registren error/no_comparable/residuo_excede. El primer l2 terminóexit0 antes de incorporar lectura de reacciones al script actualizado. No usar exit0 como aceptación del recorrido.",
+      "criterio_aceptacion": "Resultado global explícito y salida no-cero si falla una fase obligatoria o falta equilibrio; conservar registros detallados y fuentes anteriores. No repetir construcción si basta lectura de corrida válida.",
+      "evidencia": "tmp/ruta201/ensayo_l2.log y scripts/ensayar_plan_liquidos.py main/reanudar"
+    },
+    {
+      "id": "R207-02",
+      "prioridad": "evidencia",
+      "etapas": [
+        "02",
+        "06"
+      ],
+      "hallazgo": "Codex contrastó aceptación/respuesta/EDB/LOG de la corrida l2 b7c7159d194240f4844a404fc720a6b8: entrada46c298..., EDBanalizado5a386b..., EST/CHIDRO estadoCSI4, sintético y aprueba_resultadosfalse. Evidencia parcial de terminación, no equilibrio.",
+      "evidencia": "seguimiento/COMPROBACION_ANALISIS_LIQUIDOS_207.json",
+      "criterio_aceptacion": "Conservar evidencia y completar contraste de reacciones sin confundirCSI4 con revisión normativa o piloto."
+    },
+    {
+      "id": "R208-01",
+      "prioridad": "P1",
+      "etapas": [
+        "02"
+      ],
+      "hallazgo": "Relectura nativa nueva ca905c66e68848e6a17e94bd5a0f03a1: Base Reactions CHIDRO en kN_m_C devuelve MY=-25.5933, esperado=-25.593333333333334. Residuo3.3333333e-5 excede umbralcomputacional2.5593333e-6. Compatible con redondeo de GetTableForDisplayArray, no equilibrio demostrado.",
+      "criterio_aceptacion": "Preservar lectura y fallo; obtener valor de precisión suficiente mediante API de resultados tipada o configuración de precisión verificable. No ampliar tolerancia arbitrariamente para cerrar. Registrar origen/unidades/selección/casos/auxiliares y cierre propios, sin reanalizar si basta leer resultado válido. Actualizar docs/comentarioUNIDADES/guardas porque lector ya cambia presentación runtime sin guardar.",
+      "evidencia": "seguimiento/PRECISION_REACCIONES_208.json"
+    },
+    {
+      "id": "R209-01",
+      "prioridad": "dependencia_usuario",
+      "etapas": [
+        "04"
+      ],
+      "hallazgo": "Codex solicitó al usuario proveedor, identificador exacto de modelo y gasto máximoUSD para piloto real; alternativamente ubicación de esa configuración si ya existe. Respuesta pendiente. No se leyeron claves ni se enviaron planos.",
+      "criterio_aceptacion": "No inferir autorización/modelo/presupuesto por existencia de claves. Continuar implementación y etapas independientes; Codex incorporará respuesta cuando llegue. Esta dependencia no declara bloqueado el goal."
+    },
+    {
+      "id": "R210-01",
+      "prioridad": "evidencia",
+      "etapas": [
+        "02",
+        "06"
+      ],
+      "hallazgo": "Codex contrastó BaseReact tipado9dd921..., recibo/hash/EDB/cierre/selecciónCHIDRO/origen0 y cálculo analítico independiente206: equilibrio con umbral original1e-7, residuo máximo~7e-13. R208 queda resuelto para este ensayo, no para aceptación completa02.",
+      "evidencia": "seguimiento/EQUILIBRIO_ESTRICTO_LIQUIDOS_210.json",
+      "criterio_aceptacion": "Conservar lectura208 redondeada como negativa y210 como evidencia separada de precisión completa. No repetir nativo por este contraste."
+    },
+    {
+      "id": "R211-01",
+      "prioridad": "coordinacion_api",
+      "etapas": [
+        "04"
+      ],
+      "hallazgo": "Usuario autorizó ahora hasta5peticiones por proveedor/modelo, OpenAI primero con saldo5USD y Gemini solo gratuito. Codex asume EXCLUSIVAMENTE ejecución de APIs/contador para evitar consumos paralelos. No lanzar llamadas por separado desde Claude.",
+      "criterio_aceptacion": "Continuar implementación normal. Codex compartirá planes/recibos/extracciones pendientes de revisión. Límite conservador5totalOpenAI y5totalGemini, sin retriesautomáticos ni authprobes ni otra finalidad. Selección inicial GPT5.4; Gemini por validar gratuidad/modelo."
+    },
+    {
+      "id": "R213-01",
+      "prioridad": "P1",
+      "etapas": [
+        "03",
+        "04"
+      ],
+      "hallazgo": "Primer ensayo OpenAI real GPT5.4:34 candidatos pendientes, importados para revisión normal. Coste calculado0.108405USD,1/5peticiones. Solo5/7recortes tienenlecturas: REC0002 especificaciones/suelo/parámetros sísmicos claramente legibles quedó totalmente omitido; REC0004 planta también. El prompt/esquema no exige cobertura y solo admite cotas m/cm/mm más etiquetas/elementos. No confundir respuestaJSONválida con extracción suficiente para modelado completo.",
+      "criterio_aceptacion": "Revisar cobertura explícita y adaptar infraestructura/prompt/esquema según requisitos reales para recuperar especificaciones y propiedades documentadas, con unidades y origen sin inventar. Mantener pendientes lo no leído; usar datos de ingeniería con revisión, no calibrar con resultados impresos. Codex conserva ejecuciónEXCLUSIVA deAPI y contador; solicita ajustes del próximo ensayo por revisión, NO llames por separado.",
+      "evidencia": "seguimiento/PRIMERA_EXTRACCION_REAL_213.json",
+      "extraccion_version": "6379ec0645b24b949644409b9dadfaa0"
+    },
+    {
+      "id": "R212-01",
+      "prioridad": "revision",
+      "etapas": [
+        "02",
+        "06"
+      ],
+      "hallazgo": "Entrega02 revisada focalmente:17fuentes y12logsSHAcorrectos;18pruebas en copia congelada OK35.982s sinomitir. Incluye caso sinlíquido, insuficiente, múltiplesrecipientes ynegativos ypuentePowerShellcondoble. Evidencia nativa l2 yBaseReact fue contrastada independientemente206/207/208/210; umbraloriginalcumplido al usarprecisióncompleta.",
+      "criterio_aceptacion": "Aceptado incremento sintético revisado, no piloto ni normativaniQAintegral. R207/R208resueltos en esta entrega; continúan criterios completos de referencia/instalación/visual.",
+      "evidencia": "seguimiento/REVISION_ETAPA02_212.json"
+    },
+    {
+      "id": "R215-01",
+      "prioridad": "P1",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Codex ejecutó petición2 propuesta2617a919 con respuestaAPIincomplete:max_output_tokens. Se conservaron tokens8192 y texto22kbytes; ceroimportación. La petición1noeraexhaustiva yla2sí truncó. Plan2yaENVIADO,NO volver a ejecutarlo.",
+      "criterio_aceptacion": "No afirmar que solo restaautorizaciónAPI ni que se terminóreferencia. Se preparará ensayo3conmenosregiones y16384tokens. Hay datos legibles en planos (fc/fy/fm, S/C, suelo y cuadroscolumnas) que NO deben pedirse al usuario como ausentes sin contrastarlos. No calibrar con cortantes/derivas impresos. Root mantieneEXCLUSIVIDADAPI.",
+      "evidencia": "seguimiento/DIAGNOSTICO_TRUNCAMIENTO_215.json"
+    },
+    {
+      "id": "R218-01",
+      "prioridad": "P1",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Petición3focal completada:60candidatos3recortes, versiondcdf242bc1d3477da91953b5d73e889c, coste0.083215USD,total0.390345USD,3/5OpenAI. Se recuperaron especificaciones. Codex vio título L0002:ALIGERADO2DO Y3ER NIVEL S/C200Kg/m2 e17cm; sí existen planos de2-3. L0003contiene cortes tanque/cisterna/techo. No tratar estos datos como ausentes delusuario.",
+      "criterio_aceptacion": "Retomar piloto condatosreales, contrastar bboxes/clasificación. No usar C054..C057(resultados impresos) para calibración. Corregir protocolo de cotas vs cantidades/cargasantesde derivargeometría. Rootpreparaotrasregiones, no llamadasporClaude.",
+      "evidencia": "seguimiento/TERCERA_EXTRACCION_REAL_218.json"
+    },
+    {
+      "id": "R220-01",
+      "prioridad": "coordinacion",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Existe nueva continuación autorizada de la ruta: seguimiento/claude_ruta/07_CONTINUACION_PILOTO_REAL.md. DatosAPI3 ya importados pendientes; API4en ejecución porCodex.",
+      "criterio_aceptacion": "Retomar piloto y resolver implementación/datos según encargo. No declarar que solo restaautorización ni descartar datosincluidos. Conservar propiedad delproducto y excluirdobles como prueba depiloto."
+    },
+    {
+      "id": "R221-01",
+      "prioridad": "evidencia_piloto",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Petición4terminada, extracciónpendientedf4b88d3cbb042a3a0cd78f065fc3016, 102candidatos. Está disponible para tuencargo07. No necesitasotraasignación ni llamarAPI.",
+      "evidencia": "seguimiento/CUARTA_EXTRACCION_REAL_221.json",
+      "criterio_aceptacion": "Contrastar cada dato útilcontraROI correspondiente; no confundir cotaslocales con alturasdepiso/niveleslibres ni medidasderebarcongeometría. No pedir loqueconstecomofaltanteexterno."
+    },
+    {
+      "id": "R223-03",
+      "prioridad": "revision",
+      "etapas": [
+        "03",
+        "06"
+      ],
+      "hallazgo": "9 pruebas focales OK en copia congelada tmp/revision_codex_214, 5.142s. Integridad de 15 fuentes y 7 logs comprobada. Matriz distingue evidencia sintética. No se acredita piloto ni se revalida aquí el ensayo nativo r3.",
+      "evidencia": "seguimiento/REVISION_ETAPA03_223.json",
+      "criterio_aceptacion": "Revisión del incremento con los límites expresos; no cierre del proyecto."
+    },
+    {
+      "id": "R223-04",
+      "prioridad": "revision",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Una fuente y un log íntegros. El prompt entregado se ensayó realmente: petición2 truncada, sin importación. Ensayos focales3/4 completos y pendientes de revisión semántica. Continuación07 asignada; etapa NO aceptada como piloto completo.",
+      "evidencia": "seguimiento/REVISION_ETAPA04_223.json",
+      "criterio_aceptacion": "Revisión del incremento con los límites expresos; no cierre del proyecto."
+    },
+    {
+      "id": "R223-05",
+      "prioridad": "revision",
+      "etapas": [
+        "05",
+        "06"
+      ],
+      "hallazgo": "13 fuentes y 6 logs íntegros. Se contrastaron los 660 hashes de copia c201b y sus logs:1160 Python y30 Node OK, sin omisiones. Evidencia217. No se reejecutó la suite; no acredita piloto ni validación visual completa. Cambios posteriores quedan sujetos a nueva revisión.",
+      "evidencia": "seguimiento/REVISION_ETAPA05_223.json",
+      "criterio_aceptacion": "Revisión del incremento con los límites expresos; no cierre del proyecto."
+    },
+    {
+      "id": "R223-06",
+      "prioridad": "P1",
+      "etapas": [
+        "06"
+      ],
+      "hallazgo": "Snapshot06 íntegro en sus513 miembros, pero excluye draft2model/credenciales_locales.py, scripts/usar_credenciales_locales.py y tests/test_credenciales_locales.py por substring credencial. La exclusión está declarada, pero impide restauración autónoma completa. La copia limpia sí los incluye; son evidencias distintas.",
+      "criterio_aceptacion": "Corregir empaquetado con lista explícita de rutas de código legítimas y prueba de restauración/importación sin red. Mantener excluidos data/private y toda clave real. Publicar nueva entrega inmutable; no reescribir06 histórica."
+    },
+    {
+      "id": "R224-01",
+      "prioridad": "evidencia_piloto",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Gemini3.8Flash real completado:32candidatos pendientes, versión 1cde498b56c34b03866d0583a0e8ad3d. Mismas regiones técnicas que OpenAI3. Se verificaron hash/STOP/servicio estándar y se importó por recorrido público. Omite fm35, presión admisible4 y parámetros sísmicos legibles; REC0003 solo leyó profundidad1.5m.",
+      "evidencia": "seguimiento/PRIMERA_EXTRACCION_GEMINI_224.json",
+      "criterio_aceptacion": "Incluir en continuación07 para revisión/clasificación/cobertura. No llamar API: consumo exclusivo Codex4/5OpenAI y1/5Gemini. No inferir ausencia de datos a partir de omisiones del modelo."
+    },
+    {
+      "id": "R225-01",
+      "prioridad": "revision",
+      "etapas": [
+        "06"
+      ],
+      "hallazgo": "Entrega06 revisada:513miembros y4logs íntegros. Copia c206 contrastada con sus hashes y logs; prueba Node focal propia sobre snapshot restaurado OK. Sigue pendiente R223-06; revisar no significa aceptar cierre.",
+      "evidencia": "seguimiento/REVISION_ETAPA06_225.json",
+      "criterio_aceptacion": "Publicar nuevo correctivo06 restaurable y actualizar conclusiones con el piloto real; no repetir suite completa por documentación."
+    },
+    {
+      "id": "R226-01",
+      "prioridad": "evidencia",
+      "etapas": [
+        "03",
+        "06"
+      ],
+      "hallazgo": "Codex contrastó por separado r3: geometría original, recibos/hash EDByrespuesta, selecciónCHIDRO/unidades/origen y reacciónBaseReact frente a integral racional sin calculadores del producto. Fuerza21.6kN y momentos[0,8.64,-32.4]kNm; residuo máximo1.82e-12 dentro del umbraloriginal.",
+      "evidencia": "seguimiento/EQUILIBRIO_R3_226.json",
+      "criterio_aceptacion": "Conservar como evidencia nativa sintética; no repetir ensayo para este punto. No acredita el piloto real ni todos los casos ni normativa."
+    },
+    {
+      "id": "R227-01",
+      "prioridad": "evidencia_visual",
+      "etapas": [
+        "04",
+        "05",
+        "06"
+      ],
+      "hallazgo": "Codex comprobó en navegador la entrega06 congelada con extracción realGemini:32pendientes, lámina y regiones visibles, C025seleccionable con formulario y región resaltada; ninguna aprobación/guardado niAPI.",
+      "evidencia": "seguimiento/QA_REAL_227.json",
+      "criterio_aceptacion": "Conservar como QAacotado del visor legacy; correctivo0.2 y recorrido completo requieren evidencia propia. Estados de carga lentos en navegador observados sin error; GETmedido0.25s, no afirmar fallo de servidor."
+    },
+    {
+      "id": "R228-01",
+      "prioridad": "P1",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Inventario07 identifica falta de código para reubicar bbox y lecturas omitidas. Existe continuación automática08_CERRAR_BRECHAS_EVIDENCIA.md para cerrar edición/alta manual trazable e integración0.2; no sustituir por declaración de bloqueo externo.",
+      "criterio_aceptacion": "Terminar07 y continuar08 con nuevas entregas, sin esperar otra asignación ni ejecutar APIs. Codex preguntó arquitectura/cotas y edición sísmica; las respuestas pendientes no detienen1–5de08."
+    },
+    {
+      "id": "R229-01",
+      "prioridad": "decision_usuario",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Usuario entregó Arquitectura-Model1/2/3 en planos_muestra/proyecto_pueblo_libre y eligió todas las normasRNEvigentes/aplicables. Codex abrió3PDFyconservó hashes; hay cadenas de cotas y planta de tanque. Reexaminar F1/F2/F4/F7 de inventario07 con estas fuentes; no usar calibración anterior como única vía.",
+      "evidencia": "seguimiento/DECISION_USUARIO_229.json",
+      "criterio_aceptacion": "08 enviado y reconocido. Incorporar arquitectura y fuentes normativas229 sin falsificar vigencia de expediente anterior; actualizar faltantes realmente pendientes."
+    },
+    {
+      "id": "R230-01",
+      "prioridad": "coordinacion",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Encargo08 confirmado visualmente en historial y respuesta de Claude. Sigue c207 antes de publicar07. Codex confirmó proceso específico de copia limpia vivo en Windows, PIDs3044/24568 y descendiente14036, inicio09:18-09:19Lima. No hay fin ni log final acreditado aún.",
+      "evidencia": "seguimiento/COORDINACION_CLAUDE_230.json",
+      "criterio_aceptacion": "No reiniciar por ausencia de salida. Publicar07 con resultado real y continuar08. Mantener código estable mientras se cierre esta validación."
+    },
+    {
+      "id": "R231-01",
+      "prioridad": "normativa_para_integracion",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Auditoría229 ENTREGADA: NORMATIVA_OFICIAL_229.md y9fuentes oficiales. Codex verificó hashes/tamaños/páginas; comprobó visualmente E030tabla6/excepciónestática, E0608.5 y E07024.7. Fuentes actuales disponibles para08, no falta respuesta de usuario sobre edición: eligióRNEvigente.",
+      "evidencia": "seguimiento/REVISION_FUENTES_RNE_231.json",
+      "criterio_aceptacion": "Consultar el mapa y aplicar reglas pertinentes con pruebas/unidades/procedencia. Diferenciar espectro vsCestático, peso/masa deagua vs presión y30.8. Incorporar límites del índice y estado técnico realmente verificado, no afirmar cumplimiento por descargarPDF."
+    },
+    {
+      "id": "R232-01",
+      "prioridad": "P2_flujo_revision",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Sobre fuente congelada c207, prueba pura de Codex: evidencia_revisada con estado pendiente se rechaza; solo se acepta con valor/unidad y estado revisado. Por tanto reubicar sin dar por revisado el valor aún no existe. No se persistieron cambios ni se afectó c207.",
+      "evidencia": "seguimiento/REVISION_EVIDENCIA_PENDIENTE_232.json",
+      "criterio_aceptacion": "En08 separar propuesta/corrección de región del acto de revisión de valor. Permitir región nueva trazable manteniendo lectura pendiente, sin exportarla como entrada revisada. Reutilizar operación actual cuando ambas revisiones sean deliberadas; no romper historial0.1/0.2."
+    },
+    {
+      "id": "R233-01",
+      "prioridad": "revision",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Correctivas07 revisadas:23/522fuentes y8/1logs íntegros; fuente c207 coincide;15Python focales propiasOK2.425s yNode semánticoOK. R223-06 empaquetado resuelto. Suite conservada c2071175Python/31Node contrastada, no reejecutada.",
+      "evidencia": "seguimiento/REVISION_CORRECTIVAS_233.json",
+      "criterio_aceptacion": "Incremento aceptado con límites, no cierre. Continúa08 yR232; arquitectura/RNEvigente yaautorizadas yfuentes229disponibles."
+    },
+    {
+      "id": "R235-01",
+      "prioridad": "P1_piloto_real",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Respuesta terminada con71candidatos; adaptación rechaza bbox invertidasC023/C026 y hay incompatibilidades tipo/unidad. Semántica nueva recupera fm35 y parámetros impresos pero requiere validación; cobertura completa es declaración del modelo, no verificación.",
+      "evidencia": "seguimiento/DIAGNOSTICO_GEMINI_235.json",
+      "criterio_aceptacion": "Conservar crudos y fallo; diagnóstico/revisión por candidato con cuarentena. No clamp/ordenar/borrar silenciosamente, ni elevar cobertura derivada. Permitir recuperación explícita trazable desde respuesta conservada, sin repetirAPI. Incluir en08; revisar schema/prompt de combinación tipo/unidad. No llamarAPI."
+    },
+    {
+      "id": "R236-01",
+      "prioridad": "P1_normativa",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Cortante estático devuelve V utilizable bajo mínimo aunque advierte C/R<.11; además acepta TL<TP en rama T<=TP. Prueba independiente congelada: esperado mínimo49.5kN frente1.40625kN.",
+      "evidencia": "seguimiento/REVISION_NORMATIVA_RECUPERACION_236.json",
+      "criterio_aceptacion": "Validar dominio en todas las ramas; distinguir bruto/aplicado y mínimo o bloqueo explícito; probar consumidores."
+    },
+    {
+      "id": "R236-02",
+      "prioridad": "P2_cobertura",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Recuperación real59válidos/12cuarentena funciona con advertencias; conserva cobertura original completa en2recortes afectados y falta indicador web. No se afirma ocultación total.",
+      "evidencia": "seguimiento/REVISION_NORMATIVA_RECUPERACION_236.json",
+      "criterio_aceptacion": "Conservar declaración original separada de cobertura efectiva del lote recuperado y exponer cantidades/descartes en web."
+    },
+    {
+      "id": "R237-01",
+      "prioridad": "coordinacion",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Encargo09 observado en historial de Claude, compositor vacío y lista de tareas09/lectura iniciada. No prueba entrega. Auditoría orientación237 independiente en curso.",
+      "evidencia": "seguimiento/COORDINACION_CLAUDE_237.json",
+      "criterio_aceptacion": "Continuar secuencia09 automáticamente; pruebas focales y piloto real, sin API ni duplicar auditoría; no cierre sintético."
+    },
+    {
+      "id": "R239-01",
+      "prioridad": "P1_reanudacion_y_cuotas",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "docs/RETOMAR.md y MATRIZ_REQUISITOS_REFERENCIA.md todavía indican una petición real y plan2 sin envío, y edición normativa no elegida. El ledger registra4OpenAI/2Gemini con recibos existentes; plan2 fue enviado y falló por truncamiento. Usuario eligió RNEvigente y entregó arquitectura. Instrucción obsoleta de reanudar plan2 puede inducir duplicación; no ejecutarla.",
+      "evidencia": "seguimiento/DESFASE_DOCUMENTAL_239.json",
+      "criterio_aceptacion": "Actualizar documentación vigente en09 con fecha/recibos y diferenciar corpus229, implementación08/09 y aplicación real pendiente. Plan2 histórico enviado/fallido, nunca pendiente de primera transmisión; no más llamadas por este hallazgo."
+    },
+    {
+      "id": "R241-01",
+      "prioridad": "P1_integracion_piloto",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Snapshot08 tiene una opción global tipo_shell_losa para todos los pisos/aligerados y fondos/tapas. Integración debe justificar diferencias E03030.8 y comportamiento normal del depósito; no existe piloto incorrecto acreditado, es brecha de capacidad a resolver.",
+      "evidencia": "seguimiento/BRECHA_IDEALIZACION_241.md",
+      "criterio_aceptacion": "Elección explícita por función/sección o solución equivalente justificada, transportada a plan y relectura; prueba simultánea piso/fondo con elecciones diferentes. No hidrodinámica implícita ni cumplimiento por usar Membrane."
+    },
+    {
+      "id": "R243-01",
+      "prioridad": "P1_geometria_piloto",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "ajustar_rectangulo acepta dos horizontales sin cierres: estadoajustado con lados_verticales_confirmados=0. Contraejemplo0..32pt,y0/12,k.0125,dim.15x.40.",
+      "evidencia": "seguimiento/REVISION_INVENTARIO_243.json",
+      "criterio_aceptacion": "Exigir evidencia de cierre real de ambos lados o clasificar como hipótesis incompleta no ajustada; contar lados distintos, no número de segmentos duplicados. Conservar campos observados, no imponer sección esperada por similitud. Probar cero/un/dos lados, duplicados y cierre por segmentos unidos."
+    },
+    {
+      "id": "R243-02",
+      "prioridad": "P1_geometria_piloto",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "componentes une extremos en celdas vecinas sin comprobar distancia: dos segmentos con puntos(0,0) y(.84,0),tol.6se fusionan aunque distancia>.6.",
+      "evidencia": "seguimiento/REVISION_INVENTARIO_243.json",
+      "criterio_aceptacion": "Usar celdas solo para candidatos y comprobar distancia euclídea entre extremos antes de union. Probar dentro/fuera/frontera y conexión por cadenas; recalcular inventario si cambia y documentar impacto."
+    },
+    {
+      "id": "R245-01",
+      "prioridad": "P1_contornos_reales",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Auditoría independiente local245 identifica diagonales como ramas dePL4E8/E19 existentes; no añadir murosduplicados. Contornos quebrados10vértices tienenárea≈.312/.315m²vs cajas≈3.39m²; caja no representa placa. Codexrecalculóáreas yvioE01; no demuestra panelización/material/continuidadtotal.",
+      "evidencia": "seguimiento/AUDITORIA_DIAGONALES_245.md; seguimiento/REVISION_DIAGONALES_245.json",
+      "criterio_aceptacion": "Tras c209, integrar contornos/ejes por panelesverticales planos yencuentros sin cajaextruidani duplicación; trazabilidadPDF/unidades, revisarE03/material. FuenteauxiliarPL4_vertices_derivados.jsonnoaprobada, no aplicar175a todaPL4porinferenciainsegura."
+    },
+    {
+      "id": "R247-01",
+      "prioridad": "revision_incremental",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": {
+        "estado": "revisado_incremental_con_limites",
+        "snapshot": "tmp\\revision_codex_246",
+        "integridad": "seguimiento/INTEGRIDAD_ENTREGAS_246.json",
+        "fuentes_suite_contrastadas": 372,
+        "archivos_no_incluidos_en_entrega": 187,
+        "logs_conservados": {
+          "python": 1211,
+          "node": 31,
+          "sha_suite": "fd5b820185f2b30536f5bf2a62d4f332f91102e432aab02f229e8e37e63117a1",
+          "sha_node": "6cb0c01fbde61654ae3d3eed387b73cf3ce90eb1b0a951b39ba632cedaec5504"
+        },
+        "pruebas_propias": "7 focales R241/R243 OK en 0.305s (host); sandbox WinError5 en temporales, no fallo funcional.",
+        "vs30": "Módulo idéntico a captura245 con38 comprobaciones independientes; no clasifica suelo real.",
+        "limites": [
+          "No acredita piloto nativo completo",
+          "C1/C6/PL10/escaleras/depósitos y aberturas siguen en implementación",
+          "Escenarios de suelo no equivalen a EMS",
+          "Plantilla propia bajo revisión separada",
+          "Optimización malla en reserva246"
+        ]
+      },
+      "criterio_aceptacion": "Incremento revisado, no cierre del encargo09. Continuar alcance íntegro y verificar piloto real."
+    },
+    {
+      "id": "R249-01",
+      "prioridad": "P2_limite_de_evidencia",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "Ensayo nativo L246b confirma A/I22/I33/espejos/inserciones y persistencia metros→mm; no acredita Ixy/acoplamiento flector. C10 coincide con respuesta desacoplada+cortante, Uy de excéntricas explicado por torsión/offsets. No demuestra limitación general ETABS ni defecto del transporte por sí solo.",
+      "evidencia": [
+        "seguimiento/REVISION_C1_NATIVA_CODEX_249.json",
+        "seguimiento/REVISION_NATIVA_C1_249.md"
+      ],
+      "criterio_aceptacion": "Distinguir transporte nativo de fidelidad mecánica. No usar Uy excéntrico como prueba Ixy ni ensayo sintético como piloto. Documentar idealización y límites; evaluar contraste discriminante si se afirma reproducción del acoplamiento. No bloquear la implementación de otros elementos esperando esta revisión."
+    },
+    {
+      "id": "R249-02",
+      "prioridad": "P1_integracion_contenido",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "La hidrostática0.5 excluye expresamente masa_del_liquido. Patrón omitido/factor0/.25/1/2 pasan validación sin faltantes en reproducción focal; no hay enlace depósito/volumen/peso/fuente de masa. Es brecha del objetivo contenido100%, no regresión de lo prometido por el módulo hidrostático.",
+      "evidencia": "seguimiento/REVISION_MASA_LIQUIDOS_249.md",
+      "criterio_aceptacion": "Inventario por depósito/estado con volumen,peso,masa=gammaV/g,fuentes e hipótesis; única representación física de masa al100% sin duplicar peso estático/presión. Masa por presión exige suma vertical correcta y masa factor1, no prueba válida con solo pared. Alternativa de patrón exclusivo requiere excluirlo de combinaciones estáticas duplicadas y excluir presión de masa. Configuración,plan,guardado/relectura y comprobación nativa de masa deben cerrar el recorrido; depósitos ausentes no reciben masas ficticias. No habilitar masa puntual que el ejecutor no soporte."
+    },
+    {
+      "id": "R252-01",
+      "prioridad": "revision_incremental",
+      "etapas": [
+        "04",
+        "06"
+      ],
+      "hallazgo": "09D revisado con integridad24/546fuentes y6/1logs; cinco pruebas propias contrato/plan/CLI, siete normativa/fixture y diez contrastes despacho. Plantilla rechazo seguro confirmado. R249-02ygeometría09E siguen abiertos.",
+      "evidencia": "seguimiento/REVISION_ENTREGAS_252.json",
+      "criterio_aceptacion": "Aceptar avance de software, continuar modelo completo, masa y recorrido real. No sustituir con sintéticos ni cerrar por0errores mientras haya faltantes."
+    },
+    {
+      "id": "R263-01",
+      "prioridad": "revision_incremental",
+      "etapas": [
+        "06"
+      ],
+      "hallazgo": "Snapshots258 con10/559archivos e integridad ZIP/logs correctos;7pruebas propias focales en snapshotOK1.795s. Portado262 posterior:helper idéntico,cambios estables,6pruebas propias en destinoOK9.260s. No acredita análisis ni masa nativa del piloto.",
+      "evidencia": "seguimiento/REVISION_ENTREGAS_263.json",
+      "criterio_aceptacion": "Aceptar integración de software revisada, conservar R249-02 hasta evidencia nativa y cierre general; seguir construcción09D/resultados/entrega final."
+    },
+    {
+      "id": "R266-01",
+      "prioridad": "P2",
+      "etapas": [
+        "06"
+      ],
+      "hallazgo": "Adaptador de masa acepta bool tras float(True); revisión del snapshot con hallazgo, no aceptación limpia.",
+      "evidencia": "seguimiento/REVISION_ENTREGA_266.json",
+      "criterio_aceptacion": "Rechazo controlado de bool antes de conversión en captura/observaciones y regresión. Luego verificar integración nativa y flujo completo.",
+      "estado": "corregido_focal_en_arbol_actual",
+      "evidencia_correccion": "seguimiento/REVISION_MASA_BOOL_267.json",
+      "nota": "Snapshot266 conserva fallo histórico; candidata cbfdd041 está en revisión, sin aceptación global."
+    },
+    {
+      "id": "R267-01",
+      "prioridad": "integracion_focal",
+      "etapas": [
+        "06"
+      ],
+      "hallazgo": "Codex integró opt-in API de masa en servicio/UI y referencias verificadas a informe/descarga/aprobación documental. Corrigió sombreado de contexto c en render HTML que impedía exportar informe con masa. Pruebas propias y límites en REVISION_WEB_MASA_267.json. Archivos reservados hasta cierre de revisión integrada; no revertir ni editar simultáneamente.",
+      "evidencia": "seguimiento/REVISION_WEB_MASA_267.json",
+      "criterio_aceptacion": "Acredita integración de software con dobles/fuentes sustituidas; faltan captura/piloto real y QA visual. No reiniciar el proceso resultados09D vivo por registros históricos.",
+      "estado": "integracion_focal_y_qa_sintetica_verificadas_archivos_liberados",
+      "qa": "seguimiento/QA_WEB_MASA_267.json"
+    },
+    {
+      "id": "R267-02",
+      "prioridad": "revision_incremental",
+      "etapas": [
+        "06"
+      ],
+      "hallazgo": "Candidata cbfdd041 íntegra y corrección bool comprobada con6casos; análisis7203 aceptado real/no sintético, treslecturas nativas y equilibrioagua6/6 contrastados. No acredita masa ensamblada ni cierre de piloto.",
+      "evidencias": [
+        "seguimiento/REVISION_ANALISIS_267.json",
+        "seguimiento/REVISION_LECTURAS_09D1_267.json"
+      ],
+      "criterio_aceptacion": "Continuar captura de masa, normalización, controles/evaluación condicionada, informes y reproducción final; sin repetir ensayos ya contrastados."
+    }
+  ]
+}

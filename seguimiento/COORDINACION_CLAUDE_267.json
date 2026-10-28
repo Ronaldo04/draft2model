@@ -1,0 +1,25 @@
+{
+  "fecha_utc": "2026-10-22T22:41:04.988304+00:00",
+  "estado": "integracion_liberada_envio_y_recepcion_confirmados",
+  "encargo": "seguimiento/REPARTO_WEB_MASA_267.md",
+  "confirmacion": "Mensaje enviado por sky, observado en historial; Claude respondió que no edita los seis archivos y queda fuera de informe.py::_masa_nativa.",
+  "codex": [
+    "draft2model/revision_entregables.py",
+    "draft2model/informe.py::_masa_nativa"
+  ],
+  "subagente": [
+    "draft2model/revision_lecturas.py",
+    "draft2model/revision_web/lecturas.js",
+    "draft2model/revision_web/informes.js",
+    "draft2model/revision_web/index.html"
+  ],
+  "claude": "Nativo, CLI, libro de masa, normativa, normalización y resultados09D; sin APIs. No reiniciar corrida por silencio.",
+  "hallazgo266": "Corregido en árbol actual:6casos propiosOK en REVISION_MASA_BOOL_267.json; snapshot266 conserva bytes históricos con defecto.",
+  "goal_completo": false,
+  "fecha_ultima_coordinacion_utc": "2026-10-22T23:10:18.561760+00:00",
+  "continuacion": "seguimiento/CONTINUACION_CLAUDE_267_INTEGRACION.md",
+  "confirmacion_liberacion": "Enter en compositor correcto; historial visible y compositor vacío. Respuesta visual Claude: revisó seis archivos, conserva cambio renderizar_html y corregirá cierre de instancia en flujo general mientras continúa verificación.",
+  "archivos_267_liberados": true,
+  "reserva_codex_actual": "Solo candidato tmp/candidato_cache_malla_267, sin cambio al producto.",
+  "computer_use_suspendido": false
+}

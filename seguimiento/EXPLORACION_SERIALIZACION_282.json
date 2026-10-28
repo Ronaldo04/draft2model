@@ -1,0 +1,17 @@
+{
+  "medicion": {
+    "canonico_json": {
+      "segundos_30": 1.2516552000306547,
+      "bytes": 1535466,
+      "sha256": "e8f7f82c2fba6dda4ead819839b7adf7b5eeb53e3778c66bf19e1a5409622d02"
+    },
+    "binario_local_v2": {
+      "segundos_30": 0.2980506999883801,
+      "bytes": 1726120,
+      "sha256": "3f7ef212f2ac0a59d27c55cbdb60e9807ac8d8f9f6da1a22203c995d4f0b4f7c"
+    }
+  },
+  "archivo_geometria_sha256": "24b484549348484f8bf7df1255704a38f2cd77c3b282d2b69ba5b46f0afb68c2",
+  "alcance": "Comparaci\u00f3n focal de serializaci\u00f3n completa en memoria; no prueba malla/plan ni elimina comprobaciones. Solo dumps, nunca loads; representaci\u00f3n binaria ef\u00edmera por proceso, no formato persistido.",
+  "goal_completo": false
+}

@@ -1,0 +1,125 @@
+{
+  "objetivo": "Sistema completo de entrada de planos, revisión, configuración, modelado ETABS, análisis, resultados y entrega reproducible. No declarar soporte universal por un solo caso.",
+  "goal_completo": false,
+  "criterios": [
+    {
+      "id": "instalacion_y_arranque",
+      "evidencia_actual": [
+        "seguimiento/REVISION_PAQUETE_258.json",
+        "seguimiento/REVISION_COPIA_267.json",
+        "seguimiento/REVISION_INSTALACION_287.json"
+      ],
+      "estado": "instalacion287_verificada_sobre285_version_final_pendiente",
+      "falta": "Instalar y arrancar distribución final; no heredar fuentes285."
+    },
+    {
+      "id": "planos_y_proveedores",
+      "evidencia_actual": [
+        "seguimiento/CONSUMO_API_211.json",
+        "seguimiento/REVISION_METRICAS_265.json"
+      ],
+      "estado": "lecturas_reales_observadas_con_limites",
+      "falta": "Conservar cuarentena, correcciones y trazabilidad en la entrega; no atribuir precisión validada sin referencia humana. Respetar límite OpenAI4/5 y Gemini2/5; llamadas solo para planos."
+    },
+    {
+      "id": "geometria_y_configuracion",
+      "evidencia_actual": [
+        "seguimiento/DECISION_USUARIO_246.json",
+        "seguimiento/DECISION_ESCALERA_256.json",
+        "seguimiento/REVISION_ANALISIS_267.json"
+      ],
+      "estado": "caso_operativo_con_hipotesis",
+      "falta": "Conservar hipótesis de suelo, sistema, detalles no confirmados y su trazabilidad; no convertirlas en datos del plano ni certificación."
+    },
+    {
+      "id": "modelo_y_relectura",
+      "evidencia_actual": [
+        "tmp/recorrido_09d1/registro.json",
+        "tmp/recorrido_09d1/relectura_resultado.json",
+        "seguimiento/DIAGNOSTICO_PESO_RELECTURA_268.json"
+      ],
+      "estado": "modelo_y_relectura_reales_guardados",
+      "falta": "Complemento final con sus evidencias temporales necesarias. La copia visual para el usuario no acredita aceptación del producto."
+    },
+    {
+      "id": "analisis_y_resultados",
+      "evidencia_actual": [
+        "seguimiento/REVISION_ANALISIS_267.json",
+        "seguimiento/REVISION_LECTURAS_09D1_267.json",
+        "seguimiento/REVISION_NORMALIZACION_268.json",
+        "seguimiento/REVISION_CONTROLES_REALES_285.json",
+        "seguimiento/REVISION_REGLAS_REALES_286.json"
+      ],
+      "estado": "controles_y13indicadores_reales_verificados",
+      "falta": "Conservar misma cadena de análisis/EDB y salidas finales corregidas."
+    },
+    {
+      "id": "masa_y_peso_sismico",
+      "evidencia_actual": [
+        "seguimiento/HALLAZGO_PESO_SISMICO_268.json",
+        "seguimiento/BALANCE_MASA_GRAVEDAD_268.json",
+        "seguimiento/DIAGNOSTICO_PESO_RELECTURA_268.json",
+        "seguimiento/REVISION_EXTREMOS_278.json",
+        "seguimiento/REVISION_CONCILIACION_279.json"
+      ],
+      "estado": "P_por_pisos_corregido_desfase_masa_delimitado",
+      "falta": "Conservar no_coherente oficial y diferencia residual; causa principal extremos efectivos, sin ampliar tolerancia. No presentarlo como libro independiente conciliado."
+    },
+    {
+      "id": "normativa_y_evaluacion",
+      "evidencia_actual": [
+        "seguimiento/NORMATIVA_OFICIAL_229.md",
+        "seguimiento/claude_ruta/RECEPCION_CONTINUACION_268.json",
+        "seguimiento/REVISION_REGLAS_REALES_286.json",
+        "seguimiento/REVISION_UNIDADES_292.json"
+      ],
+      "estado": "18evaluaciones_reales_verificadas_sin_aprobacion_profesional",
+      "falta": "Conservar hipótesis,8derivas y2cortantes que no satisfacen. No afirmar cumplimiento normativo integral."
+    },
+    {
+      "id": "panel_e_informes",
+      "evidencia_actual": [
+        "seguimiento/REVISION_WEB_MASA_267.json",
+        "seguimiento/QA_WEB_MASA_267.json",
+        "seguimiento/REVISION_INFORME_PANEL_290.json",
+        "seguimiento/REVISION_UNIDADES_292.json"
+      ],
+      "estado": "salidas09d2_revisadas_correccion290_implementada_reales09d3_pendientes",
+      "falta": "Revisar PDF/panel regenerados; UI real y descarga final pendientes."
+    },
+    {
+      "id": "cierres_y_rendimiento",
+      "evidencia_actual": [
+        "seguimiento/REVISION_CIERRE_ANALISIS_268.json",
+        "seguimiento/REVISION_CACHE_PRODUCTO_268.json",
+        "seguimiento/ENSAYO_CACHE_MALLA_267.json",
+        "seguimiento/REVISION_INVENTARIO_289.json",
+        "tmp/diagnostico_qa_293/muestras.jsonl"
+      ],
+      "estado": "inventarios288_verificados_atranco_historiales293_diagnosticado",
+      "falta": "Claude293: eliminar revalidación automática de historiales al elegir expediente, conservando guardas al abrir/usar."
+    },
+    {
+      "id": "reubicacion_del_caso",
+      "evidencia_actual": [
+        "seguimiento/REVISION_ANEXO_268.json",
+        "seguimiento/REUBICACION_CASO_269.json"
+      ],
+      "estado": "evidencia_archivada_reubicada_verificada",
+      "falta": "Separar esta verificación de una nueva lectura nativa o reconstrucción con nuevas corridas; instalación final y panel/informe real mantienen sus criterios independientes."
+    },
+    {
+      "id": "paquete_final_y_guia",
+      "evidencia_actual": [
+        "seguimiento/GUIA_ANEXO_268.md",
+        "docs/ENTREGA_AECODE.md",
+        "seguimiento/DOCUMENTACION_LIBERADA_294.json",
+        "seguimiento/REVISION_COMPLEMENTO_291.json"
+      ],
+      "estado": "documentacion_actualizada_complemento_candidato_verificado_final_pendiente",
+      "falta": "Fuentes finales estables, suite global única y copia/instalación sobre su huella; complemento desde09d3 revisado.09d2 no final."
+    }
+  ],
+  "fecha_corte": "2026-10-23T21:22:24.422253+00:00",
+  "antecedente": "seguimiento/CRITERIOS_CIERRE_269.json"
+}

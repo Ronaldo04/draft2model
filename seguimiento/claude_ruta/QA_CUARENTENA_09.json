@@ -1,0 +1,57 @@
+{
+  "fecha": "2026-10-21",
+  "servidor": "local 127.0.0.1:8792 (detenido)",
+  "respuesta_real": "provisional-001/vision/intentos_gemini/1f11d8e2…/respuesta_visual.json",
+  "sha256_antes_y_despues": "7ccd952e8bd0909627b8988917543d257d220880789568fd521900a7748577af",
+  "api_llamadas": 0,
+  "ruta": "POST /api/respuesta/registrar (misma ruta del formulario) con token de sesión y Origin propio; vista en el panel de respuestas",
+  "resultado_http": {
+    "sha256_respuesta_enviada": "7ccd952e8bd0909627b8988917543d257d220880789568fd521900a7748577af",
+    "sin_cuarentena": {
+      "http": 409,
+      "error": "No se guardó la operación: revisa campos, unidades y vigencia de la evidencia. Recarga la versión antes de reintentar."
+    },
+    "con_cuarentena": {
+      "http": 200,
+      "id": "34528ff1579441758ae0adf34d60f144",
+      "candidatos": 59,
+      "en_cuarentena": 12,
+      "cobertura": [
+        {
+          "recorte": "a4753cd4",
+          "declarada": "parcial",
+          "estado": "parcial",
+          "candidatos_declarados": 38,
+          "recuperados": 32,
+          "en_cuarentena": 6,
+          "motivo": "6 de 38 lecturas declaradas quedaron en cuarentena; el lote importado no cubre lo declarado."
+        },
+        {
+          "recorte": "c6bef19f",
+          "declarada": "completa",
+          "estado": "parcial",
+          "candidatos_declarados": 19,
+          "recuperados": 14,
+          "en_cuarentena": 5,
+          "motivo": "5 de 19 lecturas declaradas quedaron en cuarentena; el lote importado no cubre lo declarado."
+        },
+        {
+          "recorte": "98a92cd3",
+          "declarada": "completa",
+          "estado": "parcial",
+          "candidatos_declarados": 14,
+          "recuperados": 13,
+          "en_cuarentena": 1,
+          "motivo": "1 de 14 lecturas declaradas quedaron en cuarentena; el lote importado no cubre lo declarado."
+        }
+      ],
+      "estado": "pendiente_revision",
+      "aprueba_ingenieria": false,
+      "transmision_externa": false,
+      "importada": false
+    }
+  },
+  "panel": "«12 candidato(s) en cuarentena, sin corregir · Cobertura efectiva: a4753cd4 32/38 (parcial; declarada parcial); c6bef19f 14/19 (parcial; declarada completa); 98a92cd3 13/14 (parcial; declarada completa)»; importar deshabilitado sin confirmación; consola sin errores",
+  "no_importado": "Registro 34528ff1 queda pendiente en vision/respuestas; no se trasladó al historial.",
+  "limite": "El clic sobre la casilla no se ejecutó en el navegador (la herramienta no carga archivos en el formulario); el mapeo casilla→cuarentena:true lo cubre la prueba Node."
+}

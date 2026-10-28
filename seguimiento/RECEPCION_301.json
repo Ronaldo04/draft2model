@@ -1,0 +1,10 @@
+{
+ "fecha_utc": "2026-10-23T21:42:37Z",
+ "responsable": "Claude",
+ "acepta_reparto": "seguimiento/REPARTO_301_INVENTARIO_ANALISIS.md",
+ "claude_toma": ["draft2model/revision_web/informes.js", "draft2model/revision_web/paneles.js", "otros consumidores frontend de /api/analisis (si existen)", "sus pruebas frontend"],
+ "no_edita": ["draft2model/revision_entregables.py", "draft2model/revision_visual.py (rutas /api/analisis y /api/analisis/comprobar)", "tests/test_inventario_analisis_301.py"],
+ "contrato_consumido": "GET /api/analisis?modo=inventario (vigente:null, verificacion:pendiente) y GET /api/analisis/comprobar (verificacion:completa solo tras éxito)",
+ "estado_293": "frontend de historiales integrado y probado (37 suites .cjs OK); pendiente cierre 09d3 informe/panel, marcador 293 y validación global",
+ "sin_reinicios": "No se reinicia 09d3 ni ETABS"
+}

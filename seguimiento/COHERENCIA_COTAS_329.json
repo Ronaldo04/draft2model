@@ -1,0 +1,511 @@
+{
+  "api_calls": 0,
+  "modifica_datos": false,
+  "cohortes": [
+    {
+      "cohorte": "openai_1",
+      "sha256_intacto": "878ec9dc7a91a22a7ac5155ea60fa4bab9bac45c84c8619e0822a22e5836fdd9",
+      "consistente": true,
+      "candidatos": 34,
+      "avisos": {
+        "unidad_sin_texto_fuente": 14
+      },
+      "detalle": [
+        {
+          "ruta": "$.candidatos[3]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[4]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[5]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[6]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[13]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[14]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[15]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[16]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[23]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[24]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[25]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[31]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[32]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[33]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        }
+      ]
+    },
+    {
+      "cohorte": "openai_3",
+      "sha256_intacto": "8d87951edb2fe69567bd0070f7cc43183162cf62cb7b87e5573c61d983c51353",
+      "consistente": true,
+      "candidatos": 60,
+      "avisos": {
+        "unidad_sin_texto_fuente": 19
+      },
+      "detalle": [
+        {
+          "ruta": "$.candidatos[14]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[15]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[17]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[18]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[20]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[21]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[23]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[24]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[26]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[27]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[38]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[39]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[40]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[41]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[44]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[45]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[55]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[56]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[58]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        }
+      ]
+    },
+    {
+      "cohorte": "openai_4",
+      "sha256_intacto": "c287b12875ec6f3cfff575bd15309da5f2024270bb68604a19738ff5f397be51",
+      "consistente": true,
+      "candidatos": 102,
+      "avisos": {
+        "unidad_sin_texto_fuente": 40
+      },
+      "detalle": [
+        {
+          "ruta": "$.candidatos[1]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[2]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[3]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[4]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[5]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[6]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[21]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[22]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[23]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[24]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[25]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[26]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[27]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[28]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[29]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[30]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[31]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[49]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[50]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[51]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[52]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[53]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[54]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[55]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[65]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[66]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[67]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[68]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[69]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[70]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[83]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[84]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[85]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[86]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[87]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[94]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[95]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[96]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[97]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[98]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        }
+      ]
+    },
+    {
+      "cohorte": "gemini_1",
+      "sha256_intacto": "aa2783d9852e3b380296ce9ca5d9a167b192934ee12738eef6567166c9d96829",
+      "consistente": true,
+      "candidatos": 32,
+      "avisos": {
+        "unidad_sin_texto_fuente": 19
+      },
+      "detalle": [
+        {
+          "ruta": "$.candidatos[1]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[2]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[3]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[4]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[6]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[7]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[9]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[10]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[12]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[13]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[15]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[16]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[18]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[19]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[25]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[26]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[27]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[28]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        },
+        {
+          "ruta": "$.candidatos[31]",
+          "codigo": "unidad_sin_texto_fuente",
+          "mensaje": "Lectura automática con unidad definida pero sin texto literal: compruebe su respaldo en la evidencia antes de usarla como longitud."
+        }
+      ]
+    }
+  ],
+  "limite": "Detecta incoherencia declarada; no verifica texto ni regiones en imágenes."
+}

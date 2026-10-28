@@ -1,0 +1,114 @@
+{
+  "metodo": "Tesseract local 5.4.0, spa+eng, PSM11",
+  "dimensiones": [
+    4096,
+    2898
+  ],
+  "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+  "palabras_ocr": 700,
+  "coincidencias_exactas": {
+    "C-1": [
+      {
+        "texto": "C-1",
+        "confianza": "67.238037",
+        "bbox_px": [
+          "489",
+          "1654",
+          "57",
+          "21"
+        ]
+      }
+    ],
+    "C-2": [
+      {
+        "texto": "C-2",
+        "confianza": "50.170166",
+        "bbox_px": [
+          "1089",
+          "289",
+          "38",
+          "13"
+        ]
+      },
+      {
+        "texto": "c-2",
+        "confianza": "36.469646",
+        "bbox_px": [
+          "1089",
+          "1293",
+          "38",
+          "13"
+        ]
+      },
+      {
+        "texto": "c-2",
+        "confianza": "50.797890",
+        "bbox_px": [
+          "1522",
+          "1293",
+          "39",
+          "13"
+        ]
+      },
+      {
+        "texto": "C-2",
+        "confianza": "85.310059",
+        "bbox_px": [
+          "879",
+          "1659",
+          "64",
+          "21"
+        ]
+      }
+    ],
+    "C-6": [
+      {
+        "texto": "C-6",
+        "confianza": "58.570335",
+        "bbox_px": [
+          "1921",
+          "822",
+          "39",
+          "13"
+        ]
+      }
+    ],
+    "PL-1": [
+      {
+        "texto": "PL-1",
+        "confianza": "87.514458",
+        "bbox_px": [
+          "1093",
+          "2194",
+          "56",
+          "16"
+        ]
+      }
+    ],
+    "PL-10": [
+      {
+        "texto": "PL-10",
+        "confianza": "87.324707",
+        "bbox_px": [
+          "2097",
+          "294",
+          "61",
+          "13"
+        ]
+      },
+      {
+        "texto": "PL-10",
+        "confianza": "89.783447",
+        "bbox_px": [
+          "2097",
+          "1290",
+          "61",
+          "14"
+        ]
+      }
+    ]
+  },
+  "no_aplica_cambios": true,
+  "api_calls": 0,
+  "advertencia": "Salida OCR experimental; confianza no demuestra corrección visual."
+}

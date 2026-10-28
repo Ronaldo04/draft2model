@@ -1,0 +1,20 @@
+{
+  "fecha_utc": "2026-10-24T08:50:36.792973+00:00",
+  "fuente": "tmp\\configuracion_318_reparacion\\registro.json",
+  "recibo_sha256": "d75b43f84bc613fe625912a5b2852a8892ef038235385553e0bba96a88c14078",
+  "tipo": "configuración del modelo, no salida numérica del solver",
+  "tolerancia_union_m": 0.001,
+  "unidades": "kN_m_C",
+  "version_aplicacion": "21.1.0",
+  "sha256_original_y_copia": "42371308a03d4f1bac8f5ed3aa5daf0421cdf3de27ff823f8f582c13ad2af394",
+  "original_rehash_codex": true,
+  "sin_solver_ni_guardado": true,
+  "cierre": {
+    "application_exit": 0,
+    "pid": 17340,
+    "salio": true
+  },
+  "primer_intento": "318falló antes de abrirETABS porGet-FileHashausente; se conserva RESULTADO_CONFIGURACION_318.json/log/script inicial",
+  "reparacion": "SHA256.NET, carpeta nueva, resultado0. Sin otrasmodificaciones.",
+  "goal_completo": false
+}

@@ -1,0 +1,63 @@
+{
+  "fecha_utc": "2026-10-19T13:22:17.035070+00:00",
+  "naturaleza": "QA navegador y archivos reales de expediente SINTETICO; sin IA ni ETABS",
+  "recorrido": [
+    "Migracion v0.1→hija0.2 en navegador, padre comprobado intacto/sin heredar aprobacion",
+    "Conversion0.2 preparada por fixture y consultada/importada por UI con confirmacion separada",
+    "Seleccion de superficie horizontal12m2,Z2.6,3anclasXYZ/pagina,registro y consulta enUI",
+    "Contorno y anclas inspeccionados visualmente sobre originalPDFsintetico",
+    "Archivos persistidos revalidados independientemente: padre/hija/conversion/superposicion"
+  ],
+  "caso": "sintetico-gestion",
+  "ids": {
+    "padre": "048738c4e0be46baa7a852d22efca570",
+    "migracion": "a9ffdada7a514df793fe4a3caf217fe8",
+    "conversion": "fbc0a9c2fb18490e97ebc8f7012c23ed",
+    "geometria_importada": "da147464c80747eeba9c7593a18455e9",
+    "superposicion": "7ae93bc8a81f47abad10adb5fc536881"
+  },
+  "expediente_sha256": "e69e25d865f3817794157d0d40a3dc72a31eed4c348b89f2ac9ce24b87ce92b0",
+  "hashes_fuentes": {
+    "draft2model/revision_superposicion.py": "853b47b3c78a71cf8e76fff01504de405fdfb9437cb27f9420c2b9d943657969",
+    "draft2model/revision_web/superposicion.js": "9c68c5ea32638e65d4d41c6990497887a0239853ea2753be3f858654360cb847",
+    "draft2model/revision_web/index.html": "3b1ef2cf33c58be63e95734ac7968da2f3296cb8ae26be9f398447bc237ec9a2",
+    "draft2model/revision_web/app.js": "14bd478351907d3b9b73df11d85b65a3edc4307f3325bb21a138ba2b139e3715",
+    "tests/revision_superposicion_frontend.cjs": "e0b94df19308e2e57fae876e07af5cba2bd7de936271b36673045143ad64adc4",
+    "tests/test_superposicion_superficies.py": "f2940825388bb4b426c2f7420fa432efb2a4db17217e6f6c5e9964e777d5a7df",
+    "docs/SUPERPOSICION_SUPERFICIES.md": "a4689b7c526a793f8e8ee1480c5fe45efe4486c9203e79952965094c8f87cbe0"
+  },
+  "evidencia": {
+    "tmp\\qa_superficies_160\\contexto.png": "a74ee7c1a22632d3399cba3c9171bd56c4e3e7953ba35c02a9ce9148ae6ba0a6",
+    "tmp\\qa_superficies_160\\contorno.png": "e8ebf6ae99d88d0996de758773c1f066bee08856059b84e19c1536e5b79c6821",
+    "tmp\\qa_superficies_160\\superposicion_verificada.json": "ed06aa48538412e1a3e1d60ad0cdfd064a719f02396baa51731d03a18cf1177c",
+    "tmp\\qa_superficies_160\\artefactos_sinteticos.zip": "3abbaaf491de89e7399c6c36bda79552f30fa12bdbb0ae0f4ffba16726440669",
+    "tmp/qa_superficies_160/fuentes_observadas.zip": "aa8d43905d09a57b36adb7cfe19870e0ca55215e24d3f3d2a6b9b8ca3f5e2131"
+  },
+  "fallos_entorno": [
+    "Servidor sandbox47063 no accesible por permiso socket; cerrado terminal1",
+    "Pestana11 quedo en pagina de errordataURL y no pudo seleccionarse; no se eludio restriccion; nueva URL hostautorizado abrio en12"
+  ],
+  "limites": [
+    "No prueba planos reales ni propiedad estructural",
+    "Vista horizontal solamente; inclinados/verticales y componentes completos pendientes",
+    "ZIP conserva evidencia de fixture, no se acredita restauracion portable por rutas de origen"
+  ],
+  "servidor_host": {
+    "sesion": 18888,
+    "estado": "cierre_controlado solicitado y sesion terminal1 porCtrlC"
+  },
+  "goal_completo": false,
+  "pestana12": "cerrada explicitamente",
+  "revision_delegado": "4hashes finales coinciden; backend/carga/cotaplana/anclas/postrender inspeccionados y contrastados porQA",
+  "pruebas_independientes": [
+    {
+      "log": "tmp/superposicion_backend_160.log",
+      "resultado": "6OK2.440s"
+    },
+    {
+      "log": "tmp/superposicion_cliente_160.log",
+      "resultado": "7NodeOK"
+    }
+  ],
+  "fuentes_observadas_limite": "ZIP preserva fuentes directas observadas y doc/pruebas; no es copia limpia integral ni valida dependencias/global."
+}

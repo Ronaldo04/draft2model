@@ -1,0 +1,31 @@
+{
+  "contrato": "benchmark_311.recepcion",
+  "caso": "provisional-001",
+  "huella_referencia": "9512d1700814baa91296972ff9918ba43f049a8f8ef857faa2b433488cc50ccb",
+  "estado": "protocolo_completo",
+  "faltantes_protocolo": [],
+  "observaciones": 33,
+  "por_clase": {
+    "etiqueta": 9,
+    "elemento": 10,
+    "cota": 14
+  },
+  "por_lamina": {
+    "L0001/p1": 11,
+    "L0002/p1": 11,
+    "L0003/p1": 11
+  },
+  "legibilidad": {
+    "legible": 32,
+    "ambigua": 1
+  },
+  "datos_sinteticos": false,
+  "revision_declarada": {
+    "revisor_declarado": "Codex (IA): revisión visual asistida, no humana",
+    "fecha": "2026-10-24",
+    "estado": "revisado"
+  },
+  "identidad_revisor": "declarada_no_autenticada",
+  "aviso": "Recepción no mide exactitud. Una referencia parcial solo admite conclusiones sobre su propia muestra.",
+  "revision_humana_realizada": false
+}

@@ -1,0 +1,10 @@
+{
+  "fecha_utc": "2026-10-23T21:54:38.728391+00:00",
+  "hashes_marcador_comprobados": 27,
+  "marcador": "seguimiento/claude_ruta/MARCADOR_293.json",
+  "revision_real": "seguimiento/REVISION_INFORME_302.json",
+  "pruebas_frontend301": "pendiente focal Codex",
+  "backend301": "7pruebas Codex OK,11ms inventario real",
+  "responsable_cierre": "Codex toma QA real301, congelación, instalación y validación global; Claude terminó entrega293/301. No esperar confirmación por GUI suspendida.",
+  "goal_completo": false
+}

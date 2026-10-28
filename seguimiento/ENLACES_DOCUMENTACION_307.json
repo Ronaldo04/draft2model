@@ -1,0 +1,25 @@
+{
+  "documentos": [
+    "README.md",
+    "docs/GUIA_REPRODUCIBLE.md",
+    "docs/ENTREGA_AECODE.md",
+    "docs/CONTEXTO_PROYECTO.md",
+    "docs/NORMATIVA_APLICADA.md",
+    "docs/EVALUACION_VISION.md",
+    "docs/MATRIZ_REQUISITOS_REFERENCIA.md"
+  ],
+  "enlaces_locales": 81,
+  "faltantes_en_zip": [
+    {
+      "documento": "docs/CONTEXTO_PROYECTO.md",
+      "destino": "../SismoVivienda_AI_Desarrollo_Tecnico.pdf",
+      "resuelto": "SismoVivienda_AI_Desarrollo_Tecnico.pdf"
+    },
+    {
+      "documento": "docs/CONTEXTO_PROYECTO.md",
+      "destino": "../SismoVivienda_AI_Entrega_Avance 01 - 03-10-2026.pdf",
+      "resuelto": "SismoVivienda_AI_Entrega_Avance 01 - 03-10-2026.pdf"
+    }
+  ],
+  "es_comprobacion_estatica": true
+}

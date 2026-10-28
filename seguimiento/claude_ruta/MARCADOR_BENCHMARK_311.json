@@ -1,0 +1,59 @@
+{
+ "tarea": "benchmark_311",
+ "estado": "entrega_candidata",
+ "responsable": "Claude",
+ "fecha_utc": "2026-10-24T07:32:57+00:00",
+ "entregables": {
+  "inventario": "INVENTARIO_COHORTES_311.json (inventario_311.py)",
+  "helper": "recepcion_311.py (recibir / sugerir / verificar)",
+  "pruebas": "test_recepcion_311.py",
+  "procedimiento": "PROCEDIMIENTO_BENCHMARK_311.md"
+ },
+ "resumen_inventario": {
+  "peticiones": 6,
+  "fallidas": 2,
+  "candidatos_por_cohorte": {
+   "openai_1": 34,
+   "openai_3": 60,
+   "openai_4": 102,
+   "gemini_1": 32
+  },
+  "limites_consumo": {
+   "openai": "4/5",
+   "gemini": "2/5",
+   "nota": "Incluye OpenAI 2 truncada y Gemini 2 fallida. No se ejecuta otra petición."
+  },
+  "derivados_no_ligados": [
+   "34528ff1579441758ae0adf34d60f144",
+   "f51b8418119c4426ab7c5dea231bd81d"
+  ]
+ },
+ "comprobaciones": [
+  "SHA de respuesta_api.json coincide con su recibo en las 6 peticiones",
+  "recuentos por cohorte iguales a METRICAS_EXTRACCION_09 (34/60/102/32)",
+  "extracciones previas a corrección consistentes; originales dentro de las 3 láminas del kit",
+  "9 pruebas unittest OK con fixtures sintéticas",
+  "en seco con kit real sin referencia: código 2, sin salida"
+ ],
+ "archivos_permitidos_sha256": {
+  "seguimiento/claude_ruta/preparacion_benchmark_311/inventario_311.py": "af90d48fe23af6af240d31421f2353058ee27f6c0634247c15baf2cdb0aa4192",
+  "seguimiento/claude_ruta/preparacion_benchmark_311/INVENTARIO_COHORTES_311.json": "c71bb65db415f28aa6a3a4114c17ef274e28cc77370e44f23b88266850e82afa",
+  "seguimiento/claude_ruta/preparacion_benchmark_311/PROCEDIMIENTO_BENCHMARK_311.md": "14b9c61bbb02409a034327d9406dcd885db856964076cef418327e8199ff2c5d",
+  "seguimiento/claude_ruta/preparacion_benchmark_311/recepcion_311.py": "71b4d5ba5f3a9b01c9e484345f40e77027c04b717bcbf32c98786c454b45cccb",
+  "seguimiento/claude_ruta/preparacion_benchmark_311/test_recepcion_311.py": "ea704e03162936d124574d655c64c9fa70093a5260574df360619a2ef53b61a3"
+ },
+ "restricciones": [
+  "Sin APIs/LLM, claves, credenciales, ETABS ni OCR",
+  "Sin proyectos 2/3",
+  "Sin tocar producto, tests públicos, entregas, 309/310 ni el kit humano",
+  "Lectura local del expediente sin modificarlo; sin volcar respuestas"
+ ],
+ "limites": [
+  "No se midió precisión, cobertura ni exactitud: no existe referencia humana ni correspondencias revisadas",
+  "La firma del revisor es declarada, no autenticada",
+  "Las sugerencias son ayudas pendientes; la decisión es humana",
+  "No se valida que el JSON exportado por Anotar_referencia.html cumpla el contrato hasta recibirlo"
+ ],
+ "siguiente_dependencia_humana": "El usuario entrega seguimiento/referencia_humana_308/referencia_humana.json (o su ruta); después, revisión humana de correspondencias por cohorte.",
+ "aceptacion_codex": false
+}

@@ -1,0 +1,27 @@
+{
+  "caso_destino": "pueblo-libre-002",
+  "extraccion_destino": "010d5641765544e894280ac6b254c38b",
+  "huella_destino": "8638a0e3f2462ea2cad4ed6758667896155e27cd0f7c30fd17097cf23124cf12",
+  "fuentes": [
+    {
+      "prefijo": "O3",
+      "caso": "provisional-001",
+      "version": "3bc8d0fd5dd7499980612381a01b600e",
+      "huella_extraccion": "2ab763db1e37a60723b52fc2a06da722bb8e641b36a8e1c1d12a635797e1d4ce"
+    },
+    {
+      "prefijo": "O4",
+      "caso": "provisional-001",
+      "version": "bcd21202e4df40a69997f802266931d7",
+      "huella_extraccion": "60a361312a2c0150f93df0d3540e0e86d47d1dfa7c95df54b3d1555ebcc5a610"
+    },
+    {
+      "prefijo": "G1",
+      "caso": "provisional-001",
+      "version": "9099a5c1bd544fc9bc62aebab90ba03b",
+      "huella_extraccion": "97a17c97c240b5e0865e23bfe6686b08ff2693657bcbb49dd20c2df2edfa457e"
+    }
+  ],
+  "regla": "IDs con prefijo de origen; evidencia sin recorte_id/imagen_sha256 (recortes de otro caso); SHA de originales comprobados iguales; versiones de origen intactas.",
+  "candidatos": 194
+}

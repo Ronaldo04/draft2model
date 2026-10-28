@@ -1,0 +1,34 @@
+{
+  "fecha_utc": "2026-10-23T21:22:24.422253+00:00",
+  "responsable": "Codex",
+  "estado": "documentos_liberados_para_congelacion_despues_de_293",
+  "archivos": {
+    "README.md": {
+      "sha256": "1a65ce29cf2aa7b7bac65b3a393d7f4fb95c34f45e773895ed9560866409798f",
+      "enlaces_inexistentes": [],
+      "UTF8_sin_reemplazo": true
+    },
+    "docs/GUIA_REPRODUCIBLE.md": {
+      "sha256": "bc074d2b3da25a42e898d6d4fc5cbaa9db9674663f2c30a959ff75fd1d107662",
+      "enlaces_inexistentes": [],
+      "UTF8_sin_reemplazo": true
+    },
+    "docs/ENTREGA_AECODE.md": {
+      "sha256": "6a901651f78b55aca6974ac35b8fb9a967b6c964e9eeaf95d697e12443b02891",
+      "enlaces_inexistentes": [],
+      "UTF8_sin_reemplazo": true
+    },
+    "docs/MATRIZ_REQUISITOS_REFERENCIA.md": {
+      "sha256": "7e661a5b1522e542d3372a3e1409da8b69c8e751544b196e1536b1fba1f0c87e",
+      "enlaces_inexistentes": [],
+      "UTF8_sin_reemplazo": true
+    }
+  },
+  "comprobacion": "Enlaces locales resuelven y UTF8 correcto; evidencia numérica revisada previamente286/292; no repetir suite por documentos.",
+  "producto_modificado": false,
+  "pendiente": "Claude293 y salidas reales09d3 corregidas; después congelación y una validación global final",
+  "goal_completo": false,
+  "comprobacion_distribucion": "590 fuentes capturadas sin publicar: todos los enlaces de los4documentos resuelven dentro de la selección real del ZIP;3referencias históricas convertidas a texto explícito, sin fingir inclusión.",
+  "adicion296": "Guía del nuevo verificador de integridad,7pruebas y ensayo con candidatos históricos; no validación funcional.",
+  "adicion298": "Verificador extendido9focalesOK; cadena caso/resultado/analisis/modelo/EDB; consulta offline documentada."
+}

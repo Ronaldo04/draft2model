@@ -1,0 +1,593 @@
+{
+ "tarea": "auto_315_contraste",
+ "ensayo_ciego": false,
+ "tolerancia_m": 0.0005,
+ "error_registro": null,
+ "cierre": null,
+ "version_etabs": [
+  "21.1.0",
+  0
+ ],
+ "modelos": [
+  {
+   "modelo": "A",
+   "tolerancia_por_defecto": 0.001,
+   "tolerancia_aplicada": 0.001,
+   "unidades": "kN_m_C",
+   "retorno_analisis": 0,
+   "casos": [
+    {
+     "id": "K01",
+     "frame": "K01",
+     "L_m": 3.0,
+     "pred": {
+      "H_help": [
+       0.2,
+       0.2
+      ],
+      "H_cara": [
+       0.2,
+       0.2
+      ]
+     },
+     "discrimina": null,
+     "antes_analisis": {
+      "auto": true,
+      "I": 0,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 3.0,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.2",
+       "OffsetJ": "0.2",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "despues_analisis": {
+      "auto": true,
+      "I": 0.2,
+      "J": 0.2,
+      "retorno": 0,
+      "Lc_m": 2.6,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.2",
+       "OffsetJ": "0.2",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "evaluacion": {
+      "H_help": "coincide",
+      "H_cara": "coincide"
+     },
+     "cambio_por_analisis": true
+    },
+    {
+     "id": "K02",
+     "frame": "K02",
+     "L_m": 3.0,
+     "pred": {
+      "H_help": [
+       0.2,
+       0.2
+      ],
+      "H_cara": [
+       0.075,
+       0.075
+      ]
+     },
+     "discrimina": "orientación",
+     "antes_analisis": {
+      "auto": true,
+      "I": 0,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 3.0,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.075",
+       "OffsetJ": "0.075",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "despues_analisis": {
+      "auto": true,
+      "I": 0.075,
+      "J": 0.075,
+      "retorno": 0,
+      "Lc_m": 2.85,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.075",
+       "OffsetJ": "0.075",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "evaluacion": {
+      "H_help": "no_coincide",
+      "H_cara": "coincide"
+     },
+     "cambio_por_analisis": true
+    },
+    {
+     "id": "K03",
+     "frame": "K03",
+     "L_m": 3.0,
+     "pred": {
+      "H_help": [
+       0.125,
+       0.0
+      ],
+      "H_cara": [
+       0.125,
+       0.3
+      ]
+     },
+     "discrimina": "columna superior",
+     "antes_analisis": {
+      "auto": true,
+      "I": 0,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 3.0,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.125",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "despues_analisis": {
+      "auto": true,
+      "I": 0.125,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 2.875,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.125",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "evaluacion": {
+      "H_help": "coincide",
+      "H_cara": "no_coincide"
+     },
+     "cambio_por_analisis": true
+    },
+    {
+     "id": "K04",
+     "frame": "K04",
+     "L_m": 3.0,
+     "pred": {
+      "H_help": [
+       0.3,
+       "indeterminado"
+      ],
+      "H_cara": [
+       0.3,
+       "indeterminado"
+      ]
+     },
+     "discrimina": "muro (B3)",
+     "antes_analisis": {
+      "auto": true,
+      "I": 0,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 3.0,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.3",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "despues_analisis": {
+      "auto": true,
+      "I": 0.3,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 2.7,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.3",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "evaluacion": {
+      "H_help": "indeterminado_previo",
+      "H_cara": "indeterminado_previo"
+     },
+     "cambio_por_analisis": true
+    },
+    {
+     "id": "K05",
+     "frame": "K05",
+     "L_m": 3.0,
+     "pred": {
+      "H_help": [
+       0.125,
+       0.0
+      ],
+      "H_cara": [
+       0.125,
+       0.075
+      ]
+     },
+     "discrimina": "otra viga",
+     "antes_analisis": {
+      "auto": true,
+      "I": 0,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 3.0,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.125",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "despues_analisis": {
+      "auto": true,
+      "I": 0.125,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 2.875,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.125",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "evaluacion": {
+      "H_help": "coincide",
+      "H_cara": "no_coincide"
+     },
+     "cambio_por_analisis": true
+    },
+    {
+     "id": "K06",
+     "frame": "K06",
+     "L_m": 0.29,
+     "pred": {
+      "H_help": [
+       "indeterminado (0,30 >= L)",
+       0.0
+      ],
+      "H_Lc2mm": [
+       0.288,
+       0.0
+      ],
+      "H_1pct": [
+       0.2871,
+       0.0
+      ]
+     },
+     "discrimina": "exceso en un extremo",
+     "antes_analisis": {
+      "auto": true,
+      "I": 0,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 0.29,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.288",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "despues_analisis": {
+      "auto": true,
+      "I": 0.28800000000000003,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 0.002,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.288",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "evaluacion": {
+      "H_help": "indeterminado_previo",
+      "H_Lc2mm": "coincide",
+      "H_1pct": "no_coincide"
+     },
+     "cambio_por_analisis": true
+    },
+    {
+     "id": "K07",
+     "frame": "K07",
+     "L_m": 0.55,
+     "pred": {
+      "H_help": [
+       0.3,
+       0.0
+      ]
+     },
+     "discrimina": "control sin exceso",
+     "antes_analisis": {
+      "auto": true,
+      "I": 0,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 0.55,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.3",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "despues_analisis": {
+      "auto": true,
+      "I": 0.3,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 0.25,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.3",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "evaluacion": {
+      "H_help": "coincide"
+     },
+     "cambio_por_analisis": true
+    },
+    {
+     "id": "K08",
+     "frame": "K08",
+     "L_m": 0.35,
+     "pred": {
+      "H_help": [
+       "indeterminado",
+       "indeterminado"
+      ],
+      "H_cero": [
+       0.0,
+       0.0
+      ],
+      "H_1pct": [
+       0.17325,
+       0.17325
+      ]
+     },
+     "discrimina": "cada extremo >= L/2 y cada offset 0,30 < L",
+     "antes_analisis": {
+      "auto": true,
+      "I": 0,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 0.35,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "despues_analisis": {
+      "auto": true,
+      "I": 0,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 0.35,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "evaluacion": {
+      "H_help": "indeterminado_previo",
+      "H_cero": "coincide",
+      "H_1pct": "no_coincide"
+     },
+     "cambio_por_analisis": false
+    },
+    {
+     "id": "K09",
+     "frame": "K09",
+     "L_m": 0.5,
+     "pred": {
+      "H_help": [
+       "indeterminado (0,60 >= L)",
+       "indeterminado"
+      ],
+      "H_cero": [
+       0.0,
+       0.0
+      ],
+      "H_1pct": [
+       0.2475,
+       0.2475
+      ]
+     },
+     "discrimina": "suma en exceso con L mayor",
+     "antes_analisis": {
+      "auto": true,
+      "I": 0,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 0.5,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "despues_analisis": {
+      "auto": true,
+      "I": 0,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 0.5,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "evaluacion": {
+      "H_help": "indeterminado_previo",
+      "H_cero": "coincide",
+      "H_1pct": "no_coincide"
+     },
+     "cambio_por_analisis": false
+    },
+    {
+     "id": "K10",
+     "frame": "K10",
+     "L_m": 0.27,
+     "pred": {
+      "H_help": [
+       "indeterminado (0,30 >= L)",
+       0.0
+      ],
+      "H_Lc2mm": [
+       0.268,
+       0.0
+      ],
+      "H_1pct": [
+       0.2673,
+       0.0
+      ],
+      "H_cara_sin_exceso": [
+       0.1,
+       0.0
+      ]
+     },
+     "discrimina": "exceso más orientación",
+     "antes_analisis": {
+      "auto": true,
+      "I": 0,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 0.27,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.1",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "despues_analisis": {
+      "auto": true,
+      "I": 0.1,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 0.17,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.1",
+       "OffsetJ": "0",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "evaluacion": {
+      "H_help": "indeterminado_previo",
+      "H_Lc2mm": "no_coincide",
+      "H_1pct": "no_coincide",
+      "H_cara_sin_exceso": "coincide"
+     },
+     "cambio_por_analisis": true
+    },
+    {
+     "id": "K11",
+     "frame": "K11",
+     "L_m": 3.0,
+     "pred": {
+      "H_help": [
+       0.3,
+       0.125
+      ],
+      "H_cara": [
+       0.1,
+       0.125
+      ]
+     },
+     "discrimina": "orientación por eje local",
+     "antes_analisis": {
+      "auto": true,
+      "I": 0,
+      "J": 0,
+      "retorno": 0,
+      "Lc_m": 3.0,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.1",
+       "OffsetJ": "0.125",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "despues_analisis": {
+      "auto": true,
+      "I": 0.1,
+      "J": 0.125,
+      "retorno": 0,
+      "Lc_m": 2.775,
+      "tabla": {
+       "OffsetOpt": "Auto",
+       "OffsetI": "0.1",
+       "OffsetJ": "0.125",
+       "RigidFact": "0",
+       "SelfWtOpt": "Auto"
+      }
+     },
+     "evaluacion": {
+      "H_help": "no_coincide",
+      "H_cara": "coincide"
+     },
+     "cambio_por_analisis": true
+    }
+   ],
+   "tabla_campos": [
+    "Story",
+    "Label",
+    "UniqueName",
+    "OffsetOpt",
+    "OffsetI",
+    "OffsetJ",
+    "RigidFact",
+    "SelfWtOpt"
+   ],
+   "tabla_retorno_antes_analisis": 0,
+   "tabla_retorno_despues_analisis": 0
+  }
+ ]
+}

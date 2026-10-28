@@ -1,0 +1,54 @@
+{
+  "fecha_utc": "2026-10-25T19:23:21.038333+00:00",
+  "revision": 357,
+  "responsable": "digitizacion_calibrada_350",
+  "estado": "implementado_y_focal_ok",
+  "comando": ".venv/Scripts/python.exe -B -m unittest tests.test_lectura_contornos tests.test_contornos_a_geometria -v",
+  "python": "3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)]",
+  "pruebas": 23,
+  "fallos": 0,
+  "errores": 0,
+  "exit_code": 0,
+  "salida": "test_abertura_sin_host_y_frame_sin_dos_extremos (tests.test_lectura_contornos.LecturaContornosTests) ... ok\ntest_bbox_y_uv_fuera_region (tests.test_lectura_contornos.LecturaContornosTests) ... ok\ntest_catalogo_espacial_solo_contexto_y_ids_exactos (tests.test_lectura_contornos.LecturaContornosTests) ... ok\ntest_contrato_enriquecimiento_y_no_mutacion (tests.test_lectura_contornos.LecturaContornosTests) ... ok\ntest_controles_repetidos_no_fingen_independencia (tests.test_lectura_contornos.LecturaContornosTests) ... ok\ntest_planos_ids_paginas_y_evidencias_ajenos (tests.test_lectura_contornos.LecturaContornosTests) ... ok\ntest_red_rechaza_metricas_cotas_y_campos_extra (tests.test_lectura_contornos.LecturaContornosTests) ... ok\ntest_sin_anclas_suficientes_conserva_faltante_no_inventa (tests.test_lectura_contornos.LecturaContornosTests) ... ok\ntest_aprobacion_anterior_no_se_hereda_ni_modifica (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\ntest_cara_nueva_vano_y_frame_con_origen_preservado (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\ntest_colision_de_frame_preexistente_en_contexto (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\ntest_colision_rechaza_transaccion_y_conserva_existentes_exactos (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\ntest_control_con_error_no_se_ignora_aunque_incertidumbre_amplia (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\ntest_fuera_de_incertidumbre_no_incorpora_y_falta_registro_no_inventa (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\ntest_geometria_invalida_vano_fuera_host_revierte_todo (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\ntest_lectura_vacia_conserva_pendiente_sin_publicar_cambio (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\ntest_lectura_y_catalogo_no_pueden_cambiar_geometria_contextual (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\ntest_orden_respuesta_no_cambia_incorporacion (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\ntest_resultado_fisico_alterado_rehash_no_basta (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\ntest_resumen_falsa_acreditacion_no_se_acepta (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\ntest_sin_fuente_documental_calcula_pero_conserva_carencias (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\ntest_source_plano_huella_y_propuesta_ajenos_aunque_rehash (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\ntest_unidades_y_naturaleza_se_conservan_sin_mutacion (tests.test_contornos_a_geometria.ContornosGeometriaTests) ... ok\n\n----------------------------------------------------------------------\nRan 23 tests in 0.522s\n\nOK\n",
+  "sha256": {
+    "draft2model/lectura_contornos.py": "8d533871672e4b6697b0e92a9e5d62b9d5709605830076646f73184a74d75dc4",
+    "draft2model/contornos_a_geometria.py": "660eaf5bc85886bc478cca5a2f3e21539d1f5966189b0c37f08ea43902a5af48",
+    "tests/test_lectura_contornos.py": "be791c73695553fb9d0f984320ca75d88ad16728505dc99a556afbca2a866f64",
+    "tests/test_contornos_a_geometria.py": "66d1b2d68380ed9e903e8ab335c894235114079015b682964526bfa1779034bb",
+    "docs/CONTORNOS_AUTOMATICOS.md": "9bbdd837cf3ea18778c147bdda1bb721692ea56fc5ae382649c37bd4c6a2fca7"
+  },
+  "dependencias_observadas": {
+    "draft2model/digitizacion_calibrada.py": "2d82f69f721c3934527a109393be8da16050141eedbbef8b7e8232d81f6be00a",
+    "draft2model/contratos.py": "dea4a28c376b1473b1454424da13cca01a12f4f43d3fa16479ab3e3b986ed46d",
+    "draft2model/validacion_geometria.py": "e0b7e60d5bf31522a53cb7743e85d1a2416fe7d331c9b35491ff1dc3eb9f5abe"
+  },
+  "funciones_publicas": [
+    "lectura_contornos.esquema",
+    "lectura_contornos.instruccion(caso,contexto)",
+    "lectura_contornos.validar_respuesta(respuesta,manifest,paginas_enviadas,contexto)",
+    "lectura_contornos.huella(objeto)",
+    "contornos_a_geometria.incorporar_contornos(geometria,lectura_validada,digitizaciones_comprobadas)"
+  ],
+  "alcance": [
+    "contrato estricto normalizado sin metricas en red",
+    "catalogo espacial opcional en contexto confiable",
+    "incorporacion transaccional con cara+vano y frames separados",
+    "reproduccion del nucleo desde vertices originales; verificaciones de fuente/plano/propuesta/hash/naturaleza",
+    "rechaza residuos de control y puntos fuera de incertidumbre declarada",
+    "preserva observaciones, procedencia, referencias de dependencia, coordenadas existentes y revision previa sin heredar aprobacion",
+    "colisiones y geometria invalida producen rollback completo",
+    "orden de respuesta canonico sin reordenar anillos"
+  ],
+  "limites": [
+    "solo fixtures propias sinteticas en memoria; registros353 sinteticos reproducibles, no acreditan consultar real en esta suite",
+    "sin I/O de expedientes, imagenes, API, claves, ETABS, GUI, servidores ni suite completa",
+    "integracion vision/cuota/ServicioDigitizacion y publicacion de geometria a cargo de root",
+    "frontera de confianza: caller obtiene registros por consultar real y verifica bytes originales/geometria/codigo; hashes juntos no son firma",
+    "dibujos sin registro calculado o sin puntos calculados permanecen pendientes",
+    "no acredita correspondencia visual, exactitud documental, independencia estadistica ni ingenieria aprobada",
+    "contexto frames debe contener IDs existentes aunque esten fuera del contrato0.3",
+    "completo/aprueba_ingenieria/ejecutable_etabs siempre false"
+  ],
+  "apis_usadas": 0,
+  "archivos_compartidos_editados": []
+}

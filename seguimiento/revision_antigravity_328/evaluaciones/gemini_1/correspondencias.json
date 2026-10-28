@@ -1,0 +1,23 @@
+{
+  "contrato": "draft2model.correspondencias_vision",
+  "version_contrato": "0.1.0",
+  "caso": "provisional-001",
+  "huella_referencia": "66b2da0d87d29acc1ef832c955817ba23f474bc7d2146978dffd9f69626c9fd1",
+  "huella_extraccion": "169bc37e9cd6525860f046abbe797f386f02bafbef3e3b89fa81f4769540402b",
+  "revision": {
+    "estado": "revisado",
+    "revisor_declarado": "Codex (IA), revisión visual asistida; no humana",
+    "fecha": "2026-10-24"
+  },
+  "pares": [
+    {
+      "observacion_id": "AG-0010",
+      "candidato_id": "C032",
+      "indice_evidencia_referencia": 0,
+      "indice_evidencia_candidato": 0,
+      "principal": true,
+      "evidencia_correcta": true
+    }
+  ],
+  "sin_respaldo": []
+}

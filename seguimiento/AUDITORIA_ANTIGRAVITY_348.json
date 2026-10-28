@@ -1,0 +1,36 @@
+{
+  "fecha_utc": "2026-10-25T03:46:45.138077+00:00",
+  "autor_corte347": "Antigravity, confirmado por el usuario y contrastado contra sus archivos",
+  "conservado": true,
+  "diferencias_desde347": "Preparación348 propia y ajustes documentales de distribución; sin archivos faltantes.",
+  "validacion_original347": {
+    "python": 1483,
+    "frontend": 39,
+    "omisiones": 0,
+    "alcance": "software completo de desarrollo, no aprobación de ingeniería ni generalización"
+  },
+  "comprobaciones_focales": [
+    "tmp/revision_antigravity_348_python.log:59pruebasOK antes de la corrección de evidencia",
+    "tmp/revision_antigravity_348_frontend.log:4archivosfrontendOK",
+    "tmp/auditoria_evidencia_348.log:26pruebasOK tras corregir comprobación de páginas",
+    "tmp/configuracion_conexiones_348.log:11pruebasOK incluidos endpoints de continuidad",
+    "tmp/editor_configuracion_348.log:2archivosfrontendOK"
+  ],
+  "hallazgo_corregido": "La evidencia de unidad también debe referenciar páginas efectivamente enviadas; se comprueba el límite si el manifiesto tiene contador de páginas conocido. Un contador desconocido conserva el control del paquete enviado.",
+  "fuentes_actuales": {
+    "draft2model/reconstruccion_automatica.py": "f9351c690509802aa593e6fc740970b58eb8844e0cb6f89de3d68454a31a660e",
+    "draft2model/revision_reconstruccion.py": "537c6eccdb79251472a2cde6966bc5b72084548c3cce2f8167667bfeca6c8b90",
+    "draft2model/revision_visual.py": "b4e83543c64cf62bec9e6c06e2aacb3c0c52b675c29f8a16ad1f9c328132932a",
+    "draft2model/preparacion_configuracion.py": "8f016f34b9cdd15dee83b42f1b24555eddbd727d234eca97d1db2be8ebf5179c",
+    "draft2model/revision_web/preparacion_configuracion.js": "08582a57d71a773760f0079c8fe4dbc604b8046337736d3ccf6cb3df778a707c",
+    "draft2model/revision_web/editor_ingenieria.js": "904bbffef3740d8d0e10a0c6387884098b72677388fc2d4e987d60e925e87703",
+    "draft2model/revision_web/index.html": "f4960abacc3c959d3de5164e17a975c40073a446ea85c9d7b06159d0699bbfaf",
+    "draft2model/revision_web/configuracion.js": "2686a25359af0ba7018a52832d51e2249cda2af8a0e0f69a5436779ddaaa69fd",
+    "tests/test_preparacion_configuracion.py": "4fe27a213344c49f89126ee7a4e18224abe061e838b7ed95638c4c4d9de38e76",
+    "tests/preparacion_configuracion_348_frontend.cjs": "eed3d34140edf42148ccf88d2c20708f522bf7d4fe7ba139b8aa1abfe60e7164",
+    "tests/test_reconstruccion_automatica.py": "afbb1a100e5ff6ea6e19c63e51297017d6b4b2c1d66015db9f8890b7ae99f38d",
+    "tests/test_revision_reconstruccion.py": "1b503df5d26fbaf77f57745bb7662a290fdf6b7b2407a942ecafc35014973181"
+  },
+  "sin_nuevas_llamadas_api_en_revision": true,
+  "aceptacion_global": false
+}

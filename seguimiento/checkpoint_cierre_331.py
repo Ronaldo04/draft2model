@@ -1,0 +1,50 @@
+"""Guardar el cierre acotado por el plazo del usuario, sin iniciar nuevas funciones."""
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+
+root = Path(__file__).resolve().parents[1]
+folder = root/'seguimiento'
+now = datetime.now(timezone.utc).isoformat()
+state = {
+ 'fecha_utc': now, 'goal_completo': False, 'anterior': 'seguimiento/RETOMAR_CODEX_330.json',
+ 'responsable_unico': 'Codex; sin nuevas delegaciones.',
+ 'prioridad_usuario': 'A las13:15Lima indicó2horas para entregar. Estimación comunicada30–45min para consolidar si no hay fallos. No añadir funciones antes de empaquetar.',
+ 'entrega_actual_segura': 'entregas/AECODE_PRESENTACION_328_FINAL.zip',
+ 'sha256_entrega_actual': '6a1dc4f39d24839fb03bf5be252734fe975327fb4cf4ba82f1f12be0cd734949',
+ 'candidato': 'tmp/validacion_distribucion_331/fuentes',
+ 'cambios': ['Avisos de coherencia literal integrados y visibles por candidato.',
+             'Búsqueda local de palabras PDF con propuestas de región y previsualización; no guarda ni elige duplicados.',
+             'Documentación de uso y límites; guías conservan separación IA/humano y comparación manual aplazada.'],
+ 'verificaciones_focales': ['118Python, cero omisiones: tmp/coherencia_literal_329_tests.log',
+                          '38Python, cero omisiones: tmp/localizacion_pdf_331_tests.log',
+                          '36interfaz, cero omisiones: tmp/frontend_localizacion_331.log'],
+ 'global329': {'session_id': 20690, 'estado': 'terminal0', 'codigo': 0,
+              'registro': 'tmp/validacion_distribucion_329/verificacion.json',
+              'comprobaciones': 5, 'omisiones': [], 'fuentes_estables': True},
+ 'global331': {'session_id': 31832, 'estado_al_guardar': 'en_ejecucion',
+              'registro': 'tmp/validacion_distribucion_331/estado.json',
+              'instruccion': 'Sondear mismo handle; no reiniciar por timeout. Global329ya terminó. No suites simultáneas.'},
+ 'contraste_real': {'registro': 'seguimiento/localizacion_331/contraste.json',
+                   'etiquetas': 19, 'unica': 1, 'ambigua': 2, 'sin_coincidencias': 16,
+                   'inspeccion_visual': 'regiones_unicas.png leído: DETALLE: ALIGERADO TIPICO correcto.',
+                   'limite': 'Gran parte de rótulos no está como texto PDF; no precisión OCR ni automatización universal.'},
+ 'ensayo_ocr': {'registro': 'seguimiento/localizacion_331/ENSAYO_OCR.json',
+               'estado': 'experimental_no_integrado',
+               'tesseract': 'C:/Program Files/Tesseract-OCR/tesseract.exe,5.4.0,eng+spa instalados',
+               'resultado': '700palabras; C-1:1,C-2:4,C-6:1,PL-1:1,PL-10:2 coincidencias exactas; sin aceptación visual integral.',
+               'api_calls': 0, 'instruccion': 'No integrar ni ampliar antes de la entrega; límite documentado.'},
+ 'siguiente': [
+  'Esperar handle31832. Si terminal0, leer verificacion.json y comprobar cinco códigos0, sin omisiones, fuentes estables y conteos exactos. No editar el candidato congelado.',
+  'Ejecutar python -X utf8 -m seguimiento.empaquetar_presentacion_331 SOLO tras validación331 correcta. Script preparado; no ejecutado aún; exige salida nueva y conserva328.',
+  'Verificar ZIP331, manifiestos y enlaces; corregir problemas del empaquetador si los hay sin tocar software validado. No prometer nuevas pruebas nativas.',
+  'Entregar al usuario enlace a331FINAL y reporte con limitaciones; conservar328 como respaldo. Guardar checkpoint y dejar goal activo: no generalización acreditada ni revisión integral de ingeniería.',
+ ],
+ 'restricciones': ['Sin APIs ni credenciales.', 'Sin ETABS nuevo, modelo manual ni proyectos2/3.',
+                  'Sin nuevas funciones antes de entregar.', 'Conservar resultados y tolerancias, sin aprobación de ingeniería.',
+                  'HeartbeatClaude pausado; no ComputerUse.'],
+}
+for name,value in [('RETOMAR_CODEX_331.json',state),('RETOMAR_ACTUAL.json',
+ {'checkpoint':'seguimiento/RETOMAR_CODEX_331.json','fecha_utc':now,'goal_completo':False})]:
+ (folder/name).write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print('Cierre331 guardado; solo comprobar, empaquetar y entregar.')

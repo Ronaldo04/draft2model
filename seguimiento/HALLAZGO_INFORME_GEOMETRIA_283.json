@@ -1,0 +1,98 @@
+{
+  "fecha_utc": "2026-10-23T15:46:38.910481+00:00",
+  "informe": "dccadc6138fb412bab4122eded6df107",
+  "huella_archivos": {
+    "informe.json": "dfda299580eaf170dbae10d261d15a94032655226b0d8fd8abe8783f9d2fa490",
+    "informe.html": "6e782e73c1ec8899cda10a67da3fdad2c8e10eab70c0402639d2929341bd0294",
+    "informe.pdf": "fa216c7472c4a336cf1f357901980fabddf05113ca04087949326380941ae9f3"
+  },
+  "siete_categorias": [
+    "estado_modelo_analisis",
+    "geometria_muros",
+    "periodos",
+    "derivas",
+    "cortante_basal",
+    "advertencias",
+    "sitio"
+  ],
+  "hallazgo": "Resumen geométrico incompleto para geometría0.3 con superficies y cotas auxiliares",
+  "actual": {
+    "numero_muros": 0,
+    "numero_niveles": 8,
+    "unidad_longitud": "m",
+    "referencia": {
+      "id": "25ef94672fac4e53863701b55e32f97d",
+      "sha256": "24b484549348484f8bf7df1255704a38f2cd77c3b282d2b69ba5b46f0afb68c2"
+    },
+    "estado": "archivo_y_consistencia_verificados"
+  },
+  "fuente_geometrica_sha256": "24b484549348484f8bf7df1255704a38f2cd77c3b282d2b69ba5b46f0afb68c2",
+  "fuente": {
+    "version": "0.3.0",
+    "muros_lineales": 0,
+    "superficies": 2502,
+    "roles_declarados": {
+      "muro de albañilería": 268,
+      "placa de concreto": 322,
+      "losa de piso": 1341,
+      "losa de techo": 448,
+      "muro de depósito": 56,
+      "fondo de depósito": 25,
+      "tapa de depósito": 24,
+      "escalera: rampa": 10,
+      "escalera: descanso": 6,
+      "cerco de concreto": 2
+    },
+    "niveles": [
+      {
+        "id": "NCF",
+        "cota": -2.5,
+        "tipo": "auxiliar"
+      },
+      {
+        "id": "N0",
+        "cota": 0.0,
+        "tipo": "piso"
+      },
+      {
+        "id": "N1",
+        "cota": 2.6,
+        "tipo": "piso"
+      },
+      {
+        "id": "N2",
+        "cota": 5.2,
+        "tipo": "piso"
+      },
+      {
+        "id": "N3",
+        "cota": 7.8,
+        "tipo": "piso"
+      },
+      {
+        "id": "N4",
+        "cota": 10.4,
+        "tipo": "piso"
+      },
+      {
+        "id": "NTF",
+        "cota": 12.5,
+        "tipo": "auxiliar"
+      },
+      {
+        "id": "NTT",
+        "cota": 14.25,
+        "tipo": "auxiliar"
+      }
+    ]
+  },
+  "correccion_requerida": "No presentar muros_lineales=0 como ausencia de muros físicos. Informar representación y superficies por papel declarado sin confundir piezas con muros físicos. Separar5niveles geométricos tipo piso (incluye baseN0),3auxiliares y4pisos del modelo. Citar la fuente correspondiente; no inferir cantidad física no declarada. Aplicar a JSON/HTML/PDF/panel si comparten resumen.",
+  "revision_visual": {
+    "paginas": 3,
+    "renders": "tmp/pdfs/qa_informe_282",
+    "observado": "Texto y tablas legibles, sin solapes o cortes observados. Error semántico visible en página2: Muros0/Niveles8 sin distinción."
+  },
+  "descarga_UI": "Intento no confirmado: evento/click del navegador agotó espera y reinició kernel; no repetir creación de informe. Archivo conservado revisado por hash, no prueba de descarga.",
+  "limitaciones": "Borrador QA con análisis vinculado; sin controles/reglas ni aprobación. No entrega final.",
+  "goal_completo": false
+}

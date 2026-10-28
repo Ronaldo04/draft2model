@@ -1,0 +1,12 @@
+{
+  "recibido": "CONTINUACION_CLAUDE_267_INTEGRACION.md",
+  "fecha": "2026-10-22",
+  "liberacion_reserva_267": "aceptada; no se revierten cambios de Codex (incl. renderizar_html contraste_masa)",
+  "cadena_viva": "resultados_09.py (Python 27864) sobre tmp/recorrido_09d1; no se reinicia",
+  "no_duplicar": [
+    "AECODE_CANDIDATO_267 (sesión Codex 16058)",
+    "contraste CAGUA 264 (6/6)",
+    "tmp/candidato_cache_malla_267"
+  ],
+  "siguiente": "corrección de cierre de instancia propia en scripts/analizar_modelo_etabs.ps1 + analisis_etabs (flujo general), mientras la cadena corre"
+}

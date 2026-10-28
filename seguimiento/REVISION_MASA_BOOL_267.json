@@ -1,0 +1,51 @@
+{
+  "fecha_utc": "2026-10-22T18:31:21.732860+00:00",
+  "casos": [
+    {
+      "caso": "numerico_texto",
+      "forma_lector": "aceptada",
+      "contraste": "coherente",
+      "correcto": true
+    },
+    {
+      "caso": "booleano_no_es_masa",
+      "forma_lector": "ErrorEvidenciaEtabs",
+      "contraste": "ErrorLibroMasa",
+      "correcto": true
+    },
+    {
+      "caso": "solo_array_bool",
+      "forma_lector": "ErrorEvidenciaEtabs",
+      "contraste": "ErrorLibroMasa",
+      "correcto": true
+    },
+    {
+      "caso": "solo_observacion_bool",
+      "forma_lector": "ErrorEvidenciaEtabs",
+      "contraste": "ErrorLibroMasa",
+      "correcto": true
+    },
+    {
+      "caso": "coordenada_bool",
+      "forma_lector": "ErrorEvidenciaEtabs",
+      "contraste": "ErrorLibroMasa",
+      "correcto": true
+    },
+    {
+      "caso": "eje_bool",
+      "forma_lector": "ErrorEvidenciaEtabs",
+      "contraste": "ErrorLibroMasa",
+      "correcto": true
+    }
+  ],
+  "etabs": false,
+  "apis_remotas": 0,
+  "alcance": "Tipado y conversión del adaptador con un JSON sintético de una fila, no evidencia de ejecución nativa",
+  "hallazgo": "float(True) convierte booleano a masa1 antes de llegar al validador estricto; no debe aceptarse como masa tipada",
+  "fuentes": {
+    "draft2model/libro_masa.py": "d3085be8e289b7881dd83e86e313b20f8105d946e0466bb0e6ed2f5b5dec02c0",
+    "draft2model/lectura_analisis.py": "4ccfc28d5dd3c7eaa9316f32d9ada485bee987b154a7158eb576b54505dc50b2"
+  },
+  "revision_corregida": true,
+  "correcto": true
+}

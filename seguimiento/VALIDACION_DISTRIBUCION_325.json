@@ -1,0 +1,254 @@
+{
+  "fecha_utc": "2026-10-24T14:20:20.055905+00:00",
+  "huella_fuentes": "3465f8d19e39107bf169f2ebede6b6d072949258154029ec74a7c79d1fc88bd0",
+  "archivos": 609,
+  "global": {
+    "python": 1471,
+    "interfaz": 36
+  },
+  "omisiones": [],
+  "fuentes_estables": true,
+  "cambios_frente322": [
+    "README.md",
+    "docs/ENTREGA_AECODE.md",
+    "docs/GUIA_REPRODUCIBLE.md",
+    "draft2model/particion_superficies.py",
+    "tests/test_cache_particiones_325.py"
+  ],
+  "entorno": "Offline303 reutilizado; lock y wheels idénticos. No nueva instalación325.",
+  "perfil_consulta_real": {
+    "consulta_unica": true,
+    "etabs_abierto": false,
+    "red": false,
+    "pared_s": 195.4454830000177,
+    "modelo": "0f37271307b6449c89c458c60a1640c7",
+    "estado": "pendiente",
+    "perfil": [
+      {
+        "archivo": "revision_modelo.py",
+        "linea": 130,
+        "funcion": "consultar",
+        "llamadas": 1,
+        "propio_s": 0.1849,
+        "acumulado_s": 195.4405
+      },
+      {
+        "archivo": "revision_modelo.py",
+        "linea": 41,
+        "funcion": "_validar",
+        "llamadas": 1,
+        "propio_s": 0.2043,
+        "acumulado_s": 194.954
+      },
+      {
+        "archivo": "operaciones_etabs.py",
+        "linea": 1569,
+        "funcion": "generar_plan_malla",
+        "llamadas": 1,
+        "propio_s": 0.0087,
+        "acumulado_s": 187.7877
+      },
+      {
+        "archivo": "modelo_estructural.py",
+        "linea": 1298,
+        "funcion": "comprobar_configuracion",
+        "llamadas": 1,
+        "propio_s": 0.0138,
+        "acumulado_s": 145.6513
+      },
+      {
+        "archivo": "modelo_estructural.py",
+        "linea": 995,
+        "funcion": "validar",
+        "llamadas": 2,
+        "propio_s": 0.0001,
+        "acumulado_s": 132.4468
+      },
+      {
+        "archivo": "modelo_estructural.py",
+        "linea": 231,
+        "funcion": "validar",
+        "llamadas": 2,
+        "propio_s": 0.0421,
+        "acumulado_s": 124.8507
+      },
+      {
+        "archivo": "modelo_estructural.py",
+        "linea": 1123,
+        "funcion": "objetos",
+        "llamadas": 2,
+        "propio_s": 0.0,
+        "acumulado_s": 124.5909
+      },
+      {
+        "archivo": "modelo_estructural.py",
+        "linea": 956,
+        "funcion": "objetos",
+        "llamadas": 2,
+        "propio_s": 0.0017,
+        "acumulado_s": 124.5906
+      },
+      {
+        "archivo": "cache_malla_pura.py",
+        "linea": 95,
+        "funcion": "wrapped",
+        "llamadas": 1,
+        "propio_s": 0.0319,
+        "acumulado_s": 123.6241
+      },
+      {
+        "archivo": "malla_preparacion.py",
+        "linea": 92,
+        "funcion": "preparar_malla",
+        "llamadas": 1,
+        "propio_s": 1.2077,
+        "acumulado_s": 122.6625
+      },
+      {
+        "archivo": "compatibilidad_particiones.py",
+        "linea": 159,
+        "funcion": "compatibilizar_particiones",
+        "llamadas": 2,
+        "propio_s": 0.9362,
+        "acumulado_s": 62.9363
+      },
+      {
+        "archivo": "particion_superficies.py",
+        "linea": 185,
+        "funcion": "particionar_superficie",
+        "llamadas": 7506,
+        "propio_s": 1.1829,
+        "acumulado_s": 60.1662
+      },
+      {
+        "archivo": "particion_superficies.py",
+        "linea": 103,
+        "funcion": "verificar",
+        "llamadas": 7511,
+        "propio_s": 1.5436,
+        "acumulado_s": 48.9958
+      },
+      {
+        "archivo": "particion_superficies.py",
+        "linea": 63,
+        "funcion": "_binario_local",
+        "llamadas": 7512,
+        "propio_s": 0.0228,
+        "acumulado_s": 47.4578
+      },
+      {
+        "archivo": "~",
+        "linea": 0,
+        "funcion": "<built-in method marshal.dumps>",
+        "llamadas": 7512,
+        "propio_s": 47.435,
+        "acumulado_s": 47.435
+      },
+      {
+        "archivo": "triangulacion_particiones.py",
+        "linea": 131,
+        "funcion": "triangular_compatibilidad",
+        "llamadas": 1,
+        "propio_s": 0.0576,
+        "acumulado_s": 37.2736
+      },
+      {
+        "archivo": "fractions.py",
+        "linea": 356,
+        "funcion": "forward",
+        "llamadas": 5964680,
+        "propio_s": 3.7879,
+        "acumulado_s": 31.3671
+      },
+      {
+        "archivo": "gestion_geometria.py",
+        "linea": 419,
+        "funcion": "consultar_version",
+        "llamadas": 3,
+        "propio_s": 0.0012,
+        "acumulado_s": 26.7266
+      },
+      {
+        "archivo": "gestion_geometria.py",
+        "linea": 376,
+        "funcion": "_comprobar",
+        "llamadas": 3,
+        "propio_s": 0.0669,
+        "acumulado_s": 26.1486
+      },
+      {
+        "archivo": "malla_preparacion.py",
+        "linea": 117,
+        "funcion": "<listcomp>",
+        "llamadas": 1,
+        "propio_s": 0.0188,
+        "acumulado_s": 25.8325
+      },
+      {
+        "archivo": "gestion_geometria.py",
+        "linea": 249,
+        "funcion": "_comprobar_una",
+        "llamadas": 27,
+        "propio_s": 0.0573,
+        "acumulado_s": 24.2125
+      },
+      {
+        "archivo": "cache_validacion_geometria.py",
+        "linea": 59,
+        "funcion": "wrapped",
+        "llamadas": 57,
+        "propio_s": 0.0251,
+        "acumulado_s": 22.3483
+      }
+    ],
+    "no_prueba": "No repite instalación, suite, cálculo ni benchmark."
+  },
+  "comparacion": {
+    "verificador_particion_antes_despues": [
+      {
+        "llamadas": 7506,
+        "s": 17.985803800000003
+      },
+      {
+        "llamadas": 2502,
+        "s": 5.735256000000001
+      }
+    ],
+    "consulta_antes_s": 205.3909687999403,
+    "consulta_despues_s": 195.4454830000177,
+    "observacion": "Una medición por variante bajo perfil. No es SLA ni garantía de velocidad general; el plan completo regenerado coincide con el conservado."
+  },
+  "anexo_qa_sha256": {
+    "informe.json": "ed01d23b3851c51691f3059f64075530787a56a14de966f4ecafb5f147410f78",
+    "informe.html": "1100e2e08bdf9444c556b5ec1e397d27c3fecb00bbac3358c5e6ea40c38d4638",
+    "informe.pdf": "49ae24aded49d4ed056a0b9676d29ac01bebbc6f5250ef12492f259eeeaf4594",
+    "lectura_nativa/solicitud.json": "dde7d2f95687c4e63b802a74286376f8f02548fc31affe9386cea89284434beb",
+    "lectura_nativa/respuesta.json": "b65f3707a0eeb75db86b0dbc0381f811b931c3ee3d4b29ea597323c9be766511",
+    "lectura_nativa/registro.json": "ef4181db76e246e22b91e1dc265cfdf94296143892be6e3a6968d754e0a7f59c",
+    "lectura_nativa/evidencia_analisis.json": "43e24da53271499818216c95e5a3bb379199eecc42db80d64af164824a190841",
+    "lectura_nativa/aceptacion_lectura.json": "bb851f4a9a2381cf259a5b0089336074ac15ff8988d1c499657b28b2625bec8f",
+    "lectura_nativa/traza_lectura.jsonl": "b960c2282cb39589199da2ed41fc0d681c80eef64989a8b31bb002a1be9d1eb9",
+    "lectura_nativa/aceptacion_web.json": "503873f95c0b2458a9f9eff941dfbcd3a99fe2e946d5e0a64a269e713ad8acf1"
+  },
+  "evidencia_nativa": "Recorrido322 conservado íntegro; no nueva ejecución ETABS, lectura nativa ni informe325.",
+  "limites": [
+    "Una consulta por variante bajo perfil; mejora temporal modesta, sin SLA ni prueba de rendimiento universal.",
+    "Verificaciones completas del expediente siguen siendo costosas.",
+    "Benchmark humano pendiente; ausencia de EMS, contraste bruto no_coherente y diez comparaciones no satisfactorias conservados.",
+    "No certifica ingeniería ni modelado validado de cualquier construcción."
+  ],
+  "goal_completo": false,
+  "integridad_conjunto": {
+    "estado": "integridad_verificada_no_aceptacion_funcional",
+    "huella_fuentes": "3465f8d19e39107bf169f2ebede6b6d072949258154029ec74a7c79d1fc88bd0",
+    "caso": "pueblo-libre-002",
+    "archivos_fuentes": 609,
+    "archivos_complemento": 34,
+    "aprueba_ingenieria": false
+  },
+  "enlaces_locales": {
+    "enlaces": 82,
+    "rotos": [],
+    "huella_fuentes": "3465f8d19e39107bf169f2ebede6b6d072949258154029ec74a7c79d1fc88bd0"
+  }
+}

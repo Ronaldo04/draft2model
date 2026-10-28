@@ -1,0 +1,164 @@
+{
+  "tarea": "ruta_autonoma_201",
+  "modo": "ruta_autonoma",
+  "estado": "entrega_recibida_hashes_y_focal_revisados",
+  "encargo": "seguimiento/claude_ruta/RUTA_AUTONOMA_201.md",
+  "estado_ruta": "seguimiento/claude_ruta/estado.json",
+  "revisiones_ruta": "seguimiento/claude_ruta/REVISIONES.json",
+  "confirmacion_envio": "Borrador propio251 identificado/seleccionado, reemplazado por257; Enter; mensaje visible en historial, compositor vacio; cola Enviar ahora detectada y pulsada; observacion posterior sin ese boton.",
+  "propietario_implementacion": "Claude: implementación existente, salvo archivos nuevos independientes de Codex en reservas250/254/258; sin ediciones simultáneas.",
+  "propietario_revision": "Codex: coordinación/seguimiento/revisión e implementación independiente; no editar simultáneamente archivos que Claude integra.",
+  "reserva_nuevos_archivos_250": {
+    "responsable": "Codex",
+    "archivos": [
+      "draft2model/masa_contenido.py",
+      "tests/test_masa_contenido.py",
+      "docs/MASA_CONTENIDO.md"
+    ],
+    "registro": "seguimiento/RESERVA_NUEVOS_ARCHIVOS_MASA_250.json",
+    "alcance": "Biblioteca pura en archivos nuevos, sin enlace al contrato/plan/transporte que edita Claude; aviso visual pendiente por suspensión de Computer Use. No es un acuerdo de integración recibido.",
+    "aviso_integracion_enviado": true
+  },
+  "anterior": {
+    "tarea": "relectura_malla_196",
+    "estado": "revisado_focal",
+    "pruebas": "11purasOK con1omitida; omitida1hostOK5.387s; root7comparacionOK2.203s; relecturaREAL199 recomparada tras normalización verificado."
+  },
+  "encargo_actual": "Cierre Codex303; entrega Claude293/301 publicada",
+  "confirmacion_actual": "Mensaje301 observado en historial y compositor vacío en captura; RECEPCION_301.json confirma reparto.",
+  "reserva_codex_temporal": {
+    "agente": "/root/interfaz_losas_244",
+    "archivos": [
+      "draft2model/revision_web/construccion.js",
+      "draft2model/revision_web/index.html",
+      "tests/revision_construccion_frontend.cjs"
+    ],
+    "acuerdo": "seguimiento/COORDINACION_UI_244.json",
+    "liberada": true,
+    "resultado": "seguimiento/QA_INTERFAZ_LOSAS_244.json"
+  },
+  "reserva_nuevos_archivos_254": {
+    "responsable": "Codex",
+    "estado": "archivos_nuevos_independientes_disponibles_para_integracion",
+    "acuerdo_claude_confirmado": false,
+    "archivos": [
+      "draft2model/masa_ensamblada.py",
+      "tests/test_masa_ensamblada.py",
+      "tests/fixtures/masa_ensamblada_253f/extracto_sintetico_253f.json",
+      "tests/fixtures/masa_ensamblada_253f/manifest.json",
+      "docs/MASA_ENSAMBLADA.md"
+    ],
+    "evidencia": "seguimiento/PORTADO_MASA_ENSAMBLADA_254.json",
+    "alcance": "Validador puro de payload; sin consumidores ni nueva ejecucion ETABS",
+    "aviso_integracion_enviado": true
+  },
+  "computer_use_suspendido": true,
+  "motivo_ultima_suspension": "Escape tras implementar301, al intentar avisar finalización. No enviar más entradas sin reanudación.",
+  "reserva_nuevos_archivos_258": {
+    "responsable": "Codex",
+    "archivos": [
+      "scripts/crear_paquete_aecode.py",
+      "tests/test_paquete_aecode.py",
+      "docs/ENTREGA_AECODE.md"
+    ],
+    "registro": "seguimiento/RESERVA_EMPAQUETADO_258.json",
+    "alcance": "Empaquetado independiente, sin editar implementación existente de Claude",
+    "acuerdo_claude_confirmado": false,
+    "aviso_integracion_enviado": true,
+    "liberada_para_integracion": true,
+    "evidencia_final": "seguimiento/REVISION_PAQUETE_258.json"
+  },
+  "lectura_encargo_257_observada": true,
+  "revision_relectura_259": "seguimiento/REVISION_RELECTURA_259.json",
+  "revision_runner_259": "seguimiento/REVISION_RUNNER_259.json",
+  "hallazgo_260": "seguimiento/REPRODUCCION_CONTENIDO_260.json",
+  "correccion_260_verificada": "seguimiento/REVISION_CONTENIDO_261.json",
+  "hallazgo_informe_261": "seguimiento/REPRODUCCION_INVENTARIO_INFORME_261.json",
+  "candidato_reuso_262": "seguimiento/CANDIDATO_REUSO_262.json",
+  "guardas_informe_261_corregidas": "seguimiento/REVISION_INVENTARIO_INFORME_262.json",
+  "revision_incremental_263": "seguimiento/REVISION_ENTREGAS_263.json",
+  "portado_262_verificado": true,
+  "hallazgo_metricas_263": "seguimiento/REVISION_METRICAS_263.json",
+  "contraste_presiones_264": "seguimiento/CONTRASTE_PRESIONES_264.json",
+  "proceso_09d1_observado_264": {
+    "pid": 23204,
+    "creacion_local": "2026-10-22 12:57:33",
+    "estado_observado": "vivo_tras_espera45s",
+    "registro_publicado_en_ultima_observacion": false,
+    "sesion_espera_propia_terminal": 42265
+  },
+  "correccion_metricas_263_verificada": "seguimiento/REVISION_METRICAS_265.json",
+  "espera_09d1_265": {
+    "pid": 23204,
+    "creacion_local": "2026-10-22 12:57:33",
+    "estado_observado": "mismo_proceso_vivo_tras45s",
+    "sesion_propia_terminal": 95970
+  },
+  "revision_con_hallazgos_266": "seguimiento/REVISION_ENTREGA_266.json",
+  "reserva_web_masa_267": {
+    "fecha_utc": "2026-10-22T22:41:04.988304+00:00",
+    "estado": "liberada_por_mensaje_confirmado",
+    "encargo": "seguimiento/REPARTO_WEB_MASA_267.md",
+    "confirmacion": "Mensaje enviado por sky, observado en historial; Claude respondió que no edita los seis archivos y queda fuera de informe.py::_masa_nativa.",
+    "codex": [
+      "draft2model/revision_entregables.py",
+      "draft2model/informe.py::_masa_nativa"
+    ],
+    "subagente": [
+      "draft2model/revision_lecturas.py",
+      "draft2model/revision_web/lecturas.js",
+      "draft2model/revision_web/informes.js",
+      "draft2model/revision_web/index.html"
+    ],
+    "claude": "Nativo, CLI, libro de masa, normativa, normalización y resultados09D; sin APIs. No reiniciar corrida por silencio.",
+    "hallazgo266": "Corregido en árbol actual:6casos propiosOK en REVISION_MASA_BOOL_267.json; snapshot266 conserva bytes históricos con defecto.",
+    "goal_completo": false
+  },
+  "revision_web_masa_267": "seguimiento/REVISION_WEB_MASA_267.json",
+  "revision_analisis_267": "seguimiento/REVISION_ANALISIS_267.json",
+  "revision_lecturas_267": "seguimiento/REVISION_LECTURAS_09D1_267.json",
+  "qa_web_267": "seguimiento/QA_WEB_MASA_267.json",
+  "reserva_candidato_cache_267": {
+    "responsable": "Codex/subagente",
+    "ruta": "tmp/candidato_cache_malla_267",
+    "producto_sin_modificar": true
+  },
+  "encargo268_preparado": "seguimiento/CONTINUACION_CLAUDE_268_RENDIMIENTO.md",
+  "encargo268_enviado": true,
+  "ensayo_cache_267": "seguimiento/ENSAYO_CACHE_MALLA_267.json",
+  "revision_peso_sismico_268": "seguimiento/HALLAZGO_PESO_SISMICO_268.json",
+  "reserva_codex_anexo_268": {
+    "archivos": [
+      "seguimiento/exportar_caso_268.py",
+      "seguimiento/test_exportar_caso_268.py",
+      "seguimiento/GUIA_ANEXO_268.md"
+    ],
+    "estado": "independiente_no_producto",
+    "evidencia": "seguimiento/REVISION_ANEXO_268.json"
+  },
+  "restriccion_proyectos": "seguimiento/ORDEN_PROYECTOS_273.md",
+  "reserva_complemento_291": {
+    "responsable": "Codex",
+    "archivos": [
+      "seguimiento/exportar_complemento_291.py",
+      "seguimiento/test_exportar_complemento_291.py",
+      "seguimiento/GUIA_COMPLEMENTO_291.md"
+    ],
+    "revision": "seguimiento/REVISION_COMPLEMENTO_291.json",
+    "estado": "10pruebasOK y candidato real verificado; pendiente exportar version corregida290",
+    "acuerdo": "Claude producto/tests/paquete de fuentes; Codex complemento de caso y evidencias. Nuevos archivos propios; no ediciones concurrentes de producto."
+  },
+  "documentos_codex_liberados": "seguimiento/DOCUMENTACION_LIBERADA_294.json",
+  "reserva_backend_301": {
+    "responsable": "Codex",
+    "estado": "terminado_y_liberado",
+    "entrega": "seguimiento/ENTREGA_BACKEND_301.json",
+    "archivos": [
+      "draft2model/revision_entregables.py",
+      "draft2model/revision_visual.py (solo rutas301)",
+      "tests/test_inventario_analisis_301.py"
+    ]
+  },
+  "cierre303": "seguimiento/RETOMAR_CODEX_303.json",
+  "no_esperar_claude_para_global": true
+}

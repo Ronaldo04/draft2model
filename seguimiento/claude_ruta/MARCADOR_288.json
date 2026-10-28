@@ -1,0 +1,50 @@
+{
+  "tarea": "listado_inventario_288_y_continuacion_09d2",
+  "fecha": "2026-10-23",
+  "diagnostico": "ServicioResultados._listar verificaba cada versión (regenera plan del modelo) bajo app.lock (DIAGNOSTICO_LISTADO_QA_287)",
+  "correccion": "modo=inventario opcional en /api/resultados y /api/modelos: solo IDs, vigente=null, verificacion='pendiente', resumen=null; la UI lo usa y abrir ejecuta la comprobación completa; modo por omisión intacto",
+  "medicion_real_caso_002": {
+    "inventario_modelos": {
+      "s": 0.007
+    },
+    "inventario_resultados": {
+      "s": 0.005
+    },
+    "ids_modelos": [
+      "0f37271307b6449c89c458c60a1640c7",
+      "8ed9474ef80d498d849826a9182d2ac3",
+      "b85244d8d4b34794bdee6c0418c3a504"
+    ],
+    "ids_resultados": [
+      "697bb37e9ce64f90ba1ef3e25733c8cc"
+    ],
+    "listado_completo_resultados": {
+      "s": 134.815,
+      "vigentes": [
+        true
+      ]
+    },
+    "abrir_modelo_0f372713": {
+      "s": 175.28,
+      "revision": "pendiente"
+    }
+  },
+  "no_medido": "listado completo de los 3 modelos (no se extrapola)",
+  "pruebas": "tests/test_inventario_listado_288.py + test_revision_resultados + _http + test_revision_visual: 44 OK; revision_listados_frontend.cjs y revision_resultados_frontend.cjs OK",
+  "continuacion_09d2": {
+    "controles": "f4d1eb00 revalidado por ServicioControles.consultar",
+    "reglas": "publicadas (Codex: 8 satisfacen / 10 no)",
+    "informe": "en curso (PID 14860)",
+    "panel": "pendiente"
+  },
+  "hashes": {
+    "draft2model/revision_resultados.py": "d80649c83f506fe9ff07ee8b3a58b3d9587f11abde0a56c6bd91b63bdba5d87c",
+    "draft2model/revision_visual.py": "4b20adafdba699bbffacc6ed84875d1d969e87576ba58b56a03540a8974c75f5",
+    "draft2model/revision_web/resultados.js": "e82fd19416d4bc6b91ff8f3a4c11422aa8b319fbe5ac1dc62200c4293e653748",
+    "tests/test_inventario_listado_288.py": "42e46c459a07e3f23c1968918a70cb01c04db2d31c1aeae41e06262869b792fd",
+    "tmp/ruta201/medir_listado_288.json": "b59759416012462611e6dfa9beb3de8565d525d7f2b9803781bf505e7f344ae1",
+    "seguimiento/claude_ruta/resultados_09.py": "de20414642ebd9e96b57c3c2e1f376c3b7cebd39e70fd53e31ce3c0ee326e992",
+    "seguimiento/claude_ruta/CONTINUACIONES_RESULTADOS.json": "5ca63103e74a23b4aea644bbbd0fdbddef3c630b7e8975d27c6f9be243811726"
+  },
+  "apis": 0
+}

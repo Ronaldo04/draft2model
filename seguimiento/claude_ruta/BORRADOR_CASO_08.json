@@ -1,0 +1,873 @@
+{
+  "caso": "pueblo-libre-002",
+  "fecha": "2026-10-21",
+  "aprobacion_ingenieria": null,
+  "originales": {
+    "L0001": {
+      "archivo": "lamina-0001.pdf",
+      "sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5"
+    },
+    "L0002": {
+      "archivo": "lamina-0002.pdf",
+      "sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa"
+    },
+    "L0003": {
+      "archivo": "lamina-0003.pdf",
+      "sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134"
+    },
+    "L0004": {
+      "archivo": "lamina-0004.pdf",
+      "sha256": "1f2e8d9c2507cc85bbcd6d6cc9fc217baf4d272c6620417c1985eeb3d4b8be54"
+    },
+    "L0005": {
+      "archivo": "lamina-0005.pdf",
+      "sha256": "f63d63ce7674c21b3437145cfde2f6ab66abe814c445c5c65873db99067b87bf"
+    },
+    "L0006": {
+      "archivo": "lamina-0006.pdf",
+      "sha256": "ead656045a3c95739e2bd7cab3c5daddb6d1e42ebaa7aaf9afb6c34be07dce4a"
+    }
+  },
+  "calibracion": {
+    "arquitectura_x": {
+      "k_m_por_pt": 0.01258293542713796,
+      "k_min": 0.012560933141655989,
+      "k_max": 0.01260503770672019,
+      "referencias": 7,
+      "fila_pt": 1440,
+      "tramos": [
+        {
+          "tramo": "8-7",
+          "pt": 202.68006134033203,
+          "cota_m": 2.55,
+          "k": 0.012581405310106673,
+          "residuo_m": 0.0003101242137590887
+        },
+        {
+          "tramo": "7-6",
+          "pt": 71.4000244140625,
+          "cota_m": 0.9,
+          "k": 0.01260503770672019,
+          "residuo_m": -0.0015781033017776558
+        },
+        {
+          "tramo": "6-5",
+          "pt": 166.7999267578125,
+          "cota_m": 2.1,
+          "k": 0.012589933585817005,
+          "residuo_m": -0.0011672923551042658
+        },
+        {
+          "tramo": "5-4",
+          "pt": 256.44004821777344,
+          "cota_m": 3.23,
+          "k": 0.012595536549178258,
+          "residuo_m": -0.0032314323436120063
+        },
+        {
+          "tramo": "4-3",
+          "pt": 174.8399658203125,
+          "cota_m": 2.2,
+          "k": 0.01258293542713796,
+          "residuo_m": 0.0
+        },
+        {
+          "tramo": "3-2",
+          "pt": 320.0399169921875,
+          "cota_m": 4.02,
+          "k": 0.012560933141655989,
+          "residuo_m": 0.007041609619288458
+        },
+        {
+          "tramo": "2-1",
+          "pt": 398.0400390625,
+          "cota_m": 5.0,
+          "k": 0.012561550370099584,
+          "residuo_m": 0.00851210893890908
+        }
+      ],
+      "total_m": 20.00988701477146,
+      "residuo_max_m": 0.00851210893890908
+    },
+    "arquitectura_y": {
+      "k_m_por_pt": 0.01258446313142884,
+      "k_min": 0.012581277570991228,
+      "k_max": 0.012586100593890042,
+      "referencias": 4,
+      "fila_pt": 2025,
+      "tramos": [
+        {
+          "tramo": "E-D",
+          "pt": 250.32000732421875,
+          "cota_m": 3.15,
+          "k": 0.012583892249252238,
+          "residuo_m": 0.0001429032306283773
+        },
+        {
+          "tramo": "D-C",
+          "pt": 147.0,
+          "cota_m": 1.85,
+          "k": 0.012585034013605443,
+          "residuo_m": -8.391967996046468e-05
+        },
+        {
+          "tramo": "C-B",
+          "pt": 147.04389038085947,
+          "cota_m": 1.85,
+          "k": 0.012581277570991228,
+          "residuo_m": 0.00046841719978973906
+        },
+        {
+          "tramo": "B-A",
+          "pt": 250.27608642578116,
+          "cota_m": 3.15,
+          "k": 0.012586100593890042,
+          "residuo_m": -0.00040981769645886956
+        }
+      ],
+      "total_m": 10.000117583054,
+      "residuo_max_m": 0.00046841719978973906
+    },
+    "estructura_x": {
+      "k_b_m_por_pt": 0.01259480874053348,
+      "sentido": "igual",
+      "residuos_m": {
+        "A": -0.0033319326993694887,
+        "B": -0.0009265058104670487,
+        "C": 0.002368873020074602,
+        "H": 0.008736627718509027,
+        "I": -0.006847062228739986
+      },
+      "residuo_max_m": 0.008736627718509027,
+      "posiciones_b_m": {
+        "A": -0.0033319326993694887,
+        "B": 2.549383618403292,
+        "C": 3.4511008939320558,
+        "D": 5.50203988748002,
+        "E": 8.578267727163903,
+        "F": 11.630130408129796,
+        "G": 13.811197052994368,
+        "H": 15.010111533551063,
+        "I": 20.00303995254272
+      }
+    },
+    "estructura_y": {
+      "k_b_m_por_pt": 0.012580660015516656,
+      "sentido": "opuesto",
+      "residuos_m": {
+        "3": 0.0005602552633088287,
+        "2": -0.0011208873957233578,
+        "1": 0.0005606321324123087
+      },
+      "residuo_max_m": 0.0011208873957233578,
+      "posiciones_b_m": {
+        "1": -9.999556950921587,
+        "2": -5.001179486899054,
+        "3": 0.0005602552633088287
+      }
+    },
+    "declaraciones": {
+      "L0004 eje B": "1118.4 pt (globo de eje; 1064.8 es el corte B–B; cota 3.15 centrada en A–B)",
+      "L0001 eje 2": "656.5 pt (único globo «2»; el derecho dice «1»)"
+    }
+  },
+  "ejes_estructurales": {
+    "x": {
+      "A": {
+        "x_m": -0.003,
+        "estado": "registrado_con_eje_arquitectonico",
+        "eje_arquitectura": "8"
+      },
+      "B": {
+        "x_m": 2.549,
+        "estado": "registrado_con_eje_arquitectonico",
+        "eje_arquitectura": "7"
+      },
+      "C": {
+        "x_m": 3.451,
+        "estado": "registrado_con_eje_arquitectonico",
+        "eje_arquitectura": "6"
+      },
+      "D": {
+        "x_m": 5.502,
+        "estado": "derivado_sin_cota_impresa"
+      },
+      "E": {
+        "x_m": 8.578,
+        "estado": "derivado_sin_cota_impresa"
+      },
+      "F": {
+        "x_m": 11.63,
+        "estado": "derivado_sin_cota_impresa"
+      },
+      "G": {
+        "x_m": 13.811,
+        "estado": "derivado_sin_cota_impresa"
+      },
+      "H": {
+        "x_m": 15.01,
+        "estado": "registrado_con_eje_arquitectonico",
+        "eje_arquitectura": "2"
+      },
+      "I": {
+        "x_m": 20.003,
+        "estado": "registrado_con_eje_arquitectonico",
+        "eje_arquitectura": "1"
+      }
+    },
+    "y": {
+      "1": {
+        "y_m": 10.0,
+        "estado": "registrado_con_eje_arquitectonico",
+        "eje_arquitectura": "E"
+      },
+      "2": {
+        "y_m": 5.001,
+        "estado": "registrado_con_eje_arquitectonico",
+        "eje_arquitectura": "C"
+      },
+      "3": {
+        "y_m": 0.001,
+        "estado": "registrado_con_eje_arquitectonico",
+        "eje_arquitectura": "A"
+      }
+    }
+  },
+  "niveles": [
+    {
+      "id": "N0",
+      "z_m": 0.0,
+      "estado": "leido",
+      "fuente": "L0004 «N.P.T. ±0.00» (planta primer piso)"
+    },
+    {
+      "id": "N1",
+      "z_m": 2.6,
+      "estado": "leido",
+      "fuente": "L0005 «N.P.T. +2.60» (planta típica 2.º–4.º)"
+    },
+    {
+      "id": "N2",
+      "z_m": 5.2,
+      "estado": "hipotesis_progresion_uniforme",
+      "fuente": "2,60 m por piso: compatible con +2.60 y techo +10.40 impresos; NPT del 3.º no impreso"
+    },
+    {
+      "id": "N3",
+      "z_m": 7.8,
+      "estado": "hipotesis_progresion_uniforme",
+      "fuente": "Ídem; NPT del 4.º no impreso"
+    },
+    {
+      "id": "N4",
+      "z_m": 10.4,
+      "estado": "leido",
+      "fuente": "L0006 «TECHO N.T.T. +10.40»"
+    }
+  ],
+  "discrepancias": [
+    "L0001/L0002: el eje central se rotula «2» a la izquierda y «1» a la derecha; se declaró 2 (posición única coherente).",
+    "Eje F de L0003 desplazado ≈0.50 m respecto de L0001 (registro 07); este borrador usa L0001.",
+    "Tanque: E-03 indica NT=+10.35 en la base de apoyos; arquitectura NTT techo +10.40 (5 cm: ¿NPT frente a losa?).",
+    "Tanque: 10.35 + 2.00 (apoyos) + 2.05 (cuba impresa .20+1.10+.45+.20+.10) = 14.40 frente a NTT +14.60 impreso.",
+    "Ejes estructurales D, E, F y G no coinciden con ejes de arquitectura (5.50/8.58/11.63/13.81 frente a 5.55/8.78/10.98): solo derivados."
+  ],
+  "elementos": {
+    "columnas_cuadro": {
+      "C-1": "L .40x.40, patas .15 (detalle)",
+      "C-2": ".15x.40",
+      "C-3": ".15x.60",
+      "C-4": ".15x.40",
+      "C-5": ".15x.30",
+      "C-6": ".15x.75",
+      "fuente": "L0001 cuadro de columnas (O3/G1, pendientes)"
+    },
+    "placas": "PL-1…PL-10 con armado en tabla; longitudes en planta sin cota: derivables con la calibración registrada",
+    "vigas": "VS 0.15x0.30 (chatas) y cortes 1-1…6-6 de L0002",
+    "losas": {
+      "aligerado_e_m": 0.17,
+      "niveles": "1.º a 3.º S/C 200 kgf/m²; 4.º nivel (techo +10.40) S/C 150 kgf/m²",
+      "detalle": "capa .05, ladrillo .12, viguetas .10 @ .40 (L0003)"
+    },
+    "parapetos": "H = 0.90 en techo (L0006, leído)",
+    "tanque_elevado": "existe: corte L0003 y planta L0006",
+    "cisterna": "existe: L0001/L0003, NFC −2.65",
+    "posiciones_columnas": "detección vectorial parcial (8 rectángulos .15x.40 y 1 de .15x.60 en L0001); pendiente"
+  },
+  "normativa": {
+    "Z": {
+      "Z": 0.45,
+      "cita": {
+        "codigo": "E.030",
+        "titulo": "Diseño Sismorresistente",
+        "dispositivo": "RM 183-2026-VIVIENDA",
+        "publicacion": "El Peruano, 2026-05-03",
+        "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+        "articulo": "11",
+        "tabla": "Tabla N° 1"
+      }
+    },
+    "U": {
+      "U": 1.0,
+      "cita": {
+        "codigo": "E.030",
+        "titulo": "Diseño Sismorresistente",
+        "dispositivo": "RM 183-2026-VIVIENDA",
+        "publicacion": "El Peruano, 2026-05-03",
+        "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+        "articulo": "19.1",
+        "tabla": "Tabla N° 7"
+      }
+    },
+    "sitio_alternativas": {
+      "S1": {
+        "S": 1.0,
+        "TP": 0.4,
+        "TL": 2.5,
+        "metodo": "valor_tabulado",
+        "cita": {
+          "codigo": "E.030",
+          "titulo": "Diseño Sismorresistente",
+          "dispositivo": "RM 183-2026-VIVIENDA",
+          "publicacion": "El Peruano, 2026-05-03",
+          "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+          "articulo": "17",
+          "tabla": "Tablas N° 4 y N° 5"
+        }
+      },
+      "S2": {
+        "S": 1.1,
+        "TP": 0.6,
+        "TL": 2.0,
+        "metodo": "sin_vs30_nota_tablas_4_5",
+        "cita": {
+          "codigo": "E.030",
+          "titulo": "Diseño Sismorresistente",
+          "dispositivo": "RM 183-2026-VIVIENDA",
+          "publicacion": "El Peruano, 2026-05-03",
+          "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+          "articulo": "17",
+          "tabla": "Tablas N° 4 y N° 5",
+          "nota": "Sin Vs30: mayor S del intervalo y TP/TL de la nota."
+        }
+      }
+    },
+    "periodo_aproximado": {
+      "T_s": 0.17333333333333334,
+      "CT": 60,
+      "cita": {
+        "codigo": "E.030",
+        "titulo": "Diseño Sismorresistente",
+        "dispositivo": "RM 183-2026-VIVIENDA",
+        "publicacion": "El Peruano, 2026-05-03",
+        "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+        "articulo": "36.1"
+      }
+    },
+    "R_si_albanileria_confinada_regular": {
+      "R0": 3,
+      "Ia": 1.0,
+      "Ip": 1.0,
+      "R": 3.0,
+      "cita": [
+        {
+          "codigo": "E.030",
+          "titulo": "Diseño Sismorresistente",
+          "dispositivo": "RM 183-2026-VIVIENDA",
+          "publicacion": "El Peruano, 2026-05-03",
+          "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+          "articulo": "22.1",
+          "tabla": "Tabla N° 10"
+        },
+        {
+          "codigo": "E.030",
+          "titulo": "Diseño Sismorresistente",
+          "dispositivo": "RM 183-2026-VIVIENDA",
+          "publicacion": "El Peruano, 2026-05-03",
+          "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+          "articulo": "26"
+        }
+      ]
+    },
+    "coeficiente_cortante_V_sobre_P": {
+      "S1": 0.375,
+      "S2": 0.4125
+    },
+    "deriva": {
+      "limite": 0.005,
+      "factor_desplazamiento": 2.25,
+      "cita": [
+        {
+          "codigo": "E.030",
+          "titulo": "Diseño Sismorresistente",
+          "dispositivo": "RM 183-2026-VIVIENDA",
+          "publicacion": "El Peruano, 2026-05-03",
+          "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+          "articulo": "50.1"
+        },
+        {
+          "codigo": "E.030",
+          "titulo": "Diseño Sismorresistente",
+          "dispositivo": "RM 183-2026-VIVIENDA",
+          "publicacion": "El Peruano, 2026-05-03",
+          "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+          "articulo": "51",
+          "tabla": "Tabla N° 14"
+        }
+      ]
+    },
+    "cortante_minimo_dinamico": {
+      "fraccion_del_estatico": 0.8,
+      "cita": {
+        "codigo": "E.030",
+        "titulo": "Diseño Sismorresistente",
+        "dispositivo": "RM 183-2026-VIVIENDA",
+        "publicacion": "El Peruano, 2026-05-03",
+        "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+        "articulo": "44.1"
+      }
+    },
+    "excentricidad_x_y_m": [
+      0.5,
+      1.0
+    ],
+    "peso_sismico": {
+      "carga_viva_categoria_C": {
+        "fraccion": 0.25,
+        "cita": {
+          "codigo": "E.030",
+          "titulo": "Diseño Sismorresistente",
+          "dispositivo": "RM 183-2026-VIVIENDA",
+          "publicacion": "El Peruano, 2026-05-03",
+          "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+          "articulo": "31"
+        }
+      },
+      "azotea": {
+        "fraccion": 0.25,
+        "cita": {
+          "codigo": "E.030",
+          "titulo": "Diseño Sismorresistente",
+          "dispositivo": "RM 183-2026-VIVIENDA",
+          "publicacion": "El Peruano, 2026-05-03",
+          "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+          "articulo": "31"
+        }
+      },
+      "tanque_contenido": {
+        "fraccion": 1.0,
+        "cita": {
+          "codigo": "E.030",
+          "titulo": "Diseño Sismorresistente",
+          "dispositivo": "RM 183-2026-VIVIENDA",
+          "publicacion": "El Peruano, 2026-05-03",
+          "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+          "articulo": "31"
+        }
+      }
+    },
+    "espectros_m_s2": {
+      "S1": {
+        "filas": [
+          {
+            "T_s": 0.0,
+            "C": 1.0,
+            "Sa_m_s2": 1.4709975
+          },
+          {
+            "T_s": 0.05,
+            "C": 1.9375,
+            "Sa_m_s2": 2.85005765625
+          },
+          {
+            "T_s": 0.1,
+            "C": 2.5,
+            "Sa_m_s2": 3.67749375
+          },
+          {
+            "T_s": 0.2,
+            "C": 2.5,
+            "Sa_m_s2": 3.67749375
+          },
+          {
+            "T_s": 0.3,
+            "C": 2.5,
+            "Sa_m_s2": 3.67749375
+          },
+          {
+            "T_s": 0.4,
+            "C": 2.5,
+            "Sa_m_s2": 3.67749375
+          },
+          {
+            "T_s": 0.5,
+            "C": 2.0,
+            "Sa_m_s2": 2.941995
+          },
+          {
+            "T_s": 0.6,
+            "C": 1.666666666666667,
+            "Sa_m_s2": 2.4516625000000003
+          },
+          {
+            "T_s": 0.8,
+            "C": 1.25,
+            "Sa_m_s2": 1.838746875
+          },
+          {
+            "T_s": 1.0,
+            "C": 1.0,
+            "Sa_m_s2": 1.4709975
+          },
+          {
+            "T_s": 1.5,
+            "C": 0.6666666666666666,
+            "Sa_m_s2": 0.9806649999999999
+          },
+          {
+            "T_s": 2.0,
+            "C": 0.5,
+            "Sa_m_s2": 0.73549875
+          },
+          {
+            "T_s": 2.5,
+            "C": 0.4,
+            "Sa_m_s2": 0.588399
+          },
+          {
+            "T_s": 3.0,
+            "C": 0.2777777777777778,
+            "Sa_m_s2": 0.40861041666666664
+          }
+        ],
+        "parametros": {
+          "Z": 0.45,
+          "U": 1.0,
+          "S": 1.0,
+          "R": 3.0,
+          "TP": 0.4,
+          "TL": 2.5,
+          "g": 9.80665
+        },
+        "cita": [
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "41.1"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "18.1",
+            "tabla": "Tabla N° 6"
+          }
+        ]
+      },
+      "S2": {
+        "filas": [
+          {
+            "T_s": 0.0,
+            "C": 1.0,
+            "Sa_m_s2": 1.61809725
+          },
+          {
+            "T_s": 0.05,
+            "C": 1.625,
+            "Sa_m_s2": 2.6294080312500006
+          },
+          {
+            "T_s": 0.1,
+            "C": 2.25,
+            "Sa_m_s2": 3.6407188125
+          },
+          {
+            "T_s": 0.2,
+            "C": 2.5,
+            "Sa_m_s2": 4.045243125
+          },
+          {
+            "T_s": 0.3,
+            "C": 2.5,
+            "Sa_m_s2": 4.045243125
+          },
+          {
+            "T_s": 0.4,
+            "C": 2.5,
+            "Sa_m_s2": 4.045243125
+          },
+          {
+            "T_s": 0.5,
+            "C": 2.5,
+            "Sa_m_s2": 4.045243125
+          },
+          {
+            "T_s": 0.6,
+            "C": 2.5,
+            "Sa_m_s2": 4.045243125
+          },
+          {
+            "T_s": 0.8,
+            "C": 1.8749999999999998,
+            "Sa_m_s2": 3.03393234375
+          },
+          {
+            "T_s": 1.0,
+            "C": 1.5,
+            "Sa_m_s2": 2.4271458750000003
+          },
+          {
+            "T_s": 1.5,
+            "C": 0.9999999999999999,
+            "Sa_m_s2": 1.61809725
+          },
+          {
+            "T_s": 2.0,
+            "C": 0.75,
+            "Sa_m_s2": 1.2135729375000002
+          },
+          {
+            "T_s": 2.5,
+            "C": 0.48,
+            "Sa_m_s2": 0.77668668
+          },
+          {
+            "T_s": 3.0,
+            "C": 0.3333333333333333,
+            "Sa_m_s2": 0.53936575
+          }
+        ],
+        "parametros": {
+          "Z": 0.45,
+          "U": 1.0,
+          "S": 1.1,
+          "R": 3.0,
+          "TP": 0.6,
+          "TL": 2.0,
+          "g": 9.80665
+        },
+        "cita": [
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "41.1"
+          },
+          {
+            "codigo": "E.030",
+            "titulo": "Diseño Sismorresistente",
+            "dispositivo": "RM 183-2026-VIVIENDA",
+            "publicacion": "El Peruano, 2026-05-03",
+            "texto_registrado": "seguimiento/normativa_229/E030_RM183_2026.txt",
+            "articulo": "18.1",
+            "tabla": "Tabla N° 6"
+          }
+        ]
+      }
+    },
+    "materiales": {
+      "concreto_fc210": {
+        "fc_MPa": 20.593965,
+        "Ec_MPa": 21328.869797764717,
+        "Ec_kN_m2": 21328869.79776472,
+        "G_MPa": 9273.421651202052,
+        "nu_derivado_isotropia": 0.1499999999999999,
+        "cita": [
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.2",
+            "formula": "Ec = 4700 √f'c (MPa)"
+          },
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.4",
+            "formula": "G = Ec/2,3"
+          }
+        ],
+        "nota": "ν = 0,15 es algebraico (isotropía con G = Ec/2,3), no un valor tabulado por la norma."
+      },
+      "concreto_fc175_muros_cortes_2_2_5_5": {
+        "fc_MPa": 17.1616375,
+        "Ec_MPa": 19470.50519054398,
+        "Ec_kN_m2": 19470505.19054398,
+        "G_MPa": 8465.437039366949,
+        "nu_derivado_isotropia": 0.1499999999999999,
+        "cita": [
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.2",
+            "formula": "Ec = 4700 √f'c (MPa)"
+          },
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.4",
+            "formula": "G = Ec/2,3"
+          }
+        ],
+        "nota": "ν = 0,15 es algebraico (isotropía con G = Ec/2,3), no un valor tabulado por la norma."
+      },
+      "albanileria_fm35_si_unidad_de_arcilla": {
+        "fm_MPa": 3.4323275,
+        "Em_MPa": 1716.16375,
+        "Em_kN_m2": 1716163.75,
+        "Gm_MPa": 686.4655,
+        "nu_derivado_isotropia": 0.25,
+        "cita": [
+          {
+            "codigo": "E.070",
+            "dispositivo": "DS 011-2006-VIVIENDA (fe de erratas 21/06/2006)",
+            "texto_registrado": "seguimiento/normativa_229/E070_DS011_2006.txt",
+            "articulo": "24.7",
+            "formula": "Em = 500 f'm; Gm = 0,4 Em",
+            "pagina_pdf": 21
+          }
+        ]
+      },
+      "pesos": {
+        "concreto_armado": {
+          "peso_kN_m3": 24.0,
+          "cita": {
+            "codigo": "E.020",
+            "dispositivo": "DS 011-2006-VIVIENDA (fe de erratas 21/06/2006)",
+            "texto_registrado": "seguimiento/normativa_229/E020_DS011_2006.txt",
+            "articulo": "Anexo 1"
+          }
+        },
+        "agua_dulce": {
+          "peso_kN_m3": 10.0,
+          "cita": {
+            "codigo": "E.020",
+            "dispositivo": "DS 011-2006-VIVIENDA (fe de erratas 21/06/2006)",
+            "texto_registrado": "seguimiento/normativa_229/E020_DS011_2006.txt",
+            "articulo": "Anexo 1"
+          }
+        }
+      }
+    },
+    "cargas_vivas": {
+      "vivienda": {
+        "kPa": 2.0,
+        "kN_m2": 2.0,
+        "cita": {
+          "codigo": "E.020",
+          "dispositivo": "DS 011-2006-VIVIENDA (fe de erratas 21/06/2006)",
+          "texto_registrado": "seguimiento/normativa_229/E020_DS011_2006.txt",
+          "articulo": "6.1",
+          "tabla": "Tabla 1"
+        },
+        "nota": "Mínimo según uso efectivo; no incluye acabados ni tabiquería (se metran aparte)."
+      },
+      "corredores_escaleras": {
+        "kPa": 2.0,
+        "kN_m2": 2.0,
+        "cita": {
+          "codigo": "E.020",
+          "dispositivo": "DS 011-2006-VIVIENDA (fe de erratas 21/06/2006)",
+          "texto_registrado": "seguimiento/normativa_229/E020_DS011_2006.txt",
+          "articulo": "6.1",
+          "tabla": "Tabla 1"
+        },
+        "nota": "Mínimo según uso efectivo; no incluye acabados ni tabiquería (se metran aparte)."
+      },
+      "techo_hasta_3_grados": {
+        "kPa": 1.0,
+        "kN_m2": 1.0,
+        "cita": {
+          "codigo": "E.020",
+          "dispositivo": "DS 011-2006-VIVIENDA (fe de erratas 21/06/2006)",
+          "texto_registrado": "seguimiento/normativa_229/E020_DS011_2006.txt",
+          "articulo": "7.1.a",
+          "tabla": null
+        },
+        "nota": "Mínimo según uso efectivo; no incluye acabados ni tabiquería (se metran aparte)."
+      }
+    },
+    "estado": "calculado con cita; aplica solo si se aceptan las decisiones marcadas; no es verificación de cumplimiento"
+  },
+  "decisiones_restantes": [
+    {
+      "id": "D1",
+      "tema": "Sistema estructural y R0",
+      "opciones": "albañilería confinada (R0=3, deriva 0,005) u otro",
+      "derivable_con_norma": false,
+      "por_que": "Clasificar el sistema es decisión técnica (E.030 art. 20–22; E.070 24.6)."
+    },
+    {
+      "id": "D2",
+      "tema": "Perfil de suelo",
+      "opciones": "S1 (S=1,0; TP=0,4; TL=2,5) o S2 sin Vs30 (S=1,10; TP=0,6; TL=2,0)",
+      "derivable_con_norma": false,
+      "por_que": "E.030 art. 16 y E.050 6.2.1.c exigen EMS para ≥4 pisos; el plano declara GP y σt=4,00 kgf/cm²."
+    },
+    {
+      "id": "D3",
+      "tema": "Unidad de albañilería",
+      "opciones": "arcilla (Em=500 f'm) u otra",
+      "derivable_con_norma": true,
+      "por_que": "E.070 24.7 fija Em según la unidad; «King-Kong a máquina» no se clasifica por nombre comercial."
+    },
+    {
+      "id": "D4",
+      "tema": "Alturas de los pisos 3.º y 4.º",
+      "opciones": "aceptar 2,60 uniforme o aportar NPT",
+      "derivable_con_norma": false,
+      "por_que": "Solo constan ±0.00, +2.60 y techo +10.40."
+    },
+    {
+      "id": "D5",
+      "tema": "Orientación Y entre láminas",
+      "opciones": "estructural 3↔A (declarado) o 3↔E",
+      "derivable_con_norma": false,
+      "por_que": "Edificio casi simétrico; afecta ubicación de escalera, cisterna y tanque."
+    },
+    {
+      "id": "D6",
+      "tema": "Cargas muertas no impresas (acabados, tabiquería)",
+      "opciones": "metrado con fuente",
+      "derivable_con_norma": true,
+      "por_que": "E.020 arts. 3–6 y anexo 1: peso real documentado."
+    },
+    {
+      "id": "D7",
+      "tema": "Agua: nivel de operación de tanque y cisterna",
+      "opciones": "nivel libre declarado; masa 100 % del contenido (E.030 art. 31.e)",
+      "derivable_con_norma": "parcial",
+      "por_que": "γ = 10 kN/m³ (E.020) y la fracción sísmica constan; el nivel libre no está impreso."
+    },
+    {
+      "id": "D8",
+      "tema": "Condición de apoyo",
+      "opciones": "empotramiento a NFC −1.50 (E.030 48.6 lo permite) u otra",
+      "derivable_con_norma": false,
+      "por_que": "Idealización de la base: decisión técnica con el EMS."
+    },
+    {
+      "id": "D9",
+      "tema": "Irregularidades Ia/Ip",
+      "opciones": "evaluar con el modelo (Tablas 11–12)",
+      "derivable_con_norma": true,
+      "por_que": "Requiere resultados del modelo; hasta entonces R se informa con Ia = Ip = 1 como hipótesis."
+    }
+  ],
+  "resueltos_con_arquitectura": [
+    "F1 parcial: NPT ±0.00/+2.60 y techo +10.40 leídos (3.º/4.º derivados)",
+    "F2: cotas entre ejes impresas en arquitectura; registro estructural con residuo ≤ 9 mm",
+    "F3: el «4.º nivel» estructural es el techo (+10.40, S/C 150 = azotea)",
+    "F4: decisión del usuario: RNE vigente (E.030 RM 183-2026)"
+  ]
+}

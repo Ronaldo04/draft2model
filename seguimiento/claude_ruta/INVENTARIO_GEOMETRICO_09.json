@@ -1,0 +1,1714 @@
+{
+  "caso": "pueblo-libre-002",
+  "lamina": "L0001",
+  "sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+  "sistema": {
+    "origen": "eje A (x), eje 3 (y→1)",
+    "k_m_por_pt": [
+      0.012595,
+      0.012581
+    ],
+    "orientacion": "3↔A hipótesis de piloto (237)"
+  },
+  "conteo_por_etiqueta": {
+    "C-1": 2,
+    "C-2": 10,
+    "C-3": 2,
+    "C-4": 3,
+    "C-5": 2,
+    "C-6": 1,
+    "PL-1": 4,
+    "PL-10": 2,
+    "PL-2": 2,
+    "PL-3": 2,
+    "PL-4": 2,
+    "PL-5": 2,
+    "PL-6": 1,
+    "PL-7": 2,
+    "PL-8": 2,
+    "PL-9": 1
+  },
+  "elementos": [
+    {
+      "id": "L0001-E1",
+      "etiqueta_declarada": "C-1",
+      "tipo": "columna",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": -0.0,
+        "y0": -0.0,
+        "x1": 0.401,
+        "y1": 0.4
+      },
+      "segmentos": 6,
+      "dim_caja_m": [
+        0.401,
+        0.4
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E27",
+      "etiqueta_declarada": "C-1",
+      "tipo": "columna",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": -0.0,
+        "y0": 9.597,
+        "x1": 0.401,
+        "y1": 9.997
+      },
+      "segmentos": 6,
+      "dim_caja_m": [
+        0.401,
+        0.4
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E3",
+      "etiqueta_declarada": "C-2",
+      "tipo": "columna",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 5.604,
+        "y0": -0.0,
+        "x1": 6.005,
+        "y1": 0.149
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        0.401,
+        0.149
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E28",
+      "etiqueta_declarada": "C-2",
+      "tipo": "columna",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 5.604,
+        "y0": 9.846,
+        "x1": 6.005,
+        "y1": 9.997
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        0.401,
+        0.151
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E16",
+      "etiqueta_declarada": "C-2",
+      "tipo": "columna",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 8.332,
+        "y0": 4.923,
+        "x1": 8.733,
+        "y1": 5.073
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        0.401,
+        0.149
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E17",
+      "etiqueta_declarada": "C-2",
+      "tipo": "columna",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 11.134,
+        "y0": 4.923,
+        "x1": 11.535,
+        "y1": 5.073
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        0.401,
+        0.149
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E13",
+      "etiqueta_declarada": "C-5",
+      "tipo": "columna",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": -0.0,
+        "y0": 3.753,
+        "x1": 0.15,
+        "y1": 4.054
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        0.15,
+        0.3
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E15",
+      "etiqueta_declarada": "C-4",
+      "tipo": "columna",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 2.553,
+        "y0": 4.923,
+        "x1": 2.952,
+        "y1": 5.073
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        0.399,
+        0.149
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E18",
+      "etiqueta_declarada": "C-4",
+      "tipo": "columna",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": -0.0,
+        "y0": 6.273,
+        "x1": 0.15,
+        "y1": 6.673
+      },
+      "segmentos": 2,
+      "dim_caja_m": [
+        0.15,
+        0.4
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E2",
+      "etiqueta_declarada": "PL-1",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 3.402,
+        "y0": -0.0,
+        "x1": 3.503,
+        "y1": 1.35
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        0.101,
+        1.35
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E4",
+      "etiqueta_declarada": "PL-1",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 9.008,
+        "y0": -0.0,
+        "x1": 9.108,
+        "y1": 1.35
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        0.1,
+        1.35
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E23",
+      "etiqueta_declarada": "PL-1",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 3.402,
+        "y0": 8.648,
+        "x1": 3.503,
+        "y1": 9.997
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        0.101,
+        1.35
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E26",
+      "etiqueta_declarada": "PL-1",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 9.008,
+        "y0": 8.648,
+        "x1": 9.108,
+        "y1": 9.997
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        0.1,
+        1.35
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E6",
+      "etiqueta_declarada": "PL-2",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 4.253,
+        "y0": 1.249,
+        "x1": 6.005,
+        "y1": 1.35
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        1.752,
+        0.101
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E24",
+      "etiqueta_declarada": "PL-2",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 4.253,
+        "y0": 8.648,
+        "x1": 6.005,
+        "y1": 8.747
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        1.752,
+        0.1
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E7",
+      "etiqueta_declarada": "PL-3",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 6.605,
+        "y0": 1.249,
+        "x1": 8.257,
+        "y1": 1.35
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        1.652,
+        0.101
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E25",
+      "etiqueta_declarada": "PL-3",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 6.605,
+        "y0": 8.648,
+        "x1": 8.257,
+        "y1": 8.747
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        1.652,
+        0.1
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E8",
+      "etiqueta_declarada": "PL-4",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 2.553,
+        "y0": 2.148,
+        "x1": 4.703,
+        "y1": 3.723
+      },
+      "segmentos": 10,
+      "dim_caja_m": [
+        2.151,
+        1.575
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E19",
+      "etiqueta_declarada": "PL-4",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 2.553,
+        "y0": 6.273,
+        "x1": 4.705,
+        "y1": 7.848
+      },
+      "segmentos": 11,
+      "dim_caja_m": [
+        2.152,
+        1.575
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E9",
+      "etiqueta_declarada": "PL-6 (dos placas unidas en un solo trazo)",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 5.505,
+        "y0": 2.249,
+        "x1": 6.206,
+        "y1": 7.748
+      },
+      "segmentos": 22,
+      "dim_caja_m": [
+        0.701,
+        5.498
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E10",
+      "etiqueta_declarada": "PL-5",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 8.332,
+        "y0": 2.249,
+        "x1": 9.183,
+        "y1": 3.149
+      },
+      "segmentos": 9,
+      "dim_caja_m": [
+        0.851,
+        0.9
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E20",
+      "etiqueta_declarada": "PL-5",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 8.332,
+        "y0": 6.848,
+        "x1": 9.183,
+        "y1": 7.748
+      },
+      "segmentos": 9,
+      "dim_caja_m": [
+        0.851,
+        0.9
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E11",
+      "etiqueta_declarada": "PL-7",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 10.684,
+        "y0": 2.998,
+        "x1": 11.635,
+        "y1": 3.149
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        0.951,
+        0.151
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E21",
+      "etiqueta_declarada": "PL-7",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 10.684,
+        "y0": 6.848,
+        "x1": 11.635,
+        "y1": 6.998
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        0.951,
+        0.149
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E12",
+      "etiqueta_declarada": "PL-8",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 12.436,
+        "y0": 2.773,
+        "x1": 13.911,
+        "y1": 3.149
+      },
+      "segmentos": 6,
+      "dim_caja_m": [
+        1.475,
+        0.376
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E22",
+      "etiqueta_declarada": "PL-8",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 12.436,
+        "y0": 6.848,
+        "x1": 13.911,
+        "y1": 7.223
+      },
+      "segmentos": 6,
+      "dim_caja_m": [
+        1.475,
+        0.374
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E14",
+      "etiqueta_declarada": "PL-9",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 13.411,
+        "y0": 3.948,
+        "x1": 13.811,
+        "y1": 6.048
+      },
+      "segmentos": 8,
+      "dim_caja_m": [
+        0.401,
+        2.1
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E5",
+      "etiqueta_declarada": "PL-10",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 15.043,
+        "y0": -0.0,
+        "x1": 20.017,
+        "y1": 0.1
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        4.974,
+        0.1
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-E29",
+      "etiqueta_declarada": "PL-10",
+      "tipo": "placa",
+      "metodo": "componente_vectorial",
+      "caja_m": {
+        "x0": 15.043,
+        "y0": 9.896,
+        "x1": 20.017,
+        "y1": 9.997
+      },
+      "segmentos": 4,
+      "dim_caja_m": [
+        4.974,
+        0.101
+      ],
+      "fuente": "L0001 · trazo 1,32 pt"
+    },
+    {
+      "id": "L0001-A1",
+      "etiqueta_declarada": "C-2",
+      "tipo": "columna",
+      "metodo": "ajuste_vectorial",
+      "estado_ajuste": "ajustado",
+      "caja_m": {
+        "x0": 6.605,
+        "y0": -0.0,
+        "x1": 7.005,
+        "y1": 0.149
+      },
+      "dim_caja_m": [
+        0.401,
+        0.15
+      ],
+      "fuente": "L0001 · primitiva re/qu"
+    },
+    {
+      "id": "L0001-A2",
+      "etiqueta_declarada": "C-2",
+      "tipo": "columna",
+      "metodo": "ajuste_vectorial",
+      "estado_ajuste": "ajustado",
+      "caja_m": {
+        "x0": 11.234,
+        "y0": -0.0,
+        "x1": 11.635,
+        "y1": 0.149
+      },
+      "dim_caja_m": [
+        0.401,
+        0.15
+      ],
+      "fuente": "L0001 · primitiva re/qu"
+    },
+    {
+      "id": "L0001-A3",
+      "etiqueta_declarada": "C-2",
+      "tipo": "columna",
+      "metodo": "ajuste_vectorial",
+      "estado_ajuste": "ajustado",
+      "caja_m": {
+        "x0": 14.612,
+        "y0": -0.0,
+        "x1": 15.013,
+        "y1": 0.149
+      },
+      "dim_caja_m": [
+        0.401,
+        0.15
+      ],
+      "fuente": "L0001 · primitiva re/qu"
+    },
+    {
+      "id": "L0001-A4",
+      "etiqueta_declarada": "C-2",
+      "tipo": "columna",
+      "metodo": "ajuste_vectorial",
+      "estado_ajuste": "ajustado",
+      "caja_m": {
+        "x0": 6.605,
+        "y0": 9.846,
+        "x1": 7.005,
+        "y1": 9.997
+      },
+      "dim_caja_m": [
+        0.401,
+        0.151
+      ],
+      "fuente": "L0001 · primitiva re/qu"
+    },
+    {
+      "id": "L0001-A5",
+      "etiqueta_declarada": "C-2",
+      "tipo": "columna",
+      "metodo": "ajuste_vectorial",
+      "estado_ajuste": "ajustado",
+      "caja_m": {
+        "x0": 11.234,
+        "y0": 9.846,
+        "x1": 11.635,
+        "y1": 9.997
+      },
+      "dim_caja_m": [
+        0.401,
+        0.151
+      ],
+      "fuente": "L0001 · primitiva re/qu"
+    },
+    {
+      "id": "L0001-A6",
+      "etiqueta_declarada": "C-2",
+      "tipo": "columna",
+      "metodo": "ajuste_vectorial",
+      "estado_ajuste": "ajustado",
+      "caja_m": {
+        "x0": 14.612,
+        "y0": 9.846,
+        "x1": 15.013,
+        "y1": 9.997
+      },
+      "dim_caja_m": [
+        0.401,
+        0.151
+      ],
+      "fuente": "L0001 · primitiva re/qu"
+    },
+    {
+      "id": "L0001-A7",
+      "etiqueta_declarada": "C-3",
+      "tipo": "columna",
+      "metodo": "ajuste_vectorial",
+      "estado_ajuste": "ajustado",
+      "caja_m": {
+        "x0": 14.862,
+        "y0": 2.349,
+        "x1": 15.013,
+        "y1": 2.939
+      },
+      "dim_caja_m": [
+        0.151,
+        0.591
+      ],
+      "fuente": "L0001 · primitiva re/qu"
+    },
+    {
+      "id": "L0001-A8",
+      "etiqueta_declarada": "C-4",
+      "tipo": "columna",
+      "metodo": "ajuste_vectorial",
+      "estado_ajuste": "ajustado",
+      "caja_m": {
+        "x0": -0.0,
+        "y0": 3.323,
+        "x1": 0.15,
+        "y1": 3.723
+      },
+      "dim_caja_m": [
+        0.15,
+        0.401
+      ],
+      "fuente": "L0001 · primitiva re/qu"
+    },
+    {
+      "id": "L0001-A9",
+      "etiqueta_declarada": "C-5",
+      "tipo": "columna",
+      "metodo": "ajuste_vectorial",
+      "estado_ajuste": "ajustado",
+      "caja_m": {
+        "x0": -0.0,
+        "y0": 5.917,
+        "x1": 0.15,
+        "y1": 6.243
+      },
+      "dim_caja_m": [
+        0.15,
+        0.326
+      ],
+      "fuente": "L0001 · primitiva re/qu"
+    },
+    {
+      "id": "L0001-D1",
+      "etiqueta_declarada": "C-3",
+      "tipo": "columna",
+      "metodo": "ajuste_vectorial",
+      "estado_ajuste": "ajustado",
+      "caja_m": {
+        "x0": 14.862,
+        "y0": 7.097,
+        "x1": 15.013,
+        "y1": 7.647
+      },
+      "dim_caja_m": [
+        0.151,
+        0.55
+      ],
+      "discrepancia": "Dibujada 0,15×0,55; el cuadro de columnas indica 0,15×0,60.",
+      "fuente": "L0001"
+    },
+    {
+      "id": "L0001-D2",
+      "etiqueta_declarada": "C-6",
+      "tipo": "columna",
+      "metodo": "ajuste_vectorial",
+      "estado_ajuste": "ajustado",
+      "caja_m": {
+        "x0": 15.014,
+        "y0": 4.698,
+        "x1": 15.762,
+        "y1": 4.898
+      },
+      "dim_caja_m": [
+        0.748,
+        0.2
+      ],
+      "discrepancia": "Dibujada ≈0,20×0,75 junto al muro de la cisterna; el cuadro indica 0,15×0,75.",
+      "fuente": "L0001"
+    }
+  ],
+  "muros_candidatos": [
+    {
+      "id": "L0001-F1",
+      "orientacion": "h",
+      "y_m": 0.25,
+      "x_desde_m": 0.5,
+      "x_hasta_m": 3.203,
+      "anchos_franja_m": [
+        0.35,
+        0.5
+      ],
+      "largo_m": 2.702,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F2",
+      "orientacion": "h",
+      "y_m": 0.25,
+      "x_desde_m": 3.703,
+      "x_hasta_m": 5.604,
+      "anchos_franja_m": [
+        0.35,
+        0.5
+      ],
+      "largo_m": 1.901,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F3",
+      "orientacion": "h",
+      "y_m": 0.25,
+      "x_desde_m": 6.005,
+      "x_hasta_m": 6.605,
+      "anchos_franja_m": [
+        0.35,
+        0.5
+      ],
+      "largo_m": 0.6,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F4",
+      "orientacion": "h",
+      "y_m": 0.25,
+      "x_desde_m": 7.005,
+      "x_hasta_m": 8.807,
+      "anchos_franja_m": [
+        0.35,
+        0.5
+      ],
+      "largo_m": 1.802,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F5",
+      "orientacion": "h",
+      "y_m": 0.25,
+      "x_desde_m": 9.307,
+      "x_hasta_m": 11.234,
+      "anchos_franja_m": [
+        0.35,
+        0.5
+      ],
+      "largo_m": 1.927,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F6",
+      "orientacion": "h",
+      "y_m": 0.25,
+      "x_desde_m": 11.635,
+      "x_hasta_m": 14.612,
+      "anchos_franja_m": [
+        0.35,
+        0.5
+      ],
+      "largo_m": 2.977,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F7",
+      "orientacion": "h",
+      "y_m": 1.299,
+      "x_desde_m": 3.703,
+      "x_hasta_m": 5.305,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.602,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F8",
+      "orientacion": "h",
+      "y_m": 1.299,
+      "x_desde_m": 5.805,
+      "x_hasta_m": 8.406,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 2.601,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F9",
+      "orientacion": "h",
+      "y_m": 1.799,
+      "x_desde_m": 3.703,
+      "x_hasta_m": 5.305,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.602,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F10",
+      "orientacion": "h",
+      "y_m": 1.799,
+      "x_desde_m": 5.805,
+      "x_hasta_m": 8.406,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 2.601,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F11",
+      "orientacion": "h",
+      "y_m": 2.224,
+      "x_desde_m": 5.805,
+      "x_hasta_m": 8.406,
+      "anchos_franja_m": [
+        0.35,
+        0.5
+      ],
+      "largo_m": 2.601,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F12",
+      "orientacion": "h",
+      "y_m": 2.299,
+      "x_desde_m": 3.703,
+      "x_hasta_m": 5.305,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.602,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F13",
+      "orientacion": "h",
+      "y_m": 2.549,
+      "x_desde_m": 15.188,
+      "x_hasta_m": 16.814,
+      "anchos_franja_m": [
+        0.4
+      ],
+      "largo_m": 1.626,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F14",
+      "orientacion": "h",
+      "y_m": 2.863,
+      "x_desde_m": 14.012,
+      "x_hasta_m": 14.688,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.676,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F15",
+      "orientacion": "h",
+      "y_m": 3.073,
+      "x_desde_m": 8.907,
+      "x_hasta_m": 10.959,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 2.052,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F16",
+      "orientacion": "h",
+      "y_m": 3.073,
+      "x_desde_m": 11.459,
+      "x_hasta_m": 13.51,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 2.051,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F17",
+      "orientacion": "h",
+      "y_m": 3.677,
+      "x_desde_m": 0.5,
+      "x_hasta_m": 2.377,
+      "anchos_franja_m": [
+        0.35,
+        0.5
+      ],
+      "largo_m": 1.877,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F18",
+      "orientacion": "h",
+      "y_m": 4.698,
+      "x_desde_m": 15.762,
+      "x_hasta_m": 16.814,
+      "anchos_franja_m": [
+        0.4
+      ],
+      "largo_m": 1.052,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F19",
+      "orientacion": "h",
+      "y_m": 4.998,
+      "x_desde_m": 2.878,
+      "x_hasta_m": 5.905,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 3.027,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F20",
+      "orientacion": "h",
+      "y_m": 4.998,
+      "x_desde_m": 6.405,
+      "x_hasta_m": 8.406,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 2.001,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F21",
+      "orientacion": "h",
+      "y_m": 4.998,
+      "x_desde_m": 8.907,
+      "x_hasta_m": 10.959,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 2.052,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F22",
+      "orientacion": "h",
+      "y_m": 4.998,
+      "x_desde_m": 11.459,
+      "x_hasta_m": 13.51,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 2.051,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F23",
+      "orientacion": "h",
+      "y_m": 4.998,
+      "x_desde_m": 14.011,
+      "x_hasta_m": 14.688,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.677,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F24",
+      "orientacion": "h",
+      "y_m": 6.246,
+      "x_desde_m": 0.5,
+      "x_hasta_m": 2.377,
+      "anchos_franja_m": [
+        0.35,
+        0.5
+      ],
+      "largo_m": 1.877,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F25",
+      "orientacion": "h",
+      "y_m": 6.923,
+      "x_desde_m": 8.907,
+      "x_hasta_m": 10.959,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 2.052,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F26",
+      "orientacion": "h",
+      "y_m": 7.133,
+      "x_desde_m": 14.012,
+      "x_hasta_m": 14.688,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.676,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F27",
+      "orientacion": "h",
+      "y_m": 7.697,
+      "x_desde_m": 3.703,
+      "x_hasta_m": 5.305,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.602,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F28",
+      "orientacion": "h",
+      "y_m": 7.697,
+      "x_desde_m": 5.805,
+      "x_hasta_m": 8.406,
+      "anchos_franja_m": [
+        0.35,
+        0.5
+      ],
+      "largo_m": 2.601,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F29",
+      "orientacion": "h",
+      "y_m": 8.197,
+      "x_desde_m": 3.703,
+      "x_hasta_m": 5.305,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.602,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F30",
+      "orientacion": "h",
+      "y_m": 8.197,
+      "x_desde_m": 5.805,
+      "x_hasta_m": 8.406,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 2.601,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F31",
+      "orientacion": "h",
+      "y_m": 8.697,
+      "x_desde_m": 3.703,
+      "x_hasta_m": 5.305,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.602,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F32",
+      "orientacion": "h",
+      "y_m": 8.697,
+      "x_desde_m": 5.805,
+      "x_hasta_m": 8.406,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 2.601,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F33",
+      "orientacion": "h",
+      "y_m": 9.748,
+      "x_desde_m": 0.5,
+      "x_hasta_m": 3.203,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 2.702,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F34",
+      "orientacion": "h",
+      "y_m": 9.748,
+      "x_desde_m": 3.703,
+      "x_hasta_m": 5.604,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.901,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F35",
+      "orientacion": "h",
+      "y_m": 9.748,
+      "x_desde_m": 6.005,
+      "x_hasta_m": 6.605,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.6,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F36",
+      "orientacion": "h",
+      "y_m": 9.748,
+      "x_desde_m": 7.005,
+      "x_hasta_m": 8.807,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.802,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F37",
+      "orientacion": "h",
+      "y_m": 9.748,
+      "x_desde_m": 9.307,
+      "x_hasta_m": 11.234,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.927,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F38",
+      "orientacion": "h",
+      "y_m": 9.748,
+      "x_desde_m": 11.635,
+      "x_hasta_m": 14.612,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 2.977,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F39",
+      "orientacion": "v",
+      "x_m": 0.25,
+      "y_desde_m": 0.5,
+      "y_hasta_m": 3.323,
+      "anchos_franja_m": [
+        0.35,
+        0.5
+      ],
+      "largo_m": 2.823,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F40",
+      "orientacion": "v",
+      "x_m": 0.25,
+      "y_desde_m": 4.054,
+      "y_hasta_m": 5.942,
+      "anchos_franja_m": [
+        0.35,
+        0.5
+      ],
+      "largo_m": 1.889,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F41",
+      "orientacion": "v",
+      "x_m": 0.25,
+      "y_desde_m": 6.673,
+      "y_hasta_m": 9.498,
+      "anchos_franja_m": [
+        0.35,
+        0.5
+      ],
+      "largo_m": 2.825,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F42",
+      "orientacion": "v",
+      "x_m": 2.628,
+      "y_desde_m": 3.927,
+      "y_hasta_m": 4.748,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.821,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F43",
+      "orientacion": "v",
+      "x_m": 2.628,
+      "y_desde_m": 5.248,
+      "y_hasta_m": 6.071,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.823,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F44",
+      "orientacion": "v",
+      "x_m": 3.453,
+      "y_desde_m": 0.5,
+      "y_hasta_m": 1.049,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.55,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F45",
+      "orientacion": "v",
+      "x_m": 3.453,
+      "y_desde_m": 1.549,
+      "y_hasta_m": 2.049,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.5,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F46",
+      "orientacion": "v",
+      "x_m": 3.453,
+      "y_desde_m": 7.947,
+      "y_hasta_m": 8.447,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.5,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F47",
+      "orientacion": "v",
+      "x_m": 3.453,
+      "y_desde_m": 8.947,
+      "y_hasta_m": 9.498,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.551,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F48",
+      "orientacion": "v",
+      "x_m": 5.555,
+      "y_desde_m": 1.549,
+      "y_hasta_m": 2.049,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.5,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F49",
+      "orientacion": "v",
+      "x_m": 5.555,
+      "y_desde_m": 2.548,
+      "y_hasta_m": 3.374,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.826,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F50",
+      "orientacion": "v",
+      "x_m": 5.555,
+      "y_desde_m": 6.623,
+      "y_hasta_m": 7.447,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.824,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F51",
+      "orientacion": "v",
+      "x_m": 5.555,
+      "y_desde_m": 7.947,
+      "y_hasta_m": 8.447,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.5,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F52",
+      "orientacion": "v",
+      "x_m": 6.155,
+      "y_desde_m": 3.874,
+      "y_hasta_m": 4.748,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.874,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F53",
+      "orientacion": "v",
+      "x_m": 6.155,
+      "y_desde_m": 5.248,
+      "y_hasta_m": 6.123,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.876,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F54",
+      "orientacion": "v",
+      "x_m": 8.657,
+      "y_desde_m": 1.549,
+      "y_hasta_m": 2.049,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.5,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F55",
+      "orientacion": "v",
+      "x_m": 8.657,
+      "y_desde_m": 3.323,
+      "y_hasta_m": 4.748,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.425,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F56",
+      "orientacion": "v",
+      "x_m": 8.657,
+      "y_desde_m": 5.248,
+      "y_hasta_m": 6.673,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.425,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F57",
+      "orientacion": "v",
+      "x_m": 8.657,
+      "y_desde_m": 7.947,
+      "y_hasta_m": 8.447,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.5,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F58",
+      "orientacion": "v",
+      "x_m": 9.057,
+      "y_desde_m": 0.5,
+      "y_hasta_m": 1.049,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.55,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F59",
+      "orientacion": "v",
+      "x_m": 9.057,
+      "y_desde_m": 8.947,
+      "y_hasta_m": 9.498,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 0.551,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F60",
+      "orientacion": "v",
+      "x_m": 11.209,
+      "y_desde_m": 3.323,
+      "y_hasta_m": 4.748,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.425,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F61",
+      "orientacion": "v",
+      "x_m": 13.761,
+      "y_desde_m": 3.323,
+      "y_hasta_m": 4.748,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.425,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F62",
+      "orientacion": "v",
+      "x_m": 14.484,
+      "y_desde_m": 4.653,
+      "y_hasta_m": 5.248,
+      "anchos_franja_m": [
+        0.41
+      ],
+      "largo_m": 0.595,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F63",
+      "orientacion": "v",
+      "x_m": 14.796,
+      "y_desde_m": 4.579,
+      "y_hasta_m": 5.168,
+      "anchos_franja_m": [
+        0.43
+      ],
+      "largo_m": 0.589,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F64",
+      "orientacion": "v",
+      "x_m": 14.938,
+      "y_desde_m": 0.5,
+      "y_hasta_m": 2.349,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.849,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F65",
+      "orientacion": "v",
+      "x_m": 14.938,
+      "y_desde_m": 3.113,
+      "y_hasta_m": 4.499,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.386,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F66",
+      "orientacion": "v",
+      "x_m": 14.938,
+      "y_desde_m": 5.248,
+      "y_hasta_m": 6.883,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 1.635,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F67",
+      "orientacion": "v",
+      "x_m": 14.938,
+      "y_desde_m": 7.383,
+      "y_hasta_m": 9.498,
+      "anchos_franja_m": [
+        0.5
+      ],
+      "largo_m": 2.115,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F68",
+      "orientacion": "v",
+      "x_m": 16.597,
+      "y_desde_m": 2.749,
+      "y_hasta_m": 4.499,
+      "anchos_franja_m": [
+        0.44
+      ],
+      "largo_m": 1.75,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    },
+    {
+      "id": "L0001-F69",
+      "orientacion": "v",
+      "x_m": 17.015,
+      "y_desde_m": 2.749,
+      "y_hasta_m": 4.499,
+      "anchos_franja_m": [
+        0.4
+      ],
+      "largo_m": 1.75,
+      "metodo": "franja_vectorial",
+      "nota": "Eje de la franja de cimiento; el muro portante puede ser excéntrico (medianeras, corte 1-1)."
+    }
+  ],
+  "cisterna": {
+    "metodo": "revision_visual + cotas impresas",
+    "caja_aprox_m": {
+      "x0": 14.862,
+      "y0": 2.349,
+      "x1": 17.215,
+      "y1": 4.898
+    },
+    "interior_m": [
+      2.0,
+      2.15
+    ],
+    "altura_interior_m": 2.22,
+    "NFC_m": -2.65,
+    "fuente": "L0001 planta; L0003 corte y techo"
+  },
+  "pendientes": [
+    {
+      "elemento": "Franjas diagonales (zona PL-4, muros a 57°19')",
+      "por_que": "La detección solo cubre franjas horizontales/verticales."
+    },
+    {
+      "elemento": "Huecos de losa (cajas con X en L0002/L0003) y losas macizas (rayado)",
+      "por_que": "Digitalización pendiente sobre L0002 (rotada 270°) y L0003."
+    },
+    {
+      "elemento": "Escalera (dos tramos, descanso)",
+      "por_que": "Ubicada a la derecha de H en el eje central (auditoría 237); contorno por digitalizar."
+    },
+    {
+      "elemento": "Tanque elevado en planta",
+      "por_que": "A03 lo rotula entre B y D; apoyos E03 (NACE C-2) sin enlace inequívoco (237)."
+    },
+    {
+      "elemento": "Vigas VS 0,15×0,30 y peraltadas",
+      "por_que": "Trazos en L0002/L0003 por asociar a ejes."
+    },
+    {
+      "elemento": "Muros no portantes / tabiques de arquitectura",
+      "por_que": "Solo informativos para cargas (E.020)."
+    }
+  ],
+  "superposicion": {
+    "archivo": "seguimiento/claude_ruta/evidencia09/inventario_L0001.png",
+    "sha256": "c68b877cb79ccf010a4e4812baf65fe902a38349c10fb2348eb0338221371bc9"
+  },
+  "aprobacion_ingenieria": null
+}

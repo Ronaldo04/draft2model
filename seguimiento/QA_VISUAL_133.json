@@ -1,0 +1,24 @@
+{
+  "informe_creado_en_navegador": "d566ba165f8e421bbb09312647172eb4",
+  "revision_exacta": "5b98f11c3fd04081a6c77d29784bfad9",
+  "superposicion_creada_en_navegador": "038e4c8ffb6f48e9bac4749364dd0233",
+  "geometria": "9583857430d64b50a027ccb2b114a9a5",
+  "fuentes_snapshot_estables": true,
+  "errores_consola_observados": [],
+  "datos_sinteticos": true,
+  "api_real": false,
+  "etabs_nuevo": false,
+  "alcance": "Interfaz sobre copia aislada de fuentes; no valida cambios posteriores de Claude ni exactitud de los planos reales. Anclas fabricadas, no detección.",
+  "capturas": {
+    "informe_revision.png": "ed4595072b59808e128ec23e8ee1f8932369ee43ee831954bc585b424a7a8010",
+    "superposicion.png": "cba1d5bf580570453b2e57cbe8442a62b56aecb27b79f8818b3831d310b03d4d"
+  },
+  "evidencia": "tmp/qa_visual_133/evidencia.json",
+  "escenario": "tmp/qa_visual_133/escenario.json",
+  "servidores_terminales": [
+    67995,
+    85336
+  ],
+  "pestana_qa_7_cerrada": true,
+  "nota": "Servidor sandbox inaccesible desde navegador; host autorizado permitió ensayo. Ninguna política modificada. Fuentes producto no editadas durante propiedad Claude."
+}

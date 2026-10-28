@@ -1,0 +1,9 @@
+{
+  "encargo": "seguimiento/claude_ruta/09_INTEGRACION_PILOTO.md",
+  "estado": "envio_observado_y_lectura_iniciada",
+  "ventana": 3082800,
+  "conversacion": "Comandos CLI geometría",
+  "proyecto": "PROYECTO FINAL",
+  "evidencia_visual": "Mensaje09 visible completo en historial; compositor vacío; lista Leer encargo09/R236 y Reading commission09. No prueba calidad ni finalización.",
+  "observacion": "Tras Enter la captura inmediata mantuvo texto; intento CtrlEnter reportó entrada manual. Reobservación posterior confirmó envío, por tanto no reenviar."
+}

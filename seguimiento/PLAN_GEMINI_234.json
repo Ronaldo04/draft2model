@@ -1,0 +1,9 @@
+{
+  "estado": "preparacion_local",
+  "solicitud": "data\\private\\provisional-001\\vision\\solicitudes\\777e5eb009c649b1a6a3db21cfc6876d\\solicitud.json",
+  "sha256_solicitud": "1cecce24a2d653ae225c0005a1bfe5779f21cd5f4652e04f9e15c7cc64570f17",
+  "protocolo": "0.2.0",
+  "fuentes_producto": "entrega06-e96facbfa6d84161b3be7aafcf02e828 congelada en tmp/revision_codex_233",
+  "motivo": "Revisar planos con tipo/unidad/literal/cobertura; verificar si se recuperan datos omitidos de especificaciones y sismo. Los parámetros2005 se leen como historia del expediente, no se aplican como norma vigente.",
+  "limites": "Una peticiónGemini, sin retry ni cambio de nivel de cuenta; contador compartido máximo5."
+}

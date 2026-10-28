@@ -1,0 +1,15 @@
+{
+  "pruebas": 12,
+  "errores": 0,
+  "fallos": 0,
+  "omisiones": 0,
+  "segundos": 13.664995800005272,
+  "fuentes_sha256": {
+    "draft2model/cache_malla_pura.py": "0926ced7eb4abc3874425ae4db724f4c1ff2dd254ce8173e4cd1e17932073c95",
+    "draft2model/malla_preparacion.py": "7c29f9b5df88d36479fe7308c70785d429cc40ff11b3b7ec0979c79d9de19b89",
+    "tests/test_cache_malla_pura_268.py": "268bd5b20e7a423b9d48ac59354409e617dc3b7b56a9e35a7af36cd68e4f8447"
+  },
+  "fuentes_estables": true,
+  "alcance": "Cache y planes completos en fixtures; no nuevo cálculo ni tiempos del piloto.",
+  "goal_completo": false
+}

@@ -1,0 +1,15 @@
+{
+  "tarea": "auto_315",
+  "hashes_verificados": 21,
+  "aceptacion": "Solo faseA y diagnóstico de fallo; no prueba completa de hipótesis de tolerancia",
+  "evidencia_A": "seguimiento/QA_PARCIAL_AUTO_315_CODEX.json",
+  "cierre": "CIERRE_REPARACION_315: PID44832 ausente; ApplicationExit no confirmado por IPC terminado; no confundir ausencia con retorno0.",
+  "limites": [
+    "Mensaje de modal comunicado porClaude, sin captura incorporada al marcador",
+    "Espacio libre suficiente no prueba por sí solo la causa del error de arrays",
+    "No universalizar Lc=0.002m sin contraste de tolerancia/unidades"
+  ],
+  "producto312": "Conservado sin modificaciones",
+  "siguiente": "B aislado por Codex, solo tras revalidar que315 terminó",
+  "goal_completo": false
+}

@@ -1,0 +1,22 @@
+{
+ "tmp/recorrido_09d1": {
+  "continuacion": "tmp/recorrido_09d2",
+  "fecha": "2026-10-22",
+  "etapas_delegadas": [
+   "controles",
+   "reglas",
+   "informe",
+   "panel"
+  ]
+ },
+ "tmp/recorrido_09d2": {
+  "continuacion": "tmp/recorrido_09d3",
+  "fecha": "2026-10-22",
+  "etapas_delegadas": [
+   "controles",
+   "reglas",
+   "informe",
+   "panel"
+  ]
+ }
+}

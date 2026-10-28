@@ -1,0 +1,15 @@
+{
+  "fecha_utc": "2026-10-22T17:37:16.332678+00:00",
+  "responsable": "Codex",
+  "archivos": {
+    "seguimiento/claude_ruta/recorrido_etabs_09t.py": "d35ff0c08d438c20700a6f94576ec9901bd09475eb8c63cc1773a1bf0c90914c",
+    "seguimiento/claude_ruta/validacion_etapas_255.py": "853bea2c9b7a45fa8f3fc56e6b93b295f3a3be4919cd702a4dfb0d79547fd644",
+    "seguimiento/claude_ruta/test_recorrido_09t_256.py": "b951c8d1d56c81d1e8defb2465e702b5cc6f3aad267716a19caac8fb29b63633"
+  },
+  "prueba_focal": {
+    "comando": ".venv/Scripts/python.exe -B seguimiento/claude_ruta/test_recorrido_09t_256.py -q",
+    "resultado": "16 pruebas OK, 0.230s"
+  },
+  "alcance": "Fusión del candidato seguro256 observada en runner actual, controles explícitos y salidas de fallo; sin ejecución nativa nueva",
+  "aceptacion_global": false
+}

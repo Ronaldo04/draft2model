@@ -1,0 +1,22 @@
+{
+  "hallazgo": "conciliacion_admite_filas_duplicadas_y_offsets_negativos",
+  "pruebas": [
+    {
+      "caso": "duplicada",
+      "rechazado": false,
+      "peso_excluido_kn": 1.0,
+      "masa_kn_s2_m": 99.9
+    },
+    {
+      "caso": "offset_negativo",
+      "rechazado": false,
+      "peso_excluido_kn": -0.7,
+      "masa_kn_s2_m": 100.07
+    }
+  ],
+  "libro_original_intacto": true,
+  "fuente": "draft2model/libro_masa.py",
+  "sha256_fuente": "4425236cd7e078e4537b2f0433f1c7f98d12542ef94aa57cb65d000c388a6032",
+  "alcance": "Reproducción pura sintética, sin ETABS/APIs; no afecta conclusión de extremos278 con tabla íntegra. Pedir rechazo de entradas inválidas, no cambiar tolerancias.",
+  "goal_completo": false
+}

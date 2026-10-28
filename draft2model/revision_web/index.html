@@ -1,0 +1,4036 @@
+<!doctype html>
+
+
+
+<html lang="es">
+
+
+
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="revision-session" content="__SESSION__"><title>Draft2Model · Proyecto estructural</title><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/etapas.css"><link rel="stylesheet" href="/katex/katex.min.css"></head>
+
+
+
+<body>
+
+
+
+<header class="app-header">
+
+ <div class="header-brand-group">
+
+  <a class="brand" href="/">D<span>2</span>M <strong>Draft2Model</strong></a>
+
+  <span class="header-divider">|</span>
+
+  <span class="header-label">INGENIERÍA ESTRUCTURAL</span>
+
+ </div>
+
+
+
+ <div class="header-module-badge badge-porticado" id="headerModuleBadge" title="Sistema constructivo activo en el modelo">
+
+  <span class="mod-dot"></span>
+
+  <span class="mod-title-text" id="headerModTitle">Módulo 1: Sistema Aporticado</span>
+
+  <span class="mod-norms-text" id="headerModNorms">RNE E.030-2026 · E.060 · E.020 · E.050 (Sin E.070)</span>
+
+ </div>
+
+
+
+ <div class="header-actions">
+
+  <button id="btnVerNormativasHeader" class="header-btn" type="button" title="Consultar marco normativo RNE completo">Normativas RNE</button>
+
+  <button id="btnConfigurarApi" class="header-btn" type="button" title="Configurar claves de API">Configurar Claves de API</button>
+
+  <span class="local">● Sesión local</span>
+
+ </div>
+
+</header>
+
+<dialog id="modalApi" class="config-modal">
+
+
+
+ <form id="formApiModal" method="dialog" class="config-modal-body">
+
+
+
+  <div class="modal-header">
+
+
+
+   <h3>Configuración de API Keys</h3>
+
+
+
+   <button type="button" id="cerrarModalApi" class="btn-close" aria-label="Cerrar">×</button>
+
+
+
+  </div>
+
+
+
+  <p class="modal-desc">Tus claves se almacenan exclusivamente de manera local en tu máquina (en <code>data/private/credenciales.local.md</code>). <strong>Nunca se comparten en GitHub ni se transfieren a repositorios públicos.</strong></p>
+
+
+
+  
+
+
+
+  <div class="modal-field">
+
+
+
+   <label for="inputApiKeyOpenAI">OpenAI API Key (para modelos GPT-6.1 Sol / GPT-6 Astra / GPT-4o)</label>
+
+
+
+   <div class="input-secret-wrapper">
+
+
+
+    <input type="password" id="inputApiKeyOpenAI" placeholder="sk-proj-..." autocomplete="off">
+
+
+
+    <button type="button" class="btn-toggle-view" id="btnToggleOpenAI" title="Ver/ocultar">Ver</button>
+
+
+
+   </div>
+
+
+
+   <small class="field-hint">Requerida para la lectura automatizada de planos.</small>
+
+
+
+  </div>
+
+
+
+
+
+
+
+  <div class="modal-field">
+
+
+
+   <label for="inputApiKeyGemini">Google Gemini API Key (opcional)</label>
+
+
+
+   <div class="input-secret-wrapper">
+
+
+
+    <input type="password" id="inputApiKeyGemini" placeholder="AIzaSy..." autocomplete="off">
+
+
+
+    <button type="button" class="btn-toggle-view" id="btnToggleGemini" title="Ver/ocultar">Ver</button>
+
+
+
+   </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+  <div class="modal-footer">
+
+
+
+   <span id="apiModalStatus" class="modal-status"></span>
+
+
+
+   <div class="modal-actions">
+
+
+
+    <button type="button" id="guardarApiModal" class="primary">Guardar claves localmente</button>
+
+
+
+   </div>
+
+
+
+  </div>
+
+
+
+ </form>
+
+
+
+</dialog>
+
+
+
+<dialog id="modalFichaNormativa" class="config-modal norm-modal">
+
+ <div class="config-modal-body norm-modal-body">
+
+  <div class="modal-header">
+
+   <div class="modal-title-group">
+
+    <span class="norm-badge">MARCO NORMATIVO RNE COMPLETO</span>
+
+    <h3 id="normativaModalModuleTitle">Ficha Técnica y Criterios Normativos</h3>
+
+   </div>
+
+   <button type="button" id="btnCloseNormativaModal" class="btn-close" aria-label="Cerrar">×</button>
+
+  </div>
+
+  <div id="normativaModalBody" class="modal-content-area">
+
+   <!-- Rellenado dinamicamente -->
+
+  </div>
+
+  <div class="modal-footer">
+
+   <button type="button" id="btnAcceptNormativaModal" class="primary">Entendido, volver al espacio de trabajo</button>
+
+  </div>
+
+ </div>
+
+</dialog>
+
+
+
+<main>
+
+
+
+ <section class="intro">
+
+  <div>
+
+   <p class="eyebrow">DEL PLANO AL DATO REVISADO</p>
+
+   <h1>Del plano al modelo, paso a paso</h1>
+
+   <p>Consulta el avance, revisa las decisiones técnicas y conserva cada versión dentro del sistema.</p>
+
+  </div>
+
+  <div class="selector">
+
+   <div class="selector-field">
+
+    <label for="caso">Expediente</label>
+
+    <select id="caso"><option value="">Selecciona un expediente</option></select>
+
+   </div>
+
+   <div class="selector-field">
+
+    <label for="moduloSistema">Sistema Constructivo</label>
+
+    <select id="moduloSistema" class="module-dropdown">
+
+     <option value="porticado" selected>Módulo 1: Sistema Aporticado</option>
+
+     <option value="albanileria">Módulo 2: Sistema de Albañilería Confinada</option>
+
+    </select>
+
+   </div>
+
+   <div class="selector-actions">
+
+    <button id="btnVerNormativas" type="button" class="btn-norma-inline" title="Consultar normas RNE aplicables">Normativas RNE</button>
+
+    <button id="recargar" type="button">Volver a consultar</button>
+
+   </div>
+
+  </div>
+
+ </section>
+
+
+
+ <section class="geometry intake-card" aria-label="Ingreso local de planos">
+
+
+
+  <div class="intake-header">
+
+
+
+   <span class="stage-tag">FASE 1 · REGISTRO Y PLANOS</span>
+
+
+
+   <h2>Registrar nuevo proyecto estructural</h2>
+
+
+
+   <p class="intake-desc">Ingresa el nombre o código del proyecto y selecciona o arrastra los planos estructurales (formato PDF o imágenes). El sistema preparará los documentos digitalmente para la interpretación y reconstrucción con IA.</p>
+
+
+
+  </div>
+
+
+
+
+
+
+
+  <form id="ingresoForm" class="intake-form">
+
+
+
+   <div class="form-row">
+
+
+
+    <div class="form-field">
+
+
+
+     <label for="ingresoCaso"><strong>Nombre o Código del Proyecto</strong></label>
+
+
+
+     <input id="ingresoCaso" pattern="[A-Za-z0-9][A-Za-z0-9 _-]{0,63}" maxlength="64" required placeholder="Ej: Proyecto-01 o Edificio-Las-Flores">
+
+
+
+     <small class="field-help">Identificador del proyecto (los espacios y tildes se adaptan automáticamente a formato estándar).</small>
+
+
+
+    </div>
+
+
+
+    <div class="form-field">
+
+
+
+     <label for="ingresoModulo"><strong>Módulo Estructural (Sistema Constructivo)</strong></label>
+
+
+
+     <select id="ingresoModulo" class="form-select" style="padding: 0.5rem 0.75rem; border: 1px solid var(--border, #cbd5e1); border-radius: 6px; font-size: 0.9rem; background: #fff; width: 100%;">
+
+      <option value="porticado" selected>Módulo 1: Sistema Aporticado (Pórticos Concreto Armado) · Principal / Sustentación</option>
+
+      <option value="albanileria">Módulo 2: Albañilería Confinada (Muros Portantes) · En Desarrollo</option>
+
+     </select>
+
+
+
+     <small class="field-help">Define las reglas normativas: E.030-2026/E.060 (R0=8, CT=35, Δ/h≤0.007) vs E.070/E.030 (R0=3, CT=60, Δ/h≤0.005).</small>
+
+
+
+    </div>
+
+
+
+   </div>
+
+
+
+
+
+
+
+   <div class="form-field">
+
+
+
+    <label><strong>Planos y láminas del proyecto (PDF, JPG, PNG)</strong></label>
+
+
+
+    <div id="intakeDropZone" class="intake-dropzone">
+
+
+
+     <div class="dropzone-inner">
+
+
+
+      <div class="dropzone-icon">PLANOS</div>
+
+
+
+      <div class="dropzone-text">
+
+
+
+       <strong>Haz clic para seleccionar planos</strong> o arrástralos aquí
+
+
+
+      </div>
+
+
+
+      <span class="dropzone-hint">Formatos compatibles: PDF vectorial o escaneado, JPG, PNG · Hasta 20 láminas</span>
+
+
+
+     </div>
+
+
+
+     <input id="ingresoArchivos" type="file" accept=".pdf,.jpg,.jpeg,.png" multiple required class="dropzone-file-input">
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <div id="intakeFileList" class="intake-file-list" hidden>
+
+
+
+     <div class="file-list-head">
+
+
+
+      <span id="intakeFileCount">0 planos seleccionados</span>
+
+
+
+      <button type="button" id="intakeResetFiles" class="btn-text">Cambiar selección</button>
+
+
+
+     </div>
+
+
+
+     <ul id="intakeFilesUl" class="file-items-grid"></ul>
+
+
+
+    </div>
+
+
+
+   </div>
+
+
+
+
+
+
+
+   <div class="intake-consent-box">
+
+
+
+    <label class="confirmation">
+
+
+
+     <input id="ingresoAutorizado" type="checkbox" required checked>
+
+
+
+     <span>Confirmo que estos documentos corresponden al proyecto estructural a analizar y autorizo su procesamiento local.</span>
+
+
+
+    </label>
+
+
+
+    <input id="ingresoReferencia" type="checkbox" style="display:none">
+
+
+
+   </div>
+
+
+
+
+
+
+
+   <div class="intake-submit-row">
+
+
+
+    <button id="ingresoRegistrar" class="primary intake-btn" type="submit">
+
+
+
+     
+
+
+
+     <span>Registrar proyecto y procesar láminas</span>
+
+
+
+    </button>
+
+
+
+   </div>
+
+
+
+  </form>
+
+
+
+
+
+
+
+  <div id="intakeStatusBox" class="intake-status-card">
+
+
+
+   <div id="intakeSpinner" class="intake-spinner" hidden></div>
+
+
+
+   <p id="ingresoEstado" role="status">Selecciona los planos del proyecto para iniciar.</p>
+
+
+
+  </div>
+
+
+
+ </section>
+
+
+
+ <div id="mensaje" role="status" aria-live="polite" hidden></div>
+
+
+
+ <div class="scope"><strong id="alcance">Sin expediente seleccionado</strong><span>Revisar lecturas no aprueba datos de ingeniería.</span></div>
+
+
+
+ <section class="versionbar" aria-label="Contingencia JSON de extracción"><div><label for="version">Versión de extracción</label><select id="version" disabled><option value="">Sin lecturas importadas</option></select></div><label class="filebutton">Importar extracción JSON<input id="importar" type="file" accept=".json,application/json" disabled></label><button id="exportar" type="button" disabled>Exportar revisados</button></section>
+
+
+
+ <div class="workspace">
+
+
+
+  <section class="drawing" aria-label="Plano y evidencias">
+
+
+
+   <div class="drawing-toolbar"><div><label for="documento">Lámina</label><select id="documento" disabled></select></div><div><label for="pagina">Página</label><select id="pagina" disabled></select></div><div><label for="zoom">Vista</label><select id="zoom"><option value="100">Ajustar</option><option value="150">150 %</option><option value="200">200 %</option><option value="300">300 %</option></select></div></div>
+
+
+
+   <div id="visor" class="viewer"><p id="vacioPlano" class="empty">Selecciona un expediente para consultar sus planos.</p><div id="lienzo" hidden><img id="plano" alt="Página visible del plano seleccionado"><div id="marcas" aria-label="Regiones de evidencia"></div></div></div>
+
+
+
+   <div class="drawing-footer"><span id="paginaInfo">Sin página abierta</span><span>Regiones en coordenadas de página · sin escala métrica</span></div>
+
+
+
+  </section>
+
+
+
+  <section class="readings" aria-label="Lecturas y correcciones"><div class="readings-head"><h2>Lecturas <span id="conteo">0</span></h2><label for="filtro" class="sr">Filtrar lecturas</label><select id="filtro"><option value="todas">Todas</option><option value="pendiente">Pendientes</option><option value="revisado">Revisadas</option><option value="rechazado">Rechazadas</option></select></div>
+
+
+
+   <div id="candidatos"><p class="empty">Aún no hay lecturas. Puedes consultar las láminas e importar una extracción cuando esté disponible.</p></div>
+
+
+
+   <form id="correccion" hidden><div class="form-heading"><p class="eyebrow" id="candidatoId"></p><h3>Contrastar y corregir</h3><p id="propuesta"></p><p id="literal" class="hint"></p><p id="clasificacion" class="hint" hidden></p><button id="usarClasificacion" type="button" hidden>Cargar clasificación propuesta en el formulario</button></div><div id="evidencias" class="evidencias"></div>
+
+
+
+    <div><button id="buscarLiteral" type="button">Buscar texto literal en PDF local</button>
+
+
+
+    <p id="busquedaLiteralEstado" class="hint">Solo propone regiones del texto vectorial; no aplica cambios ni usa APIs.</p>
+
+
+
+    <div id="busquedaLiteralOpciones"></div></div>
+
+
+
+    <label for="estado">Resultado de la revisión</label><select id="estado"><option value="revisado">Lectura revisada</option><option value="rechazado">Rechazar propuesta</option><option value="pendiente">Dejar pendiente</option></select>
+
+
+
+    <div id="camposValor"><div id="campoTipo" hidden><label for="tipoRevisado">Tipo de lectura</label><select id="tipoRevisado"></select></div><label for="valor">Valor leído</label><input id="valor" autocomplete="off"><label for="unidad">Unidad</label><select id="unidad"></select></div>
+
+
+
+    <label for="motivo">Motivo de la revisión</label><textarea id="motivo" rows="2" required maxlength="2000" placeholder="Qué confirmaste o cambiaste en el plano"></textarea>
+
+
+
+    <div class="two"><div><label for="revisor">Revisor declarado</label><input id="revisor" required maxlength="150" autocomplete="name"></div><div><label for="fecha">Fecha</label><input id="fecha" type="date" required></div></div>
+
+
+
+    <button id="guardar" class="primary" type="submit">Guardar nueva versión</button><p class="hint">La versión abierta se conserva. La identidad del revisor es declarada.</p>
+
+
+
+    <details><summary>Historial de esta lectura</summary><div id="historial"></div></details>
+
+
+
+   </form>
+
+
+
+   <section id="evidenciaOps" hidden aria-label="Operaciones sobre la evidencia (contrato 0.2.0)">
+
+    <details class="d2m-op-card">
+
+     <summary class="d2m-op-summary">
+
+      <span class="d2m-op-title">Reubicar evidencia en el plano</span>
+
+      <span class="d2m-op-badge">Ajuste espacial</span>
+
+     </summary>
+
+     <div class="d2m-op-body">
+
+      <p class="hint">Crea una versión nueva con la región corregida en el mismo original y página. No aprueba la lectura.</p>
+
+      <label for="reubicarBbox">Región nueva x0,y0,x1,y1 (página visible, 0 a 1)</label>
+
+      <input id="reubicarBbox" autocomplete="off" placeholder="Ej: 0.12,0.34,0.25,0.48">
+
+      <label for="reubicarMotivo">Motivo</label>
+
+      <input id="reubicarMotivo" maxlength="2000" autocomplete="off" placeholder="Motivo técnico de reubicación">
+
+      <div style="display:flex; gap:8px; margin-top:8px;">
+
+       <button id="reubicarVer" type="button">Previsualizar región</button>
+
+       <button id="reubicarGuardar" type="button" disabled>Guardar reubicación</button>
+
+      </div>
+
+     </div>
+
+    </details>
+
+
+
+    <details class="d2m-op-card" style="margin-top:8px;">
+
+     <summary class="d2m-op-summary">
+
+      <span class="d2m-op-title">Agregar lectura omitida manualmente</span>
+
+      <span class="d2m-op-badge">Ingreso manual</span>
+
+     </summary>
+
+     <div class="d2m-op-body">
+
+      <p class="hint">Solo lo impreso en el original abierto: texto literal y región. Queda pendiente; procedencia manual, no IA.</p>
+
+      <div class="two">
+
+       <div><label for="manualTipo">Tipo</label><select id="manualTipo"></select></div>
+
+       <div><label for="manualUnidad">Unidad</label><select id="manualUnidad"></select></div>
+
+      </div>
+
+      <label for="manualTexto">Texto literal impreso</label>
+
+      <input id="manualTexto" maxlength="500" autocomplete="off" placeholder="Texto tal como aparece en el plano">
+
+      <div class="two">
+
+       <div><label for="manualValor">Valor</label><input id="manualValor" autocomplete="off" placeholder="Valor numérico o texto"></div>
+
+       <div><label for="manualSimbolo">Símbolo (opcional)</label><input id="manualSimbolo" maxlength="40" autocomplete="off" placeholder="Ej: f'c, fy, S/C"></div>
+
+      </div>
+
+      <label for="manualBbox">Región x0,y0,x1,y1 en la página abierta</label>
+
+      <input id="manualBbox" autocomplete="off" placeholder="0.10,0.20,0.30,0.40">
+
+      <label for="manualMotivo">Motivo</label>
+
+      <input id="manualMotivo" maxlength="2000" autocomplete="off" placeholder="Motivo de la lectura manual">
+
+      <div style="display:flex; gap:8px; margin-top:8px;">
+
+       <button id="manualVer" type="button">Previsualizar región</button>
+
+       <button id="manualGuardar" type="button" disabled>Guardar lectura manual</button>
+
+      </div>
+
+     </div>
+
+    </details>
+
+   </section>
+
+
+
+  </section>
+
+
+
+ </div>
+
+
+
+ <section class="geometry" aria-label="Preparación visual local">
+
+
+
+  <h2>Preparar evidencias visuales</h2><p>Consulta el original, declara una región y contrasta el recorte antes de preparar el paquete. Esta operación es local y no interpreta el plano.</p>
+
+
+
+  <button id="visualRevisar" type="button" disabled>Crear otra revisión documental</button><button id="visualActualizar" type="button" disabled>Actualizar preparación visual</button>
+
+
+
+  <label for="visualRevision">Revisión documental para el paquete</label><select id="visualRevision" disabled><option value="">Sin selección</option></select>
+
+
+
+  <form id="visualRecorteForm">
+
+
+
+   <label for="visualArchivo">Original para recortar</label><select id="visualArchivo" required disabled><option value="">Sin selección</option></select>
+
+
+
+   <label for="visualPagina">Página del original</label><input id="visualPagina" type="number" value="1" min="1" step="1" required disabled>
+
+
+
+   <button id="visualMostrar" type="button" disabled>Mostrar esa página en el visor</button>
+
+
+
+   <p class="hint">Región normalizada respecto de la página visible: 0 es el borde inicial y 1 el borde final. No representa metros.</p>
+
+
+
+   <div class="two"><div><label for="visualX0">Borde izquierdo (x0)</label><input id="visualX0" type="number" min="0" max="1" step="any" value="0" required disabled></div><div><label for="visualY0">Borde superior (y0)</label><input id="visualY0" type="number" min="0" max="1" step="any" value="0" required disabled></div></div>
+
+
+
+   <div class="two"><div><label for="visualX1">Borde derecho (x1)</label><input id="visualX1" type="number" min="0" max="1" step="any" value="1" required disabled></div><div><label for="visualY1">Borde inferior (y1)</label><input id="visualY1" type="number" min="0" max="1" step="any" value="1" required disabled></div></div>
+
+
+
+   <label for="visualDpi">Resolución de render PDF (DPI)</label><input id="visualDpi" type="number" value="150" min="72" max="300" step="1" required disabled><p class="hint">En JPG/PNG se conserva la vista orientada por EXIF; este DPI no fija su resolución ni escala física.</p>
+
+
+
+   <label for="visualEtiqueta">Etiqueta del recorte</label><input id="visualEtiqueta" value="Región de lectura" required maxlength="150" disabled>
+
+
+
+   <button id="visualRecortar" type="submit" disabled>Conservar un recorte nuevo</button>
+
+
+
+  </form>
+
+
+
+  <img id="visualImagen" alt="Recorte conservado para revisión visual" hidden style="max-width:100%;max-height:500px;object-fit:contain">
+
+
+
+  <label for="visualRecortes">Recortes para el paquete</label><select id="visualRecortes" multiple size="5" disabled></select><p class="hint">Selecciona uno o varios recortes; usa Ctrl para añadir selecciones separadas.</p>
+
+
+
+  <button id="visualPreparar" type="button" disabled>Preparar paquete local sin envío</button>
+
+
+
+  <label for="visualPaquete">Paquetes conservados</label><select id="visualPaquete" disabled><option value="">Sin selección</option></select>
+
+
+
+  <p id="visualEstado" role="status">Selecciona un expediente para preparar sus evidencias.</p><details><summary>Imágenes, huella y estado del paquete</summary><pre id="visualDetalle"></pre></details>
+
+
+
+ </section>
+
+
+
+ <section id="fotoPanel" class="geometry" aria-label="Preparación explícita de fotografías">
+
+
+
+  <h2>Preparar una fotografía registrada</h2>
+
+
+
+  <p>Conserva el original y crea un derivado con perspectiva, rotación y contraste declarados. Esta preparación es local; no fija escala en metros ni acredita mejora de precisión.</p>
+
+
+
+  <label for="fotoArchivo">Original PNG/JPEG</label><select id="fotoArchivo" disabled><option value="">Selecciona original raster</option></select>
+
+
+
+  <button id="fotoConsultar" type="button" disabled>Consultar dimensiones, EXIF e historial</button>
+
+
+
+  <details><summary>Identidad y coordenadas del original</summary><pre id="fotoOriginalInfo"></pre></details>
+
+
+
+  <form id="fotoTransformarForm">
+
+
+
+   <p class="hint">Las esquinas se expresan en píxeles del archivo almacenado, antes de EXIF: origen superior izquierdo, X derecha, Y abajo. El visor general puede estar orientado por EXIF; consulta las dimensiones y matrices anteriores. No se añade rotación automática.</p>
+
+
+
+   <div class="two"><div><label for="fotoRotacion">Rotación horaria explícita</label><select id="fotoRotacion" required disabled><option value="0">0°</option><option value="90">90°</option><option value="180">180°</option><option value="270">270°</option></select></div><div><label for="fotoContraste">Factor de contraste (1 conserva)</label><input id="fotoContraste" type="number" min="0.000001" max="5" step="any" value="1" required disabled></div></div>
+
+
+
+   <label><input id="fotoPerspectiva" type="checkbox" disabled>Rectificar cuatro esquinas explícitas</label>
+
+
+
+   <fieldset id="fotoEsquinas" hidden><legend>Perspectiva sobre el original almacenado, antes de rotar</legend>
+
+
+
+    <div class="two"><div><label for="fotoX0">Superior izquierda · X (px)</label><input id="fotoX0" type="number" min="0" step="any" disabled></div><div><label for="fotoY0">Superior izquierda · Y (px)</label><input id="fotoY0" type="number" min="0" step="any" disabled></div></div>
+
+
+
+    <div class="two"><div><label for="fotoX1">Superior derecha · X (px)</label><input id="fotoX1" type="number" min="0" step="any" disabled></div><div><label for="fotoY1">Superior derecha · Y (px)</label><input id="fotoY1" type="number" min="0" step="any" disabled></div></div>
+
+
+
+    <div class="two"><div><label for="fotoX2">Inferior derecha · X (px)</label><input id="fotoX2" type="number" min="0" step="any" disabled></div><div><label for="fotoY2">Inferior derecha · Y (px)</label><input id="fotoY2" type="number" min="0" step="any" disabled></div></div>
+
+
+
+    <div class="two"><div><label for="fotoX3">Inferior izquierda · X (px)</label><input id="fotoX3" type="number" min="0" step="any" disabled></div><div><label for="fotoY3">Inferior izquierda · Y (px)</label><input id="fotoY3" type="number" min="0" step="any" disabled></div></div>
+
+
+
+    <div class="two"><div><label for="fotoAncho">Ancho rectificado antes de rotar (px)</label><input id="fotoAncho" type="number" min="2" max="16000" step="1" disabled></div><div><label for="fotoAlto">Alto rectificado antes de rotar (px)</label><input id="fotoAlto" type="number" min="2" max="16000" step="1" disabled></div></div>
+
+
+
+   </fieldset>
+
+
+
+   <label for="fotoRevisor">Operador/revisor declarado</label><input id="fotoRevisor" required maxlength="150" disabled>
+
+
+
+   <label for="fotoMotivo">Motivo de la transformación explícita</label><textarea id="fotoMotivo" rows="2" maxlength="2000" required disabled></textarea>
+
+
+
+   <button id="fotoRegistrar" type="submit" disabled>Conservar nuevo derivado sin aprobación de ingeniería</button>
+
+
+
+  </form>
+
+
+
+  <label for="fotoVersion">Derivados verificados del original seleccionado</label><select id="fotoVersion" disabled><option value="">Sin selección</option></select>
+
+
+
+  <button id="fotoCargar" type="button" disabled>Comprobar y mostrar derivado</button>
+
+
+
+  <img id="fotoPreview" alt="Derivado raster verificado, con transformación explícita" hidden style="max-width:100%;max-height:500px;object-fit:contain">
+
+
+
+  <details><summary>Configuración y matrices del derivado</summary><pre id="fotoDetalle"></pre></details>
+
+
+
+  <form id="fotoRecorteForm">
+
+
+
+   <p>La región siguiente se expresa sobre el derivado mostrado, normalizada de 0 a 1. La evidencia del paquete vuelve al original registrado mediante la transformación conservada.</p>
+
+
+
+   <div class="two"><div><label for="fotoBX0">Izquierda (x0)</label><input id="fotoBX0" type="number" min="0" max="1" step="any" value="0" required disabled></div><div><label for="fotoBY0">Arriba (y0)</label><input id="fotoBY0" type="number" min="0" max="1" step="any" value="0" required disabled></div></div>
+
+
+
+   <div class="two"><div><label for="fotoBX1">Derecha (x1)</label><input id="fotoBX1" type="number" min="0" max="1" step="any" value="1" required disabled></div><div><label for="fotoBY1">Abajo (y1)</label><input id="fotoBY1" type="number" min="0" max="1" step="any" value="1" required disabled></div></div>
+
+
+
+   <label for="fotoEtiqueta">Etiqueta del recorte derivado</label><input id="fotoEtiqueta" value="Región de fotografía preparada" maxlength="150" required disabled>
+
+
+
+   <button id="fotoRecortar" type="submit" disabled>Conservar recorte y añadirlo a selección del paquete</button>
+
+
+
+  </form>
+
+
+
+  <p id="fotoEstado" role="status">Selecciona un original raster para declarar una transformación.</p>
+
+
+
+ </section>
+
+
+
+ <section class="geometry" aria-label="Proveedor visual deliberado">
+
+
+
+  <h2>Plan y envío deliberado al proveedor visual</h2>
+
+
+
+  <p>Preparar conserva un plan local sin credencial ni transmisión. Ejecutar transmite las imágenes y la solicitud del paquete al proveedor seleccionado y puede generar costos. No hay estimación de costo disponible. La credencial debe estar configurada fuera de esta pantalla; nunca la pegues aquí.</p>
+
+
+
+  <p id="proveedorPaquete">Selecciona un paquete visual comprobado arriba.</p>
+
+
+
+  <label for="proveedorTipo">Proveedor vinculado al plan</label><select id="proveedorTipo" disabled>__OPCIONES_IA__</select>
+
+
+
+  <p>Gemini requiere detalle auto. La API compatible requiere un endpoint HTTPS configurado en el servidor y soporte de imágenes y JSON Schema del modelo elegido. No se comprueba compatibilidad por disponer de una clave.</p>
+
+
+
+  <label for="proveedorModelo">Identificador del modelo declarado</label><input id="proveedorModelo" maxlength="128" autocomplete="off" disabled>
+
+
+
+  <label for="proveedorTokens">Límite de tokens de salida (256–16384)</label><input id="proveedorTokens" type="number" min="256" max="16384" step="1" disabled>
+
+
+
+  <label for="proveedorDetalle">Detalle de imagen</label><select id="proveedorDetalle" disabled><option value="">Selecciona detalle</option><option value="low">low</option><option value="high">high</option><option value="auto">auto</option></select>
+
+
+
+  <label for="proveedorTimeout">Tiempo máximo de espera (1–180 segundos)</label><input id="proveedorTimeout" type="number" min="1" max="180" step="1" disabled>
+
+
+
+  <button id="proveedorPreparar" type="button" disabled>Preparar plan local sin envío</button>
+
+
+
+  <label for="proveedorVersion">Trabajos conservados</label><select id="proveedorVersion" disabled><option value="">Sin selección</option></select><button id="proveedorActualizar" type="button" disabled>Consultar historial sin reenviar</button>
+
+
+
+  <p id="proveedorEstado" role="status">Sin trabajo seleccionado.</p><details><summary>Plan, huellas, modo y uso observado</summary><pre id="proveedorDatos"></pre></details>
+
+
+
+  <label class="confirmation"><input id="proveedorConfirmar" type="checkbox" disabled>Confirmo enviar el paquete y la petición de esta huella al proveedor seleccionado, con posibles costos y transmisión externa. No aprueba ingeniería.</label>
+
+
+
+  <button id="proveedorEjecutar" type="button" disabled>Ejecutar envío confirmado una vez</button>
+
+
+
+  <p>Un envío incierto puede haber sido procesado y cobrado. Consultar no lo reintenta. La recuperación solo verifica evidencia conservada o cierra la incertidumbre sin reenviar.</p>
+
+
+
+  <label class="confirmation"><input id="proveedorConfirmarRecuperar" type="checkbox" disabled>Confirmo resolver este trabajo incierto sin reintentar el envío.</label><button id="proveedorRecuperar" type="button" disabled>Recuperar evidencia o cerrar sin reintento</button>
+
+
+
+  <p id="proveedorTraslado">Vincular conserva la procedencia del trabajo. Importar su extracción al historial requiere otra acción en el panel de respuestas.</p><label class="confirmation"><input id="proveedorConfirmarVincular" type="checkbox" disabled>Confirmo vincular esta respuesta y huella verificadas para consultar su extracción pendiente, sin importar ni aprobar.</label><button id="proveedorImportar" type="button" disabled>Vincular respuesta para revisión separada</button>
+
+
+
+ </section>
+
+
+
+ <section class="geometry" aria-label="Respuestas visuales locales">
+
+
+
+  <h2>Registrar una respuesta visual JSON local</h2>
+
+
+
+  <p>Contingencia local: no llama a un proveedor. Selecciona arriba un paquete visual comprobado y declara el origen del JSON. Los nombres de proveedor y modelo son declaraciones, no prueba de una transmisión.</p>
+
+
+
+  <p id="respuestaPaquete">Sin paquete seleccionado.</p>
+
+
+
+  <label for="respuestaArchivo">Archivo JSON local (hasta 1.5 MiB)</label><input id="respuestaArchivo" type="file" accept=".json,application/json" disabled>
+
+
+
+  <label for="respuestaJson">Respuesta completa asociada a la solicitud del paquete</label><textarea id="respuestaJson" rows="10" spellcheck="false" disabled></textarea>
+
+
+
+  <label for="respuestaProveedor">Proveedor declarado</label><input id="respuestaProveedor" maxlength="150" disabled>
+
+
+
+  <label for="respuestaModelo">Modelo declarado</label><input id="respuestaModelo" maxlength="150" disabled>
+
+
+
+  <label for="respuestaModo">Procedencia explícita</label><select id="respuestaModo" disabled><option value="">Selecciona una declaración</option><option value="prueba">PRUEBA SINTÉTICA · no trasladable al expediente</option><option value="expediente">Respuesta local declarada del expediente · sin acreditar llamada real</option></select>
+
+
+
+  <label class="confirmation"><input id="respuestaCuarentena" type="checkbox" disabled>Recuperar con cuarentena explícita (contrato 0.2.0): importar los candidatos válidos y apartar los inválidos con sus errores, sin corregirlos ni reordenarlos. La cobertura declarada se conserva y se informa la efectiva.</label>
+
+
+
+  <button id="respuestaRegistrar" type="button" disabled>Registrar y comprobar respuesta local</button>
+
+
+
+  <label for="respuestaVersion">Respuestas conservadas</label><select id="respuestaVersion" disabled><option value="">Sin selección</option></select><button id="respuestaActualizar" type="button" disabled>Actualizar respuestas</button>
+
+
+
+  <p id="respuestaEstado" role="status">Sin respuesta seleccionada.</p><details><summary>Extracción pendiente, huella y origen declarado</summary><pre id="respuestaDetalle"></pre></details>
+
+
+
+  <label class="confirmation"><input id="respuestaConfirmar" type="checkbox" disabled>Confirmo importar esta extracción y huella exactas al historial para revisión, sin aprobarla.</label>
+
+
+
+  <button id="respuestaImportar" type="button" disabled>Importar extracción pendiente al historial</button>
+
+
+
+ </section>
+
+
+
+ <section class="geometry" aria-label="Conversión explícita de lecturas revisadas">
+
+
+
+  <h2>De lecturas revisadas a geometría borrador</h2>
+
+
+
+  <p>Selecciona una extracción comprobada y declara un manifiesto físico completo: ejes, coordenadas físicas, conectividad, unidades y referencias revisadas; v0.1 usa niveles/nodos/muros y v0.2 admite también vértices XYZ y superficies. Vincula cada medida y contorno a candidatos revisados. No se deducen metros ni relaciones desde el dibujo.</p>
+
+
+
+  <label for="conversionExtraccion">Extracción de origen</label><select id="conversionExtraccion" disabled><option value="">Selecciona extracción revisada</option></select>
+
+
+
+  <details><summary>Candidatos revisados de la extracción seleccionada</summary><pre id="conversionLecturas"></pre></details>
+
+
+
+  <label for="conversionManifiesto">Manifiesto draft2model.conversion_geometria completo (JSON)</label>
+
+
+
+  <textarea id="conversionManifiesto" rows="14" spellcheck="false" disabled placeholder="Declara el manifiesto completo según docs/CONVERSION_GEOMETRIA.md. No se rellenan parámetros físicos automáticamente."></textarea>
+
+
+
+  <p class="hint">Cada medida debe citar una cota revisada o una declaración física justificada con referencias revisadas. Una unidad desconocida o lectura pendiente no sirve como medida.</p>
+
+
+
+  <button id="conversionCrear" type="button" disabled>Crear conversión comprobada sin importar geometría</button>
+
+
+
+  <div class="versionbar"><div><label for="conversionVersion">Conversiones conservadas</label><select id="conversionVersion" disabled><option value="">Sin conversión seleccionada</option></select></div><button id="conversionActualizar" type="button" disabled>Actualizar conversiones</button></div>
+
+
+
+  <p id="conversionEstado" role="status">Selecciona un expediente y una extracción.</p><details><summary>Geometría propuesta, huella y correspondencias</summary><pre id="conversionDetalle"></pre></details>
+
+
+
+  <label class="confirmation"><input id="conversionConfirmar" type="checkbox" disabled>Confirmo importar la geometría comprobada como nueva versión en borrador, sin aprobación.</label>
+
+
+
+  <button id="conversionImportar" type="button" disabled>Importar geometría borrador al historial</button>
+
+
+
+ </section>
+
+
+
+ <section class="geometry" aria-label="Contingencia tabular supervisada">
+
+
+
+  <h2>Contingencia tabular CSV/XLSX hacia geometría borrador</h2>
+
+
+
+  <p>Ingreso supervisado por el usuario, no visión ni ETABS. Adjunta metadatos JSON del contrato geométrico (unidad, procedencia, faltantes y revisión borrador declarados) y las tablas de su versión: niveles/nodos/muros en v0.1; añade vertices/superficies en v0.2 y aberturas en v0.3. No se infieren unidades, campos ni aprobación.</p>
+
+
+
+  <label for="tabularMetadatos">Metadatos del contrato geométrico (JSON, hasta 256 KiB)</label><input id="tabularMetadatos" type="file" accept=".json,application/json" disabled>
+
+
+
+  <label for="tabularFormato">Formato de las tablas</label><select id="tabularFormato" disabled><option value="csv">CSV: 3 tablas en v0.1; 5 en v0.2; 6 en v0.3 con aberturas</option><option value="xlsx">XLSX: hojas de la versión declarada en metadatos, sin fórmulas</option></select>
+
+
+
+  <label for="tabularArchivos">Tablas originales</label><input id="tabularArchivos" type="file" multiple accept=".csv,.xlsx,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" disabled>
+
+
+
+  <button id="tabularRegistrar" type="button" disabled>Registrar versión tabular sin importar geometría</button>
+
+
+
+  <div class="versionbar"><div><label for="tabularVersion">Versiones tabulares conservadas</label><select id="tabularVersion" disabled><option value="">Sin versión tabular seleccionada</option></select></div><button id="tabularActualizar" type="button" disabled>Actualizar versiones tabulares</button></div>
+
+
+
+  <p id="tabularEstado" role="status" aria-live="polite">Selecciona un expediente.</p><details><summary>Detalle, huellas y geometría propuesta</summary><pre id="tabularDetalle"></pre></details>
+
+
+
+  <label class="confirmation"><input id="tabularConfirmar" type="checkbox" disabled>Confirmo importar esta versión y huella exactas como geometría en borrador, sin aprobación.</label>
+
+
+
+  <button id="tabularImportar" type="button" disabled>Importar geometría borrador al historial</button>
+
+
+
+ </section>
+
+
+
+ <section class="geometry geometry-management-card" aria-label="Geometría versionada">
+
+
+
+  <p class="eyebrow">MODELO ESTRUCTURAL Y TOPOLOGÍA</p>
+
+  <h2>Gestión y Aprobación de la Geometría</h2>
+
+
+
+  <p class="card-desc">Comprueba la coherencia dimensional y topológica del modelo generado a partir de las láminas. Registra la aprobación técnica para habilitar la definición de hipótesis estructurales en la siguiente etapa.</p>
+
+
+
+  <div class="versionbar">
+
+   <div>
+
+    <label for="geoVersion">Versión geométrica del modelo</label>
+
+    <select id="geoVersion" disabled><option value="">Sin geometría importada</option></select>
+
+   </div>
+
+   <button id="geoComprobar" type="button" disabled>Comprobar evidencia</button>
+
+   <label class="filebutton">Importar geometría JSON<input id="geoImportar" type="file" accept=".json,application/json" disabled></label>
+
+  </div>
+
+
+
+  <div id="geoMetricsStrip" class="geo-metrics-strip">
+
+   <div class="metric-card">
+
+    <span class="metric-label">Niveles / Cotas Z</span>
+
+    <strong class="metric-value" id="geoMetricLevels">Sin datos</strong>
+
+   </div>
+
+   <div class="metric-card">
+
+    <span class="metric-label">Vértices 3D</span>
+
+    <strong class="metric-value" id="geoMetricVertices">Sin datos</strong>
+
+   </div>
+
+   <div class="metric-card">
+
+    <span class="metric-label">Superficies / Muros</span>
+
+    <strong class="metric-value" id="geoMetricSurfaces">Sin datos</strong>
+
+   </div>
+
+   <div class="metric-card">
+
+    <span class="metric-label">Unidad de Escala</span>
+
+    <strong class="metric-value" id="geoMetricUnit">Sin datos</strong>
+
+   </div>
+
+   <div class="metric-card">
+
+    <span class="metric-label">Estado de Revisión</span>
+
+    <strong class="metric-value" id="geoMetricState">Sin versión abierta</strong>
+
+   </div>
+
+  </div>
+
+
+
+  <p id="geoEstado" role="status">Selecciona un expediente.</p>
+
+
+
+  <details class="geo-check-details"><summary>Comprobación, procedencia e historial de la versión</summary><pre id="geoDetalle"></pre></details>
+
+
+
+  <form id="geoForm">
+
+   <div class="geo-editor-wrapper">
+
+    <label for="geoJson">Contrato geométrico completo (revisión en borrador y aprobación null)</label>
+
+    <textarea id="geoJson" rows="14" spellcheck="false" disabled></textarea>
+
+   </div>
+
+
+
+   <div class="two">
+
+    <div><label for="geoRevisor">Revisor declarado</label><input id="geoRevisor" required maxlength="150" placeholder="Nombre o iniciales del revisor"></div>
+
+    <div><label for="geoFecha">Fecha</label><input id="geoFecha" type="date" required></div>
+
+   </div>
+
+
+
+   <label for="geoMotivo">Motivo de revisión o aprobación</label>
+
+   <textarea id="geoMotivo" rows="2" required maxlength="2000" placeholder="Detalle técnico de la revisión o modificaciones realizadas"></textarea>
+
+
+
+   <div class="geo-draft-actions">
+
+    <button id="geoMigrarSuperficies" type="button" disabled>Crear borrador con superficies 3D</button>
+
+    <button id="geoGuardar" type="submit" disabled>Guardar revisión en borrador</button>
+
+   </div>
+
+   <p class="hint">Crea una versión hija v0.2 con contornos XYZ vacíos o guarda ajustes locales en borrador antes de aprobar formalmente.</p>
+
+
+
+   <fieldset class="geo-approval-box">
+
+    <legend>Aprobación técnica declarada de la geometría</legend>
+
+    <p>La aprobación técnica declara que las plantas, alturas de entrepiso y contornos representan fielmente el proyecto. Esta operación habilita el paso a la definición de hipótesis estructurales y modelado.</p>
+
+
+
+    <label for="geoHuella">Huella SHA-256 exacta del contenido abierto</label>
+
+    <input id="geoHuella" readonly placeholder="Huella criptográfica generada automáticamente">
+
+
+
+    <label for="geoAlcance">Alcance de la aprobación declarada</label>
+
+    <textarea id="geoAlcance" rows="2" maxlength="2000" placeholder="Ejemplo: Geometría general verificada conforme a láminas de estructuras"></textarea>
+
+
+
+    <label class="confirmation">
+
+     <input id="geoConfirmar" type="checkbox"> Declaro explícitamente la aprobación de esta versión geométrica y huella con el alcance indicado.
+
+    </label>
+
+
+
+    <div class="approval-action-bar">
+
+     <button id="geoAprobar" type="button" class="btn-approve-geo" disabled>Registrar aprobación técnica</button>
+
+     <button id="btnAvanzarEtapa4" type="button" class="btn-next-stage">Avanzar a Etapa 4: Hipótesis de Ingeniería →</button>
+
+    </div>
+
+    <p id="geoAprobacionInfo" class="hint" aria-live="polite">Abre una versión geométrica para consultar su elegibilidad.</p>
+
+   </fieldset>
+
+
+
+  </form>
+
+
+
+ </section>
+
+
+
+ <section class="geometry" aria-label="Contraste espacial de geometría y plano">
+
+
+
+  <h2>Esquema por nivel y contraste con el plano original</h2>
+
+
+
+  <p>Sin correspondencia declarada solo se dibuja el esquema métrico del contrato geométrico. Para superponer, declara tres anclas no colineales: cada una une un nodo del modelo con un punto normalizado de la página original. No se infiere escala ni unidad desde el dibujo ni desde lecturas; la superposición no prueba que un elemento esté documentado y no aprueba ingeniería.</p>
+
+
+
+  <div class="versionbar"><div><label for="supGeometria">Geometría</label><select id="supGeometria" disabled><option value="">Selecciona geometría</option></select></div><button id="supEsquema" type="button" disabled>Cargar esquema</button></div>
+
+
+
+  <label for="supTipo">Vista geométrica</label><select id="supTipo" disabled><option value="muros_nivel">Muros por nivel</option><option value="superficies_horizontal">Superficies en plano horizontal</option><option value="superficies_plano3d">Superficies en plano 3D declarado</option></select>
+
+
+
+  <label for="supCota">Cota física Z (m), plano horizontal declarado</label><input id="supCota" type="number" step="any" disabled>
+
+
+
+  <label for="supOrigen3d">Origen físico XYZ (m)</label><input id="supOrigen3d" type="text" placeholder="X, Y, Z" disabled>
+
+
+
+  <label for="supEjeU3d">Eje U declarado (unitario)</label><input id="supEjeU3d" type="text" placeholder="ux, uy, uz" disabled>
+
+
+
+  <label for="supEjeV3d">Eje V declarado (unitario)</label><input id="supEjeV3d" type="text" placeholder="vx, vy, vz" disabled>
+
+
+
+  <p class="hint">En la vista 3D, declara origen y dos ejes unitarios ortogonales: U × V define el sentido. No son ejes locales de ETABS ni se calculan desde la imagen. Las superficies fuera de ese plano se rechazan.</p>
+
+
+
+  <label for="supNivel">Nivel</label><select id="supNivel" disabled><option value="">Sin esquema</option></select>
+
+
+
+  <label for="supElemento">Elemento</label><select id="supElemento" disabled><option value="">Sin elemento</option></select>
+
+
+
+  <p id="supElementoDetalle" aria-live="polite"></p>
+
+
+
+  <label for="supDocumento">Original</label><select id="supDocumento" disabled><option value="">Selecciona original</option></select>
+
+
+
+  <label for="supPagina">Página</label><select id="supPagina" disabled><option value="">Sin página</option></select>
+
+
+
+  <div id="supLienzo" class="overlay"></div>
+
+
+
+  <p id="supAviso" role="note">Sin esquema cargado.</p><p id="supFuera"></p>
+
+
+
+  <fieldset><legend>Tres anclas declaradas (no detección automática)</legend><div class="anchor"><label for="supNodo1">Ancla 1: nodo/vértice según la vista</label><select id="supNodo1" disabled><option value="">Nodo</option></select><label for="supU1">u (0–1, horizontal de la página)</label><input id="supU1" type="number" min="0" max="1" step="any" disabled><label for="supV1">v (0–1, vertical hacia abajo)</label><input id="supV1" type="number" min="0" max="1" step="any" disabled></div><div class="anchor"><label for="supNodo2">Ancla 2: nodo/vértice según la vista</label><select id="supNodo2" disabled><option value="">Nodo</option></select><label for="supU2">u (0–1, horizontal de la página)</label><input id="supU2" type="number" min="0" max="1" step="any" disabled><label for="supV2">v (0–1, vertical hacia abajo)</label><input id="supV2" type="number" min="0" max="1" step="any" disabled></div><div class="anchor"><label for="supNodo3">Ancla 3: nodo/vértice según la vista</label><select id="supNodo3" disabled><option value="">Nodo</option></select><label for="supU3">u (0–1, horizontal de la página)</label><input id="supU3" type="number" min="0" max="1" step="any" disabled><label for="supV3">v (0–1, vertical hacia abajo)</label><input id="supV3" type="number" min="0" max="1" step="any" disabled></div></fieldset>
+
+
+
+  <label for="supRevisor">Revisor declarado</label><input id="supRevisor" maxlength="150" required disabled>
+
+
+
+  <label for="supFecha">Fecha</label><input id="supFecha" type="date" required disabled>
+
+
+
+  <label for="supMotivo">Motivo de la correspondencia</label><textarea id="supMotivo" maxlength="2000" rows="2" required disabled></textarea>
+
+
+
+  <label class="confirmation"><input id="supConfirmar" type="checkbox" disabled>Confirmo estas tres anclas como correspondencia declarada para esta geometría, nivel y página exactos, sin aprobar ingeniería ni editar la geometría.</label>
+
+
+
+  <button id="supRegistrar" type="button" disabled>Registrar correspondencia nueva</button>
+
+
+
+  <div class="versionbar"><div><label for="supVersion">Superposiciones conservadas</label><select id="supVersion" disabled><option value="">Sin superposición seleccionada</option></select></div><button id="supActualizar" type="button" disabled>Actualizar superposiciones</button></div>
+
+
+
+  <p id="supEstado" role="status" aria-live="polite">Selecciona un expediente.</p>
+
+
+
+ </section>
+
+
+
+ <section class="norm-parameters-card" id="normParamPanel" aria-label="Verificación de Parámetros Normativos de Entrada">
+
+   <div class="norm-card-header">
+
+    <div class="norm-header-badge">NORMATIVA RNE · E.030 · E.060 · E.070 · E.020 · E.050</div>
+
+    <h2 class="norm-card-title">Parámetros de Entrada para Modelado Estructural</h2>
+
+    <p class="norm-card-desc">Corrobora y revisa las hipótesis normativas asignadas a este proyecto antes de generar el modelo en ETABS. Los valores se obtienen dinámicamente de las especificaciones y lecturas del proyecto; ningún factor debe ser arbitrario.</p>
+
+   </div>
+
+
+
+   <div class="norm-grid">
+
+    <!-- Columna 1: Norma Sísmica E.030 -->
+
+    <div class="norm-col norm-e030">
+
+     <div class="norm-col-header">
+
+      <span class="norm-pill pill-sismo">RNE E.030 - DISEÑO SISMORRESISTENTE</span>
+
+      <h3>Parámetros Sísmicos</h3>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Zona Sísmica ($Z$):</span>
+
+      <strong class="norm-val" id="normValZ">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintZ">Aceleración espectral máxima en roca</small>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Uso e Importancia ($U$):</span>
+
+      <strong class="norm-val" id="normValU">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintU">Categoría de la edificación</small>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Condiciones de Sitio / Suelo ($S, T_p, T_L$):</span>
+
+      <strong class="norm-val" id="normValS">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintS">Factor de amplificación y periodos del suelo</small>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Sistema y Coeficiente ($R$):</span>
+
+      <strong class="norm-val" id="normValR">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintR">Factor de reducción de fuerzas sísmicas</small>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Participación de Masa Sísmica ($P$):</span>
+
+      <strong class="norm-val" id="normValMasa">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintMasa">Masa efectiva: $100\% CM + 25\% CV$ (Categoría C)</small>
+
+     </div>
+
+    </div>
+
+
+
+    <!-- Columna 2: Norma de Concreto E.060 -->
+
+    <div class="norm-col norm-e060">
+
+     <div class="norm-col-header">
+
+      <span class="norm-pill pill-concreto">RNE E.060 - CONCRETO ARMADO</span>
+
+      <h3>Materiales y Resistencia</h3>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Resistencia a Compresión ($f'_c$):</span>
+
+      <strong class="norm-val" id="normValFc">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintFc">Resistencia especificada en planos</small>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Módulo de Elasticidad ($E_c$):</span>
+
+      <strong class="norm-val" id="normValE">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintE">Calculado según E.060: $E_c = 15000\sqrt{f'_c}\text{ kgf/cm}^2$</small>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Coeficiente de Poisson ($\nu$):</span>
+
+      <strong class="norm-val" id="normValPoisson">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintPoisson">$\nu = 0.20$ (Acápite 8.5.4 de la norma E.060)</small>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Peso Específico del Concreto ($\gamma$):</span>
+
+      <strong class="norm-val" id="normValPeso">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintPeso">$\gamma = 24\text{ kN/m}^3\ (2400\text{ kgf/m}^3)$ para concreto armado</small>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Acero de Refuerzo ($f_y$):</span>
+
+      <strong class="norm-val" id="normValFy">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintFy">Grado 60: $f_y = 4200\text{ kgf/cm}^2$ ($420\text{ MPa}$)</small>
+
+     </div>
+
+    </div>
+
+
+
+    <!-- Columna 3: Norma de Cargas E.020 -->
+
+    <div class="norm-col norm-e020">
+
+     <div class="norm-col-header">
+
+      <span class="norm-pill pill-cargas">RNE E.020 - CARGAS</span>
+
+      <h3>Hipótesis de Carga</h3>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Carga Muerta ($D$ / $CM$):</span>
+
+      <strong class="norm-val" id="normValCM">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintCM">Peso propio + acabados + tabiquería</small>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Carga Viva ($L$ / $CV$):</span>
+
+      <strong class="norm-val" id="normValCV">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintCV">Sobrecarga de uso reglamentaria</small>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Combinaciones de Diseño:</span>
+
+      <strong class="norm-val" id="normValCombos">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintCombos">Factores E.060: $U = 1.4 D + 1.7 L \quad ; \quad U = 1.25(D + L) \pm S$</small>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Diafragmas de Entrepiso:</span>
+
+      <strong class="norm-val" id="normValDiafragmas">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintDiafragmas">Idealización de diafragma rígido por nivel</small>
+
+     </div>
+
+     <div class="norm-param-item">
+
+      <span class="norm-label">Condición en la Base:</span>
+
+      <strong class="norm-val" id="normValBase">Sin datos</strong>
+
+      <small class="norm-hint" id="normHintBase">Restricciones de cimentación (empotramiento)</small>
+
+     </div>
+
+    </div>
+
+   </div>
+
+  </section>
+
+
+
+    <!-- SECCIÓN ANÁLISIS SÍSMICO ESTÁTICO Y DINÁMICO E.030-2026 -->
+
+  <section class="norm-parameters-card e030-automation-card" id="e030AutomationSection" aria-label="Herramienta de Automatización Sísmica E.030-2026 y Generación para ETABS">
+
+   <div class="norm-card-header">
+
+    <div class="norm-header-badge e030-badge">RNE E.030-2026 (RM 183-2026-VIVIENDA) · ETABS OAPI</div>
+
+    <h2 class="norm-card-title">Análisis Sísmico Estático, Dinámico y Espectro para ETABS</h2>
+
+    <p class="norm-card-desc">Cálculo integral reglamentario bajo normativa peruana vigente: zonificación Anexo II oficial, parámetros geotécnicos con $V_{s,30}$, peso sísmico efectivo $P$, cortante basal estático $V_{est}$, distribución en altura, espectro exportable para ETABS y verificación de escala dinámica (Art. 44).</p>
+
+   </div>
+
+
+
+   <!-- Panel de Resumen de Parámetros y Ecuaciones Clave -->
+
+   <div class="e030-resumen-box">
+
+    <div class="e030-resumen-title">Parámetros Sísmicos y Resultados del Análisis Estático</div>
+
+    <div class="e030-resumen-grid">
+
+     <div><strong>Zona Sísmica:</strong> <span id="e030ResumenZ">$Z = 0.45$ (Zona 4)</span></div>
+
+     <div><strong>Condición de Suelo:</strong> <span id="e030ResumenS">$S = 1.00, T_P = 0.40\text{ s}, T_L = 2.50\text{ s}$</span></div>
+
+     <div><strong>Factor de Uso e Importancia:</strong> <span id="e030ResumenU">$U = 1.00$ (Cat. C, $\alpha_{CV} = 25\%$)</span></div>
+
+     <div><strong>Reducción Sísmica Efectiva:</strong> <span id="e030ResumenR">$R = 8.00$</span></div>
+
+     <div><strong>Periodo y Factor Amplificación:</strong> <span id="e030ResumenC">$T = 0.343\text{ s} \Rightarrow C = 2.500, k = 1.000$</span></div>
+
+     <div><strong>Cociente Basal:</strong> <span id="e030ResumenCR">$\frac{C}{R} = 0.3125 \ge 0.11$ (Cumple Art. 34.2)</span></div>
+
+     <div><strong>Peso Sísmico Efectivo ($P$):</strong> <span id="e030ResumenPesoP">$P = 2350.00\text{ kN}$</span></div>
+
+     <div><strong>Coeficiente Sísmico Basal:</strong> <span id="e030ResumenCoefBasal">$\frac{Z U C S}{R} = 0.1406$</span></div>
+
+     <div><strong>Cortante Estático Basal ($V_{est}$):</strong> <span id="e030ResumenVest">$V_{est} = 330.41\text{ kN}$</span></div>
+
+    </div>
+
+    <div style="margin-top: 8px; font-size: 11.5px; color: #436270; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+
+     <div><strong>Método Geotécnico:</strong> <span id="e030MetodoSuelo">Valor tabulado</span></div>
+
+     <div><strong>Ecuación de Cortante:</strong> $V_{est} = \left(\frac{Z \cdot U \cdot C \cdot S}{R}\right) P$</div>
+
+    </div>
+
+   </div>
+
+
+
+   <!-- Rejilla Modular de Pasos de Análisis -->
+
+   <div class="e030-grid-controls">
+
+
+
+    <!-- Paso 1: Zonificación Anexo II -->
+
+    <div class="e030-control-group">
+
+     <div class="e030-step-header">
+
+      <span class="e030-step-num">Paso 1</span>
+
+      <h4>Peligro Sísmico y Zonificación (Anexo II)</h4>
+
+     </div>
+
+     <div class="e030-field">
+
+      <label for="e030DepSelect">Departamento:</label>
+
+      <select id="e030DepSelect"></select>
+
+     </div>
+
+     <div class="e030-field">
+
+      <label for="e030ProvSelect">Provincia:</label>
+
+      <select id="e030ProvSelect"></select>
+
+     </div>
+
+     <div class="e030-field">
+
+      <label for="e030DistSelect">Distrito:</label>
+
+      <select id="e030DistSelect"></select>
+
+     </div>
+
+     <details class="e030-guide-details">
+
+      <summary>Guía técnica: Factor de Zona $Z$ (Art. 10 a 12)</summary>
+
+      <p class="e030-guide-text">El territorio peruano se divide en 4 zonas sísmicas. El factor $Z$ representa la aceleración horizontal máxima en suelo rígido con una probabilidad del $10\%$ de ser excedida en 50 años ($Z = 0.45\text{g}$ en Zona 4, $0.35\text{g}$ en Zona 3, $0.25\text{g}$ en Zona 2 y $0.10\text{g}$ en Zona 1). Se extrae automáticamente de los 1,909 distritos de Anexo II.</p>
+
+     </details>
+
+    </div>
+
+
+
+    <!-- Paso 2: Condiciones Geotécnicas -->
+
+    <div class="e030-control-group">
+
+     <div class="e030-step-header">
+
+      <span class="e030-step-num">Paso 2</span>
+
+      <h4>Perfil de Suelo (Tablas 2 a 5, E.050)</h4>
+
+     </div>
+
+     <div class="e030-field">
+
+      <label for="e030SueloSelect">Perfil Geotécnico de Suelo:</label>
+
+      <select id="e030SueloSelect">
+
+       <option value="S0">S0 - Roca dura o competente (Vs &gt; 1500 m/s)</option>
+
+       <option value="S1" selected>S1 - Roca o suelo muy rígido (Vs = 500 a 1500 m/s)</option>
+
+       <option value="S2">S2 - Suelo intermedio (Vs = 180 a 500 m/s)</option>
+
+       <option value="S3">S3 - Suelo blando (Vs &lt; 180 m/s)</option>
+
+       <option value="S4">S4 - Condiciones excepcionales (licuable o colapsable)</option>
+
+      </select>
+
+     </div>
+
+     <div class="e030-field">
+
+      <label for="e030Vs30Input">Velocidad de onda de corte $V_{s,30}$ (m/s) opcional:</label>
+
+      <input type="number" id="e030Vs30Input" step="0.1" placeholder="Ej: 450 (en blanco aplica regla conservadora)">
+
+     </div>
+
+     <details class="e030-guide-details">
+
+      <summary>Guía técnica: Factor $S$ y Periodos $T_P, T_L$ (Art. 13)</summary>
+
+      <p class="e030-guide-text">El factor $S$ cuantifica la amplificación dinámica del estrato de suelo. $T_P$ define el límite de la meseta de aceleración máxima y $T_L$ el inicio del rango de desplazamiento espectral constante. Si no se cuenta con ensayo geofísico $V_{s,30}$, la norma impone adoptar el valor superior conservador del rango.</p>
+
+     </details>
+
+    </div>
+
+
+
+    <!-- Paso 3: Uso y Carga Viva -->
+
+    <div class="e030-control-group">
+
+     <div class="e030-step-header">
+
+      <span class="e030-step-num">Paso 3</span>
+
+      <h4>Categoría de Uso e Importancia (Tabla 7)</h4>
+
+     </div>
+
+     <div class="e030-field">
+
+      <label for="e030CatSelect">Categoría de Edificación ($U$):</label>
+
+      <select id="e030CatSelect">
+
+       <option value="C" selected>Cat. C - Comunes / Vivienda, oficinas, hoteles (U = 1.00)</option>
+
+       <option value="B">Cat. B - Importantes / Comercio, teatros, estadios (U = 1.30)</option>
+
+       <option value="A2">Cat. A2 - Esenciales / Colegios, terminales, subestaciones (U = 1.50)</option>
+
+       <option value="A1">Cat. A1 - Esenciales / Hospitales de alta complejidad (U = 1.50)</option>
+
+       <option value="D">Cat. D - Construcciones temporales o provisionales (U = 1.00)</option>
+
+      </select>
+
+     </div>
+
+     <details class="e030-guide-details">
+
+      <summary>Guía técnica: Factor de Importancia $U$ y Peso $P$ (Art. 15 y 33)</summary>
+
+      <p class="e030-guide-text">El factor $U$ incrementa la demanda sísmica para garantizar operatividad post-sismo en edificaciones críticas (Cat. A: colegios y hospitales con $U = 1.50$; Cat. B con $U = 1.30$). Para el peso sísmico efectivo, en Cat. A y B se toma el $50\%$ de la carga viva, mientras que en Cat. C se toma el $25\%$.</p>
+
+     </details>
+
+    </div>
+
+
+
+    <!-- Paso 4: Sistema y Reducción R -->
+
+    <div class="e030-control-group">
+
+     <div class="e030-step-header">
+
+      <span class="e030-step-num">Paso 4</span>
+
+      <h4>Sistema Estructural y Reducción $R$ (Tablas 10, 8 y 9)</h4>
+
+     </div>
+
+     <div class="e030-field">
+
+      <label for="e030SistemaSelect">Sistema Estructural ($R_0$):</label>
+
+      <select id="e030SistemaSelect">
+
+       <option value="concreto_porticos" selected>Pórticos de concreto armado (R₀ = 8, CT = 35) [Módulo 1: Aporticado]</option>
+
+       <option value="albanileria_armada_o_confinada">Albañilería confinada o armada (R₀ = 3, CT = 60) [Módulo 2: Albañilería]</option>
+
+       <option value="concreto_dual">Dual de concreto armado (R₀ = 7, CT = 45)</option>
+
+       <option value="concreto_muros_estructurales">Muros estructurales de concreto armado / Placas (R₀ = 6, CT = 60)</option>
+
+       <option value="muros_ductilidad_limitada">Muros de ductilidad limitada - EMDL (R₀ = 4, CT = 60)</option>
+
+       <option value="acero_smf">Acero - Pórticos especiales resistentes a momentos SMF (R₀ = 8, CT = 35)</option>
+
+       <option value="madera">Madera estructural (R₀ = 7, CT = 45)</option>
+
+      </select>
+
+     </div>
+
+     <div style="display: flex; gap: 8px;">
+
+      <div class="e030-field" style="flex: 1;">
+
+       <label for="e030IaSelect">Irreg. Altura ($I_a$):</label>
+
+       <select id="e030IaSelect">
+
+        <option value="1.0" selected>Ia = 1.00 (Regular - Sin irregularidad)</option>
+
+        <option value="0.90">Ia = 0.90 (Irregularidad de masa / geometría)</option>
+
+        <option value="0.75">Ia = 0.75 (Piso blando / rigidez)</option>
+
+        <option value="0.60">Ia = 0.60 (Discontinuidad extrema)</option>
+
+       </select>
+
+      </div>
+
+      <div class="e030-field" style="flex: 1;">
+
+       <label for="e030IpSelect">Irreg. Planta ($I_p$):</label>
+
+       <select id="e030IpSelect">
+
+        <option value="1.0" selected>Ip = 1.00 (Regular - Sin irregularidad)</option>
+
+        <option value="0.90">Ip = 0.90 (Esquinas entrantes)</option>
+
+        <option value="0.85">Ip = 0.85 (Discontinuidad de diafragma)</option>
+
+        <option value="0.75">Ip = 0.75 (Torsional)</option>
+
+        <option value="0.60">Ip = 0.60 (Torsional extrema)</option>
+
+       </select>
+
+      </div>
+
+     </div>
+
+     <details class="e030-guide-details">
+
+      <summary>Guía técnica: Coeficiente de Reducción $R = R_0 \cdot I_a \cdot I_p$ (Art. 16 a 22)</summary>
+
+      <p class="e030-guide-text">El factor $R$ refleja la capacidad de disipación de energía por ductilidad y sobrerresistencia. En pórticos de concreto armado $R_0 = 8$ (diseñados para formar rótulas plásticas en vigas antes que columnas); en albañilería confinada $R_0 = 3$ debido al comportamiento más frágil de los muros portantes de mampostería.</p>
+
+     </details>
+
+    </div>
+
+
+
+    <!-- Paso 5: Periodo Fundamental T -->
+
+    <div class="e030-control-group">
+
+     <div class="e030-step-header">
+
+      <span class="e030-step-num">Paso 5</span>
+
+      <h4>Periodo Fundamental $T$ y Coeficiente $C_T$ (Art. 34.1)</h4>
+
+     </div>
+
+     <div style="display: flex; gap: 8px;">
+
+      <div class="e030-field" style="flex: 1;">
+
+       <label for="e030HnInput">Altura total $h_n$ (m):</label>
+
+       <input type="number" id="e030HnInput" step="0.1" value="12.0">
+
+      </div>
+
+      <div class="e030-field" style="flex: 1;">
+
+       <label for="e030PeriodoInput">Periodo $T$ (s) [auto / manual]:</label>
+
+       <input type="number" id="e030PeriodoInput" step="0.001" placeholder="Ej: 0.343">
+
+      </div>
+
+     </div>
+
+     <details class="e030-guide-details">
+
+      <summary>Guía técnica: Estimación del Periodo $T = h_n / C_T$ (Art. 34.1)</summary>
+
+      <p class="e030-guide-text">La norma estima el periodo fundamental de la estructura mediante $T = h_n / C_T$. Para pórticos de concreto armado sin muros de corte $C_T = 35$; para sistemas duales $C_T = 45$; para muros estructurales y albañilería confinada $C_T = 60$. También puede ingresarse directamente el periodo modal obtenido de ETABS.</p>
+
+     </details>
+
+    </div>
+
+
+
+    <!-- Paso 6: Peso Sísmico P -->
+
+    <div class="e030-control-group">
+
+     <div class="e030-step-header">
+
+      <span class="e030-step-num">Paso 6</span>
+
+      <h4>Peso Sísmico Efectivo de la Edificación $P$ (Art. 33, E.020)</h4>
+
+     </div>
+
+     <div style="display: flex; gap: 8px;">
+
+      <div class="e030-field" style="flex: 1;">
+
+       <label for="e030PesoCMInput">Carga Muerta $CM$ (kN):</label>
+
+       <input type="number" id="e030PesoCMInput" step="0.1" value="4681.8">
+
+      </div>
+
+      <div class="e030-field" style="flex: 1;">
+
+       <label for="e030PesoCVInput">Carga Viva $CV$ (kN):</label>
+
+       <input type="number" id="e030PesoCVInput" step="0.1" value="995.4">
+
+      </div>
+
+     </div>
+
+     <div class="e030-field" style="margin-top: 6px;">
+
+      <label for="e030PesoTotalInput">Peso Total $P = 1.00 CM + \alpha_{CV} CV$ (kN):</label>
+
+      <input type="number" id="e030PesoTotalInput" step="0.1" value="4930.7">
+
+     </div>
+
+     <details class="e030-guide-details">
+
+      <summary>Guía técnica: Masa Sísmica Efectiva (Art. 33)</summary>
+
+      <p class="e030-guide-text">El peso $P$ se calcula adicionando a la carga permanente el porcentaje normativo de sobrecarga viva: $50\%$ para categorías A y B; $25\%$ para categoría C (viviendas y oficinas); $25\%$ en azoteas y techos; $100\%$ en depósitos y silos de almacenamiento permanente.</p>
+
+     </details>
+
+    </div>
+
+
+
+    <!-- Paso 7: Cortante Estático Basal Vest -->
+
+    <div class="e030-control-group">
+
+     <div class="e030-step-header">
+
+      <span class="e030-step-num">Paso 7</span>
+
+      <h4>Fuerza Cortante Estática en la Base $V_{est}$ (Art. 34)</h4>
+
+     </div>
+
+     <div class="e030-field">
+
+      <label for="e030VestInput">Cortante Estático Basal $V_{est}$ (kN):</label>
+
+      <input type="number" id="e030VestInput" step="0.1" value="924.5">
+
+     </div>
+
+     <div style="margin-top: 6px; font-size: 11.5px; color: #436270;">
+
+      Distribución vertical con exponente de altura: $k = 1.00$ ($F_i = \alpha_i \cdot V_{est}$)
+
+     </div>
+
+     <details class="e030-guide-details">
+
+      <summary>Guía técnica: Fuerza Cortante Estática (Art. 34 y 35)</summary>
+
+      <p class="e030-guide-text">La fuerza cortante horizontal en la base de la estructura se determina con $V_{est} = \left(\frac{Z \cdot U \cdot C \cdot S}{R}\right) P$. El cociente $\frac{C}{R}$ no puede ser menor a $0.11$. La distribución de fuerzas en altura emplea el exponente $k = 1.0$ si $T \le 0.5\text{ s}$, o $k = 0.75 + 0.5T \le 2.0$ si $T &gt; 0.5\text{ s}$.</p>
+
+     </details>
+
+    </div>
+
+
+
+    <!-- Paso 8: Espectro ETABS y Combinación Ortogonal -->
+
+    <div class="e030-control-group">
+
+     <div class="e030-step-header">
+
+      <span class="e030-step-num">Paso 8</span>
+
+      <h4>Exportación de Espectro para ETABS y Ortogonalidad (Art. 43)</h4>
+
+     </div>
+
+     <div class="e030-field">
+
+      <label for="e030TipoEspectro">Tipo de Función Espectral:</label>
+
+      <select id="e030TipoEspectro">
+
+       <option value="C" selected>Curva de Amplificación Sísmica C(T) [Escala g·Z·U·S/R en Load Case]</option>
+
+       <option value="Sa">Curva de Aceleración Espectral Sa(T) en m/s²</option>
+
+      </select>
+
+     </div>
+
+     <div class="e030-field" style="margin-top: 8px;">
+
+      <label class="e030-checkbox-label">
+
+       <input type="checkbox" id="e030OrtoCheckbox" checked>
+
+       <span>Acción sísmica ortogonal simultánea 100% + 30% (E.030-2026 Art. 43)</span>
+
+      </label>
+
+      <small style="display: block; color: #617d8a; font-size: 11px; margin-top: 2px;">Configura U₁ + 0.30 U₂ y U₂ + 0.30 U₁ en Load Cases de ETABS vía OAPI.</small>
+
+     </div>
+
+     <div class="e030-actions">
+
+      <button type="button" class="btn-e030-descargar" id="btnDescargarEspectroEtabs">Descargar Función Espectral (.txt para ETABS)</button>
+
+     </div>
+
+    </div>
+
+
+
+    <!-- Paso 9: Verificación de Cortante Mínimo Dinámico vs Estático -->
+
+    <div class="e030-control-group" style="grid-column: 1 / -1;">
+
+     <div class="e030-step-header">
+
+      <span class="e030-step-num">Paso 9</span>
+
+      <h4>Contraste con Análisis Dinámico y Factor de Escala (Art. 44)</h4>
+
+     </div>
+
+     <div style="display: flex; gap: 16px; flex-wrap: wrap; align-items: flex-end;">
+
+      <div class="e030-field" style="min-width: 220px;">
+
+       <label for="e030VdinInput">Cortante Dinámico Basal de ETABS $V_{din}$ (kN):</label>
+
+       <input type="number" id="e030VdinInput" step="0.1" value="1387.5">
+
+      </div>
+
+      <div style="margin-bottom: 8px;">
+
+       <button type="button" class="btn-e030-verificar" id="btnVerifCortante">Comprobar Escala Art. 44</button>
+
+      </div>
+
+     </div>
+
+     <div id="e030ResultadoCortante" style="margin-top: 10px;"></div>
+
+     <details class="e030-guide-details" style="margin-top: 10px;">
+
+      <summary>Guía técnica: Límite de Cortante Mínimo Dinámico (Art. 44)</summary>
+
+      <p class="e030-guide-text">El cortante dinámico en la base obtenido del análisis modal espectral no puede ser menor que el $80\%$ del cortante estático para estructuras regulares, ni menor que el $90\%$ para estructuras irregulares. Si el cortante dinámico es menor, se debe multiplicar la escala de aceleración del caso espectral por el factor de ajuste $V_{min} / V_{din}$.</p>
+
+     </details>
+
+    </div>
+
+
+
+   </div>
+
+  </section>
+
+
+
+  <section class="geometry config-management-card" aria-label="Configuración estructural">
+
+
+
+   <p class="eyebrow">MODELO ESTRUCTURAL Y NORMAS TÉCNICAS</p>
+
+   <h2>Gestión y Aprobación de la Configuración Estructural</h2>
+
+
+
+   <p class="card-desc">Vincula la geometría comprobada con materiales reglamentarios (E.060), cargas de diseño (E.020) y parámetros sismorresistentes (E.030). Registra la aprobación técnica para habilitar la construcción del modelo en ETABS en la siguiente etapa.</p>
+
+
+
+   <div class="versionbar">
+
+    <div>
+
+     <label for="configVersion">Versión de configuración</label>
+
+     <select id="configVersion" disabled><option value="">Sin configuraciones</option></select>
+
+    </div>
+
+    <button id="configComprobar" type="button" disabled>Comprobar configuración</button>
+
+    <label class="filebutton">Importar configuración JSON<input id="configImportar" type="file" accept=".json,application/json" disabled></label>
+
+   </div>
+
+
+
+   <div id="configMetricsStrip" class="config-metrics-strip">
+
+    <div class="metric-card">
+
+     <span class="metric-label">Materiales Declarados</span>
+
+     <strong class="metric-value" id="configMetricMaterials">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Secciones Asignadas</span>
+
+     <strong class="metric-value" id="configMetricSections">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Patrones y Cargas</span>
+
+     <strong class="metric-value" id="configMetricPatterns">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Diafragmas y Apoyos</span>
+
+     <strong class="metric-value" id="configMetricDiaphragms">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Estado de Revisión</span>
+
+     <strong class="metric-value" id="configMetricState">Sin versión abierta</strong>
+
+    </div>
+
+   </div>
+
+
+
+   <p id="configEstado" role="status">Selecciona un expediente.</p>
+
+
+
+   <details class="config-check-details"><summary>Validación técnica y cadena de configuración</summary><pre id="configDetalle"></pre></details>
+
+
+
+   <fieldset id="mallaPanel" aria-label="Preparación de malla 0.4"><legend>Malla 0.4: preparación reproducible (solo lectura)</legend>
+
+
+
+    <p class="hint">Para configuraciones 0.4: partición, compatibilidad, triangulación y cortes Z declarados se reproducen desde la versión registrada. Preparar no es ejecutar ETABS; una aprobación declarada no certifica ingeniería. Las políticas de nodos y frames se escriben a mano en el JSON y se guardan como revisión en borrador: aquí no se infieren apoyos, diafragmas ni materiales.</p>
+
+
+
+    <div class="versionbar"><button id="mallaConsultar" type="button" disabled>Consultar preparación de malla</button><button id="mallaExportar" type="button" disabled>Exportar preparación revisable (JSON)</button></div>
+
+
+
+    <p id="mallaEstado" role="status">Abre una configuración 0.4 registrada.</p><p id="mallaIdentidad" class="hint"></p><pre id="mallaResumen"></pre>
+
+
+
+    <details><summary>Faltantes de política (bloquean la aprobación)</summary><pre id="mallaFaltantes"></pre></details>
+
+
+
+    <details><summary>Nodos derivados con XYZ y política declarada</summary><pre id="mallaNodos"></pre></details>
+
+
+
+    <details><summary>Subdivisiones de frames requeridas</summary><pre id="mallaSubdivisiones"></pre></details>
+
+
+
+    <details><summary>Cortes Z declarados y fuentes</summary><pre id="mallaCortes"></pre></details>
+
+
+
+   </fieldset>
+
+
+
+   <form id="configForm">
+
+    <div class="config-editor-wrapper">
+
+     <label for="configJson">Configuración estructural completa (revisión en borrador y aprobación null)</label>
+
+     <textarea id="configJson" rows="14" spellcheck="false" disabled></textarea>
+
+    </div>
+
+
+
+    <div class="two">
+
+     <div><label for="configRevisor">Revisor de configuración declarado</label><input id="configRevisor" required maxlength="150" placeholder="Nombre o iniciales del revisor"></div>
+
+     <div><label for="configFecha">Fecha de configuración</label><input id="configFecha" type="date" required></div>
+
+    </div>
+
+
+
+    <label for="configMotivo">Motivo de la operación de configuración</label>
+
+    <textarea id="configMotivo" rows="2" required maxlength="2000" placeholder="Detalle técnico de la revisión o modificaciones realizadas"></textarea>
+
+
+
+    <div class="config-draft-actions">
+
+     <button id="configGuardar" type="submit" disabled>Guardar configuración en borrador</button>
+
+    </div>
+
+    <p class="hint">Guarda las modificaciones locales en borrador antes de registrar la aprobación técnica formal.</p>
+
+
+
+    <fieldset class="config-approval-box">
+
+     <legend>Aprobación técnica declarada de la configuración</legend>
+
+     <p>Requiere geometría aprobada y parámetros técnicos completos. La aprobación técnica declara que las hipótesis de materiales, cargas y apoyos representan adecuadamente el proyecto y habilita el paso a la construcción del modelo en ETABS.</p>
+
+
+
+     <label for="configHuella">Huella de configuración abierta</label>
+
+     <input id="configHuella" readonly placeholder="Huella criptográfica generada automáticamente">
+
+
+
+     <label for="configAlcance">Alcance de revisión de configuración</label>
+
+     <textarea id="configAlcance" rows="2" maxlength="2000" placeholder="Ejemplo: Hipótesis de materiales y cargas según planos de estructuras y RNE"></textarea>
+
+
+
+     <label class="confirmation">
+
+      <input id="configConfirmar" type="checkbox"> Declaro explícitamente la aprobación de esta configuración y huella con el alcance indicado.
+
+     </label>
+
+
+
+     <div class="approval-action-bar">
+
+      <button id="configAprobar" type="button" class="btn-approve-config" disabled>Registrar aprobación de configuración</button>
+
+      <button id="btnAvanzarEtapa5" type="button" class="btn-next-stage">Avanzar a Etapa 5: Construcción en ETABS →</button>
+
+     </div>
+
+     <p id="configAprobacionInfo" class="hint" aria-live="polite">Abre una versión de configuración para consultar su elegibilidad.</p>
+
+    </fieldset>
+
+
+
+   </form>
+
+
+
+  </section>
+
+
+
+ <section class="geometry etabs-build-card" aria-label="Construcción del modelo ETABS">
+
+
+
+   <p class="eyebrow">INTEGRACIÓN Y MODELADO AUTOMATIZADO</p>
+
+   <h2>Construcción y Ensamblaje del Modelo en ETABS</h2>
+
+
+
+   <p class="card-desc">Transfiere la geometría comprobada y la configuración técnica aprobada a una instancia de ETABS mediante la plantilla de cálculo del expediente. La construcción ensambla elementos finitos, materiales E.060, cargas E.020 y parámetros E.030 en un archivo .EDB conservado.</p>
+
+
+
+   <p id="construccionConfig" role="status">Abre una configuración aprobada y comprobada.</p>
+
+
+
+   <div id="etabsInputsStrip" class="etabs-inputs-strip">
+
+    <div class="metric-card">
+
+     <span class="metric-label">Configuración Vinculada</span>
+
+     <strong class="metric-value" id="etabsMetricConfig">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Plantilla Base EDB</span>
+
+     <strong class="metric-value" id="etabsMetricPlantilla">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Formulación de Muros</span>
+
+     <strong class="metric-value" id="etabsMetricShell">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Idealización de Losas</span>
+
+     <strong class="metric-value" id="etabsMetricLosas">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Estado de Construcción</span>
+
+     <strong class="metric-value" id="etabsMetricJobState">Sin trabajo</strong>
+
+    </div>
+
+   </div>
+
+
+
+   <form id="construccionForm">
+
+
+
+    <label for="construccionPlantilla">Plantilla EDB dentro del expediente</label>
+
+    <input id="construccionPlantilla" required maxlength="200" placeholder="plantillas/base.edb" disabled>
+
+
+
+    <p class="hint">La plantilla debe coincidir con la huella declarada en la configuración. La salida se guarda como una copia nueva.</p>
+
+
+
+    <div class="two">
+
+     <div id="construccionMuros" hidden>
+
+      <label for="construccionShell">Comportamiento de los muros</label>
+
+      <select id="construccionShell" disabled>
+
+       <option value="">Selecciona el tipo</option>
+
+       <option value="ShellThin">Shell delgado · ShellThin</option>
+
+       <option value="ShellThick">Shell grueso · ShellThick</option>
+
+       <option value="Membrane">Membrana · Membrane</option>
+
+      </select>
+
+     </div>
+
+     <div>
+
+      <label for="construccionGravedad">Gravedad del programa (m/s²)</label>
+
+      <input id="construccionGravedad" type="number" step="any" min="0.000001" required disabled>
+
+     </div>
+
+    </div>
+
+
+
+    <fieldset class="losas-config-fieldset">
+
+     <legend>Idealización de las losas por sección</legend>
+
+     <p id="construccionLosasInfo" class="hint"></p>
+
+     <div id="construccionLosas"></div>
+
+    </fieldset>
+
+
+
+    <details class="build-advanced-options">
+
+     <summary>Parámetros de casos modales y espectrales (JSON)</summary>
+
+     <label for="construccionOpciones">Opciones explícitas de los casos (JSON)</label>
+
+     <textarea id="construccionOpciones" rows="6" spellcheck="false" disabled>{}</textarea>
+
+     <p class="hint">Declara parámetros modales, amortiguamiento de funciones, excentricidad y respuesta rígida cuando la configuración los requiera. Se comprobarán antes de abrir ETABS.</p>
+
+    </details>
+
+
+
+    <div class="build-prepare-bar">
+
+     <button id="construccionPreparar" type="submit" disabled>Preparar trabajo sin abrir ETABS</button>
+
+    </div>
+
+
+
+   </form>
+
+
+
+   <div class="versionbar">
+
+    <div>
+
+     <label for="construccionVersion">Trabajos conservados</label>
+
+     <select id="construccionVersion" disabled><option value="">Sin trabajos</option></select>
+
+    </div>
+
+    <button id="construccionActualizar" type="button" disabled>Actualizar estado</button>
+
+   </div>
+
+
+
+   <p id="construccionEstado" role="status">Selecciona un expediente.</p>
+
+   <details class="build-check-details"><summary>Entradas y comprobación técnica del trabajo</summary><pre id="construccionDetalle"></pre></details>
+
+
+
+   <div class="build-execute-box">
+
+    <label class="confirmation">
+
+     <input id="construccionConfirmar" type="checkbox" disabled> Confirmo ejecutar este trabajo en una instancia nueva de ETABS con las entradas comprobadas.
+
+    </label>
+
+    <div class="execute-action-bar">
+
+     <button id="construccionEjecutar" type="button" class="btn-build-etabs" disabled>Abrir ETABS y Construir Modelo</button>
+
+    </div>
+
+    <p class="hint">La construcción genera la copia física .EDB. El modelo construido requiere su propia inspección en el panel siguiente antes de calcular.</p>
+
+   </div>
+
+
+
+  </section>
+
+
+
+ <section class="geometry etabs-model-review-card" aria-label="Modelos y resultados conservados">
+
+
+
+   <p class="eyebrow">REVISIÓN ESTRUCTURAL DEL MODELO .EDB</p>
+
+   <h2>Inspección y Aprobación Técnica del Modelo Construido</h2>
+
+
+
+   <p class="card-desc">Comprueba la fidelidad de la copia generada en ETABS. El ingeniero estructural debe corroborar que los elementos, propiedades, cargas y condiciones de apoyo se construyeron conforme a las hipótesis declaradas antes de autorizar el cálculo.</p>
+
+
+
+   <div class="versionbar">
+
+    <div>
+
+     <label for="modeloVersion">Modelo construido</label>
+
+     <select id="modeloVersion" disabled><option value="">Sin modelos</option></select>
+
+    </div>
+
+    <button id="modeloConsultar" type="button" disabled>Consultar modelo</button>
+
+   </div>
+
+
+
+   <div id="modelMetricsStrip" class="model-metrics-strip">
+
+    <div class="metric-card">
+
+     <span class="metric-label">Archivo .EDB / Huella</span>
+
+     <strong class="metric-value" id="modelMetricFile">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Geometría y Nudos</span>
+
+     <strong class="metric-value" id="modelMetricConnectivity">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Materiales y Secciones</span>
+
+     <strong class="metric-value" id="modelMetricSections">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Cargas y Masa Sísmica</span>
+
+     <strong class="metric-value" id="modelMetricLoads">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Estado de Revisión</span>
+
+     <strong class="metric-value" id="modelMetricApproval">Sin versión abierta</strong>
+
+    </div>
+
+   </div>
+
+
+
+   <p id="modeloEstado" role="status">Selecciona un expediente.</p>
+
+   <details class="model-check-details"><summary>Procedencia y trazabilidad del archivo ETABS</summary><pre id="modeloDetalle"></pre></details>
+
+
+
+   <fieldset class="model-approval-box">
+
+    <legend>Revisión propia declarada del modelo seleccionado</legend>
+
+
+
+    <p id="modeloRevisionEstado" role="status">Abre y comprueba un modelo construido.</p>
+
+
+
+    <details class="model-check-details"><summary>Aprobaciones propias conservadas</summary><pre id="modeloAprobaciones"></pre></details>
+
+
+
+    <form id="modeloRevisionForm">
+
+
+
+     <label for="modeloRevisionHuella">Huella del modelo comprobado</label>
+
+     <input id="modeloRevisionHuella" readonly placeholder="Huella criptográfica del modelo .EDB">
+
+
+
+     <div class="two">
+
+      <div><label for="modeloRevisor">Revisor declarado del modelo</label><input id="modeloRevisor" maxlength="150" required disabled placeholder="Nombre del revisor"></div>
+
+      <div><label for="modeloFecha">Fecha de revisión del modelo</label><input id="modeloFecha" type="date" required disabled></div>
+
+     </div>
+
+
+
+     <label for="modeloAlcance">Alcance y observaciones de la revisión</label>
+
+     <textarea id="modeloAlcance" rows="3" maxlength="2000" required disabled placeholder="Detalle técnico de la conformidad del modelo construido en ETABS"></textarea>
+
+
+
+     <div class="structural-checklist">
+
+      <span class="checklist-title">Controles Técnicos Obligatorios de Ingeniería (RNE):</span>
+
+      <label class="confirmation checklist-item"><input id="modeloControlGeometria" type="checkbox" disabled><strong>1. Geometría y conectividad:</strong> Verifiqué la correspondencia de plantas, cotas Z y continuidad de nudos.</label>
+
+      <label class="confirmation checklist-item"><input id="modeloControlMateriales" type="checkbox" disabled><strong>2. Materiales y secciones (E.060):</strong> Verifiqué f'c, módulos E, espesores de muro y pórticos.</label>
+
+      <label class="confirmation checklist-item"><input id="modeloControlCargas" type="checkbox" disabled><strong>3. Cargas (E.020) y masa sísmica (E.030):</strong> Verifiqué cargas muertas, vivas y participación de masa.</label>
+
+      <label class="confirmation checklist-item"><input id="modeloControlApoyos" type="checkbox" disabled><strong>4. Apoyos y diafragmas:</strong> Verifiqué empotramiento en base y diafragma rígido en entrepisos.</label>
+
+      <label class="confirmation checklist-item"><input id="modeloControlCasos" type="checkbox" disabled><strong>5. Casos y combinaciones normativas:</strong> Verifiqué casos estáticos, espectro y combinaciones reglamentarias.</label>
+
+     </div>
+
+
+
+     <label class="confirmation approval-confirm-line">
+
+      <input id="modeloRevisionConfirmar" type="checkbox" disabled> Declaro explícitamente la aprobación de este modelo y huella para autorizar el análisis estructural.
+
+     </label>
+
+
+
+     <div class="approval-action-bar">
+
+      <button id="modeloAprobar" type="submit" class="btn-approve-model" disabled>Registrar revisión propia del modelo</button>
+
+      <button id="btnAvanzarEtapa6" type="button" class="btn-next-stage">Avanzar a Etapa 6: Análisis y Comprobaciones →</button>
+
+     </div>
+
+
+
+    </form>
+
+    <p class="hint">La identidad y competencia del revisor son declaradas. Esta aprobación formaliza el modelo y habilita el cálculo en la siguiente etapa.</p>
+
+
+
+   </fieldset>
+
+
+
+   <fieldset aria-label="Relectura del modelo guardado">
+
+
+
+    <legend>Comprobar el modelo guardado por relectura independiente</legend>
+
+
+
+    <p>Selecciona un modelo construido comprobado. Preparar conserva la selección sin abrir ETABS. Ejecutar abre una copia privada en una instancia nueva, la lee y cierra sin guardar. La lectura no aprueba el modelo ni autoriza análisis.</p>
+
+
+
+    <label for="vmCriterios">Criterios numéricos de lectura (JSON completo de 13 magnitudes, sin valores predeterminados)</label>
+
+
+
+    <textarea id="vmCriterios" rows="6" spellcheck="false" disabled></textarea>
+
+
+
+    <label for="vmEjes">Criterios explícitos de ejes locales por área (JSON opcional; vacío conserva sin criterio cuando el plan no fija ejes)</label>
+
+
+
+    <textarea id="vmEjes" rows="3" spellcheck="false" disabled></textarea>
+
+
+
+    <button id="vmPreparar" type="button" disabled>Preparar relectura sin abrir ETABS</button>
+
+
+
+    <div class="versionbar"><div><label for="vmTrabajo">Trabajos de relectura conservados</label><select id="vmTrabajo" disabled><option value="">Sin trabajo seleccionado</option></select></div><button id="vmHistorial" type="button" disabled>Actualizar historial de relecturas</button><button id="vmConsultar" type="button" disabled>Consultar trabajo sin reenviar</button></div>
+
+
+
+    <label for="vmHuella">Huella exacta de preparación seleccionada</label><input id="vmHuella" readonly>
+
+
+
+    <label class="confirmation"><input id="vmConfirmar" type="checkbox" disabled>Confirmo leer el modelo y criterios de esta huella en una instancia nueva propia y cerrarla sin guardar.</label>
+
+
+
+    <button id="vmEjecutar" type="button" disabled>Ejecutar relectura confirmada una vez</button>
+
+
+
+    <p id="vmEstado" role="status" aria-live="polite">Abre un modelo construido comprobado.</p>
+
+
+
+    <details><summary>Cobertura, observaciones, discrepancias y fuentes de la relectura</summary><pre id="vmResultado"></pre></details>
+
+
+
+    <p class="hint">Un trabajo preparado no acredita lectura. Discrepancias, categorías sin lector o ausencia de criterio no se presentan como verificadas. Una interrupción requiere resolver el estado del motor antes de otra operación; consultar no reenvía.</p>
+
+
+
+   </fieldset>
+
+
+
+   <div class="versionbar"><div><label for="resultadoVersion">Versión de resultados</label><select id="resultadoVersion" disabled><option value="">Sin resultados</option></select></div><button id="resultadoConsultar" type="button" disabled>Comprobar resultados</button><button id="resultadoDescargar" type="button" disabled>Descargar datos comprobados</button></div>
+
+
+
+   <p id="resultadoEstado" role="status">Selecciona un expediente.</p>
+
+
+
+   <div class="results-scroll"><table class="results-table"><thead><tr><th>Indicador</th><th>Caso</th><th>Dirección / ubicación</th><th>Valor</th><th>Unidad</th></tr></thead><tbody id="resultadoFilas"></tbody></table></div>
+
+
+
+   <ul id="resultadoAvisos"></ul><p class="hint">Esta consulta comprueba el paquete conservado. La evidencia de cálculo debe vincularse por separado; no se concede aprobación de resultados ni conformidad normativa.</p>
+
+
+
+  </section>
+
+
+
+ <section class="geometry results-review-card" aria-label="Revisión propia declarada de resultados">
+
+
+
+   <p class="eyebrow">DECLARATORIA TÉCNICA FORMAL</p>
+
+   <h2>Revisión y Declaración Técnica de Resultados</h2>
+
+
+
+   <p class="card-desc">Formaliza la revisión humana de los resultados estructurales calculados. El ingeniero suscribe el cumplimiento de las seis revisiones obligatorias, habilitando la generación del informe final de entrega.</p>
+
+
+
+   <p id="rrResultado">Abre un resultado normalizado vigente.</p>
+
+   <p id="rrNativo">Estado nativo del resultado: pendiente.</p>
+
+
+
+   <div class="versionbar">
+
+    <div>
+
+     <label for="rrAnalisis">Análisis explícito vinculado a este resultado</label>
+
+     <select id="rrAnalisis" disabled><option value="">Selecciona análisis explícito</option></select>
+
+    </div>
+
+    <button id="rrFuentes" type="button" disabled>Consultar y comprobar fuentes</button>
+
+    <button id="rrActualizar" type="button" disabled>Revalidar historial sin registrar</button>
+
+   </div>
+
+
+
+   <details class="analysis-check-details"><summary>Huellas, casos, unidades, advertencias, omisiones y filas null</summary><pre id="rrFuenteDatos"></pre></details>
+
+
+
+   <div class="structural-checklist">
+
+    <span class="checklist-title">Seis Controles Obligatorios de Resultados (Suscripción del Ingeniero):</span>
+
+    <label class="confirmation checklist-item"><input id="rrControl_unidades" type="checkbox" disabled><strong>1. Unidades y correspondencias:</strong> Declaro revisadas las unidades de fuerzas, momentos y desplazamientos.</label>
+
+    <label class="confirmation checklist-item"><input id="rrControl_casos" type="checkbox" disabled><strong>2. Casos analizados:</strong> Declaro revisados los casos seleccionados y su análisis completo.</label>
+
+    <label class="confirmation checklist-item"><input id="rrControl_filtros" type="checkbox" disabled><strong>3. Filtros y selectores:</strong> Declaro revisados filtros, selectores y correspondencias de tablas.</label>
+
+    <label class="confirmation checklist-item"><input id="rrControl_omisiones" type="checkbox" disabled><strong>4. Advertencias del solver:</strong> Declaro revisadas todas las advertencias, omisiones y filas sin valor.</label>
+
+    <label class="confirmation checklist-item"><input id="rrControl_consistencia_modelo" type="checkbox" disabled><strong>5. Consistencia con el modelo:</strong> Declaro contrastada la consistencia física con el modelo y evidencia.</label>
+
+    <label class="confirmation checklist-item"><input id="rrControl_revision_tecnica" type="checkbox" disabled><strong>6. Revisión técnica profesional:</strong> Declaro realizada la revisión con alcance técnico profesional, sin delegar en IA.</label>
+
+   </div>
+
+
+
+   <div class="two">
+
+    <div><label for="rrRevisor">Revisor declarado</label><input id="rrRevisor" maxlength="150" disabled placeholder="Nombre del revisor"></div>
+
+    <div><label for="rrFecha">Fecha de la revisión declarada</label><input id="rrFecha" type="date" disabled></div>
+
+   </div>
+
+
+
+   <label for="rrAlcance">Alcance concreto de revisión</label>
+
+   <textarea id="rrAlcance" maxlength="4000" rows="3" disabled placeholder="Detalle técnico de los alcances evaluados"></textarea>
+
+
+
+   <label for="rrMotivo">Motivo y revisión realizada</label>
+
+   <textarea id="rrMotivo" maxlength="4000" rows="3" disabled placeholder="Sustento de la conformidad de resultados"></textarea>
+
+
+
+   <details class="review-notes-wrapper">
+
+    <summary>Observaciones y faltantes críticos (JSON)</summary>
+
+    <label for="rrObservaciones">Observaciones propias, lista JSON explícita</label>
+
+    <textarea id="rrObservaciones" rows="3" spellcheck="false" placeholder='["Observación del revisor"] o []' disabled></textarea>
+
+
+
+    <label for="rrCriticos">Faltantes críticos declarados, lista JSON explícita</label>
+
+    <textarea id="rrCriticos" rows="3" spellcheck="false" placeholder='[] solo si declaras que no quedan faltantes críticos en tu alcance' disabled></textarea>
+
+    <p class="hint">Un faltante crítico declarado bloquea el registro. Las observaciones nuevas no sustituyen las advertencias y omisiones de la fuente.</p>
+
+   </details>
+
+
+
+   <label class="confirmation approval-confirm-line">
+
+    <input id="rrConfirmar" type="checkbox" disabled> Confirmo esta declaración, los seis controles y las huellas exactas del resultado y análisis mostrados. Mi identidad es declarada; no certifico seguridad ni conformidad normativa mediante este registro.
+
+   </label>
+
+
+
+   <div class="approval-action-bar">
+
+    <button id="rrRegistrar" type="button" class="btn-register-results" disabled>Registrar una revisión declarada nueva e inmutable</button>
+
+    <button id="btnAvanzarEtapa7" type="button" class="btn-next-stage">Avanzar a Etapa 7: Informe y Entrega →</button>
+
+   </div>
+
+
+
+   <div class="versionbar" style="margin-top:20px;">
+
+    <div>
+
+     <label for="rrVersion">Revisión conservada para consultar, selección manual</label>
+
+     <select id="rrVersion" disabled><option value="">Sin selección</option></select>
+
+    </div>
+
+   </div>
+
+
+
+   <p id="rrEstado" role="status" aria-live="polite">Selecciona resultado y análisis explícitos.</p>
+
+   <details class="analysis-check-details"><summary>Declaración consultada, SHA exacto y fuentes conservadas</summary><pre id="rrRevisionDatos"></pre></details>
+
+
+
+  </section>
+
+
+
+ <section class="geometry analysis-controls-card" aria-label="Controles internos posteriores al análisis">
+
+
+
+   <p class="eyebrow">VERIFICACIONES POSTERIORES AL ANÁLISIS (RNE E.030)</p>
+
+   <h2>Controles Internos y Verificaciones Normativas</h2>
+
+
+
+   <p class="card-desc">Comprueba el comportamiento global del edificio a partir de las tablas de salida. Verifica que la masa participativa modal alcance como mínimo el 90% (E.030 4.6.2), el equilibrio de cargas y la ausencia de singularidades numéricas en el solver.</p>
+
+
+
+   <div class="versionbar">
+
+    <div>
+
+     <label for="ctlLectura">Lectura aceptada y vigente</label>
+
+     <select id="ctlLectura" disabled><option value="">Selecciona lectura aceptada</option></select>
+
+    </div>
+
+    <div>
+
+     <label for="ctlVersion">Controles registrados</label>
+
+     <select id="ctlVersion" disabled><option value="">Sin controles seleccionados</option></select>
+
+    </div>
+
+    <button id="ctlActualizar" type="button" disabled>Actualizar lecturas y controles</button>
+
+   </div>
+
+
+
+   <div id="controlsNormStrip" class="controls-norm-strip">
+
+    <div class="metric-card">
+
+     <span class="metric-label">Masa Modal (UX / UY)</span>
+
+     <strong class="metric-value" id="ctrlMetricModalMass">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Equilibrio Estático</span>
+
+     <strong class="metric-value" id="ctrlMetricEquilibrium">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Avisos del Solver</span>
+
+     <strong class="metric-value" id="ctrlMetricWarnings">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Derivas de Entrepiso</span>
+
+     <strong class="metric-value" id="ctrlMetricDrifts">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Estado de Controles</span>
+
+     <strong class="metric-value" id="ctrlMetricState">Sin controles</strong>
+
+    </div>
+
+   </div>
+
+
+
+   <p id="ctlEstado" role="status" aria-live="polite">Selecciona un expediente.</p>
+
+
+
+   <div id="ctlTabla"></div>
+
+   <div id="ctlListas"></div>
+
+
+
+   <details class="controls-editor-wrapper">
+
+    <summary>Declaración técnica de criterios y avisos del solver (JSON)</summary>
+
+
+
+    <label for="ctlControles">Controles declarados (lista JSON: id, tipo, caso, aplica, critico, motivo, fuente_criterio, parametros)</label>
+
+    <textarea id="ctlControles" rows="10" spellcheck="false" required disabled placeholder="Declara las tres familias: participacion_modal, equilibrio, advertencias_solver. Un no aplicable requiere motivo y parámetros {}. Ver docs/CONTROLES_ANALISIS.md."></textarea>
+
+
+
+    <label for="ctlAvisos">Fuente de advertencias del solver declarada (JSON draft2model.avisos_solver_declarados, opcional)</label>
+
+    <textarea id="ctlAvisos" rows="4" spellcheck="false" disabled placeholder="Vacío = sin fuente solver: el control queda sin_datos."></textarea>
+
+   </details>
+
+
+
+   <div class="two">
+
+    <div><label for="ctlRevisor">Revisor declarado</label><input id="ctlRevisor" maxlength="4000" required disabled placeholder="Nombre del revisor"></div>
+
+    <div><label for="ctlFecha">Fecha</label><input id="ctlFecha" type="date" required disabled></div>
+
+   </div>
+
+
+
+   <label for="ctlAlcance">Alcance declarado</label>
+
+   <textarea id="ctlAlcance" rows="2" maxlength="4000" required disabled placeholder="Alcance técnico de la verificación de controles"></textarea>
+
+
+
+   <label class="confirmation approval-confirm-line">
+
+    <input id="ctlConfirmar" type="checkbox" disabled> Confirmo estos criterios y aplicabilidad como declaración propia; identidad y competencia no verificadas, sin certificar normativa ni seguridad.
+
+   </label>
+
+
+
+   <div class="approval-action-bar">
+
+    <button id="ctlRegistrar" type="button" class="btn-register-controls" disabled>Registrar controles nuevos e inmutables</button>
+
+   </div>
+
+
+
+   <details class="analysis-check-details"><summary>Huellas, fuentes y declaración completa de controles</summary><pre id="ctlDetalle"></pre></details>
+
+
+
+  </section>
+
+
+
+ <section class="geometry analysis-execution-card" aria-label="Análisis deliberado del modelo revisado">
+
+
+
+   <p class="eyebrow">PROCESAMIENTO Y CÁLCULO NUMÉRICO</p>
+
+   <h2>Ejecución del Análisis Estructural en ETABS</h2>
+
+
+
+   <p class="card-desc">Ejecuta la solución matricial del modelo aprobado en ETABS para los casos estáticos de gravedad y dinámicos modales espectrales de sismo. El cálculo conserva las evidencias crudas de salida para su posterior lectura y control.</p>
+
+
+
+   <p id="analisisModelo" role="status">Abre un modelo y consulta su revisión propia.</p>
+
+
+
+   <div id="analysisMetricsStrip" class="analysis-metrics-strip">
+
+    <div class="metric-card">
+
+     <span class="metric-label">Modelo Aprobado</span>
+
+     <strong class="metric-value" id="analysisMetricModel">Sin modelo</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Casos a Resolver</span>
+
+     <strong class="metric-value" id="analysisMetricCases">Sin datos</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Trabajo de Análisis</span>
+
+     <strong class="metric-value" id="analysisMetricJob">Sin preparar</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Motor de Cálculo</span>
+
+     <strong class="metric-value" id="analysisMetricSolver">ETABS Solver</strong>
+
+    </div>
+
+    <div class="metric-card">
+
+     <span class="metric-label">Estado de Análisis</span>
+
+     <strong class="metric-value" id="analysisMetricOutput">Pendiente</strong>
+
+    </div>
+
+   </div>
+
+
+
+   <div class="versionbar">
+
+    <div>
+
+     <label for="analisisAprobacion">Aprobación propia que autoriza este análisis</label>
+
+     <select id="analisisAprobacion" disabled><option value="">Selecciona aprobación</option></select>
+
+    </div>
+
+    <button id="analisisPreparar" type="button" disabled>Preparar análisis sin abrir ETABS</button>
+
+   </div>
+
+
+
+   <div class="versionbar">
+
+    <div>
+
+     <label for="analisisVersion">Trabajos de análisis conservados</label>
+
+     <select id="analisisVersion" disabled><option value="">Sin trabajos</option></select>
+
+    </div>
+
+    <button id="analisisActualizar" type="button" disabled>Actualizar estado de análisis</button>
+
+   </div>
+
+
+
+   <p id="analisisEstado" role="status">Selecciona un expediente.</p>
+
+   <details class="analysis-check-details"><summary>Modelo, aprobación, casos y estado del análisis</summary><pre id="analisisDetalle"></pre></details>
+
+
+
+   <div class="analysis-execute-box">
+
+    <label class="confirmation">
+
+     <input id="analisisConfirmar" type="checkbox" disabled> Confirmo ejecutar los casos declarados de este modelo y aprobación en una instancia nueva de ETABS.
+
+    </label>
+
+    <div class="execute-action-bar">
+
+     <button id="analisisEjecutar" type="button" class="btn-execute-analysis" disabled>Abrir ETABS y Ejecutar Análisis</button>
+
+    </div>
+
+    <p class="hint">El cálculo completado genera los resultados numéricos crudos. Los controles normativos y la aprobación final de resultados se realizan a continuación.</p>
+
+   </div>
+
+
+
+  </section>
+
+
+
+ <section class="geometry" aria-label="Lectura deliberada de tablas">
+
+
+
+  <h2>Leer tablas del análisis aceptado</h2>
+
+
+
+  <label for="lecturaAnalisis">Identificador del análisis aceptado</label><input id="lecturaAnalisis" pattern="[0-9a-f]{32}" maxlength="32" disabled>
+
+
+
+  <label for="lecturaTablas">Claves exactas de tablas, una por línea</label><textarea id="lecturaTablas" rows="3" disabled></textarea>
+
+
+
+  <label for="lecturaCasos">Casos del análisis que se leerán, uno por línea</label><textarea id="lecturaCasos" rows="3" disabled></textarea>
+
+
+
+  <label class="confirmation"><input id="lecturaMasaApi" type="checkbox" disabled>Solicitar también AssembledJointMass al ejecutar esta lectura. Conserva las tablas y casos explícitos; marcar no abre ETABS.</label>
+
+
+
+  <label class="confirmation"><input id="lecturaConfigAuto" type="checkbox" disabled>Leer también la tolerancia de unión y versión del mismo modelo para estimar su peso efectivo.</label>
+
+
+
+  <button id="lecturaPreparar" type="button" disabled>Preparar lectura sin abrir ETABS</button>
+
+
+
+  <div class="versionbar"><div><label for="lecturaVersion">Lecturas conservadas</label><select id="lecturaVersion" disabled><option value="">Sin lecturas</option></select></div><button id="lecturaActualizar" type="button" disabled>Actualizar estado de lectura</button></div>
+
+
+
+  <p id="lecturaEstado" role="status">Selecciona un análisis aceptado y las tablas y casos que se leerán.</p>
+
+
+
+  <details><summary>Selección, estado y tablas leídas</summary><pre id="lecturaDetalle"></pre></details>
+
+
+
+  <label class="confirmation"><input id="lecturaConfirmar" type="checkbox" disabled>Confirmo leer esta selección en una instancia nueva propia de ETABS y cerrarla al terminar.</label>
+
+
+
+  <button id="lecturaEjecutar" type="button" disabled>Abrir ETABS y leer tablas</button>
+
+
+
+  <button id="lecturaMapear" type="button" disabled>Usar lectura comprobada en un nuevo mapeo</button>
+
+
+
+  <p class="hint">Esta operación no ejecuta el análisis ni guarda el EDB. Las tablas y casos deben coincidir con los nombres del modelo; las correspondencias se revisan por separado.</p>
+
+
+
+ </section>
+
+
+
+ <section class="geometry" aria-label="Correspondencias de tablas y normalización">
+
+
+
+  <h2>Revisar correspondencias y normalizar</h2>
+
+
+
+  <p>Relaciona cada indicador con una fila y un campo de la lectura conservada. No se elige automáticamente modo, dirección, paso ni envolvente.</p>
+
+
+
+  <label for="mapeoAnalisis">Identificador del análisis aceptado</label><input id="mapeoAnalisis" pattern="[0-9a-f]{32}" maxlength="32" disabled>
+
+
+
+  <button id="mapeoFuente" type="button" disabled>Comprobar análisis de origen</button>
+
+
+
+  <p id="mapeoEstado" role="status">Selecciona un expediente.</p>
+
+
+
+  <label for="mapeoRespuesta">Respuesta de tablas conservada (JSON)</label><input id="mapeoRespuesta" type="file" accept=".json,application/json" disabled>
+
+
+
+  <p class="hint">Esta importación declara una respuesta conservada; no ejecuta ni autentica una lectura de ETABS. Se comprobarán modelo, casos, unidades y vínculo con el análisis.</p>
+
+
+
+  <details><summary>Tablas y campos de la respuesta seleccionada</summary><pre id="mapeoTablas"></pre></details>
+
+
+
+  <label for="mapeoJson">Correspondencias completas (JSON)</label><textarea id="mapeoJson" rows="14" spellcheck="false" disabled></textarea>
+
+
+
+  <button id="mapeoImportar" type="button" disabled>Guardar nuevo mapeo en borrador y previsualizar</button>
+
+
+
+  <div class="versionbar"><div><label for="mapeoVersion">Mapeos conservados</label><select id="mapeoVersion" disabled><option value="">Sin mapeos</option></select></div><button id="mapeoGuardar" type="button" disabled>Guardar cambios en otro borrador</button></div>
+
+
+
+  <details><summary>Previsualización de valores y correspondencias</summary><pre id="mapeoPreview"></pre></details>
+
+
+
+  <form id="mapeoAprobacionForm">
+
+
+
+   <label for="mapeoHuella">Huella del mapeo comprobado</label><input id="mapeoHuella" readonly>
+
+
+
+   <div class="two"><div><label for="mapeoRevisor">Revisor declarado de correspondencias</label><input id="mapeoRevisor" required maxlength="150" disabled></div><div><label for="mapeoFecha">Fecha de revisión</label><input id="mapeoFecha" type="date" required disabled></div></div>
+
+
+
+   <label for="mapeoMotivo">Motivo de revisión</label><textarea id="mapeoMotivo" rows="2" required maxlength="2000" disabled></textarea>
+
+
+
+   <label for="mapeoAlcance">Alcance de revisión de tablas, filtros, campos y unidades</label><textarea id="mapeoAlcance" rows="2" required maxlength="2000" disabled></textarea>
+
+
+
+   <label class="confirmation"><input id="mapeoConfirmar" type="checkbox" disabled>Revisé las correspondencias y declaro la aprobación de este mapeo y huella.</label>
+
+
+
+   <button id="mapeoAprobar" type="submit" disabled>Conservar aprobación en una versión nueva</button>
+
+
+
+  </form>
+
+
+
+  <label class="confirmation"><input id="mapeoNormalizarConfirmar" type="checkbox" disabled>Confirmo publicar resultados normalizados con este mapeo aprobado.</label>
+
+
+
+  <button id="mapeoNormalizar" type="button" disabled>Normalizar y comprobar vínculo con el análisis</button>
+
+
+
+  <p class="hint">Previsualizar no publica. Aprobar el mapeo no aprueba los valores estructurales; los resultados publicados conservan su revisión pendiente y conformidad normativa no evaluada.</p>
+
+
+
+ </section>
+
+
+
+
+
+
+
+ <section class="geometry" aria-label="Recuperación de normalizaciones">
+
+
+
+  <h2>Resolver una normalización interrumpida</h2><p>Si una publicación se interrumpe, conserva su evidencia y bloquea nuevos intentos. Aquí se puede comprobar un resultado existente, sin volver a normalizar, o cancelar un intento que no produjo resultados.</p>
+
+
+
+  <button id="recuperacionActualizar" type="button" disabled>Consultar operaciones pendientes</button>
+
+
+
+  <label for="recuperacionOperacion">Operación pendiente</label><select id="recuperacionOperacion" disabled><option value="">Sin operaciones seleccionadas</option></select>
+
+
+
+  <details><summary>Mapeo y candidatos conservados</summary><pre id="recuperacionDetalle"></pre></details>
+
+
+
+  <label for="recuperacionResultado">Acción sobre la operación seleccionada</label><select id="recuperacionResultado" disabled><option value="">Selecciona una acción explícita</option></select>
+
+
+
+  <label class="confirmation"><input id="recuperacionConfirmar" type="checkbox" disabled>Confirmo comprobar el resultado seleccionado o cancelar el intento sin resultado, conservando sus evidencias. Esta acción no aprueba valores estructurales.</label>
+
+
+
+  <button id="recuperacionEjecutar" type="button" disabled>Resolver la operación seleccionada</button><p id="recuperacionEstado" role="status">La consulta no recalcula ni recupera automáticamente.</p>
+
+
+
+ </section>
+
+
+
+ <section class="geometry" aria-label="Contexto técnico declarado">
+
+
+
+  <h2>Contexto técnico versionado y consultas reproducibles</h2>
+
+
+
+  <p>Registra contratos completos que ya contienen su revisión declarada: no se generan aprobaciones, umbrales, cartografía ni parámetros físicos. La identidad del revisor no se autentica. Un contexto válido no aprueba resultados, informes ni normativa.</p>
+
+
+
+  <label for="ctxTipo">Contrato para registrar</label><select id="ctxTipo" disabled><option value="">Selecciona tipo</option><option value="corpus">Corpus de documentos y fragmentos</option><option value="reglas">Reglas declaradas revisadas</option><option value="sitio">Capa de sitio declarada</option></select>
+
+
+
+  <label for="ctxJson">Contrato JSON completo (máximo 1 MiB)</label><textarea id="ctxJson" rows="10" spellcheck="false" disabled></textarea>
+
+
+
+  <label for="ctxArchivos">Documentos del corpus con nombres exactos al manifiesto</label><input id="ctxArchivos" type="file" multiple disabled><p class="hint">Hasta 20 archivos, 4 MiB cada uno y 16 MiB total; solo nombres simples, sin rutas. No se envían a un proveedor al registrar.</p>
+
+
+
+  <label class="confirmation"><input id="ctxConfirmar" type="checkbox" disabled>Declaro que el contrato y documentos son los seleccionados y contienen la revisión declarada que corresponde. Registrarlos no constituye aprobación profesional.</label><button id="ctxRegistrar" type="button" disabled>Registrar nueva versión de contexto</button>
+
+
+
+  <button id="ctxActualizar" type="button" disabled>Consultar historial de contexto</button>
+
+
+
+  <label for="ctxCorpus">Corpus vigente seleccionado</label><select id="ctxCorpus" disabled><option value="">Sin selección</option></select>
+
+
+
+  <label for="ctxReglas">Reglas vigentes seleccionadas</label><select id="ctxReglas" disabled><option value="">Sin selección</option></select>
+
+
+
+  <label for="ctxSitio">Capa de sitio vigente seleccionada</label><select id="ctxSitio" disabled><option value="">Sin selección</option></select>
+
+
+
+  <p id="ctxResultado">Sin resultado seleccionado; recuperación y sitio pueden consultarse sin vincular resultado.</p>
+
+
+
+  <label class="confirmation"><input id="ctxVincular" type="checkbox" disabled>Vincular recuperación y consulta de sitio al resultado comprobado mostrado.</label>
+
+
+
+  <label for="ctxConsulta">Consulta léxica explícita al corpus</label><input id="ctxConsulta" maxlength="500" disabled>
+
+
+
+  <label for="ctxLimite">Máximo de fragmentos (1–20)</label><input id="ctxLimite" type="number" min="1" max="20" step="1" disabled><button id="ctxRecuperar" type="button" disabled>Crear recuperación conservada</button>
+
+
+
+  <label for="ctxLongitud">Longitud EPSG:4326</label><input id="ctxLongitud" type="number" step="any" min="-180" max="180" disabled>
+
+
+
+  <label for="ctxLatitud">Latitud EPSG:4326</label><input id="ctxLatitud" type="number" step="any" min="-90" max="90" disabled><button id="ctxConsultarSitio" type="button" disabled>Crear consulta conservada de sitio</button>
+
+
+
+  <button id="ctxEvaluar" type="button" disabled>Evaluar resultado y reglas con sus huellas exactas</button>
+
+
+
+  <p class="hint">Las consultas nuevas no sobrescriben. Sitio no infiere capacidad portante ni parámetros geotécnicos. Una búsqueda sin coincidencias conserva su abstención.</p>
+
+
+
+  <label for="ctxDerivadoRecuperacion">Recuperación verificada para explicación</label><select id="ctxDerivadoRecuperacion" disabled><option value="">Sin selección</option></select>
+
+
+
+  <label for="ctxDerivadoEvaluacion">Evaluación verificada para explicación</label><select id="ctxDerivadoEvaluacion" disabled><option value="">Sin selección</option></select>
+
+
+
+  <label for="ctxDerivadoSitio">Consulta de sitio verificada para explicación</label><select id="ctxDerivadoSitio" disabled><option value="">Sin selección</option></select>
+
+
+
+  <p id="ctxEstado" role="status">Selecciona un expediente.</p><details><summary>Contexto, declaraciones, fuentes y consultas seleccionadas</summary><pre id="ctxDatos"></pre></details>
+
+
+
+ </section>
+
+
+
+ <section class="geometry" aria-label="Explicaciones sustentadas pendientes">
+
+
+
+  <h2>Explicación sustentada y contingencia determinística</h2>
+
+
+
+  <p>Por autorización vigente, las APIs se reservan exclusivamente a revisión y extracción de planos con Google u OpenAI. Este panel conserva explicaciones determinísticas locales, SIN LLM REAL y sin consumir esas APIs. Las declaraciones quedan pendientes de revisión humana, sin aprobación de resultados, informe o normativa.</p>
+
+
+
+  <p id="expFuentes">Selecciona resultados y, opcionalmente, derivados verificados de contexto.</p>
+
+
+
+  <label for="expProveedor">Proveedor de la explicación</label><select id="expProveedor" disabled>__OPCIONES_IA__</select>
+
+
+
+  <label for="expModelo">Modelo declarado (sin valor predeterminado)</label><input id="expModelo" maxlength="128" autocomplete="off" disabled>
+
+
+
+  <label for="expTokens">Tokens máximos de salida (256–16384)</label><input id="expTokens" type="number" min="256" max="16384" step="1" disabled>
+
+
+
+  <label for="expTimeout">Espera máxima (1–180 segundos)</label><input id="expTimeout" type="number" min="1" max="180" step="1" disabled><button id="expPreparar" type="button" disabled>Preparar explicación local sin envío</button>
+
+
+
+  <label for="expVersion">Trabajos de explicación</label><select id="expVersion" disabled><option value="">Sin selección</option></select><button id="expActualizar" type="button" disabled>Consultar historial sin reintentar</button>
+
+
+
+  <label class="confirmation"><input id="expConfirmar" type="checkbox" disabled>Confirmo generar una explicación local de esta huella y fuentes, sin llamadas a APIs. No aprueba conclusiones.</label><button id="expEjecutar" type="button" disabled>Generar explicación local sin API</button>
+
+
+
+  <label class="confirmation"><input id="expConfirmarRecuperar" type="checkbox" disabled>Confirmo cerrar el envío incierto sin reenviarlo, conservando una contingencia determinística.</label><button id="expRecuperar" type="button" disabled>Resolver incertidumbre sin reintento</button>
+
+
+
+  <p id="expEstado" role="status">Sin trabajo seleccionado.</p><details><summary>Tabla exacta, citas, abstenciones y propuesta pendiente</summary><pre id="expDatos"></pre></details>
+
+
+
+  <p>Para incorporar estas selecciones, activa su uso explícito en el panel de informes. Elegirlas aquí no las incorpora automáticamente.</p>
+
+
+
+ </section>
+
+
+
+ <section class="geometry report-generation-card card-destacada" aria-label="Informes del resultado seleccionado">
+
+
+
+  <p class="eyebrow">ENTREGABLES Y MEMORIA TÉCNICA</p>
+
+  <h2>Generación y Emisión del Informe Estructural</h2>
+
+
+
+  <p class="card-desc">Consolida en un documento formal reproducible la memoria descriptiva del proyecto, hipótesis normativas (RNE E.020, E.030, E.060), verificación de derivas y masa modal, y la suscripción profesional de resultados en formatos PDF y JSON.</p>
+
+
+
+  <div id="reportMetricsStrip" class="report-metrics-strip">
+
+   <div class="metric-card">
+
+    <span class="metric-label">Resultado Base</span>
+
+    <strong class="metric-value" id="reportMetricResult">Sin resultado</strong>
+
+   </div>
+
+   <div class="metric-card">
+
+    <span class="metric-label">Evidencia de Cálculo</span>
+
+    <strong class="metric-value" id="reportMetricAnalysis">Sin vincular</strong>
+
+   </div>
+
+   <div class="metric-card">
+
+    <span class="metric-label">Revisión Suscrita</span>
+
+    <strong class="metric-value" id="reportMetricReview">Pendiente</strong>
+
+   </div>
+
+   <div class="metric-card">
+
+    <span class="metric-label">Controles Normativos</span>
+
+    <strong class="metric-value" id="reportMetricControls">Sin controles</strong>
+
+   </div>
+
+   <div class="metric-card">
+
+    <span class="metric-label">Estado del Informe</span>
+
+    <strong class="metric-value" id="reportMetricStatus">Sin informe</strong>
+
+   </div>
+
+  </div>
+
+
+
+  <p id="informeEstado" role="status">Abre una versión de resultados comprobada.</p>
+
+
+
+  <form id="informeForm">
+
+
+
+   <label for="informeAnalisis">Evidencia de análisis</label>
+
+   <select id="informeAnalisis" disabled><option value="">Sin evidencia vinculada</option></select>
+
+
+
+   <p class="hint">Solo se ofrecen corridas conservadas en este expediente. Su vínculo se comprueba antes de exportar. El informe conserva la revisión de resultados pendiente.</p>
+
+
+
+   <label for="informeTitulo">Título del informe</label>
+
+   <input id="informeTitulo" value="Informe preliminar" required maxlength="200" disabled placeholder="Título del entregable técnico">
+
+
+
+   <label for="informeHipotesis">Hipótesis declaradas, una por línea</label>
+
+   <textarea id="informeHipotesis" rows="3" maxlength="12000" disabled placeholder="Hipótesis de cargas, espectros y modelado estructural"></textarea>
+
+
+
+   <label for="informeFaltantes">Información pendiente, una por línea</label>
+
+   <textarea id="informeFaltantes" rows="3" maxlength="12000" disabled placeholder="Limitaciones técnicas o documentos complementarios pendientes"></textarea>
+
+
+
+   <fieldset class="report-references-box">
+
+    <legend>Referencias verificadas e inclusiones optativas en este borrador</legend>
+
+
+
+    <p>Activa explícitamente las evidencias y comprobaciones suscritas en etapas anteriores para integrarlas a la memoria técnica. Solo se incorporan referencias que coincidan con la huella exacta del análisis.</p>
+
+
+
+    <label class="confirmation">
+
+     <input id="informeUsarRevisionResultados" type="checkbox" disabled> Usar revisión DECLARADA seleccionada de estos resultados y análisis; no certifica ingeniería ni conformidad normativa.
+
+    </label>
+
+    <p id="informeRevisionResultadosInfo" role="status"></p>
+
+    <pre id="informeRevisionResultadosDatos"></pre>
+
+
+
+    <label class="confirmation">
+
+     <input id="informeUsarControles" type="checkbox" disabled> Incorporar los controles postsolver seleccionados (mismo análisis, ID y SHA exactos), sin certificar normativa ni seguridad.
+
+    </label>
+
+    <p id="informeControlesInfo" role="status"></p>
+
+
+
+    <label class="confirmation">
+
+     <input id="informeUsarRelectura" type="checkbox" disabled> Incorporar la relectura seleccionada del modelo guardado y su evidencia exacta. No aprueba el modelo ni los resultados del análisis.
+
+    </label>
+
+    <p id="informeRelecturaInfo" role="status">Sin relectura optativa incorporada.</p>
+
+    <details class="report-check-details"><summary>Evidencia de relectura seleccionada</summary><pre id="informeRelecturaDatos"></pre></details>
+
+
+
+    <label class="confirmation">
+
+     <input id="informeUsarContenidoMasa" type="checkbox" disabled> Incorporar inventario de masa del contenido declarado en el modelo del análisis seleccionado.
+
+    </label>
+
+
+
+    <label class="confirmation">
+
+     <input id="informeUsarMasaNativa" type="checkbox" disabled> Incorporar captura real AssembledJointMass de la lectura seleccionada y del mismo análisis.
+
+    </label>
+
+
+
+    <label class="confirmation">
+
+     <input id="informeEstimarAuto" type="checkbox" disabled> Añadir estimación independiente de peso efectivo de vigas. Conserva el libro bruto; requiere la configuración del modelo en la misma lectura.
+
+    </label>
+
+    <p id="informeMasaEstado" role="status">Sin captura real de masa seleccionada. El inventario es optativo; no crea depósitos ni cargas ficticias.</p>
+
+
+
+    <details class="report-check-details">
+
+     <summary>Referencias complementarias de contexto y explicación</summary>
+
+     <label class="confirmation"><input id="informeUsarContexto" type="checkbox" disabled> Usar los derivados de evaluación, recuperación y sitio seleccionados y comprobados.</label>
+
+     <label class="confirmation"><input id="informeUsarExplicacion" type="checkbox" disabled> Usar la explicación seleccionada, con exactamente esos derivados y resultados; su sentido técnico queda pendiente de revisión semántica humana.</label>
+
+     <p id="informeReferenciasInfo">Sin referencias optativas: se conserva el recorrido anterior.</p>
+
+     <pre id="informeReferenciasDatos"></pre>
+
+    </details>
+
+
+
+   </fieldset>
+
+
+
+   <div class="report-create-bar">
+
+    <button id="informeCrear" type="submit" class="btn-create-report" disabled>Crear nueva versión de borrador</button>
+
+   </div>
+
+
+
+  </form>
+
+
+
+  <div class="versionbar report-versionbar">
+
+   <div>
+
+    <label for="informeVersion">Informes técnicos conservados</label>
+
+    <select id="informeVersion" disabled><option value="">Sin informes</option></select>
+
+   </div>
+
+   <button id="informeActualizar" type="button" disabled>Comprobar historial</button>
+
+   <div class="report-download-actions">
+
+    <button id="informePdf" type="button" class="btn-download-pdf" disabled>Descargar PDF</button>
+
+    <button id="informeJson" type="button" class="btn-download-json" disabled>Descargar informe JSON</button>
+
+   </div>
+
+  </div>
+
+
+
+  <details class="report-check-details"><summary>Referencias y explicación conservadas en el informe abierto</summary><pre id="informeVinculos"></pre></details>
+
+
+
+  <fieldset class="report-approval-box">
+
+   <legend>Aprobación DOCUMENTAL propia del informe</legend>
+
+
+
+   <p>Declara una revisión exclusivamente documental del borrador y SHA seleccionados. No aprueba resultados ni ingeniería, no evalúa normativa y no autentica identidad o competencia profesional. Se crea una hija nueva; el borrador se conserva.</p>
+
+
+
+   <label for="informeSha">SHA256 exacto del JSON consultado</label>
+
+   <input id="informeSha" readonly placeholder="Huella SHA-256 generada automáticamente">
+
+
+
+   <div class="two">
+
+    <div>
+
+     <label for="informeRevisor">Revisor documental declarado</label>
+
+     <input id="informeRevisor" maxlength="150" disabled placeholder="Nombre del revisor documental">
+
+    </div>
+
+    <div>
+
+     <label for="informeFecha">Fecha documental</label>
+
+     <input id="informeFecha" type="date" disabled>
+
+    </div>
+
+   </div>
+
+
+
+   <label for="informeMotivo">Motivo de la revisión documental</label>
+
+   <textarea id="informeMotivo" rows="2" maxlength="2000" disabled placeholder="Detalle técnico de la revisión documental"></textarea>
+
+
+
+   <label class="confirmation approval-confirm-line">
+
+    <input id="informeConfirmar" type="checkbox" disabled> Confirmo la aprobación exclusivamente DOCUMENTAL del borrador y SHA exactos mostrados, con la identidad, fecha y motivo declarados.
+
+   </label>
+
+
+
+   <div class="approval-action-bar">
+
+    <button id="informeAprobar" type="button" class="btn-approve-report" disabled>Crear hija con aprobación documental declarada</button>
+
+   </div>
+
+   <p id="informeAprobacionInfo" class="hint">Selecciona un borrador vigente.</p>
+
+
+
+  </fieldset>
+
+
+
+  <div class="project-completion-banner">
+
+   <strong class="completion-title">Expediente Estructural Completado</strong>
+
+   <p class="completion-desc">El flujo de modelado, análisis y revisión estructural concluye con la emisión inmutable de esta memoria de cálculo y sus entregables reproducibles respaldados criptográficamente con SHA-256.</p>
+
+  </div>
+
+
+
+ </section>
+
+
+
+ <section class="geometry report-panel-card card-destacada" aria-label="Paneles del resultado seleccionado">
+
+
+
+  <p class="eyebrow">VISUALIZACIÓN Y ENTREGA INTERACTIVA</p>
+
+  <h2>Panel Técnico Interactivo de Resultados</h2>
+
+
+
+  <p class="card-desc">Genera una instantánea web interactiva autónoma en formato HTML para revisión dinámica de derivas, desplazamientos nodales y envolventes por terceros o clientes.</p>
+
+
+
+  <p id="panelEstado" role="status">Abre una versión de resultados comprobada.</p>
+
+
+
+  <div class="versionbar">
+
+   <div>
+
+    <label for="panelAnalisis">Evidencia de análisis</label>
+
+    <select id="panelAnalisis" disabled><option value="">Sin evidencia vinculada</option></select>
+
+   </div>
+
+   <button id="panelCrear" type="button" class="btn-create-panel" disabled>Crear nueva versión del panel</button>
+
+  </div>
+
+
+
+  <div class="versionbar">
+
+   <div>
+
+    <label for="panelVersion">Paneles conservados</label>
+
+    <select id="panelVersion" disabled><option value="">Sin paneles</option></select>
+
+   </div>
+
+   <button id="panelDescargar" type="button" class="btn-download-panel" disabled>Descargar panel HTML</button>
+
+  </div>
+
+
+
+  <p class="hint">Abre el HTML descargado en el navegador para explorar la instantánea. No aprueba resultados ni declara conformidad normativa.</p>
+
+
+
+ </section>
+
+
+
+ <footer><span id="versionInfo">La preparación es local; un envío al proveedor exige confirmación explícita en su panel.</span><span>Draft2Model · Revisión preliminar</span></footer>
+
+
+
+</main><script src="/revision_resultados.js"></script><script src="/app.js"></script><script src="/ingreso.js"></script><script src="/preparacion.js"></script><script src="/preprocesamiento.js" defer></script><script src="/respuestas.js"></script><script src="/proveedor.js"></script><script src="/conversion.js"></script><script src="/tabular.js"></script><script src="/superposicion.js"></script><script src="/controles.js"></script><script src="/configuracion.js"></script><script src="/construccion.js"></script><script src="/resultados.js"></script><script src="/revision_modelo.js"></script><script src="/verificacion_modelo.js"></script><script src="/analisis.js"></script><script src="/lecturas.js"></script><script src="/mapeos.js"></script><script src="/recuperacion.js"></script><script src="/contexto.js"></script><script src="/explicaciones.js"></script><script src="/informes.js"></script><script src="/paneles.js"></script><script src="/etapas.js"></script><script src="/reconstruccion.js"></script><script src="/editor_ingenieria.js"></script><script src="/preparacion_configuracion.js"></script><script src="/etabs_geometry_v04.js"></script><script src="/modelo_3d.js"></script><script src="/parametros.js"></script><script src="/politicas_malla.js"></script><script src="/digitizacion.js"></script><script src="/contornos.js"></script><script src="/navegacion_modulos.js"></script><script src="/katex/katex.min.js"></script><script src="/katex/contrib/auto-render.min.js"></script><script src="/katex_render.js"></script><script src="/herramienta_e030.js"></script>
+
+
+
+</body></html>
+
+
+

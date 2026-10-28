@@ -1,0 +1,14 @@
+{
+  "titulo": "Draft2Model · Informe preliminar sintético",
+  "hipotesis": [
+    "Valores fabricados exclusivamente para probar contratos, evaluación y presentación.",
+    "No se ejecutó ETABS ni existe aprobación de ingeniería en esta demostración.",
+    "Las reglas sintéticas no tienen valor normativo ni representan límites aplicables a una vivienda."
+  ],
+  "faltantes": [
+    "Caso piloto compatible y autorizado con referencia manual y tolerancias previas.",
+    "Modelo real aprobado, lectura API real y resultados del solver.",
+    "Cartografía oficial, parámetros de sitio y revisión técnica del informe."
+  ],
+  "sitio": null
+}

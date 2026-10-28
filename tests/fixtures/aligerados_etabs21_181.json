@@ -1,0 +1,124 @@
+{
+  "descripcion": "GetSlab/GetSlabRibbed/GetSlabWaffle reales ETABS21.1/DLL1.29; ensayo sintético181. No solver ni ingeniería.",
+  "sha256_registro_origen": "0cd0ab9784ca3dbe273a580739d3bed5664eb7e752eeca1d2a7f80d5691a176e",
+  "construccion": {
+    "Ribbed": {
+      "slab": {
+        "SlabType": {
+          "nombre": "Ribbed",
+          "valor": 3
+        },
+        "ShellType": {
+          "nombre": "ShellThin",
+          "valor": 1
+        },
+        "MatProp": "MAT_SINTETICO",
+        "Thickness": 0.05,
+        "color": 0,
+        "notes": "",
+        "GUID": "c04ece2b-518e-438b-bdb5-2c068d430499"
+      },
+      "parametros": {
+        "OverallDepth": 0.25,
+        "SlabThickness": 0.05,
+        "StemWidthTop": 0.12,
+        "StemWidthBot": 0.1,
+        "RibSpacing": 0.6,
+        "RibsParallelTo": 1
+      },
+      "ejes": {
+        "Ang": 30,
+        "Advanced": false
+      }
+    },
+    "Waffle": {
+      "slab": {
+        "SlabType": {
+          "nombre": "Waffle",
+          "valor": 4
+        },
+        "ShellType": {
+          "nombre": "ShellThin",
+          "valor": 1
+        },
+        "MatProp": "MAT_SINTETICO",
+        "Thickness": 0.05,
+        "color": 0,
+        "notes": "",
+        "GUID": "bd24ca1b-c268-438b-b702-9a3ef2326e0d"
+      },
+      "parametros": {
+        "OverallDepth": 0.25,
+        "SlabThickness": 0.05,
+        "StemWidthTop": 0.12,
+        "StemWidthBot": 0.1,
+        "RibSpacingDir1": 0.6,
+        "RibSpacingDir2": 0.7
+      },
+      "ejes": {
+        "Ang": 30,
+        "Advanced": false
+      }
+    }
+  },
+  "reapertura": {
+    "Ribbed": {
+      "slab": {
+        "SlabType": {
+          "nombre": "Ribbed",
+          "valor": 3
+        },
+        "ShellType": {
+          "nombre": "ShellThin",
+          "valor": 1
+        },
+        "MatProp": "MAT_SINTETICO",
+        "Thickness": 50,
+        "color": 0,
+        "notes": "",
+        "GUID": "c04ece2b-518e-438b-bdb5-2c068d430499"
+      },
+      "parametros": {
+        "OverallDepth": 250,
+        "SlabThickness": 50,
+        "StemWidthTop": 120,
+        "StemWidthBot": 100,
+        "RibSpacing": 600,
+        "RibsParallelTo": 1
+      },
+      "ejes": {
+        "Ang": 30,
+        "Advanced": false
+      }
+    },
+    "Waffle": {
+      "slab": {
+        "SlabType": {
+          "nombre": "Waffle",
+          "valor": 4
+        },
+        "ShellType": {
+          "nombre": "ShellThin",
+          "valor": 1
+        },
+        "MatProp": "MAT_SINTETICO",
+        "Thickness": 50,
+        "color": 0,
+        "notes": "",
+        "GUID": "bd24ca1b-c268-438b-b702-9a3ef2326e0d"
+      },
+      "parametros": {
+        "OverallDepth": 250,
+        "SlabThickness": 50,
+        "StemWidthTop": 120,
+        "StemWidthBot": 100,
+        "RibSpacingDir1": 600,
+        "RibSpacingDir2": 699.9999999999999
+      },
+      "ejes": {
+        "Ang": 30,
+        "Advanced": false
+      }
+    }
+  }
+}

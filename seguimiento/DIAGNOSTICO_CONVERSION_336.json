@@ -1,0 +1,48 @@
+{
+  "fuente_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+  "api_calls": 0,
+  "geometria_generada": false,
+  "unidad_longitud": "no_deducida_por_este_diagnostico",
+  "conversion_actual": "conversion_geometria exige correspondencias/ejes/coordenadas del operador; no interpreta píxeles ni conectividad.",
+  "pasos": {
+    "x": {
+      "ejes_detectados": {
+        "direccion": "x",
+        "posiciones_pt": {
+          "A": 365.5533905029297,
+          "B": 568.2333679199219,
+          "C": 639.8277282714844,
+          "D": 802.6677551269531,
+          "E": 1046.9134521484375,
+          "F": 1289.224609375,
+          "G": 1462.396484375,
+          "H": 1557.587646484375,
+          "I": 1954.01513671875
+        },
+        "orden": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I"
+        ],
+        "fijados": {}
+      },
+      "calibracion_vectorial": "Ninguna fila de cotas impresas acota tramos entre ejes consecutivos."
+    },
+    "y": {
+      "ejes_vectoriales": "Eje '2': menos de dos apariciones coherentes; declarar su posición de otro modo."
+    }
+  },
+  "palabras_vectoriales": 34,
+  "segmentos_vectoriales": 48444,
+  "siguiente_criterio": [
+    "Proponer referencias de escala desde cotas con evidencia OCR/vectorial y unidad declarada; abstenerse si falta unidad.",
+    "Asociar rótulos a primitivas y proponer conectividad/geometría borrador sin coordenadas codificadas para este piloto.",
+    "Medir el borrador contra geometría revisada de planos, antes del cálculo ETABS; no calibrar contra resultados del solver."
+  ]
+}

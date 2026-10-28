@@ -1,0 +1,2422 @@
+.stage-layout{display:grid;grid-template-columns:235px minmax(0,1fr);gap:28px;align-items:start}.stage-nav{position:sticky;top:20px;display:flex;flex-direction:column;gap:6px;padding:12px;border:1px solid #dce6e5;border-radius:14px;background:#fff}.stage-nav button{display:flex;gap:10px;align-items:center;text-align:left;border:0;background:transparent;padding:12px 9px;color:#53696d;font-size:13px;line-height:1.4}.stage-nav button[aria-current=step]{background:#e4f2ee;color:#075c54;font-weight:650}.stage-number{display:grid;place-items:center;min-width:26px;height:26px;border-radius:50%;background:#edf2f3;font-size:12px}.stage-nav button[aria-current=step] .stage-number{background:#087d73;color:white}.stage-badge{display:block;font-size:10px;font-weight:400;color:#63797b;margin-top:4px}.stage-content{min-width:0}.stage-guide{padding:24px;border-radius:14px;background:#142f39;color:#fff}.stage-guide h2{font-size:23px;margin:0 0 22px;outline-offset:6px}.stage-guide-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px}.stage-guide-grid h3{font-size:12px;color:#a6dbce;margin:0 0 8px}.stage-guide-grid p{font-size:12px;line-height:1.65;margin:0;color:#e5eded}.stage-actions{display:flex;justify-content:space-between;gap:14px;margin-top:24px}.stage-pane .geometry{margin-top:18px}.stage-pane .workspace{grid-template-columns:minmax(0,1fr) 310px;margin-top:18px}.stage-pane .versionbar{margin-top:20px}.advanced-panel{border:1px solid #dce6e5;border-radius:10px;padding:14px;background:#fff;margin-top:16px}.advanced-panel>summary{font-weight:600;color:#53696d}.advanced-panel>.geometry{border:0;padding:16px 0 0;margin-top:0}.editor-ingenieria{background:#f1f7f5;border:1px solid #ccdeda;border-radius:10px;padding:18px;margin:18px 0}.editor-ingenieria .editor-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.editor-ingenieria fieldset{grid-column:1/-1}.editor-ingenieria input{margin:0}.editor-ingenieria select{max-width:100%;margin-bottom:14px}.editor-ingenieria legend{font-weight:650}.editor-ingenieria label{font-size:12px}.viewer-3d{background:#fff;padding:22px;border:1px solid #dce6e5;border-radius:12px;margin-top:18px}.viewer-3d canvas{display:block;width:100%;height:420px;touch-action:none;background:linear-gradient(#f5f8fa,#e6eef1);border-radius:8px}.viewer-3d-tools{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.viewer-3d p{line-height:1.6;font-size:12px}.stage-content .scope{margin-top:14px}main{max-width:1600px}.intro h1{font-size:32px}.stage-pane .geometry textarea{min-height:100px}@media(max-width:1100px){.stage-layout{grid-template-columns:190px minmax(0,1fr);gap:16px}.stage-guide-grid{grid-template-columns:1fr}.stage-guide-grid>div{border-top:1px solid #ffffff24;padding-top:10px}.stage-pane .workspace{grid-template-columns:1fr}.viewer-3d canvas{height:340px}}@media(max-width:720px){.stage-layout{grid-template-columns:1fr}.stage-nav{position:static;flex-direction:row;overflow-x:auto}.stage-nav button{min-width:170px}.stage-guide{padding:20px}.editor-ingenieria .editor-fields{grid-template-columns:1fr}}
+
+
+/* ===== MEJORAS VISUALES: ETAPA 1 Y FLUJOGRAMA DE INGENIERÍA ===== */
+.header-actions { display: flex; align-items: center; gap: 14px; margin-left: auto; }
+.header-btn {
+  background: rgba(255, 255, 255, 0.12);
+  color: #eaf3f4;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  padding: 7px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.header-btn:hover {
+  background: rgba(255, 255, 255, 0.22);
+  border-color: #60cbbb;
+  color: white;
+}
+
+/* Flujograma de 7 Fases */
+.engineering-roadmap {
+  background: white;
+  border: 1px solid #dce4e7;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 22px;
+  box-shadow: 0 2px 8px rgba(20, 43, 54, 0.04);
+}
+.roadmap-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.roadmap-badge {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: #087d73;
+}
+.roadmap-subtitle {
+  font-size: 11px;
+  color: #657883;
+}
+.roadmap-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.roadmap-step {
+  flex: 1;
+  min-width: 110px;
+  background: #f8faf9;
+  border: 1px solid #dce4e7;
+  border-radius: 8px;
+  padding: 10px 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+.roadmap-step:hover {
+  background: #eef6f4;
+  border-color: #087d73;
+}
+.roadmap-step.active {
+  background: #e4f2ee;
+  border-color: #087d73;
+  box-shadow: 0 0 0 2px rgba(8, 125, 115, 0.25);
+}
+.step-num {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  background: #edf2f3;
+  color: #53696d;
+  font-size: 11px;
+  font-weight: 700;
+}
+.roadmap-step.active .step-num {
+  background: #087d73;
+  color: white;
+}
+.step-icon { font-size: 16px; margin: 1px 0; }
+.step-title { font-size: 12px; font-weight: 650; color: #172c39; }
+.step-desc { font-size: 10px; color: #657883; }
+.step-arrow { color: #a4b8bf; font-size: 12px; user-select: none; }
+
+/* Tarjeta de Registro Etapa 1 */
+.intake-card {
+  background: white;
+  border: 1px solid #dce4e7;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 2px 10px rgba(20, 43, 54, 0.03);
+}
+.stage-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: #087d73;
+  background: #e4f2ee;
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+.intake-header h2 { font-size: 22px; margin: 4px 0 8px; color: #172c39; }
+.intake-desc { color: #657883; line-height: 1.6; font-size: 13px; margin: 0 0 22px; max-width: 800px; }
+
+.intake-form { display: flex; flex-direction: column; gap: 20px; }
+.form-field label { font-size: 13px; color: #172c39; margin-bottom: 6px; display: block; }
+.field-help { font-size: 11px; color: #657883; margin-top: 4px; display: block; }
+
+.intake-dropzone {
+  position: relative;
+  border: 2px dashed #9ec0b9;
+  border-radius: 10px;
+  background: #f9fbfb;
+  padding: 36px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.intake-dropzone:hover, .intake-dropzone.drag-active {
+  border-color: #087d73;
+  background: #eaf4f1;
+}
+.dropzone-inner { pointer-events: none; }
+.dropzone-icon { font-size: 38px; margin-bottom: 10px; }
+.dropzone-text { font-size: 14px; color: #172c39; margin-bottom: 6px; }
+.dropzone-hint { font-size: 12px; color: #657883; }
+.dropzone-file-input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.intake-file-list {
+  background: #f3f7f6;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-top: 14px;
+}
+.file-list-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 650;
+  color: #172c39;
+  margin-bottom: 10px;
+}
+.btn-text {
+  background: transparent;
+  border: 0;
+  color: #087d73;
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: underline;
+  padding: 0;
+}
+.file-items-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 10px;
+}
+.file-item-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #dce4e7;
+}
+.file-card-type {
+  font-size: 10px;
+  font-weight: 750;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+.file-card-type.pdf { background: #fee2e2; color: #991b1b; }
+.file-card-type.img { background: #e0f2fe; color: #075985; }
+.file-card-info { flex: 1; min-width: 0; }
+.file-card-name { font-size: 12px; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #172c39; }
+.file-card-size { font-size: 11px; color: #657883; }
+.file-card-badge { font-size: 10px; font-weight: 650; background: #e6f7f0; color: #1b6348; padding: 2px 6px; border-radius: 4px; }
+
+.intake-consent-box {
+  background: #f8faf9;
+  border: 1px solid #e0e8e6;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+.intake-consent-box .confirmation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: #334e54;
+  margin: 0;
+  cursor: pointer;
+}
+.intake-consent-box .confirmation input { width: 16px; height: 16px; cursor: pointer; }
+
+.intake-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 650;
+  padding: 13px 26px;
+  border-radius: 8px;
+  background: #087d73;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.intake-btn:hover { background: #06675f; transform: translateY(-1px); }
+.btn-icon { font-size: 18px; }
+
+.intake-status-card {
+  margin-top: 18px;
+  padding: 14px 18px;
+  border-radius: 8px;
+  border: 1px solid #dce4e7;
+  background: #f8faf9;
+  font-size: 13px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.intake-status-card.processing { background: #eff6ff; border-color: #93c5fd; color: #1e40af; }
+.intake-status-card.success { background: #f0fdf4; border-color: #86efac; color: #166534; font-weight: 550; }
+.intake-status-card.error { background: #fef2f2; border-color: #fca5a5; color: #991b1b; }
+
+.intake-spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #93c5fd;
+  border-top-color: #1e40af;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  flex-shrink: 0;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Modal de API Key */
+dialog.config-modal {
+  border: 0;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 520px;
+  width: 90%;
+  box-shadow: 0 12px 36px rgba(18, 43, 54, 0.3);
+  background: white;
+}
+dialog.config-modal::backdrop {
+  background: rgba(18, 43, 54, 0.6);
+  backdrop-filter: blur(4px);
+}
+.config-modal-body { display: flex; flex-direction: column; gap: 16px; }
+.modal-header { display: flex; justify-content: space-between; align-items: center; }
+.modal-header h3 { font-size: 18px; margin: 0; color: #172c39; }
+.btn-close { background: transparent; border: 0; font-size: 24px; line-height: 1; cursor: pointer; color: #657883; }
+.modal-desc { font-size: 12px; color: #657883; line-height: 1.6; margin: 0; }
+.modal-field label { font-size: 12px; font-weight: 650; color: #172c39; margin-bottom: 6px; display: block; }
+.input-secret-wrapper { display: flex; gap: 6px; }
+.input-secret-wrapper input { flex: 1; }
+.btn-toggle-view { background: #f3f6f5; border: 1px solid #cbd7dc; border-radius: 6px; padding: 0 10px; cursor: pointer; }
+.modal-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; }
+.modal-status { font-size: 12px; color: #087d73; font-weight: 600; }
+
+
+dialog.config-modal[open] {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  z-index: 9999;
+}
+.step-code {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #087d73;
+  background: #edf5f3;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin: 2px 0;
+}
+.dropzone-icon {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #087d73;
+  background: #e4f2ee;
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+
+/* ===== ETAPA 2: LECTURA Y CONSOLA DE IA ===== */
+.ai-reader-card {
+  background: white;
+  border: 1px solid #dce4e7;
+  border-radius: 12px;
+  padding: 26px;
+  margin-top: 18px;
+  box-shadow: 0 2px 10px rgba(20, 43, 54, 0.03);
+}
+.ai-reader-card h2 { font-size: 20px; margin: 0 0 8px; color: #172c39; }
+.ai-reader-desc { font-size: 13px; color: #657883; line-height: 1.6; margin: 0 0 20px; }
+.ai-reader-card form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  align-items: flex-end;
+  background: #f8faf9;
+  padding: 18px;
+  border-radius: 8px;
+  border: 1px solid #e0e8e6;
+}
+.ai-reader-card form p { grid-column: 1 / -1; margin: 0; font-size: 12px; color: #087d73; font-weight: 600; }
+.ai-reader-card form label.confirmation { grid-column: 1 / -1; font-size: 13px; color: #172c39; }
+.ai-reader-card button[type="submit"] {
+  background: #f3f6f5;
+  border: 1px solid #cbd7dc;
+  padding: 10px 18px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+.ai-reader-card button[type="submit"]:hover { background: #e4f2ee; border-color: #087d73; }
+.ai-reader-card form > button:last-of-type {
+  background: #087d73;
+  color: white;
+  font-weight: 650;
+  border-radius: 6px;
+  padding: 11px 22px;
+  border: 0;
+  cursor: pointer;
+}
+.ai-reader-card form > button:last-of-type:hover { background: #06675f; }
+.btn-next-stage {
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: 650;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: #087d73;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-next-stage:hover { background: #06675f; }
+#reconResumen {
+  background: #f0fdf4;
+  border: 1px solid #86efac;
+  border-radius: 8px;
+  padding: 14px 18px;
+  color: #166534;
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: 14px;
+}
+#reconUnidadBox {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 14px;
+}
+#reconUnidadBox h3 { font-size: 14px; color: #92400e; margin: 0 0 6px; }
+#reconUnidadBox p { font-size: 12px; color: #b45309; margin: 0 0 12px; }
+
+
+/* ===== GRUPO UNIFICADO DE HERRAMIENTAS AVANZADAS / AUDITORIA ===== */
+.advanced-tools-unified {
+  border: 1px solid #dce4e7;
+  border-radius: 12px;
+  background: #ffffff;
+  margin-top: 24px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(20, 43, 54, 0.03);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.advanced-tools-unified[open] {
+  border-color: #b8d4cf;
+  box-shadow: 0 4px 16px rgba(8, 125, 115, 0.08);
+}
+.advanced-tools-unified-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 18px 22px;
+  background: #f8faf9;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  user-select: none;
+  transition: background 0.2s ease;
+}
+.advanced-tools-unified[open] .advanced-tools-unified-summary {
+  background: #edf5f3;
+  border-bottom: 1px solid #dce4e7;
+}
+.summary-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.advanced-badge {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #087d73;
+  background: #e4f2ee;
+  border: 1px solid #c2e2db;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.summary-title {
+  font-size: 14px;
+  font-weight: 650;
+  color: #172c39;
+}
+.summary-subtitle {
+  font-size: 12px;
+  color: #657883;
+  margin-left: 2px;
+}
+.advanced-tools-notice {
+  background: #fdfaf2;
+  border-left: 4px solid #d99a26;
+  padding: 12px 18px;
+  margin: 16px 20px 8px;
+  border-radius: 0 6px 6px 0;
+}
+.advanced-tools-notice p {
+  font-size: 12px;
+  color: #785312;
+  line-height: 1.55;
+  margin: 0;
+}
+.advanced-subtool-card {
+  padding: 16px 20px;
+  border-bottom: 1px solid #edf2f3;
+}
+.advanced-subtool-card:last-child {
+  border-bottom: 0;
+}
+.advanced-subtool-header {
+  margin-bottom: 12px;
+}
+.subtool-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1a3341;
+  margin: 0 0 4px;
+}
+.subtool-desc {
+  font-size: 12px;
+  color: #607581;
+  line-height: 1.5;
+  margin: 0;
+}
+.advanced-subtool-card section[aria-label] {
+  margin-top: 10px;
+  border: 1px solid #e2ece9;
+  border-radius: 8px;
+  background: #fafcfb;
+  padding: 16px;
+}
+
+/* ===== SISTEMA DE NOTIFICACIONES TOAST (CONFIRMACIONES GLOBALES) ===== */
+#d2mToastContainer {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  z-index: 10000;
+  pointer-events: none;
+  max-width: 440px;
+}
+.d2m-toast-card {
+  pointer-events: auto;
+  background: white;
+  border: 1px solid #dce4e7;
+  border-left: 5px solid #087d73;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(20, 43, 54, 0.15);
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  animation: d2mToastSlideIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.d2m-toast-card.toast-error {
+  border-left-color: #dc2626;
+  background: #fffafa;
+}
+.toast-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.toast-badge {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #087d73;
+  background: #e4f2ee;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.d2m-toast-card.toast-error .toast-badge {
+  color: #dc2626;
+  background: #fee2e2;
+}
+.toast-close-btn {
+  background: transparent;
+  border: 0;
+  color: #8fa3ab;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 4px;
+}
+.toast-close-btn:hover {
+  color: #172c39;
+}
+.toast-body {
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: #243b48;
+}
+@keyframes d2mToastSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* ==========================================================================
+   Etapa 3: Geometria y Modelo 3D Estructural
+   ========================================================================== */
+
+.geometry-management-card {
+  background: #ffffff;
+  border: 1px solid #c9d8df;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 4px rgba(15, 34, 45, 0.05);
+}
+
+.geo-metrics-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin: 18px 0 20px 0;
+}
+
+.metric-card {
+  background: #f7fafc;
+  border: 1px solid #dce6eb;
+  border-radius: 6px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.metric-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #5c7482;
+}
+
+.metric-value {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0d2838;
+}
+
+.geo-check-details {
+  margin: 14px 0;
+  border: 1px solid #dce6eb;
+  border-radius: 6px;
+  background: #fdfefe;
+  padding: 8px 12px;
+}
+
+.geo-editor-wrapper {
+  margin-bottom: 16px;
+}
+
+.geo-draft-actions {
+  display: flex;
+  gap: 12px;
+  margin: 14px 0 6px 0;
+  flex-wrap: wrap;
+}
+
+.geo-approval-box {
+  margin-top: 24px;
+  border: 1px solid #b5d5cf;
+  border-radius: 6px;
+  background: #f4faf8;
+  padding: 18px 20px;
+}
+
+.approval-action-bar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.btn-approve-geo {
+  background: #087d73;
+  color: #ffffff;
+  border: 1px solid #06675e;
+  padding: 9px 18px;
+  font-size: 13.5px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.btn-approve-geo:hover:not(:disabled) {
+  background: #06675e;
+}
+
+.btn-approve-geo:disabled {
+  background: #d4e0e5;
+  border-color: #c2d1d7;
+  color: #8fa3ab;
+  cursor: not-allowed;
+}
+
+.btn-next-stage {
+  background: #173b4d;
+  color: #ffffff;
+  border: 1px solid #0f2734;
+  padding: 9px 18px;
+  font-size: 13.5px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.btn-next-stage:hover {
+  background: #0f2734;
+}
+
+/* 3D Model Viewer Container */
+.viewer-3d {
+  background: #111a21;
+  border: 1px solid #233440;
+  border-radius: 8px;
+  padding: 18px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  color: #e2e8f0;
+}
+
+.viewer-3d-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #233440;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.viewer-3d-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #f1f5f9;
+}
+
+.viewer-3d-sub {
+  margin: 4px 0 0 0;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.viewer-3d-legend {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.legend-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  color: #cbd5e1;
+  font-weight: 500;
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+.legend-dot.dot-muros {
+  background: #138b77;
+}
+
+.legend-dot.dot-losas {
+  background: #548fbd;
+}
+
+.legend-dot.dot-columnas {
+  background: #cf762f;
+}
+
+.viewer-controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.viewer-controls button {
+  background: #1e2c37;
+  color: #cbd5e1;
+  border: 1px solid #334856;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.viewer-controls button:hover {
+  background: #2a3c4a;
+  border-color: #4b667a;
+  color: #ffffff;
+}
+
+
+/* ==========================================================================
+   Etapa 4: Hipotesis de Ingenieria y Parametros Normativos
+   ========================================================================== */
+
+/* Tarjeta Central de Parametros Normativos de Entrada */
+.norm-parameters-card {
+  background: #ffffff;
+  border: 1px solid #c8d8df;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 4px rgba(15, 34, 45, 0.05);
+}
+
+.norm-card-header {
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e5edf0;
+  padding-bottom: 12px;
+}
+
+.norm-header-badge {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #155e75;
+  background: #ecfeff;
+  border: 1px solid #a5f3fc;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+
+.norm-card-title {
+  margin: 0 0 6px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f2838;
+}
+
+.norm-card-desc {
+  margin: 0;
+  font-size: 13px;
+  color: #526b7a;
+  line-height: 1.5;
+}
+
+.norm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.norm-col {
+  background: #f8fafc;
+  border: 1px solid #dce6eb;
+  border-radius: 6px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.norm-col-header {
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 8px;
+}
+
+.norm-col-header h3 {
+  margin: 6px 0 0 0;
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #172c39;
+}
+
+.norm-pill {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+
+.pill-sismo {
+  background: #eef2ff;
+  color: #3730a3;
+  border: 1px solid #c7d2fe;
+}
+
+.pill-concreto {
+  background: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+
+.pill-cargas {
+  background: #fffbeb;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+
+.norm-param-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 4px 0;
+  border-bottom: 1px dashed #e2e8f0;
+}
+
+.norm-param-item:last-child {
+  border-bottom: 0;
+}
+
+.norm-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #64748b;
+}
+
+.norm-val {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.norm-hint {
+  font-size: 10.5px;
+  color: #94a3b8;
+  line-height: 1.3;
+}
+
+/* Tarjeta de Gestion y Aprobacion de la Configuracion */
+.config-management-card {
+  background: #ffffff;
+  border: 1px solid #c9d8df;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 4px rgba(15, 34, 45, 0.05);
+}
+
+.config-metrics-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin: 18px 0 20px 0;
+}
+
+.config-check-details {
+  margin: 14px 0;
+  border: 1px solid #dce6eb;
+  border-radius: 6px;
+  background: #fdfefe;
+  padding: 8px 12px;
+}
+
+.config-editor-wrapper {
+  margin-bottom: 16px;
+  border: 1px solid #dce6eb;
+  border-radius: 6px;
+  background: #fdfefe;
+  padding: 8px 12px;
+}
+
+.config-draft-actions {
+  display: flex;
+  gap: 12px;
+  margin: 14px 0 6px 0;
+  flex-wrap: wrap;
+}
+
+.config-approval-box {
+  margin-top: 24px;
+  border: 1px solid #b5d5cf;
+  border-radius: 6px;
+  background: #f4faf8;
+  padding: 18px 20px;
+}
+
+.btn-approve-config {
+  background: #087d73;
+  color: #ffffff;
+  border: 1px solid #06675e;
+  padding: 9px 18px;
+  font-size: 13.5px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.btn-approve-config:hover:not(:disabled) {
+  background: #06675e;
+}
+
+.btn-approve-config:disabled {
+  background: #d4e0e5;
+  border-color: #c2d1d7;
+  color: #8fa3ab;
+  cursor: not-allowed;
+}
+
+
+/* ==========================================================================
+   Etapa 5: Construccion y Revision del Modelo ETABS
+   ========================================================================== */
+
+/* Tarjeta 1: Construccion del Modelo */
+.etabs-build-card {
+  background: #ffffff;
+  border: 1px solid #c9d8df;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 4px rgba(15, 34, 45, 0.05);
+}
+
+.etabs-inputs-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin: 18px 0 20px 0;
+}
+
+.losas-config-fieldset {
+  margin: 16px 0;
+  border: 1px solid #dce6eb;
+  border-radius: 6px;
+  padding: 14px 16px;
+  background: #fdfefe;
+}
+
+.build-advanced-options {
+  margin: 14px 0;
+  border: 1px solid #dce6eb;
+  border-radius: 6px;
+  background: #fdfefe;
+  padding: 8px 12px;
+}
+
+.build-prepare-bar {
+  margin-top: 14px;
+}
+
+.build-check-details {
+  margin: 14px 0;
+  border: 1px solid #dce6eb;
+  border-radius: 6px;
+  background: #fdfefe;
+  padding: 8px 12px;
+}
+
+.build-execute-box {
+  margin-top: 24px;
+  border: 1px solid #b5d5cf;
+  border-radius: 6px;
+  background: #f4faf8;
+  padding: 18px 20px;
+}
+
+.btn-build-etabs {
+  background: #087d73;
+  color: #ffffff;
+  border: 1px solid #06675e;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.btn-build-etabs:hover:not(:disabled) {
+  background: #06675e;
+}
+
+.btn-build-etabs:disabled {
+  background: #d4e0e5;
+  border-color: #c2d1d7;
+  color: #8fa3ab;
+  cursor: not-allowed;
+}
+
+/* Tarjeta 2: Inspeccion y Aprobacion del Modelo .EDB */
+.etabs-model-review-card {
+  background: #ffffff;
+  border: 1px solid #c9d8df;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 4px rgba(15, 34, 45, 0.05);
+}
+
+.model-metrics-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin: 18px 0 20px 0;
+}
+
+.model-check-details {
+  margin: 14px 0;
+  border: 1px solid #dce6eb;
+  border-radius: 6px;
+  background: #fdfefe;
+  padding: 8px 12px;
+}
+
+.model-approval-box {
+  margin-top: 24px;
+  border: 1px solid #b5d5cf;
+  border-radius: 6px;
+  background: #f4faf8;
+  padding: 18px 20px;
+}
+
+.structural-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 18px 0;
+  background: #ffffff;
+  border: 1px solid #dce6eb;
+  border-radius: 6px;
+  padding: 14px 16px;
+}
+
+.checklist-title {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #173b4d;
+  margin-bottom: 4px;
+}
+
+.checklist-item {
+  font-size: 12.5px;
+  color: #243b48;
+  line-height: 1.4;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.checklist-item input {
+  margin-top: 2px;
+}
+
+.approval-confirm-line {
+  margin: 14px 0;
+  font-weight: 600;
+  color: #0d2838;
+}
+
+.btn-approve-model {
+  background: #087d73;
+  color: #ffffff;
+  border: 1px solid #06675e;
+  padding: 9px 18px;
+  font-size: 13.5px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.btn-approve-model:hover:not(:disabled) {
+  background: #06675e;
+}
+
+.btn-approve-model:disabled {
+  background: #d4e0e5;
+  border-color: #c2d1d7;
+  color: #8fa3ab;
+  cursor: not-allowed;
+}
+
+/* ===== ETAPA 6: ANÁLISIS Y COMPROBACIONES ESTRUCTURALES ===== */
+.analysis-execution-card,
+.analysis-controls-card,
+.results-review-card {
+  background: #ffffff;
+  border: 1px solid #dce6eb;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 3px rgba(20, 43, 54, 0.04);
+}
+
+.analysis-metrics-strip,
+.controls-norm-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin: 18px 0 20px 0;
+}
+
+.analysis-check-details {
+  margin: 14px 0;
+  border: 1px solid #dce6eb;
+  border-radius: 6px;
+  background: #fdfefe;
+  padding: 8px 12px;
+}
+
+.analysis-execute-box {
+  margin-top: 20px;
+  border: 1px solid #c5dbd6;
+  border-radius: 6px;
+  background: #f4faf8;
+  padding: 18px 20px;
+}
+
+.execute-action-bar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 14px 0 8px;
+}
+
+.btn-execute-analysis {
+  background: #087d73;
+  color: #ffffff;
+  border: 1px solid #06675e;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.btn-execute-analysis:hover:not(:disabled) {
+  background: #06675e;
+}
+
+.btn-execute-analysis:disabled {
+  background: #d4e0e5;
+  border-color: #c2d1d7;
+  color: #8fa3ab;
+  cursor: not-allowed;
+}
+
+.controls-editor-wrapper,
+.review-notes-wrapper {
+  margin: 16px 0;
+  border: 1px solid #dce6eb;
+  border-radius: 6px;
+  background: #f8fafc;
+  padding: 12px 16px;
+}
+
+.controls-editor-wrapper summary,
+.review-notes-wrapper summary {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #173b4d;
+  cursor: pointer;
+}
+
+.btn-register-controls,
+.btn-register-results {
+  background: #087d73;
+  color: #ffffff;
+  border: 1px solid #06675e;
+  padding: 9px 18px;
+  font-size: 13.5px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.btn-register-controls:hover:not(:disabled),
+.btn-register-results:hover:not(:disabled) {
+  background: #06675e;
+}
+
+.btn-register-controls:disabled,
+.btn-register-results:disabled {
+  background: #d4e0e5;
+  border-color: #c2d1d7;
+  color: #8fa3ab;
+  cursor: not-allowed;
+}
+
+/* ===== BARRA DE MÓDULOS Y MARCO NORMATIVO RNE (NO INTRUSIVO) ===== */
+.app-header {
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  background: #0f1f27;
+  color: #eaf3f4;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.header-brand-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header-divider {
+  color: #3b5360;
+  font-size: 14px;
+}
+
+.header-module-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  transition: all 0.2s ease;
+}
+
+.badge-porticado {
+  background: rgba(8, 125, 115, 0.2);
+  border: 1px solid #14b8a6;
+  color: #ccfbf1;
+}
+
+.badge-albanileria {
+  background: rgba(234, 179, 8, 0.16);
+  border: 1px solid #eab308;
+  color: #fef08a;
+}
+
+.mod-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.mod-title-text {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.mod-norms-text {
+  opacity: 0.85;
+  font-size: 11px;
+  border-left: 1px solid currentColor;
+  padding-left: 8px;
+}
+
+/* Selector en la seccion Intro */
+.intro .selector {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.selector-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.selector-field label {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #64748b;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.module-dropdown {
+  font-weight: 600;
+  color: #0f172a;
+  padding: 8px 12px;
+  border: 1.5px solid #087d73;
+  border-radius: 6px;
+  background: #f0fdf4;
+  cursor: pointer;
+}
+
+.selector-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-norma-inline {
+  background: #e6f4f1;
+  border: 1px solid #94d3c6;
+  color: #08635b;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 9px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn-norma-inline:hover {
+  background: #087d73;
+  color: white;
+  border-color: #087d73;
+}
+
+/* Modal Normativo */
+.norm-modal {
+  max-width: 920px;
+  width: 92%;
+  border-radius: 12px;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 12px 36px rgba(15, 23, 42, 0.25);
+  padding: 0;
+}
+
+.norm-modal-body {
+  padding: 24px 28px;
+}
+
+.norm-badge {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #0284c7;
+  background: #e0f2fe;
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.norm-modal-content {
+  margin-top: 16px;
+}
+
+.norm-notice-box {
+  background: #f0fdf4;
+  border: 1px solid #86efac;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+}
+
+.norm-notice-box strong {
+  display: block;
+  font-size: 13.5px;
+  color: #166534;
+  margin-bottom: 4px;
+}
+
+.norm-notice-box p {
+  font-size: 12.5px;
+  color: #14532d;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.norm-notice-box.notice-albanileria {
+  background: #fefce8;
+  border-color: #fde047;
+}
+
+.norm-notice-box.notice-albanileria strong {
+  color: #854d0e;
+}
+
+.norm-notice-box.notice-albanileria p {
+  color: #713f12;
+}
+
+.norm-grid-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.norm-detail-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px 18px;
+}
+
+.norm-detail-card h4 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f172a;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.norm-detail-card ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.norm-detail-card li {
+  font-size: 12px;
+  color: #334155;
+  line-height: 1.6;
+  margin-bottom: 6px;
+}
+
+.checklist-items-clean {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+.checklist-items-clean li {
+  padding: 6px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.checklist-items-clean li:last-child {
+  border-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .app-header {
+    height: auto;
+    padding: 12px 16px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .header-module-badge {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+  .norm-grid-details {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== SECCIÓN DE CONTINGENCIA: RECUPERACIÓN DE NORMALIZACIONES INTERRUMPIDAS ===== */
+section[aria-label="Recuperación de normalizaciones"] {
+  background: #ffffff;
+  border: 1px solid #dce4e7;
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-top: 14px;
+  box-shadow: 0 1px 4px rgba(20, 43, 54, 0.03);
+}
+
+section[aria-label="Recuperación de normalizaciones"] h2 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #172c39;
+  margin: 0 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+section[aria-label="Recuperación de normalizaciones"] h2::before {
+  content: "CONTINGENCIA";
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: #b45309;
+  background: #fef3c7;
+  border: 1px solid #fde68a;
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+
+section[aria-label="Recuperación de normalizaciones"] p {
+  font-size: 12px;
+  color: #53696d;
+  line-height: 1.5;
+  margin: 0 0 16px;
+}
+
+section[aria-label="Recuperación de normalizaciones"] label {
+  display: block;
+  font-size: 11px;
+  font-weight: 650;
+  color: #243c4a;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+section[aria-label="Recuperación de normalizaciones"] select {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 13px;
+  border: 1px solid #cfdce1;
+  border-radius: 6px;
+  background: #f8faf9;
+  color: #172c39;
+  margin-bottom: 14px;
+}
+
+section[aria-label="Recuperación de normalizaciones"] select:focus {
+  border-color: #087d73;
+  outline: none;
+  background: #ffffff;
+}
+
+section[aria-label="Recuperación de normalizaciones"] details {
+  background: #f4f7f6;
+  border: 1px solid #dce4e7;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-bottom: 14px;
+  font-size: 12px;
+}
+
+section[aria-label="Recuperación de normalizaciones"] details summary {
+  font-weight: 600;
+  color: #31515f;
+  cursor: pointer;
+  user-select: none;
+}
+
+section[aria-label="Recuperación de normalizaciones"] details pre {
+  margin-top: 8px;
+  max-height: 160px;
+  overflow: auto;
+  font-size: 11px;
+  background: #ffffff;
+  border: 1px solid #e2ece9;
+  border-radius: 4px;
+  padding: 8px;
+  color: #1a3341;
+}
+
+section[aria-label="Recuperación de normalizaciones"] label.confirmation {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  background: #fffbeb;
+  border: 1px solid #fef3c7;
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  font-size: 12px;
+  text-transform: none;
+  font-weight: 400;
+  color: #92400e;
+  cursor: pointer;
+}
+
+section[aria-label="Recuperación de normalizaciones"] label.confirmation input {
+  margin-top: 2px;
+}
+
+section[aria-label="Recuperación de normalizaciones"] button {
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+section[aria-label="Recuperación de normalizaciones"] button#recuperacionActualizar {
+  background: #ffffff;
+  border: 1px solid #cfdce1;
+  color: #31515f;
+  margin-bottom: 14px;
+}
+
+section[aria-label="Recuperación de normalizaciones"] button#recuperacionActualizar:hover:not(:disabled) {
+  background: #f0f4f3;
+  border-color: #087d73;
+  color: #087d73;
+}
+
+section[aria-label="Recuperación de normalizaciones"] button#recuperacionEjecutar {
+  background: #087d73;
+  border: 1px solid #06675e;
+  color: #ffffff;
+}
+
+section[aria-label="Recuperación de normalizaciones"] button#recuperacionEjecutar:hover:not(:disabled) {
+  background: #06675e;
+}
+
+section[aria-label="Recuperación de normalizaciones"] button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+section[aria-label="Recuperación de normalizaciones"] #recuperacionEstado {
+  margin-top: 12px;
+  padding: 8px 12px;
+  background: #f4f7f6;
+  border-radius: 6px;
+  font-size: 11px;
+  color: #607581;
+}
+
+/* Alerta contextual en Fase 6 para contingencias */
+.alerta-contingencia-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: #fffbeb;
+  border: 1px solid #f59e0b;
+  border-left: 5px solid #d97706;
+  border-radius: 8px;
+  padding: 12px 18px;
+  margin-bottom: 18px;
+}
+
+.alerta-contingencia-box[hidden] {
+  display: none !important;
+}
+
+.alerta-contingencia-badge {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: #92400e;
+  background: #fde68a;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-right: 6px;
+}
+
+.alerta-contingencia-text {
+  flex: 1;
+  font-size: 12px;
+  color: #78350f;
+  line-height: 1.45;
+}
+
+.btn-alerta-contingencia {
+  padding: 7px 14px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #d97706;
+  border: 1px solid #b45309;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s ease;
+}
+
+.btn-alerta-contingencia:hover {
+  background: #b45309;
+}
+
+/* ===== INTEGRACIÓN Y RENDERIZADO LATEX (KATEX) ===== */
+.katex {
+  font-size: 1.05em;
+  text-rendering: auto;
+}
+
+.katex-display {
+  margin: 0.6em 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 4px 0;
+}
+
+.norm-val .katex {
+  font-weight: 700;
+  color: #087d73;
+}
+
+.norm-label .katex {
+  font-weight: 600;
+  color: #172c39;
+}
+
+.norm-detail-card .katex-display {
+  background: #f8faf9;
+  border: 1px solid #e2ece9;
+  border-radius: 6px;
+  padding: 10px 14px;
+}
+
+/* ===== AUTOMATIZACIÓN SÍSMICA E.030-2026 ===== */
+.e030-automation-card {
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid #c2d8d3;
+  border-left: 4px solid #087d73;
+}
+
+.e030-badge {
+  background: #e6f4f1;
+  color: #06675e;
+  border: 1px solid #b2ded7;
+}
+
+.e030-grid-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.e030-control-group {
+  background: #fbfdfc;
+  border: 1px solid #dce8e4;
+  border-radius: 6px;
+  padding: 14px;
+}
+
+.e030-control-group h4 {
+  margin: 0 0 10px 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0d2833;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.e030-field {
+  margin-bottom: 10px;
+}
+
+.e030-field label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #243f4d;
+  margin-bottom: 4px;
+}
+
+.e030-field select,
+.e030-field input[type="number"],
+.e030-field input[type="text"] {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 12.5px;
+  border: 1px solid #cad8d4;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #172c39;
+  box-sizing: border-box;
+}
+
+.e030-field select:focus,
+.e030-field input:focus {
+  outline: none;
+  border-color: #087d73;
+  box-shadow: 0 0 0 2px rgba(8, 125, 115, 0.15);
+}
+
+.e030-resumen-box {
+  background: #f3f8f6;
+  border: 1px solid #d0e4df;
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin-bottom: 18px;
+}
+
+.e030-resumen-title {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #06675e;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.e030-resumen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  font-size: 12.5px;
+  color: #1a323d;
+}
+
+.e030-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.btn-e030-descargar {
+  background: #087d73;
+  color: #ffffff;
+  border: 1px solid #06675e;
+  padding: 9px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.btn-e030-descargar:hover {
+  background: #06675e;
+}
+
+.btn-e030-verificar {
+  background: #172c39;
+  color: #ffffff;
+  border: 1px solid #0f1e27;
+  padding: 9px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.btn-e030-verificar:hover {
+  background: #0f1e27;
+}
+
+.e030-checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #243f4d;
+  cursor: pointer;
+}
+
+.e030-verif-box {
+  margin-top: 12px;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+
+.verif-ok {
+  background: #edf7f4;
+  border: 1px solid #b8e0d6;
+  color: #06554b;
+}
+
+.verif-scale {
+  background: #fff8eb;
+  border: 1px solid #f6d18a;
+  color: #8f5000;
+}
+
+.verif-badge-ok {
+  margin-top: 6px;
+  font-weight: 700;
+  color: #06675e;
+}
+
+.verif-badge-scale {
+  margin-top: 6px;
+  font-weight: 700;
+  color: #b45309;
+}
+
+
+
+/* ==========================================================================
+   Refinamiento UI: Lecturas (Fase 2) y Acordeones Limpios
+   ========================================================================== */
+
+#candidatos {
+  max-height: 420px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.candidate {
+  transition: background-color 0.15s ease, border-left-color 0.15s ease;
+  padding: 11px 16px;
+  border-bottom: 1px solid #e8eeee;
+}
+
+.candidate:hover {
+  background-color: #f6faf9;
+}
+
+.candidate.active {
+  background-color: #eaf4f1;
+  border-left: 4px solid #087d73;
+}
+
+.candidate small {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  line-height: 1.45;
+  margin-top: 4px;
+  color: #556c75;
+}
+
+.candidate strong {
+  font-size: 13px;
+  color: #172c39;
+}
+
+/* Acordeones para operaciones de evidencia en Fase 2 */
+#evidenciaOps {
+  padding: 12px 14px;
+  border-top: 1px solid var(--line);
+  background: #fafcfb;
+}
+
+.d2m-op-card {
+  margin-top: 8px;
+  border: 1px solid #d4e0e4;
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 0;
+  overflow: hidden;
+  transition: border-color 0.15s ease;
+}
+
+.d2m-op-card[open] {
+  border-color: #087d73;
+  box-shadow: 0 2px 8px rgba(8, 125, 115, 0.08);
+}
+
+.d2m-op-summary {
+  padding: 9px 12px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  background: #f4f8f7;
+  color: #172c39;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+
+.d2m-op-summary:hover {
+  background: #e9f2ef;
+}
+
+.d2m-op-title {
+  color: #172c39;
+}
+
+.d2m-op-badge {
+  font-size: 10px;
+  font-weight: 600;
+  color: #087d73;
+  background: #e1f1ee;
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+
+.d2m-op-body {
+  padding: 12px;
+  border-top: 1px solid #e2ecee;
+  background: #ffffff;
+}
+
+.d2m-op-body label {
+  font-size: 11px;
+  margin-top: 6px;
+  margin-bottom: 2px;
+  color: #526c77;
+}
+
+.d2m-op-body input,
+.d2m-op-body select {
+  font-size: 12px;
+  padding: 6px 8px;
+  margin-bottom: 6px;
+  border: 1px solid #c9d8df;
+  border-radius: 4px;
+  width: 100%;
+}
+
+
+/* ==========================================================================
+   Pasos y Guías del Análisis Sísmico Estático y Dinámico (E.030)
+   ========================================================================== */
+
+.e030-step-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e2ecee;
+}
+
+.e030-step-num {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #087d73;
+  color: #ffffff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+}
+
+.e030-step-header h4 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #172c39;
+}
+
+.e030-guide-details {
+  margin-top: 10px;
+  border-top: 1px dashed #d6e2e5;
+  padding-top: 6px;
+}
+
+.e030-guide-details summary {
+  font-size: 11px;
+  font-weight: 600;
+  color: #087d73;
+  cursor: pointer;
+  user-select: none;
+}
+
+.e030-guide-details summary:hover {
+  text-decoration: underline;
+}
+
+.e030-guide-text {
+  margin: 6px 0 0 0;
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: #4b6470;
+  background: #f8faf9;
+  padding: 8px 10px;
+  border-radius: 4px;
+  border-left: 3px solid #087d73;
+}
+
+
+/* ==========================================================================
+   Visor Tridimensional ETABS (Fase 5: Construcción en ETABS)
+   ========================================================================== */
+
+.viewer-3d-etabs {
+  background: #18202a;
+  color: #e2e8f0;
+  border: 1px solid #2d3748;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 16px rgba(10, 15, 24, 0.25);
+}
+
+.viewer-3d-etabs .viewer-3d-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #2d3748;
+  padding-bottom: 12px;
+}
+
+.viewer-3d-etabs .viewer-3d-title {
+  color: #f1f5f9;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+}
+
+.viewer-3d-etabs .viewer-3d-subtitle {
+  color: #94a3b8;
+  font-size: 12px;
+  margin: 0;
+}
+
+.viewer-3d-etabs canvas {
+  display: block;
+  width: 100%;
+  height: 480px;
+  background: #111822;
+  border: 1px solid #263342;
+  border-radius: 6px;
+  cursor: grab;
+}
+
+.viewer-3d-etabs canvas:active {
+  cursor: grabbing;
+}
+
+.viewer-3d-etabs .viewer-3d-tools {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.viewer-3d-etabs .viewer-tool-btn {
+  background: #253342;
+  color: #e2e8f0;
+  border: 1px solid #3b4b5e;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 11.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.viewer-3d-etabs .viewer-tool-btn:hover {
+  background: #334458;
+  border-color: #60a5fa;
+  color: #ffffff;
+}
+
+.viewer-3d-etabs .viewer-3d-status {
+  font-size: 11.5px;
+  color: #38bdf8;
+  margin: 4px 0 8px 0;
+}
+
+.viewer-3d-etabs .viewer-3d-hint {
+  font-size: 11px;
+  color: #64748b;
+  margin-top: 8px;
+}
+
+.viewer-3d-etabs .legend-pill {
+  color: #cbd5e1;
+  font-size: 11px;
+}
+
+
+/* ===== MODO SELECTOR & VISOR ETABS MANUAL ===== */
+.viewer-mode-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 14px 0 16px 0;
+  padding: 8px 12px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+}
+.viewer-3d-etabs .viewer-mode-bar {
+  background: rgba(15, 23, 42, 0.5);
+  border-color: #334155;
+}
+.viewer-mode-btn {
+  background: #ffffff;
+  color: #334155;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+}
+.viewer-3d-etabs .viewer-mode-btn {
+  background: #1e293b;
+  color: #cbd5e1;
+  border-color: #475569;
+}
+.viewer-mode-btn:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+  color: #0f172a;
+}
+.viewer-3d-etabs .viewer-mode-btn:hover {
+  background: #334155;
+  color: #ffffff;
+  border-color: #64748b;
+}
+.viewer-mode-btn.active {
+  background: #0d9488;
+  color: #ffffff;
+  border-color: #0f766e;
+  box-shadow: 0 1px 3px rgba(13, 148, 136, 0.3);
+}
+.viewer-3d-etabs .viewer-mode-btn.active {
+  background: #0284c7;
+  color: #ffffff;
+  border-color: #0369a1;
+  box-shadow: 0 1px 4px rgba(2, 132, 199, 0.4);
+}
+.viewer-mode-btn.mode-download {
+  background: #2563eb;
+  color: #ffffff;
+  border-color: #1d4ed8;
+  margin-left: auto;
+}
+.viewer-mode-btn.mode-download:hover {
+  background: #1d4ed8;
+  color: #ffffff;
+}
+.manual-etabs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+.manual-etabs-card {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 16px;
+  color: #f1f5f9;
+}
+.manual-etabs-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.manual-badge {
+  background: #1e293b;
+  color: #93c5fd;
+  border: 1px solid #3b82f6;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.manual-badge.accent {
+  background: #064e3b;
+  color: #6ee7b7;
+  border-color: #10b981;
+}
+.manual-badge.neutral {
+  background: #1e293b;
+  color: #cbd5e1;
+  border-color: #475569;
+}
+.manual-etabs-preview-frame {
+  position: relative;
+  background: #090d16;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  overflow: hidden;
+  text-align: center;
+  min-height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.manual-etabs-preview-img {
+  width: 100%;
+  max-height: 580px;
+  object-fit: contain;
+  display: block;
+}
+.manual-etabs-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #1e293b;
+}
+.manual-etabs-path {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+
+/* Clases unificadas para el modelo ETABS generado */
+.etabs-model-card {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 16px;
+  color: #f1f5f9;
+}
+.etabs-model-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.etabs-badge {
+  background: #1e293b;
+  color: #93c5fd;
+  border: 1px solid #3b82f6;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.etabs-badge.accent {
+  background: #064e3b;
+  color: #6ee7b7;
+  border-color: #10b981;
+}
+.etabs-badge.neutral {
+  background: #1e293b;
+  color: #cbd5e1;
+  border-color: #475569;
+}
+.etabs-preview-img {
+  width: 100%;
+  max-height: 580px;
+  object-fit: contain;
+  display: block;
+}
+.etabs-model-path {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 11px;
+  color: #94a3b8;
+}

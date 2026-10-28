@@ -1,0 +1,19 @@
+{
+  "tarea": "explicaciones_web",
+  "estado": "entregado",
+  "archivos": {
+    "draft2model/revision_explicaciones.py": "9fc51ad20ff232ebdee0e45ad8fb0c1bbef7291e78c136830d756dee23f4e2fd",
+    "tests/test_revision_explicaciones.py": "8d97673b966a521fbbabbc30da5a1aa7035f3609c4039676b5edecf12d108c2e",
+    "docs/REVISION_EXPLICACIONES_WEB.md": "d57d88b8ab19edf123fa6b30f11d076b347d2e7b27a80a602b0c04d47baf6d45"
+  },
+  "pruebas": {
+    "comando": "TEMP=$PWD/tmp TMP=$PWD/tmp python -m unittest tests.test_revision_explicaciones",
+    "resultado": "Ran 10 tests OK (dobles Python; _http/Popen/urlopen/socket bloqueados)"
+  },
+  "limites": [
+    "Texto libre solo como propuesta pendiente de revision humana; filtro de afirmaciones heuristico",
+    "Rechazo definitivo distinguido por mensaje HTTP del cliente; otros fallos de transporte quedan inciertos",
+    "Sin integracion con informe/HTTP/UI (Codex)",
+    "Sin API real/red/ETABS/CU ni suite completa"
+  ]
+}

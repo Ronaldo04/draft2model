@@ -1,0 +1,15 @@
+{
+  "estado": "revisado_focal",
+  "tarea": "relectura_final_176",
+  "hashes_coinciden": true,
+  "pruebas": 41,
+  "omisiones": 0,
+  "resultado": "OK",
+  "segundos": 39.843,
+  "log": "tmp/revision_claude_180.log",
+  "limites": [
+    "Dobles y reflexión; falta ensayo lector en EDB real",
+    "SF espectral no comparable si unidades distintas",
+    "Opening no afirma efecto físico"
+  ]
+}

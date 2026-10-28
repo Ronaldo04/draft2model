@@ -1,0 +1,41 @@
+{
+  "entrega": "44de5008dc8747c2a0e8a7fba0671eab",
+  "etapa": "01",
+  "estado": "revisada_con_observaciones_no_cierre",
+  "sha_manifiesto": "479e93c836fb4f048a87fe6f40aa56598200284482a35d0f31ada786f4e0f7b9",
+  "snapshot_y_log": "hashes verificados",
+  "comprobaciones": {
+    "python": "7 pruebas OK 9.893s host; sin red/ETABS",
+    "node": "ruta201_frontend OK",
+    "contraejemplo": "Huella ausente se acepta: corrección R203-01",
+    "monitor": "Dos destinos válidos aceptados, data/private y traversal rechazados"
+  },
+  "limites": [
+    "Snapshot incremental superpuesto sobre dependencias actuales copiadas; base registrada en BASE_REVISION.json. No es copia limpia.",
+    "Primer ensayo aislado: 6 errores de permiso temporal; primer host: faltaba examples en copia de revisión. Corregida preparación, 7 OK.",
+    "No reejecuta ETABS ni acredita piloto/normativa."
+  ],
+  "observaciones": [
+    {
+      "id": "R203-01",
+      "prioridad": "P2",
+      "etapas": [
+        "02",
+        "03",
+        "05"
+      ],
+      "hallazgo": "Etapa01: configuracion.js acepta una respuesta 0.4 sin huella_configuracion. Contraejemplo independiente sobre el snapshot: al omitir la huella sigue mostrando la preparación. La prueba de huella distinta sí pasa.",
+      "criterio_aceptacion": "Para contratos de malla exigir huella_configuracion válida e igual a la abierta; rechazar ausencia/null/tipo incorrecto y conservar comprobación contra respuestas tardías. Añadir regresión negativa.",
+      "evidencia": "tmp/revision_codex_203/huella_ausente.log"
+    },
+    {
+      "id": "R203-02",
+      "prioridad": "P2",
+      "etapas": [
+        "05"
+      ],
+      "hallazgo": "crear_entrega_ruta.py no admite README.md ni lanzadores raíz autorizados; admite cualquier prefijo requirements. Alinear lista explícita con ruta/sonda. La entrega01 real se dejó en entregas/ raíz; Codex adaptó monitor a ambos destinos seguros sin modificar manifiestos.",
+      "criterio_aceptacion": "Aceptar archivos raíz explícitos de R202-04 y rechazar otros; fijar campos reservados también en API crear, no solo CLI. Conservar snapshots existentes."
+    }
+  ]
+}

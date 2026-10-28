@@ -1,0 +1,212 @@
+{
+  "referencia": "IA asistida 328; no humana ni precisión global",
+  "sha256_referencia_intacto": "0a3dc0d89ffb4a52d3e06fd0de508f214afb667bb660703c73657749d40a0ce5",
+  "api_calls": 0,
+  "resumen": {
+    "ambigua": 2,
+    "sin_coincidencias": 16,
+    "unica": 1
+  },
+  "etiquetas": [
+    {
+      "observacion": "AG-0001",
+      "literal_referencia_ia": "A",
+      "estado": "ambigua",
+      "total": 2,
+      "regiones": [
+        {
+          "texto_pdf": "A",
+          "bbox_normalizada": [
+            0.10561423825227188,
+            0.07776067080913775,
+            0.11133139409368045,
+            0.08862056348147808
+          ]
+        },
+        {
+          "texto_pdf": "A",
+          "bbox_normalizada": [
+            0.10561423825227188,
+            0.46796197059170513,
+            0.11133139409368045,
+            0.478821876065043
+          ]
+        }
+      ]
+    },
+    {
+      "observacion": "AG-0002",
+      "literal_referencia_ia": "C-1",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0003",
+      "literal_referencia_ia": "PL-1",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0004",
+      "literal_referencia_ia": "C-2",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0005",
+      "literal_referencia_ia": "PL-10",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0007",
+      "literal_referencia_ia": "C-6",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0011",
+      "literal_referencia_ia": "E-01",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0012",
+      "literal_referencia_ia": "B",
+      "estado": "ambigua",
+      "total": 4,
+      "regiones": [
+        {
+          "texto_pdf": "B",
+          "bbox_normalizada": [
+            0.1656973728440282,
+            0.44239151717832426,
+            0.17141451962977558,
+            0.45325142265166213
+          ]
+        },
+        {
+          "texto_pdf": "B",
+          "bbox_normalizada": [
+            0.1656973728440282,
+            0.05219017899276426,
+            0.17141451962977558,
+            0.06305013567009228
+          ]
+        },
+        {
+          "texto_pdf": "B",
+          "bbox_normalizada": [
+            0.16466473769009643,
+            0.8848412020894505,
+            0.17038188447584385,
+            0.8957010563587983
+          ]
+        },
+        {
+          "texto_pdf": "B",
+          "bbox_normalizada": [
+            0.16466473769009643,
+            0.49463986390389053,
+            0.17038188447584385,
+            0.5054997693772284
+          ]
+        }
+      ]
+    },
+    {
+      "observacion": "AG-0013",
+      "literal_referencia_ia": "VS(0.15x0.30)",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0016",
+      "literal_referencia_ia": "PL-8",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0017",
+      "literal_referencia_ia": "CORTE 1-1",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0020",
+      "literal_referencia_ia": "S/C=200 Kg/m2",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0021",
+      "literal_referencia_ia": "C-3",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0022",
+      "literal_referencia_ia": "E-02",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0023",
+      "literal_referencia_ia": "NACE C-2",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0024",
+      "literal_referencia_ia": "PL-9",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0025",
+      "literal_referencia_ia": "DETALLE: ALIGERADO TIPICO",
+      "estado": "unica",
+      "total": 1,
+      "regiones": [
+        {
+          "texto_pdf": "DETALLE: ALIGERADO TIPICO",
+          "bbox_normalizada": [
+            0.6468605109421365,
+            0.18822956725254955,
+            0.7505343564540059,
+            0.1971259917188811
+          ]
+        }
+      ]
+    },
+    {
+      "observacion": "AG-0031",
+      "literal_referencia_ia": "DETALLE. MURO PORTANTE TIPICO",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    },
+    {
+      "observacion": "AG-0033",
+      "literal_referencia_ia": "E-03",
+      "estado": "sin_coincidencias",
+      "total": 0,
+      "regiones": []
+    }
+  ],
+  "limite": "No se infiere el formato de cotas numéricas ni se elige entre duplicados; propuestas no aplicadas."
+}

@@ -1,0 +1,114 @@
+{
+  "fecha_utc": "2026-10-25T19:21:36.8459250Z",
+  "revision": 356,
+  "tarea": "revision_independiente_focal_correcciones_digitizacion",
+  "estado": "dos_defectos_355_corregidos_sin_hallazgos_materiales_en_alcance_focal",
+  "aceptacion_producto": "pendiente_decision_root_sin_uso_real",
+  "raiz": "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL",
+  "producto_modificado": false,
+  "archivos_escritos": [
+    "seguimiento/REVISION_DIGITIZACION_356.json"
+  ],
+  "hashes": [
+    {
+      "ruta": "draft2model/revision_digitizacion.py",
+      "esperado": "cffca7e5a4723f8e8224b5f462db88da90c6e07651d8fe3c62af09de58f0a444",
+      "observado": "cffca7e5a4723f8e8224b5f462db88da90c6e07651d8fe3c62af09de58f0a444",
+      "coincide": true
+    },
+    {
+      "ruta": "draft2model/revision_web/digitizacion.js",
+      "esperado": "d023404a4e1a575278847155fb0c74bfa59dff3a2e8baf4dfcd4e42960b01699",
+      "observado": "d023404a4e1a575278847155fb0c74bfa59dff3a2e8baf4dfcd4e42960b01699",
+      "coincide": true
+    },
+    {
+      "ruta": "tests/test_revision_digitizacion.py",
+      "esperado": "c0139d3cd535ac1b72d0791f30e791aac6ff3f2f252a4dff4a8fdc064ca140c9",
+      "observado": "c0139d3cd535ac1b72d0791f30e791aac6ff3f2f252a4dff4a8fdc064ca140c9",
+      "coincide": true
+    },
+    {
+      "ruta": "tests/digitizacion_353_frontend.cjs",
+      "esperado": "62eadcbdfec179d1e5cbbd0c907f790546b2b6734c2190e1734dca09fc7af3ad",
+      "observado": "62eadcbdfec179d1e5cbbd0c907f790546b2b6734c2190e1734dca09fc7af3ad",
+      "coincide": true
+    },
+    {
+      "ruta": "docs/INTERFAZ_DIGITIZACION.md",
+      "esperado": "d510e025a4979de9c991a6062d0bb8eb67c15352fd9b5baaa23286de9eb06b83",
+      "observado": "d510e025a4979de9c991a6062d0bb8eb67c15352fd9b5baaa23286de9eb06b83",
+      "coincide": true
+    },
+    {
+      "ruta": "seguimiento/ANTIGRAVITY_356_INFORME.md",
+      "esperado": "359aefec56f1a0e5a4c57efc5bf85f673d71c89d655ea0c021cd90df5f3663f7",
+      "observado": "359aefec56f1a0e5a4c57efc5bf85f673d71c89d655ea0c021cd90df5f3663f7",
+      "coincide": true
+    }
+  ],
+  "pruebas": [
+    {
+      "comando": ".\\.venv\\Scripts\\python.exe -X utf8 -B -m unittest -v tests.test_revision_digitizacion",
+      "resultado": "OK",
+      "pruebas": 12,
+      "fallos": 0,
+      "errores": 0,
+      "duracion_unittest_segundos": 7.685,
+      "exit_code": 0,
+      "entorno": "sandbox Windows; sin escalado",
+      "alcance": "sintetico"
+    },
+    {
+      "comando": "node tests/digitizacion_353_frontend.cjs",
+      "resultado": "OK (7 bloques)",
+      "bloques": 7,
+      "exit_code": 0,
+      "entorno": "Node y DOM simulado",
+      "alcance": "sintetico"
+    }
+  ],
+  "contraste_semantico": [
+    {
+      "defecto": "355-01",
+      "resultado": "corregido",
+      "evidencia": "Los constructores puros de preparada, pendiente_referencias y calculada son compartidos entre producir y verificar. La lectura rederiva contexto/catalogo, normaliza propuesta, reproduce nucleo y compara igualdad canonica del registro completo sin huella. Resumen, pendientes, catalogo y flags alterados con hashes recalculados generan registro_alterado; listar conserva no vigente.",
+      "ubicaciones": [
+        "draft2model/revision_digitizacion.py:245",
+        "draft2model/revision_digitizacion.py:448",
+        "draft2model/revision_digitizacion.py:1156",
+        "draft2model/revision_digitizacion.py:1622",
+        "draft2model/revision_digitizacion.py:1706"
+      ],
+      "prueba_regresion": "test_rechaza_alteracion_de_resumen_pendientes_catalogo_y_flags_con_hashes_recalculados y test_rechaza_alteracion_semantica_en_preparada_pendiente_y_con_referencias_textuales"
+    },
+    {
+      "defecto": "355-02",
+      "resultado": "corregido",
+      "evidencia": "Las operaciones capturan identidad del expediente, firma geometrica ID/huella/SHA, generaciones y token de operacion. Eventos de geometria y ediciones invalidan solicitudes en vuelo; las respuestas tardias se descartan antes de renderizar. Calcular exige ademas preparacion de la misma firma geometrica. Regresiones diferidas cubren preparar, calcular, abrir, historial y editar fuente/tolerancia/uv.",
+      "ubicaciones": [
+        "draft2model/revision_web/digitizacion.js:290",
+        "draft2model/revision_web/digitizacion.js:306",
+        "draft2model/revision_web/digitizacion.js:376",
+        "draft2model/revision_web/digitizacion.js:759",
+        "draft2model/revision_web/digitizacion.js:1137"
+      ],
+      "prueba_regresion": "bloques DOM 6 y 7"
+    }
+  ],
+  "invariantes": [
+    "Referencias textuales no acreditan ubicacion uv_local; exactitud_documental_acreditada permanece false.",
+    "Borrador con aprobacion null; disponible_para_modelado, aprueba_ingenieria y ejecuta_etabs permanecen false.",
+    "Los nuevos constructores canonicos son contrato de comprobacion; los hashes locales solos no acreditan autenticidad."
+  ],
+  "hallazgos": [],
+  "limitaciones": [
+    "Revision focal sobre dos defectos 355 y contratos derivados 356; no auditoria extensiva.",
+    "Pruebas sinteticas locales con persistencia de fixtures y DOM simulado; sin planos reales ni validacion de interfaz en navegador real.",
+    "No suite completa, API externa, claves, ETABS, Git, GUI ni servidores.",
+    "No se editaron codigo ni tests; los temporales propios de las pruebas se crean y limpian por su fixture.",
+    "Las rutas HTTP y carga del asset corresponden a integracion de root y quedan fuera de esta revision."
+  ],
+  "apis_usadas": 0,
+  "etabs_usado": false
+}

@@ -1,0 +1,12 @@
+{
+  "estado": "implementado_y_revisado_focal",
+  "agente": "/root/interfaz_losas_244",
+  "fuentes": "INTEGRIDAD_UI_244.json;3archivos yhashes comprobados porCodex; snapshot244=base243+interfaz nueva",
+  "comportamiento": "Controles por sección homogénea/nervada/casetonada, función yformulación sininferir, justificación obligatoria, mapa exacto. Sinmuros no exige/envía tipo_shell_muro. Rechazo de dobleautoridadJSON yMembrane para fondos/tapas.",
+  "pruebas": "Nodefocal ejecutado porCodex sobrecopia244:OK; incluyeconfirmación/idempotencia yrespuestas/rechazos tardíos preparación/ejecución porcaso/config/edición/selección.",
+  "visual": "IAB localhost8806, datos sintéticos r3 existentes, configuración dac6018942c6462d81c8feed56e7fc57. Secciones LOSA20 yALIG muestrancamposvacíos habilitados, etiquetasasociadas ysin desbordamiento observado. Consolasinerror. SoloGET/consulta, ningunapreparación/ejecución/edición persistida.",
+  "limite": "QAvisual sobrebackend congelado243, no elnuevoR241; no prueba construcción real ni integración nativa delmapa. Expediente sintético mostróavisodeoriginal noabrible/cambiado: no acredita ingreso visual deplanos. Elobjetivo eravercontroles, noaprobarfuentes ni modelo.",
+  "api_llamadas": 0,
+  "etabs_ejecutado": false,
+  "limpieza": "Pestañatemporal cerrada; servidorpropio55186 detenido conCtrlC."
+}

@@ -1,0 +1,123 @@
+{
+  "fecha_utc": "2026-10-23T03:53:58.441722+00:00",
+  "resultado_id": "697bb37e9ce64f90ba1ef3e25733c8cc",
+  "comprobaciones": [
+    {
+      "id": "T1",
+      "tabla": "Modal Periods And Frequencies",
+      "fila": 0,
+      "campo": "Period",
+      "valor": "1.339",
+      "unidad": "s"
+    },
+    {
+      "id": "T2",
+      "tabla": "Modal Periods And Frequencies",
+      "fila": 1,
+      "campo": "Period",
+      "valor": "0.358",
+      "unidad": "s"
+    },
+    {
+      "id": "T3",
+      "tabla": "Modal Periods And Frequencies",
+      "fila": 2,
+      "campo": "Period",
+      "valor": "0.224",
+      "unidad": "s"
+    },
+    {
+      "id": "D-SX-N1",
+      "tabla": "Story Drifts",
+      "fila": 58,
+      "campo": "Drift",
+      "valor": "0.00048",
+      "unidad": "1"
+    },
+    {
+      "id": "D-SX-N2",
+      "tabla": "Story Drifts",
+      "fila": 40,
+      "campo": "Drift",
+      "valor": "0.001133",
+      "unidad": "1"
+    },
+    {
+      "id": "D-SX-N3",
+      "tabla": "Story Drifts",
+      "fila": 22,
+      "campo": "Drift",
+      "valor": "0.001402",
+      "unidad": "1"
+    },
+    {
+      "id": "D-SX-N4",
+      "tabla": "Story Drifts",
+      "fila": 0,
+      "campo": "Drift",
+      "valor": "0.000145",
+      "unidad": "1"
+    },
+    {
+      "id": "D-SY-N1",
+      "tabla": "Story Drifts",
+      "fila": 59,
+      "campo": "Drift",
+      "valor": "0.002029",
+      "unidad": "1"
+    },
+    {
+      "id": "D-SY-N2",
+      "tabla": "Story Drifts",
+      "fila": 41,
+      "campo": "Drift",
+      "valor": "0.004786",
+      "unidad": "1"
+    },
+    {
+      "id": "D-SY-N3",
+      "tabla": "Story Drifts",
+      "fila": 23,
+      "campo": "Drift",
+      "valor": "0.005976",
+      "unidad": "1"
+    },
+    {
+      "id": "D-SY-N4",
+      "tabla": "Story Drifts",
+      "fila": 3,
+      "campo": "Drift",
+      "valor": "0.000548",
+      "unidad": "1"
+    },
+    {
+      "id": "V-SX",
+      "tabla": "Base Reactions",
+      "fila": 0,
+      "campo": "FX",
+      "valor": "672.5354",
+      "unidad": "kN"
+    },
+    {
+      "id": "V-SY",
+      "tabla": "Base Reactions",
+      "fila": 1,
+      "campo": "FY",
+      "valor": "528.1533",
+      "unidad": "kN"
+    }
+  ],
+  "lectura_fuente": "b8d0f12e93ce4014b57fb3008623a682",
+  "sha256_edb": "42371308a03d4f1bac8f5ed3aa5daf0421cdf3de27ff823f8f582c13ad2af394",
+  "fuentes_sha256": {
+    "resultados.json": "c72fa25d169df05b32e992cb2051c422de564b62f482a3efbaa1123ead4a3900",
+    "trazabilidad.json": "26f0228384de449fff896ea0d35d636c85c93f85f683a7617b5058d0bd3055a4",
+    "mapeo.json": "0938d1669538b4deb65049e3da32fcf742d7fe00968627cb5da7a9d17005c838",
+    "respuesta_puente.json": "e24893264ef9119ab350ff545e30c9e57279205c5667153ba9ac1f61ba96c8cd",
+    "configuracion.json": "f3b737978b419acf331e8b85b2ea7d69c76827a22b7468d306051a950ca652fb"
+  },
+  "fuentes_estables": true,
+  "alcance": "Valores normalizados iguales a filas unívocas de la misma respuesta nativa archivada y EDB por hash. No revalidación completa de aprobación/configuración, no nuevo análisis ni cumplimiento normativo.",
+  "aprueba_ingenieria": false,
+  "goal_completo": false
+}

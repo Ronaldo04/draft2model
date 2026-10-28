@@ -1,0 +1,58 @@
+{
+  "tarea": "adaptador_anthropic",
+  "estado": "entregado",
+  "fecha": "2026-10-19",
+  "archivos": {
+    "draft2model/proveedor_anthropic.py": "d12892c04542053ca9da1ad8801c3054abba36ef763193ed08501113af19b5ad",
+    "tests/test_proveedor_anthropic.py": "af5ca3d65178bf64e9813b1afbdb1229babbd496f20d2513d7a9e3a969b45a4e",
+    "docs/PROTOCOLO_ANTHROPIC.md": "cabcbba76234765993cce0d60aa7341096db92f9ac19a6c95933582f6b6256e7"
+  },
+  "pruebas": {
+    "comando": "python -m unittest tests.test_proveedor_anthropic -v",
+    "entorno": "TEMP/TMP=tmp/anthropic_qa; socket.create_connection, socket.socket.connect y subprocess.Popen bloqueados",
+    "python": "3.11.15",
+    "resultado": "Ran 11 tests in 0.050s · OK",
+    "codigo_salida": 0,
+    "log": "tmp/anthropic_qa/pruebas.log",
+    "naturaleza": "dobles locales (transporte simulado y respuestas Messages ficticias); no es prueba real"
+  },
+  "api": {
+    "endpoint": "https://api.anthropic.com/v1/messages",
+    "cabeceras": [
+      "x-api-key",
+      "anthropic-version: 2023-06-01",
+      "Content-Type: application/json"
+    ],
+    "cuerpo": [
+      "model",
+      "max_tokens",
+      "system",
+      "messages",
+      "output_config.format{type:json_schema,schema}"
+    ],
+    "restricciones_trasladadas_a_description": [
+      "minimum",
+      "maximum",
+      "exclusiveMinimum",
+      "exclusiveMaximum",
+      "multipleOf",
+      "minLength",
+      "maxLength",
+      "maxItems",
+      "minItems (salvo 0/1)"
+    ],
+    "esquema_original": "sin mutar (copia profunda); validación local vigente decide"
+  },
+  "limites": [
+    "Sin clave, sin llamada API real, sin ETABS, sin instalaciones ni suite global.",
+    "No se acredita compatibilidad de ningún modelo o cuenta Anthropic.",
+    "Límites 5 MiB/imagen, 8000 px, 100 imágenes (2000 px si >20) y 32 000 000 bytes son locales y conservadores; no verificados con API real.",
+    "Fuentes primarias citadas por el encargo no consultadas desde aquí (sin red); referencia: firma 2023-06-01 y output_config.format según documentación conocida.",
+    "Registro, ANTHROPIC_API_KEY, uso/id/modelo, detalle_auto=True e integración UI/servicios pendientes de Codex; hasta entonces no es seleccionable.",
+    "Sin streaming, herramientas, fallbacks, betas ni parámetros de razonamiento."
+  ],
+  "conflictos": [
+    "Ningún archivo existente editado.",
+    "Artefactos incidentales de ejecución: tmp/anthropic_qa/ (log) y __pycache__ de draft2model/tests generados por Python al importar."
+  ]
+}

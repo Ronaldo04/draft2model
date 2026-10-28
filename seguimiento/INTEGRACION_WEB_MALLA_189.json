@@ -1,0 +1,17 @@
+{
+  "estado": "integracion_web_despacho_y_regresion_verificados",
+  "archivos": {
+    "draft2model/revision_ejecucion.py": "54a147c62c6c2241908e635d10190bf6d64b050dc66e91140eee57782be2389b",
+    "tests/test_gestion_planes.py": "24d4771dcc7244ee508552ec0df251443eef017c1f16e1128f0dcbed8ca27a36",
+    "seguimiento/estado_claude.py": "0daeca67a45c9b63d17d828d8ee63b77aa9ba3fe130062678bdeb41813270750",
+    "tmp/firmas_malla_188.json": "6c02a8e48b5de47f8eab039083c1a0a2677be06113e73f0cb7851ab73346373d",
+    "tmp/revision_ejecucion_189_host.log": "8235e890c1c733c77581a485779019552017541aeb342cbc65e730dace6e1b93",
+    "tmp/gestion_planes_189.log": "f792493117acf8daed147979ac2df9798082b9c6128ff4132325d467cf9ebfed"
+  },
+  "pruebas_web_http": "12OK0omit13.941s transportesPython simulados",
+  "pruebas_planes": "4OK0omit0.629s",
+  "firmas_nativas": "74métodos sin diferencias DLL1.29",
+  "etabs_real": false,
+  "api_ia": 0,
+  "pendiente": "Ensayo del plan0.4 normal en instancia propia, luego relectura; UI delegada189."
+}

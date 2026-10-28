@@ -1,0 +1,76 @@
+{
+  "tarea": "rendimiento_284_orden_exacto_contexto_y_bucles",
+  "fecha": "2026-10-23",
+  "correcciones": [
+    {
+      "hallazgo": "REPRODUCCION_ORDEN_CACHE_284 (Codex)",
+      "causa": "clave y sello con sort_keys: entradas reordenadas compartían entrada y la salida dependía del historial",
+      "correccion": "cache_malla_pura y cache_validacion_geometria: clave y sello en ORDEN EXACTO (_exacto_o_none); canónico solo para validar tipos JSON",
+      "pruebas": "OrdenExactoTests (malla) y test_orden_cruzado_igual_al_original (validación); test de acierto canónico actualizado: otro orden = otra clave"
+    }
+  ],
+  "integraciones": [
+    {
+      "candidato": "tmp/candidato_contexto_282/particion_superficies.py (Codex)",
+      "base_comprobada": "8ce5915a… = producto",
+      "sha_integrado": "a51d5fb5…",
+      "pruebas": "tests/test_contexto_particion_284.py (5, portadas) + test_particion_superficies + regresión malla/cache: OK; 5 planes completos no repetidos (Codex, mismo candidato)"
+    }
+  ],
+  "rendimiento": {
+    "medido_282": {
+      "verificacion_caliente_s": 129.7,
+      "antes_s": 137.5,
+      "validar_geometria_s": "43 → 18"
+    },
+    "bucles_cuadraticos_sustituidos": {
+      "cargas_distribuidas": "≈27 s (3610×7450×2 startswith) → una pasada, equivalencia exacta incl. orden",
+      "cobertura_hosts_en_problemas_malla": "≈26 s (2502×5231 por llamada) → agrupación previa equivalente"
+    },
+    "pendiente": "medición final con todos los cambios en una sola ejecución al cerrar",
+    "medido_284": {
+      "verificacion_fria_s": {
+        "pared": 519.6,
+        "cpu": 479.7
+      },
+      "verificacion_caliente_s": {
+        "pared": 109.7,
+        "cpu": 81.0
+      },
+      "serie": {
+        "279": {
+          "fria": 581.9,
+          "caliente": 137.5
+        },
+        "282": {
+          "fria": 609.7,
+          "caliente": 129.7
+        },
+        "284": {
+          "fria": 519.6,
+          "caliente": 109.7
+        }
+      },
+      "nota": "Una verificación de verificar_analisis_aceptado (perfil propio, mismo script); no es tiempo global del recorrido. El proceso de medición se lanzó tras los bucles y puede no incluir la integración del contexto 282 ni el orden exacto si cargó módulos antes.",
+      "fuente": "tmp/ruta201/perfil_verificacion_284.json",
+      "sha256": "bb5632974e0a912649a2c350be38116c43ca2d7cba916b154bf2f5d774b6ed87"
+    }
+  },
+  "pruebas": {
+    "planes_y_evidencia": "113 OK (focos284.log)",
+    "caches_y_contexto": "19 + 5 + regresiones de malla OK"
+  },
+  "hashes": {
+    "draft2model/cache_malla_pura.py": "ae661f0e219cffd77864f14120c97d3184c37b24f4cd711bb4f898fca2413111",
+    "draft2model/cache_validacion_geometria.py": "8f315cad171d4f57c0b4088121909023a1721bc1a7564e50533ea92df1a89aba",
+    "draft2model/particion_superficies.py": "a51d5fb50018d0b6e4bb10d4499bf762972328418ae85403adb0f7abd30c780b",
+    "draft2model/operaciones_etabs.py": "050bce2244da07a32aab5dcd938ab1639b062dab30e2ec1c4c17e89f3572d756",
+    "tests/test_cache_malla_pura_268.py": "d8b9c24622016b34fcbe20d62ebcfbaa45ba8334a4ea8c4b8d95abd2527f54e4",
+    "tests/test_cache_validacion_geometria_282.py": "603f1b3c957b1c3fe2115ecb37e93c4082c1d608e2c41b5fc9d54bbd44320f61",
+    "tests/test_contexto_particion_284.py": "c00e5097fe8604cb1f9e1d7ddc81a04253bcf3ca76ed8d1fe7e1358a2038d2f9",
+    "tests/test_cargas_distribuidas_284.py": "a5b98f14f58e9da9d7f501fd5e20b773568ccf625843188cc680c8f7ad3dfe9b",
+    "tmp/ruta201/focos284.log": "62124f48eba30d3d05d0f8a4fc808769f9582c74e769734cb8252bf65e7a3d70",
+    "tmp/ruta201/perfil_verificacion_282.json": "edef29655a6e517368c205d38a5c939b4ac0c1cb13d5f699c9ceb59bb8996958"
+  },
+  "apis": 0
+}

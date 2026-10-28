@@ -1,0 +1,43 @@
+{
+  "tarea": "particion_superficies_180",
+  "estado": "entregado",
+  "fecha": "2026-10-20",
+  "carpeta": "D:/RONALDO CUCHILLA/1. RONALDO CUCHILLA/2. INGENIERÍA CIVIL DOCS AND PROJECTS/AECODE CURSOS/AECODE AI TALENT/PROYECTO FINAL",
+  "archivos": {
+    "draft2model/particion_superficies.py": "fcb0ee3fe0a173e9848207b1cb40075d71e7677b7fcdb4f64d980badd7ce5248",
+    "tests/test_particion_superficies.py": "425e75f455976c3da088e745c97523dc03f8304045f036bda4cb48ae61f8ee89",
+    "docs/PARTICION_SUPERFICIES.md": "837d410cf6cdfc7d9a9b27ebdbd575e08adee7231c91d745a69c8e680c8ed9e4"
+  },
+  "informe": {
+    "seguimiento/INFORME_CLAUDE_PARTICION_180.md": "36dcaa018713e781ae4285f9344cdf3c1c3eac910a0bfdf0757ff19566518575"
+  },
+  "api": {
+    "funcion": "particionar_superficie(geometria, superficie_id) -> dict",
+    "error": "ErrorParticion(ValueError)",
+    "contrato_salida": "draft2model.particion_superficie 0.1.0 (ejecutable=false, aprueba_ingenieria=false)"
+  },
+  "pruebas": [
+    {
+      "comando": ".venv/Scripts/python.exe -m unittest -v tests.test_particion_superficies",
+      "temp": "tmp/claude_particion_180",
+      "resultado": "10 OK",
+      "omisiones": 0,
+      "codigo": 0,
+      "log": "tmp/claude_particion_180/pruebas.log",
+      "log_sha256": "6ecb51063cf45c5ee1481ffd7b6219e60ce11e80108b3913ef881d78ad9c7b51"
+    }
+  ],
+  "limitaciones": [
+    "Conformidad solo intrahost; compatibilidad interhost/frames pendiente.",
+    "Celdas convexas de franja (posibles ángulos de 180° y formas alargadas); calidad de malla no evaluada.",
+    "Casos numéricamente ambiguos rechazados con causa, sin redondeos ni fusiones.",
+    "No asigna material/ejes/cargas/masa; no ETABS ni prueba de efecto estructural."
+  ],
+  "pendientes_codex": [
+    "asignaciones/material/ejes/cargas/masa de piezas",
+    "conexiones interhost y con frames",
+    "revisión de calidad/mallado con criterios declarados",
+    "prueba ETABS, reapertura y lectura independiente"
+  ],
+  "restricciones": "cero API, sin credenciales, sin ETABS real, sin instalaciones ni políticas; lector liberado sin edición; ningún archivo ajeno editado"
+}

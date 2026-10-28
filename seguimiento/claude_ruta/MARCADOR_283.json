@@ -1,0 +1,37 @@
+{
+  "tarea": "resumen_geometrico_informe_panel_283_y_validacion_282",
+  "fecha": "2026-10-23",
+  "hallazgo": "seguimiento/HALLAZGO_INFORME_GEOMETRIA_283.json (Muros 0 / Niveles 8 en geometría 0.3)",
+  "correccion": [
+    "resumen_geometria compartido: representación por superficies, superficies por papel declarado (no muros físicos), niveles de piso (base + pisos) y cotas auxiliares",
+    "informe: siete_resultados.geometria_muros.resumen_superficies SOLO para 0.2/0.3; numero_muros/numero_niveles conservan su valor histórico; HTML/PDF muestran el resumen",
+    "panel: datos.resumen_geometria opcional (0.2/0.3) y validación exacta en revision_paneles; JS muestra el resumen",
+    "contrato 0.1 y fixtures históricos sin cambios"
+  ],
+  "compatibilidad": "borradores 0.3 creados antes (p. ej. QA dccadc61 de Codex) dejan de validar contra el código nuevo y deben regenerarse como borradores; no se tocó esa copia ni se creó otro informe",
+  "otros": [
+    "cache de validar_geometria sellada (282): 255 pruebas de regresión OK; medición caliente pendiente",
+    "docstring single-flight corregido"
+  ],
+  "pruebas": {
+    "resumen_283_y_suites_informe_panel": "70 OK",
+    "frontend": [
+      "revision_paneles_frontend.cjs OK",
+      "informe_relectura_frontend.cjs OK"
+    ],
+    "regresion_282": "255 OK (tmp/ruta201/focos282.log)"
+  },
+  "hashes": {
+    "draft2model/resumen_geometria.py": "d54b78e29a6782c31a700c4f27ad02fa35f0d5e300105d5ea01bc9633b9610b3",
+    "draft2model/informe.py": "d07e91847b0ddb5266961995db856cfe99b4e2b0824e9c58e37ce524766ed2c6",
+    "draft2model/panel_tecnico.py": "c5e886a4b1bfb6fdc98d8db55d2223fd80563185e649a22a8ce33d3f9ae3e627",
+    "draft2model/revision_paneles.py": "43a5fc99417bccfac49d1b92cc32925654140b3d2abdb85937dc6ad984fba9a3",
+    "tests/test_resumen_geometria_283.py": "4341a8f298a1ba3205a619c4b4b5edc928907fbac481715a13c27e5471c23e49",
+    "draft2model/cache_validacion_geometria.py": "1badb28f74cc2c10e37fb075f0853feeef5abd3c453cd3f2340a940a6b33c006",
+    "draft2model/validacion_geometria.py": "e0b7e60d5bf31522a53cb7743e85d1a2416fe7d331c9b35491ff1dc3eb9f5abe",
+    "tests/test_cache_validacion_geometria_282.py": "0beaa3b16f98948aa2a228943908f2899b173404eb7dcc289ca609ca40b4370c",
+    "draft2model/cache_malla_pura.py": "1500219fa8b72716830592b22b13fbb5727cafa0d4a16c39df208476075e054e",
+    "tmp/ruta201/focos282.log": "67e2b67133f33258f8e7929edcc51e3ccd0cc3f361c5b5dd52edcd20c793e942"
+  },
+  "apis": 0
+}

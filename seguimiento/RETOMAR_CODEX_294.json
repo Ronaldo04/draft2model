@@ -1,0 +1,126 @@
+{
+  "fecha_utc": "2026-10-23T21:47:08.406015+00:00",
+  "goal_completo": false,
+  "clasificacion": "progreso_backend301_liberado",
+  "cuota_observada": {
+    "ventana_300min_restante_porcentaje": 65,
+    "semanal_restante_porcentaje": 94,
+    "sin_reset_manual": true
+  },
+  "politica_cuota": {
+    "restante_hasta_5": "No iniciar nuevas pruebas largas ni trabajos costosos; guardar estado y cerrar operaciones propias de forma segura.",
+    "restante_hasta_1": "Guardar novedades y terminar sin nuevos encargos, GUI o pruebas. No declarar goal completo, pausado o bloqueado por cuota.",
+    "precision": "No es posible garantizar un corte exacto antes del ultimo token; revisar cuota antes de operaciones costosas y entre hitos."
+  },
+  "claude": {
+    "encargo": "seguimiento/REPARTO_301_INVENTARIO_ANALISIS.md",
+    "envio": "Confirmado visualmente en historial y RECEPCION_301.json; compositor vacío en captura, AX momentáneamente obsoleto. Escape posterior suspendió control.",
+    "objetivo": "Continuacion aislada desde control publicado para reglas/informe/panel sin duplicar ETABS ni pisar registro09d1.",
+    "marcador_ahora": "sin_marcador, etapa04 trabajando; no demuestra inactividad ni finalizacion.",
+    "proceso_historico": {
+      "pid": 39028,
+      "creacion": "2026-10-22T21:24:50.286587-05:00",
+      "comando": "seguimiento/claude_ruta/resultados_09.py --trabajo tmp/recorrido_09d1 --etapa controles",
+      "estado": "CIM host confirma39028 con creacion original en este checkpoint; vivo. No reiniciar."
+    },
+    "continuacion_confirmada": "tmp/recorrido_09d2: controles revalidados y reglas publicados en registro_resultados.json; informe en ejecucion.",
+    "proceso_informe": {
+      "pid": 14860,
+      "creacion": "2026-10-23T11:17:09.976305-05:00",
+      "padre": 12740,
+      "estado": "Informe y panel ya publicados en09d2 y10hashes coinciden con MARCADOR_09D_FINAL; no asumir estado de PID14860 antiguo ni reiniciarlo. Clausura del proceso no consultada ahora.",
+      "comando": "seguimiento/claude_ruta/resultados_09.py --trabajo tmp/recorrido_09d2 --etapa informe"
+    },
+    "continuacion_actual": "tmp/recorrido_09d3 observada; registro nuevo contiene controles/reglas publicados. Informe/panel corregidos y marcador290 aun no observados."
+  },
+  "evidencias_aceptadas": [
+    "seguimiento/REVISION_INTEGRACION_285.json:13 focales OK, orden de cache corregido; candidato integrado identico al verificado284.",
+    "seguimiento/REVISION_CONTROLES_REALES_285.json:control f4d1eb0004804d499d369587ff44c85e, hashes y nucleo recalculados; no equivale a aprobacion normativa o de ingenieria.",
+    "seguimiento/REVISION_RESUMEN_284.json:resumen puro2502superficies,5referencias de piso incluida base,3auxiliares; QA nueva pendiente.",
+    "seguimiento/REVISION_REGLAS_REALES_286.json:18 comparaciones reales del escenario recalculadas y contrastadas con Decimal;8satisfacen,10no. No certifica hipotesis ni norma profesional.",
+    "REVISION_INSTALACION_287.json:6/6 pasos exit0; venv nuevo, instalacion offline con hashes, pip check, CLI principal/visual e imports;588fuentes estables en runtime285. No es paquete final ni prueba completa del flujo.",
+    "REVISION_INVENTARIO_289.json:4HTTP nuevos OK0.831s, regresiones frontend listado exit0; hashes marcador288 coinciden y fuentes estables. Rechazo de alteraciones preservado, inventario no acredita vigencia. Mediciones de Claude no repetidas por root.",
+    "REVISION_INFORME_PANEL_290.json:10hashes coinciden,8paginas revisadas,18evaluaciones iguales286, resumen283 correcto; NO aceptacion final por2defectos presentacion y1error del resumen del marcador.",
+    "REVISION_UNIDADES_292.json:18valores/decisiones idénticos; cociente entrada kN salida1;4unidades inválidas rechazadas con aprobación vigente; HTML sintético completo. No PDF real corregido.",
+    "DOCUMENTACION_LIBERADA_294.json:4documentos actualizados con estado real; enlaces locales comprobados; no acredita entrega final."
+  ],
+  "qa_activa": {
+    "runtime": "tmp/runtime_qa_299",
+    "huella": "894b99728fbd10efd8cee3f90ac08ef787279106751516d29785ff0eecbd8959",
+    "sesion_exec": 7665,
+    "url": "http://127.0.0.1:18299/",
+    "browser": "IAB7 qa299 marcadohandoff",
+    "estado": "Servidor299 exec7665 cerrado intencionalmente:13resultados y25regresiones ya verificados; se cancelaron solo consultas HTTP de análisis previas a301, sin POST, ETABS ni proveedores. No reiniciar para esperar.",
+    "evidencia": "seguimiento/QA_HISTORIALES_REALES_299.json",
+    "regresion_frontend": "25casosOK en copia299; no suite global",
+    "cerrado": true
+  },
+  "qa_historica": {
+    "sesion17813": "CERRADA intencionalmente; no reiniciar.",
+    "informe": "dccadc6138fb412bab4122eded6df107",
+    "ruta": "tmp/anexo_reubicado_268/pueblo-libre-002/informes/dccadc6138fb412bab4122eded6df107",
+    "estado": "Conservado, no final, resumen semantico defectuoso283; descargasUI no confirmadas. No editar evidencia historica."
+  },
+  "siguiente": [
+    "Cuando frontend301 termine, congelar fuentes NUEVAS y probar inventario/comprobación del análisis seleccionado; no usar299 como prueba301 ni reiniciar servidores históricos.",
+    "Continuar QA299/IAB7 con resultado ya abierto; no volver a seleccionarlo. Esperar/verificar consulta de análisis en informes antes de crear borrador enlazado. No declarar descarga confirmada.",
+    "Consultar estado y archivos293/290, sin Computer Use suspendido. Encargo293 enviado por usuario. Documentos liberados, no esperar otro aviso.",
+    "Claude: carga deliberada de historiales, pruebas focales y cierre290. Codex: complemento definitivo desde salidas corregidas, QA y aceptación requisito por requisito.",
+    "No aceptar09d2 como informe final ni reconstruir/reiniciar09d3 por demora. Su registro aún sin informe/panel al último vistazo.",
+    "Después de293 usar copia de fuentes fija NUEVA; una suite global y QA final. Fuentes292 no contienen293.",
+    "Crear complemento final una sola vez desde continuación corregida/revisada, con corpus público. No usar candidato291 como final."
+  ],
+  "restricciones": [
+    "Claude producto/tests/runner; Codex seguimiento/QA. Comprobar cambios antes de editar.",
+    "Proyectos2/3 solo inventariados, no procesarlos hasta validar primero.",
+    "APIs OpenAI4/5 y Gemini2/5 consumidas; solo planos, no llamadas adicionales por reanudacion.",
+    "Contraste oficial de masa sigue no_coherente; escenarios suelo/sistema son hipotesis; no ajustar tolerancias para aprobar.",
+    "No tocar instancias ETABS ajenas, ni reiniciar procesos por reinicio de cuota."
+  ],
+  "reanudacion": "Consultar cuota PRIMERO. Si <=1% restante guardar solo novedades imprescindibles y finalizar sin nuevas comprobaciones/GUI. Con margen recuperado leer este JSON y docs/RETOMAR.md, ejecutar marcador y observar procesos/artefactos existentes sin reiniciarlos. No usar reset manual automaticamente.",
+  "qa_panel_290": {
+    "servidor_exec": 88326,
+    "url": "http://127.0.0.1:18290/panel.html",
+    "comando": "python -B -m http.server18290 --bind127.0.0.1 --directory . desde tmp/recorrido_09d2/resultados (argumentos separados)",
+    "browser": "IAB6/bindingpanel290 marcadohandoff; filtroSY+deriva4filas",
+    "alcance": "Servidor estatico solo artefactos del caso, no aplicacion ni integraciones. Panel historico previo a correccion290.",
+    "estado": "Servidor estático histórico88326 cerrado intencionalmente al completar revisión; captura conservada. No reiniciar para esperar09d3."
+  },
+  "complemento_291": {
+    "responsable": "Codex",
+    "utilidad": "seguimiento/exportar_complemento_291.py",
+    "pruebas": "seguimiento/test_exportar_complemento_291.py:10/10OK1.479s",
+    "guia": "seguimiento/GUIA_COMPLEMENTO_291.md",
+    "revision": "seguimiento/REVISION_COMPLEMENTO_291.json",
+    "candidato": "entregas/COMPLEMENTO_CANDIDATO_291",
+    "zip_sha256": "12e3670f869fc0b53334d71c5abae2397c17328c11ffd52f5ba281dd44a4a8ae",
+    "zip_bytes": 65908419,
+    "miembros_externos": 34,
+    "miembros_caso": 310,
+    "originalesPDF": 6,
+    "archivosEDB": 7,
+    "fuentes_publicas": 20,
+    "estado": "Transporte real verificado desde09d2 antiguo; NO final por defectos290. Repetir una sola vez desde la nueva continuacion revisada para complemento final.",
+    "confidencialidad": "Solo caso002 mas salidas seleccionadas y corpus publico explicitamente elegido; no otras carpetas privadas, claves ni proyectos2/3.",
+    "nueva_ejecucion_portable": "No verificada; conserva bytes/rutas/recibos historicos sin alteracion."
+  },
+  "documentacion294": "seguimiento/DOCUMENTACION_LIBERADA_294.json",
+  "auditoria_cierre_actual": "seguimiento/CRITERIOS_CIERRE_295.json",
+  "proceso09d3_observado": {
+    "pid": 30852,
+    "padre": 32484,
+    "creacion_local": "2026-10-23T15:50:28.219965-05:00",
+    "etapa": "informe",
+    "estado": "CIM confirma proceso vivo, sin relanzar"
+  },
+  "implementacion296": {
+    "script": "scripts/verificar_entrega_aecode.py",
+    "tests": "tests/test_verificar_entrega_aecode.py",
+    "evidencia": "seguimiento/REVISION_VERIFICADOR_ENTREGA_298.json",
+    "estado": "Extendido298:9focalesOK, integridad históricaOK y enlace resultado/analisis/modelo/EDB",
+    "pendiente": "Incluir en siguiente congelación después de293; Codex no retiene reserva de edición"
+  },
+  "observacion_informe297": "seguimiento/OBSERVACION_INFORME_297.json",
+  "candidato300": "seguimiento/ENSAYO_RESUMEN_300.json: solo copia descartada, no integrado",
+  "backend301": "7pruebasOK, inventario real11ms; ENTREGA_BACKEND_301.json. Liberado."
+}

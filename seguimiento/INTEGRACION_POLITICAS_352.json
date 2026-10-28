@@ -1,0 +1,63 @@
+{
+  "fecha_utc": "2026-10-25T07:24:11.251330+00:00",
+  "revision": 352,
+  "responsable": "digitizacion_calibrada_350",
+  "estado": "tres_hitos_implementados_y_verificados_focalmente",
+  "archivos_sha256": {
+    "draft2model/revision_politicas_malla.py": "a1fb77f45da1226cf6145cfe99fab82a7a998bcdd01bda9da981eb5730158247",
+    "draft2model/revision_web/politicas_malla.js": "51f79b9c95627456f6698db93e8a5f74281f873da6a06d0c9ec4504ef0fa2d97",
+    "tests/test_revision_politicas_malla.py": "e1070f2277572041585f31a4b90e60dfa3f5c26e84968dafe75d7e96203cebad",
+    "tests/politicas_malla_351_frontend.cjs": "6d3be7b0df3163f4d32087fc3b8eaf13e8c369942c869ce99d7777643410da5e",
+    "docs/INTERFAZ_POLITICAS_MALLA.md": "34878051b7cef978ae36c3c39127e959ebaf8dfd7ef0bfd5e302fc1930f7a659"
+  },
+  "algoritmo_original_sha256": "4bcb7e8afa495a4f3fec3866080465df5dd20e91d3204b98a7ceb098ecadf071",
+  "hitos": {
+    "1_servicio": "ServicioPoliticasMalla: previsualizar/aplicar con _cargar/_guardar reales, geometria vigente, padre exacto, huella y codigo vigente; hijo borrador sin aprobacion",
+    "2_formulario": "Formulario semantico sin JSON obligatorio; reglas plano/borde, seis estados explicitos, diafragma/resto/subdivisiones, fuente y declaracion; resultados tardios, sin guardar y ramas controlados por eventos",
+    "3_pruebas": "10 backend en disco sintetico OK;1 archivo frontend Node/DOM simulado OK"
+  },
+  "pruebas": [
+    {
+      "comando": ".venv/Scripts/python.exe -B -m unittest tests.test_revision_politicas_malla -v",
+      "entorno": "host autorizado tras bloqueo sandbox Windows rename WinError5",
+      "cantidad": 10,
+      "fallos": 0,
+      "errores": 0,
+      "segundos_unittest": 5.171,
+      "exit_code": 0,
+      "salida_final": "Ran 10 tests in 5.171s; OK"
+    },
+    {
+      "comando": "node tests/politicas_malla_351_frontend.cjs",
+      "entorno": "sandbox, Node, DOM simulado",
+      "archivos": 1,
+      "exit_code": 0,
+      "salida": "Politicas352 frontend: formulario sin JSON, decisiones explicitas, invalidacion, confirmacion, eventos y respuestas tardias: OK"
+    }
+  ],
+  "rechazos_probados": [
+    "original alterado",
+    "geometria alterada",
+    "fuente de configuracion alterada",
+    "registro padre modificado",
+    "huella de vista cambiada",
+    "reglas/declaracion cambiadas",
+    "codigo algoritmo cambiado",
+    "sin confirmacion",
+    "conflictos",
+    "fuentes ajenas",
+    "naturaleza incompatible"
+  ],
+  "limites": [
+    "solo fixtures sinteticas temporales; sin planos reales ni datos privados",
+    "sin peticiones a proveedores, claves, ETABS, Git ni GUI",
+    "sin suite completa ni validacion normativa",
+    "rutas HTTP y carga de script requieren integracion de root en archivos compartidos",
+    "receptor d2m-preconfig-created debe comprobar !sin_guardar y preparacion_origen antes de abrir hijo automaticamente",
+    "no acredita exactitud de decisiones declaradas ni termina etapa de ingenieria",
+    "algoritmo de Antigravity no modificado; no se detecto defecto nuevo en esta integracion"
+  ],
+  "apis_usadas": 0,
+  "etabs_usado": false,
+  "archivos_compartidos_editados": []
+}

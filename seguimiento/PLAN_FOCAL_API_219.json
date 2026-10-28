@@ -1,0 +1,68 @@
+{
+  "estado": "preparado_sin_envio",
+  "paquete": "d18589d636f543ca82f4342b89cedf95",
+  "plan": "data\\private\\provisional-001\\vision\\planes_openai\\decf2acd7fac408ea81af3ba67bca2f0\\plan.json",
+  "regiones": [
+    {
+      "archivo": "L0003",
+      "etiqueta": "tanque-elevado-focal219",
+      "bbox": [
+        0.085,
+        0.59,
+        0.325,
+        0.86
+      ]
+    },
+    {
+      "archivo": "L0003",
+      "etiqueta": "corte-cisterna-focal219",
+      "bbox": [
+        0.34,
+        0.59,
+        0.575,
+        0.87
+      ]
+    },
+    {
+      "archivo": "L0003",
+      "etiqueta": "techo-cisterna-focal219",
+      "bbox": [
+        0.59,
+        0.72,
+        0.76,
+        0.94
+      ]
+    },
+    {
+      "archivo": "L0003",
+      "etiqueta": "aligerado-tipico-focal219",
+      "bbox": [
+        0.615,
+        0.11,
+        0.76,
+        0.205
+      ]
+    },
+    {
+      "archivo": "L0002",
+      "etiqueta": "escalera-dos-tramos-focal219",
+      "bbox": [
+        0.64,
+        0.405,
+        0.91,
+        0.765
+      ]
+    },
+    {
+      "archivo": "L0002",
+      "etiqueta": "titulo-niveles2-3-focal219",
+      "bbox": [
+        0.24,
+        0.915,
+        0.5,
+        0.94
+      ]
+    }
+  ],
+  "alcance": "Lectura de datos impresos. No inferir alturas de piso o nivel operativo de agua a partir de una cota aislada."
+}

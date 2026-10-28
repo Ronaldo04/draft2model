@@ -1,0 +1,24 @@
+{
+  "tarea": "nucleo_321",
+  "modo": "auditoria_aislada",
+  "estado": "revisado",
+  "encargo": "seguimiento/ENCARGO_CLAUDE_NUCLEO_321.md",
+  "archivos": [],
+  "marcador": "seguimiento/claude_ruta/MARCADOR_NUCLEO_321.json",
+  "prefijos_autorizados": [
+    "seguimiento/claude_ruta/nucleo_auto_321/"
+  ],
+  "propietario_implementacion": "Codex, único responsable por decisión del usuario; candidato321 integrado en desarrollo322.",
+  "propietario_revision": "Codex verifica independencia de entradas, archivos y prueba focal antes de integrar.",
+  "confirmacion_envio": "Proyecto y compositor vacío observados; set_value264 y captura; Return y captura de mensaje en historial/compositorvacío.",
+  "creado_utc": "2026-10-24T07:34:25.935426+00:00",
+  "computer_use_suspendido": true,
+  "limite_computer_use": "Autorizado por usuario solo para coordinación. No consultar la ventana mientras trabaja; usar marcador local.",
+  "cuota_claude_observada": "98% semanal utilizado; respetar límite, parcial si ocurre. No reset del usuario.",
+  "historial": "seguimiento/CLAUDE_ESTADO_HISTORICO_308.json",
+  "heartbeat": "Sigue pausado; no prometer vigilancia durante cuotas ni reactivarlo sin petición.",
+  "prueba_sonda": "seguimiento/test_sonda_pdf_309.py:6casosOK; modo PDF parametrizado por tarea, SHA y perímetro estrictos.",
+  "revision_anterior": "seguimiento/REVISION_PREDICTOR_320.json",
+  "siguiente_dependencia": "No asignar ni supervisar Claude. Continuar RETOMAR_CODEX_322.json.",
+  "cierre_coordinacion_utc": "2026-10-24T12:41:51.505148+00:00"
+}

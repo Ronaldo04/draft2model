@@ -1,0 +1,15 @@
+{
+  "para": "Codex (ejecutor exclusivo de API según seguimiento/AUTORIZACION_API_211.json)",
+  "estado": "pendiente_ejecucion_codex",
+  "motivo": "La petición 1 (gpt-5.4) devolvió 34 candidatos: 8/10 correctos en muestra asistida, pero sin ejes, niveles, dimensiones de elementos, materiales, escalera ni cisterna. Causa medida: instrucciones no exhaustivas (2198/8192 tokens de salida). Corregido en draft2model/entrada_vision.py (_prompt).",
+  "peticion_propuesta": {
+    "proveedor": "openai", "modelo": "gpt-5.4", "max_output_tokens": 8192, "detalle": "high",
+    "paquete_nuevo": "data/private/provisional-001/vision/solicitudes/ace03b8bcb5246a3bc77faff54e5a67c (mismos 10 recortes/contextos del paquete 135, prompt nuevo)",
+    "plan_sin_envio": "data/private/provisional-001/vision/planes_openai/2617a919bb2b47a2b4dddce1dc3f08e8/plan.json",
+    "peticion_sha256": "fd651754565bb1ba883c3729dd6e7071d22fce3830212581651854e73112942b",
+    "bytes_peticion": 5293612,
+    "dentro_de_limite": "petición 2 de 5 autorizadas para OpenAI; cota de coste comparable a la petición 1 (~0.22 USD)"
+  },
+  "despues": "Registrar la respuesta como hace piloto_api_211.py (sin reintentos). Claude revisará candidatos, medirá cobertura/errores y preparará geometría/configuración solo con datos sustentados; lo ausente se preguntará una sola vez en lista concreta.",
+  "claude_no_ejecuta_api": true
+}

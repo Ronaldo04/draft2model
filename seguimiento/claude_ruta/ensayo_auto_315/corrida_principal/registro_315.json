@@ -1,0 +1,32 @@
+{
+    "datos_sinteticos":  true,
+    "llamadas_remotas":  0,
+    "fases":  [
+
+              ],
+    "error":  "Cannot convert the \"System.Double[]\" value of type \"System.Double[]\" to type \"System.Double\".",
+    "cierre":  {
+                   "application_exit":  0,
+                   "pid":  14212,
+                   "salio":  true,
+                   "etabs_tras_cierre":  [
+                                             6988,
+                                             23928,
+                                             38168
+                                         ]
+               },
+    "etabs_previos_ajenos":  [
+                                 6988,
+                                 23928,
+                                 38168
+                             ],
+    "proceso_propio":  {
+                           "pid":  14212,
+                           "inicio_utc":  "2026-10-24T08:07:39.9555789Z"
+                       },
+    "version_etabs":  [
+                          "21.1.0",
+                          0
+                      ],
+    "error_posicion":  "At D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\seguimiento\\claude_ruta\\ensayo_auto_315\\ensayar_auto_315.ps1:27 char:9\r\n+         [double[]]$X=@($x,$x,$x,$x);[double[]]$Y=@(($y+$k[0]),($y+$k[ ...\r\n+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+}

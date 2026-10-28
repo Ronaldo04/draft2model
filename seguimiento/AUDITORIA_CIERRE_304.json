@@ -1,0 +1,139 @@
+{
+  "objetivo": "Sistema completo de entrada de planos, revisión, configuración, modelado ETABS, análisis, resultados y entrega reproducible. No declarar soporte universal por un solo caso.",
+  "goal_completo": false,
+  "criterios": [
+    {
+      "id": "instalacion_y_arranque",
+      "evidencia_actual": [
+        "seguimiento/REVISION_PAQUETE_258.json",
+        "seguimiento/REVISION_COPIA_267.json",
+        "seguimiento/REVISION_INSTALACION_287.json",
+        "seguimiento/REVISION_CONJUNTO_304.json",
+        "tmp/validacion_distribucion_303/estado.json"
+      ],
+      "estado": "instalacion_offline_y_arranque_desdeZIP303_observados",
+      "falta": "Global303 no aceptada por temporales largos;12afectadas ya pasan. Global304 pendiente sobre el mismoZIP."
+    },
+    {
+      "id": "planos_y_proveedores",
+      "evidencia_actual": [
+        "seguimiento/CONSUMO_API_211.json",
+        "seguimiento/REVISION_METRICAS_265.json"
+      ],
+      "estado": "lecturas_reales_observadas_con_limites",
+      "falta": "Conservar cuarentena, correcciones y trazabilidad en la entrega; no atribuir precisión validada sin referencia humana. Respetar límite OpenAI4/5 y Gemini2/5; llamadas solo para planos."
+    },
+    {
+      "id": "geometria_y_configuracion",
+      "evidencia_actual": [
+        "seguimiento/DECISION_USUARIO_246.json",
+        "seguimiento/DECISION_ESCALERA_256.json",
+        "seguimiento/REVISION_ANALISIS_267.json"
+      ],
+      "estado": "caso_operativo_con_hipotesis",
+      "falta": "Conservar hipótesis de suelo, sistema, detalles no confirmados y su trazabilidad; no convertirlas en datos del plano ni certificación."
+    },
+    {
+      "id": "modelo_y_relectura",
+      "evidencia_actual": [
+        "tmp/recorrido_09d1/registro.json",
+        "tmp/recorrido_09d1/relectura_resultado.json",
+        "seguimiento/DIAGNOSTICO_PESO_RELECTURA_268.json",
+        "seguimiento/REVISION_CONJUNTO_304.json"
+      ],
+      "estado": "modelo_y_relectura_nativos_conservados_en_complemento303",
+      "falta": "No equivale a nueva construcción/relectura nativa en otro equipo; rutas históricas preservadas."
+    },
+    {
+      "id": "analisis_y_resultados",
+      "evidencia_actual": [
+        "seguimiento/REVISION_ANALISIS_267.json",
+        "seguimiento/REVISION_LECTURAS_09D1_267.json",
+        "seguimiento/REVISION_NORMALIZACION_268.json",
+        "seguimiento/REVISION_CONTROLES_REALES_285.json",
+        "seguimiento/REVISION_REGLAS_REALES_286.json",
+        "seguimiento/REVISION_INFORME_302.json"
+      ],
+      "estado": "13resultados_reales_y_evidencia_analisis_contrastados",
+      "falta": "Comprobación del análisis en UI recuperada: finalizó y habilitó informe; generación UI única en curso."
+    },
+    {
+      "id": "masa_y_peso_sismico",
+      "evidencia_actual": [
+        "seguimiento/HALLAZGO_PESO_SISMICO_268.json",
+        "seguimiento/BALANCE_MASA_GRAVEDAD_268.json",
+        "seguimiento/DIAGNOSTICO_PESO_RELECTURA_268.json",
+        "seguimiento/REVISION_EXTREMOS_278.json",
+        "seguimiento/REVISION_CONCILIACION_279.json"
+      ],
+      "estado": "P_por_pisos_corregido_desfase_masa_delimitado",
+      "falta": "Conservar no_coherente oficial y diferencia residual; causa principal extremos efectivos, sin ampliar tolerancia. No presentarlo como libro independiente conciliado."
+    },
+    {
+      "id": "normativa_y_evaluacion",
+      "evidencia_actual": [
+        "seguimiento/NORMATIVA_OFICIAL_229.md",
+        "seguimiento/claude_ruta/RECEPCION_CONTINUACION_268.json",
+        "seguimiento/REVISION_REGLAS_REALES_286.json",
+        "seguimiento/REVISION_UNIDADES_292.json"
+      ],
+      "estado": "18evaluaciones_reales_verificadas_sin_aprobacion_profesional",
+      "falta": "Conservar hipótesis,8derivas y2cortantes que no satisfacen. No afirmar cumplimiento normativo integral."
+    },
+    {
+      "id": "panel_e_informes",
+      "evidencia_actual": [
+        "seguimiento/REVISION_WEB_MASA_267.json",
+        "seguimiento/QA_WEB_MASA_267.json",
+        "seguimiento/REVISION_INFORME_PANEL_290.json",
+        "seguimiento/REVISION_UNIDADES_292.json",
+        "seguimiento/REVISION_INFORME_302.json",
+        "seguimiento/QA_INTEGRACION_301_EN_303.json"
+      ],
+      "estado": "salidas09d3_corregidas_y_revisadas_guardas301_operativas",
+      "falta": "Cerrar generación/descarga de UN borrador UI304. Conservar salvedad de renderizadoresPDF y HTML alternativo."
+    },
+    {
+      "id": "cierres_y_rendimiento",
+      "evidencia_actual": [
+        "seguimiento/REVISION_CIERRE_ANALISIS_268.json",
+        "seguimiento/REVISION_CACHE_PRODUCTO_268.json",
+        "seguimiento/ENSAYO_CACHE_MALLA_267.json",
+        "seguimiento/REVISION_INVENTARIO_289.json",
+        "tmp/diagnostico_qa_293/muestras.jsonl",
+        "seguimiento/ENTREGA_BACKEND_301.json",
+        "seguimiento/RECEPCION_ENTREGA_303.json"
+      ],
+      "estado": "inventario_rapido_y_comprobacion_seleccionada_operativos",
+      "falta": "No equiparar inventario878ms con comprobación completa; operaciones completas de geometría/informe siguen costosas. No nuevos reinicios."
+    },
+    {
+      "id": "reubicacion_del_caso",
+      "evidencia_actual": [
+        "seguimiento/REVISION_ANEXO_268.json",
+        "seguimiento/REUBICACION_CASO_269.json",
+        "seguimiento/REVISION_CONJUNTO_304.json"
+      ],
+      "estado": "transporte_integro_y_cadena_EDB_verificados303",
+      "falta": "No acredita nueva ejecución nativa en destino ni reescritura de recibos históricos."
+    },
+    {
+      "id": "paquete_final_y_guia",
+      "evidencia_actual": [
+        "seguimiento/GUIA_ANEXO_268.md",
+        "docs/ENTREGA_AECODE.md",
+        "seguimiento/DOCUMENTACION_LIBERADA_294.json",
+        "seguimiento/REVISION_COMPLEMENTO_291.json",
+        "entregas/AECODE_RC_303/MANIFIESTO.json",
+        "entregas/COMPLEMENTO_CORREGIDO_303/MANIFIESTO_COMPLEMENTO.json",
+        "entregas/AECODE_RC_303/NOTAS_VALIDACION_304.md"
+      ],
+      "estado": "ZIP303_y_complemento_corregido303_generados_sin_claves",
+      "falta": "Revisar global304 y finalizar QA UI, después emitir resumen de validación y aceptación externa al ZIP con sus hashes."
+    }
+  ],
+  "fecha_corte": "2026-10-24T01:49:59.087343+00:00",
+  "antecedente": "seguimiento/CRITERIOS_CIERRE_269.json",
+  "fuentes_entregadas": "5fd73861327c0e447b87158032ffc9a69899a01c1376c736e03920f7a6e6aa1c",
+  "alcance_de_afirmaciones": "Operación de software sobre contratos soportados y caso real revisado. Sin aprobación de ingeniería ni afirmación universal por un piloto."
+}

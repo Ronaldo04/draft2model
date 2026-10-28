@@ -1,0 +1,44 @@
+  VMIN-SX / SX / X / base
+   Estado: evaluado; entrada: 672.5354 kN; evaluado: 0.7483720142138701 1; límite conﬁgurado: >= 0.8 1.
+   Fórmula: 0.0011127622638360303 * x + 0.0; satisfacción de regla conﬁgurada: False.
+   Fuente de regla DECLARADA: Norma E.030 Diseño Sismorresistente · Edición: RM 183-2026-VIVIENDA (El
+   Peruano, 2026-05-03) · Apartado: Arts. 34, 36.1 y 44.1 · Referencia: seguimiento/normativa_229/
+   E030_RM183_2026.txt. Página: no disponible en este contrato.
+  VMIN-SY / SY / Y / base
+   Estado: evaluado; entrada: 528.1533 kN; evaluado: 0.58770906176047 1; límite conﬁgurado: >= 0.8 1.
+   Fórmula: 0.0011127622638360303 * x + 0.0; satisfacción de regla conﬁgurada: False.
+   Fuente de regla DECLARADA: Norma E.030 Diseño Sismorresistente · Edición: RM 183-2026-VIVIENDA (El
+   Peruano, 2026-05-03) · Apartado: Arts. 34, 36.1 y 44.1 · Referencia: seguimiento/normativa_229/
+   E030_RM183_2026.txt. Página: no disponible en este contrato.
+
+  7. Condición referencial del sitio
+
+   No disponible: no se aportó condición de sitio con fuente y localización veriﬁcadas.
+
+  Fuentes y citas veriﬁcadas
+
+   No se aportaron citas veriﬁcadas de un corpus aprobado. No se emite una conclusión normativa.
+
+  Trazabilidad y revisión
+
+   resultados: 2cc454129a1d17a2 f8696d0639c1f406 01756c2191b853d3 edb99cf3d67f96e3
+   reglas: 69ab34599476b16a 0e6c588c27c87ed3 7925a3ef6e351a1a f0bf24d2126f1fdb
+   evaluacion: 64e354cd6c772c06 63f401bf8861d4b9 fec53df9c9b133e8 de994e57a6657b23
+   evidencia_analisis: a1b9d66a4963e1a4 1be609b7868ec299 0725c11d0e7bff5a cb5eecc0a1bf53c1
+   controles_analisis: d53b6b3b0c369a1f 379ae78d41a267ed 02d8ccfc328eae5e d80bd836aa9065d9
+   contenido_masa: a77cc0dbfb189310 77af9f7956ea1dfb 626a57baab88d052 17cf47b069dfea65
+   masa_nativa: b988d8dfd580e194 83a566dd0ceba687 3b10b24afc6cdad0 762b2bb79cd17865
+   geometria / 25ef94672fac4e53863701b55e32f97d
+   SHA256: 24b484549348484f 8bf7df1255704a38 f2cd77c3b282d2b6 9ba5b46f0afb68c2
+   configuracion / pueblo-libre-002-config-09dt
+   SHA256: e71ece2ea22b4045 e175aa33367f2f29 4a3073647506349e f373e135e949a2a9
+   EDB analizado: 42371308a03d4f1b ac8f5ed3aa5daf04 21cdf3de27ff823f 8f582c13ad2af394
+   Aceptación del análisis: 920512f91266d70c 4aa83ca1bf4fa42a 4a5893b43963581e c4e730be3cbc8adf
+   Respuesta de tablas: e24893264ef9119a b350ff545e30c9e5 7279205c5667153b a9ac1f61ba96c8cd
+   Revisión del modelo: 6948541918804927 f2c2a8779e2ba651 107a79b36dd3a9d2 665ecdb1d5fbfc1c
+
+   Informe 0.1.0; resultados 0.1.0; reglas 0.1.0; evaluación 0.1.0.
+   Aprobación documental propia: borrador. No se hereda de la revisión de reglas, datos o modelo.
+
+Draft2Model | Informe preliminar | 8 / 8
+

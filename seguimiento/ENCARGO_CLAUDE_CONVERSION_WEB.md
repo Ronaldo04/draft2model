@@ -1,0 +1,13 @@
+# Conversión de lecturas revisadas a geometría: servicio web
+
+Estado: NO ENVIADO A CLAUDE. Alcance asignado ahora al subagente integracion_ui como hito completo para continuar sin control UI disponible. NO enviar este encargo a Claude mientras siga esa asignación. Envío pendiente de disponibilidad autorizada de Computer Use; no se considera asignación recibida por Claude. No repetir auditoría anterior, ya leída y en corrección por Codex/subagente.
+
+Trabaja en la misma PROYECTO FINAL y confirma ruta completa. Objetivo: envolver conversion_geometria.convertir_lecturas en un servicio local listo para integrar HTTP/UI, sin inferir conectividad, escala ni coordenadas físicas. Codex integra las rutas y pantalla después.
+
+Únicos archivos permitidos: draft2model/revision_conversion.py, tests/test_revision_conversion.py, docs/REVISION_CONVERSION_WEB.md. Puedes leer lo demás. No editar conversion_geometria.py, gestion_geometria.py, revision_visual.py, revision_web/* ni seguimiento: otros responsables los integran.
+
+Contrato propuesto ServicioConversion(app): crear(body exacto caso/extraccion/expediente_sha256/manifiesto_json), listar(caso,expediente_sha256), consultar(caso,version,expediente_sha256) y una acción separada importar_geometria(body con versión/huella vigente y confirmación explícita) para registrar el borrador en la gestión geométrica existente. Usa las funciones públicas existentes; no dupliques la conversión ni fabriques aprobación. El manifiesto y toda geometría física deben ser declarados por operador. Desconocidos siguen explícitos; no inventar ejes, metros, espesores ni asociaciones.
+
+Conservar manifiesto recibido y resultados nuevos con UUID, no sobrescribir originales/versiones. Revalidar expediente, versión de extracción/exportación, hashes de manifiesto/geometría/traza y fuentes al consultar/importar. Rechazar rutas ajenas/enlazadas, ids inválidos, mezcla de casos y cambios concurrentes. Proyección sin rutas privadas; estados de geometría borrador, identidad declarada y aprobación null. La importación al historial geométrico es explícita y no autoriza modelado. No lanzar motor ni proveedor.
+
+Aceptación: prueba sintética portable del recorrido crear→consultar/listar→importar borrador y rechazo de alteración/otro caso/huella/confirmación ausente. Reutiliza tests de conversión y ejemplos como guía. Ejecuta SOLO pruebas focales con TEMP/TMP=workspace/tmp; no suite completa, instalaciones, red, ETABS ni CU. Entrega máximo10 líneas: archivos, contrato final, comando/resultado observado y límites. Informe técnico detallado dentro de tu guía si hace falta. Codex hará una revisión breve y una comprobación focal antes de integrar.

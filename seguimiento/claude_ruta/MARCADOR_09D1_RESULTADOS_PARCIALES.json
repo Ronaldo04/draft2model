@@ -1,0 +1,35 @@
+{
+  "tarea": "recorrido_09d1_resultados_parciales",
+  "fecha": "2026-10-22",
+  "estado": "masa_y_normalizacion_hechas; controles/reglas/informe en curso",
+  "lectura": "b8d0f12e93ce4014b57fb3008623a682",
+  "resultados": "697bb37e9ce64f90ba1ef3e25733c8cc",
+  "masa_nativa": {
+    "lectura": "9b1080d1f35d4007aef5fd92f527cea0",
+    "estado": "no_coherente",
+    "codigo": "MASS_TOTAL",
+    "masa_libro": 549.4269889710316,
+    "masa_observada_U1": 548.7267285730835,
+    "masa_observada_U2": 548.7267285730835,
+    "diferencia_relativa_U1": -0.0012745285761435988,
+    "P_sobre_base_kN": 5238.3261417650565,
+    "puntos": 2552
+  },
+  "masa_nativa_lectura_no_aceptada_previa": "d4a9f336 (runner; tabla sin campo de caso)",
+  "interpretacion": "NO coherente con tolerancia declarada 1e-3: ETABS ensambla 0,127 % menos masa que el libro (−0,70 kN·s²/m ≈ −6,9 kN). No se afloja la tolerancia; diagnóstico por bloques (tanque/cisterna) en curso.",
+  "recuperaciones": {
+    "motor_cli": "tmp/d2 .resuelto.25e2e3bb… (lectura d4a9f336, instancia de análisis 35120 cerrada verificada)",
+    "motor_web": "data/private/.ejecucion_web recuperacion_3ff7d186… (trabajo 51b31622 interrumpido antes de lanzar ETABS; queda incierto)"
+  },
+  "nuevo_en_flujo_general": "ServicioEjecucion.confirmar_recuperacion (lease, sin trabajo vivo, archiva marcadores sin borrar); tests 13 OK",
+  "hashes": {
+    "tmp/recorrido_09d1/registro_resultados.json": "6d1c6067b74a969b8567a09f66be1aa886e7343f911528c51b8399d0e9324dfc",
+    "tmp/recorrido_09d1/resultados/libro_masa.json": "429c0dcdf95e9169b01530502598f41c862b7dc723665d925c6377a113bb95d1",
+    "tmp/recorrido_09d1/resultados/contraste_masa_nativa.json": "1e5f74b7553ac85267e8960d4df83f447adb7c98996ef3f430e5cb752e3427f0",
+    "tmp/recorrido_09d1/resultados/mapeo.json": "0938d1669538b4deb65049e3da32fcf742d7fe00968627cb5da7a9d17005c838",
+    "data/private/.ejecucion_web/recuperacion_3ff7d186d05e4ecbb913a240cac330a4.json": "7b66e0eccdbfa316e3be61515d7545f3ac68dc360e63426df2cbfdacd677f5f2",
+    "draft2model/revision_ejecucion.py": "0f887fc9a48e7d20fe8e638dcef294b5f8e6bc825b8e9235063538a25585775f",
+    "tests/test_recuperacion_motor_web_267.py": "73e4f0608226fe48682f9a061e4ff323db221427c635958544a460bec6769192"
+  },
+  "apis_ejecutadas_por_claude": 0
+}

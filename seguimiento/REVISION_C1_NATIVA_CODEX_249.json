@@ -1,0 +1,157 @@
+{
+  "estado": "correcto_con_limites",
+  "recibo_sha256": "1c73c862976b25fb12a4df1a547f86d769a7f4f39e8bef3df1bb84f6106db581",
+  "EDB_sha256": "e9169a3f956084235c8d70c625da81efb99bb77ecf02a4edac9af72fe39dd29f",
+  "comprobaciones": [
+    {
+      "caso": "ensayo_sintetico_sin_error",
+      "pasa": true
+    },
+    {
+      "caso": "dos_cierres_API_declarados",
+      "pasa": true
+    },
+    {
+      "caso": "bytes_EDB_no_alterados_reapertura",
+      "pasa": true
+    },
+    {
+      "caso": "fases_esperadas",
+      "pasa": true
+    },
+    {
+      "caso": "cuatro_secciones_releidas",
+      "pasa": true
+    },
+    {
+      "caso": "seccion_persiste_L_M20_M30",
+      "pasa": true
+    },
+    {
+      "caso": "area_analitica_L_L_M20_M30",
+      "pasa": true
+    },
+    {
+      "caso": "seccion_persiste_L_M21_M30",
+      "pasa": true
+    },
+    {
+      "caso": "area_analitica_L_L_M21_M30",
+      "pasa": true
+    },
+    {
+      "caso": "seccion_persiste_L_M20_M31",
+      "pasa": true
+    },
+    {
+      "caso": "area_analitica_L_L_M20_M31",
+      "pasa": true
+    },
+    {
+      "caso": "seccion_persiste_L_M21_M31",
+      "pasa": true
+    },
+    {
+      "caso": "area_analitica_L_L_M21_M31",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M20_M30_C1",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M20_M30_C10",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M20_M30_C11",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M20_M30_C10G",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M21_M30_C1",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M21_M30_C10",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M21_M30_C11",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M21_M30_C10G",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M20_M31_C1",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M20_M31_C10",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M20_M31_C11",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M20_M31_C10G",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M21_M31_C1",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M21_M31_C10",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M21_M31_C11",
+      "pasa": true
+    },
+    {
+      "caso": "insercion_persiste_L_M21_M31_C10G",
+      "pasa": true
+    },
+    {
+      "caso": "C10_reproduce_flexion_diagonal_mas_cortante",
+      "pasa": true,
+      "observado": [
+        0.0029687764963874878,
+        0
+      ],
+      "ux_diagonal": 0.002968776496387486
+    },
+    {
+      "caso": "inercias_diagonales_analiticas_L_M20_M30",
+      "pasa": true
+    },
+    {
+      "caso": "inercias_diagonales_analiticas_L_M21_M30",
+      "pasa": true
+    },
+    {
+      "caso": "inercias_diagonales_analiticas_L_M20_M31",
+      "pasa": true
+    },
+    {
+      "caso": "inercias_diagonales_analiticas_L_M21_M31",
+      "pasa": true
+    },
+    {
+      "caso": "acoplamiento_no_acreditado_por_ensayo",
+      "pasa": true,
+      "ux_Euler_Bernoulli_acoplado": 0.003748113692939599,
+      "uy_Euler_Bernoulli_acoplado": -0.001756756735290506,
+      "I": 0.001230889423076923,
+      "Ixy": -0.000576923076923077
+    }
+  ],
+  "limites": "Ensayo sintetico conservado, no piloto. Area/dimensiones/espejos/inserciones y relectura persistentes. No acredita acoplamiento flector asimetrico; no se infiere limite general del programa. Cierres sustentados por retornoAPI registrado, no auditoria actual de procesos ajenos."
+}

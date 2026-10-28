@@ -1,0 +1,187 @@
+{
+  "consulta_unica": true,
+  "etabs_abierto": false,
+  "red": false,
+  "pared_s": 205.3909687999403,
+  "modelo": "0f37271307b6449c89c458c60a1640c7",
+  "estado": "pendiente",
+  "perfil": [
+    {
+      "archivo": "revision_modelo.py",
+      "linea": 130,
+      "funcion": "consultar",
+      "llamadas": 1,
+      "propio_s": 0.1847,
+      "acumulado_s": 205.3848
+    },
+    {
+      "archivo": "revision_modelo.py",
+      "linea": 41,
+      "funcion": "_validar",
+      "llamadas": 1,
+      "propio_s": 0.1986,
+      "acumulado_s": 204.8953
+    },
+    {
+      "archivo": "operaciones_etabs.py",
+      "linea": 1569,
+      "funcion": "generar_plan_malla",
+      "llamadas": 1,
+      "propio_s": 0.0084,
+      "acumulado_s": 198.1828
+    },
+    {
+      "archivo": "modelo_estructural.py",
+      "linea": 1298,
+      "funcion": "comprobar_configuracion",
+      "llamadas": 1,
+      "propio_s": 0.0129,
+      "acumulado_s": 158.2797
+    },
+    {
+      "archivo": "modelo_estructural.py",
+      "linea": 995,
+      "funcion": "validar",
+      "llamadas": 2,
+      "propio_s": 0.0003,
+      "acumulado_s": 145.0222
+    },
+    {
+      "archivo": "modelo_estructural.py",
+      "linea": 231,
+      "funcion": "validar",
+      "llamadas": 2,
+      "propio_s": 0.0372,
+      "acumulado_s": 137.7864
+    },
+    {
+      "archivo": "modelo_estructural.py",
+      "linea": 1123,
+      "funcion": "objetos",
+      "llamadas": 2,
+      "propio_s": 0.0,
+      "acumulado_s": 137.5769
+    },
+    {
+      "archivo": "modelo_estructural.py",
+      "linea": 956,
+      "funcion": "objetos",
+      "llamadas": 2,
+      "propio_s": 0.0018,
+      "acumulado_s": 137.5766
+    },
+    {
+      "archivo": "cache_malla_pura.py",
+      "linea": 95,
+      "funcion": "wrapped",
+      "llamadas": 1,
+      "propio_s": 0.0239,
+      "acumulado_s": 136.6994
+    },
+    {
+      "archivo": "malla_preparacion.py",
+      "linea": 92,
+      "funcion": "preparar_malla",
+      "llamadas": 1,
+      "propio_s": 1.1916,
+      "acumulado_s": 135.8743
+    },
+    {
+      "archivo": "compatibilidad_particiones.py",
+      "linea": 159,
+      "funcion": "compatibilizar_particiones",
+      "llamadas": 2,
+      "propio_s": 0.9116,
+      "acumulado_s": 77.6845
+    },
+    {
+      "archivo": "particion_superficies.py",
+      "linea": 144,
+      "funcion": "particionar_superficie",
+      "llamadas": 7506,
+      "propio_s": 1.7708,
+      "acumulado_s": 75.1725
+    },
+    {
+      "archivo": "particion_superficies.py",
+      "linea": 95,
+      "funcion": "verificar",
+      "llamadas": 7511,
+      "propio_s": 1.5763,
+      "acumulado_s": 49.1533
+    },
+    {
+      "archivo": "particion_superficies.py",
+      "linea": 59,
+      "funcion": "_binario_local",
+      "llamadas": 7512,
+      "propio_s": 0.0254,
+      "acumulado_s": 47.5828
+    },
+    {
+      "archivo": "~",
+      "linea": 0,
+      "funcion": "<built-in method marshal.dumps>",
+      "llamadas": 7512,
+      "propio_s": 47.5574,
+      "acumulado_s": 47.5574
+    },
+    {
+      "archivo": "triangulacion_particiones.py",
+      "linea": 131,
+      "funcion": "triangular_compatibilidad",
+      "llamadas": 1,
+      "propio_s": 0.0555,
+      "acumulado_s": 44.8942
+    },
+    {
+      "archivo": "fractions.py",
+      "linea": 356,
+      "funcion": "forward",
+      "llamadas": 7191324,
+      "propio_s": 4.4694,
+      "acumulado_s": 36.9779
+    },
+    {
+      "archivo": "gestion_geometria.py",
+      "linea": 419,
+      "funcion": "consultar_version",
+      "llamadas": 3,
+      "propio_s": 0.0013,
+      "acumulado_s": 26.1158
+    },
+    {
+      "archivo": "gestion_geometria.py",
+      "linea": 376,
+      "funcion": "_comprobar",
+      "llamadas": 3,
+      "propio_s": 0.0672,
+      "acumulado_s": 25.5488
+    },
+    {
+      "archivo": "malla_preparacion.py",
+      "linea": 117,
+      "funcion": "<listcomp>",
+      "llamadas": 1,
+      "propio_s": 0.0177,
+      "acumulado_s": 25.4783
+    },
+    {
+      "archivo": "gestion_geometria.py",
+      "linea": 249,
+      "funcion": "_comprobar_una",
+      "llamadas": 27,
+      "propio_s": 0.0569,
+      "acumulado_s": 23.9289
+    },
+    {
+      "archivo": "cache_validacion_geometria.py",
+      "linea": 59,
+      "funcion": "wrapped",
+      "llamadas": 57,
+      "propio_s": 0.021,
+      "acumulado_s": 21.9771
+    }
+  ],
+  "no_prueba": "No repite instalación, suite, cálculo ni benchmark."
+}

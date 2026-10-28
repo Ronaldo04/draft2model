@@ -1,0 +1,22 @@
+{
+  "tarea": "pdf_309",
+  "modo": "auditoria_pdf_309",
+  "estado": "revisado_parcial",
+  "encargo": "seguimiento/ENCARGO_CLAUDE_PDF_309.md",
+  "archivos": [],
+  "marcador": "seguimiento/claude_ruta/MARCADOR_PDF_309.json",
+  "prefijos_autorizados": [
+    "seguimiento/claude_ruta/diagnostico_pdf_309/"
+  ],
+  "propietario_implementacion": "Claude: solo diagnóstico y candidato aislado del PDF; producto congelado",
+  "propietario_revision": "Codex: revisión, integración y cierre; no editar carpeta309 durante trabajo de Claude",
+  "confirmacion_envio": "Proyecto PROYECTO FINAL y conversación Comandos CLI geometría observados. Compositor vacío antes; set_value en edit264; Return; burbuja en historial y compositor vacío. Captura posterior muestra a Claude comprobando carpeta, fuentes y renders de páginas7/8; carpeta y scripts nuevos comprobados en disco.",
+  "creado_utc": "2026-10-24T06:55:48.440601+00:00",
+  "computer_use_suspendido": false,
+  "limite_computer_use": "Autorizado por usuario solo para coordinación. No consultar la ventana mientras trabaja; usar marcador local.",
+  "cuota_claude_observada": "92% semanal utilizado; límite visible. No reclamar finalización por actividad.",
+  "historial": "seguimiento/CLAUDE_ESTADO_HISTORICO_308.json",
+  "heartbeat": "Sigue pausado; no prometer vigilancia durante cuotas ni reactivarlo sin petición.",
+  "prueba_sonda": "seguimiento/test_sonda_pdf_309.py:4casosOK",
+  "revision": "seguimiento/REVISION_PDF_310.json"
+}

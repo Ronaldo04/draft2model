@@ -1,0 +1,10 @@
+{
+  "encargo": "09_INTEGRACION_PILOTO.md: addendum R239/R241",
+  "estado": "enviado_y_reconocido",
+  "ventana": 3082800,
+  "conversacion": "Comandos CLI geometría",
+  "envio": "Enter dejó mensaje visible en cola con Enviar ahora; se pulsó ese botón observado. Captura posterior mostró mensaje en historial, compositor vacío y respuesta de Claude.",
+  "respuesta_observada": "Noted: I’m keeping the current milestone. While the focused tests run, I’m reading R239-01, R241-01 and the idealization gap (241).",
+  "alcance": "Prueba recepción y coordinación, no implementación ni calidad. Las pruebas focales en segundo plano continuaban en la interfaz; no se reiniciaron.",
+  "siguiente": "Esperar hito inmutable y revisar. No más consultas rutinarias de ventana."
+}

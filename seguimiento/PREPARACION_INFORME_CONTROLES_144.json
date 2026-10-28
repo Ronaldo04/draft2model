@@ -1,0 +1,12 @@
+{
+  "fecha_utc": "2026-10-19T02:07:21.239061+00:00",
+  "artefacto": "tmp\\qa_controles_142\\resultado_para_informe.json",
+  "resultado": "358c2dcb437f4d39a64f4b994d8b423e",
+  "mapeo_version": "e8504bbcddd64bb48f3497faee0859cc",
+  "aprueba_resultados": false,
+  "conformidad_normativa": "no_evaluada",
+  "estado": "Preparado desde lectura doble aceptada mediante servicio de mapeo, revision declarada sintetica y normalizacion publica. Recorrido navegador de informe con controles aun pendiente.",
+  "sin_API_ETABS_reales": true,
+  "fuentes_codigo": "tmp/qa_controles_142/fuentes.json",
+  "registro": "tmp/qa_informe_controles_144.log"
+}

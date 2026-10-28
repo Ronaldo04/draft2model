@@ -1,0 +1,111 @@
+{
+  "contrato": "draft2model.reglas_estructurales",
+  "version_contrato": "0.1.0",
+  "id": "reglas-fixture-001",
+  "datos_sinteticos": true,
+  "reglas": [
+    {
+      "id": "R-P",
+      "variable": "periodo",
+      "unidad": "s",
+      "formula": {
+        "expresion": "factor * x + desplazamiento",
+        "factor": 1.0,
+        "desplazamiento": 0.0
+      },
+      "limite": 1.0,
+      "comparador": "<=",
+      "aplicabilidad": {
+        "aplica": true,
+        "casos": [
+          "SX"
+        ],
+        "direcciones": [
+          "X"
+        ],
+        "ubicaciones": [
+          "modo-1"
+        ],
+        "motivo": "Selector didáctico fabricado para esta fixture."
+      },
+      "fuente": {
+        "titulo": "Fixture de pruebas, SIN valor normativo",
+        "edicion": "sintética 0.1",
+        "apartado": "R-P",
+        "referencia": "examples/reglas_estructurales_sinteticas.json; números arbitrarios solo para probar código"
+      }
+    },
+    {
+      "id": "R-D",
+      "variable": "deriva",
+      "unidad": "1",
+      "formula": {
+        "expresion": "factor * x + desplazamiento",
+        "factor": 1.0,
+        "desplazamiento": 0.0
+      },
+      "limite": 0.003,
+      "comparador": "<=",
+      "aplicabilidad": {
+        "aplica": true,
+        "casos": [
+          "SX"
+        ],
+        "direcciones": [
+          "X"
+        ],
+        "ubicaciones": [
+          "N1"
+        ],
+        "motivo": "Selector didáctico fabricado para esta fixture."
+      },
+      "fuente": {
+        "titulo": "Fixture de pruebas, SIN valor normativo",
+        "edicion": "sintética 0.1",
+        "apartado": "R-D",
+        "referencia": "examples/reglas_estructurales_sinteticas.json; números arbitrarios solo para probar código"
+      }
+    },
+    {
+      "id": "R-V",
+      "variable": "cortante",
+      "unidad": "kN",
+      "formula": {
+        "expresion": "factor * x + desplazamiento",
+        "factor": 1.0,
+        "desplazamiento": 0.0
+      },
+      "limite": 150.0,
+      "comparador": "<=",
+      "aplicabilidad": {
+        "aplica": true,
+        "casos": [
+          "SX"
+        ],
+        "direcciones": [
+          "X"
+        ],
+        "ubicaciones": [
+          "base"
+        ],
+        "motivo": "Selector didáctico fabricado para esta fixture."
+      },
+      "fuente": {
+        "titulo": "Fixture de pruebas, SIN valor normativo",
+        "edicion": "sintética 0.1",
+        "apartado": "R-V",
+        "referencia": "examples/reglas_estructurales_sinteticas.json; números arbitrarios solo para probar código"
+      }
+    }
+  ],
+  "revision": {
+    "estado": "aprobado",
+    "aprobacion": {
+      "revisor_declarado": "Fixture automática de pruebas, identidad no autenticada",
+      "fecha": "2026-10-16",
+      "motivo": "Aprobación fabricada para probar integridad del contrato; no hay aprobación de ingeniería.",
+      "alcance": "Solo pruebas de software con datos sintéticos.",
+      "huella_contenido": "3834ac9bc67c22aef30577fd0ff4baafa9ec7ab3aa8f01faa069e7e8715319b0"
+    }
+  }
+}

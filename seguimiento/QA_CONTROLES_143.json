@@ -1,0 +1,21 @@
+{
+  "fecha_utc": "2026-10-19T02:05:57.135092+00:00",
+  "escenario": "tmp/qa_controles_142/escenario.json",
+  "fuentes": "tmp/qa_controles_142/fuentes.json",
+  "archivos_copia": 91,
+  "copia_sigue_intacta": true,
+  "registro_creado_desde_navegador": "a28212829659497b9e24bdae1fb90a81",
+  "sha256_registro": "97c143d748d08d004ed8384b5d4f6f9fb2ae16c9aa21c6af8df3d8bb766a5735",
+  "estado_visible": "sin_datos",
+  "apto_controlado_visible": false,
+  "faltante_critico_visible": "SOLVER",
+  "avisos_lector_separados": true,
+  "errores_consola": [],
+  "captura": "tmp/qa_controles_142/controles_sin_solver.png",
+  "sha256_captura": "740e7366cf944b1d0b47179b7e376f2143244b86980d7b09ed16fccf739666e2",
+  "servidor_host_session": 25129,
+  "servidor_cerrado": true,
+  "tab_qa_9_cerrada": true,
+  "sin_API_ETABS_reales": true,
+  "limite": "Recorrido de registro y consulta de controles con datos sinteticos sobre copia congelada. No prueba informe con controles, fuentes finales ni piloto."
+}

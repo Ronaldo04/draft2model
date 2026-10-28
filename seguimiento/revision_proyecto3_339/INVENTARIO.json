@@ -1,0 +1,231 @@
+{
+  "proyecto": "proyecto_3_vivienda_unifamiliar",
+  "api_calls": 0,
+  "autorizado_por_usuario": "24Oct, solicitud expresa de usar proyecto3",
+  "archivos": [
+    {
+      "archivo": "PLANO DE ARQUITECTURA 1.pdf",
+      "sha256": "bd70ac9e2c27f2b4e8f45f3ee90b40126469ff2ed23ee0e3083169a409c26f87",
+      "bytes": 232339,
+      "paginas": [
+        {
+          "pagina": 1,
+          "puntos": [
+            1191.0,
+            842.0
+          ],
+          "palabras_vectoriales": 151,
+          "caracteres_texto": 673,
+          "vista": "01-pagina-1.png"
+        }
+      ],
+      "seleccion_textual": [
+        "NPT. +0.00",
+        "NPT. +0.45",
+        "NPT. +0.45",
+        "NPT. +0.45",
+        "NPT. +0.45",
+        "NPT. +0.45",
+        "NIV. +0.30",
+        "NPT. +3.55",
+        "NPT. +3.55",
+        "NPT. +3.55",
+        "NPT. +3.55",
+        "NPT. +3.55",
+        "NPT. +3.55",
+        "AZOTEA",
+        "NPT. +6.65",
+        "AZOTEA",
+        "NPT. +6.65",
+        "PLANTA PRIMER NIVEL",
+        "PLANTA SEGUNDO NIVEL",
+        "PLANTA AZOTEA",
+        "NPT. +3.55",
+        "Piso laminado",
+        "Piso laminado",
+        "Piso laminado"
+      ]
+    },
+    {
+      "archivo": "PLANO DE ARQUITECTURA 2.pdf",
+      "sha256": "d5e86eed310ca30f79d2ad7c1f9c7de6ff2d64c1df769512118850be2e127a6f",
+      "bytes": 88758,
+      "paginas": [
+        {
+          "pagina": 1,
+          "puntos": [
+            1191.0,
+            842.0
+          ],
+          "palabras_vectoriales": 51,
+          "caracteres_texto": 300,
+          "vista": "02-pagina-1.png"
+        }
+      ],
+      "seleccion_textual": [
+        "NPT. +0.45",
+        "NIV. +0.30",
+        "NPT. +0.00",
+        "NPT. +3.55",
+        "NPT. +3.55",
+        "AZOTEA",
+        "NPT. +6.65",
+        "NPT. +0.45",
+        "NPT. +3.55",
+        "AZOTEA",
+        "NPT. +6.65",
+        "NPT. +6.65",
+        "NTT. +9.40",
+        "NPT. +3.55",
+        "NPT. +0.45",
+        "NPT. +6.65",
+        "NTT. +9.40",
+        "NPT. +3.55",
+        "NPT. +0.30",
+        "NIV. +2.90"
+      ]
+    },
+    {
+      "archivo": "PLANO DE ESTRUCTURA 1.pdf",
+      "sha256": "547f34d01f5876e50e2ba2d3bb4ea8d0ec66ec239840390650c946cd4bcc29ee",
+      "bytes": 660689,
+      "paginas": [
+        {
+          "pagina": 1,
+          "puntos": [
+            1191.0,
+            842.0
+          ],
+          "palabras_vectoriales": 305,
+          "caracteres_texto": 1497,
+          "vista": "03-pagina-1.png"
+        }
+      ],
+      "seleccion_textual": [
+        "ESPECIFICACIONES  TECNICAS",
+        "6.00 (ALBAÑILERIA)",
+        "0.007",
+        "1.0",
+        "1.4",
+        "0.40",
+        "10.00 (PORTICO)",
+        "0.005",
+        "2.5",
+        "SISMORESISTENTES",
+        "NIV. +0.30",
+        "NFP. +0.40",
+        "NFP. +0.40",
+        "NFP. +0.40",
+        "NFP. -0.05",
+        "NFP. -0.05",
+        "NPT. +0.00",
+        "NPT. +0.45",
+        "NFP. +0.40",
+        "NFC. -0.90",
+        "NFC. -0.90",
+        "NFC. -0.90",
+        "NPT. +0.30",
+        "NFP. +0.25",
+        "NFC. -0.90",
+        "NPT. +0.45",
+        "NFP. +0.40",
+        "NFC. -0.90",
+        "NPT. +0.45",
+        "NFP. +0.40",
+        "NFP. -0.05",
+        "NPT. +0.00",
+        "NFC. -0.90",
+        "NPT. +0.45",
+        "NFP. +0.40",
+        "NPT. +0.45",
+        "NFP. +0.40",
+        "NFP. +0.40",
+        "NFC. -0.65",
+        "NPT. +0.30",
+        "NIV. +0.60",
+        "NIV. +0.30",
+        "NIV. +0.10",
+        "NIV. +0.30",
+        "NIV. +0.30",
+        "NIV. +0.10",
+        "NFC. -2.10",
+        "NFC. -2.10",
+        "CORTE CISTERNA C1",
+        "CORTE CISTERNA C2",
+        "Ø 3/8\" @ 0.20",
+        "Ø 3/8\" @ 0.20",
+        "Ø 3/8\" @ 0.20",
+        "Ø 3/8\" @ 0.20",
+        "Ø 3/8\" @ 0.20",
+        "Ø 3/8\" @ 0.20",
+        "Ø 3/8\" @ 0.20",
+        "Ø 3/8\" @ 0.20",
+        "NFP. +0.40",
+        "NPT. +0.45",
+        "NFP. +0.40",
+        "NFP. -0.05",
+        "NPT. +0.00",
+        "nivel",
+        "nivel",
+        "NPT. +0.45",
+        "NFP. +0.40",
+        "NIV. +0.30",
+        "NSCC. -0.10"
+      ]
+    },
+    {
+      "archivo": "PLANO DE ESTRUCTURA 2.pdf",
+      "sha256": "57f829749e53d2356f356fb1886187c594f65b811a14bc8e1b8d151bcc277881",
+      "bytes": 367174,
+      "paginas": [
+        {
+          "pagina": 1,
+          "puntos": [
+            1191.0,
+            842.0
+          ],
+          "palabras_vectoriales": 290,
+          "caracteres_texto": 1120,
+          "vista": "04-pagina-1.png"
+        }
+      ],
+      "seleccion_textual": [
+        "VP1 - (0.30 x 0.60)",
+        "VB1 (0.13 x 0.20)",
+        "VB1 (0.13 x 0.20)",
+        "VB1 (0.13 x 0.20)",
+        "VB1 (0.13 x 0.20)",
+        "VA1 - (0.23 x 0.40)",
+        "VP1 - (0.30 x 0.60)",
+        "VP1 - (0.30 x 0.60)",
+        "VP1 - (0.30 x 0.60)",
+        "VA1 - (0.23 x 0.40)",
+        "VA1 - (0.23 x 0.40)",
+        "VA1 - (0.23 x 0.40)",
+        "VA3 - (0.30 x 0.20)",
+        "VB2 (0.15 x 0.20)",
+        "VA1 - (0.23 x 0.40)",
+        "VA1 - (0.23 x 0.40)",
+        "PRIMER NIVEL - SEGUNDO NIVEL",
+        "ESCALA : 1/20",
+        "H=0.20",
+        "PLANTA ALIGERADO AZOTEA",
+        "VA3 - (0.30 x 0.20)",
+        "VA1 - (0.23 x 0.40)",
+        "VP2 - (0.30 x 0.40)",
+        "VP2 - (0.30 x 0.40)",
+        "VP1 - (0.30 x 0.60)",
+        "VP1 - (0.30 x 0.60)",
+        "VB1 (0.13 x 0.20)",
+        "VA1 - (0.23 x 0.40)",
+        "ESPECIFICACIONES  TECNICAS",
+        "VB2 (0.15 x 0.20)",
+        "VB2 (0.15 x 0.20)",
+        "VA3 - (0.30 x 0.20)",
+        "VA1 - (0.23 x 0.40)",
+        "VA2 - (0.23 x 0.20)",
+        "VP2 - (0.30 x 0.40)"
+      ]
+    }
+  ]
+}

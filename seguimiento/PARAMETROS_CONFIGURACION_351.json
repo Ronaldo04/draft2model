@@ -1,0 +1,41 @@
+{
+  "fecha_utc": "2026-10-25T06:55:30.082117+00:00",
+  "revision": 351,
+  "responsable": "digitizacion_calibrada_350",
+  "estado": "implementado_y_focal_ok",
+  "comando": ".venv/Scripts/python.exe -B -m unittest tests.test_parametros_a_configuracion -v",
+  "python": "3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)]",
+  "pruebas_ejecutadas": 25,
+  "fallos": 0,
+  "errores": 0,
+  "salida": "test_alcance_general_no_aplica_aunque_haya_lista (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_aligerados_completos_conservan_su_tipo_y_orientacion (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_asignacion_ajena_y_sin_orientacion_se_conservan (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_asignacion_existente_a_otra_seccion_no_se_sobrescribe (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_asignaciones_contradictorias_no_eligen_ultima_fila (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_carga_completa_patron_dedicado_sin_peso_propio_ni_masa (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_carga_incompleta_ajena_o_incompatible_no_aplica_a_todo (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_cargas_por_punto_frame_y_superficie_unidades_compatibles (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_catalogo_no_incorpora_geometria_frame_ausente (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_conflicto_de_carga_es_atomico_y_no_sobrescribe (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_contrato_sin_sha_o_fuente_fuera_tabla_se_rechaza (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_idempotencia_reaplicando_la_misma_lectura (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_material_desconocido_y_forma_otro_permanecen_pendientes (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_material_existente_no_se_sobrescribe_con_distinto_E (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_material_incompleto_con_E_contradictorio_no_usa_el_existente (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_material_resistencia_sola_no_deriva_ni_crea_stub (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_material_seccion_asignacion_fuentes_unidades_sin_mutar (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_muro_y_maciza_no_intercambian_forma_ni_orientacion (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_naturaleza_revision_y_faltantes_previos_preservados (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_poisson_y_unidad_fisica_invalidos_conservan_pendiente (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_propiedades_duplicadas_se_conservan_pendientes (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_reaplicacion_despues_de_ui_material_sin_nueva_lectura (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_seccion_L_sin_espejos_queda_pendiente_sin_rectangular (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_seccion_existente_con_datos_distintos_bloquea_asignacion (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\ntest_unidad_E_kgf_cm2_y_peso_tf_m3 (tests.test_parametros_a_configuracion.ParametrosConfiguracionTests) ... ok\n\n----------------------------------------------------------------------\nRan 25 tests in 0.108s\n\nOK\n",
+  "sha256": {
+    "draft2model/parametros_a_configuracion.py": "33ab655f40acadf9b4432f54d3efb02bd91ac59838f3cfdcfb862241e28ffd58",
+    "tests/test_parametros_a_configuracion.py": "ca902060152f9a080a60f25d9fb2239155c5c666ff67d01130c0642778de661c",
+    "docs/PARAMETROS_A_CONFIGURACION.md": "ab7850f471c5d3c9d50285ab98ebe9821713c8d6a3239da3b04b56481261411c"
+  },
+  "dependencias_sha256_observadas": {
+    "draft2model/lectura_parametros.py": "97ad0aec62c5af8333857819f0c4fa17a7de8cf57e4ed6ce8c6b326f4446eb40",
+    "draft2model/modelo_estructural.py": "1bb09bacce51b43da394d038b9fd239e69ab8f4fe375065a59680129ed00ab40"
+  },
+  "comportamiento": [
+    "aplicacion pura parcial a configuracion0.5 en copia",
+    "fuente por cantidad y fila con original_sha256 preservado",
+    "sin derivacion normativa de resistencias aisladas",
+    "material incompleto sin stub permite UI349 y reaplicacion misma lectura",
+    "L espejos explicitos y aligerados sin sustitucion de forma",
+    "asignaciones solo IDs/tipos/orientacion compatibles; conflictos sin ultima fila",
+    "carga externa completa en patron dedicado de peso propio0, hipotesis y faltante global peso/masa",
+    "idempotencia sin sobrescribir IDs existentes",
+    "conserva naturaleza/revision lectura y rebaja copia configuracion a borrador"
+  ],
+  "limites": [
+    "solo fixtures propias sinteticas",
+    "sin I/O de expedientes, proveedores, imagenes reales ni ETABS",
+    "sin API/UI integrada ni suite completa",
+    "validacion configuracion sin geometria externa no acredita orientacion/malla/vigencia",
+    "el servicio debe suministrar lectura conservada y catalogo geometrico confiables",
+    "completa y ejecutable_etabs siempre false",
+    "los faltantes anteriores de otras lecturas no se limpian automaticamente"
+  ]
+}

@@ -1,0 +1,1362 @@
+{
+  "provenance": {
+    "scope": "extract_of_existing_synthetic_run_not_new_execution_not_pilot",
+    "source_receipt": "tmp/ensayo_masa_contenido_251/runs/codex253f/registro.json",
+    "source_receipt_sha256": "e0b76392a71c49e10dc0911d0f7e4bb37d37153415807b679d1c955ff5ac8dd0",
+    "native_method": "AssembledJointMass_1",
+    "native_mass_unit": "kN*s^2/m",
+    "native_length_unit": "m",
+    "read_order_binding": "mass_reads[i] paired with phases[i].assembled.rows by the existing receipt; repeated identities/components retained"
+  },
+  "controls": [
+    {
+      "id": "SIN_AGUA",
+      "raw": {
+        "R3": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "R2": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "number_results": 14,
+        "array_counts": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "U3": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "U1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "U2": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mass_sources": [
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          null
+        ],
+        "point_elements": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "~10",
+          "~11",
+          "~12",
+          "~13",
+          "~14",
+          null
+        ],
+        "R1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "capture_id": "e0b76392a71c49e10dc0911d0f7e4bb37d37153415807b679d1c955ff5ac8dd0:SIN_AGUA:mass_reads[0]",
+        "return_code": 0,
+        "units": "kN_m_C"
+      },
+      "observations": {
+        "capture_id": "e0b76392a71c49e10dc0911d0f7e4bb37d37153415807b679d1c955ff5ac8dd0:SIN_AGUA:mass_reads[0]",
+        "rows": [
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "1",
+            "global_xyz": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "2",
+            "global_xyz": [
+              0,
+              0,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "3",
+            "global_xyz": [
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "4",
+            "global_xyz": [
+              2,
+              0,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "5",
+            "global_xyz": [
+              2,
+              2.15,
+              0
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "6",
+            "global_xyz": [
+              2,
+              2.15,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "7",
+            "global_xyz": [
+              0,
+              2.15,
+              0
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "8",
+            "global_xyz": [
+              0,
+              2.15,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "9",
+            "global_xyz": [
+              1,
+              1.075,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~10",
+            "global_xyz": [
+              2,
+              1.075,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~11",
+            "global_xyz": [
+              1,
+              1.075,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~12",
+            "global_xyz": [
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~13",
+            "global_xyz": [
+              1,
+              2.15,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~14",
+            "global_xyz": [
+              0,
+              1.075,
+              3
+            ]
+          }
+        ],
+        "units": "kN_m_C"
+      },
+      "expected_mass": 0.0,
+      "absolute_mass_tolerance": 1e-07,
+      "axes_tolerance_deg": 1e-09,
+      "observed_floor_centroid_m": null,
+      "units": "kN_m_C",
+      "expected_source": "MsSrc1"
+    },
+    {
+      "id": "AGUA_025",
+      "raw": {
+        "R3": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2.622913511642545,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "R2": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "number_results": 14,
+        "array_counts": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "U3": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "U1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2.433552692738806,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "U2": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2.433552692738806,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mass_sources": [
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          null
+        ],
+        "point_elements": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "10",
+          "~10",
+          "~11",
+          "~12",
+          "~13",
+          "~14",
+          null
+        ],
+        "R1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "capture_id": "e0b76392a71c49e10dc0911d0f7e4bb37d37153415807b679d1c955ff5ac8dd0:AGUA_025:mass_reads[1]",
+        "return_code": 0,
+        "units": "kN_m_C"
+      },
+      "observations": {
+        "capture_id": "e0b76392a71c49e10dc0911d0f7e4bb37d37153415807b679d1c955ff5ac8dd0:AGUA_025:mass_reads[1]",
+        "rows": [
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "1",
+            "global_xyz": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "2",
+            "global_xyz": [
+              0,
+              0,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "3",
+            "global_xyz": [
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "4",
+            "global_xyz": [
+              2,
+              0,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "5",
+            "global_xyz": [
+              2,
+              2.15,
+              0
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "6",
+            "global_xyz": [
+              2,
+              2.15,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "7",
+            "global_xyz": [
+              0,
+              2.15,
+              0
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "8",
+            "global_xyz": [
+              0,
+              2.15,
+              3
+            ]
+          },
+          {
+            "R3": 2.622913511642545,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 2.433552692738806,
+            "U2": 2.433552692738806,
+            "point_element": "10",
+            "global_xyz": [
+              0.9999999999999998,
+              1.0749999999999997,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~10",
+            "global_xyz": [
+              2,
+              1.075,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~11",
+            "global_xyz": [
+              1,
+              1.075,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~12",
+            "global_xyz": [
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~13",
+            "global_xyz": [
+              1,
+              2.15,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~14",
+            "global_xyz": [
+              0,
+              1.075,
+              3
+            ]
+          }
+        ],
+        "units": "kN_m_C"
+      },
+      "expected_mass": 2.4335526927388065,
+      "absolute_mass_tolerance": 1e-07,
+      "axes_tolerance_deg": 1e-09,
+      "observed_floor_centroid_m": [
+        1,
+        1.075,
+        3
+      ],
+      "units": "kN_m_C",
+      "expected_source": "MsSrc1"
+    },
+    {
+      "id": "AGUA_100",
+      "raw": {
+        "R3": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10.49165404657018,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "R2": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "number_results": 14,
+        "array_counts": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "U3": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "U1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9.734210770955224,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "U2": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9.734210770955224,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mass_sources": [
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          "MsSrc1",
+          null
+        ],
+        "point_elements": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "~10",
+          "~11",
+          "~12",
+          "~13",
+          "~14",
+          null
+        ],
+        "R1": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "capture_id": "e0b76392a71c49e10dc0911d0f7e4bb37d37153415807b679d1c955ff5ac8dd0:AGUA_100:mass_reads[2]",
+        "return_code": 0,
+        "units": "kN_m_C"
+      },
+      "observations": {
+        "capture_id": "e0b76392a71c49e10dc0911d0f7e4bb37d37153415807b679d1c955ff5ac8dd0:AGUA_100:mass_reads[2]",
+        "rows": [
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "1",
+            "global_xyz": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "2",
+            "global_xyz": [
+              0,
+              0,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "3",
+            "global_xyz": [
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "4",
+            "global_xyz": [
+              2,
+              0,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "5",
+            "global_xyz": [
+              2,
+              2.15,
+              0
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "6",
+            "global_xyz": [
+              2,
+              2.15,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "7",
+            "global_xyz": [
+              0,
+              2.15,
+              0
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "8",
+            "global_xyz": [
+              0,
+              2.15,
+              3
+            ]
+          },
+          {
+            "R3": 10.49165404657018,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 9.734210770955224,
+            "U2": 9.734210770955224,
+            "point_element": "9",
+            "global_xyz": [
+              0.9999999999999998,
+              1.0749999999999997,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~10",
+            "global_xyz": [
+              2,
+              1.075,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~11",
+            "global_xyz": [
+              1,
+              1.075,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~12",
+            "global_xyz": [
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~13",
+            "global_xyz": [
+              1,
+              2.15,
+              3
+            ]
+          },
+          {
+            "R3": 0,
+            "R1": 0,
+            "mass_source": "MsSrc1",
+            "point_axes_deg": [
+              0,
+              0,
+              0
+            ],
+            "U3": 0,
+            "R2": 0,
+            "U1": 0,
+            "U2": 0,
+            "point_element": "~14",
+            "global_xyz": [
+              0,
+              1.075,
+              3
+            ]
+          }
+        ],
+        "units": "kN_m_C"
+      },
+      "expected_mass": 9.734210770955226,
+      "absolute_mass_tolerance": 1e-07,
+      "axes_tolerance_deg": 1e-09,
+      "observed_floor_centroid_m": [
+        1,
+        1.075,
+        3
+      ],
+      "units": "kN_m_C",
+      "expected_source": "MsSrc1"
+    }
+  ]
+}

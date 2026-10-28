@@ -1,0 +1,111 @@
+{
+  "fecha_utc": "2026-10-25T18:55:52.358199+00:00",
+  "revision": 355,
+  "estado": "revision_focal_con_dos_defectos_reproducidos_no_aceptar353",
+  "responsable": "digitizacion_calibrada_350",
+  "producto_modificado": false,
+  "hashes_observados_al_cierre": {
+    "draft2model/revision_digitizacion.py": "0ff142215d8abd4c4350ac502de8bcd5d370525b0b1bd12cc4156bc896bbfc34",
+    "draft2model/revision_web/digitizacion.js": "47c4acc890af5f10833b6e8b0363b4fea7221a167392f9d4535a277b60593d43",
+    "docs/INTERFAZ_DIGITIZACION.md": "b94497f622a257d1c5c8430dd5801bfe18b49f852318899898ff82f1eb9f9460",
+    "draft2model/digitizacion_calibrada.py": "2d82f69f721c3934527a109393be8da16050141eedbbef8b7e8232d81f6be00a",
+    "tests/test_revision_digitizacion.py": "fd1567a36976679db22b74d7bc939bd81417687851db0c986b741a12e7d009be",
+    "tests/digitizacion_353_frontend.cjs": "07ddbee0abad3e7df3aecaf4478120c45c177aa227caa265278f5cc9fd7d6b09"
+  },
+  "pruebas_existentes": [
+    {
+      "comando": ".venv/Scripts/python.exe -B -m unittest tests.test_revision_digitizacion -v",
+      "entorno": "sandbox Windows, sin escalado; temporales propios de la fixture bajo tmp/antigravity353",
+      "pruebas": 10,
+      "errores": 0,
+      "fallos": 0,
+      "duracion_unittest_segundos": 6.74,
+      "exit_code": 0
+    },
+    {
+      "comando": "node tests/digitizacion_353_frontend.cjs",
+      "entorno": "Node/DOM simulado",
+      "bloques": 5,
+      "exit_code": 0,
+      "salida": "Digitizacion353 frontend: recepcion estructurada, edicion normalizada, no-verificacion3anclas, invalidacion y cambio de caso: OK(5bloques)"
+    }
+  ],
+  "contraste_con_nucleo_puro": {
+    "usa_calibrar_digitizacion": true,
+    "metricas_navegador_rechazadas": true,
+    "unidades_plano_y_fuente_explicitados": true,
+    "sin_referencia_documental_usa_descriptor_geometrico_compartido": true,
+    "descriptor_no_acredita_controles_independientes": true,
+    "salida_normal_borrador_no_modelable": true,
+    "limite": "Las banderas y pendientes del resumen persistido no se reproducen en consultar, aunque el resultado puro si."
+  },
+  "hallazgos": [
+    {
+      "id": "355-01",
+      "prioridad": "P1",
+      "archivo": "draft2model/revision_digitizacion.py",
+      "linea": 1265,
+      "funcion": "ServicioDigitizacion._cargar_y_comprobar",
+      "titulo": "Resumen y pendientes alterados se aceptan como vigentes tras recalcular hashes locales",
+      "precondicion": "Acceso de escritura a los dos JSON de una fixture; misma amenaza ya cubierta por prueba existente de tampering de coordenadas que recalcula ambas huellas. No es ataque remoto ni se modificaron expedientes reales.",
+      "pasos": [
+        "Crear calculo de3anclas y0controles sin evidencia documental.",
+        "Editar solo resumen: documental/contraste/exactitud=true, carencia=false, ajuste3anclas=false; vaciar pendientes.",
+        "Recalcular huella_version y sha256_registro de los dosJSON como en test_detecta_tampering_de_coordenadas_o_aprobacion_en_registro_persistido.",
+        "Consultar version: servicio la declara vigente y devuelve el resumen falsificado aunque resultado puro mantiene0controles y exactitudfalse."
+      ],
+      "observado": {
+        "vigente": true,
+        "resumen.exactitud_documental_acreditada": true,
+        "resumen.contraste_en_controles": true,
+        "resultado.controles": 0,
+        "resultado.exactitud_verificada_en_controles": false,
+        "revision": {
+          "estado": "borrador",
+          "aprobacion": null
+        },
+        "pendientes": []
+      },
+      "impacto": "La UI en digitizacion.js:550 confia en resumen y puede mostrar exactitud documental acreditada y contraste independiente inexistentes; tambien desaparecen carencias. No se habilito ETABS ni cambio aprobacion real.",
+      "correccion_sugerida": "Reproducir/contrastar resumen y pendientes completos desde resultado puro y catalogo vigente al consultar; exigir invariantes de no acreditacion documental y no aprobacion en todos los niveles derivados. No confiar en hashes locales autoactualizables como evidencia independiente.",
+      "comando_reproduccion": "Pegar fragmento_python en un here-string de PowerShell y pasarlo a .venv/Scripts/python.exe -B -. Solo crea/altera fixture temporal propia y la limpia.",
+      "fragmento_python": "import json\nfrom pathlib import Path\nfrom tests import test_revision_digitizacion as t\nfrom draft2model.revision_digitizacion import _bytes, _huella, _sha\nf=t.RevisionDigitizacionTests();f.setUpClass()\ntry:\n    f.setUp()\n    gid,geo=f._importar_geo(t._geometria_v03_base())\n    result=f.svc.calcular({'caso':t.CASO,'expediente_sha256':f.fp,'geometria':gid,'huella_geometria':geo['huella'],'sha256_geometria':geo['sha256_geometria'],'propuesta_id':'PROBE355','fuente':f._fuente_base(con_sha=True),'plano':f._plano_z0(),'limites':t._limites_validos(),'anclas':[{'id':'A1','punto_resuelto':'VA','uv_local':t._uv_desde_xy(1,1)},{'id':'A2','punto_resuelto':'VB','uv_local':t._uv_desde_xy(9,1)},{'id':'A3','punto_resuelto':'VC','uv_local':t._uv_desde_xy(9,7)}],'controles':[],'puntos':[{'id':'N1','uv_local':[.5,.5],'relacionados':['VA']}]})\n    folder=Path(f.case_dir)/t.CARPETA/result['id'];reg=json.loads((folder/'registro.json').read_bytes());meta=json.loads((folder/'version.json').read_bytes())\n    reg['resumen'].update(exactitud_documental_acreditada=True,contraste_en_controles=True,exactitud_verificada_en_controles=True,carencia_vinculo_documental=False,ajuste_tres_anclas_sin_verificacion=False)\n    reg['pendientes']=[];reg['huella_version']=_huella({k:v for k,v in reg.items() if k!='huella_version'});raw=_bytes(reg)\n    meta['huella_version']=reg['huella_version'];meta['sha256_registro']=_sha(raw);(folder/'registro.json').write_bytes(raw);(folder/'version.json').write_bytes(_bytes(meta))\n    reopened=f.svc.consultar(t.CASO,f.fp,result['id'])\n    print(json.dumps({'vigente':reopened['vigente'],'exactitud_documental_acreditada':reopened['resumen']['exactitud_documental_acreditada'],'contraste_en_controles':reopened['resumen']['contraste_en_controles'],'controles_puros':len(reopened['resultado']['controles']),'resultado_puro_exactitud':reopened['resultado']['exactitud_verificada_en_controles'],'revision':reopened['revision'],'pendientes':reopened['pendientes']}))\nfinally:\n    f.doCleanups();f.tearDownClass()"
+    },
+    {
+      "id": "355-02",
+      "prioridad": "P2",
+      "archivo": "draft2model/revision_web/digitizacion.js",
+      "lineas": [
+        248,
+        733,
+        802,
+        828,
+        938
+      ],
+      "titulo": "Respuesta tardia del mismo caso restaura contexto de geometria anterior",
+      "pasos": [
+        "Iniciar preparar conG1 dejando su respuesta pendiente.",
+        "AbrirG2 del mismo caso y emitir d2m-geometry-opened; se invalida la huella/preparacion visible.",
+        "Resolver respuesta antigua deG1; sameContext comprueba solo caso/fp/epoch y el evento de geometria no incrementa epoch."
+      ],
+      "observado": {
+        "antes": "Geometria cambiada: prepara nuevamente el contexto antes de calcular.",
+        "despues": "Version preparada9999... con huella6666... deG1",
+        "geometria_actual": "22222222222222222222222222222222",
+        "digCalcular_disabled": false
+      },
+      "impacto": "LaUI vuelve a mostrar preparacion o resultado viejo y habilita calcular contra otra geometria abierta. Backend deberia rechazar vinculoG1/G2; no se acredito bypass de su validacion. La misma guardia se usa al calcular/abrir registro y cambios de formulario.",
+      "correccion_sugerida": "Token de contexto/request que cambie al abrir geometria o editar fuente/plano/criterios; comparar tambien version/huella geometricas capturadas antes de aceptar respuestas. No invalidar solo variables locales sin invalidar solicitudes en vuelo.",
+      "comando_reproduccion": "Pegar fragmento_node en here-string PowerShell y pasarlo a node. Reutiliza harness existente en memoria; sin modificar JS/tests ni hacer llamadas reales.",
+      "fragmento_node": "const fs355=require('node:fs'),vm355=require('node:vm'),path355=require('node:path');\nconst filename355=path355.resolve('tests/digitizacion_353_frontend.cjs');\nconst prefix355=fs355.readFileSync(filename355,'utf8').split('(async()=>{')[0];\nconst context355={require,process,console,__dirname:path355.dirname(filename355),setImmediate,URLSearchParams};\nvm355.createContext(context355);\nvm355.runInContext(prefix355+`\\n(async()=>{const h=createHarness();await h.emitWindow(new h.ctx.Event('d2m-case'));const slow=deferred();h.setHandler(url=>url==='/api/digitizacion/preparar'?slow.promise:undefined);const pending=h.byId('digPreparar').emit('click');await flush();h.byId('geoVersion').value=GEO_2;h.ctx.geoRecord=makeGeoRecord(GEO_2,H_GEO_2,S_GEO_2,true);await h.emitWindow(new h.ctx.Event('d2m-geometry-opened'));const before=h.byId('digHuellaActiva').textContent;slow.resolve({json:async()=>makePreparedResponse()});await pending;await settle();console.log(JSON.stringify({before,after:h.byId('digHuellaActiva').textContent,calcular_disabled:h.byId('digCalcular').disabled,geometria_actual:h.byId('geoVersion').value}));})().catch(e=>{console.error(e);process.exitCode=1;});`,context355);"
+    }
+  ],
+  "siguiente_paso": "Root delegara correcciones en encargo356; no aceptar353 hasta corregir y verificar los dos probes y las focales existentes. No se corrigio producto en355.",
+  "limites": [
+    "Solo pruebas sinteticas; no planos privados",
+    "Sin API real, claves, ETABS, servidores ni GUI",
+    "No suite completa",
+    "Un intento inicial del probe Node fallo por URLSearchParams ausente en contexto del harness; se corrigio solo el comando temporal y la reproduccion final funciono",
+    "No se repitio ni modifico revision354; root informa8/8postfix y conserva recibo inicial separado"
+  ]
+}

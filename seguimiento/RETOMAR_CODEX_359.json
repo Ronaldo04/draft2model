@@ -1,0 +1,94 @@
+{
+  "fecha_utc": "2026-10-25T19:42:17.099499+00:00",
+  "checkpoint_previo": "seguimiento/RETOMAR_CODEX_358.json",
+  "goal_completo": false,
+  "clasificacion_turno": "progreso: respuestaAPI8incorporada;356revisadoaceptado;357hashesverificados+serviciointegrado4tests;359UIasignadoyenvioobservado;falloconcreto/aceroidentificadoporGUIycorregido",
+  "reparto": {
+    "root": "revision_contornos.py,rutasHTTP,params/materiales/UIpreparacion;noeditarJSAGcontornos",
+    "Antigravity": "359_contornos_ui;4archivosexclusivosy marcador seguimiento/ANTIGRAVITY_359_ENTREGA.json;estadoenviadoverificadoWorking",
+    "subagente357": "terminado23pruebas,hashesverificados;ningúnotroencargo",
+    "subagente_revision356": "terminado12Python+7DOM;reciboseguimiento/REVISION_DIGITIZACION_356.json"
+  },
+  "servidor": {
+    "url": "http://127.0.0.1:18346/",
+    "session": null,
+    "ultimo_pid_anterior9652": "detenidoporroot,otroiniciado;noadivinarPIDactual",
+    "estado": "Servidor359 reiniciado y puerto comprobado; correcciónFC/fy cargada. Proceso oculto independiente, verificarPIDrealantesdeparar.",
+    "browser": "tab355 conserva estadoanterior;recargarparaactualización completa;no cerrar otraspestañas",
+    "pid_wrapper": 24120,
+    "log": "tmp/servidor359.log",
+    "err": "tmp/servidor359.err"
+  },
+  "caso3": {
+    "geometria_parcial": "353282fd342349b78b28579384e9d5c2",
+    "configuracion_preparacion_lectura8": "f87bc6177dc344f1a7c67216d8375b91",
+    "extraccion_lectura8": "f1c6308fba7b4e1c8b92571842406e7f",
+    "materiales_completos": 0,
+    "lectura8": "seguimiento/LECTURA_PARAMETROS_358.json",
+    "detecciones": "3materiales,13secciones,41asignaciones,3cargas;propuestaspendientes",
+    "declaracion_humana": "seguimiento/CONFIRMACION_CONCRETO_PROYECTO3_359.json:soloausenciaE/G;no confirmópesonormalnipesoespecifico",
+    "faltantes_geometria": "17observacionesanteriorespreservadas,contornosnuevosNOprobadosreal",
+    "ETABS": "sin nuevaejecución/aprobación"
+  },
+  "API": {
+    "OpenAI_usadas": 8,
+    "limite": 10,
+    "restantes": 2,
+    "nuevas_en_este_tramo": 0,
+    "trabajo8": "bdd7a91fb0414a99aeb21d4e325cad82",
+    "recuperado_sin_API": true,
+    "siguiente": "NOrepetir8porrutina. Para9esperarUI359revisada/rutas/assets/servidorestables y consentimientovisibleexistenteautorización."
+  },
+  "completado": {
+    "356": "2defectos355corregidos,revisiónindependiente12Python+7DOM,soloSWaceptado",
+    "357": "2puroscontratorednormalizada+merger,23focales,hashesaceptadosy3integradasrootdespués",
+    "ServicioContornos": "rutasGET2/POST3registradas,lazypropiedad;contexto vértices/planos/frames/topologíaparcial;calibraciónlocal;incorporacióntransaccional;preparaciónderivada",
+    "materiales": "correspondencia lecturaFC↔IDmaterialautomática,sincondicionesfisicasasumidas;avisosagrupados;fallo fycomoFCcorregidoencódigo,noenprocesoactual"
+  },
+  "pruebas_root": [
+    {
+      "log": "tmp/revision_contornos_359.log",
+      "resultado": "4/4OK;13.916s;discosintético/transporteDouble/calibracionreal/rutasHTTP/confirmación"
+    },
+    {
+      "log": "tmp/revision_contornos_359_vigencia.log",
+      "resultado": "1integrada+recuperaciónsinotroenvíoOK5.414s trasguards/contextofinal"
+    },
+    {
+      "log": "tmp/material_359_identidad.log",
+      "resultado": "1integradaOK4.397s;relación FC→MAT→secciones sinotraAPI"
+    },
+    {
+      "log": "tmp/parametros_359_vinculos.log",
+      "resultado": "8/8DOMOK"
+    },
+    {
+      "comando": "node tests/preparacion_configuracion_348_frontend.cjs",
+      "resultado": "OK;IDmaterialautocompletado desdeevento,ingenieriasiguependiente"
+    },
+    {
+      "log": "tmp/identidad_resistencia_359.log",
+      "resultado": "3/3OK;notaFC/fy/fmcompartidanoofrecefycomoconcreto"
+    },
+    {
+      "log": "tmp/material_359_regresion_fc.log",
+      "resultado": "11/11OK6.697s; regresión servicio preparación trasfix FC/fy"
+    }
+  ],
+  "pendiente_inmediato": [
+    "Verificarquotaantestrabajopesado. Si<=5%nopesado;<=1%guardar/terminar",
+    "CorrecciónFC/fycargadaenbackend359ya reiniciado. FaltaQAvisual: recargarpagina yconsultarlectura8,soloFC210no4200;seleccionarFC210soloautocompletaID. Backendya rechaza fycomoFC. NoaplicarMaterialhastaespecificarcondicionesfaltantes.",
+    "Recargarpagina,caso3,etapa4,consultarlectura8;esperarFCopciones ycomprobarúnicamente210,no4200;seleccionarFC210soloactualizaID,sinmarcarcondiciones/aprobar",
+    "Leer marcador359conestado_antigravity.py:siSINmarcadornoconsultarventanarutinariamente;hacerindependiente",
+    "Cuando359candidato:hashes+reviewfocal/Node;registrarasset/indexscript. Rutascontornosyservicioyaexisten;reinicioestablerequerido",
+    "NoempezarnuevaAPI9hastacódigoyUI359estables. Simularnoespruebareal.2APIrestantesnoampliar",
+    "Completarentradaingenieríadatosfaltantes;noinventarpesodenormal",
+    "FinalintegraciónnativaETABS/analisis/informe+guiacaso3pendientes;goalíntegroyactivo",
+    "GitHubbasemain347. NuevoscambiosNOpublicados,solopublicarapp/docsdespuésdevalidación"
+  ],
+  "cuota_ultima": {
+    "consumido_5h_porcentaje": 98,
+    "consumido_semanal_porcentaje": 31,
+    "regla": "No iniciar tareas pesadas; <=1%guardar/terminar. Noresetmanual disponible. Goalactivo."
+  }
+}

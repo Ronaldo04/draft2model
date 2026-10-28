@@ -1,0 +1,24 @@
+{
+  "estado": "brecha_reproducida",
+  "casos": [
+    {
+      "caso": "opciones_vacias",
+      "envio": true,
+      "opciones_enviadas": {
+        "tipo_shell_muro": "ShellThin",
+        "gravedad_programa_m_s2": 9.80665
+      },
+      "error": null,
+      "permite_declarar_losa": false
+    },
+    {
+      "caso": "intento_shell_losa",
+      "envio": false,
+      "opciones_enviadas": null,
+      "error": "Las opciones adicionales deben contener solo parámetros modales o espectrales permitidos.",
+      "permite_declarar_losa": false
+    }
+  ],
+  "alcance": "Prueba del transporte cliente con DOM/API dobles; no prueba navegador ni ETABS. Configuración0.5aprobada es simulada.",
+  "api_llamadas": 0
+}

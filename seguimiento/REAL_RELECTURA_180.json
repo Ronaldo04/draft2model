@@ -1,0 +1,70 @@
+{
+  "estado": "lectura_real_y_comparacion_recalculada_verificadas",
+  "datos_sinteticos": true,
+  "modo": "real",
+  "lector": "0.4.0",
+  "solicitud": "687dd83141f84a68aae5112424b3e9f0",
+  "proceso_propio": 44328,
+  "instancia_cerrada": true,
+  "sha256_antes": "c71d19cff0c891021787c95d01bd0a0464279cc38821e1b5a1dda49d8e1fa305",
+  "sha256_despues": "c71d19cff0c891021787c95d01bd0a0464279cc38821e1b5a1dda49d8e1fa305",
+  "original_sha_actual": "c71d19cff0c891021787c95d01bd0a0464279cc38821e1b5a1dda49d8e1fa305",
+  "guardado": false,
+  "modificaciones": [],
+  "resultado_inicial": "incompleto solo por SF sin conversion comprobada",
+  "resultado_tras_confirmacion_SF": {
+    "estado": "verificado",
+    "verificacion_global_del_plan": true,
+    "incompletos": [],
+    "discrepancias": [],
+    "unidades": {
+      "plan": "kN_m_C",
+      "leidas": "N_mm_C",
+      "normalizacion": "dimensional",
+      "factores": {
+        "longitud_m": "1/1000",
+        "modulo_kN_m2": "1000/1",
+        "peso_kN_m3": "1000000/1",
+        "presion_kN_m2": "1000/1",
+        "fuerza_kN": "1/1000",
+        "momento_kN_m": "1/1000000",
+        "fuerza_lineal_kN_m": "1/1",
+        "aceleracion_m_s2": "1/1000"
+      },
+      "no_comparables": {},
+      "valores_normalizados": 26
+    }
+  },
+  "SF": {
+    "esperado_m_s2": 1,
+    "observado_mm_s2": 1000,
+    "factor": "1/1000",
+    "fuente_dimension": "https://docs.csiamerica.com/help-files/etabs/Menus/Define/Load_Cases/Response_Spectrum.htm"
+  },
+  "artefactos": {
+    "tmp\\relectura_real180\\687dd83141f84a68aae5112424b3e9f0\\respuesta.json": "5af687a0eb89d7357568ba209b55175d7603c9620a7aa34b15686f37eba06837",
+    "tmp\\relectura_real180\\687dd83141f84a68aae5112424b3e9f0\\solicitud.json": "2b1a98152c2a45b785618af136238fcdd45c0d3c8f6e577462250e0bf23948fc",
+    "tmp\\relectura_real180\\687dd83141f84a68aae5112424b3e9f0\\expectativa.json": "de47b366ac9a172e586a376c95dc4f785aab8ccd80c3181d16dd24cacf8f1e5c",
+    "tmp\\relectura_real180\\687dd83141f84a68aae5112424b3e9f0\\criterios.json": "093698ad79681ee6ca36c3c4e5caaf24898628a906584bd178520e1aff3a7c49",
+    "tmp\\relectura_real180\\687dd83141f84a68aae5112424b3e9f0\\resultado_verificacion.json": "f9ee3260e45af8311bb64f38f3e2a7b5633eee0323c9a7e81a2b7afff110daa5",
+    "tmp\\relectura_real180\\687dd83141f84a68aae5112424b3e9f0\\resultado_sf_normalizado.json": "5e4d78dd6ed6dbfd6f51b4fde93ab3bc96001bf5c0776db8a2c9d4d299d1dffa",
+    "tmp\\relectura_real180\\687dd83141f84a68aae5112424b3e9f0\\traza_verificacion.jsonl": "cb9f8cc2ef1d9899f43b738b823aa3d4dfcb2b981a81703654956813bd16cba2"
+  },
+  "fuentes_codigo": {
+    "draft2model/verificacion_modelo_guardado.py": "50cfa035bd0297c499712c9707d4c9800210f2623365de20ef8ceeb44c5d5d03",
+    "scripts/verificar_modelo_guardado.ps1": "e44676be31eae921e32738c02eac5899e3000e9646a45c5d616048b24e3a4cf8",
+    "tests/test_verificacion_modelo_guardado.py": "c1f5eb4dde38779294ec85cb099bb6d88271bf1139492646b19beeb6b50fdd5f",
+    "draft2model/informe.py": "95fe03f6fdd76ab0315a7e4139c364bebebc1b326b5ff17c2daa67af2d1dbb9f",
+    "tests/test_informe_relectura_modelo.py": "ca01e5e37fe6cd8f5ff7b65035ce39f81caf53f0f8fbfa1d7bae97b1d2bc934f"
+  },
+  "pruebas_despues_cambio": [
+    "UnidadesTests:3OK0.222s",
+    "InformeRelecturaTests:4OK10.472s"
+  ],
+  "limites": [
+    "Resultado recalculado de mismos bytes reales, no segunda lectura del motor",
+    "Solo plan sintetico d4: no planos referencia ni aligerados/huecos/malla",
+    "Sin solver ni aprobación de ingeniería"
+  ],
+  "llamadas_api_proveedores": 0
+}

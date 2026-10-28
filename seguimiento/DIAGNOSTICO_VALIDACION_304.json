@@ -1,0 +1,76 @@
+{
+  "fecha_utc": "2026-10-24T01:39:39.788372+00:00",
+  "fuentes_sin_cambios": "5fd73861327c0e447b87158032ffc9a69899a01c1376c736e03920f7a6e6aa1c",
+  "global303": {
+    "python": 1419,
+    "fallos": 1,
+    "errores": 11,
+    "segundos": 1064.443,
+    "interfaz": 35,
+    "omisiones": 0,
+    "estado": "NO aceptado"
+  },
+  "causa_verificada": [
+    {
+      "prueba": "ERROR: test_exclusion_con_construccion_en_otro_proceso (test_revision_analisis.AnalisisWebTests)",
+      "rechazo_ruta_larga": true
+    },
+    {
+      "prueba": "ERROR: test_apertura_sin_pid_no_construye (test_revision_ejecucion.ConstruccionWebTests)",
+      "rechazo_ruta_larga": true
+    },
+    {
+      "prueba": "ERROR: test_construir_aceptacion_fuerte_modelo_pendiente_y_reinicio (test_revision_ejecucion.ConstruccionWebTests)",
+      "rechazo_ruta_larga": true
+    },
+    {
+      "prueba": "ERROR: test_dos_servicios_y_exclusion_entre_procesos (test_revision_ejecucion.ConstruccionWebTests)",
+      "rechazo_ruta_larga": true
+    },
+    {
+      "prueba": "ERROR: test_fallo_parcial_persiste_traza (test_revision_ejecucion.ConstruccionWebTests)",
+      "rechazo_ruta_larga": true
+    },
+    {
+      "prueba": "ERROR: test_falso_exito_y_fallo_parcial_no_aceptados (test_revision_ejecucion.ConstruccionWebTests)",
+      "rechazo_ruta_larga": true
+    },
+    {
+      "prueba": "ERROR: test_inputs_alterados_no_lanzan (test_revision_ejecucion.ConstruccionWebTests) (target='lamina-0001.pdf')",
+      "rechazo_ruta_larga": true
+    },
+    {
+      "prueba": "ERROR: test_inputs_alterados_no_lanzan (test_revision_ejecucion.ConstruccionWebTests) (target='plantilla.edb')",
+      "rechazo_ruta_larga": true
+    },
+    {
+      "prueba": "ERROR: test_inputs_alterados_no_lanzan (test_revision_ejecucion.ConstruccionWebTests) (target='configuracion.json')",
+      "rechazo_ruta_larga": true
+    },
+    {
+      "prueba": "ERROR: test_preparar_sin_procesos_replay_y_clave_con_otro_payload (test_revision_ejecucion.ConstruccionWebTests)",
+      "rechazo_ruta_larga": true
+    },
+    {
+      "prueba": "ERROR: test_reinicio_huerfano_no_reintenta_y_pid_ausente (test_revision_ejecucion.ConstruccionWebTests)",
+      "rechazo_ruta_larga": true
+    },
+    {
+      "prueba": "FAIL: test_preparacion_sin_motor_confirmacion_y_trabajo_aceptado (test_revision_ejecucion_http.ConstruccionHTTPTests)",
+      "rechazo_ruta_larga": true
+    }
+  ],
+  "correccion": "Solo ejecución: TEMP/TMP y --temporales pasan a ROOT/tmp/t304; no cambia código ni longitud máxima del motor.",
+  "focal_304": {
+    "comando": "tests.test_revision_ejecucion tests.test_revision_ejecucion_http desde ZIP303 instalado",
+    "pruebas": 12,
+    "segundos": 12.153,
+    "codigo": 0
+  },
+  "global_304": {
+    "exec": 18091,
+    "salida": "tmp/validacion_distribucion_303/verificacion_304.json",
+    "estado": "en curso; no reinstalar ni cambiar fuentes"
+  },
+  "goal_completo": false
+}

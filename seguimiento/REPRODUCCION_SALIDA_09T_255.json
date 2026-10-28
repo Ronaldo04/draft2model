@@ -1,0 +1,33 @@
+{
+  "alcance": "Solo predicado extraido del AST; no imports ni ejecucion del runner, ETABS o aprobaciones",
+  "fuente": "seguimiento\\claude_ruta\\recorrido_etabs_09t.py",
+  "fuente_sha256": "79e1cb11e24ef1c854641fb882c8093c6daae28635f5b8c325ad3abc15e66275",
+  "casos": [
+    {
+      "caso": "cierre_false",
+      "fallo_detectado": false,
+      "salida_que_deriva_main": 0
+    },
+    {
+      "caso": "error_cierre",
+      "fallo_detectado": false,
+      "salida_que_deriva_main": 0
+    },
+    {
+      "caso": "relectura_discrepancias",
+      "fallo_detectado": false,
+      "salida_que_deriva_main": 0
+    },
+    {
+      "caso": "relectura_incompleta",
+      "fallo_detectado": false,
+      "salida_que_deriva_main": 0
+    },
+    {
+      "caso": "control_error_explicito",
+      "fallo_detectado": true,
+      "salida_que_deriva_main": 1
+    }
+  ],
+  "hallazgo": "Predicado ignora cierres no confirmados y relecturas no verificadas; no acredita exito operativo"
+}

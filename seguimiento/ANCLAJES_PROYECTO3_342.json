@@ -1,0 +1,491 @@
+{
+  "fecha_utc": "2026-10-24T20:14:22.863638+00:00",
+  "software": "desarrollo aislado337+342, no entrega331",
+  "datos": "originales proyecto3 y extracción existente; sin completar coordenadas ni revisiones",
+  "resumen": {
+    "sin_relacion": 36
+  },
+  "paginas": [
+    {
+      "contrato": "draft2model.anclajes_propuestos",
+      "version_contrato": "0.1.0",
+      "original_sha256": "bd70ac9e2c27f2b4e8f45f3ee90b40126469ff2ed23ee0e3083169a409c26f87",
+      "pagina": 1,
+      "archivo_id": "L0001",
+      "sistema_coordenadas": "pagina_visible_pt",
+      "lecturas": [
+        {
+          "candidato": "C013",
+          "texto_fuente": "NIV. +0.30",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C015",
+          "texto_fuente": "NPT. +0.45",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C017",
+          "texto_fuente": "NPT. +0.45",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C019",
+          "texto_fuente": "NPT. +0.45",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C022",
+          "texto_fuente": "NPT. +0.45",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C024",
+          "texto_fuente": "NPT. +0.45",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C026",
+          "texto_fuente": "NPT. +0.00",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C027",
+          "texto_fuente": "6.700",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C029",
+          "texto_fuente": "NPT. +3.55",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C031",
+          "texto_fuente": "NPT. +3.55",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C033",
+          "texto_fuente": "NPT. +3.55",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C035",
+          "texto_fuente": "NPT. +3.55",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C037",
+          "texto_fuente": "NPT. +3.55",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C039",
+          "texto_fuente": "NPT. +3.55",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C041",
+          "texto_fuente": "NPT. +3.55",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C043",
+          "texto_fuente": "NPT. +6.65",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C045",
+          "texto_fuente": "NPT. +6.65",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C046",
+          "texto_fuente": "6.700",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        }
+      ],
+      "aprueba_lecturas": false,
+      "genera_geometria": false,
+      "advertencia": "Relaciones de dibujo pendientes; no son coordenadas físicas ni aprobación de ingeniería."
+    },
+    {
+      "contrato": "draft2model.anclajes_propuestos",
+      "version_contrato": "0.1.0",
+      "original_sha256": "d5e86eed310ca30f79d2ad7c1f9c7de6ff2d64c1df769512118850be2e127a6f",
+      "pagina": 1,
+      "archivo_id": "L0002",
+      "sistema_coordenadas": "pagina_visible_pt",
+      "lecturas": [
+        {
+          "candidato": "C050",
+          "texto_fuente": "NTT. +9.40",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C051",
+          "texto_fuente": "NPT. +6.65",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C052",
+          "texto_fuente": "NPT. +3.55",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C053",
+          "texto_fuente": "NIV. +2.90",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C054",
+          "texto_fuente": "NPT. +0.30",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C056",
+          "texto_fuente": "NPT. +6.65",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C058",
+          "texto_fuente": "NPT. +3.55",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C060",
+          "texto_fuente": "NIV. +0.30",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C062",
+          "texto_fuente": "NPT. +0.45",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C064",
+          "texto_fuente": "NPT. +0.00",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C066",
+          "texto_fuente": "NPT. +6.65",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C068",
+          "texto_fuente": "NPT. +3.55",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C070",
+          "texto_fuente": "NPT. +0.45",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C071",
+          "texto_fuente": "NTT. +9.40",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C072",
+          "texto_fuente": "NPT. +6.65",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C073",
+          "texto_fuente": "NPT. +3.55",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        },
+        {
+          "candidato": "C074",
+          "texto_fuente": "NPT. +0.45",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        }
+      ],
+      "aprueba_lecturas": false,
+      "genera_geometria": false,
+      "advertencia": "Relaciones de dibujo pendientes; no son coordenadas físicas ni aprobación de ingeniería."
+    },
+    {
+      "archivo_id": "L0003",
+      "estado": "busqueda_no_realizada",
+      "causa": "Página demasiado densa para esta búsqueda acotada.",
+      "lecturas": []
+    },
+    {
+      "contrato": "draft2model.anclajes_propuestos",
+      "version_contrato": "0.1.0",
+      "original_sha256": "57f829749e53d2356f356fb1886187c594f65b811a14bc8e1b8d151bcc277881",
+      "pagina": 1,
+      "archivo_id": "L0004",
+      "sistema_coordenadas": "pagina_visible_pt",
+      "lecturas": [
+        {
+          "candidato": "C130",
+          "texto_fuente": "H=0.20",
+          "coincidencias_vectoriales": 0,
+          "alternativas": [],
+          "unidad_literal": null,
+          "estado": "sin_relacion",
+          "revision_original": {
+            "estado": "pendiente",
+            "historial": []
+          }
+        }
+      ],
+      "aprueba_lecturas": false,
+      "genera_geometria": false,
+      "advertencia": "Relaciones de dibujo pendientes; no son coordenadas físicas ni aprobación de ingeniería."
+    }
+  ],
+  "nueva_api": false,
+  "nueva_geometria": false,
+  "cambio_expediente": false,
+  "goal_completo": false
+}

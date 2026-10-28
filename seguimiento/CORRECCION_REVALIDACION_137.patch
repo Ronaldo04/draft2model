@@ -1,0 +1,48 @@
+--- a/draft2model/revision_controles.py
++++ b/draft2model/revision_controles.py
+@@ -206,6 +206,11 @@
+             nucleo.validar_controles(doc, respuesta_bytes=raw, avisos_solver_bytes=solver_raw)
+         except ValueError:
+             raise ErrorControles('Los controles no se reproducen desde sus fuentes y criterios.') from None
++        # La fuente también debe seguir vigente después del recálculo.
++        # Releer solo el registro no detecta una lectura/EDB alterados en ese intervalo.
++        raw_final, vinculo_final = self._fuentes(caso, fp, vinculo['lectura_trabajo'], vinculo['sha256_respuesta'])
++        if raw_final != raw or vinculo_final != vinculo:
++            raise ErrorControles('Las fuentes cambiaron durante la validación de controles.')
+         if _leer(target/'version.json') != meta_raw or _leer(target/'controles.json') != doc_raw:
+             raise ErrorControles('El registro cambió durante la consulta.')
+         return meta, doc
+--- a/tests/test_revision_controles.py
++++ b/tests/test_revision_controles.py
+@@ -2,6 +2,8 @@
+ import json
+ from types import SimpleNamespace
+ import unittest
++from unittest.mock import patch
++from draft2model import controles_analisis as nucleo
+ from urllib.parse import urlencode
+ 
+ from draft2model import evidencia_analisis as evidencia
+@@ -110,6 +112,22 @@
+             self.service.consultar(self.caso, item['id'], expediente_sha256=self.fp)
+         self.assertFalse(self.service.listar(self.caso, expediente_sha256=self.fp)['versiones'][0]['vigente'])
+ 
++    def test_fuente_cambia_despues_del_recalculo_no_es_vigente(self):
++        item = self.service.crear(self.body())
++        path = self.app.raiz/self.caso/'lecturas_etabs'/self.job['lectura_id']/'respuesta.json'
++        original = path.read_bytes(); validar = nucleo.validar_controles
++        def cambiar(*args, **kwargs):
++            value = validar(*args, **kwargs)
++            path.write_bytes(original+b'\n')
++            return value
++        try:
++            with patch.object(nucleo, 'validar_controles', side_effect=cambiar):
++                with self.assertRaises(ErrorControles):
++                    self.service.consultar(self.caso, item['id'], expediente_sha256=self.fp)
++        finally:
++            path.write_bytes(original)
++        self.assertTrue(self.service.consultar(self.caso, item['id'], expediente_sha256=self.fp)['vigente'])
++
+     def test_http_rutas_sesion_y_limite(self):
+         status, raw, _ = self.request('POST', '/api/controles/crear', self.body()); self.assertEqual(status, 201, raw)
+         item = json.loads(raw)

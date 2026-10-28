@@ -1,0 +1,31 @@
+{
+  "fecha_utc": "2026-10-25T03:46:45.138077+00:00",
+  "caso": "vivienda-unifamiliar-003",
+  "trabajo": "ec9ddc49ee79431ba9d70ccc63229a53",
+  "unidad_confirmada_usuario": "m",
+  "registro_por_interfaz": true,
+  "geometria_version": "353282fd342349b78b28579384e9d5c2",
+  "resumen": {
+    "alineaciones": 32,
+    "bloqueos_coordenadas": 0,
+    "elementos_incompletos": [],
+    "elementos_totales": 49,
+    "elementos_validos": 49,
+    "medidas": 6,
+    "niveles": 6,
+    "origen_local": "A2_N1",
+    "puntos": 29,
+    "unidad_efectiva": "m",
+    "unidad_plano": "desconocida"
+  },
+  "superficies": 13,
+  "frames_propuestos": 36,
+  "configuracion_preparacion": "0dd0893f9251409886a3a56d9e8295db",
+  "puntos_configuracion": 29,
+  "frames_configuracion": 36,
+  "materiales_configurados": 0,
+  "aprobacion": null,
+  "ejecutable_etabs": false,
+  "captura": "seguimiento/PROYECTO3_GEOMETRIA_348.png",
+  "configuracion_sha256": "44508d9aa19f78c9201dfbf507ee0951b7ed8164fcd626cc87517c7093751d7e"
+}

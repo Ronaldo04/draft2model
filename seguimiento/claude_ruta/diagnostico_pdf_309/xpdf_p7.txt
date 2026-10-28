@@ -1,0 +1,50 @@
+  DERIVA-S1-ALB-SX / SX / X / N3
+
+   Estado: evaluado; entrada: 0.001402 1; evaluado: 0.006309 1; límite conﬁgurado: <= 0.005 1.
+   Fórmula: 4.5 * x + 0.0; satisfacción de regla conﬁgurada: False.
+   Fuente de regla DECLARADA: Norma E.030 Diseño Sismorresistente · Edición: RM 183-2026-VIVIENDA (El
+   Peruano, 2026-05-03) · Apartado: Arts. 50.1 y 51, Tabla N° 14 (albanileria) · Referencia: seguimiento/
+   normativa_229/E030_RM183_2026.txt. Página: no disponible en este contrato.
+
+  DERIVA-S1-ALB-SX / SX / X / N4
+
+   Estado: evaluado; entrada: 0.000145 1; evaluado: 0.0006525 1; límite conﬁgurado: <= 0.005 1.
+   Fórmula: 4.5 * x + 0.0; satisfacción de regla conﬁgurada: True.
+   Fuente de regla DECLARADA: Norma E.030 Diseño Sismorresistente · Edición: RM 183-2026-VIVIENDA (El
+   Peruano, 2026-05-03) · Apartado: Arts. 50.1 y 51, Tabla N° 14 (albanileria) · Referencia: seguimiento/
+   normativa_229/E030_RM183_2026.txt. Página: no disponible en este contrato.
+
+  DERIVA-S1-ALB-SY / SY / Y / N1
+
+   Estado: evaluado; entrada: 0.002029 1; evaluado: 0.0091305 1; límite conﬁgurado: <= 0.005 1.
+   Fórmula: 4.5 * x + 0.0; satisfacción de regla conﬁgurada: False.
+   Fuente de regla DECLARADA: Norma E.030 Diseño Sismorresistente · Edición: RM 183-2026-VIVIENDA (El
+   Peruano, 2026-05-03) · Apartado: Arts. 50.1 y 51, Tabla N° 14 (albanileria) · Referencia: seguimiento/
+   normativa_229/E030_RM183_2026.txt. Página: no disponible en este contrato.
+
+  DERIVA-S1-ALB-SY / SY / Y / N2
+
+   Estado: evaluado; entrada: 0.004786 1; evaluado: 0.021537 1; límite conﬁgurado: <= 0.005 1.
+   Fórmula: 4.5 * x + 0.0; satisfacción de regla conﬁgurada: False.
+   Fuente de regla DECLARADA: Norma E.030 Diseño Sismorresistente · Edición: RM 183-2026-VIVIENDA (El
+   Peruano, 2026-05-03) · Apartado: Arts. 50.1 y 51, Tabla N° 14 (albanileria) · Referencia: seguimiento/
+   normativa_229/E030_RM183_2026.txt. Página: no disponible en este contrato.
+
+  DERIVA-S1-ALB-SY / SY / Y / N3
+
+   Estado: evaluado; entrada: 0.005976 1; evaluado: 0.026892000000000003 1; límite conﬁgurado: <= 0.005 1.
+   Fórmula: 4.5 * x + 0.0; satisfacción de regla conﬁgurada: False.
+   Fuente de regla DECLARADA: Norma E.030 Diseño Sismorresistente · Edición: RM 183-2026-VIVIENDA (El
+   Peruano, 2026-05-03) · Apartado: Arts. 50.1 y 51, Tabla N° 14 (albanileria) · Referencia: seguimiento/
+   normativa_229/E030_RM183_2026.txt. Página: no disponible en este contrato.
+
+  DERIVA-S1-ALB-SY / SY / Y / N4
+
+   Estado: evaluado; entrada: 0.000548 1; evaluado: 0.002466 1; límite conﬁgurado: <= 0.005 1.
+   Fórmula: 4.5 * x + 0.0; satisfacción de regla conﬁgurada: True.
+   Fuente de regla DECLARADA: Norma E.030 Diseño Sismorresistente · Edición: RM 183-2026-VIVIENDA (El
+   Peruano, 2026-05-03) · Apartado: Arts. 50.1 y 51, Tabla N° 14 (albanileria) · Referencia: seguimiento/
+   normativa_229/E030_RM183_2026.txt. Página: no disponible en este contrato.
+
+Draft2Model | Informe preliminar | 7 / 8
+

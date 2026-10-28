@@ -1,0 +1,43 @@
+{
+ "tarea": "auto_315_matriz_previa",
+ "ensayo_ciego": false,
+ "nota": "Escrita ANTES de ejecutar ETABS. No es ciega respecto de los patrones de 314 (Lc nativa 0,002 m con un extremo en exceso; 0/0 con ambos). Fixtures sintéticos nuevos, sin relación geométrica con las 45 vigas del piloto. Unidades kN-m-C; dos pisos de 3 m; vigas en z=3; columnas inferiores de z=0 a 3; columnas superiores de 3 a 6; casos separados 10 m.",
+ "secciones": {
+  "VIGA_15X30": {"T3": 0.30, "T2": 0.15},
+  "COL_40X15": {"T3": 0.40, "T2": 0.15},
+  "COL_25X25": {"T3": 0.25, "T2": 0.25},
+  "COL_60X20": {"T3": 0.60, "T2": 0.20}
+ },
+ "hipotesis": {
+  "H_help": "Ayuda ETABS: offset = max(T3,T2)/2 de la mayor columna INFERIOR; columna superior y otras vigas no cuentan; sin proyección por orientación.",
+  "H_cara": "Regla 313 (SAP2000): distancia a la cara a lo largo del eje de la viga (con proyección por orientación).",
+  "H_Lc2mm": "Con exceso en un extremo: longitud libre constante de 0,002 m.",
+  "H_1pct": "Con exceso: longitud libre del 1 % de L (manual SAP2000).",
+  "H_tol": "La longitud libre depende de la tolerancia de unión (GetMergeTol); se contrasta con el modelo B, que tiene otra tolerancia.",
+  "H_cero": "Con exceso en ambos extremos: 0/0."
+ },
+ "modelo_A": {
+  "tolerancia_union": "valor por defecto (se registra con GetMergeTol antes de construir)",
+  "casos": [
+   {"id": "K01", "L": 3.0, "dir": "X", "I": {"inferior": "COL_40X15"}, "J": {"inferior": "COL_40X15"}, "pred": {"H_help": [0.20, 0.20], "H_cara": [0.20, 0.20]}},
+   {"id": "K02", "L": 3.0, "dir": "Y", "I": {"inferior": "COL_40X15"}, "J": {"inferior": "COL_40X15"}, "pred": {"H_help": [0.20, 0.20], "H_cara": [0.075, 0.075]}, "discrimina": "orientación"},
+   {"id": "K03", "L": 3.0, "dir": "X", "I": {"inferior": "COL_25X25"}, "J": {"superior": "COL_60X20"}, "pred": {"H_help": [0.125, 0.0], "H_cara": [0.125, 0.30]}, "discrimina": "columna superior"},
+   {"id": "K04", "L": 3.0, "dir": "X", "I": {"inferior": "COL_60X20"}, "J": {"muro": "MURO_15 (plano YZ en J, dos paneles)"}, "pred": {"H_help": [0.30, "indeterminado"], "H_cara": [0.30, "indeterminado"]}, "discrimina": "muro (B3)"},
+   {"id": "K05", "L": 3.0, "dir": "X", "I": {"inferior": "COL_25X25"}, "J": {"viga_perpendicular": "VIGA_15X30 hasta una columna COL_25X25 a 3 m"}, "pred": {"H_help": [0.125, 0.0], "H_cara": [0.125, 0.075]}, "discrimina": "otra viga"},
+   {"id": "K06", "L": 0.29, "dir": "X", "I": {"inferior": "COL_60X20"}, "J": {"libre": true}, "pred": {"H_help": ["indeterminado (0,30 >= L)", 0.0], "H_Lc2mm": [0.288, 0.0], "H_1pct": [0.2871, 0.0]}, "discrimina": "exceso en un extremo"},
+   {"id": "K07", "L": 0.55, "dir": "X", "I": {"inferior": "COL_60X20"}, "J": {"libre": true}, "pred": {"H_help": [0.30, 0.0]}, "discrimina": "control sin exceso"},
+   {"id": "K08", "L": 0.35, "dir": "X", "I": {"inferior": "COL_60X20"}, "J": {"inferior": "COL_60X20"}, "pred": {"H_help": ["indeterminado", "indeterminado"], "H_cero": [0.0, 0.0], "H_1pct": [0.17325, 0.17325]}, "discrimina": "cada extremo >= L/2 y cada offset 0,30 < L"},
+   {"id": "K09", "L": 0.50, "dir": "X", "I": {"inferior": "COL_60X20"}, "J": {"inferior": "COL_60X20"}, "pred": {"H_help": ["indeterminado (0,60 >= L)", "indeterminado"], "H_cero": [0.0, 0.0], "H_1pct": [0.2475, 0.2475]}, "discrimina": "suma en exceso con L mayor"},
+   {"id": "K10", "L": 0.27, "dir": "Y", "I": {"inferior": "COL_60X20"}, "J": {"libre": true}, "pred": {"H_help": ["indeterminado (0,30 >= L)", 0.0], "H_Lc2mm": [0.268, 0.0], "H_1pct": [0.2673, 0.0], "H_cara_sin_exceso": [0.10, 0.0]}, "discrimina": "exceso más orientación"},
+   {"id": "K11", "L": 3.0, "dir": "X", "I": {"inferior": "COL_60X20 con eje local girado 90 grados (SetLocalAxes)"}, "J": {"inferior": "COL_25X25"}, "pred": {"H_help": [0.30, 0.125], "H_cara": [0.10, 0.125]}, "discrimina": "orientación por eje local"}
+  ]
+ },
+ "modelo_B": {
+  "tolerancia_union": "5 x la del modelo A, con SetMergeTol (método documentado), solo en este modelo sintético",
+  "casos": ["K01", "K06", "K08", "K10"],
+  "pred": "H_tol: la longitud libre de K06/K10 cambia con la tolerancia; H_Lc2mm: no cambia; K01 igual al modelo A"
+ },
+ "lectura": "GetEndLengthOffset por frame (AutoOffset, Length1, Length2, RZ) y tabla 'Frame Assignments - End Length Offsets', antes y después de un análisis lineal pequeño (peso propio) de estos fixtures.",
+ "tolerancia_comparacion_m": 0.0005,
+ "limites_previos": "Un solo conjunto de casos no prueba una regla universal; una sola versión de ETABS (21) y una sola unidad."
+}

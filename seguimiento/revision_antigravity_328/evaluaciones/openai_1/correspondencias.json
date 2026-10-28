@@ -1,0 +1,39 @@
+{
+  "contrato": "draft2model.correspondencias_vision",
+  "version_contrato": "0.1.0",
+  "caso": "provisional-001",
+  "huella_referencia": "9512d1700814baa91296972ff9918ba43f049a8f8ef857faa2b433488cc50ccb",
+  "huella_extraccion": "d33c0be5fc5119638f9ce11329c2772b6a4e292b9ff55ec6dec52b4173760e1d",
+  "revision": {
+    "estado": "revisado",
+    "revisor_declarado": "Codex (IA), revisión visual asistida; no humana",
+    "fecha": "2026-10-24"
+  },
+  "pares": [
+    {
+      "observacion_id": "AG-0013",
+      "candidato_id": "C011",
+      "indice_evidencia_referencia": 0,
+      "indice_evidencia_candidato": 0,
+      "principal": true,
+      "evidencia_correcta": false
+    },
+    {
+      "observacion_id": "AG-0017",
+      "candidato_id": "C021",
+      "indice_evidencia_referencia": 0,
+      "indice_evidencia_candidato": 0,
+      "principal": true,
+      "evidencia_correcta": true
+    },
+    {
+      "observacion_id": "AG-0018",
+      "candidato_id": "C025",
+      "indice_evidencia_referencia": 0,
+      "indice_evidencia_candidato": 0,
+      "principal": true,
+      "evidencia_correcta": false
+    }
+  ],
+  "sin_respaldo": []
+}

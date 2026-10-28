@@ -1,0 +1,1437 @@
+E060_DS010_2009.pdf PAGE 1
+ 
+NORMA E.060 
+ 
+CONCRETO ARMADO 
+ 
+CAPÍTULO 1 
+REQUISITOS GENERALES 
+ 
+1.1 
+ALCANCE 
+1.1.1 
+Esta Norma fija los requisitos y exigencias mínimas para el análisis, el diseño, los 
+materiales, la construcción, el control de calidad y la supervisión de estructuras de 
+concreto armado, preesforzado y simple. 
+ 
+ 
+1.1.2 
+Los planos y las especificaciones técnicas del proyecto estructural deberán cumplir 
+con esta Norma. 
+ 
+1.1.3 
+Lo establecido en esta Norma tiene prioridad cuando está en discrepancia con otras 
+normas a las que ella hace referencia. 
+ 
+1.1.4 
+Para estructuras especiales tales como arcos, tanques, reservorios, depósitos, 
+silos, chimeneas y estructuras resistentes a explosiones, las disposiciones de esta 
+Norma regirán en lo que sean aplicables.  
+ 
+1.1.5 
+Esta Norma no controla el diseño e instalación de las porciones de pilotes de 
+concreto, pilas excavadas y cajones de cimentación que quedan enterrados en el 
+suelo, excepto en lo dispuesto en el Capítulo 21.  
+ 
+1.1.6 
+Esta Norma no rige el diseño y la construcción de losas apoyadas en el suelo, a 
+menos que la losa transmita cargas verticales o laterales desde otras partes de la 
+estructura al suelo. 
+ 
+1.1.7 
+El diseño y construcción de losas de concreto estructural, vaciadas sobre moldes 
+permanentes de acero consideradas como no compuestas, están regidos por esta 
+Norma. 
+ 
+1.1.8 
+Esta Norma no rige para el diseño de losas de concreto estructural vaciadas sobre 
+moldes permanentes de acero consideradas como compuestas. El concreto usado 
+en la construcción de tales losas debe estar regido por los Capítulos 1 a 7 de esta 
+Norma, en lo que sea aplicable. 
+ 
+1.2 
+PROYECTO, EJECUCIÓN E INSPECCIÓN DE LA OBRA 
+1.2.1   
+Requisitos Generales 
+1.2.1.1 
+Todas las etapas del proyecto estructural, construcción, supervisión e inspección de la 
+obra deberán ser realizadas por personal profesional y técnico calificado. 
+ 
+1.2.1.2 
+Los cálculos, planos, detalles y especificaciones técnicas deberán llevar la firma de un 
+Ingeniero Civil Colegiado, el cual será el único autorizado a aprobar cualquier 
+modificación a los mismos. 
+ 
+1.2.1.3 
+La construcción deberá ser ejecutada e inspeccionada por ingenieros civiles 
+colegiados, los cuales serán responsables del cumplimiento de lo indicado en los 
+planos y especificaciones técnicas. 
+ 
+1.2.2 
+Proyecto 
+1.2.2.1 
+La concepción estructural deberá hacerse de acuerdo a los criterios de estructuración 
+
+
+E060_DS010_2009.pdf PAGE 7
+ 
+e  =  
+base de los logaritmos neperianos, Capítulo 18. 
+Ec =  módulo de elasticidad del concreto, MPa, Capítulos 8-10, 14, 19. 
+Ecb =  módulo de elasticidad del concreto de la viga, MPa, Capítulo 13. 
+Ecs =  módulo de elasticidad del concreto de la losa, MPa, Capítulo 13. 
+EI =  
+rigidez a la flexión de una sección, N·mm2, Capítulo 10. 
+Ep =  módulo de elasticidad del acero de preesfuerzo, MPa, véase, Capítulo 8. 
+Es =  módulo de elasticidad del refuerzo y del acero estructural, MPa, véase 8.5.2, 
+Capítulos 8, 10, 14. 
+f’c  =  resistencia especificada a la compresión del concreto, MPa, Capítulos 4, 5, 
+8-12, 14, 18, 19, 21, 22. 
+f’ci =  resistencia especificada a la compresión del concreto al momento del 
+preesforzado inicial, MPa, Capítulos 7, 18. 
+f’cr =  resistencia promedio a la compresión requerida del concreto, empleada 
+como base para la dosificación del concreto, MPa, Capítulo 5. 
+ 
+ 
+fct  =  resistencia promedio a la tracción por hendimiento (compresión diametral) 
+del concreto liviano, MPa, Capítulos 5, 9, 11, 12, 22. 
+fpc =  esfuerzo de compresión en el concreto (después de que han ocurrido todas 
+las pérdidas de preesforzado) en el centroide de la sección transversal que 
+resiste las cargas aplicadas externamente, o en la unión del alma y el ala 
+cuando el centroide está localizado dentro del ala, MPa.  En un elemento 
+compuesto, fpc es el esfuerzo de compresión resultante en el centroide de la 
+sección compuesta, o en la unión del alma y el ala cuando el centroide se 
+encuentra dentro del ala, debido tanto al preesforzado como a los momentos 
+resistidos por el elemento prefabricado actuando individualmente, Capítulo 
+11. 
+fpe =  esfuerzo de compresión en el concreto debido únicamente a las fuerzas 
+efectivas del preesforzado (después de que han ocurrido todas las pérdidas 
+de preesforzado) en la fibra extrema de una sección en la cual los esfuerzos 
+de tracción han sido producidos por la cargas aplicadas externamente, MPa, 
+Capítulo 11. 
+fps =  esfuerzo en el acero de preesfuerzo en el estado de resistencia nominal a la 
+flexión, MPa, Capítulos 12, 18. 
+fpu =  resistencia especificada a la tracción del acero de preesforzado, MPa, 
+Capítulos 11, 18. 
+fpy =  resistencia especificada a la fluencia del acero de preesforzado, MPa, 
+Capítulo 18. 
+fr  =  
+módulo de ruptura del concreto, MPa, véase 9.5.2.3, Capítulos 9, 14, 18, 
+Apéndice B. 
+fs  =  esfuerzo en el refuerzo calculado para las cargas de servicio, MPa, Capítulos 
+10, 18. 
+fse  =  esfuerzo efectivo en el acero de preesfuerzo (después de que han ocurrido 
+todas la pérdidas de preesforzado), MPa, Capítulos 12, 18. 
+
+
+E060_DS010_2009.pdf PAGE 59
+ 
+8.4.1 
+Excepto cuando se empleen métodos aproximados para el cálculo de los momentos 
+flectores, se permite disminuir los momentos amplificados (Mu) - calculados 
+asumiendo comportamiento lineal elástico de la estructura - en las secciones de 
+máximo momento negativo o máximo momento positivo en cualquier vano de un 
+elemento continuo sometido a flexión, para cualquier distribución de carga supuesta, 
+en no más de:  
+ 
+ 
+ 
+ 
+ 
+ 
+1000 t       (en porcentaje) 
+ 
+         
+  (8-1) 
+ 
+t es la deformación unitaria neta de tracción en el acero más alejado del borde 
+comprimido de la sección, cuando esta alcanza su resistencia nominal (Mn).   La 
+deformación neta excluye las deformaciones unitarias causadas por: el preesfuerzo 
+efectivo, el flujo plástico, la retracción de fraguado y la variación de temperatura. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+8.4.2 
+La redistribución de los momentos negativos solo podrá hacerse cuando en la sección 
+en la cual se reduce el momento flector, la deformación t  sea mayor a igual a 0,0075. 
+ 
+8.4.3 
+Los momentos reducidos deberán usarse para la determinación de todas las otras 
+fuerzas de sección a lo largo de todo el vano.  El equilibrio estático debe mantenerse 
+luego de la redistribución, para cada distribución de carga supuesta. 
+ 
+8.5 
+MÓDULO DE ELASTICIDAD Y MÓDULO DE CORTE 
+8.5.1 
+Para concretos de peso unitario wc comprendido entre 1450 y 2500 kg/m3, el 
+módulo de elasticidad, Ec, para el concreto puede tomarse como: 
+  
+ 
+ 
+ 
+1,5
+(
+)
+0,043
+c
+Ec
+w
+f c
+
+   (en MPa)  
+ 
+  (8-2)  
+ 
+8.5.2 
+Para concretos de peso unitario normal (wc   2300 kg/m3), Ec, puede tomarse 
+como: 
+4700
+Ec
+f c
+
+   (en MPa)  
+ 
+ 
+  (8-3) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+8.5.3 
+Pueden usarse otros valores de Ec que estén suficientemente respaldados por 
+resultados de laboratorio. 
+ 
+8.5.4 
+En ausencia de resultados experimentales confiables, el módulo de rigidez al esfuerzo 
+cortante del concreto se podrá suponer igual a: 
+ 
+ 
+ 
+ 
+ 
+2,3
+Ec
+G 
+ 
+ 
+ 
+ 
+ 
+   (8-4) 
+8.5.5 
+El módulo de elasticidad, Es, para el acero de refuerzo no preesforzado puede 
+tomarse como 200 000 MPa. 
+ 
+8.5.6 
+El módulo de elasticidad, Ep, para el acero de preesforzado deberá determinarse 
+mediante ensayos o será suministrado por el fabricante. 
+Fig. 8.4.1  Deformación del acero t para flexión positiva y negativa en una sección rectangular. 
+
+
+E060_DS010_2009.pdf PAGE 81
+ 
+del 10% de las utilizadas para el análisis, de lo contrario debe repetirse el análisis.   El 
+procedimiento de análisis debe demostrar que genera predicciones de la resistencia 
+que están de acuerdo de manera sustancial con ensayos representativos de columnas 
+en estructuras estáticamente indeterminadas de concreto reforzado. 
+ 
+10.10.2 
+Como alternativa al procedimiento indicado en 10.10.1, se permite basar el diseño 
+de elementos a compresión, vigas de arriostramiento y otros elementos de apoyo en 
+las fuerzas axiales y momentos obtenidos a partir de los análisis aproximados 
+descritos en 10.11. 
+ 
+10.11 
+MOMENTOS MAGNIFICADOS — GENERALIDADES 
+10.11.1 
+Las fuerzas axiales amplificadas Pu, los momentos amplificados M1 y M2  en los 
+extremos de columna y, cuando se requiera, la deriva (desplazamiento lateral 
+relativo) del entrepiso, o, deben ser calculadas a través de un análisis estructural 
+elástico de primer orden tomando en cuenta el efecto en las propiedades de la 
+sección de las cargas axiales, la presencia de regiones agrietadas a lo largo del 
+elemento y los efectos de la duración de las cargas.  Alternativamente, se permite 
+usar las siguientes propiedades para los elementos estructurales. 
+(a) 
+Módulo de elasticidad .............................................................................. Ec de 
+8.5.1 
+(b) 
+Momentos de inercia, I 
+Vigas .............................................................................................................. 
+0,35 Ig 
+Columnas ....................................................................................................... 
+0,70 Ig 
+Muros no agrietados ...................................................................................... 
+0,70 Ig  
+Muros agrietados ........................................................................................... 
+0,35 Ig  
+Losas planas sin vigas………………...………………….................................. 
+0,25 Ig 
+(c) 
+Área 
+....................................................................................................................... Ag 
+ 
+Los momentos de inercia, I, deben dividirse por ( 1 + d ) cuando actúen cargas 
+laterales sostenidas o para las verificaciones de estabilidad hechas de acuerdo con 
+10.13.6.  Para pórticos arriostrados, d  es la relación entre la máxima fuerza axial 
+sostenida amplificada y la máxima fuerza axial amplificada asociada con la misma 
+combinación de carga.  Para pórticos no arriostrados excepto lo especificado en 
+10.13.6, d  es la relación entre el máximo cortante sostenido amplificado del 
+entrepiso y el máximo cortante amplificado en ese mismo entrepiso. 
+ 
+10.11.2 
+Se puede tomar el radio de giro, r, igual a 0,3 veces la dimensión total de la sección 
+en la dirección en la cual se está considerando la estabilidad para el caso de 
+elementos rectangulares y 0,25 veces el diámetro para elementos circulares en 
+compresión.  Para otras formas, se permite calcular el radio de giro para la sección 
+bruta de concreto. 
+ 
+10.11.3 
+Longitud no arriostrada de un elemento en compresión 
+10.11.3.1 La longitud no arriostrada de un elemento en compresión, u , debe tomarse como 
+la distancia libre entre las losas de piso, vigas u otros elementos capaces de 
+proporcionar apoyo lateral en la dirección que se está considerando. 
+ 
+
+
+E060_DS010_2009.pdf PAGE 90
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+11.1.3.2 
+Para elementos de concreto preesforzado, se permite diseñar las secciones 
+localizadas a una distancia menor que h/2 (h es el peralte total del elemento) desde 
+la cara del apoyo, para la fuerza cortante Vu calculada a la distancia h/2 de la cara 
+del apoyo. 
+ 
+11.1.4 
+Para elementos de gran peralte, losas, zapatas, muros, ménsulas y cartelas, deben 
+aplicarse las disposiciones especiales de 11.8 a 11.12. 
+ 
+11.2 
+CONCRETO LIVIANO 
+11.2.1 
+Las disposiciones para la resistencia a cortante y torsión se aplican a los concretos 
+de peso normal.  Cuando se emplea concreto con agregado liviano, debe aplicarse 
+alguna de las siguientes modificaciones en el término
+f ccontenido en el Capítulo 
+11, excepto en 11.5.5.3, 11.5.7.9, 11.6.3.1 y 11.12.3.2. 
+ 
+11.2.1.1 
+Cuando se ha especificado el valor de fct y el concreto se ha dosificado de acuerdo 
+con 5.2, debe reemplazarse 
+f c por 1,8 fct, pero el valor de 1,8 fct no debe 
+exceder de 
+f c. 
+ 
+11.2.1.2 
+Cuando el valor fct  no esté especificado, todos los valores de 
+f c deben 
+multiplicarse por 0,75 para concreto liviano en todos sus componentes, y por 0,85 
+Fig. 11.1.3.1.b  Condiciones de apoyo y de aplicación de las cargas externas 
+en las cuales no se puede reducir la fuerza Vu de diseño. 
+
+
+E060_DS010_2009.pdf PAGE 161
+ 
+como un ambiente en que existe ataque químico (agua marina, ambiente industrial 
+corrosivo, gases de alcantarillas, aguas servidas, etc.), se debe usar un 
+recubrimiento mayor que el indicado en 7.7.2 y se deben reducir los esfuerzos de 
+tracción en el concreto para controlar la fisuración bajo cargas de servicio. 
+ 
+18.5 
+ESFUERZOS ADMISIBLES EN EL ACERO DE PREESFORZADO 
+18.5.1 
+Los esfuerzos de tracción en el acero de preesforzado no deben exceder: 
+(a) 
+Debido a la fuerza del gato de preesforzado……………….……..………….. 
+0,94 fpy 
+pero no mayor que el mínimo entre 0,80 fpu  y el máximo valor recomendado 
+por el fabricante del acero de preesforzado o de los dispositivos de anclaje. 
+(b)  
+Inmediatamente después de la transferencia 
+del preesfuerzo ……………………………..…. 0,82 fpy  pero no mayor que 
+0,74 fpu  
+(c) Tendones de postensado, en anclajes y acoples, inmediatamente después de la 
+transferencia 
+………………………………….………………………..……...……. 
+0,70 fpu  
+ 
+ 
+ 
+ 
+ 
+ 
+18.6 
+PÉRDIDAS DE PREESFUERZO 
+18.6.1 
+Para determinar el esfuerzo efectivo en el acero de preesforzado, fse, deben 
+considerarse las siguientes fuentes de pérdidas de preesforzado. 
+(a) 
+Asentamiento del anclaje durante la transferencia. 
+(b) 
+Acortamiento elástico del concreto. 
+(c) 
+Flujo plástico del concreto. 
+(d) 
+Retracción del concreto. 
+(e) 
+Relajación del esfuerzo en el acero de preesforzado. 
+(f) 
+Pérdidas por fricción debidas a la curvatura intencional o accidental de los 
+tendones de postensado. 
+ 
+18.6.2 
+Pérdidas por fricción en los tendones de postensado 
+18.6.2.1 
+Ppx, que es la fuerza en los tendones de postensado a una distancia 
+px , del 
+extremo donde se aplica la fuerza del gato, debe calcularse mediante: 
+ 
+(
+)
+μ
+α
+K px
+p
+px
+Ppx
+Ppj e
+
+
+ 
+ 
+             (18-1) 
+Cuando (
+)
+K px
+p px
+
+ no es mayor que 0,3;  Ppx  puede calcularse mediante:  
+ 
+1
+(1
+μ α
+)
+Ppx
+Ppj
+K px
+p
+px 
+
+
+
+  
+             (18-2)     
+    
+px  debe estar expresado en metros. 
+ 
+18.6.2.2 
+Las pérdidas por fricción deben basarse en coeficientes de fricción por curvatura p
+ 
+y por desviación accidental K determinados experimentalmente y deben ser 
+verificados durante las operaciones de tensado del tendón. En la Tabla 18.1 se 
+muestran rangos de valores comunes para estos coeficientes. 
+ 
+TABLA 18.1  
+
+
+E020_DS011_2006.pdf PAGE 4
+ 
+ 
+Tiendas 
+5,0 (500) 
+Corredores y escaleras 
+5,0 (500) 
+ 
+ 
+Viviendas 
+2,0 (200) 
+Corredores y escaleras 
+2,0 (200) 
+(*) Estas cargas no incluyen la posible tabiquería móvil 
+ 
+6.2 
+Carga Viva Concentrada 
+ 
+a) 
+Los pisos y techos que soporten cualquier tipo de maquinaria u otras cargas vivas 
+concentradas en exceso de 5,0 kN (500 kgf) (incluido el peso de los apoyos o bases), 
+serán diseñados para poder soportar tal peso como una carga concentrada o como 
+grupo de cargas concentradas. 
+b) 
+Cuando exista una carga viva concentrada, se puede omitir la carga viva repartida en 
+la zona ocupada por la carga concentrada. 
+ 
+6.3 
+Tabiquería Móvil 
+El  piso de los tabiques móviles se incluirá como carga viva equivalente uniformemente 
+repartida por metro cuadrado, con un mínimo de 0,50 kPa (50 Kgf/m²), para divisiones 
+livianas móviles de media altura y de 1,0 kPa (100 kgf/m²) para divisiones móviles de 
+altura completa. 
+Cuando en el diseño se contemple tabiquerías móviles, deberá colocarse una nota al 
+respecto, tanto en los planos de arquitectura como en los de estructuras. 
+ 
+6.4 
+Conformidad 
+Para determinar si la magnitud de la carga viva real es conforme con la carga viva 
+mínima repartida, se hará una aproximación de la carga viva repartida real 
+promediando la carga total que en efecto se aplica sobre una región rectangular 
+representativa de 15 m2 que no tenga ningún lado menor que 3,00 m. 
+ 
+Artículo 7.- CARGA VIVA DEL TECHO 
+Se diseñarán los techos y las marquesinas tomando en cuenta las cargas vivas, las de 
+sismo, viento y otras prescritas a continuación. 
+ 
+7.1 
+Carga Viva.- Las cargas vivas mínimas serán las siguientes: 
+ 
+a) 
+Para los techos con una inclinación hasta de 3° con respecto a al horizontal, 1,0 kPa 
+(100 kgf/m²). 
+b) 
+Para techos con inclinación mayor de 3°, con respecto a la horizontal 1,0 kPa (100 
+kgf/m²) reducida en 0,05 kPa (5 kgf/m²), por cada grado de pendiente por encima de 3°, 
+hasta un mínimo de 0,50 kPa (59 kgf/m²). 
+c) 
+Para techos curvos, 0,50 kPa (50 kgf/m²). 
+d) 
+Para techos con coberturas livianas de planchas onduladas o plegadas, calaminas, 
+fibrocemento, material plástico, etc., cualquiera sea su pendiente, 0,30 kPa (30 kgf/m²), 
+excepto cuando en el techo pueda haber acumulación de nieve, en cuyo caso se 
+aplicará lo indicado en el Artículo 11. 
+e) 
+Cuando se trate de malecones o terrazas, se aplicará la carga viva correspondiente a 
+su uso particular, según se indica en la Tabla 1. 
+
+
+E020_DS011_2006.pdf PAGE 5
+f) 
+Cuando los techos tengan jardines, la carga viva mínima de diseño de las porciones 
+con jardín será de 1,0 kPa (100 kgf/m²). Excepto cuando los jardines puedan ser de 
+uso común o público, en cuyo caso la carga viva de diseño será de 4,0 kPa (400 
+kgf/m²). 
+ 
+El peso de los materiales del jaqrdín será considerado como carga muerta y se hará 
+este cómputo sobre la base de tierra saturada. 
+ 
+Las zonas adyacentes a las porciones con jardín serán consideradas como áreas de 
+asamblea, a no ser que haya disposiciones específicas permanentes que impidan su 
+uso. 
+g) 
+Cuando se coloque algún anuncio o equipo en un techo, el diseño tomará en cuenta 
+todas las acciones que dicho anuncio o equipo ocasione. 
+ 
+Artículo 8.- CARGA VIVA PARA ACERAS, PISTAS, BARANDAS, PARAPETOS Y 
+COLUMNAS EN ZONAS DE ESTACIONAMIENTO  
+ 
+8.1 
+Aceras y Pistas 
+ 
+a) 
+Todas las aceras y pistas o porciones de las mismas que no apoyen sobre el suelo se 
+diseñarán para una carga viva mínima repartida de 5,0 kPa (500 Kgf/m2). 
+Cuando estén sujetas a la carga de rueda de camiones, intencional o accidental, se 
+diseñarán tales tramos de aceras o pistas para la carga vehicular máxima que se 
+pueda imponer. Ver 9.3. 
+b) 
+Los accesorios de aceras y pistas, incluidos los registros de inspección, las tapas de 
+registro y las rejillas, serán diseñados para las cargas prescritas en el inciso anterior. 
+ 
+8.2 
+Barandas y Parapetos 
+ 
+a) 
+Las barandas y parapetos se diseñarán para las fuerzas indicadas en las NTE E.030 
+Diseño Sismorresistente, las cargas de viento cuando sean aplicables y las que se 
+indican a continuación. 
+b) 
+Las barandas y parapetos serán diseñados para resistir la aplicación simultánea ó no 
+de las fuerzas indicadas en la Tabla 2, ambas aplicadas en su parte superior, 
+tomándose la combinación más desfavorable. 
+En ningún caso, la fuerza horizontal y la fuerza vertical total serán menors que 1,0 kN 
+(100 kgf). 
+ 
+TABLA 2 
+Barandas y Parapetos 
+Carga 
+Horizontal 
+kN/m (kgf/m) 
+Carga Vertical 
+kN/m (kgf/m) 
+Pozo para escaleras, balcones y techos en general 
+0,60 (60) 
+0,60 (60) 
+Viviendas unifamiliares 
+0,30 (30) 
+0,30 (30) 
+Balcones de teatros y lugares de asamblea 
+0,75 (75) 
+1,50 (150) 
+c) 
+Cuando las barandas y parapetos soporten equipos o instalaciones se tomarán en 
+cuenta las cargas adicionales que éstos impongan. 
+d) 
+Las barandas, parapetos o topes que se usan en zonas de estacionamiento para 
+resistir el impacto de los vehículos de pasajeros en movimiento serán diseñados para 
+soportar una carga horizontal de 5,0 kN (500 Kgf) por metro lineal, aplicada por lo 
+
+
+E020_DS011_2006.pdf PAGE 9
+En zonas en la cuales exista posibilidad de nevadas importantes, deberá prestarse 
+especial atención en la selección apropiada de las pendientes de los techos. 
+La carga de nieve debe considerarse como carga viva. No será necesario incluir en el 
+diseño el efecto simultáneo de viento y carga de nieve. 
+ 
+11.2 
+CARGA BÁSICA DE NIEVE SOBRE EL SUELO (QS) 
+Para determinar este valor, deberá tomarse en cuenta las condiciones geográficas y 
+climáticas de la región donde se ubicará la estructura. La carga básica se establecerá 
+de un análisis estadístico de la información disponible en la zona, para un período 
+medio de retorno de 50 años (probabilidad anual del 2% de ser excedida). 
+El valor mínimo de la carga básica de nieve sobre el suelo (QS) será de 0,40 kPa 
+(40kgf/m²) que equivalen a 0,40 m de nieve fresca (peso específico de 1 kN/m³ (100 
+kgf/m³)) o a 0,20 m de nieve compactada (peso específico de 2 kN/m³ (200 kgf/m³)). 
+ 
+11.3 
+CARGA DE NIEVE SOBRE LOS TECHOS (Qt) 
+ 
+a) 
+Para techos a una o dos aguas con inclinaciones menores o iguales a 15° (pendiente ≤ 
+27%) y para techos curvos con una relación flecha/luz ≤ 0,1 o ángulo vertical menor o 
+igual a 10° (calculado desde el borde hasta el centro) la carga de diseño (QT), sobre la 
+proyección horizontal, será: 
+ 
+Qt = QS 
+ 
+b) 
+Para techos a una o dos aguas con inclinaciones comprendidas entre 15° y 30° la 
+carga de diseño (Qt), sobre la proyección horizontal, será: 
+ 
+Qt = 0,80 QS 
+ 
+c) 
+Para techos a una o dos aguas con inclinaciones mayores que 30° la carga de diseño 
+(Qt), sobre la proyección horizontal, será: 
+ 
+Qt = CS (0,80 QS)  donde CS = 1 – 0,0025(θ° - 30°), 
+siendo CS un factor adimensional. 
+ 
+d) 
+Para los techos a dos aguas con inclinaciones mayores que 15° deberán investigarse 
+los esfuerzos internos para las condiciones de carga balanceada y desbalanceada 
+como se indica a continuación: 
+ 
+ 
+
+
+E020_DS011_2006.pdf PAGE 12
+Tipo 3. Edificaciones que representan problemas aerodinámicos especiales tales 
+como domos, arcos, antenas, chimeneas esbeltas y cubiertas colgantes. Para este tipo 
+de edificaciones las presiones de diseño se determinarán a partir de procedimientos 
+de análisis reconocidos en ingeniería, pero no serán menores que las especificadas 
+para el Tipo 1. 
+ 
+12.3 
+VELOCIDAD DE DISEÑO 
+La velocidad de diseño del viento hasta 10 m de altura será la velocidad máxima 
+adecuada a la zona de ubicación de la edificación (Ver Anexo 2) pero no menos de 75 
+Km/h. La velocidad de diseño del viento en cada altura de la edificación se obtendrá 
+de la siguiente expresión. 
+ 
+
+
+22
+.0
+10
+h
+V
+Vh 
+ 
+ 
+Donde: 
+Vh : es la velocidad de diseño en la altura h en Km/h 
+V : es la velocidad de diseño hasta 10 m de altura en Km/h 
+h : es la altura sobre el terreno en metros  
+ 
+ 
+12.4 
+CARGA EXTERIOR DE VIENTO 
+La carga exterior (presión o succión) ejercida por el viento se supondrá estática y 
+perpendicular a la superficie sobre la cual se actúa. Se calculará mediante la expresión: 
+ 
+2
+005
+.0
+h
+h
+V
+C
+P 
+ 
+ 
+Donde: 
+Ph : presión o succión del viento a una altura h en Kg/m2 
+C : factor de forma adimensional indicado en la Tabla 4 
+Vh : velocidad de diseño a la altura h, en Km/h, definida en el Artículo 12 
+(12.3) 
+ 
+TABLA 5.4 
+FACTORES DE FORMA (C) * 
+  
+CONSTRUCCIÓN 
+BARLOVENTO 
+SOTAVENTO 
+Superficies verticales de edificios 
++0.8 
+-0.6 
+Anuncios, muros aislados, elementos con una 
+dimensión corta en la dirección del viento 
++1.5 
+ 
+Tanques de agua, chimeneas y otros de sección 
+circular o elíptica 
++0.7 
+ 
+Tanques de agua, chimeneas, y otros de sección 
+cuadrada o rectangular 
++2.0 
+ 
+Arcos y cubiertas cilíndricas con un ángulo de 
+inclinación que no exceda 45° 
++0.8 
+-0.5 
+Superficies inclinadas a 15° o menos 
++0.3 
+-0.6 
+
+
+E020_DS011_2006.pdf PAGE 13
+-0.7 
+Superficies inclinadas entre 15° y 60° 
++0.7 
+-0.3 
+-0.6 
+Superficies inclinadas entre 60° y la vertical 
++0.8 
+-0.6 
+Superficies verticales o inclinadas (planas o 
+curvas) paralelas a la dirección del viento 
+-0,7 
+-0,7 
+* El signo positivo indica presión y el negativo succión. 
+ 
+12.5 
+CARGA INTERIOR DE VIENTO  
+Para el diseño de los elementos de cierre, incluyendo sus fijaciones y anclajes, que 
+limitan en cualquier dirección el nivel que se analiza, tales como paneles de vidrio, 
+coberturas, alféizares y elementos de cerramiento, se adicionará a las cargas 
+exteriores calculadas según el Artículo 12 (12.4), las cargas interiores (presiones y 
+succiones) calculadas con los factores de forma para presión interior de la Tabla 5. 
+ 
+TABLA 5 
+FACTORES DE FORMA PARA DETERMINAR CARGAS ADICIONALES EN ELEMENTOS 
+DE CIERRE (C) 
+ 
+A B E R T U R A S 
+Uniforme en lados a 
+barlovento y 
+sotavento 
+Principales en lado a 
+barlovento 
+Principales en lado a 
+sotavento o en los costados 
+±0,3 
++0,8 
+-0,6 
+  
+ 
+CAPÍTULO 4 
+OTRAS CARGAS 
+ 
+Artículo 13.- PRESIONES DE TIERRA 
+ 
+13.1 
+Todo muro de contención será diseñado para resistir, en adición a las cargas 
+verticales que actúan sobre él, la presión lateral del suelo y sobrecargas, más la 
+presión hidrostática correspondiente al máximo nivel probable del agua freática. 
+13.2 
+Se considerarán las subpresiones causadas por la presión hidrostática 
+13.3 
+Para el cálculo de la magnitud y ubicación de las presiones laterales del suelo se 
+podrá emplear cualquiera de los métodos aceptados en la Mecánica de Suelos. 
+13.4 
+Cuando la presión lateral del suelo se opone a la acción estructural de otras fuerzas (ej. 
+Cisternas enterradas), no se tomará en cuenta en esta combinación de cargas, pero sí 
+se debe considerar su acción en el diseño. 
+ 
+Artículo 14.- CARGAS DE CONSTRUCCIÓN  
+Previo al inicio de obra el profesional responsable de la misma, evaluará las cargas 
+reales que puedan producirse durante el proceso constructivo y verificará que no 
+exceda de las cargas vivas de uso, indicadas en los documentos del proyecto. 
+
+
+E020_DS011_2006.pdf PAGE 16
+Artículo 25.- FLECHAS 
+ 
+25.1 
+Excepto en los casos expresamente cubiertos en las Normas propias de los diversos 
+materiales estructurales, la flecha de cualquier elemento estructural no excederá los 
+valores indicados en la Tabla 6, excepto cuando soporte paneles de vidrio en cuyo 
+caso se aplicará lo indicado en el Artículo 25 (25.2). 
+ 
+TABLA 6 
+FLECHAS MAXIMAS PARA ELEMENTOS ESTRUCTURALES 
+ 
+TIPO DE ELEMENTO 
+FLECHA PRODUCIDA POR 
+LA CARGA VIVA 
+FLECHA PRODUCIDA POR 
+LA CARGA VIVA MÁS LAS 
+FLECHAS DIFERIDAS 
+Pisos 
+L/360 
+L/240* 
+Techos 
+L/180 
+- 
+L                  : Luz del elemento. Para volados se tomará como L, el doble de la 
+longitud del elemento. 
+Flecha diferida: Se establece en función de cada material de acuerdo a su Norma 
+respectiva. La flecha diferida se calculará para las cargas 
+permanentes 
+más 
+la 
+fracción 
+de 
+sobrecarga 
+que 
+actúa 
+permanentemente. 
+ 
+*  No aplicable a estructuras metálicas. 
+  
+25.2 
+Excepto en los casos expresamente cubiertos en las Normas propias de los diversos 
+materiales estructurales, la flecha para carga viva más la parte correspondiente a las 
+flechas diferidas, de elementos estructurales que soportan paneles de vidrio no 
+excederá en ningún caso 20 mm. 
+ 
+Artículo 26.- ACUMULACIÓN DE AGUA 
+Todos los techos tendrán suficiente pendiente o contraflecha para asegurar el drenaje 
+adecuado del agua, después de que ocurran las deformaciones diferidas. 
+Alternativamente 
+serán 
+diseñados 
+para 
+soportar 
+adicionalmente 
+la 
+posible 
+acumulación de agua debido a la deflexión. 
+El límite de deflexión para techos indicados en la Tabla 6, no garantiza que no se 
+produzca acumulación de agua debida a la deflexión. 
+
+
+E020_DS011_2006.pdf PAGE 17
+ANEXO 1 
+PESOS UNITARIOS 
+ 
+MATERIALES 
+PESO kN/m³ (Kg/m3) 
+Aislamientos de: 
+ 
+Corcho 
+2,0 (200) 
+Fibra de Vidrio 
+3,0 (300) 
+Fibrocemento 
+6,0 (600) 
+Poliuretano y poliestireno 
+2,0 (200) 
+  
+ 
+Albañilería de: 
+ 
+Adobe  
+16,0 (1600) 
+Unidades de albañilería cocida sólidas 
+18,0 (1800) 
+Unidades de albañilería cocida huecas 
+13,5 (1350) 
+  
+ 
+Concreto Simple de: 
+ 
+Cascote de ladrillo 
+18,0 (1800) 
+Grava 
+23,0 (2300) 
+Pómez 
+16,0 (1600) 
+  
+ 
+ Concreto Armado 
+Añadir 1,0 (100) al peso del 
+concreto simple. 
+ 
+ 
+Enlucido o Revoque de:  
+ 
+Mortero de cemento 
+20,0 (2000) 
+Mortero de cal y cemento  
+18,5 (1850) 
+Mortero de cal  
+17,0 (1700) 
+Yeso 
+10,0 (1000) 
+  
+ 
+Líquidos:  
+ 
+Aceites 
+9,3 (930) 
+Ácido Muriático  
+12,0 (1200) 
+Acido Nítrico 
+15,0 (1500) 
+Acido sulfúrico 
+18,0 (1800) 
+Agua dulce 
+10,0 (1000) 
+Agua de mar 
+10,3 (1030) 
+Alcohol  
+8,0 (800) 
+Gasolina  
+6,7 (670) 
+Kerosene  
+8,7 (870) 
+
+
+E070_DS011_2006.pdf PAGE 10
+ 
+d) El agua será potable y libre de sustancias, ácidos, álcalis y materia orgánica. 
+ 
+7.4 
+PREPARACIÓN Y FLUIDEZ. Los materiales que componen el grout (ver la Tabla 6) serán 
+batidos mecánicamente con agua potable hasta lograr la consistencia de un líquido 
+uniforme, sin segregación de los agregados, con un revenimiento medido en el Cono de 
+Abrams comprendido entre 225 mm a 275 mm. 
+ 
+TABLA 6 
+COMPOSICIÓN VOLUMÉTRICA DEL CONCRETO LIQUIDO o GROUT  
+CONCRETO 
+LÍQUIDO 
+CEMENTO 
+CAL 
+ARENA 
+CONFITILLO 
+FINO 
+1 
+0 a 1/10 
+2 1/4 a 3 veces la 
+suma 
+de 
+los  
+volúmenes de los 
+aglomerantes 
+---------- 
+ 
+GRUESO 
+1 
+0 a 1/10 
+2 1/4 a 3 veces la 
+suma 
+de 
+los 
+aglomerantes 
+1 a 2 veces la 
+suma 
+de 
+los 
+aglomerantes 
+ 
+ 
+7.5 
+RESISTENCIA. El concreto líquido tendrá una resistencia mínima a compresión 
+
+
+2
+´
+/
+140
+72
+,
+13
+cm
+kg
+MPa
+fc 
+. La resistencia a compresión 
+´
+cf  será obtenida de acuerdo a 
+la NTP 399.623.  
+ 
+Artículo 8.- ACERO DE REFUERZO 
+ 
+8.1 La armadura deberá cumplir con lo establecido en las Norma Barras de Acero con 
+Resaltes para Concreto Armado (NTP 341.031).  
+8.2 Sólo se permite el uso de barras lisas en estribos y armaduras electrosoldadas usadas 
+como refuerzo horizontal. La armadura electrosoldada debe cumplir con la norma de Malla 
+de Alambre de Acero Soldado para Concreto Armado (NTP 350.002). 
+ 
+Artículo 9.- CONCRETO 
+ 
+9.1 El concreto de los elementos de confinamiento tendrá una resistencia a la compresión 
+mayor o igual a 
+
+
+2
+/
+175
+15
+,
+17
+cm
+kg
+MPa
+ y deberá cumplir con los requisitos establecidos 
+en la Norma Técnica de Edificación E.060 Concreto Armado. 
+ 
+ 
+CAPÍTULO 4 
+PROCEDIMIENTO DE CONSTRUCCION 
+ 
+Artículo 10.- ESPECIFICACIONES GENERALES 
+La mano de obra empleada en las construcciones de albañilería será calificada, debiéndose 
+supervisar el  cumplimiento de las siguientes exigencias básicas: 
+ 
+10.1 Los muros se construirán a plomo y en línea. No se atentará contra la integridad del muro 
+recién asentado. 
+10.2 En la albañilería con unidades asentadas con mortero, todas las juntas horizontales y 
+verticales quedarán completamente llenas de mortero. El espesor de las juntas de mortero 
+será como mínimo 10 mm y el espesor máximo será 15 mm o dos veces la  tolerancia 
+dimensional en la altura de la unidad de albañilería más 4 mm, lo que sea mayor. En las  
+
+
+E070_DS011_2006.pdf PAGE 11
+ 
+juntas que contengan refuerzo horizontal, el espesor mínimo de la junta será 6 mm más el 
+diámetro de la barra. 
+10.3 Se mantendrá el temple del mortero mediante el reemplazo del agua que se pueda haber 
+evaporado, por una sola vez. El plazo del retemplado no excederá al de la fragua inicial del 
+cemento. 
+10.4 Las unidades de albañilería se asentarán con las superficies limpias de polvo y sin agua 
+libre. El asentado se realizará presionando verticalmente las unidades, sin bambolearlas. El 
+tratamiento de las unidades de albañilería previo al asentado será el siguiente: 
+ 
+a) Para concreto y sílico-calcáreo: pasar una brocha húmeda sobre las caras de asentado o 
+rociarlas. 
+b) Para arcilla: de acuerdo a las condiciones climatológicas donde se encuentra ubicadas la 
+obra, regarlas durante media hora, entre 10 y 15 horas antes de asentarlas. Se 
+recomienda que la succión al instante de asentarlas esté comprendida entre 10 a 20 gr/200 
+cm2-min (*).  
+ 
+(*) Un método de campo para evaluar la succión de manera aproximada, consiste en medir un 
+volumen (V1, en cm3) inicial de agua sobre un recipiente de área definida y vaciar una parte del 
+agua sobre una bandeja, luego se apoya la unidad sobre 3 puntos en la bandeja de manera que 
+su superficie de asiento esté en contacto con una película de agua de 3 mm de altura durante un 
+minuto, después de retirar la unidad, se vacía el agua de la bandeja hacia el recipiente y se vuelve 
+a medir el volumen (V2, en cm3) de agua; la succión normalizada a un área de 200 cm2, se 
+obtiene como: 
+
+A
+V
+V
+SUCCION
+/
+2
+1
+200
+
+
+, expresada en gr/200 cm2-min, donde “A” es el área 
+bruta (en cm2) de la superficie de asiento de la unidad. 
+ 
+10.5 
+Para el asentado de la primera hilada, la superficie de concreto que servirá de asiento (losa 
+o sobrecimiento según sea el caso), se preparará con anterioridad de forma que quede 
+rugosa; luego se limpiará de polvo u otro material suelto y  se la humedecerá, antes de 
+asentar la primera hilada. 
+10.6 
+No se asentará más de 1,30 m de altura de muro en una jornada de trabajo. En el caso de 
+emplearse unidades totalmente sólidas (sin perforaciones), la primera jornada de trabajo 
+culminará sin llenar la junta vertical de la primera hilada, este llenado se realizará al 
+iniciarse la segunda jornada. En el caso  de la albañilería con unidades apilables, se podrá 
+levantar el muro en su altura total y en la misma jornada deberá colocarse el concreto 
+líquido. 
+10.7 
+Las juntas de construcción entre jornadas de trabajos estarán limpias de partículas sueltas 
+y serán previamente humedecidas.  
+10.8 
+El tipo de aparejo a utilizar será de soga, cabeza o el amarre americano, traslapándose las 
+unidades entre las hiladas consecutivas. 
+10.9 
+El procedimiento de colocación y consolidación del concreto líquido dentro de las celdas de 
+las unidades, como en los elementos de concreto armado, deberá garantizar la ocupación 
+total del espacio y la ausencia de cangrejeras. No se permitirá el vibrado de las varillas de 
+refuerzo.  
+10.10 Las vigas peraltadas serán vaciadas de una sola vez en conjunto con la losa de techo. 
+10.11 Las instalaciones se colocarán de acuerdo a lo indicado en 1.2.6 y 1.2.7. 
+ 
+Artículo 11.- ALBAÑILERIA CONFINADA 
+ 
+Aparte de los requisitos especificados en 4.1, se deberá cumplir lo siguiente: 
+ 
+11.1 Se utilizará unidades de albañilería de acuerdo a lo especificado en 3.1.3. 
+11.2 La conexión columna-albañilería podrá ser dentada o a ras: 
+ 
+a) En el caso de emplearse una conexión dentada, la longitud de la unidad saliente no 
+excederá de 5 cm y deberá limpiarse de los desperdicios de mortero y partículas sueltas 
+antes de vaciar el concreto de la columna de confinamiento. 
+
+
+E070_DS011_2006.pdf PAGE 14
+ 
+de las unidades) o mediante ensayos de prismas, de acuerdo a la importancia de la 
+edificación y a la zona sísmica donde se encuentre, según se indica en la Tabla 7. 
+ 
+TABLA 7 
+MÉTODOS PARA DETERMINAR
+´
+m
+f
+y 
+´
+m
+v
+ 
+RESISTENCIA 
+CARACTERÍSTICA 
+EDIFICIOS DE 1 
+A 2 PISOS 
+EDIFICIOS DE 3 
+A 5 PISOS 
+EDIFICIOS 
+DE 
+MAS DE 5 PISOS 
+Zona Sísmica 
+Zona Sísmica 
+Zona Sísmica 
+ 
+3 
+2 
+1 
+3 
+2 
+1 
+3 
+2 
+1 
+)
+(
+´
+m
+f
+ 
+A 
+A 
+A 
+B 
+B 
+A 
+B 
+B 
+B 
+)
+(
+´
+m
+v
+ 
+A 
+A 
+A 
+B 
+A 
+A 
+B 
+B 
+A 
+ 
+A:  Obtenida de manera empírica conociendo la calidad del ladrillo y del mortero.  
+B: Determinadas de los ensayos de compresión axial de pilas y de compresión diagonal de 
+muretes mediante ensayos de laboratorio de acuerdo a lo indicado en las  NTP 399.605 y 399.621 
+13.2 
+Cuando se construyan conjuntos de edificios, la resistencia de la albañilería
+´
+m
+f
+y 
+´
+m
+v
+deberá comprobarse mediante ensayos de laboratorio previos a la obra y durante la 
+obra. Los ensayos previos a la obra se harán sobre cinco especimenes. Durante la 
+construcción la resistencia será comprobada mediante ensayos con los criterios siguientes: 
+ 
+a) Cuando se construyan conjuntos de hasta dos pisos en las zonas sísmicas 3 y 2, 
+´
+m
+f
+será 
+verificado con ensayos de tres pilas por cada 500 m2 de área techada y 
+´
+m
+v
+con tres 
+muretes por cada 1000 m2 de área techada.  
+b) Cuando se construyan conjuntos de tres o más pisos en las zonas sísmicas 3 y 2,  
+´
+m
+f
+será verificado con ensayos de tres pilas por cada 500 m2 de área techada y 
+´
+m
+v
+con 
+tres muretes por cada 500 m2 de área techada.  
+ 
+13.3 
+Los prismas serán elaborados en obra, utilizando el mismo contenido de humedad de las 
+unidades de albañilería, la misma consistencia del mortero, el mismo espesor de juntas y 
+la misma calidad de la mano de obra que se empleará en la construcción definitiva. 
+13.4 
+Cuando se trate de albañilería con unidades alveolares que irán llenas con concreto 
+líquido, los alvéolos de las unidades de los prismas y muretes se llenarán con concreto 
+líquido. Cuando se trate de albañilería con unidades alveolares sin relleno, los alvéolos de 
+las unidades de los prismas y muretes quedarán vacíos. 
+13.5 
+Los prismas tendrán un refrentado de cemento-yeso con un espesor que permita corregir 
+la irregularidad superficial de la albañilería. 
+13.6 
+Los prismas serán almacenados a una temperatura no menor de 10C durante 28 días. 
+Los prismas podrán ensayarse a menor edad que la nominal de 28 días pero no menor de 
+14 días;  en este caso, la resistencia característica se obtendrá incrementándola por los 
+factores mostrados en la Tabla 8. 
+                                    
+TABLA 8 
+INCREMENTO DE 
+´
+m
+f
+y 
+´
+m
+v
+ POR EDAD 
+ 
+Edad 
+14 días 
+21 días 
+Muretes 
+Ladrillos de arcilla 
+1,15 
+1,05 
+Bloques de concreto 
+1,25 
+1,05 
+Pilas 
+Ladrillos de arcilla y 
+Bloques de concreto 
+1,10 
+1,00 
+
+
+E070_DS011_2006.pdf PAGE 21
+ 
+24.3 
+El análisis considerará las características del diafragma que forman las losas de techo; se 
+deberá considerar el efecto que sobre la rigidez del diafragma tienen las aberturas y las 
+discontinuidades en la losa.  
+24.4 
+El análisis considerará  la  participación de aquellos muros no portantes que no hayan sido 
+aislados de la estructura principal. Cuando los muros se construyan integralmente con el 
+alféizar, el efecto de éste deberá considerarse en el análisis. 
+24.5 
+La distribución de la fuerza cortante en planta se hará teniendo en cuenta las torsiones 
+existentes y reglamentarias. La rigidez de cada muro podrá determinarse suponiéndolo en 
+voladizo cuando no existan vigas de acoplamiento, y se considerará acoplado cuando 
+existan vigas de acoplamiento diseñadas para comportarse dúctilmente. 
+24.6 
+Para el cálculo de la rigidez de los muros, se agregará a su sección transversal el 25% de 
+la sección transversal de aquellos muros que concurran ortogonalmente al muro en 
+análisis ó 6 veces su espesor, lo que sea mayor. Cuando un muro transversal concurra a 
+dos muros, su contribución a cada muro no excederá de la mitad de su longitud. La rigidez 
+lateral de un muro confinado deberá evaluarse transformando el concreto de sus columnas 
+de confinamiento en área equivalente de albañilería, multiplicando su  
+espesor real por la 
+relación de módulos de elasticidad  
+m
+c E
+E /
+ ; el centroide de dicha área equivalente 
+coincidirá con el de la columna de confinamiento. 
+24.7 
+El módulo de elasticidad 
+)
+(
+m
+E
+y el módulo de corte 
+)
+(
+m
+G
+para la albañilería se 
+considerará como sigue: 
+ 
+ 
+ 
+Unidades de arcilla:  
+ 
+ 
+ 
+´
+500
+m
+m
+f
+E
+
+  
+ 
+Unidades Sílico-calcáreas:  
+ 
+ 
+´
+600
+m
+m
+f
+E
+
+ 
+ 
+Unidades de concreto vibrado: 
+ 
+ 
+´
+700
+m
+m
+f
+E
+
+  
+ 
+Para todo tipo de unidad de albañilería: 
+ 
+m
+m
+E
+G
+4,0
+
+  
+Opcionalmente, los valores de “
+m
+E
+” y “
+m
+G
+” podrán calcularse experimentalmente según se 
+especifica en 5.1. 
+ 
+24.8 
+El módulo de elasticidad (
+c
+E ) y el módulo de corte (
+c
+G ) para el concreto serán los 
+indicados en la NTE E.060 Concreto Armado. 
+24.9 
+El 
+módulo 
+de 
+elasticidad 
+para 
+el 
+acero 
+(
+s
+E ) 
+se 
+considerará 
+igual 
+a 
+)
+/
+000
+000
+2
+(
+000
+196
+2
+cm
+kg
+MPa
+  
+ 
+Artículo 25.- DISEÑO DE ELEMENTOS DE CONCRETO ARMADO 
+ 
+25.1 
+Requisitos Generales 
+ 
+a) Todos los elementos de concreto armado del edificio, con excepción de los elementos de 
+confinamiento de los muros de albañilería, serán diseñados por resistencia última,  
+asegurando que su falla sea por un mecanismo de flexión y no de corte. 
+El diseño se hará para la combinación de fuerzas gravitacionales y las fuerzas debidas al 
+“sismo moderado”, utilizando los factores de amplificación de carga y de reducción de 
+resistencia () especificados en la NTE E.060 Concreto Armado. La cimentación será  
+dimensionada bajo condiciones de servicio para los esfuerzos admisibles del suelo y se 
+diseñará a rotura. 

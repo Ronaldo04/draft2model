@@ -1,0 +1,13 @@
+{
+  "intento": "2608fea66a074f13b9692988860934f0",
+  "estado": "fallo_revisado",
+  "causa": "max_output_tokens8192",
+  "bytes_salida_parcial": 22241,
+  "sha256_respuesta_api": "0700554e877081216388117cb2d49801b7fce7116cdd45d1030db58e84f61492",
+  "importacion": "Ninguna; salida parcial conservada sin reparación silenciosa.",
+  "coste_usd_segun_tokens": 0.198725,
+  "acumulado_openai_usd": 0.30713,
+  "peticiones_openai": 2,
+  "peticiones_gemini": 0,
+  "siguiente_ensayo": "Nueva selección más pequeña de regiones técnicas, máximo16384tokens de salida y comprobación de cota económica. No repetir plan ni petición."
+}

@@ -1,0 +1,38 @@
+{
+  "fecha_utc": "2026-10-24T03:01:37.850118+00:00",
+  "huella_fuentes": "7d69e57b4a0f7427e75e9113366276c0fe2bfcffc52bd6319fabdd51fa86e82a",
+  "archivos": 599,
+  "diferencias_con306_solo_documentales": [
+    "README.md",
+    "docs/CONTEXTO_PROYECTO.md",
+    "docs/ENTREGA_AECODE.md",
+    "docs/EVALUACION_VISION.md",
+    "docs/GUIA_REPRODUCIBLE.md",
+    "docs/NORMATIVA_APLICADA.md"
+  ],
+  "codigo_pruebas_dependencias_recursos_identicos_a306": true,
+  "suite_nueva308_ejecutada": false,
+  "suite306": "EVIDENCIAS/verificacion_global.json",
+  "resultado_suite306": {
+    "python": 1424,
+    "interfaz": 36,
+    "omisiones": [],
+    "fuentes_estables": true
+  },
+  "instalacion": "Offline303 comprobada; entorno reutilizado306 con lock/wheels idénticos. No nueva instalación308.",
+  "enlaces_locales_documentacion_actual": 79,
+  "enlaces_faltantes": [],
+  "integridad_conjunto": {
+    "estado": "integridad_verificada_no_aceptacion_funcional",
+    "huella_fuentes": "7d69e57b4a0f7427e75e9113366276c0fe2bfcffc52bd6319fabdd51fa86e82a",
+    "caso": "pueblo-libre-002",
+    "archivos_fuentes": 599,
+    "archivos_complemento": 34,
+    "aprueba_ingenieria": false
+  },
+  "qa": "QA_DESCARGA_Y_306_307.json; apertura306 observada, descargaChrome303 asistida y hash real comprobado",
+  "aceptacion_global": false,
+  "motivo": "Benchmark humano incompleto; no soporte universal validado. Ver auditoría P01-P14 y límites del piloto.",
+  "aprueba_ingenieria": false,
+  "goal_completo": false
+}

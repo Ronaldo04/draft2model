@@ -1,0 +1,38 @@
+{
+  "tarea": "359_contornos_ui",
+  "estado": "entregado",
+  "raiz": "D:/RONALDO CUCHILLA/1. RONALDO CUCHILLA/2. INGENIERÍA CIVIL DOCS AND PROJECTS/AECODE CURSOS/AECODE AI TALENT/PROYECTO FINAL",
+  "archivos": [
+    {
+      "ruta": "draft2model/revision_web/contornos.js",
+      "sha256": "e184406bf6e3d3c35e7185053d6ecbcb84b92b6c7bb0975b4c817f0de26f6d0e"
+    },
+    {
+      "ruta": "tests/contornos_359_frontend.cjs",
+      "sha256": "2e6a4f5a3187f832d954ef7a95560f9348ad73a7c282726118f53f649b356a44"
+    },
+    {
+      "ruta": "docs/INTERFAZ_CONTORNOS.md",
+      "sha256": "4fbd41c3bdd9eda511120b903ed1005b111f59a59de05b14b8db1f34dc025c1d"
+    },
+    {
+      "ruta": "seguimiento/ANTIGRAVITY_359_INFORME.md",
+      "sha256": "f0084f63f124ad548b6cbc512b9ad0f96552e82e7f7166a554fb1170db0fe402"
+    }
+  ],
+  "pruebas": [
+    {
+      "comando": "node tests/contornos_359_frontend.cjs",
+      "resultado": "OK: 7/7 bloques DOM/Node superados en contornos_359_frontend.cjs",
+      "alcance": "sintetico"
+    }
+  ],
+  "limitaciones": [
+    "La interfaz conserva todas las salidas en borrador técnico (revision: estado=borrador, aprobacion=null).",
+    "Los cálculos y calibraciones no constituyen conformidad reglamentaria ni aprobación de ingeniería.",
+    "El recorrido automático requiere confirmación expresa de envío único (confirmacion_explicita: true) y se detiene sin reintentos ante fallos.",
+    "Las reevaluaciones locales operan únicamente sobre respuestas previas conservadas sin invocar llamadas externas."
+  ],
+  "apis_usadas": 0,
+  "etabs_usado": false
+}

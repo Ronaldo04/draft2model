@@ -1,0 +1,25 @@
+{
+  "fecha_utc": "2026-10-19T12:48:52.505540+00:00",
+  "tarea": "adaptador_anthropic",
+  "coordinacion": "enviado_confirmado",
+  "evidencia_visual": "Computer Use: mensaje visible en historial de Comandos CLI geometria y compositor vacio; ventana del mismo PROYECTO FINAL. Autorizacion expresa del usuario recibida antes de reanudar.",
+  "entrega_anterior": "correccion_guia_final revisada previamente,6hashes y82enlaces",
+  "propiedad_claude": [
+    "draft2model/proveedor_anthropic.py",
+    "tests/test_proveedor_anthropic.py",
+    "docs/PROTOCOLO_ANTHROPIC.md"
+  ],
+  "integracion_codex": "Mensaje y valor predeterminado de detalle dependen de capacidad del registro, sin condicion exclusiva Gemini.",
+  "pruebas": {
+    "comando": "python -m unittest tests.test_proveedor_gemini tests.test_cli_vision",
+    "resultado": "17 OK,5.004s",
+    "log": "tmp/coordinacion_153_pruebas.log",
+    "red_real": false
+  },
+  "hashes": {
+    "seguimiento/ENCARGO_CLAUDE_ADAPTADOR_ANTHROPIC.md": "159cb3ed60e8b1932e99f8448254f5676577387c22b7490c5761a2bcbb339e88",
+    "draft2model/proveedor_openai.py": "40470437bd6ddee249974fbcfd87fa54c2fbf62bb3f5bef6fc308734f5906eee"
+  },
+  "goal_completo": false,
+  "siguiente": "Sonda local cada3min; revisar marcador, protocolo y prueba focal antes de registrar Anthropic. No sondeo de ventana."
+}

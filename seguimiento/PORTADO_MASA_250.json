@@ -1,0 +1,19 @@
+{
+  "estado": "biblioteca_pura_sin_enlace_final",
+  "sha256": {
+    "draft2model\\masa_contenido.py": "0de51a63278cfcdb19483978d6a685a0f5ba534fa37f1f8423904a21a92e39f5",
+    "tests\\test_masa_contenido.py": "aa3d76c3092a4d4355a26aceeaf36a4cfc640f2e9913d57504ad291132cabdc9",
+    "docs\\MASA_CONTENIDO.md": "9fff2f8ad52c4e405cdfd581c6413c0a4e8a2a5bdb0cc8062dea827ed85fdc6f"
+  },
+  "validacion": {
+    "tests": "21OK0.381s (15de masa+6de seguimiento)",
+    "arranque_cli": "python -m draft2model --help, salida0",
+    "red_etabs": "No usados"
+  },
+  "integracion_pendiente": [
+    "Fuente de inventario geométrico/versionada",
+    "Validación configuración0.5",
+    "Transporte fuente masa y comprobación nativa",
+    "Relectura/UI/informe y snapshotfinal"
+  ]
+}

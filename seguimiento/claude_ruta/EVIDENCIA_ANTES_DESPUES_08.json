@@ -1,0 +1,93 @@
+{
+  "caso": "pueblo-libre-002",
+  "original": {
+    "archivo_id": "L0001",
+    "sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5"
+  },
+  "reubicacion": {
+    "candidato": "O3.C039",
+    "version_padre": "010d5641765544e894280ac6b254c38b",
+    "version_nueva": "d35a979daa5d40c1ae6f3ef3d253f712",
+    "bbox_anterior": [
+      0.7343960688427299,
+      0.8576321073825504,
+      0.749922943620178,
+      0.8692473020134227
+    ],
+    "bbox_nueva": [
+      0.7353,
+      0.7963,
+      0.7508,
+      0.801
+    ],
+    "tinta_antes": {
+      "recorte_id": null,
+      "tinta": 0.0,
+      "estado": "vacia"
+    },
+    "tinta_despues": {
+      "recorte_id": null,
+      "tinta": 0.1484,
+      "estado": "con_trazos"
+    },
+    "revision": {
+      "estado": "pendiente",
+      "historial": []
+    },
+    "imagenes": [
+      "evidencia08/anterior_C039.png",
+      "evidencia08/nueva_C039.png"
+    ]
+  },
+  "lectura_manual": {
+    "candidato": "M001",
+    "version": "442b5d4d08744aeb80dcd35a46fb633e",
+    "dato": {
+      "id": "M001",
+      "tipo": "propiedad",
+      "valor_propuesto": 175,
+      "unidad": "kgf/cm2",
+      "texto_fuente": "CONCRETO f'c=175 Kg/cm2",
+      "metodo": {
+        "tipo": "manual",
+        "herramienta": "lectura_manual_revisor",
+        "descripcion": "Ingreso manual declarado por Claude (asistente ruta 201; demostración, no aprobación) (2026-10-21): Lectura visible omitida por las extracciones (corte 2-2 de L0001, muro de concreto e=.10).. No proviene de un modelo de IA."
+      },
+      "evidencia": [
+        {
+          "archivo_id": "L0001",
+          "pagina": 1,
+          "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+          "bbox_normalizada": [
+            0.7144,
+            0.1458,
+            0.7559,
+            0.1506
+          ]
+        }
+      ],
+      "revision": {
+        "estado": "pendiente",
+        "historial": []
+      },
+      "simbolo": "f'c"
+    },
+    "tinta": {
+      "recorte_id": null,
+      "tinta": 0.1346,
+      "estado": "con_trazos"
+    },
+    "imagen": "evidencia08/fc175.png"
+  },
+  "auditoria": {
+    "vacias_antes": 42,
+    "vacias_despues": 41
+  },
+  "imagenes_sha256": {
+    "anterior_C039.png": "0ff7298bd6cacc7f573e6fcc327fa9916a429b8b30d79a1cf61b86d308545ab5",
+    "fc175.png": "867cf016e74d9a5ce6ee39f7523762c4ea09057085788d0be48335c57ee39224",
+    "nueva_C039.png": "588afc56e3207f952f3bbaaf795989c40fea5184a70789be1bf1835795759c8c"
+  },
+  "aprobacion_ingenieria": null,
+  "nota": "Demostración de revisión de evidencia; no aprueba la lectura ni datos de ingeniería."
+}

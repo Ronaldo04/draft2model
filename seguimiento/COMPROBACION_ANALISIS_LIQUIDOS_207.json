@@ -1,0 +1,19 @@
+{
+  "estado": "analisis_real_sintetico_contrastado_parcial",
+  "casos": {
+    "CHIDRO": 4,
+    "EST": 4
+  },
+  "sha256_edb_analizado": "5a386b9d3f52b1ba091d64f359132fd53ec60e7ebb8cb8d78f1d5de8717e95a5",
+  "sha256_entrada": "46c298c94378eccb2d500788fc45b6c76318672d3b8d90759d23729b61ea2fa4",
+  "fuentes": {
+    "respuesta.json": "5d2819840859022c0df7bd2986abdce71a0b8a0f576b359237e1fc524e101386",
+    "aceptacion_analisis.json": "ba99d1a5160db537f8467cfc47991cf59fcde0460c13d467915cc6b253992bc1",
+    "analizado.LOG": "8673f4dbe3585bc4a96c9e4f4f8debcb69a909f15c707d2aa4fbb22f35015374"
+  },
+  "limites": [
+    "EstadoCSI4 y LOG completado acreditan terminación; no aprobación de resultados ni equilibrio.",
+    "Reacciones aún no contrastadas. No invocar otro análisis; Claude coordina el ensayo.",
+    "No acepta etapa02 ni piloto real."
+  ]
+}

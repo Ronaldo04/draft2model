@@ -1,0 +1,2168 @@
+{
+ "tarea": "extremos_314_contraste",
+ "ensayo_ciego": false,
+ "tolerancia_m": 0.0005,
+ "lectura_nativa_sha256": "8418be814454dd4301f4826e08ede7772af3fb4993cc07ff03a04f64dfccdbc4",
+ "poblacion": {
+  "vigas": 45,
+  "extremos": 90
+ },
+ "por_extremo": {
+  "R-cara_313": {
+   "acuerdo": 75,
+   "abstencion": 4,
+   "desacuerdo": 11
+  },
+  "R-ETABS_314": {
+   "abstencion": 65,
+   "acuerdo": 25
+  },
+  "R-ETABS-B3cero": {
+   "abstencion": 32,
+   "acuerdo": 58
+  }
+ },
+ "por_viga": {
+  "R-cara_313": {
+   "acuerdo": 33,
+   "abstencion": 4,
+   "desacuerdo": 8
+  },
+  "R-ETABS_314": {
+   "abstencion": 41,
+   "acuerdo": 4
+  },
+  "R-ETABS-B3cero": {
+   "abstencion": 16,
+   "acuerdo": 29
+  }
+ },
+ "filas": [
+  {
+   "viga": "VS-Z1-1-4",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1841,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E28-P1"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)",
+    "B2: suma de offsets 0.2000 >= L 0.1860; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z1-1-5",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)",
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z1-1-6",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-A4-P1"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z1-2-11",
+   "L_m": 2.451,
+   "nativo": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E16-P1"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z1-3-1",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1841,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E3-P1"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)",
+    "B2: suma de offsets 0.2000 >= L 0.1860; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z1-3-2",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)",
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z1-3-3",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-A1-P1"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z1-A-10",
+   "L_m": 0.313,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1328,
+      "estado": "desacuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-A9-P1"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.1771,
+      "estado": "desacuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E18-P1"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B2: suma de offsets 0.3500 >= L 0.3130; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z1-A-7",
+   "L_m": 0.107,
+   "nativo": {
+    "I": 0.105,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1059,
+      "estado": "desacuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-A8-P1"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)",
+    "B2: suma de offsets 0.2000 >= L 0.1070; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z1-A-8",
+   "L_m": 0.154,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.15
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-E13-P1"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z1-A-9",
+   "L_m": 2.176,
+   "nativo": {
+    "I": 0.15,
+    "J": 0.15
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-E13-P1"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-A9-P1"
+     ]
+    }
+   },
+   "abstencion_314": []
+  },
+  {
+   "viga": "VS-Z2-1-15",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1841,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E28-P2"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)",
+    "B2: suma de offsets 0.2000 >= L 0.1860; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z2-1-16",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)",
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z2-1-17",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-A4-P2"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z2-2-22",
+   "L_m": 2.451,
+   "nativo": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E16-P2"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z2-3-12",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1841,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E3-P2"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)",
+    "B2: suma de offsets 0.2000 >= L 0.1860; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z2-3-13",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)",
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z2-3-14",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-A1-P2"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z2-A-18",
+   "L_m": 0.107,
+   "nativo": {
+    "I": 0.105,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1059,
+      "estado": "desacuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-A8-P2"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)",
+    "B2: suma de offsets 0.2000 >= L 0.1070; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z2-A-19",
+   "L_m": 0.154,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.15
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-E13-P2"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z2-A-20",
+   "L_m": 2.176,
+   "nativo": {
+    "I": 0.15,
+    "J": 0.15
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-E13-P2"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-A9-P2"
+     ]
+    }
+   },
+   "abstencion_314": []
+  },
+  {
+   "viga": "VS-Z2-A-21",
+   "L_m": 0.313,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1328,
+      "estado": "desacuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-A9-P2"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.1771,
+      "estado": "desacuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E18-P2"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B2: suma de offsets 0.3500 >= L 0.3130; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z3-1-26",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1841,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E28-P3"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)",
+    "B2: suma de offsets 0.2000 >= L 0.1860; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z3-1-27",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)",
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z3-1-28",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-A4-P3"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z3-2-33",
+   "L_m": 2.451,
+   "nativo": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E16-P3"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z3-3-23",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1841,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E3-P3"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)",
+    "B2: suma de offsets 0.2000 >= L 0.1860; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z3-3-24",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)",
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z3-3-25",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-A1-P3"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z3-A-29",
+   "L_m": 0.107,
+   "nativo": {
+    "I": 0.105,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1059,
+      "estado": "desacuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-A8-P3"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)",
+    "B2: suma de offsets 0.2000 >= L 0.1070; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z3-A-30",
+   "L_m": 0.154,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.15
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-E13-P3"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z3-A-31",
+   "L_m": 2.176,
+   "nativo": {
+    "I": 0.15,
+    "J": 0.15
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-E13-P3"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-A9-P3"
+     ]
+    }
+   },
+   "abstencion_314": []
+  },
+  {
+   "viga": "VS-Z3-A-32",
+   "L_m": 0.313,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1328,
+      "estado": "desacuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-A9-P3"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.1771,
+      "estado": "desacuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E18-P3"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B2: suma de offsets 0.3500 >= L 0.3130; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z4-1-37",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1841,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E28-P4"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)",
+    "B2: suma de offsets 0.2000 >= L 0.1860; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z4-1-38",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)",
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z4-1-39",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-A4-P4"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z4-2-45",
+   "L_m": 2.451,
+   "nativo": {
+    "I": 0.2,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E16-P4"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z4-3-34",
+   "L_m": 0.186,
+   "nativo": {
+    "I": 0.184,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1841,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E3-P4"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)",
+    "B2: suma de offsets 0.2000 >= L 0.1860; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z4-3-35",
+   "L_m": 0.6,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)",
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z4-3-36",
+   "L_m": 0.215,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.2
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.2,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-A1-P4"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z4-A-40",
+   "L_m": 0.107,
+   "nativo": {
+    "I": 0.105,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.1059,
+      "estado": "desacuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-A8-P4"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)",
+    "B2: suma de offsets 0.2000 >= L 0.1070; límite no documentado"
+   ]
+  },
+  {
+   "viga": "VS-Z4-A-41",
+   "L_m": 0.154,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.15
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-E13-P4"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z4-A-42",
+   "L_m": 2.176,
+   "nativo": {
+    "I": 0.15,
+    "J": 0.15
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-E13-P4"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-A9-P4"
+     ]
+    }
+   },
+   "abstencion_314": []
+  },
+  {
+   "viga": "VS-Z4-A-43",
+   "L_m": 0.2,
+   "nativo": {
+    "I": 0.15,
+    "J": 0.0
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.15,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": [
+      "COL-A9-P4"
+     ]
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    }
+   },
+   "abstencion_314": [
+    "B3:J: sin columna inferior y punto con áreas (muro/losa)"
+   ]
+  },
+  {
+   "viga": "VS-Z4-A-44",
+   "L_m": 0.113,
+   "nativo": {
+    "I": 0.0,
+    "J": 0.111
+   },
+   "extremos": {
+    "I": {
+     "R-cara_313": {
+      "pred": 0.0,
+      "estado": "acuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": false,
+     "columnas_inferiores": []
+    },
+    "J": {
+     "R-cara_313": {
+      "pred": 0.1119,
+      "estado": "desacuerdo"
+     },
+     "R-ETABS_314": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "R-ETABS-B3cero": {
+      "pred": null,
+      "estado": "abstencion"
+     },
+     "salvedad_muro": true,
+     "columnas_inferiores": [
+      "COL-E18-P4"
+     ]
+    }
+   },
+   "abstencion_314": [
+    "B3:I: sin columna inferior y punto con áreas (muro/losa)",
+    "B2: suma de offsets 0.2000 >= L 0.1130; límite no documentado"
+   ]
+  }
+ ]
+}

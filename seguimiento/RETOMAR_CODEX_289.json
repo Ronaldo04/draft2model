@@ -1,0 +1,85 @@
+{
+  "fecha_utc": "2026-10-23T16:39:28.917580+00:00",
+  "goal_completo": false,
+  "clasificacion": "limite_de_reserva_alcanzado",
+  "cuota_observada": {
+    "ventana_300min_restante_porcentaje": 1,
+    "semanal_restante_porcentaje": 37,
+    "compartida_entre_chats": true,
+    "reset_manual_usado": false
+  },
+  "politica_cuota": {
+    "restante_hasta_5": "No iniciar nuevas pruebas largas ni trabajos costosos; guardar estado y cerrar operaciones propias de forma segura.",
+    "restante_hasta_1": "Guardar novedades y terminar sin nuevos encargos, GUI o pruebas. No declarar goal completo, pausado o bloqueado por cuota.",
+    "precision": "No es posible garantizar un corte exacto antes del ultimo token; revisar cuota antes de operaciones costosas y entre hitos."
+  },
+  "claude": {
+    "encargo": "seguimiento/CONTINUACION_CLAUDE_288_QA_Y_CIERRE.md",
+    "envio": "Return confirmado por captura: mensaje288 en historial y compositor visualmente vacio. AX conservaba valor antiguo; no reenviar.",
+    "objetivo": "Continuacion aislada desde control publicado para reglas/informe/panel sin duplicar ETABS ni pisar registro09d1.",
+    "marcador_ahora": "sin_marcador, etapa04 trabajando; no demuestra inactividad ni finalizacion.",
+    "proceso_historico": {
+      "pid": 39028,
+      "creacion": "2026-10-22T21:24:50.286587-05:00",
+      "comando": "seguimiento/claude_ruta/resultados_09.py --trabajo tmp/recorrido_09d1 --etapa controles",
+      "estado": "CIM host confirma39028 con creacion original en este checkpoint; vivo. No reiniciar."
+    },
+    "continuacion_confirmada": "tmp/recorrido_09d2: controles revalidados y reglas publicados en registro_resultados.json; informe en ejecucion.",
+    "proceso_informe": {
+      "pid": 14860,
+      "creacion": "2026-10-23T11:17:09.976305-05:00",
+      "padre": 12740,
+      "estado": "CIM host confirma PID14860 con creacion original, user11799843750/kernel801562500ticks. Registro09d2 sigue sin informe/panel/error. Conservar ejecucion; no declarar finalizacion ni bloqueo.",
+      "comando": "seguimiento/claude_ruta/resultados_09.py --trabajo tmp/recorrido_09d2 --etapa informe"
+    }
+  },
+  "evidencias_aceptadas": [
+    "seguimiento/REVISION_INTEGRACION_285.json:13 focales OK, orden de cache corregido; candidato integrado identico al verificado284.",
+    "seguimiento/REVISION_CONTROLES_REALES_285.json:control f4d1eb0004804d499d369587ff44c85e, hashes y nucleo recalculados; no equivale a aprobacion normativa o de ingenieria.",
+    "seguimiento/REVISION_RESUMEN_284.json:resumen puro2502superficies,5referencias de piso incluida base,3auxiliares; QA nueva pendiente.",
+    "seguimiento/REVISION_REGLAS_REALES_286.json:18 comparaciones reales del escenario recalculadas y contrastadas con Decimal;8satisfacen,10no. No certifica hipotesis ni norma profesional.",
+    "REVISION_INSTALACION_287.json:6/6 pasos exit0; venv nuevo, instalacion offline con hashes, pip check, CLI principal/visual e imports;588fuentes estables en runtime285. No es paquete final ni prueba completa del flujo.",
+    "REVISION_INVENTARIO_289.json:4HTTP nuevos OK0.831s, regresiones frontend listado exit0; hashes marcador288 coinciden y fuentes estables. Rechazo de alteraciones preservado, inventario no acredita vigencia. Mediciones de Claude no repetidas por root."
+  ],
+  "qa_activa": {
+    "sesion_exec": 6981,
+    "url": "http://127.0.0.1:18285/",
+    "runtime": "tmp/runtime_qa_285",
+    "archivos": 588,
+    "huella": "ca1f84347986b38311306edf58771fd44f3d44c71182faed732c964834bad2f3",
+    "raiz": "data/private",
+    "estado": "Listado285 TERMINO:3modelos/1resultado. Se selecciono resultado697bb37e9ce64f90ba1ef3e25733c8cc UNA vez; sigue Comprobando resultados y fuentes, tabla0filas. No reenviar, recargar o crear informes mientras pendiente.",
+    "comando_desde_runtime": "../../.venv/Scripts/python.exe -B -m draft2model.revision_visual --raiz ../../data/private --puerto 18285 --sin-navegador",
+    "browser": "IAB5/bindingqa285; runtime285 anterior a correccion288. No atribuir al nuevo inventario el comportamiento de esta copia antigua. Marcado handoff.",
+    "limites": "Abrir artefactos existentes. No ejecutar modelado, analisis o proveedores, ni crear informes duplicados.",
+    "proceso": {
+      "pid": 28660,
+      "creacion": "2026-10-23T11:09:57.055482-05:00",
+      "estado": "CIM host y exec6981 confirman vivo; no nuevo error observado."
+    },
+    "ultima_verificacion": "exec6981 sigue vivo y CIM host confirma PID28660 con creacion original; DOM sigue Comprobando resultados y fuentes,0filas. No recargar ni repetir seleccion."
+  },
+  "qa_historica": {
+    "sesion17813": "CERRADA intencionalmente; no reiniciar.",
+    "informe": "dccadc6138fb412bab4122eded6df107",
+    "ruta": "tmp/anexo_reubicado_268/pueblo-libre-002/informes/dccadc6138fb412bab4122eded6df107",
+    "estado": "Conservado, no final, resumen semantico defectuoso283; descargasUI no confirmadas. No editar evidencia historica."
+  },
+  "siguiente": [
+    "Consultar cuota primero. Con<=1% guardar y terminar sin GUI ni pruebas; con<=5% no nuevas tareas pesadas. No gastar reset manual.",
+    "Ejecutar estado_claude.py y comprobar componentes nuevos posteriores a MARCADOR_288.json, ya revisado en289. No releer historial.",
+    "Observar la apertura de resultado ya pendiente en QA285 sin reenviar; si termina, revisar tabla13indicadores y conservar evidencia.",
+    "Revisar informe09d2/panel cuando termine PID14860; consultar identidad real antes de actuar. No duplicar por espera.",
+    "En siguiente margen suficiente, congelar fuentes nuevas con inventario288 para QA: runtime285 no contiene esa correccion. No editar copia fija ni declarar su instalacion287 como prueba del nuevo producto.",
+    "Cerrar resumen/PDF, informes/panel/descargas reales y distribucion final con huellas y criterios269 intactos."
+  ],
+  "restricciones": [
+    "Claude producto/tests/runner; Codex seguimiento/QA. Comprobar cambios antes de editar.",
+    "Proyectos2/3 solo inventariados, no procesarlos hasta validar primero.",
+    "APIs OpenAI4/5 y Gemini2/5 consumidas; solo planos, no llamadas adicionales por reanudacion.",
+    "Contraste oficial de masa sigue no_coherente; escenarios suelo/sistema son hipotesis; no ajustar tolerancias para aprobar.",
+    "No tocar instancias ETABS ajenas, ni reiniciar procesos por reinicio de cuota."
+  ],
+  "reanudacion": "Consultar cuota PRIMERO. Si <=1% restante guardar solo novedades imprescindibles y finalizar sin nuevas comprobaciones/GUI. Con margen recuperado leer este JSON y docs/RETOMAR.md, ejecutar marcador y observar procesos/artefactos existentes sin reiniciarlos. No usar reset manual automaticamente.",
+  "cierre_por_cuota": "Se alcanzo reserva1%: no se consulto GUI ni se ejecutaron pruebas/delegaciones nuevas. Procesos no detenidos; su ultimo estado vivo pertenece a la comprobacion anterior. Al reanudar consultar cuota primero y seguir siguiente, sin reconstruir historial."
+}

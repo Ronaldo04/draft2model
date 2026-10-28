@@ -1,0 +1,36 @@
+{
+  "tarea": "superposicion_geometria",
+  "estado": "entregado",
+  "archivos": {
+    "draft2model/revision_superposicion.py": "73bc87c99df2c058d82c73b77ff9cc3be09885092fbd05a06f1480bf7dba68e1",
+    "draft2model/revision_visual.py": "a87ba1257864e9ebf10ee223e0f2c865ac69a0870a72a53c6e74b232a1f49a2a",
+    "draft2model/revision_web/index.html": "f59f9892a6b5edcefbbdc877d795580dcc7e2dab2ca4be7cd368fa6ea269cee5",
+    "draft2model/revision_web/app.js": "78dffd847a7274d6b4cc683997824b16fdf6d162d27030a3002b378659411229",
+    "draft2model/revision_web/superposicion.js": "125b57decc3303292cf1f60824b1d9be4306a57fd3bad0cf2a4095f31f1ff6fe",
+    "tests/test_revision_superposicion.py": "a404446fd606f3ed970f1d33393b26113f43060d8bf1ffcbeed47b290a407cf1",
+    "tests/revision_superposicion_frontend.cjs": "5d91c60eda2a79bb6b3d91683dc7927c88f1b2979a561081be605d838f049f56",
+    "docs/REVISION_SUPERPOSICION.md": "e6da361e0b94c0a760b296a29b699c533b66bfa39ed40137e3a2033f4e06590c"
+  },
+  "pruebas": [
+    {
+      "comando": "TEMP=$PWD/tmp TMP=$PWD/tmp python -m unittest tests.test_revision_superposicion tests.test_revision_visual tests.test_revision_tabular_http tests.test_revision_aprobacion_resultados_http tests.test_gestion_geometria",
+      "resultado": "Ran 68 tests OK (7 nuevas superposicion: 6 servicio + 1 HTTP)"
+    },
+    {
+      "comando": "node tests/revision_superposicion_frontend.cjs",
+      "resultado": "OK (5)"
+    },
+    {
+      "comando": "node tests/revision_{tabular,conversion,resultados,preparacion,aprobacion_resultados}_frontend.cjs",
+      "resultado": "5/5, 10/10, OK, 13/13, 21/21 (regresion app.js/index)"
+    }
+  ],
+  "limites": [
+    "Planta por nivel_inferior; muros multinivel no se repiten en niveles intermedios",
+    "Huella de preview depende del renderizador; actualizarlo invalida correspondencias",
+    "Afin exacta con tres anclas, sin residuo ni minimos cuadrados",
+    "Sin CSS propio (style.css no autorizado)",
+    "Prueba visual en navegador real pendiente (Codex)",
+    "Sin red/API/ETABS/CU ni suite completa"
+  ]
+}

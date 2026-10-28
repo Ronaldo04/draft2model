@@ -1,0 +1,100 @@
+{
+ "marcador": "293",
+ "fecha_utc": "2026-10-23T21:51:39+00:00",
+ "responsable": "Claude",
+ "encargo": "seguimiento/CONTINUACION_CLAUDE_293_CARGA_DE_HISTORIALES.md (+ reparto 301 frontend)",
+ "aprueba_ingenieria": false,
+ "carga_deliberada_293": {
+  "cambio": "Seleccionar expediente ya no consulta los 8 historiales costosos (lectura/construccion/analisis trabajos, mapeos, normalizacion/estado, contexto/historial, explicaciones/trabajos, controles/historial). Estado «Historial sin consultar»; Actualizar consulta y verifica por completo; tras éxito del expediente vigente pasa a «Historial consultado y comprobado». Mapeos no tenía botón: se crea mapeoActualizar desde mapeos.js. Errores obsoletos de construccion/analisis ya no se muestran tras cambiar de caso.",
+  "sin_cache": "No se cachean aprobaciones ni vigencia; abrir/usar/aprobar y recuperación antes de publicar siguen en el servidor sin cambios (servicios no editados).",
+  "archivos_sha256": {
+   "draft2model/revision_web/lecturas.js": "48f418cf160cdd2a977505cab319b1d035328c721424e1b9275e589a3c601560",
+   "draft2model/revision_web/construccion.js": "8611aa95a5243f8b0e00e3ba9e693a28629e248c90834d148bfc430d8d8ced6f",
+   "draft2model/revision_web/analisis.js": "82fdb1155bcdd1131c75df137e9a0195e207c4f349e489777d1fdd541841350f",
+   "draft2model/revision_web/mapeos.js": "ba3ff42f36e6a5af255a7ca050cc39baa0f5afc57293b90cc033137834bd0726",
+   "draft2model/revision_web/recuperacion.js": "be7e85eb0f988841c7ba26690a8be582de15e47f064ce6477b7a5988b7cd430e",
+   "draft2model/revision_web/contexto.js": "f8cca4fe5958b0a11ed92244ffd37d16c74d11aa59065679f021687dd926b7aa",
+   "draft2model/revision_web/explicaciones.js": "6a8ca28c0c60bc1d0c3fa222473941713a59f87366a41c5d920a646345cb56cd",
+   "draft2model/revision_web/controles.js": "c0695103a6165d9fc339ab5c996247ef3038555379adb5d63432c6d8bbf513c2",
+   "tests/revision_historiales_293_frontend.cjs": "d18da18d8072ec3b225bb884514ca32371bc85bd32b3b6f6b058edae7d413f28",
+   "tests/revision_recuperacion_frontend.cjs": "2577966dd7f977d91a63194ab784939cc06e07b265226b0d23564678863d4e0b",
+   "tests/revision_controles_frontend.cjs": "d4f768e7f227664565628daa6530121ea6c3d87059a512c5f4dbe23eadc06f7d",
+   "tests/diagnostico_eventos_masa_267.cjs": "d419b7a339ee968cfd9419bcd6c3e1d78c9b8ece87e56f9dc877a9b50462ec1c",
+   "tests/test_unidades_masa_290.py": "45d7c733caf1d591e0fab5301f84e2ca190254c63ac53905b865e4c683d57854"
+  },
+  "pruebas": {
+   "tests/revision_historiales_293_frontend.cjs": "26 OK (8 etapas x sin consulta al seleccionar / Actualizar explícito / descarte obsoleto + consultado + apertura con fuente alterada); mutación (contexto con consulta automática) -> 2 FAIL",
+   "frontend_completo": "38 suites .cjs OK (node tests/*.cjs)",
+   "servidor_fuente_alterada": "8 pruebas unittest OK en 40 s: lecturas, analisis(2), contexto(2), mapeos(2), controles (apertura de fuente alterada rechazada)",
+   "test_unidades_masa_290": "12 OK (aprobación fresca en casos inválidos; None explícito incluye la clave)"
+  },
+  "medicion_real": {
+   "copias_fijas": {
+    "tmp/runtime_claude_293": "c139905887acf79fd4add4c2ec2b66b2ccbbae9ff24eef0f36eaf7ae5dea6e54",
+    "tmp/runtime_claude_293b": "bb050757fedc68bfa7725b4fb4020370d41154336c8f82538648c4bdfa828aa5"
+   },
+   "lanzador": "tmp/ruta201/staging/medir_seleccion_293.py (solo ruta+duración; sin query ni cuerpos)",
+   "resultado": "pueblo-libre-002 sobre data/private: selección -> 11 solicitudes, 0 historiales costosos, última respuesta 1.5 s, 8/8 etapas «sin consultar»; cambio provisional-001 -> pueblo-libre-002: 0 historiales, 1.6 s. Antes (diagnóstico Codex 292/293): solicitudes esperando el lock a 71 s y 490 s.",
+   "coste_trasladado": "Actualizar lecturas explícito: 454.75 s (con 09d3 compitiendo por CPU)",
+   "resumen": "tmp/medicion_seleccion_293b/resumen.json",
+   "sin_modelar_ni_api": true
+  }
+ },
+ "frontend_301": {
+  "cambio": "informes.js y paneles.js piden /api/analisis?modo=inventario, rotulan «sin comprobar», no seleccionan ni comprueban automáticamente; al seleccionar llaman una vez /api/analisis/comprobar (caso, resultado, analisis, expediente_sha256); crear y opciones dependientes de evidencia quedan bloqueados hasta respuesta vigente (id igual, vigente:true, verificacion:'completa', y caso/resultado/expediente iguales si vienen) de esa misma selección; error/fuente alterada -> «Comprobación fallida», sin POST. null nunca se convierte en true/false; sin caché (reseleccionar o actualizar vuelve a comprobar). revision_resultados.js: inventario con «sin comprobar»; «Consultar fuentes» ya comprueba por completo en el servidor.",
+  "archivos_sha256": {
+   "draft2model/revision_web/informes.js": "b5ef7693c85ba207ff03c2ee008a6b2ef0add0379260916f4349c2ecb852b32c",
+   "draft2model/revision_web/paneles.js": "ba6f457d29fa12ec88084333c974ba3f8f37ea3b32c73096c9ad71113cdc3ef0",
+   "draft2model/revision_web/revision_resultados.js": "b6fea1915eeb2ea4fbd154941d6c38c9d2966bcdec90d88d58ee5a766bcec7f8",
+   "tests/revision_analisis_inventario_301_frontend.cjs": "567c627e4606b5de608f720fa00faaff7f7e79c04a8172e233be71526e75a53d",
+   "tests/revision_informe_controles_frontend.cjs": "8084e7fab531b84552276cbd57fc43af6e18cfcfef6c4015289ab83b1b5c5d9a",
+   "tests/informe_relectura_frontend.cjs": "cefb4cd693108607168fb48f7f32e75c643cb11490749ddf3268e9f7c95d5700",
+   "tests/revision_informe_revision_resultados_frontend.cjs": "caa436912af8c9ffa79c33dd404370bf23261a2a6aff6ee024d6b56fcb74b551",
+   "tests/masa_web_267_frontend.cjs": "ecfa040ca2ea04b5cbc3904c62cfbaee5f092424df33d9f4f0aecd2d87857299",
+   "seguimiento/RECEPCION_301.json": "394ab07a6fdf74302ab96a516d96edec7ed6f1bb7de8ddb53919630ea57dff4d"
+  },
+  "pruebas": "tests/revision_analisis_inventario_301_frontend.cjs 13 OK; mutación (versiones previas) -> 13 FAIL; 4 pruebas existentes adaptadas al inventario/comprobación asíncrona.",
+  "dependencia": "Backend 301 de Codex (revision_entregables.py, rutas GET en revision_visual.py) aún no presente al escribir; contra un servidor sin modo=inventario el listado falla visiblemente (no se degrada a vigencia). No se midió en servidor real por esa razón."
+ },
+ "cierre_290_09d3": {
+  "carpeta": "tmp/recorrido_09d3 (continuación aislada de 09d2; control f4d1eb00 revalidado con servicio vigente)",
+  "informe_json": {
+   "archivo": "tmp/recorrido_09d3/resultados/informe/informe.json",
+   "sha256": "d9ff228ce9aeb6db89078a6dbe0b3aed7e7b9bb398cf49d3c8bda1ee7b2d619d"
+  },
+  "informe_html": {
+   "archivo": "tmp/recorrido_09d3/resultados/informe/informe.html",
+   "sha256": "ef5ecc81567acd9fc87bba8e7fa4ba547281d31845ec0283ecccd380ebe54f43"
+  },
+  "informe_pdf": {
+   "archivo": "tmp/recorrido_09d3/resultados/informe/informe.pdf",
+   "sha256": "ca4fc1432c509af1bc944f376e8f60f4a16f94fc3a8eff4e63b59ef2dbb5acf9",
+   "paginas": 8
+  },
+  "panel": {
+   "archivo": "tmp/recorrido_09d3/resultados/panel.html",
+   "sha256": "bafe14673386ade9077910acca57ef92663580e5f1e5b9660daf100de8038e82"
+  },
+  "reglas": {
+   "archivo": "tmp/recorrido_09d3/resultados/reglas_e030.json",
+   "sha256": "10beff5d910d72a6c28ab387a03cbe1e896c22e4e32bca203862cf8c69f8d736"
+  },
+  "comprobado": "VMIN-SX 0.7484 y VMIN-SY 0.5877 con unidad de entrada kN y unidad_resultado '1' (HTML: «evaluado 0.748… 1; límite >= 0.8 1»); derivas 16: 8 satisfacen / 8 no (sin cambio respecto a 09d2); banner de masa: captura nativa incluida con contraste NO COHERENTE; resumen geométrico por superficies (sin «Muros 0»); PDF 8 páginas con los mismos textos.",
+  "tiempos": "controles_publicados 15:50:27, reglas 15:50:28, informe 16:44:19, panel 16:50:55 (inicio 15:40)"
+ },
+ "comandos": [
+  "python tmp/ruta201/staging/patch_historiales_293.py / patch_mapeos_293.py / patch_obsoletos_293.py / patch_consultado_293.py / patch_tests_293.py",
+  "python tmp/ruta201/staging/patch_analisis_301.py / patch_tests_301.py",
+  "node tests/*.cjs",
+  "python -m unittest <8 pruebas de fuente alterada>",
+  "seguimiento/claude_ruta/resultados_09.py --trabajo tmp/recorrido_09d3 --continuar-desde tmp/recorrido_09d2 (controles_publicados, reglas, informe, panel)"
+ ],
+ "limites": [
+  "Sin ETABS, sin API remota, sin proyectos 2/3; no se reinició 09d3 ni ETABS.",
+  "Sin aprobación profesional; aprobación de reglas solo declarada de software.",
+  "Tiempos medidos con CPU compartida con 09d3.",
+  "Frontend 301 probado con dobles HTTP; integración real pendiente del backend 301 de Codex.",
+  "Validación global y paquete NO ejecutados: esperan fuentes estables tras el backend 301 (Codex edita revision_entregables.py/revision_visual.py)."
+ ],
+ "siguiente": "Cuando Codex confirme backend 301: una validación global sobre la huella congelada y paquete."
+}

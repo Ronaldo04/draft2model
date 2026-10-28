@@ -1,0 +1,47 @@
+{
+  "fecha_utc": "2026-10-23T15:56:49.995120+00:00",
+  "pruebas_observadas": "8focalesOK0.009s:4resumen/informe/panel y4cachegeom; cache aún NO aceptada por reproducción de orden284",
+  "resumen_caso_real": {
+    "representacion": "superficies",
+    "version_contrato": "0.3.0",
+    "muros_lineales": 0,
+    "superficies": 2502,
+    "superficies_por_papel": {
+      "cerco de concreto": 2,
+      "escalera: descanso": 6,
+      "escalera: rampa": 10,
+      "fondo de depósito": 25,
+      "losa de piso": 1341,
+      "losa de techo": 448,
+      "muro de albañilería": 268,
+      "muro de depósito": 56,
+      "placa de concreto": 322,
+      "tapa de depósito": 24
+    },
+    "niveles_piso": [
+      "N0",
+      "N1",
+      "N2",
+      "N3",
+      "N4"
+    ],
+    "base": "N0",
+    "pisos_sobre_base": 4,
+    "niveles_auxiliares": [
+      "NCF",
+      "NTF",
+      "NTT"
+    ],
+    "nota": "Superficies por papel declarado en la geometría: piezas de modelación (fragmentos de malla conforme), no un recuento de muros físicos. Niveles de piso incluyen la base; las cotas auxiliares no son pisos ni Story de ETABS."
+  },
+  "fuente_geometria_sha256": "24b484549348484f8bf7df1255704a38f2cd77c3b282d2b69ba5b46f0afb68c2",
+  "fuentes_sha256_observadas": {
+    "draft2model/resumen_geometria.py": "d54b78e29a6782c31a700c4f27ad02fa35f0d5e300105d5ea01bc9633b9610b3",
+    "draft2model/informe.py": "d07e91847b0ddb5266961995db856cfe99b4e2b0824e9c58e37ce524766ed2c6",
+    "draft2model/panel_tecnico.py": "c5e886a4b1bfb6fdc98d8db55d2223fd80563185e649a22a8ce33d3f9ae3e627",
+    "draft2model/revision_paneles.py": "43a5fc99417bccfac49d1b92cc32925654140b3d2abdb85937dc6ad984fba9a3",
+    "tests/test_resumen_geometria_283.py": "4341a8f298a1ba3205a619c4b4b5edc928907fbac481715a13c27e5471c23e49"
+  },
+  "alcance": "Código de resumen y resultado puro sobre geometría real; no PDF nuevo, QA de producto corregido ni aceptación de cache de validación.",
+  "goal_completo": false
+}

@@ -1,0 +1,22 @@
+{
+  "estado": "revisado_incremental_con_limites",
+  "snapshot": "tmp\\revision_codex_246",
+  "integridad": "seguimiento/INTEGRIDAD_ENTREGAS_246.json",
+  "fuentes_suite_contrastadas": 372,
+  "archivos_no_incluidos_en_entrega": 187,
+  "logs_conservados": {
+    "python": 1211,
+    "node": 31,
+    "sha_suite": "fd5b820185f2b30536f5bf2a62d4f332f91102e432aab02f229e8e37e63117a1",
+    "sha_node": "6cb0c01fbde61654ae3d3eed387b73cf3ce90eb1b0a951b39ba632cedaec5504"
+  },
+  "pruebas_propias": "7 focales R241/R243 OK en 0.305s (host); sandbox WinError5 en temporales, no fallo funcional.",
+  "vs30": "Módulo idéntico a captura245 con38 comprobaciones independientes; no clasifica suelo real.",
+  "limites": [
+    "No acredita piloto nativo completo",
+    "C1/C6/PL10/escaleras/depósitos y aberturas siguen en implementación",
+    "Escenarios de suelo no equivalen a EMS",
+    "Plantilla propia bajo revisión separada",
+    "Optimización malla en reserva246"
+  ]
+}

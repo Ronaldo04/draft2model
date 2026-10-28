@@ -1,0 +1,43 @@
+{
+  "estado": "importada_pendiente_revision",
+  "intento": "e1862b9a03db48399e5d5ab543b3a9dc",
+  "version_extraccion": "dcdf242bc1d3477da91953b5d73e889c",
+  "candidatos": 60,
+  "recortes_con_lecturas": 3,
+  "coste_peticion3_usd": 0.083215,
+  "coste_total_openai_usd": 0.390345,
+  "peticiones_openai": 3,
+  "peticiones_gemini": 0,
+  "lecturas_aprobadas": 0,
+  "hallazgos": [
+    "Recupera textos fc210,fy4200,fm35 y dimensionesC2..C6, parámetros de lámina. No asignar unidades/valideznormativa automáticamente.",
+    "Clasifica cantidades de barras6/8 y cargas200/150 como cota con unidad desconocida: requiere corrección semántica, no medidas geométricas.",
+    "Resultados previos impresos C054..C057 no deben usarse para calibración del modelo."
+  ],
+  "fuentes_visuales_adicionales": [
+    {
+      "archivo": "L0002",
+      "pagina": 1,
+      "zona_normalizada": [
+        0.2,
+        0.9,
+        0.54,
+        0.94
+      ],
+      "lectura": "ALIGERADO2DO Y3ER NIVEL S/C:200Kg/m2 e=17cm",
+      "alcance": "Título visible del segundo plano; losas2-3 NOausentes."
+    },
+    {
+      "archivo": "L0003",
+      "pagina": 1,
+      "zona_normalizada": [
+        0.09,
+        0.58,
+        0.78,
+        0.94
+      ],
+      "lectura": "Cortes tanque elevado, cisterna, techo cisterna y detalles.",
+      "alcance": "Datos existentes, recuperar antes de solicitar al usuario como faltantes."
+    }
+  ]
+}

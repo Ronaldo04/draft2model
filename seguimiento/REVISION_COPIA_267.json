@@ -1,0 +1,76 @@
+{
+  "fecha_utc": "2026-10-22T23:14:06.462346+00:00",
+  "snapshot": "entregas/AECODE_CANDIDATO_267",
+  "huella_fuentes": "6edc3b423f62984b309aa348ab0343becb48d22fb27f20ba35db831b15cb31da",
+  "archivos": 577,
+  "copia": "tmp\\revision_codex267",
+  "verificador": "tmp\\revision_codex267\\tmp\\verificacion_267.json",
+  "sha256_verificador": "fb414a0f5493a8a348806d27d1a8b866dda1ad5c9e013cbb7662ad590c9d544e",
+  "fuentes_estables": true,
+  "comprobaciones": [
+    {
+      "nombre": "dependencias",
+      "codigo": 0,
+      "omisiones": 0,
+      "registro": "tmp\\revision_codex267\\tmp\\verificacion\\dc66c3ed63e248a4a6ce04c791565984\\dependencias.log",
+      "sha256_log": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf"
+    },
+    {
+      "nombre": "arranque_cli",
+      "codigo": 0,
+      "omisiones": 0,
+      "registro": "tmp\\revision_codex267\\tmp\\verificacion\\dc66c3ed63e248a4a6ce04c791565984\\arranque_cli.log",
+      "sha256_log": "5e6d8abc97dd06be3e20a6e526b52bc353bb6eb180166193e12a059eb796a53d"
+    },
+    {
+      "nombre": "powershell_scripts",
+      "codigo": 0,
+      "omisiones": 0,
+      "registro": "tmp\\revision_codex267\\tmp\\verificacion\\dc66c3ed63e248a4a6ce04c791565984\\powershell_scripts.log",
+      "sha256_log": "926cd16db94f6e4035e6b5f41c7e93e107e456a274ad77e1ed1c26bdd2b3882f"
+    },
+    {
+      "nombre": "suite",
+      "codigo": 1,
+      "omisiones": 0,
+      "registro": "tmp\\revision_codex267\\tmp\\verificacion\\dc66c3ed63e248a4a6ce04c791565984\\suite.log",
+      "sha256_log": "c059cdf5c6bb4c3ffdc2f70658bc14b544baf1f498f5002afeca123dff2e20cc"
+    },
+    {
+      "nombre": "interfaz",
+      "codigo": 0,
+      "omisiones": 0,
+      "registro": "tmp\\revision_codex267\\tmp\\verificacion\\dc66c3ed63e248a4a6ce04c791565984\\interfaz.log",
+      "sha256_log": "85bb92aa54fe47519ee0dd8f32e703f950b4e401c86ba0f150b04c047e015dd2"
+    }
+  ],
+  "python": {
+    "pruebas": 1335,
+    "duracion_s": 1359.901,
+    "resultado_original": "1error de entorno;1334restantes sin error ni omisión",
+    "error": "test_trabajo_relativo_no_rompe_rutas_del_subproceso llama os.path.relpath sobre TEMP C: desde cwd D:",
+    "correccion_focal_entorno": {
+      "codigo": 0,
+      "pruebas": 1,
+      "duracion_s": 0.32,
+      "mismos_bytes_de_fuentes": true,
+      "TEMP_TMP": "workspace/tmp/t267root enD: existente",
+      "intento_previo": "Ruta TEMP relativa a copia inexistente: Python volvió aC: y error se conservó."
+    }
+  },
+  "node": {
+    "archivos_prueba": 32,
+    "pasaron": 32,
+    "fallos": 0,
+    "omisiones": 0,
+    "duracion_ms": 2267.0411
+  },
+  "resultado": "verificacion_agregada_con_excepcion_de_entorno_resuelta_focalmente; el reporte original permanece false",
+  "limites": [
+    "No presentar la suite original como1335/1335 verde: terminó con1errorambiental, corregido en ejecución focal separada.",
+    "No acredita instalación de dependencias en entorno nuevo de esta copia: pipcheck usa entorno existente con lock sin cambios; instalación offline258 es evidencia histórica acotada.",
+    "No acredita piloto real ni cambios posteriores a snapshot267.",
+    "No ETABS ni APIs remotas durante estas comprobaciones."
+  ],
+  "goal_completo": false
+}

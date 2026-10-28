@@ -1,0 +1,21 @@
+{
+  "fecha_utc": "2026-10-22T17:48:13.545761+00:00",
+  "casos": [
+    {
+      "caso": "declarado_sin_masa_nativa",
+      "aceptado": true
+    },
+    {
+      "caso": "afirma_masa_nativa_sin_evidencia",
+      "aceptado": true
+    },
+    {
+      "caso": "plan_no_identificado",
+      "aceptado": true
+    }
+  ],
+  "alcance": "Validador puro opcional del informe; no se generó informe ni llamó ETABS",
+  "apis_remotas": 0,
+  "etabs": false,
+  "requiere_correccion": true
+}

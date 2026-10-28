@@ -1,0 +1,21 @@
+{
+  "tarea": "correccion_codex_266_tipos_masa_y_reglas_en_escenarios",
+  "estado": "entregado_pendiente_revision_codex",
+  "fecha": "2026-10-22",
+  "entrega": "06-cbfdd04193974a83a6849657ece30b26",
+  "cambios": [
+    "bool/None/no decimales rechazados antes de float en lectura_analisis._validar_masa_api y libro_masa.contrastar_masa_nativa (identificadores, masas, coordenadas, ejes, retorno, número de resultados)",
+    "resultados_09.py etapa reglas: E.030 aplicada a escenarios identificados S1-MUR (0,007) y S1-ALB (0,005), factor 4,5 por linealidad en 1/R; cortante mínimo 0,80·V_est con P nativo de Mass Summary by Story o abstención explícita; aprobación declarada de software, no profesional"
+  ],
+  "no_repite": "CONTRASTE_PRESIONES_264 de Codex (F/M de cargas declaradas) no se reintegra ni se presenta como lectura nativa",
+  "hashes": {
+    "draft2model/libro_masa.py": "d3085be8e289b7881dd83e86e313b20f8105d946e0466bb0e6ed2f5b5dec02c0",
+    "draft2model/lectura_analisis.py": "4ccfc28d5dd3c7eaa9316f32d9ada485bee987b154a7158eb576b54505dc50b2",
+    "tests/test_libro_masa_263.py": "a411d1852ef30b1c6eecbd7f3671f9da2e12cdd40def5d14651397a68bbb4956",
+    "seguimiento/claude_ruta/resultados_09.py": "707e9eec0e6b704700c4c60c7ed3ee4c3db89278bc054070091935cdb4d0e903",
+    "entregas/06-cbfdd04193974a83a6849657ece30b26/manifiesto.json": "5b7919b2cb7fb39008ffdc2216796e6483ca173addf79f138148564395df41a0",
+    "tmp/ruta201/restauracion_06_266.log": "8b5380971aba9f318452a7cd60c0a0748172e02e89d42147cc17bc72236839be",
+    "tmp/ruta201/focos266.log": "6b93f90ed951e896a00e5bd2f62eade8966ee0b381759f955a0f383795217d7e"
+  },
+  "apis_ejecutadas_por_claude": 0
+}

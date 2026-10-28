@@ -1,0 +1,28 @@
+{
+  "estado": "revisado_incremento_cobertura_y_vinculo",
+  "hashes_aceptados": {
+    "draft2model/verificacion_modelo_guardado.py": "08d20e75702fa067f49f31ef7b7741ac6ec8a502edd70d0a98f78f8329963e21",
+    "scripts/verificar_modelo_guardado.ps1": "1db1b80a0cd9e6c271e53f4a0f49d8301a5cbf866d85230a4e4176cfa17c5b1a",
+    "tests/test_verificacion_modelo_guardado.py": "20e119b46b1c3b1ef358238eaed61f6dbcd60c48702ed0eb6a680418ecd00b44",
+    "docs/VERIFICACION_MODELO_GUARDADO.md": "c51238a1a12e9763fad66f26bd4075cb103e146fcaf355cfe3d64623cc68d09b"
+  },
+  "evidencia_conservada": "tmp/entrega_claude_cobertura_168.zip",
+  "pruebas": {
+    "log": "tmp/revision_cobertura_vinculo_168.log",
+    "resultado": "28OK",
+    "omitidas": 0,
+    "duracion_s": 20.88,
+    "alcance": "22lector+6vinculo, solo dobles/reflexion, sinETABSreal"
+  },
+  "archivos_codex": {
+    "draft2model/vinculo_verificacion_modelo.py": "0078b7e9c54a1451d531a307171c48bf810bfb11cdb5cde8f26d0bc80eb1d92f",
+    "tests/test_vinculo_verificacion_modelo.py": "5428ee55e2c05ece1f69c4a5e2acfac4b38d18e58c9e90bed5cce11c220339ba",
+    "docs/VINCULO_VERIFICACION_MODELO.md": "ae454abd58d655a660552ec2c615a80f47aa6676152eaeb3804d51737823b49b"
+  },
+  "limites": [
+    "sin servicios/UI/informe del vinculo todavia",
+    "sin ETABS real",
+    "plan0.2 desarrollo sigue bloqueado",
+    "lector nuevos aligerados siguiente encargo"
+  ]
+}

@@ -1,0 +1,5 @@
+id,nodo_inicio,nodo_fin,nivel_inferior,nivel_superior,espesor,observaciones
+M1,A,B,N0,N1,0.15,
+M2,B,C,N0,N1,0.15,
+M3,C,D,N0,N1,0.15,
+M4,D,A,N0,N1,,Espesor dejado como faltante a propósito para ilustrar el registro de ausencias.

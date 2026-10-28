@@ -1,0 +1,39 @@
+{
+  "fecha_utc": "2026-10-23T15:20:52.583079+00:00",
+  "carpeta_entrada": "planos_muestra\\proyecto_1_pueblo_libre",
+  "caso": "pueblo-libre-002",
+  "archivos_entrada": {
+    "Arquitectura-Model1.pdf": {
+      "sha256": "1f2e8d9c2507cc85bbcd6d6cc9fc217baf4d272c6620417c1985eeb3d4b8be54",
+      "bytes": 581388
+    },
+    "Arquitectura-Model2.pdf": {
+      "sha256": "f63d63ce7674c21b3437145cfde2f6ab66abe814c445c5c65873db99067b87bf",
+      "bytes": 509194
+    },
+    "Arquitectura-Model3.pdf": {
+      "sha256": "ead656045a3c95739e2bd7cab3c5daddb6d1e42ebaa7aaf9afb6c34be07dce4a",
+      "bytes": 301431
+    },
+    "Estructuras_Pueblo Libre1-Cimentación.pdf": {
+      "sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+      "bytes": 453769
+    },
+    "Estructuras_Pueblo Libre1-Model.pdf": {
+      "sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+      "bytes": 446565
+    },
+    "Estructuras_Pueblo Libre1.pdf": {
+      "sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+      "bytes": 454486
+    }
+  },
+  "cantidad": 6,
+  "coincidencia_por_hash_y_tamano": true,
+  "expediente_sin_cambios": true,
+  "sha256_expediente": "56080c2ab3211d2980cd039567ecb025d97e80ac1b3e342c6efb979dbb654776",
+  "alcance": "Los6PDF del primer proyecto renombrado son los mismos6originales registrados. No lee contenido de proyectos2/3 ni interpreta planos; no valida la extracción/modelado.",
+  "api_remota": false,
+  "etabs_ejecutado": false,
+  "goal_completo": false
+}

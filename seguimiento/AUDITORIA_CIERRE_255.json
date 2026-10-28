@@ -1,0 +1,20 @@
+{
+  "fecha": "2026-10-22",
+  "estado": "auditoria_estatica_focal_sin_aceptacion_de_piloto",
+  "informe": "seguimiento/AUDITORIA_CIERRE_255.md",
+  "conclusion": "La secuencia de seis pendientes es suficiente si piloto y guia explicitan resultados/contexto/controles y medicion inicial/tiempos/costos, obligaciones existentes.",
+  "bloques": [
+    {"id": 1, "requisito": "Contenido: peso y masa ensamblada", "evidencia": "fuerte_sintetica_debil_integracion", "pendiente": "R249-02: consumidores contrato/plan/lector/UI/informe y contabilidad completa", "fuentes": ["seguimiento/REVISION_MASA_NATIVA_253.json", "seguimiento/PORTADO_MASA_ENSAMBLADA_254.json"]},
+    {"id": 2, "requisito": "Tanque y caras mojadas", "evidencia": "fuerte_diagnostico_debil_aplicacion", "pendiente": "Transformacion fisica, carga y momento en version elegida; regenerar liquidos y estados", "fuentes": ["seguimiento/CONTINUACION_CLAUDE_253.md", "seguimiento/claude_ruta/configuracion_09c.py"]},
+    {"id": 3, "requisito": "Escalera completa idealizada", "evidencia": "limite_explicito_sin_aceptacion", "pendiente": "Tramos/descansos/cotas/apoyos/conexiones; 40kN no sustituye rigidez", "fuentes": ["seguimiento/claude_ruta/configuracion_09c.py", "docs/RETOMAR.md"]},
+    {"id": 4, "requisito": "Normativa y escenarios tecnicos", "evidencia": "fuerte_modulos_debil_caso", "pendiente": "Aplicacion trazada con sistema/irregularidades y suelo hipotetico declarado", "fuentes": ["seguimiento/REVISION_ENTREGAS_252.json", "seguimiento/claude_ruta/escenarios_sismicos_09.py"]},
+    {"id": 5, "requisito": "Inventario y recorrido real completo", "evidencia": "incremental_y_transporte_con_exclusiones", "pendiente": "Cobertura fisica y flujo normal exacto de planos a lecturas; aprobaciones y recuperacion", "fuentes": ["docs/MATRIZ_REQUISITOS_REFERENCIA.md", "seguimiento/claude_ruta/recorrido_etabs_09t.py"]},
+    {"id": 6, "requisito": "Resultados, controles, sitio e informe", "evidencia": "capacidad_presente_sin_entrega_final_aceptada", "pendiente": "Siete categorias y JSON/HTML/PDF inspeccionados, reglas/fuentes/controles vinculados", "fuentes": ["docs/CONTEXTO_PROYECTO.md", "draft2model/controles_analisis.py", "draft2model/revision_entregables.py"]},
+    {"id": 7, "requisito": "Medicion original, correcciones, tiempos y costos", "evidencia": "recibos_y_muestra_parcial_sin_benchmark_completo_localizado", "pendiente": "Anotacion revisada, denominadores y exclusiones, consumo/tarifa/fecha y duraciones del flujo", "fuentes": ["docs/PENDIENTES_FUNCIONALES_CIERRE.md", "seguimiento/CONSUMO_API_211.json", "seguimiento/claude_ruta/EVIDENCIA_ANTES_DESPUES_08.json"]},
+    {"id": 8, "requisito": "Reproduccion final y evidencia por requisito", "evidencia": "historica_y_focal_sin_aceptacion_final_actual", "pendiente": "Hito estable integrado y guia con entradas/fuentes/logs/huellas y limites", "fuentes": ["docs/MATRIZ_REQUISITOS_REFERENCIA.md", "seguimiento/REVISION_ENTREGAS_252.json", "seguimiento/RETOMAR_CODEX_253.md"]}
+  ],
+  "recomendacion_nueva_solo_editorial": "Explicitar bloques 6 y 7 dentro de piloto/guia; no ampliar producto.",
+  "decisiones_respetadas": ["Alturas y arcilla confirmadas", "Sin EMS; escenarios hipoteticos autorizados", "RNE vigente", "Comparacion manual aplazada fuera del cierre actual", "OpenAI4/5 Gemini2/5 sin nuevas APIs"],
+  "acciones_ejecutadas": ["Lectura de documentos y fuentes focales", "Creacion de dos archivos nuevos de seguimiento"],
+  "no_ejecutado": ["Pruebas", "ETABS", "GUI", "API", "Lectura de credenciales", "Cambios producto o documentos existentes"]
+}

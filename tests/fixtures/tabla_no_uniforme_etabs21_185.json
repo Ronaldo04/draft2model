@@ -1,0 +1,64 @@
+{
+  "origen": "GetAllTables/GetAllFieldsInTable, ETABS21.1/DLL1.29, inspección nativa185 en copia propia",
+  "sha256_registro": "7b8336088bfc4aa8496557f61f1466fb3d1ff62340c6e20e19a428eee0c68b84",
+  "unidades": "N_mm_C",
+  "tabla": {
+    "campos": [
+      "Story",
+      "Label",
+      "UniqueName",
+      "LoadPattern",
+      "Dir",
+      "A",
+      "B",
+      "C",
+      "D",
+      "Restriction",
+      "GUID"
+    ],
+    "clave": "Area Load Assignments - Non-uniform",
+    "tipo_importacion": 2,
+    "nombre": "Area Load Assignments - Non-uniform",
+    "vacia": true,
+    "version": 1,
+    "importables": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "descripciones": [
+      "The story with which the area object is associated. If there is more than one tower in the model then this item is <tower name>-<story name>, e.g., T2-Story4.",
+      "The bay name associated with the area object. This may be a floor, wall or null area bay.",
+      "The unique name of the area object.",
+      "Label of the load pattern to which the specified load applies.",
+      "This is one of the following load directions: Local-1, Local-2, Local-3, Global-X, Global-Y, Gravity, Global-X Proj, Global-Y Proj, Gravity Proj.",
+      "The parameter, A, used in defining the non-uniform load where the loat at point (x, y, z) = Ax + By + Cz + D.",
+      "The parameter, B, used in defining the non-uniform load where the loat at point (x, y, z) = Ax + By + Cz + D.",
+      "The parameter, C, used in defining the non-uniform load where the loat at point (x, y, z) = Ax + By + Cz + D.",
+      "The parameter, D, used in defining the non-uniform load where the loat at point (x, y, z) = Ax + By + Cz + D.",
+      "This is one of the following load restrictions: Use All Values, Zero Negative Values, Zero Positive Values.",
+      "The global unique identifier (GUID) for the load."
+    ],
+    "unidades": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "N/mm3",
+      "N/mm3",
+      "N/mm3",
+      "N/mm2",
+      "",
+      ""
+    ]
+  }
+}

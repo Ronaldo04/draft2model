@@ -1,0 +1,12 @@
+{
+  "evidencia": "tmp\\referencia_preparada_135.json",
+  "caso": "provisional-001",
+  "paquete": "bfda0ef3570049b1bc4dca02f11848c6",
+  "recortes": 7,
+  "imagenes": 10,
+  "bytes_peticion_local": 5293080,
+  "api_real": false,
+  "originales_conservados": true,
+  "estado": "preparado_sin_envio",
+  "nota": "Paquete detallado adicional; no sustituye silenciosamente el paquete general124. No hay modelo real seleccionado ni costo estimado."
+}

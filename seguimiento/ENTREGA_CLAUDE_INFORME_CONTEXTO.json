@@ -1,0 +1,21 @@
+{
+  "tarea": "informe_contexto",
+  "estado": "entregado",
+  "archivos": {
+    "draft2model/revision_entregables.py": "e2576a5bb86243fb49cc8e1d809d3dcdf60b3992e62dcf17d7402cfc21faafb9",
+    "draft2model/informe.py": "081764a0c30d0b7e6dd63a797892cef06f7eb980d8004e5841bdf2cd180fa43e",
+    "tests/test_revision_informe_contexto.py": "578d3977fcb3a8c97d2c461d85501d7eb1b078d3a478c002103ec91e727dde70",
+    "tests/test_informe_explicacion.py": "ca88aa1b930266ec4d4b1031b927e2c81c137db6405aa87ecd1c5f945711b9a6",
+    "docs/INFORME_CONTEXTO_EXPLICACION.md": "eb6d5e7de4d4c91eb8eb42ad3228ee1711ae2333ec837b37c86ae5f9124670ad"
+  },
+  "pruebas": {
+    "comando": "TEMP=$PWD/tmp TMP=$PWD/tmp python -m unittest tests.test_informe tests.test_revision_entregables tests.test_revision_entregables_http tests.test_revision_aprobacion_informe tests.test_revision_aprobacion_informe_http tests.test_informe_explicacion tests.test_revision_informe_contexto",
+    "resultado": "Ran 42 tests OK (32 previas + 10 nuevas; red/procesos bloqueados)"
+  },
+  "limites": [
+    "Consulta con referencias reconstruye JSON y revalida contexto/explicacion (mas costosa); PDF no se regenera",
+    "Texto LLM solo propuesta pendiente de revision humana",
+    "Sin HTTP/UI de aprobacion ni fotos (otros agentes)",
+    "Sin red/API real/ETABS/CU ni suite completa"
+  ]
+}

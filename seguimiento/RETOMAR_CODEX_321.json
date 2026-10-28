@@ -1,0 +1,171 @@
+{
+  "fecha_utc": "2026-10-24T09:04:35.506161+00:00",
+  "goal_completo": false,
+  "anterior": "seguimiento/RETOMAR_CODEX_319.json",
+  "distribucion_actual": "entregas/AECODE_ENTREGA_312",
+  "huella_fuentes": "dc7bdc0b800090712e33e649c4512d2fa4ab0f36fe0ebc4463fa7154cfefeebd",
+  "complemento": "entregas/COMPLEMENTO_CORREGIDO_303",
+  "guia": "entregas/AECODE_ENTREGA_312/LEER_PRIMERO.md",
+  "validacion": "1425Python y36interfaz correctas en la fuente312exacta; cinco comprobaciones0, sin omisiones,600fuentes estables.77enlaces locales comprobados. Entorno offline303reutilizado, lock/wheels idénticos.",
+  "evidencia_validacion": "seguimiento/VALIDACION_DISTRIBUCION_312.json",
+  "auditoria": "entregas/AECODE_ENTREGA_312/AUDITORIA_P01_P14.json",
+  "descarga": "seguimiento/QA_DESCARGA_Y_306_307.json: usuario descargóChrome303;117212B ySHAcoinciden. Apertura306 comprobada, no afirmar descarga308.",
+  "arranque": "seguimiento/ARRANQUE_VACIO_308.json: ZIP308 extraído con raíz vacía, sinclaves/proveedores/ETABS; servidor18310 cerrado.",
+  "claude": {
+    "registro": "seguimiento/CLAUDE_ESTADO.json",
+    "tarea_actual": 321,
+    "encargo": "seguimiento/ENCARGO_CLAUDE_NUCLEO_321.md",
+    "marcador": "seguimiento/claude_ruta/MARCADOR_NUCLEO_321.json",
+    "estado": "321enviado y comprobado;319revisado como candidato, no integrado",
+    "revisado310": "seguimiento/REVISION_PDF_312.json",
+    "control": "Sin Escape desde reanudación, solo coordinación.98% semanalClaude; archivos/marcador antes deGUI.",
+    "revision": "seguimiento/REVISION_PREDICTOR_320.json",
+    "ultima_observacion": "Consulta única nativa: tarea de reparación en ejecución,2min08s. MensajeClaude: primera corrida falló por colisión PowerShellX/x, reparación solo renombra arrays; no reiniciar ni autorizar tercera corrida. Verificar recibos y cierre al entregar.",
+    "ultima_sonda": {
+      "estado": "sin_marcador",
+      "archivos_directos": 1,
+      "ultima_modificacion_utc": "2026-10-24T09:08:01.178547Z",
+      "nota": "Actividad de carpeta no prueba ejecución/cierre. No más GUI ni asignaciones hasta revisar entrega o bloqueo concreto."
+    }
+  },
+  "referencia_humana": {
+    "estado": "Usuario respondió que completará el anotador; todavía no entregóruta/JSON. No puntuar ni inferir aprobación.",
+    "kit": "seguimiento/referencia_humana_308/Anotar_referencia.html",
+    "instrucciones": "seguimiento/referencia_humana_308/LEER_PRIMERO.md",
+    "qa": "seguimiento/QA_ANOTADOR_308.json:3imágenes mismas del primerproyecto,0observaciones, exportación vacía bloqueada, JSválido.",
+    "fuente": "Caso inicial provisional-001, mismos3PDFestructurales del primerproyecto, no proyectos2/3.",
+    "pendiente": "Al recibirJSON humano, validar y preparar/revisar correspondencias con candidatos anteriores a corrección antes de medir. No crear verdad humana con IA."
+  },
+  "servidores": [
+    {
+      "exec": 36115,
+      "url": "http://127.0.0.1:18303/",
+      "runtime": "ZIP303",
+      "estado": "handle confirmado vivo en esta coordinación"
+    },
+    {
+      "exec": 95011,
+      "url": "http://127.0.0.1:18306/",
+      "runtime": "ZIP306, códigoidéntico308",
+      "estado": "handle confirmado vivo en esta coordinación"
+    }
+  ],
+  "navegadores": "IABqa306 era tab2/18306; reconstruir binding si falta. Chrome debugger quedódesconectado tras waitForEvent(download); NUNCA repetir esa espera ni variante asíncrona/Promise.all: bloqueó1025s. Descarga real ya quedóverificada por archivo y usuario.",
+  "restricciones": [
+    "No nuevasAPI: OpenAI4/5,Gemini2/5 consumidas, exclusivamenteplanos; no leercredenciales.",
+    "No procesar proyectos2/3 hasta validarprimero. Modelo manual retenido/aplazado; no pedirlo.",
+    "No modificar producto308 ni carpeta310 mientrasClaude trabaja; propuesta310 requiere revisión e integración porCodex.",
+    "Heartbeat coordinar-entregas-de-claude siguePAUSADO; no reactivar sin petición.",
+    "Sin aprobación profesional; hipótesis suelo/sistema, sinEMS;10comparaciones no satisfactorias y masa no_coherente conservados."
+  ],
+  "cuota": {
+    "ultima_observacion_utc": "2026-10-24T06:41:55Z",
+    "restante5h_observado": 2,
+    "restanteSemanal_observado": 53,
+    "incidencia": "Auto-review porcuota bloqueócrearLEER_PRIMERO308 antes delreset; acciónnoejecutada. Trasrestablecimiento100% se repitiómismapatch yseguardó. Sinresetmanual.",
+    "politica": "<=5%no iniciartrabajospesados;<=1%guardaryterminar; no declararlogrado poragotamiento.",
+    "nota": "Última lectura real2%/53%. Sin resetmanual. No arrancar integración grande/suites con este margen; conservargoalactivo.",
+    "reset5h_UTC": "2026-10-24T11:41:55Z",
+    "reset5h_Lima": "2026-10-24T06:41:55-05:00"
+  },
+  "siguiente": [
+    "Después del restablecimiento, leer ESTEcheckpoint y ejecutar SOLO estado_claude.py. No rehacerhistorial ni pruebas aceptadas. Con<=5%solo seguimiento ligero, con<=1%guardar y terminar. No usar resetmanual, APIsLLM del usuario ni subagentes para eludir límites.",
+    "Con cuota suficiente ejecutar SOLO estado_claude.py. Si321candidato:hash/perímetro+lectura breve+focales; si parcialpor cuota deClaude, conservar y retomarCodex sin nuevosmensajes innecesarios.",
+    "312esla distribución válida:1425Python+36interfaz,600fuentes estables,77enlaces. No repetir instalación/suite/ETABS porque se restablezca cuota.",
+    "Integración pendiente: convertir candidato en núcleo experimental con puerta plan_por_version/CLI, y conectar estimación trazable junto al libro bruto/backend/interfaz. Un módulo aislado NOcierra flujo completo. Preservar históricos y tolerancia0.001.",
+    "Entrada cfgdelpiloto YAconfirmada318:tol.001m,21.1.0,copia/originalSHAidéntico. No volver a consultarETABS ni repetir315/316.",
+    "319tiene19pruebas y90/90extremos contrastados porCodex. Respetar alcanceversion/unidades/rectángulos/geometríatestada, abstenerse anteotroscasos; no atribuir conformidad total del RNE ni masaoficialmente coherente.",
+    "ReferenciahumanaP04pendiente; no métricas deprecisión sinJSON+correspondencias revisadas. Usuarioaceptóanotarla, noentregóruta. No APIsLLM/claves/modelomanual/proyectos2/3."
+  ],
+  "integracion312": {
+    "responsable": "Codex",
+    "cambios": [
+      "draft2model/informe.py",
+      "tests/test_informe_fuentes_312.py"
+    ],
+    "comprobacion": "67pruebas de informes correctas; QA_PDF_INTEGRADO_312.json: ocho páginas con texto/píxeles MuPDF idénticos y fuentes incrustadas",
+    "no_afirmar": "No nueva instalación, descargaUI, cálculoETABS ni lecturaAPI312. No atribuir las comprobaciones históricas303/306 a una nueva observación312.",
+    "siguiente": "Versión312ya consolidada y validada; no repetir suite ni instalación sin cambios.313/314prototipos aislados, no integrantes del paquete.",
+    "global_en_curso": null,
+    "global_terminal": {
+      "exec": 63944,
+      "codigo": 0,
+      "consolidacion_codigo": 0,
+      "logs": "entregas/AECODE_ENTREGA_312/EVIDENCIAS",
+      "monitor_exec_cell": "221terminado; no volver a esperar ni relanzar"
+    }
+  },
+  "pdf_aclaracion": "Prefijos completos en ampliación; observación anterior corregida. Candidato310 elimina avisos por fuente del pie. No se declara compatibilidad universal.",
+  "distribucion_anterior": "entregas/AECODE_ENTREGA_308",
+  "distribucion_candidata": "entregas/AECODE_ENTREGA_312",
+  "huella_candidata": "dc7bdc0b800090712e33e649c4512d2fa4ab0f36fe0ebc4463fa7154cfefeebd",
+  "clasificacion_turno_anterior": "Progreso:319revisado con19pruebas,4negativos yregeneración45/90sobreconfigreal;321enviado. Cuota4%,sinprocesoscríticosencurso.",
+  "sonda_corregida": {
+    "fecha_utc": "2026-10-24T08:13:36.143995+00:00",
+    "causa": "Sin marcador contaba solo archivos explícitos, lista vacía en auditorías; el0no probaba ausencia de trabajo.",
+    "cambio": "Actividad de archivos directos dentro de prefijos autorizados, con fecha/cap1000 y aclaración de que no acredita ejecución ni cierre.",
+    "comprobacion": "python -X utf8 -m seguimiento.test_sonda_pdf_309:10casosOK. Fuera de las600fuentes del paquete312.",
+    "observacion": "10archivos directos315 y modificación08:08:55Z; no candidato aún."
+  },
+  "ensayo315_parcial_codex": {
+    "evidencia": "seguimiento/QA_PARCIAL_AUTO_315_CODEX.json",
+    "resultado": "11casos sintéticos faseA, RunAnalysis0, retorno tabla0, API/tabla coinciden dentro de redondeo, SHA EDBA verificado",
+    "proceso_observado": "PID44832, inicioUTC08:08:55.6800492Z coincidente, ETABS21.1respondingtrue, padre38060. Observación host previa, revalidar antes de asumir vivo.",
+    "aviso": "Enviado aClaude y comprobado visualmente; Aterminada/Bsin EDB/cierre pendiente. No autorizar tercera corrida ni reiniciarpor falta de marcador.",
+    "limite": "15min desde08:08:55Z; no dar porcerrado a08:23:55sin recibo o verificación host. No cerrar otrosPID."
+  },
+  "ensayo316": {
+    "responsable": "Codex",
+    "evidencia": "seguimiento/QA_AUTO_B_316.json",
+    "procedencia": "seguimiento/ensayo_codex_auto_316/PROCEDENCIA_316.json",
+    "resultado": "seguimiento/ensayo_codex_auto_316/RESULTADO_316.json",
+    "exec": 4088,
+    "estado": "terminal0,49.8s,4casosB,análisis0,ApplicationExit0 y PID32156salió",
+    "regla_observada": "K06L=.29:tol=.001 -> Lc=.002; tol=.005 -> Lc=.010. Mismos controlesK01/K08/K10. Compatible con2tol, no constante2mm para este ensayo.",
+    "presupuesto": "Se amplió una vez a Baislado tras terminar315; no repitióA ni piloto. Sin timeout ni cierre forzado en316.",
+    "fuentes_privadas_reales": "No se abrieron ni copiaron en315/316; solo modelos sintéticos.",
+    "limites": "21.1.0,unidadeskN_m_C,secciones rectangulares,dos tolerancias y un caso corto de unextremo; no universal."
+  },
+  "configuracion318": {
+    "evidencia": "seguimiento/QA_CONFIGURACION_318.json",
+    "exec_reparacion": 18580,
+    "estado": "terminal0,28.8s;GetMergeTol.001m;original+copiahashidéntico;cierre0PID17340salió;noanálisis/Save",
+    "primer_intento": "terminal1antes de iniciarETABS porGet-FileHash; no relanzar318ni reparacion.",
+    "script": "seguimiento/inspeccionar_configuracion_318.ps1",
+    "consumidor": "Config nativa verificada para futura predicción, sin usar offsets/pesos del solver como entradas."
+  },
+  "revision317": {
+    "hashes": 8,
+    "pruebas": 8,
+    "fallos_reproducidos": "seguimiento/REVISION_PREDICTOR_318.json:4casossintéticos aceptadosindebidamente con totales",
+    "resultado": "90/90publicados porClaude no anulan defectosdevalidación; no integrar317.",
+    "publico312": "sin cambios"
+  },
+  "revision319": {
+    "tarea": "predictor_319",
+    "hashes_verificados": 11,
+    "pruebas_repetidas": 19,
+    "cuatro_reproducciones": "317produce totales;319los bloquea. Comparación ejecutada porCodex con resultado0.",
+    "plan_real": "validar_plan_por_version:sin errores; predicción regenerada porCodex con cfg318nativaverificada",
+    "prediccion": "seguimiento/PREDICCION_AUTO_320.json",
+    "contraste": "seguimiento/CONTRASTE_AUTO_320.json",
+    "cobertura": {
+      "vigas": 45,
+      "extremos": 90,
+      "acuerdos": 90,
+      "abstenciones": 0
+    },
+    "descuento_kn": 6.8612400000000004,
+    "error_max_m": 4.579669976578771e-16,
+    "decision": "Aceptado como candidato acotado para preparar integración; no aceptación de producción ni masa oficial",
+    "pendiente": "Puerta de plan real válido, escrituras/referencias no cubiertas, CLI y consumo junto al libro. Encargo321.",
+    "ensayo_ciego": false,
+    "aprueba_ingenieria": false,
+    "producto312": "intacto",
+    "goal_completo": false
+  },
+  "procesos_criticos": "Ninguna suite ni cálculo nativo pendiente:63944/4088/18580terminal0;315terminado124parcial. Instancias propias32156/17340cerradasconretorno0. No relanzar. HTTP18303/18306quedaban disponibles en registrosprevios; revalidar handles36115/95011si hacefalta, no reiniciarpor cuota.",
+  "fecha_checkpoint_cuota_utc": "2026-10-24T09:09:50.676348+00:00",
+  "observadores": "functions.exec células303/316 terminaron; no volver a esperar esos IDs. No quedan procesos de suite ni cálculo nativo de Codex activos. No confundir célula316conensayoB316(exec4088terminal0).",
+  "pendiente_integracion_real": "Núcleo/CLI321 será aún una propuesta aislada. Después: integrar en fuentes públicas, asociación deplan/config/libro correctos, backend/CLI/interfaz con estimación opcional y bruto preservado, pruebas focales y una suiteglobal porhito. No declarar completo con kernel aislado ni benchmarkhumano pendiente."
+}

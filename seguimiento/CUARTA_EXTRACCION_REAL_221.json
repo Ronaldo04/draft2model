@@ -1,0 +1,38 @@
+{
+  "estado": "importada_pendiente_revision",
+  "intento": "e59541d8f132493ca4a99cd6c27d59e3",
+  "version_extraccion": "df4b88d3cbb042a3a0cd78f065fc3016",
+  "candidatos": 102,
+  "cobertura_recortes": {
+    "e944f23a4aa44ff7add2a31ef307bac3": 19,
+    "f8e30e6d985440ad9625e25f328db917": 30,
+    "16499a8661ea4c9bbb5151e9ab044ca1": 15,
+    "87f3c0133e5f43d9b03d0de4b375293f": 8,
+    "24cae3497183480fac0249cff6a34b5b": 27,
+    "1d053fb87d1f4286b83ad17d68a1562e": 3
+  },
+  "usage": {
+    "input_tokens": 20957,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 6508,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 27465
+  },
+  "coste_peticion4_usd": 0.1500125,
+  "coste_acumulado_openai_usd": 0.5403575,
+  "peticiones_openai": 4,
+  "peticiones_gemini": 0,
+  "lecturas_aprobadas": 0,
+  "encargo_claude": "seguimiento/claude_ruta/07_CONTINUACION_PILOTO_REAL.md",
+  "envio_encargo": "Confirmado visualmente en historial, compositor vacío y respuesta explícita de Claude de que reanuda con encargo07.",
+  "limitaciones": [
+    "Candidatos pendientes: cantidad/cobertura no prueban exactitud ni ingeniería.",
+    "Queda como máximo1peticiónOpenAI; no reservarla sin necesidad medida.",
+    "Gemini permanece sin llamadas mientras se confirma nivel gratuito de la clave."
+  ]
+}

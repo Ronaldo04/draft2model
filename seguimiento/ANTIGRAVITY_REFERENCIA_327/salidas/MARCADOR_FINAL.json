@@ -1,0 +1,70 @@
+{
+  "tarea": "referencia_327",
+  "estado": "entregado",
+  "fecha_hora": "2026-10-24T16:25:57.143414+00:00",
+  "caso": "provisional-001",
+  "anotador": "Antigravity (IA)",
+  "revision_humana_realizada": false,
+  "recuentos": {
+    "total_observaciones": 33,
+    "por_lamina": {
+      "L0001": 11,
+      "L0002": 11,
+      "L0003": 11
+    },
+    "por_clase": {
+      "cota": 15,
+      "etiqueta": 10,
+      "elemento": 8
+    },
+    "por_legibilidad": {
+      "legible": 32,
+      "ambigua": 1,
+      "ilegible": 0
+    }
+  },
+  "incidencias": [
+    "AG-0018: Cota vertical en CORTE 1-1 (L0002) contiene texto alternativo '0.40 ó 0.50', registrada como ambigua con valor null.",
+    "Se adoptó rigurosamente la regla de no inferencia de unidades: cotas aisladas se registraron como unidad 'desconocida' salvo indicación explícita (AG-0010 con '1.50 m.' y AG-0030 con 'T m.')."
+  ],
+  "hashes_entregables": {
+    "salidas/referencia_propuesta_ia.json": "274cb2c5fd89abc0c77212c042b34c29daa41df9c7d772810622b11bbbf2f95e",
+    "salidas/observaciones.csv": "61e98758d2c6ee1785c4494123e8196c385b3093fac0b8432e935d3d92d54695",
+    "salidas/ENTREGA.md": "63ee2a7e4521d8e1fa1a5044dec796cbb5eb5568f0bc9b52ff8743a62b47004c"
+  },
+  "hashes_recortes": {
+    "salidas/recortes/AG-0001.png": "fd4ec75e386b11a609104627b80be7a21e7c3651ff1d170ed225c7ce9352e274",
+    "salidas/recortes/AG-0002.png": "740be9bc61dc50e8d8d5e6ec71830c98d0c2c52081e0cabc33c057719b683e0e",
+    "salidas/recortes/AG-0003.png": "7a77c12eaaf7a7e963905fa186f84e083d567e336884506fd55eab77e278080a",
+    "salidas/recortes/AG-0004.png": "8c232b73156e8bdc980687ff28cfcd2821627af236cd47c23ca934f16f5be215",
+    "salidas/recortes/AG-0005.png": "6666990dfcb3363261d6b8b10eeed4b7e30fbfd3e593a679ebad380a6ef77cd7",
+    "salidas/recortes/AG-0006.png": "b35d73211f9239fc0fcf1b56f40ab6bedf28c79fd8142c1529cbd98cc6438adf",
+    "salidas/recortes/AG-0007.png": "c811e5a5c4005a997d113880437f4d85c695ddf3ab538f01aa08a106238b1302",
+    "salidas/recortes/AG-0008.png": "a8cb222fff8079ef65072fc151a5ab2bc9607c624e8847c2238d536e1464288d",
+    "salidas/recortes/AG-0009.png": "9c0ea9ee075b1cb6fc0581a9fb1c8ccd6e7dc4de131f495bb4aabcc33fbe0c54",
+    "salidas/recortes/AG-0010.png": "17a74230bb8aeccc29c3318cb92d624f6d3c90127f318ae7428a0927d7dd7b1a",
+    "salidas/recortes/AG-0011.png": "b7053a4aa84918f330d7b4279e313d1a587644f9a3a0ce14cf9fcdc74767db07",
+    "salidas/recortes/AG-0012.png": "81fd6986c42045d3c8fb626cfaf3c572d8e731d27839b14079c7acdbf4206929",
+    "salidas/recortes/AG-0013.png": "2673bfdafa2dc8d28f6d977a18f5cb3b86bff3c85234d1a06a6a8b7c6fb3e91d",
+    "salidas/recortes/AG-0014.png": "9b178f0eb23d09b905169248eff2e4cb46a18105e16eb0bcf55ada660a8055cc",
+    "salidas/recortes/AG-0015.png": "2ce4685a288080725e159c4e86d8fe13efb343801745a30d57840d4a4485e671",
+    "salidas/recortes/AG-0016.png": "31143e89381f0b68d0dda76cf20fa274554f0c2eb2c4309b0065e44fe72997db",
+    "salidas/recortes/AG-0017.png": "3159b41f33eddb13e00c871a06ac1b331b647e7d66616245131dc9f6e13e44c1",
+    "salidas/recortes/AG-0018.png": "7578463cad600137318f6d80b2bc914b3880a13b9a8de9cf9a2c188a88ab9a09",
+    "salidas/recortes/AG-0019.png": "82fc28dd8ad4a01bf2d6d858ee0740b912d9db8a4c9c777b80673a7344c03dc7",
+    "salidas/recortes/AG-0020.png": "193fe2dee1c52a9e62967107b6c6962c8dd66bcc7489febfcebc6625c571409c",
+    "salidas/recortes/AG-0021.png": "b9773a784ef394c0acfccdc1731f6c46e629f694f03223aeef964c11c5c8ad8c",
+    "salidas/recortes/AG-0022.png": "fcdbf8520b737d5e6b8bf924ad654a7e340e85b81d0f13e229e9579cc33708d2",
+    "salidas/recortes/AG-0023.png": "798714c1f5efcd8016031b4e57fed2b28ae723fe0804ddc85fff1d5ac6453200",
+    "salidas/recortes/AG-0024.png": "a7a7e9b0bb24957b229b6ecdac3444d0262b1e2fea39bc9097523d2771f32baf",
+    "salidas/recortes/AG-0025.png": "50bafd114f84f2022a50d83b2f6b4dde3c54db4ee9c1140b4f1e1f751206168f",
+    "salidas/recortes/AG-0026.png": "e427a78658ee7c182dfa225b8a96859ac6a2888f1d1d7af336282391437f4261",
+    "salidas/recortes/AG-0027.png": "988d84f0c9fb374e8d60833e738741363a936619bb2dcdbea6d1498bfd6f0ff9",
+    "salidas/recortes/AG-0028.png": "6dcbf10f9ad0c2358809baaec8fc30eb72f7e0def07b27e9300fb640a03677f9",
+    "salidas/recortes/AG-0029.png": "b9d73ae7f36b07a009ce312124a7b9c95c92b4a11618bd61369420de37987743",
+    "salidas/recortes/AG-0030.png": "5d5b262f2040bee0d03fa3a6b5b2ffe171b74c29ddc253305a11b81d3a36f1d3",
+    "salidas/recortes/AG-0031.png": "e5f8103f1804b25f288ca71f9d7931f2189a04bf188545144f130f79cec436bf",
+    "salidas/recortes/AG-0032.png": "f003a8ad8adac20bb17a30c0a1f5627b2342d4af2beac8cf9a04dfc4ea8e7978",
+    "salidas/recortes/AG-0033.png": "5bb6cf13ea8f58ba324818c4668d53d5cbd908bb4621d8c8d460d4a5258d6b19"
+  }
+}

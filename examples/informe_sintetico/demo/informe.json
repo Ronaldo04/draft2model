@@ -1,0 +1,561 @@
+{
+  "contrato": "draft2model.informe_preliminar",
+  "version_contrato": "0.1.0",
+  "caso_id": "sintetico-001",
+  "corrida_id": "simulacion-001",
+  "motor": {
+    "tipo": "simulacion",
+    "nombre": "fixture-estatico-sin-motor",
+    "version": "0.1.0"
+  },
+  "datos_sinteticos": true,
+  "contexto": {
+    "titulo": "Draft2Model · Informe preliminar sintético",
+    "hipotesis": [
+      "Valores fabricados exclusivamente para probar contratos, evaluación y presentación.",
+      "No se ejecutó ETABS ni existe aprobación de ingeniería en esta demostración.",
+      "Las reglas sintéticas no tienen valor normativo ni representan límites aplicables a una vivienda."
+    ],
+    "faltantes": [
+      "Caso piloto compatible y autorizado con referencia manual y tolerancias previas.",
+      "Modelo real aprobado, lectura API real y resultados del solver.",
+      "Cartografía oficial, parámetros de sitio y revisión técnica del informe."
+    ],
+    "sitio": null
+  },
+  "resultados": {
+    "contrato": "draft2model.resultados_estructurales",
+    "version_contrato": "0.1.0",
+    "corrida_id": "simulacion-001",
+    "caso_id": "sintetico-001",
+    "creado_utc": "2026-10-17T00:00:00Z",
+    "geometria": {
+      "id": "geometria-fixture-001",
+      "sha256": "404740a01320f7f6db995ad82f55c6236ffa98655128349a9d8c7d06d8fea5b5"
+    },
+    "configuracion": {
+      "id": "configuracion-fixture-001",
+      "sha256": "c0b8d5eed84e2f2b9c2d4e32e4db055fffbc01f832e1121bdbf5100fb1196955"
+    },
+    "motor": {
+      "tipo": "simulacion",
+      "nombre": "fixture-estatico-sin-motor",
+      "version": "0.1.0"
+    },
+    "datos_sinteticos": true,
+    "casos": [
+      {
+        "id": "SX",
+        "tipo": "sintetico",
+        "descripcion": "Caso de datos fabricados para probar contratos."
+      }
+    ],
+    "unidades": {
+      "periodo": "s",
+      "deriva": "1",
+      "cortante": "kN"
+    },
+    "resultados": [
+      {
+        "id": "P1",
+        "variable": "periodo",
+        "caso": "SX",
+        "direccion": "X",
+        "ubicacion": "modo-1",
+        "valor": 0.5,
+        "unidad": "s"
+      },
+      {
+        "id": "D1",
+        "variable": "deriva",
+        "caso": "SX",
+        "direccion": "X",
+        "ubicacion": "N1",
+        "valor": 0.002,
+        "unidad": "1"
+      },
+      {
+        "id": "V1",
+        "variable": "cortante",
+        "caso": "SX",
+        "direccion": "X",
+        "ubicacion": "base",
+        "valor": 100.0,
+        "unidad": "kN"
+      }
+    ],
+    "advertencias": [
+      "Fixture fabricada: ningún análisis ETABS fue ejecutado.",
+      "Referencias a geometría y configuración son identificadores sintéticos, no artefactos aprobados."
+    ],
+    "omisiones": [
+      "No contiene masas, modos, combinaciones ni validación de equilibrio."
+    ]
+  },
+  "reglas": {
+    "contrato": "draft2model.reglas_estructurales",
+    "version_contrato": "0.1.0",
+    "id": "reglas-fixture-001",
+    "datos_sinteticos": true,
+    "reglas": [
+      {
+        "id": "R-P",
+        "variable": "periodo",
+        "unidad": "s",
+        "formula": {
+          "expresion": "factor * x + desplazamiento",
+          "factor": 1.0,
+          "desplazamiento": 0.0
+        },
+        "limite": 1.0,
+        "comparador": "<=",
+        "aplicabilidad": {
+          "aplica": true,
+          "casos": [
+            "SX"
+          ],
+          "direcciones": [
+            "X"
+          ],
+          "ubicaciones": [
+            "modo-1"
+          ],
+          "motivo": "Selector didáctico fabricado para esta fixture."
+        },
+        "fuente": {
+          "titulo": "Fixture de pruebas, SIN valor normativo",
+          "edicion": "sintética 0.1",
+          "apartado": "R-P",
+          "referencia": "examples/reglas_estructurales_sinteticas.json; números arbitrarios solo para probar código"
+        }
+      },
+      {
+        "id": "R-D",
+        "variable": "deriva",
+        "unidad": "1",
+        "formula": {
+          "expresion": "factor * x + desplazamiento",
+          "factor": 1.0,
+          "desplazamiento": 0.0
+        },
+        "limite": 0.003,
+        "comparador": "<=",
+        "aplicabilidad": {
+          "aplica": true,
+          "casos": [
+            "SX"
+          ],
+          "direcciones": [
+            "X"
+          ],
+          "ubicaciones": [
+            "N1"
+          ],
+          "motivo": "Selector didáctico fabricado para esta fixture."
+        },
+        "fuente": {
+          "titulo": "Fixture de pruebas, SIN valor normativo",
+          "edicion": "sintética 0.1",
+          "apartado": "R-D",
+          "referencia": "examples/reglas_estructurales_sinteticas.json; números arbitrarios solo para probar código"
+        }
+      },
+      {
+        "id": "R-V",
+        "variable": "cortante",
+        "unidad": "kN",
+        "formula": {
+          "expresion": "factor * x + desplazamiento",
+          "factor": 1.0,
+          "desplazamiento": 0.0
+        },
+        "limite": 150.0,
+        "comparador": "<=",
+        "aplicabilidad": {
+          "aplica": true,
+          "casos": [
+            "SX"
+          ],
+          "direcciones": [
+            "X"
+          ],
+          "ubicaciones": [
+            "base"
+          ],
+          "motivo": "Selector didáctico fabricado para esta fixture."
+        },
+        "fuente": {
+          "titulo": "Fixture de pruebas, SIN valor normativo",
+          "edicion": "sintética 0.1",
+          "apartado": "R-V",
+          "referencia": "examples/reglas_estructurales_sinteticas.json; números arbitrarios solo para probar código"
+        }
+      }
+    ],
+    "revision": {
+      "estado": "aprobado",
+      "aprobacion": {
+        "revisor_declarado": "Fixture automática de pruebas, identidad no autenticada",
+        "fecha": "2026-10-16",
+        "motivo": "Aprobación fabricada para probar integridad del contrato; no hay aprobación de ingeniería.",
+        "alcance": "Solo pruebas de software con datos sintéticos.",
+        "huella_contenido": "3834ac9bc67c22aef30577fd0ff4baafa9ec7ab3aa8f01faa069e7e8715319b0"
+      }
+    }
+  },
+  "evaluacion": {
+    "contrato": "draft2model.evaluacion_estructural",
+    "version_contrato": "0.1.0",
+    "corrida_id": "simulacion-001",
+    "caso_id": "sintetico-001",
+    "huella_resultados": "20f7dc3a856ab192486c4f486cf895bd1c420076e26d15be214a597ebad35653",
+    "reglas_id": "reglas-fixture-001",
+    "huella_reglas": "3834ac9bc67c22aef30577fd0ff4baafa9ec7ab3aa8f01faa069e7e8715319b0",
+    "aprobacion_reglas_declarada": {
+      "revisor_declarado": "Fixture automática de pruebas, identidad no autenticada",
+      "fecha": "2026-10-16",
+      "motivo": "Aprobación fabricada para probar integridad del contrato; no hay aprobación de ingeniería.",
+      "alcance": "Solo pruebas de software con datos sintéticos.",
+      "huella_contenido": "3834ac9bc67c22aef30577fd0ff4baafa9ec7ab3aa8f01faa069e7e8715319b0"
+    },
+    "geometria": {
+      "id": "geometria-fixture-001",
+      "sha256": "404740a01320f7f6db995ad82f55c6236ffa98655128349a9d8c7d06d8fea5b5"
+    },
+    "configuracion": {
+      "id": "configuracion-fixture-001",
+      "sha256": "c0b8d5eed84e2f2b9c2d4e32e4db055fffbc01f832e1121bdbf5100fb1196955"
+    },
+    "motor": {
+      "tipo": "simulacion",
+      "nombre": "fixture-estatico-sin-motor",
+      "version": "0.1.0"
+    },
+    "datos_sinteticos": true,
+    "evaluaciones": [
+      {
+        "regla_id": "R-P",
+        "variable": "periodo",
+        "unidad": "s",
+        "caso": "SX",
+        "direccion": "X",
+        "ubicacion": "modo-1",
+        "formula": {
+          "expresion": "factor * x + desplazamiento",
+          "factor": 1.0,
+          "desplazamiento": 0.0
+        },
+        "limite": 1.0,
+        "comparador": "<=",
+        "fuente": {
+          "titulo": "Fixture de pruebas, SIN valor normativo",
+          "edicion": "sintética 0.1",
+          "apartado": "R-P",
+          "referencia": "examples/reglas_estructurales_sinteticas.json; números arbitrarios solo para probar código"
+        },
+        "aplicabilidad": {
+          "aplica": true,
+          "casos": [
+            "SX"
+          ],
+          "direcciones": [
+            "X"
+          ],
+          "ubicaciones": [
+            "modo-1"
+          ],
+          "motivo": "Selector didáctico fabricado para esta fixture."
+        },
+        "resultado_id": "P1",
+        "valor_entrada": 0.5,
+        "valor_evaluado": 0.5,
+        "relacion_limite": "debajo",
+        "satisface_regla_configurada": true,
+        "estado": "evaluado"
+      },
+      {
+        "regla_id": "R-D",
+        "variable": "deriva",
+        "unidad": "1",
+        "caso": "SX",
+        "direccion": "X",
+        "ubicacion": "N1",
+        "formula": {
+          "expresion": "factor * x + desplazamiento",
+          "factor": 1.0,
+          "desplazamiento": 0.0
+        },
+        "limite": 0.003,
+        "comparador": "<=",
+        "fuente": {
+          "titulo": "Fixture de pruebas, SIN valor normativo",
+          "edicion": "sintética 0.1",
+          "apartado": "R-D",
+          "referencia": "examples/reglas_estructurales_sinteticas.json; números arbitrarios solo para probar código"
+        },
+        "aplicabilidad": {
+          "aplica": true,
+          "casos": [
+            "SX"
+          ],
+          "direcciones": [
+            "X"
+          ],
+          "ubicaciones": [
+            "N1"
+          ],
+          "motivo": "Selector didáctico fabricado para esta fixture."
+        },
+        "resultado_id": "D1",
+        "valor_entrada": 0.002,
+        "valor_evaluado": 0.002,
+        "relacion_limite": "debajo",
+        "satisface_regla_configurada": true,
+        "estado": "evaluado"
+      },
+      {
+        "regla_id": "R-V",
+        "variable": "cortante",
+        "unidad": "kN",
+        "caso": "SX",
+        "direccion": "X",
+        "ubicacion": "base",
+        "formula": {
+          "expresion": "factor * x + desplazamiento",
+          "factor": 1.0,
+          "desplazamiento": 0.0
+        },
+        "limite": 150.0,
+        "comparador": "<=",
+        "fuente": {
+          "titulo": "Fixture de pruebas, SIN valor normativo",
+          "edicion": "sintética 0.1",
+          "apartado": "R-V",
+          "referencia": "examples/reglas_estructurales_sinteticas.json; números arbitrarios solo para probar código"
+        },
+        "aplicabilidad": {
+          "aplica": true,
+          "casos": [
+            "SX"
+          ],
+          "direcciones": [
+            "X"
+          ],
+          "ubicaciones": [
+            "base"
+          ],
+          "motivo": "Selector didáctico fabricado para esta fixture."
+        },
+        "resultado_id": "V1",
+        "valor_entrada": 100.0,
+        "valor_evaluado": 100.0,
+        "relacion_limite": "debajo",
+        "satisface_regla_configurada": true,
+        "estado": "evaluado"
+      }
+    ],
+    "advertencias": [
+      "Fixture fabricada: ningún análisis ETABS fue ejecutado.",
+      "Referencias a geometría y configuración son identificadores sintéticos, no artefactos aprobados."
+    ],
+    "omisiones": [
+      "No contiene masas, modos, combinaciones ni validación de equilibrio."
+    ],
+    "aviso": "Datos y motor declarados, sin autenticación del productor. La comparación numérica no certifica seguridad estructural ni valida un modelo ETABS.",
+    "criterio": "Solo satisfacción de reglas configuradas; no es un juicio de seguridad estructural."
+  },
+  "geometria": null,
+  "fuentes": null,
+  "huellas": {
+    "resultados": "20f7dc3a856ab192486c4f486cf895bd1c420076e26d15be214a597ebad35653",
+    "reglas": "3834ac9bc67c22aef30577fd0ff4baafa9ec7ab3aa8f01faa069e7e8715319b0",
+    "evaluacion": "c4b56ba2833ef830fd019bc5b9c8e60564300bf586aff7e592a1a99d3c695140"
+  },
+  "siete_resultados": {
+    "estado_modelo_analisis": {
+      "generacion": "no_disponible",
+      "analisis": "no_disponible",
+      "motivo": "El contrato de resultados declara valores; no acredita por sí solo generación ni terminación del solver."
+    },
+    "geometria_muros": {
+      "numero_muros": null,
+      "numero_niveles": null,
+      "unidad_longitud": null,
+      "referencia": {
+        "id": "geometria-fixture-001",
+        "sha256": "404740a01320f7f6db995ad82f55c6236ffa98655128349a9d8c7d06d8fea5b5"
+      },
+      "estado": "no_disponible"
+    },
+    "periodos": [
+      {
+        "id": "P1",
+        "variable": "periodo",
+        "caso": "SX",
+        "direccion": "X",
+        "ubicacion": "modo-1",
+        "valor": 0.5,
+        "unidad": "s"
+      }
+    ],
+    "derivas": [
+      {
+        "id": "D1",
+        "variable": "deriva",
+        "caso": "SX",
+        "direccion": "X",
+        "ubicacion": "N1",
+        "valor": 0.002,
+        "unidad": "1"
+      }
+    ],
+    "cortante_basal": [
+      {
+        "id": "V1",
+        "variable": "cortante",
+        "caso": "SX",
+        "direccion": "X",
+        "ubicacion": "base",
+        "valor": 100.0,
+        "unidad": "kN"
+      }
+    ],
+    "advertencias": {
+      "declaradas": [
+        "Fixture fabricada: ningún análisis ETABS fue ejecutado.",
+        "Referencias a geometría y configuración son identificadores sintéticos, no artefactos aprobados."
+      ],
+      "omisiones": [
+        "No contiene masas, modos, combinaciones ni validación de equilibrio."
+      ],
+      "reglas": [
+        {
+          "regla_id": "R-P",
+          "variable": "periodo",
+          "unidad": "s",
+          "caso": "SX",
+          "direccion": "X",
+          "ubicacion": "modo-1",
+          "formula": {
+            "expresion": "factor * x + desplazamiento",
+            "factor": 1.0,
+            "desplazamiento": 0.0
+          },
+          "limite": 1.0,
+          "comparador": "<=",
+          "fuente": {
+            "titulo": "Fixture de pruebas, SIN valor normativo",
+            "edicion": "sintética 0.1",
+            "apartado": "R-P",
+            "referencia": "examples/reglas_estructurales_sinteticas.json; números arbitrarios solo para probar código"
+          },
+          "aplicabilidad": {
+            "aplica": true,
+            "casos": [
+              "SX"
+            ],
+            "direcciones": [
+              "X"
+            ],
+            "ubicaciones": [
+              "modo-1"
+            ],
+            "motivo": "Selector didáctico fabricado para esta fixture."
+          },
+          "resultado_id": "P1",
+          "valor_entrada": 0.5,
+          "valor_evaluado": 0.5,
+          "relacion_limite": "debajo",
+          "satisface_regla_configurada": true,
+          "estado": "evaluado"
+        },
+        {
+          "regla_id": "R-D",
+          "variable": "deriva",
+          "unidad": "1",
+          "caso": "SX",
+          "direccion": "X",
+          "ubicacion": "N1",
+          "formula": {
+            "expresion": "factor * x + desplazamiento",
+            "factor": 1.0,
+            "desplazamiento": 0.0
+          },
+          "limite": 0.003,
+          "comparador": "<=",
+          "fuente": {
+            "titulo": "Fixture de pruebas, SIN valor normativo",
+            "edicion": "sintética 0.1",
+            "apartado": "R-D",
+            "referencia": "examples/reglas_estructurales_sinteticas.json; números arbitrarios solo para probar código"
+          },
+          "aplicabilidad": {
+            "aplica": true,
+            "casos": [
+              "SX"
+            ],
+            "direcciones": [
+              "X"
+            ],
+            "ubicaciones": [
+              "N1"
+            ],
+            "motivo": "Selector didáctico fabricado para esta fixture."
+          },
+          "resultado_id": "D1",
+          "valor_entrada": 0.002,
+          "valor_evaluado": 0.002,
+          "relacion_limite": "debajo",
+          "satisface_regla_configurada": true,
+          "estado": "evaluado"
+        },
+        {
+          "regla_id": "R-V",
+          "variable": "cortante",
+          "unidad": "kN",
+          "caso": "SX",
+          "direccion": "X",
+          "ubicacion": "base",
+          "formula": {
+            "expresion": "factor * x + desplazamiento",
+            "factor": 1.0,
+            "desplazamiento": 0.0
+          },
+          "limite": 150.0,
+          "comparador": "<=",
+          "fuente": {
+            "titulo": "Fixture de pruebas, SIN valor normativo",
+            "edicion": "sintética 0.1",
+            "apartado": "R-V",
+            "referencia": "examples/reglas_estructurales_sinteticas.json; números arbitrarios solo para probar código"
+          },
+          "aplicabilidad": {
+            "aplica": true,
+            "casos": [
+              "SX"
+            ],
+            "direcciones": [
+              "X"
+            ],
+            "ubicaciones": [
+              "base"
+            ],
+            "motivo": "Selector didáctico fabricado para esta fixture."
+          },
+          "resultado_id": "V1",
+          "valor_entrada": 100.0,
+          "valor_evaluado": 100.0,
+          "relacion_limite": "debajo",
+          "satisface_regla_configurada": true,
+          "estado": "evaluado"
+        }
+      ]
+    },
+    "sitio": null
+  },
+  "aviso": "Evaluación preliminar de indicadores declarados. No certifica seguridad estructural ni cumplimiento normativo integral.",
+  "revision": {
+    "estado": "borrador",
+    "aprobacion": null
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "fecha": "2026-10-22",
+  "monitor": {
+    "archivos": [
+      "seguimiento/estado_claude.py",
+      "seguimiento/test_estado_claude_ruta.py"
+    ],
+    "correccion": "Dentro de etapa, ordenar incrementos por creado_utc normalizado, no por UUID. Mantiene precedencia de etapas y fallback estable sin fecha. Fechas inválidas/sin zona se rechazan.",
+    "pruebas": "6 pruebas focales OK0.387s; protege incrementos invertidos y variantes de zona/fecha, cola histórica, hash y rutas.",
+    "sha256": {
+      "seguimiento/estado_claude.py": "6a19720671be3682285b025bc766bacbe20b37a844fae9eae103b35fbda34e93",
+      "seguimiento/test_estado_claude_ruta.py": "8910bf2ddbcd4bc3d5cf395bad97877506690d0285e0e2a629b92286b21d0ffe"
+    }
+  },
+  "insumos248": "Estado vivo de Claude ya incorpora cisterna/tanque/escaleraU/C6/PL10 y referencia248. Hay evidencia de recepción en archivo; la última captura de comprobación visual se interrumpió por Escape. No repetir aviso como si se supiera no enviado.",
+  "nativo_C1": "35 comprobaciones propias sobre recibo conservado, sin invocarETABS; resultado correcto_con_limites. No es cierre del piloto.",
+  "proceso_pruebas_Claude": "Consulta host de Python unittest/focos sin procesos coincidentes; focos246_l.log termina140testsOK272.508s. No reiniciar esa ejecución terminal. columna_l_plan_246a.log contiene verificación241operaciones sintéticas, pendiente auditoría/inmutable.",
+  "apis": "Sin llamadas nuevas; OpenAI4/5,Gemini2/5",
+  "estado_goal": "activo_no_completo"
+}

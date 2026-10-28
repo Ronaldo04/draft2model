@@ -1,0 +1,51 @@
+{
+  "fecha_utc": "2026-10-22T17:57:48.525581+00:00",
+  "responsable": "Codex",
+  "portado": false,
+  "candidato": "tmp/reuso_preparacion_262",
+  "fuentes_base": {
+    "draft2model/modelo_estructural.py": "d9a2272572a3a78f5ee2aae51b2fdd0c4fcdf6ac2c26a2142ebb6af1aab2604c",
+    "draft2model/operaciones_etabs.py": "91c2fbc272a150dadb858621db775bf5cf9a78fac6a23bf4e4cd4fd5c56823c4"
+  },
+  "fuentes_actuales": {
+    "draft2model/modelo_estructural.py": "d9a2272572a3a78f5ee2aae51b2fdd0c4fcdf6ac2c26a2142ebb6af1aab2604c",
+    "draft2model/operaciones_etabs.py": "91c2fbc272a150dadb858621db775bf5cf9a78fac6a23bf4e4cd4fd5c56823c4"
+  },
+  "base_sigue_igual": true,
+  "pruebas_propias": "6 OK, 8.095s",
+  "comparaciones": [
+    {
+      "escenario": "horizontal",
+      "preparaciones_antes": 2,
+      "despues": 1,
+      "plan_sha256": "1c171ee4cea9da1bc27c27f9951259b6546012b42f6b0fb475f3eba6ec9a6c00"
+    },
+    {
+      "escenario": "inclinado",
+      "preparaciones_antes": 2,
+      "despues": 1,
+      "plan_sha256": "2677b1e124696e59d3e1844ec7f0cf80a7a84dfa19dee6108eee1edca373f15b"
+    },
+    {
+      "escenario": "vertical",
+      "preparaciones_antes": 2,
+      "despues": 1,
+      "plan_sha256": "fb647ea837e3596b2d78422d203bf14f41c4c3192444a98a2be1b39bf4bd3b8e"
+    },
+    {
+      "escenario": "conectados",
+      "preparaciones_antes": 2,
+      "despues": 1,
+      "plan_sha256": "4b9d3d6ad83b45882d8470cd636ece180f9a6e34a21c90474a1820055bd49273"
+    }
+  ],
+  "contraste_adicional": "Plan0.5 con contenido/agua220kN idéntico completo; dos preparaciones→una",
+  "alcance": "Instantánea JSON privada en ResultadoModelo, sin alterar a_dict ni hashes de planes, sin caché global/disco; fingerprint íntegro de ambas entradas, incluye revisión; copia por consumidor, fallback original y precondiciones conservados",
+  "limites": [
+    "No se midió aceleración del caso real; solo se comprobó evitar un cálculo de dos en escenarios sintéticos",
+    "Requiere fusión por propietario de archivos actuales y prueba focal en destino",
+    "La primera copia candidata tuvo saltos CRCRLF, fixtures examples ausentes y nombre de escenario incorrecto; corregidos en candidato, nunca en producto"
+  ],
+  "apis_remotas": 0,
+  "etabs": false
+}

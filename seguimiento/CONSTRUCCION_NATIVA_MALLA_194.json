@@ -1,0 +1,43 @@
+{
+  "estado": "construccion_nativa_0.4_guardada_y_registrada",
+  "datos_sinteticos": true,
+  "etabs_real": true,
+  "operaciones": 294,
+  "registro_modelo": "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\n194\\fuentes\\tmpll7j3o0v\\private\\sintetico-001\\modelos_construidos\\8a8ad9568ccb4d7fb80555692778d35d",
+  "sha256_modelo": "8375954e18b4eac29dfa85ab9b9967bae86d442ed010c63a5782659a273a8d35",
+  "original_intacto": true,
+  "cierres": "ApplicationExit(false) retorno0 desde host para1700y29388; tmp/cierre_host_194.json. Los registros iniciales de cada ensayo conservan cierrefalse.",
+  "evidencia_invalida": "tmp/cierre_observado_194.json consulta aislada invisible al host; NO prueba ausencia ni cierre.",
+  "negativos": {
+    "n190": "GetPoints: falta diagnóstico crudo",
+    "n191": "GetPoints: mismo ciclo orientado con otro inicio",
+    "n192": "GetLoadUniform: Dir6/-2 nativoDir10/+2",
+    "n193": "294operaciones y SaveOK; registro rechazó eventos diagnósticos intercalados",
+    "n194": "294operaciones Save+registroOK con diagnósticos dentro de fin; alias modelo.$et observado al cierre"
+  },
+  "pruebas": {
+    "puente_doble": "3OK40.848s0omit antes de mover metadatos al evento fin",
+    "comparacion_lector": "12tests1fallo de aserción antigua de contorno rotado; cambiada por inversión tras evidencia nativa; ese método rerunOK0.091s. No afirmar batería completa posterior.",
+    "representaciones_nuevas": "2OK0.033s comparador, 2OK0.581s ciclos PS/Python"
+  },
+  "fuente_CSI": "https://www.csiamerica.com/software/ETABS/21/ReleaseNotesETABSv2101plus2100.pdf incidente9398",
+  "limites": [
+    "Sin solver194 ni relectura posterior independiente",
+    "Sin comparación manual ni proyecto referencia",
+    "No aprobación de ingeniería",
+    "Prueba de geometría/topología FE posterior aún pendiente194"
+  ],
+  "archivos": {
+    "scripts/ejecutar_plan_etabs.ps1": "a6825c7741db0407c38948410d25f8afa9f82b53efd9bf74e3d1b08cb961cabb",
+    "scripts/ensayar_plan_malla.py": "026eb1b9cdd7e722cf9275a96008f903899305e115a7a2e6714b9a777d19276f",
+    "tests/test_contorno_nativo.py": "f72f9f862a8ae567c38e450df88b675b4014ee5c20a52db9588bce40a5ab3906",
+    "tests/test_relectura_representaciones_csi.py": "2652b42a902b56bc831e93ae0e78721606d0b70bb84d82bc99c12a7785da7564",
+    "tmp/n194/plan.json": "6057be560a626ad1cb885651b93f9d65986ae01edca6db42a97c7be607d538c7",
+    "tmp/n194/modelo.edb": "8375954e18b4eac29dfa85ab9b9967bae86d442ed010c63a5782659a273a8d35",
+    "tmp/n194/registro.json": "cf658382bcf789f87a7c7ca777b9b4611f7aabe2011001453eb150591771a772",
+    "tmp/cierre_host_194.json": "694f179803423a27b45fb6fc43f52d4df43327a143b71cad4276c42d67ca8cd0",
+    "tmp/regresion_malla_193_host.log": "6c2d57f472293e02298e4ed68db15fa4d6eb6ae3e1d7b68db5df26d0fff21c84",
+    "tmp/lector_representaciones_194.log": "69a5e0b1050f5a380d817a596337c099b3a001ae1a1c35ed9fd45989440793df"
+  },
+  "api_ia": 0
+}

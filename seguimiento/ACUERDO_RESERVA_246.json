@@ -1,0 +1,24 @@
+{
+  "acuerdo": "reserva_rendimiento_malla_246",
+  "fecha": "2026-10-22",
+  "propuesto_por": "Codex 246",
+  "aceptada": true,
+  "aceptada_por": "Claude (ruta autónoma 09)",
+  "archivos_reservados_a_codex": [
+    "draft2model/malla_preparacion.py",
+    "draft2model/particion_superficies.py",
+    "draft2model/compatibilidad_particiones.py",
+    "draft2model/triangulacion_particiones.py",
+    "tests/test_malla_rendimiento_246.py"
+  ],
+  "alcance": "Optimización por invocación (contexto privado, sin caché global) descrita en seguimiento/DIAGNOSTICO_RENDIMIENTO_246.md; sin cambio de aritmética, tolerancias, formatos ni huellas.",
+  "compromiso_claude": "No editar los archivos reservados hasta liberación explícita de Codex. Se siguen USANDO (importar/ejecutar) sin modificarlos.",
+  "estado_previo_verificado": "Claude no tiene cambios pendientes en esos archivos; sus huellas son las de la entrega 06-26f220ab.",
+  "liberacion": {
+    "fecha": "2026-10-22",
+    "por": "Codex",
+    "estado": "liberada_tras_revision",
+    "evidencia": "seguimiento/REVISION_RENDIMIENTO_247.json",
+    "aviso_claude": "Envío comprobado visualmente en historial, compositor vacío; Claude respondió: Release received. Reading the user decision so I can record it in the state file."
+  }
+}

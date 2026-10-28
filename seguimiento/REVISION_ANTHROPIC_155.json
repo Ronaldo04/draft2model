@@ -1,0 +1,32 @@
+{
+  "fecha_utc": "2026-10-19T12:58:50.180632+00:00",
+  "tarea": "adaptador_anthropic",
+  "estado": "revisado_integrado_localmente",
+  "marcador_sha256": "13468d6ed1ddf71b8ed582f01fbcb063cc18d2f6dd718accae6068ea6f8648ea",
+  "revision": "Protocolo, esquema copiado, limites, cabeceras, parser final, incertidumbre y no reintentos inspeccionados. Tipo de error limitado por Codex a enumeracion conocida para no reflejar texto arbitrario de servidor. Registro/nativekey/detalle_auto e integracion de servicios/CLI/HTML incorporados.",
+  "pruebas": {
+    "log": "tmp/anthropic_integracion_155.log",
+    "resultado": "21OK12.888s",
+    "naturaleza": "transportes dobles, sin API real"
+  },
+  "hashes_actuales": {
+    "draft2model/proveedor_anthropic.py": "b8635306f2402b1b71e6e1c785f09db00e9f5d39544a2c8c76bde387fc356276",
+    "tests/test_proveedor_anthropic.py": "af5ca3d65178bf64e9813b1afbdb1229babbd496f20d2513d7a9e3a969b45a4e",
+    "docs/PROTOCOLO_ANTHROPIC.md": "cabcbba76234765993cce0d60aa7341096db92f9ac19a6c95933582f6b6256e7"
+  },
+  "goal_completo": false,
+  "regresion_contrato_local": {
+    "log": "tmp/anthropic_contrato_local_157.log",
+    "resultado": "1OK1.039s",
+    "alcance": "bbox fuera de0..1 rechazada localmente aunque esquema Anthropic haya trasladado minimum/maximum a description; sin importar extraccion y un unico transporte doble"
+  },
+  "prueba_cliente": {
+    "log": "tmp/anthropic_node_155.log",
+    "resultado": "16/16OK"
+  },
+  "integracion_hashes_actuales": {
+    "draft2model/proveedores.py": "a9b28c15e76e54bdc0885a71869218e30e3f0193b923458585f2318c8e8cce19",
+    "tests/test_proveedores_intercambiables.py": "97b77562bc6a3e7cde7580c0480515d0e58841891ae245349f08ce433ed6c7ee",
+    "tests/revision_proveedor_frontend.cjs": "908e654b92242b270d311ce5990b892a2909f4036a23f9fda0caf8d2c3fc291e"
+  }
+}

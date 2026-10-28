@@ -1,0 +1,178 @@
+{
+  "fecha_utc": "2026-10-24T19:49:48.182751+00:00",
+  "goal_completo": false,
+  "anterior": "seguimiento/RETOMAR_CODEX_336.json",
+  "responsable_unico": "Codex; sin Claude ni nuevas delegaciones.",
+  "estado_hito": "Generador de borradores337 implementado y probado focalmente; flujo338 sintético integrado correcto.331 inmutable.",
+  "entrega": {
+    "archivo": "entregas\\AECODE_PRESENTACION_331_FINAL.zip",
+    "sha256": "e1b9c68c34ee2f0118ef1d4c16590bb8b349c0d8d599a63ff2cf5b04660fd1f3",
+    "bytes": 97632706,
+    "huella_fuentes": "87eaa3da536fad77fff8356047d809e5fba4bdaa5f587d51a8789fd1aac400b8",
+    "pruebas_python": 1493,
+    "pruebas_interfaz": 36,
+    "goal_completo": false
+  },
+  "validacion_paquete": {
+    "integridad": {
+      "estado": "integridad_verificada_no_aceptacion_funcional",
+      "huella_fuentes": "87eaa3da536fad77fff8356047d809e5fba4bdaa5f587d51a8789fd1aac400b8",
+      "caso": "pueblo-libre-002",
+      "archivos_fuentes": 616,
+      "archivos_complemento": 34,
+      "aprueba_ingenieria": false
+    },
+    "pruebas_python": 1493,
+    "pruebas_interfaz": 36,
+    "omisiones": [],
+    "sin_nueva_api": true,
+    "sin_nueva_corrida_etabs": true,
+    "enlaces_de_entrada_y_guias_comprobados": 67,
+    "enlaces_rotos": [],
+    "aceptacion_global": false
+  },
+  "guia": "entregas/AECODE_PRESENTACION_331/LEER_PRIMERO.md",
+  "reporte": "entregas/AECODE_PRESENTACION_331/REPORTE_ESTADO.md",
+  "guion": "entregas/AECODE_PRESENTACION_331/PRESENTACION_5_MINUTOS.md",
+  "procesos": {
+    "20690": "terminal0/global329",
+    "31832": "terminal0/global331",
+    "50585": "terminal0/empaquetado331"
+  },
+  "edb_archivado_sha256_verificado": "42371308a03d4f1bac8f5ed3aa5daf0421cdf3de27ff823f8f582c13ad2af394",
+  "ejecucion": "Código331 exacto validado en copia aislada; sin nueva instalación, API ni ejecución nativa. Modelo/informes anteriores conservados.",
+  "no_repetir": [
+    "Suites329/331 ya correctas y sin omisiones.",
+    "Empaquetador331 ya ejecutado; rechaza sobreescritura.",
+    "Benchmark328 ya reproducido; no pedir de nuevo anotador humano al usuario.",
+    "Recorrido nativo322 ya conservado."
+  ],
+  "cambios_operativos": [
+    "Avisos de cotas/unidades mostrados por candidato.",
+    "Búsqueda local de texto vectorial y propuestas de región con abstención ante duplicados; no guarda automáticamente."
+  ],
+  "limites_materiales": [
+    "Entrada aún supervisada; no modelado autónomo de cualquier construcción acreditado.",
+    "Otros proyectos/tipologías sin validación.",
+    "Suelo y sistema son escenarios sin EMS; reglas RNE parciales.",
+    "Comparación manual aplazada;18comparaciones técnicas conservadas,10no satisfactorias.",
+    "Latencia alta en expediente grande.",
+    "OCR local solo experimental, no integrado ni presentado como operativo."
+  ],
+  "restricciones": [
+    "Conservar intacta entrega331 para presentación;328 es respaldo.",
+    "Sin APIs, claves, modelo manual ni proyectos2/3.",
+    "No nuevas funciones antes de finalizar entrega al usuario.",
+    "Cualquier desarrollo posterior debe aislarse del software congelado; no sustituirlo sin validación.",
+    "No declarar aprobación estructural, RNE integral ni objetivo global completo."
+  ],
+  "siguiente": [
+    "Primero consultar cuota y este checkpoint.331FINAL y anexo334 son la entrega presentada; no modificarlos.",
+    "93306/global335 terminó0:1515Python+36interfaz,620fuentes estables, snapshot conservado. No repetirlo.",
+    "Regresión focal337/consumidores ya terminó0:89pruebas sin omisiones, proceso31294terminal0. No repetirla sin cambios; falta validación integrada más amplia antes de distribuir.",
+    "El flujo338 ya terminó0 con src337 actual. Se ensayó bloqueo de plantilla null, declaración SINTÉTICA, conversión gestionada, importación borrador y alteración/restauración exacta de bytes de fixture. No sustituirlo por aprobación humana real.",
+    "Siguiente mejora sustancial: proponer anclajes de escala desde OCR/vector con unidad explícita y contrastar geometría contra planos antes del solver; completar tipologías/registro de plantas sin hardcodear el piloto. No limitarse a añadir avisos.",
+    "Antes de distribuir337: integración y revisión visual, trazabilidad de propuestas, pruebas de consumidores, revisión de documentación histórica y validación de huella exacta. No publicar otra FINAL antes de garantizarla.",
+    "Respetar veto a proyectos2/3, comparación manual aplazada, sin nuevas APIs/credenciales, Claude/subagentes ni ETABS. Objetivo global activo, no completo."
+  ],
+  "instalacion_334": {
+    "anexo": {
+      "archivo": "entregas\\ANEXO_INSTALACION_OFFLINE_334.zip",
+      "sha256": "f92ac79ad3fedce7f8d1e4d5c9e40da5bc1478117d5d1238606fb149486bbea9",
+      "bytes": 7134,
+      "entrega331_intacta": true,
+      "resultado": "instalacion_offline_correcta"
+    },
+    "registro": "tmp/i334/verificacion.json",
+    "entorno": "tmp/i334/v",
+    "resultado": "6comprobaciones0, demo sintética6corridas, sin paquetes globales, módulos331 importables con Pillow12.3.0/PyMuPDF1.28.2 del entorno nuevo.",
+    "alcance": "Misma estación, nuevo entorno; no otro equipo, ETABS ni visión real.",
+    "fuentes616_intactas": true,
+    "proceso83563": "terminal0"
+  },
+  "desarrollo_ocr_333": {
+    "directorio": "tmp/desarrollo_ocr_333",
+    "base": "Software331 exacto extraído en copia separada.",
+    "archivos_nuevos": [
+      "draft2model/ocr_local.py",
+      "tests/test_ocr_local.py"
+    ],
+    "pruebas": "tmp/ocr_335_tests.log:60backend sin omisiones; tmp/frontend_ocr_335.log:36interfaz sin omisiones.",
+    "ensayo_real": "seguimiento/OCR_LOCAL_333_REAL.json;700palabras de primera lámina; coincidencias C-1/C-6/PL-1 únicas y C-2/PL-10 ambiguas.",
+    "qa_visual": "tmp/desarrollo_ocr_333/tmp/ocr_real/regiones.png leído:7recortes estructurales coinciden; no revisión de todas las700palabras.",
+    "estado": "integracion_aislada_verificada_no_publicada",
+    "no_confundir": "Entrega331 no contiene este OCR operativo. No cambiar sus manifiestos ni sus afirmaciones.",
+    "siguiente_tecnico": "En copia aislada: integración optativa y acotada en servicio/API/interfaz, caché por original/perfil, concurrencia y pruebas de errores. No integrarlo en la entrega del deadline sin validación explícita de otra versión.",
+    "implementacion": [
+      "Servicio/API e interfaz con acción OCR separada, sin transmisión.",
+      "Caché2páginas/8MiB por SHA original/página/ejecutable/modelos/parámetros, objetos independientes.",
+      "Exclusión de lecturas simultáneas, errores de motor/plazo, validación de fuente al terminar.",
+      "Opciones ambiguas y confianza sin aprobación; respuestas tardías descartadas."
+    ],
+    "flujo_real": "seguimiento/FLUJO_OCR_LOCAL_335.json:2consultasHTTPenmemoria y1Tesseract real, C-1única yC-2con4opciones;6,215s/0,151s, noSLA.",
+    "documentacion": "tmp/desarrollo_ocr_333/docs/OCR_LOCAL.md",
+    "limites": [
+      "PDF únicamente; falta cubrir originales PNG/JPEG.",
+      "No extrae automáticamente clases, escala, geometría ni parámetros de ingeniería; no completa el objetivo global.",
+      "Sin revisión visual de toda la interfaz335 ni todas las700palabras."
+    ]
+  },
+  "global335": {
+    "session_id": 93306,
+    "registro": "tmp/validacion_ocr_335/estado.json",
+    "estado_al_guardar": "terminal0",
+    "fuentes": "tmp/desarrollo_ocr_333",
+    "instruccion": "Sondear mismo handle; no reiniciar por timeout ni cambiar fuentes durante la comprobación.",
+    "codigo": 0,
+    "resultado": {
+      "fecha_utc": "2026-10-24T19:08:35.759408+00:00",
+      "python": 1515,
+      "interfaz": 36,
+      "omisiones": [],
+      "archivos": 620,
+      "fuentes_estables": true,
+      "instantanea": "tmp\\validacion_ocr_335\\Fuentes_OCR_335.zip",
+      "sha256": "940f8a7ba8e37fd7b045a3f3e731805cd67a72118c3eb2f521e5bbd0d5fe0c8e",
+      "registro": "tmp/validacion_ocr_335/verificacion.json",
+      "entrega331_intacta": true,
+      "estado": "desarrollo_aislado_verificado_no_publicado",
+      "goal_completo": false
+    }
+  },
+  "diagnostico_conversion336": {
+    "registro": "seguimiento/DIAGNOSTICO_CONVERSION_336.json",
+    "evidencia": "conversion_geometria.py declara correspondencias/ejes/coordenadas por operador; no interpreta píxeles ni conectividad.",
+    "primera_lamina": "34palabras vectoriales y48444segmentos;9ejesxdetectados;sin cotas vectoriales de escala;ejey2insuficiente.",
+    "siguiente_criterio": "Propuesta genérica de calibración/geométrica desde OCR/vector, con unidades declaradas, sin coordenadas hardcodeadas ni calibración contra ETABS.",
+    "aceptacion_humana": "La anotación IA328 fue autorizada por el usuario; no solicitar otra vez el anotador humano como condición del software. Comparación manual sigue aplazada."
+  },
+  "desarrollo_geometria337": {
+    "carpeta": "tmp/desarrollo_geometria_337",
+    "base": "tmp/validacion_ocr_335/Fuentes_OCR_335.zip (335 validado, no publicado)",
+    "archivos": {
+      "draft2model/propuesta_trazos.py": "8141e1427305a17b58e96031d9c8f1adbce2cc45d7f7b8a357b447642cba62cd",
+      "tests/test_propuesta_trazos.py": "eb68f08fb915f9bc7d77184e3a6708b4418ebe6775901fd8cc3b5003961da9ee",
+      "docs/PROPUESTA_TRAZOS.md": "1e292c34750da2d0c98a7ea3c086af7931cdbd78d02b20d33aaa4ddcb095524b"
+    },
+    "pruebas": "13nuevas focales y89regresiones de geometría/conversión correctas, sin omisiones:tmp/regresion_propuesta_338.log. No suite completa337.",
+    "flujo": "seguimiento/FLUJO_PROPUESTA_338.json; última ejecución usa tmp/g338c (g338falló por procedencia y g338b fue ensayo anterior, conservarlos).",
+    "alcance": "Cotas revisadas+anclajes de dimensión+trazos PDF→calibración afín→propuesta ortogonal de una planta→plantilla pendiente→conversión versionada/importación existentes.",
+    "evidencia": "4nodos y4muros, ninguna coordenada individual de nodo declarada, todo SINTÉTICO, ninguna aprobación real, plantilla null bloqueada y alteración de fuente detectada.",
+    "faltantes": "Piloto real no probado con esta propuesta; no UI nueva de anclajes; faltan columnas/vigas/superficies/vanos/oblicuos/múltiples plantas/raster y validación integrada.",
+    "nota_niveles": "Alturas externas configuradas con unidad; no se infieren de cotas horizontales. Justificación independiente obligada en revisión.",
+    "no_publicado": true,
+    "no_modifica331": true
+  },
+  "cuota": {
+    "restante_5h_observado": 99,
+    "restante_semanal_observado": 100,
+    "reset_creditos_disponibles": 0,
+    "observacion": "Cuotas restablecidas observadas en herramienta; Codex no ejecutó reset."
+  },
+  "procesos_vivos_criticos": [],
+  "detencion_por_margen": {
+    "vigente": false,
+    "causa_fin": "margen restablecido observado"
+  },
+  "prioridad_usuario_actual": "Usuario indica aproximadamente90minparaentregar; no prometer automatización universal terminada. Mantener331y334como entrega estable; explicar brecha central con claridad."
+}

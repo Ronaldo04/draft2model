@@ -1,0 +1,84 @@
+{
+  "fecha_utc": "2026-10-24T08:18:53.726581+00:00",
+  "naturaleza": "QA parcial: fixture sintético nuevo, no piloto y no aceptación de315",
+  "fuente_sha256_observado": "1ccfc06a883a630f182cb3e368a1df74248947694b310cbd3bd03b865d0f2ff9",
+  "fase": "A",
+  "unidades": "kN_m_C",
+  "version_etabs": [
+    "21.1.0",
+    0
+  ],
+  "casos": [
+    {
+      "caso": "K01",
+      "offset_i_m": 0.2,
+      "offset_j_m": 0.2
+    },
+    {
+      "caso": "K02",
+      "offset_i_m": 0.075,
+      "offset_j_m": 0.075
+    },
+    {
+      "caso": "K03",
+      "offset_i_m": 0.125,
+      "offset_j_m": 0
+    },
+    {
+      "caso": "K04",
+      "offset_i_m": 0.3,
+      "offset_j_m": 0
+    },
+    {
+      "caso": "K05",
+      "offset_i_m": 0.125,
+      "offset_j_m": 0
+    },
+    {
+      "caso": "K06",
+      "offset_i_m": 0.28800000000000003,
+      "offset_j_m": 0
+    },
+    {
+      "caso": "K07",
+      "offset_i_m": 0.3,
+      "offset_j_m": 0
+    },
+    {
+      "caso": "K08",
+      "offset_i_m": 0,
+      "offset_j_m": 0
+    },
+    {
+      "caso": "K09",
+      "offset_i_m": 0,
+      "offset_j_m": 0
+    },
+    {
+      "caso": "K10",
+      "offset_i_m": 0.1,
+      "offset_j_m": 0
+    },
+    {
+      "caso": "K11",
+      "offset_i_m": 0.1,
+      "offset_j_m": 0.125
+    }
+  ],
+  "retorno_analisis": 0,
+  "tabla_api_acuerdan": true,
+  "edb_sha256_verificado": "50318cc561352f95b0fbaa8f66e4788c394ae209c325d081ca31d3edbfa08e73",
+  "proceso_propio_declarado": {
+    "pid": 44832,
+    "inicio_utc": "2026-10-24T08:08:55.6800492Z"
+  },
+  "cierre_en_recibo": null,
+  "fase_B": "No consta en este snapshot",
+  "limites": [
+    "No demuestra regla universal ni independencia respecto a todas las salidas del piloto",
+    "Cierre propio y comparación de tolerancias pendientes",
+    "No modificar libro ni tolerancia ni reportar masa verificada"
+  ],
+  "aviso_enviado": "Aviso a Claude comprobado visualmente en historial, compositor vacío; sin reiniciar ni tercera corrida",
+  "goal_completo": false
+}

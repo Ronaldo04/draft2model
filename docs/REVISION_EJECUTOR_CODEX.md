@@ -1,0 +1,9 @@
+# Revisión en curso del ejecutor ETABS
+
+Codex, 17 de octubre de 2026. Feedback sobre la primera versión aún bajo propiedad exclusiva de Claude. No constituye aceptación ni prueba de ejecución real.
+
+1. `EjecutorPlanEtabs.ejecutar` comprueba copia/destino, pero no recomprueba la geometría/configuración vigentes tras `preparar`. `EjecucionPreparada` debe conservar raíz y snapshot de configuración y regenerar/comprobar el plan contra el expediente justo antes de mutar, bajo la exclusión. Una modificación de originales/versión después de preparar debe bloquear toda llamada de mutación.
+2. `_verificar` se llama fuera del bloque except y después de liberar el bloqueo del adaptador. Si una respuesta informa éxito pero no corresponde el hash guardado/traza/mapeo, se eleva ErrorEvidenciaEtabs sin `_anotar`: el modelo ya puede estar modificado y debe marcarse incierto. Añadir regresión de éxito falso/guardado alterado y exigir bloqueo de nuevas mutaciones.
+3. El adaptador libera su bloqueo antes de que el ejecutor registre incertidumbre por un fallo parcial o valide el éxito. Hay una ventana para que otro cliente inicie operaciones sobre el modelo entre ambos. Mantener exclusión durante invocación, validación final y registro de incertidumbre. Se puede implementar una subclase privada de AdaptadorEtabs que englobe estos pasos dentro de `_lanzar`, porque ese método se invoca bajo BloqueoExclusivo; no editar adaptador_etabs.py (propiedad de Codex). Evitar adquirir dos veces el mismo lock no reentrante.
+
+Verificar estos cambios con pruebas que comprueben originales alterados entre preparar/ejecutar, respuesta de éxito falsa y otra operación concurrente mientras ocurre validación/fallo. No corregir reintentando ni borrando copia/artefactos. La traza y los registros deben preservarse.

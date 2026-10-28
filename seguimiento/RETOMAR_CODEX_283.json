@@ -1,0 +1,44 @@
+{
+  "fecha_utc": "2026-10-23T15:48:44.313780+00:00",
+  "goal_completo": false,
+  "clasificacion_turno_actual": "progreso",
+  "coordinacion282": {
+    "archivo": "seguimiento/REPARTO_RENDIMIENTO_282.md",
+    "enviado_confirmado": true,
+    "prueba": "Mensaje282 visible en historial y compositor vacío tras Return."
+  },
+  "coordinacion283": {
+    "archivo": "seguimiento/HALLAZGO_INFORME_GEOMETRIA_283.json",
+    "enviado_confirmado": true,
+    "prueba": "heading577 del mensaje283 e imagen de historial, compositor228 vacío; Claude leyendo el hallazgo."
+  },
+  "candidato_codex": {
+    "ruta": "tmp/candidato_contexto_282",
+    "producto_sin_modificar": true,
+    "sintaxis_valida": true,
+    "estado": "NO INTEGRADO; faltan pruebas adversariales/equivalencia de planes y medida de contexto",
+    "archivo_origen": "tmp/candidato_contexto_282/ORIGEN.json",
+    "inicial_generacion": "Primera construcción abortó por CRLF antes de escribir archivos; reconstruida con LF. No cambio de producto."
+  },
+  "revision_concurrencia": "seguimiento/REVISION_CONCURRENCIA_281.json",
+  "QA": {
+    "servidor_sesion": 17813,
+    "pid_host": 35448,
+    "runtime": "tmp/runtime_qa_276",
+    "tab_id": "5",
+    "informe": "dccadc6138fb412bab4122eded6df107",
+    "estado": "borrador_real_creado_vinculado; hashes3archivos verificados,7categorías,3páginas visuales revisadas; defecto semántico283 pendiente",
+    "carpeta": "tmp/anexo_reubicado_268/pueblo-libre-002/informes/dccadc6138fb412bab4122eded6df107",
+    "descarga_UI": "NO confirmada; waitForEvent/click agotó ejecución390s y reinició kernel CUA. No volver a crear informe. Globals browser perdidos; inventario/recuperación de tab5 antes de actuar.",
+    "renders": "tmp/pdfs/qa_informe_282",
+    "no_reiniciar_servidor_por_CDP": true
+  },
+  "claude": "Producto/tests/runner y coste caliente. Declaró255pruebasOK y controles publicados f4d1eb00; aún NO verificados por Codex. Ver archivos actuales antes de confiar. No reiniciar39028 por espera.",
+  "siguientes": [
+    "Probar candidato de contexto282 en copia aislada (mantener ps original; no editar producto).",
+    "Revisar nueva cache de validación de Claude y sus límites/adversariales; no aceptar solo255pruebas declaradas.",
+    "Recuperar tab5 y confirmar descargas sin duplicar creación; revisar corrección283 antes de informe final.",
+    "Revisar controles publicados y continuación de reglas/informe final desde mismas fuentes."
+  ],
+  "restricciones": "Sin APIs remotas ni proyectos2/3; preservar archivo manual del usuario sin solicitarlo. No tocar instancias ETABS desconocidas."
+}

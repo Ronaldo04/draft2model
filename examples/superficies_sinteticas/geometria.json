@@ -1,0 +1,144 @@
+{
+  "contrato": "draft2model.geometria",
+  "version_contrato": "0.2.0",
+  "id": "superficies-sinteticas",
+  "unidad_longitud": "m",
+  "procedencia": {
+    "tipo": "sintetico",
+    "descripcion": "Datos explícitos para probar software; no representan los planos de referencia ni una solución estructural."
+  },
+  "niveles": [],
+  "nodos": [],
+  "muros": [],
+  "vertices": [
+    {
+      "id": "V0",
+      "x": 0,
+      "y": 0,
+      "z": 2.6,
+      "procedencia": {
+        "tipo": "sintetico",
+        "descripcion": "Datos explícitos para probar software; no representan los planos de referencia ni una solución estructural."
+      }
+    },
+    {
+      "id": "V1",
+      "x": 4,
+      "y": 0,
+      "z": 2.6,
+      "procedencia": {
+        "tipo": "sintetico",
+        "descripcion": "Datos explícitos para probar software; no representan los planos de referencia ni una solución estructural."
+      }
+    },
+    {
+      "id": "V2",
+      "x": 4,
+      "y": 3,
+      "z": 2.6,
+      "procedencia": {
+        "tipo": "sintetico",
+        "descripcion": "Datos explícitos para probar software; no representan los planos de referencia ni una solución estructural."
+      }
+    },
+    {
+      "id": "V3",
+      "x": 0,
+      "y": 3,
+      "z": 2.6,
+      "procedencia": {
+        "tipo": "sintetico",
+        "descripcion": "Datos explícitos para probar software; no representan los planos de referencia ni una solución estructural."
+      }
+    },
+    {
+      "id": "V4",
+      "x": 0,
+      "y": -1.3,
+      "z": 1.3,
+      "procedencia": {
+        "tipo": "sintetico",
+        "descripcion": "Datos explícitos para probar software; no representan los planos de referencia ni una solución estructural."
+      }
+    },
+    {
+      "id": "V5",
+      "x": 4,
+      "y": -1.3,
+      "z": 1.3,
+      "procedencia": {
+        "tipo": "sintetico",
+        "descripcion": "Datos explícitos para probar software; no representan los planos de referencia ni una solución estructural."
+      }
+    },
+    {
+      "id": "V6",
+      "x": 4,
+      "y": 0,
+      "z": 0,
+      "procedencia": {
+        "tipo": "sintetico",
+        "descripcion": "Datos explícitos para probar software; no representan los planos de referencia ni una solución estructural."
+      }
+    },
+    {
+      "id": "V7",
+      "x": 4,
+      "y": 3,
+      "z": 0,
+      "procedencia": {
+        "tipo": "sintetico",
+        "descripcion": "Datos explícitos para probar software; no representan los planos de referencia ni una solución estructural."
+      }
+    }
+  ],
+  "superficies": [
+    {
+      "id": "SH",
+      "vertices": [
+        "V0",
+        "V1",
+        "V2",
+        "V3"
+      ],
+      "papel_geometrico": "Panel horizontal sintético, sin sección ni función resistente asignada",
+      "procedencia": {
+        "tipo": "sintetico",
+        "descripcion": "Datos explícitos para probar software; no representan los planos de referencia ni una solución estructural."
+      }
+    },
+    {
+      "id": "SI",
+      "vertices": [
+        "V4",
+        "V5",
+        "V1",
+        "V0"
+      ],
+      "papel_geometrico": "Panel inclinado sintético, sin atribuir equivalencia con escalera",
+      "procedencia": {
+        "tipo": "sintetico",
+        "descripcion": "Datos explícitos para probar software; no representan los planos de referencia ni una solución estructural."
+      }
+    },
+    {
+      "id": "SV",
+      "vertices": [
+        "V6",
+        "V7",
+        "V2",
+        "V1"
+      ],
+      "papel_geometrico": "Panel vertical sintético, sin atribuir propiedades de muro",
+      "procedencia": {
+        "tipo": "sintetico",
+        "descripcion": "Datos explícitos para probar software; no representan los planos de referencia ni una solución estructural."
+      }
+    }
+  ],
+  "faltantes": [],
+  "revision": {
+    "estado": "borrador",
+    "aprobacion": null
+  }
+}

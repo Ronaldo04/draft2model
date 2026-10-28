@@ -1,0 +1,151 @@
+{
+  "estado": "fallo_real_diagnosticado_sin_reintento",
+  "intento": "1f11d8e291ad4ad2a5a44600223b515b",
+  "resultado": "data\\private\\provisional-001\\vision\\intentos_gemini\\1f11d8e291ad4ad2a5a44600223b515b\\resultado.json",
+  "protocolo": "0.2.0",
+  "modelo": "gemini-3.8-flash",
+  "respuesta_stop": true,
+  "candidatos": 71,
+  "invalidos_identificados": [
+    {
+      "id": "C007",
+      "tipo": "elemento",
+      "unidad": "m",
+      "errores": [
+        "unidad_incompatible_con_tipo"
+      ]
+    },
+    {
+      "id": "C011",
+      "tipo": "elemento",
+      "unidad": "m",
+      "errores": [
+        "unidad_incompatible_con_tipo"
+      ]
+    },
+    {
+      "id": "C015",
+      "tipo": "elemento",
+      "unidad": "m",
+      "errores": [
+        "unidad_incompatible_con_tipo"
+      ]
+    },
+    {
+      "id": "C019",
+      "tipo": "elemento",
+      "unidad": "m",
+      "errores": [
+        "unidad_incompatible_con_tipo"
+      ]
+    },
+    {
+      "id": "C023",
+      "tipo": "elemento",
+      "unidad": "m",
+      "errores": [
+        "unidad_incompatible_con_tipo",
+        "bbox_sin_area_positiva"
+      ]
+    },
+    {
+      "id": "C026",
+      "tipo": "cantidad",
+      "unidad": "no_aplica",
+      "errores": [
+        "bbox_sin_area_positiva"
+      ]
+    },
+    {
+      "id": "C041",
+      "tipo": "texto",
+      "unidad": "desconocida",
+      "errores": [
+        "unidad_incompatible_con_tipo"
+      ]
+    },
+    {
+      "id": "C042",
+      "tipo": "texto",
+      "unidad": "desconocida",
+      "errores": [
+        "unidad_incompatible_con_tipo"
+      ]
+    },
+    {
+      "id": "C043",
+      "tipo": "texto",
+      "unidad": "desconocida",
+      "errores": [
+        "unidad_incompatible_con_tipo"
+      ]
+    },
+    {
+      "id": "C045",
+      "tipo": "texto",
+      "unidad": "desconocida",
+      "errores": [
+        "unidad_incompatible_con_tipo"
+      ]
+    },
+    {
+      "id": "C046",
+      "tipo": "texto",
+      "unidad": "desconocida",
+      "errores": [
+        "unidad_incompatible_con_tipo"
+      ]
+    },
+    {
+      "id": "C071",
+      "tipo": "texto",
+      "unidad": "desconocida",
+      "errores": [
+        "unidad_incompatible_con_tipo"
+      ]
+    }
+  ],
+  "sha256_respuesta": "ad585553f29504e58a10268762dd31171006065c7cbb54bc2d9611613890a2dc",
+  "importadas": 0,
+  "uso": {
+    "promptTokenCount": 5642,
+    "candidatesTokenCount": 6953,
+    "totalTokenCount": 12664,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 4356
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1286
+      }
+    ],
+    "thoughtsTokenCount": 69,
+    "serviceTier": "standard"
+  },
+  "contador_gemini": 2,
+  "contador_openai": 4,
+  "hallazgo": "Respuesta terminada con71candidatos; adaptación rechaza bbox invertidasC023/C026 y hay incompatibilidades tipo/unidad. Semántica nueva recupera fm35 y parámetros impresos pero requiere validación; cobertura completa es declaración del modelo, no verificación.",
+  "criterio": "Conservar crudos y fallo; diagnóstico/revisión por candidato con cuarentena. No clamp/ordenar/borrar silenciosamente, ni elevar cobertura derivada. Permitir recuperación explícita trazable desde respuesta conservada, sin repetirAPI.",
+  "prueba_local_subconjunto": {
+    "estado": "adaptable_en_memoria",
+    "candidatos": 59,
+    "exclusiones": [
+      "C007",
+      "C011",
+      "C015",
+      "C019",
+      "C023",
+      "C026",
+      "C041",
+      "C042",
+      "C043",
+      "C045",
+      "C046",
+      "C071"
+    ],
+    "persistido_como_extraccion": false,
+    "nota": "Prueba diagnóstica, no recuperación productiva ni modificación de la respuesta real."
+  }
+}

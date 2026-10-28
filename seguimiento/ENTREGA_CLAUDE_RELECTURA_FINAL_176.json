@@ -1,0 +1,104 @@
+{
+  "tarea": "relectura_final_176",
+  "estado": "entregado",
+  "fecha": "2026-10-20",
+  "carpeta": "D:/RONALDO CUCHILLA/1. RONALDO CUCHILLA/2. INGENIERÍA CIVIL DOCS AND PROJECTS/AECODE CURSOS/AECODE AI TALENT/PROYECTO FINAL",
+  "archivos_anteriores": {
+    "draft2model/verificacion_modelo_guardado.py": "6d6c25104a7f295e885ad31ca29849269c81a19bba8a930f4c79a7635b8371e2",
+    "scripts/verificar_modelo_guardado.ps1": "44866a107bef56501d8090f1621abbd4ae3ccc5ccfd32195ac9d999f8846abe9",
+    "tests/test_verificacion_modelo_guardado.py": "c4b18daad190d9fc3938ed89ab79c8a140701ebc02d5f067d446a44ce2e0e267",
+    "docs/VERIFICACION_MODELO_GUARDADO.md": "4ccd5b59a7944d043aaa7a9c3776d3f5e1f71ad27ff31162fb4fddf67f91e374"
+  },
+  "archivos_finales": {
+    "draft2model/verificacion_modelo_guardado.py": "5d24e849b111ad6147419ffbd630a8322e18a624b2cc9f3d2222212d15c3e0f1",
+    "scripts/verificar_modelo_guardado.ps1": "e44676be31eae921e32738c02eac5899e3000e9646a45c5d616048b24e3a4cf8",
+    "tests/test_verificacion_modelo_guardado.py": "a383c9c2ad9d01d440daf3a2c2b3e41c214da71c9ee138811fd4f4051b7a0684",
+    "docs/VERIFICACION_MODELO_GUARDADO.md": "899b1b15b5bbe6b46832475f43e4deb7f00994091cd3e53222d159c6962debab"
+  },
+  "informe": {
+    "seguimiento/INFORME_CLAUDE_RELECTURA_FINAL_176.md": "e9e68a816e3653276e4cb8249818b22e2525b5b16a5641337f247cc5d36d2d8b"
+  },
+  "evidencias": {
+    "tmp/claude_relectura_176/reproduccion_script.log": "f9ccee166c10987e9bdf86ea3862df08b17aee8dcb1c71797002fe5df4ee717a",
+    "tmp/claude_relectura_176/directiva_efectiva.txt": "fe31767c2090ef624c580b5a8443d4570bc4bed31d0128851830f83997796296",
+    "tmp/claude_relectura_176/reproduccion_restricted_stderr.txt": "0206b03eba8ced48e13bf2c39bdf5976362bb5a71054879edca56510bc78635d",
+    "tmp/claude_relectura_176/flujos_alternos.txt": "83f54a520870c88fa054fe705cc55f072fe0d71863d917c78c12862436ce40b3",
+    "tmp/claude_relectura_176/pruebas_focales.log": "91d7ca71245b541ed6497dae8d14c5e5fa4fa96c0a8127ee574a7933489280e5",
+    "tmp/claude_relectura_176/simulacion_restringida.log": "a59299ff92e00e2ebf03f74876213ec532b8f4cce6ad0eec9faebc26691b0f3d",
+    "tmp/claude_relectura_176/vinculo_codex.log": "4c8d09311c14d8bc785b252a37abb5552f11c35527d2498c1b46c69eede8bc45",
+    "tmp/claude_relectura_176/expectativa_plan_d4.txt": "3183182aefe262ada8a7f537d319ab01efc66ec7cae5d5f6b3b4774d7fdb4321"
+  },
+  "diagnostico_fallo_176": {
+    "clasificacion": "entorno (no regresion)",
+    "causa": "La directiva de ejecucion efectiva impide -File: verificar_modelo_guardado.ps1 no se carga (salida 1, sin respuesta); el ensamblado falso compila por -EncodedCommand, no sujeto a la directiva.",
+    "reproduccion": "powershell -ExecutionPolicy Restricted -File scripts/verificar_modelo_guardado.ps1 ... -> salida 1, stderr 'cannot be loaded because running scripts is disabled' (proceso hijo; ninguna politica cambiada)",
+    "host_actual": "RemoteSigned CurrentUser; sin Zone.Identifier; 9/9 pruebas del script OK",
+    "correccion": "ErrorPuente(tipo='entorno', causa directiva_de_ejecucion_impide_file) con stderr saneado y codigo_proceso; sonda -File omite el script real con causa; DiagnosticoEntornoTests reproduce el caso"
+  },
+  "pruebas": [
+    {
+      "comando": ".venv/Scripts/python.exe -m unittest -v tests.test_verificacion_modelo_guardado",
+      "temp": "tmp/claude_relectura_176/",
+      "resultado": "35 OK",
+      "omisiones": 0,
+      "codigo": 0,
+      "log": "tmp/claude_relectura_176/pruebas_focales.log"
+    },
+    {
+      "comando": "PSExecutionPolicyPreference=Restricted (variable de proceso) + mismo comando",
+      "resultado": "25 OK, 1 omitida (clase script real, causa directiva)",
+      "codigo": 0,
+      "log": "tmp/claude_relectura_176/simulacion_restringida.log"
+    },
+    {
+      "comando": ".venv/Scripts/python.exe -m unittest -v tests.test_vinculo_verificacion_modelo",
+      "nota": "regresion Codex sin editar",
+      "resultado": "6 OK",
+      "omisiones": 0,
+      "codigo": 0,
+      "log": "tmp/claude_relectura_176/vinculo_codex.log"
+    }
+  ],
+  "api": {
+    "publica_conservada": true,
+    "version": "VERSION/VERSION_LECTOR 0.4.0; mezcla con 0.3 rechazada; cargar_resultado lee 0.1-0.4",
+    "nuevo": [
+      "resultado.unidades (leidas, plan, normalizacion, factores, no_comparables, valores_normalizados)",
+      "factores_unidades()",
+      "diagnosticar_puente()",
+      "lecturas.areas.aberturas",
+      "INVENTARIO cAreaObj.SetOpening -> aberturas",
+      "controles_no_afirmados: efecto_estructural_de_aberturas"
+    ],
+    "firmas": "61 exactas (nueva cAreaObj.GetOpening: Int32 (String Name, Boolean& IsOpening)), reflejadas en ETABSv1.dll 1.29.0.0 sin iniciar ETABS"
+  },
+  "unidades": {
+    "edb_real_bloqueado": {
+      "ruta": "tmp/d4/ensayo/modelo.edb",
+      "sha256": "c71d19cff0c891021787c95d01bd0a0464279cc38821e1b5a1dda49d8e1fa305",
+      "sha_contrastado": true
+    },
+    "admitidas": "(N|kN)_(mm|cm|m)_C hacia kN_m_C con factores racionales exactos",
+    "no_comparable": "aceleracion_m_s2 (SF espectral) si las unidades difieren",
+    "plan_d4": "expectativa valida, 69 operaciones, 0 sin lector"
+  },
+  "limites": [
+    "Cero llamadas API, sin lectura de claves, sin ETABS real (PID 39368 y tmp/d2/motor.lock intactos), sin instalaciones, sin cambios de politicas, sin suite global.",
+    "Dobles y reflexion no equivalen al piloto ETABS; no retira BLOQUEO_INTEGRACION/BLOQUEO_SUPERFICIES ni habilita ejecucion.",
+    "Persistencia de Opening no demuestra corte de rigidez, malla ni cargas netas.",
+    "Unidades: conversion de SF espectral no comprobada; unidades no admitidas -> incompleto."
+  ],
+  "pendientes_codex": [
+    "Lectura real del EDB d4 en N_mm_C con configuracion_real",
+    "SF espectral en unidades presentes",
+    "Ribbed/Waffle y alto total tras reapertura",
+    "GetLocalAxes convenio/rango",
+    "GetOpening y propiedad None tras reapertura",
+    "tablas de visualizacion, centinela GetValues, Disconnect, orden GetPoints",
+    "Ejecutar pruebas del script real en host cuya directiva permita -File sin Bypass"
+  ],
+  "conflictos": [
+    "Ningun archivo ajeno editado; compilador 0.3 solo leido. Auxiliares y logs en tmp/claude_relectura_176."
+  ],
+  "omisiones": "0 en el host actual; 1 (clase script real) solo bajo directiva restringida simulada, con causa"
+}

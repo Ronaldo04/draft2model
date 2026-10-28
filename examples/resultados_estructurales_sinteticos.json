@@ -1,0 +1,69 @@
+{
+  "contrato": "draft2model.resultados_estructurales",
+  "version_contrato": "0.1.0",
+  "corrida_id": "simulacion-001",
+  "caso_id": "sintetico-001",
+  "creado_utc": "2026-10-17T00:00:00Z",
+  "geometria": {
+    "id": "geometria-fixture-001",
+    "sha256": "404740a01320f7f6db995ad82f55c6236ffa98655128349a9d8c7d06d8fea5b5"
+  },
+  "configuracion": {
+    "id": "configuracion-fixture-001",
+    "sha256": "c0b8d5eed84e2f2b9c2d4e32e4db055fffbc01f832e1121bdbf5100fb1196955"
+  },
+  "motor": {
+    "tipo": "simulacion",
+    "nombre": "fixture-estatico-sin-motor",
+    "version": "0.1.0"
+  },
+  "datos_sinteticos": true,
+  "casos": [
+    {
+      "id": "SX",
+      "tipo": "sintetico",
+      "descripcion": "Caso de datos fabricados para probar contratos."
+    }
+  ],
+  "unidades": {
+    "periodo": "s",
+    "deriva": "1",
+    "cortante": "kN"
+  },
+  "resultados": [
+    {
+      "id": "P1",
+      "variable": "periodo",
+      "caso": "SX",
+      "direccion": "X",
+      "ubicacion": "modo-1",
+      "valor": 0.5,
+      "unidad": "s"
+    },
+    {
+      "id": "D1",
+      "variable": "deriva",
+      "caso": "SX",
+      "direccion": "X",
+      "ubicacion": "N1",
+      "valor": 0.002,
+      "unidad": "1"
+    },
+    {
+      "id": "V1",
+      "variable": "cortante",
+      "caso": "SX",
+      "direccion": "X",
+      "ubicacion": "base",
+      "valor": 100.0,
+      "unidad": "kN"
+    }
+  ],
+  "advertencias": [
+    "Fixture fabricada: ningún análisis ETABS fue ejecutado.",
+    "Referencias a geometría y configuración son identificadores sintéticos, no artefactos aprobados."
+  ],
+  "omisiones": [
+    "No contiene masas, modos, combinaciones ni validación de equilibrio."
+  ]
+}

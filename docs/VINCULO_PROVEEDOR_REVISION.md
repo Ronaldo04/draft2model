@@ -1,0 +1,11 @@
+# Del proveedor a la revisión visual
+
+`ServicioRespuestas.vincular_proveedor` recibe exactamente `caso`, `expediente_sha256`, `trabajo`, `huella_preparacion` y `confirmacion_explicita:true`. Solo admite un trabajo completado y vigente, de ese expediente y paquete, con respuesta y extracción verificadas. Conserva los archivos originales y añade `origen_web.json` con hashes y referencia al trabajo. Repetir el vínculo exacto devuelve la misma respuesta; no cambia su extracción ni la aprueba.
+
+Consultar la respuesta revalida paquete, documentos, respuesta original, adaptación y trabajo de proveedor antes de devolverla. Distingue `respuesta_local_declarada` de `proveedor_verificado`, transporte Python de prueba y llamada real acreditada por el registro del cliente. Declarar proveedor/modelo en una respuesta pegada localmente no acredita transmisión. La marca del cliente `transmision_externa:false` describe la adaptación local; la consulta web incorpora la evidencia de transmisión del trabajo vinculado cuando existe.
+
+El cliente `ejecutar_plan` conserva por compatibilidad `importar_automaticamente=True` para su CLI. El servicio web lo llama siempre con `False`: tras respuesta válida conserva estado privado `respuesta_pendiente_revision`, sin crear una versión de extracción. La proyección del trabajo queda `completado_verificado`. Vincular la respuesta y trasladarla a una extracción son acciones posteriores distintas. Ninguna aprueba datos ni ingeniería.
+
+El traslado confirmado exige SHA256 exacto. Un recibo conserva ID y hashes de la versión importada. Un replay comprueba fuentes, versión y metadatos y devuelve el mismo ID. Un marcador previo sin recibo indica interrupción y bloquea repetir automáticamente: requiere revisión de evidencia; no se crea otro candidato por reintentar. La procedencia sintética sigue impedida de entrar en un expediente real.
+
+Evidencia local: `tmp/vinculo_proveedor_106.log`, 32 pruebas OK en 27.471 s, cliente/proveedor/respuestas/enlace; mejora posterior de replay: `tmp/vinculo_importacion_107.log`, 7 pruebas OK en 10.703 s. Todos los transportes son sustitutos locales; la rama HTTP también se sustituye en la prueba y no acredita una llamada real. Integración HTTP/UI y ensayo real se documentan por separado.

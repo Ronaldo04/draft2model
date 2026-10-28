@@ -1,0 +1,730 @@
+{
+  "revision_humana_realizada": false,
+  "autor_propuesta": "Antigravity (IA)",
+  "revisor": "Codex (IA)",
+  "fuentes_imagen": [
+    {
+      "archivo_id": "L0001",
+      "nombre": "Estructuras_Pueblo Libre1-Cimentación.pdf",
+      "pagina": 1,
+      "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+      "imagen_sha256": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+      "imagen": "imagenes/archivo-0001-pagina-0001.png",
+      "original": "originales/lamina-0001.pdf"
+    },
+    {
+      "archivo_id": "L0002",
+      "nombre": "Estructuras_Pueblo Libre1-Model.pdf",
+      "pagina": 1,
+      "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+      "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+      "imagen": "imagenes/archivo-0002-pagina-0001.png",
+      "original": "originales/lamina-0002.pdf"
+    },
+    {
+      "archivo_id": "L0003",
+      "nombre": "Estructuras_Pueblo Libre1.pdf",
+      "pagina": 1,
+      "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+      "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+      "imagen": "imagenes/archivo-0003-pagina-0001.png",
+      "original": "originales/lamina-0003.pdf"
+    }
+  ],
+  "observaciones": 33,
+  "cambios": [
+    {
+      "id": "AG-0012",
+      "antes": {
+        "id": "AG-0012",
+        "tipo": "etiqueta",
+        "valor": "B",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.163401,
+              0.07715,
+              0.173822,
+              0.091284
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Burbuja del eje estructural B en la parte superior del plano de aligerados."
+      },
+      "despues": {
+        "id": "AG-0012",
+        "tipo": "etiqueta",
+        "valor": "B",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.161,
+              0.049,
+              0.175,
+              0.067
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Burbuja del eje estructural B en la parte superior del plano de aligerados."
+      },
+      "criterio": "Inspección visual del original, sin consultar candidatos anteriores de los modelos."
+    },
+    {
+      "id": "AG-0013",
+      "antes": {
+        "id": "AG-0013",
+        "tipo": "elemento",
+        "valor": "VS(0.15x0.30)",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.137974,
+              0.09894,
+              0.166736,
+              0.104829
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Designación de viga semichata perimetral VS(0.15x0.30) sobre eje 3."
+      },
+      "despues": {
+        "id": "AG-0013",
+        "tipo": "elemento",
+        "valor": "VS(0.15x0.30)",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.135,
+              0.073,
+              0.167,
+              0.082
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Designación de viga semichata perimetral VS(0.15x0.30) sobre eje 3."
+      },
+      "criterio": "Inspección visual del original, sin consultar candidatos anteriores de los modelos."
+    },
+    {
+      "id": "AG-0015",
+      "antes": {
+        "id": "AG-0015",
+        "tipo": "cota",
+        "valor": 0.8,
+        "unidad": "desconocida",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.117966,
+              0.13722,
+              0.126303,
+              0.14311
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Cota horizontal .80 en armadura de vigueta de aligerado."
+      },
+      "despues": {
+        "id": "AG-0015",
+        "tipo": "cota",
+        "valor": 0.8,
+        "unidad": "desconocida",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.117,
+              0.116,
+              0.127,
+              0.126
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Cota horizontal .80 en armadura de vigueta de aligerado."
+      },
+      "criterio": "Inspección visual del original, sin consultar candidatos anteriores de los modelos."
+    },
+    {
+      "id": "AG-0016",
+      "antes": {
+        "id": "AG-0016",
+        "tipo": "elemento",
+        "valor": "PL-8",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.417257,
+              0.260306,
+              0.429346,
+              0.266196
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Identificador de placa PL-8 en planta de aligerado del nivel tipo."
+      },
+      "despues": {
+        "id": "AG-0016",
+        "tipo": "elemento",
+        "valor": "PL-8",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.41,
+              0.19,
+              0.426,
+              0.199
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Identificador de placa PL-8 en planta de aligerado del nivel tipo."
+      },
+      "criterio": "Inspección visual del original, sin consultar candidatos anteriores de los modelos."
+    },
+    {
+      "id": "AG-0017",
+      "antes": {
+        "id": "AG-0017",
+        "tipo": "etiqueta",
+        "valor": "CORTE 1-1",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.710713,
+              0.160777,
+              0.749062,
+              0.169611
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Título del detalle transversal CORTE 1-1 en cuadro CORTES VIGAS."
+      },
+      "despues": {
+        "id": "AG-0017",
+        "tipo": "etiqueta",
+        "valor": "CORTE 1-1",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.71,
+              0.171,
+              0.75,
+              0.183
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Título del detalle transversal CORTE 1-1 en cuadro CORTES VIGAS."
+      },
+      "criterio": "Inspección visual del original, sin consultar candidatos anteriores de los modelos."
+    },
+    {
+      "id": "AG-0019",
+      "antes": {
+        "id": "AG-0019",
+        "tipo": "cota",
+        "valor": 0.15,
+        "unidad": "desconocida",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.71905,
+              0.143698,
+              0.725302,
+              0.148999
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Cota de ancho de sección transversal de viga .15 en CORTE 1-1."
+      },
+      "despues": {
+        "id": "AG-0019",
+        "tipo": "cota",
+        "valor": 0.15,
+        "unidad": "desconocida",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.725,
+              0.125,
+              0.738,
+              0.136
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Cota de ancho de sección transversal de viga .15 en CORTE 1-1."
+      },
+      "criterio": "Inspección visual del original, sin consultar candidatos anteriores de los modelos."
+    },
+    {
+      "id": "AG-0020",
+      "antes": {
+        "id": "AG-0020",
+        "tipo": "etiqueta",
+        "valor": "S/C=200 Kg/m2",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.779491,
+              0.421084,
+              0.844519,
+              0.432862
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Rótulo de sobrecarga de cálculo especificada para escalera típica."
+      },
+      "despues": {
+        "id": "AG-0020",
+        "tipo": "etiqueta",
+        "valor": "S/C=200 Kg/m2",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.785,
+              0.409,
+              0.907,
+              0.438
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Rótulo de sobrecarga de cálculo especificada para escalera típica."
+      },
+      "criterio": "Inspección visual del original, sin consultar candidatos anteriores de los modelos."
+    },
+    {
+      "id": "AG-0021",
+      "antes": {
+        "id": "AG-0021",
+        "tipo": "elemento",
+        "valor": "C-3",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.468945,
+              0.245583,
+              0.477699,
+              0.251472
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Identificador de columna C-3 adyacente a caja de escalera sobre eje H."
+      },
+      "despues": {
+        "id": "AG-0021",
+        "tipo": "elemento",
+        "valor": "C-3",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0002",
+            "pagina": 1,
+            "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+            "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+            "bbox_normalizada": [
+              0.461,
+              0.168,
+              0.475,
+              0.177
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Identificador de columna C-3 adyacente a caja de escalera sobre eje H."
+      },
+      "criterio": "Inspección visual del original, sin consultar candidatos anteriores de los modelos."
+    },
+    {
+      "id": "AG-0024",
+      "antes": {
+        "id": "AG-0024",
+        "tipo": "elemento",
+        "valor": "PL-7",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0003",
+            "pagina": 1,
+            "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+            "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+            "bbox_normalizada": [
+              0.388495,
+              0.277385,
+              0.39975,
+              0.283274
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Identificador de placa PL-7 en aligerado del 4to nivel."
+      },
+      "despues": {
+        "id": "AG-0024",
+        "tipo": "elemento",
+        "valor": "PL-9",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0003",
+            "pagina": 1,
+            "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+            "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+            "bbox_normalizada": [
+              0.407,
+              0.309,
+              0.429,
+              0.326
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Sustitución de referencia: PL-9 visible en la franja junto a escalera del cuarto nivel. La región propuesta no acreditaba PL-7."
+      },
+      "criterio": "Inspección visual del original, sin consultar candidatos anteriores de los modelos."
+    },
+    {
+      "id": "AG-0025",
+      "antes": {
+        "id": "AG-0025",
+        "tipo": "etiqueta",
+        "valor": "DETALLE: ALIGERADO TIPICO",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0003",
+            "pagina": 1,
+            "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+            "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+            "bbox_normalizada": [
+              0.667361,
+              0.171967,
+              0.751146,
+              0.178445
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Título del detalle constructivo de corte típico de losa aligerada."
+      },
+      "despues": {
+        "id": "AG-0025",
+        "tipo": "etiqueta",
+        "valor": "DETALLE: ALIGERADO TIPICO",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0003",
+            "pagina": 1,
+            "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+            "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+            "bbox_normalizada": [
+              0.643,
+              0.185,
+              0.757,
+              0.202
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Título del detalle constructivo de corte típico de losa aligerada."
+      },
+      "criterio": "Inspección visual del original, sin consultar candidatos anteriores de los modelos."
+    },
+    {
+      "id": "AG-0030",
+      "antes": {
+        "id": "AG-0030",
+        "tipo": "cota",
+        "valor": 0.4,
+        "unidad": "m",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0003",
+            "pagina": 1,
+            "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+            "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+            "bbox_normalizada": [
+              0.804085,
+              0.369258,
+              0.811588,
+              0.374558
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Longitud de empalme .40 para varilla 3/8\" bajo columna encabezada con \"T m.\"; unidad m explícita en tabla."
+      },
+      "despues": {
+        "id": "AG-0030",
+        "tipo": "cota",
+        "valor": 0.4,
+        "unidad": "m",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0003",
+            "pagina": 1,
+            "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+            "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+            "bbox_normalizada": [
+              0.817,
+              0.3675,
+              0.831,
+              0.377
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          },
+          {
+            "archivo_id": "L0003",
+            "pagina": 1,
+            "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+            "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+            "bbox_normalizada": [
+              0.814,
+              0.354,
+              0.837,
+              0.366
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Longitud de empalme .40 para varilla 3/8\" bajo columna encabezada con \"T m.\"; unidad m explícita en tabla."
+      },
+      "criterio": "Inspección visual del original, sin consultar candidatos anteriores de los modelos."
+    },
+    {
+      "id": "AG-0031",
+      "antes": {
+        "id": "AG-0031",
+        "tipo": "etiqueta",
+        "valor": "DETALLE  MURO  PORTANTE    TIPICO",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0003",
+            "pagina": 1,
+            "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+            "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+            "bbox_normalizada": [
+              0.70321,
+              0.673145,
+              0.822843,
+              0.68139
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Título de detalle de elevación y armadura en muro portante típico."
+      },
+      "despues": {
+        "id": "AG-0031",
+        "tipo": "etiqueta",
+        "valor": "DETALLE. MURO PORTANTE TIPICO",
+        "unidad": "no_aplica",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0003",
+            "pagina": 1,
+            "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+            "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+            "bbox_normalizada": [
+              0.704,
+              0.708,
+              0.861,
+              0.731
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Título leído en el original vectorial: se conserva el punto tras DETALLE y se transcribe el espaciado tipográfico con un espacio."
+      },
+      "criterio": "Inspección visual del original, sin consultar candidatos anteriores de los modelos."
+    },
+    {
+      "id": "AG-0032",
+      "antes": {
+        "id": "AG-0032",
+        "tipo": "cota",
+        "valor": 2.15,
+        "unidad": "desconocida",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0003",
+            "pagina": 1,
+            "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+            "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+            "bbox_normalizada": [
+              0.717799,
+              0.826266,
+              0.720717,
+              0.836867
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Cota vertical 2.15 de altura libre interior en corte de cisterna."
+      },
+      "despues": {
+        "id": "AG-0032",
+        "tipo": "cota",
+        "valor": 2.15,
+        "unidad": "desconocida",
+        "legibilidad": "legible",
+        "evidencia": [
+          {
+            "archivo_id": "L0003",
+            "pagina": 1,
+            "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+            "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+            "bbox_normalizada": [
+              0.717799,
+              0.826266,
+              0.720717,
+              0.836867
+            ],
+            "imagen_ancho_px": 2399,
+            "imagen_alto_px": 1698
+          }
+        ],
+        "nota": "Cota vertical en la planta TECHO CISTERNA; no se interpreta como altura libre del corte."
+      },
+      "criterio": "Inspección visual del original, sin consultar candidatos anteriores de los modelos."
+    }
+  ],
+  "estado": "revision_visual_asistida_completada",
+  "respuestas_modelos_benchmark_consultadas_antes_de_fijar_referencia": false,
+  "sha256_referencia": "0a3dc0d89ffb4a52d3e06fd0de508f214afb667bb660703c73657749d40a0ce5"
+}

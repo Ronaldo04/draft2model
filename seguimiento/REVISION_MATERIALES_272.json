@@ -1,0 +1,141 @@
+{
+  "fecha_utc": "2026-10-23T04:53:42.423937+00:00",
+  "lectura": "461c751056c74acaa6d738b29f4df633",
+  "fuentes_sha256": {
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\461c751056c74acaa6d738b29f4df633\\solicitud.json": "02ced23714d24dfe52532be05db46bc25767e359a62e6e6e43a2bb29fb656127",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\461c751056c74acaa6d738b29f4df633\\respuesta.json": "c29f4d60f9a310301adc232c2007ec7a7183d966e2094d28852f849dc7a4ef19",
+    "data\\private\\pueblo-libre-002\\lecturas_analisis\\461c751056c74acaa6d738b29f4df633\\aceptacion_lectura.json": "c3d969eccb0420a0e9cf07747f5aea4e61fee4a40d0d83a0ed2b1965c87e44de"
+  },
+  "sha256_diagnostico_geometrico": "9e8f31d45d432fde265bc173e23e726f3297efd24dacdccd1d3c679875f25dce",
+  "sha256_edb": "42371308a03d4f1bac8f5ed3aa5daf0421cdf3de27ff823f8f582c13ad2af394",
+  "comparacion_por_seccion": [
+    {
+      "seccion": "CERCO-10",
+      "inventario_geometrico_kn": "57.300480000000036",
+      "tabla_nativa_kn": "57.3005",
+      "diferencia_kn": "-0.000019999999964"
+    },
+    {
+      "seccion": "COL-1-L-MAS-Y",
+      "inventario_geometrico_kn": "24.336000000000006",
+      "tabla_nativa_kn": "24.336",
+      "diferencia_kn": "6E-15"
+    },
+    {
+      "seccion": "COL-1-L-MENOS-Y",
+      "inventario_geometrico_kn": "24.336000000000006",
+      "tabla_nativa_kn": "24.336",
+      "diferencia_kn": "6E-15"
+    },
+    {
+      "seccion": "COL-2-X",
+      "inventario_geometrico_kn": "161.87358084892492",
+      "tabla_nativa_kn": "161.8736",
+      "diferencia_kn": "-0.00001915107508"
+    },
+    {
+      "seccion": "COL-3-Y",
+      "inventario_geometrico_kn": "44.928",
+      "tabla_nativa_kn": "44.928",
+      "diferencia_kn": "0.000"
+    },
+    {
+      "seccion": "COL-4-X",
+      "inventario_geometrico_kn": "14.976000000000003",
+      "tabla_nativa_kn": "14.976",
+      "diferencia_kn": "3E-15"
+    },
+    {
+      "seccion": "COL-4-Y",
+      "inventario_geometrico_kn": "29.952",
+      "tabla_nativa_kn": "29.952",
+      "diferencia_kn": "0.000"
+    },
+    {
+      "seccion": "COL-5-Y",
+      "inventario_geometrico_kn": "22.464",
+      "tabla_nativa_kn": "22.464",
+      "diferencia_kn": "0.000"
+    },
+    {
+      "seccion": "COL-6-X",
+      "inventario_geometrico_kn": "28.080000000000005",
+      "tabla_nativa_kn": "28.08",
+      "diferencia_kn": "5E-15"
+    },
+    {
+      "seccion": "DEP-FONDO-20",
+      "inventario_geometrico_kn": "45.57635039999994",
+      "tabla_nativa_kn": "45.5764",
+      "diferencia_kn": "-0.00004960000006"
+    },
+    {
+      "seccion": "DEP-MURO-15",
+      "inventario_geometrico_kn": "20.253078000000016",
+      "tabla_nativa_kn": "20.2531",
+      "diferencia_kn": "-0.000021999999984"
+    },
+    {
+      "seccion": "DEP-MURO-20",
+      "inventario_geometrico_kn": "147.63448799999986",
+      "tabla_nativa_kn": "147.6345",
+      "diferencia_kn": "-0.00001200000014"
+    },
+    {
+      "seccion": "DEP-TAPA-15",
+      "inventario_geometrico_kn": "17.320582799999965",
+      "tabla_nativa_kn": "17.3206",
+      "diferencia_kn": "-0.000017200000035"
+    },
+    {
+      "seccion": "DEP-TAPA-20",
+      "inventario_geometrico_kn": "21.030239999999985",
+      "tabla_nativa_kn": "21.0302",
+      "diferencia_kn": "0.000039999999985"
+    },
+    {
+      "seccion": "ESC-15",
+      "inventario_geometrico_kn": "104.79484744724627",
+      "tabla_nativa_kn": "104.7948",
+      "diferencia_kn": "0.00004744724627"
+    },
+    {
+      "seccion": "LOSA-MEMB-05",
+      "inventario_geometrico_kn": "0.0",
+      "tabla_nativa_kn": "0",
+      "diferencia_kn": "0.0"
+    },
+    {
+      "seccion": "MURO-KK-15",
+      "inventario_geometrico_kn": "1223.4455999999993",
+      "tabla_nativa_kn": "1223.4456",
+      "diferencia_kn": "-7E-13"
+    },
+    {
+      "seccion": "PLACA-10",
+      "inventario_geometrico_kn": "860.6020273277361",
+      "tabla_nativa_kn": "860.602",
+      "diferencia_kn": "0.0000273277361"
+    },
+    {
+      "seccion": "VS-15X30",
+      "inventario_geometrico_kn": "31.116960000000006",
+      "tabla_nativa_kn": "24.2557",
+      "diferencia_kn": "6.861260000000006"
+    }
+  ],
+  "diferencia_localizada_VS_kn": "6.861260000000006",
+  "desfase_CM_kn": "6.8681120841357",
+  "residuo_CM_no_atribuido_kn": "0.006852084135694",
+  "componente_localizada": true,
+  "mecanismo_exacto_demostrado": false,
+  "fuentes_estables": true,
+  "interpretacion": "La tabla confirma localización en VS-15X30. Longitud equivalente calculada desde su peso no prueba por sí sola una regla de offsets, descuento de paredes o una opción de peso propio seleccionada. No ajustar el ledger al peso observado.",
+  "fuente_CSI": "https://installs.csiamerica.com/software/ETABS/2013/ReleaseNotesETABS2013v1320.pdf",
+  "nota_CSI": "Incidente69133 documenta un control para incluir/excluir peso de las zonas de offset. Es antecedente oficial, no prueba de la selección efectiva en el EDB21.1 del piloto.",
+  "SDK_instalado_inspeccionado": "cFrameObj expone GetEndLengthOffset(Name,ref bool,ref double,ref double,ref double) y SetEndLengthOffset(Name,bool,double,double,double,eItemType); no se encontró método SelfWeight. Solo reflexión, sin crear ETABS.",
+  "alcance": "Integridad del paquete de lectura y contraste por sección; no nueva relectura, análisis, cierre de proceso observado en host ni aprobación de ingeniería.",
+  "api_remota": false,
+  "etabs_ejecutado": false,
+  "goal_completo": false
+}

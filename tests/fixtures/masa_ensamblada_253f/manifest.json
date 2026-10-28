@@ -1,0 +1,6 @@
+{
+  "fixture": "extracto_sintetico_253f.json",
+  "sha256": "96b17ec8e2d09b1a77a44692cd9f7b9e16f1f7fb283fa802dc8bc40b20a2d425",
+  "source_receipt_sha256": "e0b76392a71c49e10dc0911d0f7e4bb37d37153415807b679d1c955ff5ac8dd0",
+  "scope": "synthetic_existing_capture_only"
+}

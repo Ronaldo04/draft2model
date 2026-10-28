@@ -1,0 +1,422 @@
+{
+  "contrato": "draft2model.evaluacion_lecturas",
+  "version_contrato": "0.1.0",
+  "caso": "provisional-001",
+  "alcance": {
+    "estado": "fuera_mvp_declarado",
+    "uso": "pruebas_procesamiento",
+    "motivos": [
+      "Sistema constructivo y cantidad de pisos fuera del MVP, según declaración."
+    ]
+  },
+  "procedencia": {
+    "tipo": "expediente",
+    "descripcion": "Referencia asistida por Antigravity(IA), revisada visualmente por Codex(IA), por petición del usuario. NO es revisión humana ni aprobación de ingeniería."
+  },
+  "datos_sinteticos": false,
+  "modo": "propuestas_originales",
+  "aprobacion_ingenieria": null,
+  "aviso": "Evalúa lecturas y evidencia declarada; no valida estructura ni comprueba archivos físicos o identidad del revisor.",
+  "huellas": {
+    "referencia": "9512d1700814baa91296972ff9918ba43f049a8f8ef857faa2b433488cc50ccb",
+    "extraccion": "d33c0be5fc5119638f9ce11329c2772b6a4e292b9ff55ec6dec52b4173760e1d",
+    "correspondencias": "83b2e354d8ea195a0e1b6f85b8b196c45a39c1b76ef0f889b9c1c529dd16ae2f"
+  },
+  "revisiones_declaradas": {
+    "referencia": {
+      "revisor_declarado": "Codex (IA): revisión visual asistida, no humana",
+      "fecha": "2026-10-24",
+      "estado": "revisado"
+    },
+    "correspondencias": {
+      "estado": "revisado",
+      "revisor_declarado": "Codex (IA), revisión visual asistida; no humana",
+      "fecha": "2026-10-24"
+    }
+  },
+  "metricas": {
+    "observaciones": 33,
+    "ambiguas_excluidas": 1,
+    "cobertura": {
+      "numerador": 2,
+      "denominador": 32,
+      "proporcion": 0.0625
+    },
+    "exactitud_valor_legible_emparejado": {
+      "numerador": 2,
+      "denominador": 2,
+      "proporcion": 1.0
+    },
+    "exactitud_unidad_emparejada": {
+      "numerador": 2,
+      "denominador": 2,
+      "proporcion": 1.0
+    },
+    "lecturas_completas_sobre_legibles": {
+      "numerador": 1,
+      "denominador": 32,
+      "proporcion": 0.03125
+    },
+    "abstenciones_correctas_sobre_ilegibles": {
+      "numerador": 0,
+      "denominador": 0,
+      "proporcion": null
+    },
+    "abstenciones_incorrectas_sobre_legibles": 0,
+    "unidades_referencia_desconocidas": 11,
+    "unidades_propuestas_desconocidas": 0,
+    "omisiones": [
+      "AG-0001",
+      "AG-0002",
+      "AG-0003",
+      "AG-0004",
+      "AG-0005",
+      "AG-0006",
+      "AG-0007",
+      "AG-0008",
+      "AG-0009",
+      "AG-0010",
+      "AG-0011",
+      "AG-0012",
+      "AG-0014",
+      "AG-0015",
+      "AG-0016",
+      "AG-0019",
+      "AG-0020",
+      "AG-0021",
+      "AG-0022",
+      "AG-0023",
+      "AG-0024",
+      "AG-0025",
+      "AG-0026",
+      "AG-0027",
+      "AG-0028",
+      "AG-0029",
+      "AG-0030",
+      "AG-0031",
+      "AG-0032",
+      "AG-0033"
+    ]
+  },
+  "por_tipo": {
+    "cota": {
+      "observaciones": 14,
+      "ambiguas_excluidas": 1,
+      "cobertura": {
+        "numerador": 0,
+        "denominador": 13,
+        "proporcion": 0.0
+      },
+      "exactitud_valor_legible_emparejado": {
+        "numerador": 0,
+        "denominador": 0,
+        "proporcion": null
+      },
+      "exactitud_unidad_emparejada": {
+        "numerador": 0,
+        "denominador": 0,
+        "proporcion": null
+      },
+      "lecturas_completas_sobre_legibles": {
+        "numerador": 0,
+        "denominador": 13,
+        "proporcion": 0.0
+      },
+      "abstenciones_correctas_sobre_ilegibles": {
+        "numerador": 0,
+        "denominador": 0,
+        "proporcion": null
+      },
+      "abstenciones_incorrectas_sobre_legibles": 0,
+      "unidades_referencia_desconocidas": 11,
+      "unidades_propuestas_desconocidas": 0,
+      "omisiones": [
+        "AG-0006",
+        "AG-0008",
+        "AG-0009",
+        "AG-0010",
+        "AG-0014",
+        "AG-0015",
+        "AG-0019",
+        "AG-0026",
+        "AG-0027",
+        "AG-0028",
+        "AG-0029",
+        "AG-0030",
+        "AG-0032"
+      ]
+    },
+    "etiqueta": {
+      "observaciones": 9,
+      "ambiguas_excluidas": 0,
+      "cobertura": {
+        "numerador": 1,
+        "denominador": 9,
+        "proporcion": 0.1111111111111111
+      },
+      "exactitud_valor_legible_emparejado": {
+        "numerador": 1,
+        "denominador": 1,
+        "proporcion": 1.0
+      },
+      "exactitud_unidad_emparejada": {
+        "numerador": 1,
+        "denominador": 1,
+        "proporcion": 1.0
+      },
+      "lecturas_completas_sobre_legibles": {
+        "numerador": 1,
+        "denominador": 9,
+        "proporcion": 0.1111111111111111
+      },
+      "abstenciones_correctas_sobre_ilegibles": {
+        "numerador": 0,
+        "denominador": 0,
+        "proporcion": null
+      },
+      "abstenciones_incorrectas_sobre_legibles": 0,
+      "unidades_referencia_desconocidas": 0,
+      "unidades_propuestas_desconocidas": 0,
+      "omisiones": [
+        "AG-0001",
+        "AG-0011",
+        "AG-0012",
+        "AG-0020",
+        "AG-0022",
+        "AG-0025",
+        "AG-0031",
+        "AG-0033"
+      ]
+    },
+    "elemento": {
+      "observaciones": 10,
+      "ambiguas_excluidas": 0,
+      "cobertura": {
+        "numerador": 1,
+        "denominador": 10,
+        "proporcion": 0.1
+      },
+      "exactitud_valor_legible_emparejado": {
+        "numerador": 1,
+        "denominador": 1,
+        "proporcion": 1.0
+      },
+      "exactitud_unidad_emparejada": {
+        "numerador": 1,
+        "denominador": 1,
+        "proporcion": 1.0
+      },
+      "lecturas_completas_sobre_legibles": {
+        "numerador": 0,
+        "denominador": 10,
+        "proporcion": 0.0
+      },
+      "abstenciones_correctas_sobre_ilegibles": {
+        "numerador": 0,
+        "denominador": 0,
+        "proporcion": null
+      },
+      "abstenciones_incorrectas_sobre_legibles": 0,
+      "unidades_referencia_desconocidas": 0,
+      "unidades_propuestas_desconocidas": 0,
+      "omisiones": [
+        "AG-0002",
+        "AG-0003",
+        "AG-0004",
+        "AG-0005",
+        "AG-0007",
+        "AG-0016",
+        "AG-0021",
+        "AG-0023",
+        "AG-0024"
+      ]
+    }
+  },
+  "por_lamina": [
+    {
+      "archivo_id": "L0001",
+      "pagina": 1,
+      "metricas": {
+        "observaciones": 11,
+        "ambiguas_excluidas": 0,
+        "cobertura": {
+          "numerador": 0,
+          "denominador": 11,
+          "proporcion": 0.0
+        },
+        "exactitud_valor_legible_emparejado": {
+          "numerador": 0,
+          "denominador": 0,
+          "proporcion": null
+        },
+        "exactitud_unidad_emparejada": {
+          "numerador": 0,
+          "denominador": 0,
+          "proporcion": null
+        },
+        "lecturas_completas_sobre_legibles": {
+          "numerador": 0,
+          "denominador": 11,
+          "proporcion": 0.0
+        },
+        "abstenciones_correctas_sobre_ilegibles": {
+          "numerador": 0,
+          "denominador": 0,
+          "proporcion": null
+        },
+        "abstenciones_incorrectas_sobre_legibles": 0,
+        "unidades_referencia_desconocidas": 3,
+        "unidades_propuestas_desconocidas": 0,
+        "omisiones": [
+          "AG-0001",
+          "AG-0002",
+          "AG-0003",
+          "AG-0004",
+          "AG-0005",
+          "AG-0006",
+          "AG-0007",
+          "AG-0008",
+          "AG-0009",
+          "AG-0010",
+          "AG-0011"
+        ]
+      }
+    },
+    {
+      "archivo_id": "L0002",
+      "pagina": 1,
+      "metricas": {
+        "observaciones": 11,
+        "ambiguas_excluidas": 1,
+        "cobertura": {
+          "numerador": 2,
+          "denominador": 10,
+          "proporcion": 0.2
+        },
+        "exactitud_valor_legible_emparejado": {
+          "numerador": 2,
+          "denominador": 2,
+          "proporcion": 1.0
+        },
+        "exactitud_unidad_emparejada": {
+          "numerador": 2,
+          "denominador": 2,
+          "proporcion": 1.0
+        },
+        "lecturas_completas_sobre_legibles": {
+          "numerador": 1,
+          "denominador": 10,
+          "proporcion": 0.1
+        },
+        "abstenciones_correctas_sobre_ilegibles": {
+          "numerador": 0,
+          "denominador": 0,
+          "proporcion": null
+        },
+        "abstenciones_incorrectas_sobre_legibles": 0,
+        "unidades_referencia_desconocidas": 3,
+        "unidades_propuestas_desconocidas": 0,
+        "omisiones": [
+          "AG-0012",
+          "AG-0014",
+          "AG-0015",
+          "AG-0016",
+          "AG-0019",
+          "AG-0020",
+          "AG-0021",
+          "AG-0022"
+        ]
+      }
+    },
+    {
+      "archivo_id": "L0003",
+      "pagina": 1,
+      "metricas": {
+        "observaciones": 11,
+        "ambiguas_excluidas": 0,
+        "cobertura": {
+          "numerador": 0,
+          "denominador": 11,
+          "proporcion": 0.0
+        },
+        "exactitud_valor_legible_emparejado": {
+          "numerador": 0,
+          "denominador": 0,
+          "proporcion": null
+        },
+        "exactitud_unidad_emparejada": {
+          "numerador": 0,
+          "denominador": 0,
+          "proporcion": null
+        },
+        "lecturas_completas_sobre_legibles": {
+          "numerador": 0,
+          "denominador": 11,
+          "proporcion": 0.0
+        },
+        "abstenciones_correctas_sobre_ilegibles": {
+          "numerador": 0,
+          "denominador": 0,
+          "proporcion": null
+        },
+        "abstenciones_incorrectas_sobre_legibles": 0,
+        "unidades_referencia_desconocidas": 5,
+        "unidades_propuestas_desconocidas": 0,
+        "omisiones": [
+          "AG-0023",
+          "AG-0024",
+          "AG-0025",
+          "AG-0026",
+          "AG-0027",
+          "AG-0028",
+          "AG-0029",
+          "AG-0030",
+          "AG-0031",
+          "AG-0032",
+          "AG-0033"
+        ]
+      }
+    }
+  ],
+  "candidatos_emitidos": 34,
+  "evidencia_confirmada_sobre_emitidos": {
+    "numerador": 1,
+    "denominador": 34,
+    "proporcion": 0.029411764705882353
+  },
+  "duplicados_declarados": [],
+  "sin_respaldo_declarados": [],
+  "sin_clasificar": [
+    "C001",
+    "C002",
+    "C003",
+    "C004",
+    "C005",
+    "C006",
+    "C007",
+    "C008",
+    "C009",
+    "C010",
+    "C012",
+    "C013",
+    "C014",
+    "C015",
+    "C016",
+    "C017",
+    "C018",
+    "C019",
+    "C020",
+    "C022",
+    "C023",
+    "C024",
+    "C026",
+    "C027",
+    "C028",
+    "C029",
+    "C030",
+    "C031",
+    "C032",
+    "C033",
+    "C034"
+  ]
+}

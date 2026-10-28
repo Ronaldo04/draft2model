@@ -1,0 +1,68 @@
+{
+  "tarea": "conjunto_final_09D",
+  "fecha": "2026-10-23",
+  "conjunto_final": "tmp/recorrido_09d2 (continuación aislada de 09d1; 09d1 conserva su registro con el MISMO control f4d1eb00, reglas/informe delegados)",
+  "cadena": {
+    "modelo": "0f37271307b6449c89c458c60a1640c7",
+    "analisis": "7203c79a3ece4438b36d267ba80f3c4b",
+    "resultados": "697bb37e9ce64f90ba1ef3e25733c8cc",
+    "controles": "f4d1eb0004804d499d369587ff44c85e (revalidado por ServicioControles.consultar)",
+    "lectura_masa": "9b1080d1f35d4007aef5fd92f527cea0",
+    "lectura_masas_por_piso": "1e57078658d945108a5db58def5aaebd"
+  },
+  "resultados_reales": {
+    "periodos_s": {
+      "T1": 1.339,
+      "T2": 0.358,
+      "T3": 0.224
+    },
+    "cortante_basal_kN": {
+      "SX": 672.5,
+      "SY": 528.2
+    },
+    "deriva_elastica_max": {
+      "SX": 0.001402,
+      "SY": 0.005976
+    },
+    "controles": {
+      "MOD-X": "0.9411 satisfactorio",
+      "MOD-Y": "0.9662 satisfactorio",
+      "EQ-CM": "no_aplicable",
+      "SOLVER": "satisfactorio"
+    },
+    "reglas_e030": {
+      "derivas": "8 satisfacen / 8 no (todas las que no, en SY)",
+      "cortante_minimo": "VMIN-SX 0,748 y VMIN-SY 0,588 < 0,80 (P = 4792,88 kN por pisos nativos)"
+    },
+    "masa_nativa": "no_coherente −0,127 % (causa demostrada: vigas VS sin peso de extremos en ETABS; conciliación explícita −1,1e-6)",
+    "gravedad": {
+      "CM": "−0,137 % (misma causa)",
+      "CAGUA": "−1,7e-7"
+    }
+  },
+  "lecturas_y_limites": [
+    "Sin EMS: S1 y R son hipótesis de transporte; sin aprobación profesional ni de ingeniería; reglas con aprobación DECLARADA de software.",
+    "Cortante mínimo: E.030 art. 44 exige ESCALAR los resultados dinámicos cuando V_din < 0,80·V_est; el informe lo muestra como regla no satisfecha, no como fallo terminal ni se escaló aquí.",
+    "T1 = 1,339 s es alto para 4 pisos de albañilería/concreto: indica flexibilidad del modelo en Y a revisar (losa membrana, conexiones, escalera hipotética); no se ajustó el modelo.",
+    "Sitio referencial no disponible; U de la escalera superior hipotética; masa nativa no acreditada frente al libro independiente."
+  ],
+  "verificaciones": {
+    "validar_informe": "OK",
+    "pdf": "8 páginas; página 2 (faltantes) y 4 (geometría por superficies) revisadas visualmente en tmp/pdfs/informe_09d2",
+    "resumen_283": "2502 superficies por papel; 5 niveles de piso (N0 base + 4); 3 auxiliares (NCF, NTF, NTT); sin 'Muros: 0'"
+  },
+  "hashes": {
+    "tmp\\recorrido_09d2\\registro_resultados.json": "cf5e9a6405ca6f892f1adc1dbb570d907368e832a6a15e4f49a9dbda4d01f490",
+    "tmp\\recorrido_09d2\\resultados\\informe\\informe.json": "f8414458ca967e8d54f70b868a0d2e23ef9c307dff610e8e8091621c8ecad805",
+    "tmp\\recorrido_09d2\\resultados\\informe\\informe.html": "bfa23a16d64344eceeb7f98e97c16176cde9b3e5d978657f3b0151ac6cb18d15",
+    "tmp\\recorrido_09d2\\resultados\\informe\\informe.pdf": "e386f572d4e4885f1e5237d7539b33f79a34840cbfa6d51a7b139d369a4e09d0",
+    "tmp\\recorrido_09d2\\resultados\\panel.html": "24d29f3424f8e51d01c4835d210e3a87d1a68e662820a569ec7d127be3c5029a",
+    "tmp\\recorrido_09d2\\resultados\\reglas_e030.json": "3e2733e1f5da75782cf23986b03517f3bf7c5af1ff3a0acb13124ed412ef0366",
+    "tmp\\recorrido_09d2\\resultados\\contexto.json": "07dac111f259b4b64dca9fbef696d2046328cd0da619b1591edbee3c59082d2f",
+    "tmp\\recorrido_09d1\\registro_resultados.json": "f21603e03ee36af6acf910ab9c3643b793fb9c066eb5dc638df1837a2e2a783c",
+    "seguimiento\\claude_ruta\\CONTINUACIONES_RESULTADOS.json": "5ca63103e74a23b4aea644bbbd0fdbddef3c630b7e8975d27c6f9be243811726",
+    "tmp\\ruta201\\continuacion09d2.log": "a33f508160bca2ef0083e07cd87dce1b07493673d49c8b58e4b2794ff3dd6025"
+  },
+  "apis": 0,
+  "etabs_nuevo": false
+}

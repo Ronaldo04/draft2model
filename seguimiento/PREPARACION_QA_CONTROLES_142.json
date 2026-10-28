@@ -1,0 +1,20 @@
+{
+  "fecha_utc": "2026-10-19T02:03:13.654784+00:00",
+  "caso": "sintetico-001",
+  "expediente_sha256": "9983c870ddea5da1e37d8d2c62fa30335c34095f663aad9b1b88de5fe79d9de0",
+  "raiz_privada": "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\qa_controles_142\\tmpel1dzr70\\private",
+  "lectura": "982192919ccb4d28b168bdf93e7f6994",
+  "controles": "74f816476c6f4949838534d92b124272",
+  "sha256_controles": "2cddf6a4a2b5080b2880bf3bc908fdb04853060f5b5ffd28518861857e724358",
+  "consulta_persistente": true,
+  "sin_api_real": true,
+  "sin_etabs_real": true,
+  "configuracion_qa": "Inyectar ServicioLecturas con fabrica sin_motor al arrancar servidor QA; modo doble requiere inyeccion explicita. No modificar evidencias.",
+  "limite": "Solo preparacion para QA navegador con datos sinteticos, no recorrido visual ni ingenieria.",
+  "intentos_previos": [
+    "tmp/qa_controles_140.log",
+    "tmp/qa_controles_140_reintento.log",
+    "tmp/qa_controles_141.log",
+    "tmp/qa_controles_142.log"
+  ]
+}

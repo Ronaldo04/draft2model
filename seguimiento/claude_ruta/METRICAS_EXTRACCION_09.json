@@ -1,0 +1,193 @@
+{
+ "tarea": "ruta253_tarea6_metricas_extraccion_esfuerzo",
+ "fecha": "2026-10-22",
+ "apis_ejecutadas_por_claude": 0,
+ "extraccion_vision": {
+  "intentos": [
+   {
+    "proveedor": "openai",
+    "numero": 1,
+    "modelo": "gpt-5.4",
+    "fecha_utc": "2026-10-21T08:15:43.698886+00:00",
+    "estado": "respuesta_pendiente_revision",
+    "tokens_entrada": 30174,
+    "tokens_salida": 2198,
+    "coste_usd": 0.108405,
+    "coste_base": "tarifa estándar sin caché (recibos 213/218/221; petición 2 por diferencia)",
+    "candidatos": 34,
+    "lecturas_aprobadas": 0
+   },
+   {
+    "proveedor": "openai",
+    "numero": 2,
+    "modelo": "gpt-5.4",
+    "fecha_utc": "2026-10-21T13:40:41.213522+00:00",
+    "estado": "fallido",
+    "tokens_entrada": 30338,
+    "tokens_salida": 8192,
+    "coste_usd": 0.198725,
+    "coste_base": "tarifa estándar sin caché (recibos 213/218/221; petición 2 por diferencia)",
+    "candidatos": null,
+    "lecturas_aprobadas": 0,
+    "etapas": {
+     "respuesta_cruda": {
+      "estado": "truncada",
+      "causa": "max_output_tokens8192",
+      "bytes_salida_parcial": 22241,
+      "candidatos": "no contados"
+     },
+     "importacion": "Ninguna; salida parcial conservada sin reparación silenciosa."
+    }
+   },
+   {
+    "proveedor": "openai",
+    "numero": 3,
+    "modelo": "gpt-5.4",
+    "fecha_utc": "2026-10-21T13:46:32.499840+00:00",
+    "estado": "respuesta_pendiente_revision",
+    "tokens_entrada": 10534,
+    "tokens_salida": 3792,
+    "coste_usd": 0.083215,
+    "coste_base": "tarifa estándar sin caché (recibos 213/218/221; petición 2 por diferencia)",
+    "candidatos": 60,
+    "lecturas_aprobadas": 0
+   },
+   {
+    "proveedor": "openai",
+    "numero": 4,
+    "modelo": "gpt-5.4",
+    "fecha_utc": "2026-10-21T13:51:06.803570+00:00",
+    "estado": "respuesta_pendiente_revision",
+    "tokens_entrada": 20957,
+    "tokens_salida": 6508,
+    "coste_usd": 0.1500125,
+    "coste_base": "tarifa estándar sin caché (recibos 213/218/221; petición 2 por diferencia)",
+    "candidatos": 102,
+    "lecturas_aprobadas": 0
+   },
+   {
+    "proveedor": "gemini",
+    "numero": 1,
+    "modelo": "gemini-3.8-flash",
+    "fecha_utc": "2026-10-21T14:01:28.725379+00:00",
+    "estado": "respuesta_pendiente_revision",
+    "tokens_entrada": 5271,
+    "tokens_salida": 3952,
+    "coste_usd": null,
+    "coste_base": "nivel gratuito declarado por el usuario (Free sin facturación confirmado por usuario); tarifa no aplicada",
+    "candidatos": 32,
+    "lecturas_aprobadas": 0
+   },
+   {
+    "proveedor": "gemini",
+    "numero": 2,
+    "modelo": "gemini-3.8-flash",
+    "fecha_utc": "2026-10-21T14:40:03.216626+00:00",
+    "estado": "fallido",
+    "tokens_entrada": 5642,
+    "tokens_salida": 6953,
+    "coste_usd": null,
+    "coste_base": "nivel gratuito declarado por el usuario (Free sin facturación confirmado por usuario); tarifa no aplicada",
+    "candidatos": null,
+    "lecturas_aprobadas": 0,
+    "etapas": {
+     "respuesta_cruda": {
+      "candidatos": 71,
+      "fuente": "DIAGNOSTICO_GEMINI_235"
+     },
+     "validacion_inicial": {
+      "estado": "fallida",
+      "invalidos": 12,
+      "importados": 0
+     },
+     "recuperacion_local": {
+      "adaptables": 59,
+      "cuarentena": 12,
+      "persistido": false,
+      "fuente": "REVISION_NORMATIVA_RECUPERACION_236",
+      "nota": "en memoria; no es extracción productiva ni importada"
+     }
+    }
+   }
+  ],
+  "denominadores": {
+   "peticiones": 6,
+   "fallidas_en_su_etapa_productiva": 2,
+   "respuestas_con_candidatos_crudos_contados": 5,
+   "candidatos_crudos_no_deduplicados": 299,
+   "candidatos_importados_o_registrados": 228,
+   "recuperacion_local_no_persistida": {
+    "adaptables": 59,
+    "cuarentena": 12
+   },
+   "nota": "OpenAI 2 truncada: sin candidatos parseables registrados (DIAGNOSTICO_TRUNCAMIENTO_215). Gemini 2: 71 crudos, validación inicial fallida (12 inválidos, 0 importados); 59+12 solo en recuperación local en memoria."
+  },
+  "lecturas_aprobadas_totales": 0,
+  "precision_recall": "NO VERIFICABLE: no existe anotación humana revisada de referencia; las revisiones de Codex/Claude no son anotación humana. Contar candidatos o JSON válido no mide exactitud.",
+  "cobertura_recortes_declarada": {
+   "openai_1": "5 de 7 recortes con lecturas (213)",
+   "openai_4": {
+    "e944f23a4aa44ff7add2a31ef307bac3": 19,
+    "f8e30e6d985440ad9625e25f328db917": 30,
+    "16499a8661ea4c9bbb5151e9ab044ca1": 15,
+    "87f3c0133e5f43d9b03d0de4b375293f": 8,
+    "24cae3497183480fac0249cff6a34b5b": 27,
+    "1d053fb87d1f4286b83ad17d68a1562e": 3
+   },
+   "gemini_1": {
+    "REC0001": 23,
+    "REC0002": 8,
+    "REC0003": 1
+   }
+  },
+  "coste_openai_usd_total": 0.5403575,
+  "coste_gemini": "0 facturado según nivel gratuito declarado por el usuario; sin tarifa aplicada",
+  "observaciones_de_recibos": [
+   "Recupera textos fc210,fy4200,fm35 y dimensionesC2..C6, parámetros de lámina. No asignar unidades/valideznormativa automáticamente.",
+   "Clasifica cantidades de barras6/8 y cargas200/150 como cota con unidad desconocida: requiere corrección semántica, no medidas geométricas.",
+   "Resultados previos impresos C054..C057 no deben usarse para calibración del modelo.",
+   "Integración real Gemini operativa para este envío y artefacto pendiente revisable. Cobertura insuficiente: no usar JSON válido como evidencia de lectura completa ni aprobación de ingeniería."
+  ]
+ },
+ "correccion_asistida": {
+  "reubicaciones": 1,
+  "lecturas_manuales": 1,
+  "detalle": "EVIDENCIA_ANTES_DESPUES_08: reubicación de C039 (región vacía → con trazos) y alta manual de f'c 175 omitida por las extracciones; vacías 42 → 41. Ingresos de Claude (asistente), no de la IA original ni de un humano.",
+  "revision": "pendiente (no aprobadas)"
+ },
+ "ruta_geometria_del_piloto": {
+  "fuente": "vectores de los PDF (inventario vectorial + reglas de geometria_09*.py), NO salidas de visión",
+  "muros_inventariados": 8,
+  "nota": "La geometría del piloto no depende de lecturas de visión aprobadas (no hay ninguna). Decisiones del usuario: arcilla King-Kong, alturas 0/2,60/5,20/7,80/10,40 y 16 contrahuellas solo del primer tramo."
+ },
+ "tiempos_de_etapa": {
+  "malla_09d_v3_s": 311.1,
+  "construccion_09t4_min_estimada": 34.6,
+  "relectura_09t4_min_cota_superior": 24.5,
+  "metodo": "malla: recibo; construcción/relectura: fechas de modificación de plan.json → modelo.EDB → relectura_resultado.json (estimación; incluye esperas). Extracción/revisión humana: sin cronómetro registrado → no medido.",
+  "marcas": {
+   "tmp/recorrido_09t4/plan.json": "2026-10-22T11:29:55",
+   "tmp/recorrido_09t4/modelo.EDB": "2026-10-22T12:04:30",
+   "tmp/recorrido_09t4/relectura_resultado.json": "2026-10-22T12:29:00"
+  }
+ },
+ "no_afirma": [
+  "exactitud de la extracción",
+  "benchmark",
+  "costo de horas humanas",
+  "comparación con el modelo ETABS manual (aplazada)"
+ ],
+ "fuentes_sha256": {
+  "seguimiento/CONSUMO_API_211.json": "413b9c712c4b85cc29b1a74b095372718dc73d41bf9b990d956c407cd5473619",
+  "seguimiento/PRIMERA_EXTRACCION_REAL_213.json": "f2b986aee669e65f762965477926fd6ff4ddcb922e7a28b3a2441058ba85f400",
+  "seguimiento/TERCERA_EXTRACCION_REAL_218.json": "323f574fbb3b568d3eb3217ceaddbeef459cd9ce3f23eb6365331e0ef86a8ee5",
+  "seguimiento/CUARTA_EXTRACCION_REAL_221.json": "058ca60261e8340c25b73572b24f4f8adc5f01455334a2dc124626f4e60dda1f",
+  "seguimiento/PRIMERA_EXTRACCION_GEMINI_224.json": "ba28cc8b10e5f2e94bff9c9f263243a49192ecbd24785d11c834dbeb3c4d99c3",
+  "seguimiento/claude_ruta/EVIDENCIA_ANTES_DESPUES_08.json": "d32b2f2268532a8060a0edd25c62d8ed73344efb83de583a20ca7ddaae198b5b",
+  "seguimiento/claude_ruta/MUROS_09.json": "3176f94d1f186c3ec0930082da74c6cf0b36f2371d89ff8ffb6c474f33a347de",
+  "seguimiento/DIAGNOSTICO_GEMINI_235.json": "9d4530d6dd99d147b5345ee664798d991ac148fbdbbf3c8cfc3ba89b63527a7c",
+  "seguimiento/REVISION_NORMATIVA_RECUPERACION_236.json": "a4e8e2844406bdd68964838fae1922b36119804ed8eb8b21d97d17ae9c48f4a8",
+  "seguimiento/DIAGNOSTICO_TRUNCAMIENTO_215.json": "d2b2b9ccd32e0df6c2c0c974137ffa36d6b80548338830d1b77d4ca182793dc7",
+  "tmp/ruta201/malla_real_09dt.json": "29a357fc835fc89ff662ba274ff5e418c1c66184092232dcdb4c9332209e476f"
+ }
+}

@@ -1,0 +1,38 @@
+{
+  "fecha_utc": "2026-10-23T21:33:00.701330+00:00",
+  "tipo": "QA parcial de candidato fijo, no aceptación final",
+  "runtime": "tmp/runtime_qa_299",
+  "huella_fuentes": "894b99728fbd10efd8cee3f90ac08ef787279106751516d29785ff0eecbd8959",
+  "archivos": 593,
+  "caso": "pueblo-libre-002",
+  "seleccion_inicial_hasta_retorno_accion_ms": 489,
+  "segunda_seleccion_hasta_opcion_resultado_ms": 856,
+  "segunda_seleccion": "caliente; espera DOM de opción697bb37e9ce64f90ba1ef3e25733c8cc, no validación semántica de contenido",
+  "inventario": {
+    "modelos": 3,
+    "resultados": 1
+  },
+  "8historiales": "texto sin consultar observado, actualización explícita disponible; no se pulsaron actualizaciones",
+  "captura": "seguimiento/QA_SELECCION_REAL_299.png",
+  "apertura_resultado": "Terminó sin recargar:13filas con valores/unidades exactamente iguales al JSON normalizado real; revisión pendiente. No mide duración exacta de apertura.",
+  "servidor": {
+    "exec": 7665,
+    "url": "http://127.0.0.1:18299/",
+    "host": true,
+    "estado": "Cerrado intencionalmente tras QA parcial: no nuevo error de resultado ni prueba de finalización de consultas secundarias."
+  },
+  "incidente_entorno": "Servidor inicial sandbox exec54497 accesible solo como listener, consulta internaWin10013 y hosttimeout. Cerrado intencionalmente; mismo runtime en host responde200/75635bytes. Pestaña5 quedó en error de conexión; nueva7 accede. No cambio de firewall ni políticas.",
+  "etabs_ejecutado": false,
+  "api_remota": false,
+  "goal_completo": false,
+  "regresion_frontend_copia_fija": {
+    "comando": "node tests/revision_historiales_293_frontend.cjs",
+    "pruebas": 25,
+    "exit": 0,
+    "alcance": "DOM/HTTP simulados; selector no consulta8historiales, Actualizar explícito, descarte obsoleto, error de apertura sin publicar. No prueba servidor alterado ni ETABS."
+  },
+  "captura_resultados": "seguimiento/QA_RESULTADOS_REALES_299.png",
+  "filas_observadas": "seguimiento/FILAS_UI_299.json",
+  "descarga_JSON": "Click único realizado en resultadoDescargar; archivo no encontrado en ubicación Downloads esperada. No dar descarga por confirmada ni repetir click.",
+  "analisis_para_informe": "Selector de evidencia todavía sin opciones; no se creó borrador sin vínculo. Consultas dependientes pueden seguir pendientes."
+}

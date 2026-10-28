@@ -1,0 +1,42 @@
+{
+  "caso": "provisional-001",
+  "alcance": {
+    "estado": "fuera_mvp_declarado",
+    "uso": "pruebas_procesamiento",
+    "motivos": [
+      "Sistema constructivo y cantidad de pisos fuera del MVP, según declaración."
+    ]
+  },
+  "procedencia": {
+    "tipo": "expediente",
+    "descripcion": "Referencia humana de los originales de Pueblo Libre; no contiene respuestas de IA."
+  },
+  "paginas": [
+    {
+      "archivo_id": "L0001",
+      "nombre": "Estructuras_Pueblo Libre1-Cimentación.pdf",
+      "pagina": 1,
+      "original_sha256": "ff669f23633b7c355bc7d89ea60809856df7e29a5b4019204307f7deef9ba8f5",
+      "imagen_sha256": "0436282238faf2cf4521950e40b36fe5f6447ed2332a23f88aae847ee414fd12",
+      "imagen": "imagenes/archivo-0001-pagina-0001.png"
+    },
+    {
+      "archivo_id": "L0002",
+      "nombre": "Estructuras_Pueblo Libre1-Model.pdf",
+      "pagina": 1,
+      "original_sha256": "d655e6c5f2c8998a2049b300b83a65a62962c5de03a622bfd9978fd4a8f074fa",
+      "imagen_sha256": "569efb41677be4ddc8504916461f8c28757acac007df307f4710a9387f3e77d4",
+      "imagen": "imagenes/archivo-0002-pagina-0001.png"
+    },
+    {
+      "archivo_id": "L0003",
+      "nombre": "Estructuras_Pueblo Libre1.pdf",
+      "pagina": 1,
+      "original_sha256": "fb4284e82b7a55f4faeb4e9917269b37e94336c0788562873385e7e21c67a134",
+      "imagen_sha256": "4f0c30d7b4193856ce77f79f3f8be1dafa842f8c80c1a91941cb4c68fe347d6e",
+      "imagen": "imagenes/archivo-0003-pagina-0001.png"
+    }
+  ],
+  "observaciones_anotadas": 0,
+  "revision_humana_realizada": false
+}

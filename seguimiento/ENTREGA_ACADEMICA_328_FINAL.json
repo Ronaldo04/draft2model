@@ -1,0 +1,23 @@
+{
+  "archivo": "entregas\\AECODE_PRESENTACION_328_FINAL.zip",
+  "sha256": "6a1dc4f39d24839fb03bf5be252734fe975327fb4cf4ba82f1f12be0cd734949",
+  "bytes": 97544769,
+  "archivos_sin_manifiesto": 74,
+  "validacion": {
+    "enlaces_comprobados": 11,
+    "enlaces_rotos": [],
+    "integridad_programa_y_caso": {
+      "estado": "integridad_verificada_no_aceptacion_funcional",
+      "huella_fuentes": "3465f8d19e39107bf169f2ebede6b6d072949258154029ec74a7c79d1fc88bd0",
+      "caso": "pueblo-libre-002",
+      "archivos_fuentes": 609,
+      "archivos_complemento": 34,
+      "aprueba_ingenieria": false
+    },
+    "cuatro_evaluaciones_cli_identicas": true,
+    "revision_humana_realizada": false,
+    "codigo_y_edb_modificados": false
+  },
+  "goal_completo": false,
+  "aclaracion_modelo": "Resultados condicionados a modelo/hipótesis; no juicio de seguridad del edificio ni RNE integral."
+}

@@ -1,0 +1,14 @@
+{
+  "comparacion": "303 y306",
+  "metodos_semanticamente_identicos_AST": {
+    "_fuente": true,
+    "_leer_version": true,
+    "crear": true,
+    "consultar": true,
+    "archivo": true,
+    "aprobar": true,
+    "cliente_descarga": true
+  },
+  "limite": "La comparación no sustituye QA de los cambios de inventario; estos tienen pruebas y observación306 separadas.",
+  "descarga": "Archivo real Chrome303 de117212B coincide con SHA publicado. No afirmar descarga306 observada."
+}

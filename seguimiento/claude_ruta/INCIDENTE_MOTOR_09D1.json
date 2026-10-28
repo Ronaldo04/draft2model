@@ -1,0 +1,36 @@
+{
+  "incidente": "instancia_de_analisis_propia_abierta_y_motor_incierto",
+  "fecha": "2026-10-22",
+  "hechos": [
+    "El puente scripts/analizar_modelo_etabs.ps1 guarda y reabre el resultado pero no cierra su instancia nueva: PID 35120 (analisis 7203c79a) siguió abierto tras la etapa.",
+    "La lectura de masa del runner (d4a9f336, PID 38216) falló por 'Tabla sin campo de caso admitido' y dejó motor.lock.incierto.json (lectura_no_confirmada); su proceso ya no existía.",
+    "La cadena resultados_09.py se detuvo correctamente por ErrorBloqueo ante el motor incierto (no se eludió)."
+  ],
+  "acciones": [
+    "Cierre verificado de la instancia propia 35120 (modelo observado = analizado.EDB de 7203c79a; SHA = aceptación; CIERRE_PROPIO_CONFIRMADO; proceso terminado).",
+    "Recuperación registrada con confirmar_recuperacion (evidencia renombrada .resuelto.25e2e3bb…, no borrada).",
+    "Runner: cierre verificado de su instancia de análisis tras la etapa (fases.analisis.cierre_instancia_propia); lectura de masa con tabla con campo de caso."
+  ],
+  "instancias_ajenas": "6988, 23928, 38168 intactas",
+  "pendiente_producto": "resuelto en el flujo general (ver correccion_flujo_general); pendiente de una ejecución real con ETABS que lo ejercite",
+  "hashes": {
+    "tmp/recorrido_09d1/cierre_analisis_35120.log": "bd3560855c9883cdbf5c412644dfdc4b010754785172dc1d011a1756e2552d0d",
+    "tmp/d2/motor.lock.incierto.json.resuelto.25e2e3bb21154882836cdad634e781e8": "cec91d85b077ac9baf21c2c9dbd3c6303b0b32f5064e3e432f32e95c2150862d",
+    "tmp/d2/motor.lock.incierto.json.resuelto.25e2e3bb21154882836cdad634e781e8.recuperacion.json": "49a94d64c4f935d385d3acafa22318fdfe44aa7f1b44c65128428a8c88379da5",
+    "seguimiento/claude_ruta/recorrido_etabs_09t.py": "9783a6b7da597a7387c414bf0d2904b396ed713857b9cc3009c1e1989b369f7d"
+  },
+  "correccion_flujo_general": {
+    "fecha": "2026-10-22",
+    "scripts/analizar_modelo_etabs.ps1": "registra PID+inicio de la instancia que crea; en finally ApplicationExit(false) solo si el PID y su inicio coinciden, WaitForExit(30 s); declara datos.instancia_cerrada=true; un cierre no confirmado convierte la respuesta en error (cierre_propio). Sin Stop-Process.",
+    "draft2model/analisis_etabs.py": "en modo real no acepta el análisis sin instancia_cerrada=true, id_proceso entero e inicio_proceso_utc; los dobles conservan su contrato.",
+    "runner": "si la respuesta declara el cierre, no hace cierre externo; con respuestas antiguas mantiene el cierre externo verificado.",
+    "pruebas": "tests/test_cierre_analisis_267.py (7 + guion estático) y suites de análisis/evidencia/verificación: 48 OK; runner 16 OK",
+    "no_reinterpreta": "los registros históricos (7203c79a y anteriores) NO se declaran cerrados por el puente; 35120 se cerró externamente (cierre_analisis_35120.log)",
+    "hashes": {
+      "scripts/analizar_modelo_etabs.ps1": "9a168b8addc209edc7679968e8979904b2ca6c60e82beb22583580f6082f27fb",
+      "draft2model/analisis_etabs.py": "96e15b7f7b01f117ce8308d0504cec51bd67ae386314f7d286ef08f617a3814b",
+      "tests/test_cierre_analisis_267.py": "9f06111ec9fb3b84ab0e4fe46627efaea40d6d8c36e33002cd4059cf3c919281",
+      "seguimiento/claude_ruta/recorrido_etabs_09t.py": "1b4d8a927bbf71e77f1d6d5bdeac4fa3870fd2dab171a680808c910bfa9f84a1"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "estado": "candidato_rechazado_y_fuentes_restauradas",
+  "antes_s": 205.3909687999403,
+  "corregido_s": 210.17872960004024,
+  "metodo": "Una consulta real por variante bajo cProfile; no es un SLA ni un benchmark estadístico",
+  "conclusion": "El microensayo no se traslada a una mejora real. No publicar la optimización ni afirmar velocidad2x.",
+  "perfil_original": "seguimiento/PERFIL_MODELO_323.json",
+  "perfil_corregido": "seguimiento/PERFIL_MODELO_323_corregido324.json",
+  "candidato_conservado": "seguimiento/candidato_no_aceptado_323/",
+  "fuentes_restauradas": "Todos los archivos públicos de322, excepto wheels externos, SHA coincidente con MANIFIESTO322",
+  "procesos": {"perfil79735": "cancelado_terminal1", "global45942": "cancelado_terminal1_descendientes_ausentes", "perfil79524": "terminal0"},
+  "siguiente_diagnostico": "El coste principal es regenerar la malla y repetir particiones/compatibilidad. Evaluar reutilización pura acotada dentro del contexto, manteniendo comparación completa de la geometría y rechazo de mutaciones; no cachear evidencias externas.",
+  "etabs_abierto": false,
+  "llamadas_api": 0,
+  "goal_completo": false
+}

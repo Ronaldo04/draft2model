@@ -1,0 +1,56 @@
+{
+  "fecha_utc": "2026-10-28T00:36:01.387Z",
+  "revision": 354,
+  "estado": "focal_ok",
+  "producto_sha256": {
+    "draft2model/revision_web/parametros.js": "b14a17085c079b1da352599873f35de689644ac4a5295c4a6053ff4bc4e1644e",
+    "draft2model/revision_web/preparacion_configuracion.js": "45019b24be83069c27f3555d4706aa0b8b7333e795269041d09cf15aae32b28b"
+  },
+  "prueba_sha256": "c430fc5e357999e106b42ed3d1a4647e2048f0386b5ee4c5d24f7e52929efed7",
+  "comando": "node tests/parametros_354_frontend.cjs",
+  "pruebas": [
+    {
+      "prueba": "Preparar es local; navegar/preparar no ejecuta proveedor",
+      "ok": true
+    },
+    {
+      "prueba": "Consentimiento realiza un solo envío; error no genera retry",
+      "ok": true
+    },
+    {
+      "prueba": "Cuota cero impide enviar aunque se prepare y consienta",
+      "ok": true
+    },
+    {
+      "prueba": "Evento de hijo conserva preparación origen y SHA de configuración",
+      "ok": true
+    },
+    {
+      "prueba": "Edición sin guardar bloquea preparar/enviar y protege textarea ante hijo",
+      "ok": true
+    },
+    {
+      "prueba": "Aplicación en vuelo sobre otra rama notifica sin reemplazarla",
+      "ok": true
+    },
+    {
+      "prueba": "Respuesta tardía de otro caso no publica hijo ni reactiva lectura",
+      "ok": true
+    },
+    {
+      "prueba": "Sondeo antiguo del mismo caso no sustituye lectura seleccionada",
+      "ok": true
+    }
+  ],
+  "aprobadas": 8,
+  "fallidas": 0,
+  "apis_reales": 0,
+  "etabs": false,
+  "gui": false,
+  "limites": [
+    "DOM y API simulados; no acredita navegador/HTTP reales",
+    "Producto solo leído; snapshots congelados al inicio",
+    "No suite completa; no llamadas reales ni claves",
+    "La disponibilidad de rutas y controles backend no se valida en esta revisión"
+  ]
+}

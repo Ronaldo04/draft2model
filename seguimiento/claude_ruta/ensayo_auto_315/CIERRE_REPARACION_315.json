@@ -1,0 +1,12 @@
+{
+  "fecha_utc": "2026-10-24T08:24:11.9882377Z",
+  "pid": 44832,
+  "inicio_esperado": "2026-10-24T08:08:55.6800492Z",
+  "harness_38060_vivo": false,
+  "estado": "ya_no_existe",
+  "etabs_tras": [
+    6988,
+    23928,
+    38168
+  ]
+}

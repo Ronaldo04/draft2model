@@ -1,0 +1,11 @@
+# Informes desde la revisión local
+
+La pantalla de resultados permite seleccionar evidencia de análisis opcional, introducir título, hipótesis y faltantes, crear un borrador nuevo y descargar su PDF o JSON. La generación no ejecuta ETABS. Las reglas normativas y el sitio aún están pendientes en este recorrido; el borrador lo indica expresamente y no aprueba resultados.
+
+`ServicioEntregables` comprueba el resultado vigente, geometría, expediente y, si se selecciona, análisis aceptado dentro de `caso/analisis_etabs/<uuid>`. Genera nuevas versiones en `caso/informes/<uuid>` con JSON/HTML/PDF y manifiesto SHA256. La consulta y descarga revalidan artefactos y fuentes; un archivo alterado bloquea la descarga. No sobrescribe versiones anteriores. Esto detecta cambios, sin autenticar al productor de todo el conjunto de evidencias.
+
+Rutas con sesión local, Host y Origin: POST `/api/informe/crear`; GET `/api/analisis`, `/api/informes`, `/api/informe`, `/api/informe/archivo`. Crear exige exactamente `{caso, resultado, expediente_sha256, contexto, analisis}`. El contexto del formulario contiene `{titulo, hipotesis, faltantes, sitio:null}`; `analisis` es null o UUID32. Las consultas incluyen caso, huella vigente y resultado o versión según la ruta. La descarga acepta solo pdf/html/json y usa attachment; los errores HTTP no exponen rutas.
+
+Validación: seis pruebas de servicio/HTTP pasaron en4.964s (`tmp/pruebas_entregables_http_057.log`). Cubren nueva versión, historial, contenido PDF/JSON, sesión, huella, evidencia opcional, alteración de PDF/EDB/original y asset JS. Node `tests/revision_informes_frontend.cjs` comprueba descarte de éxito/error tardío al cambiar expediente o informe, descarga vigente y limpieza de selección. No se ha realizado inspección visual de esta nueva pantalla ni se atribuye revisión de ingeniería a las pruebas sintéticas.
+
+Revisión cruzada posterior: se reforzó igualdad del snapshot geométrico con la fuente y se revalidan fuentes al final de la consulta y tras leer la descarga. Nueve pruebas conjuntas de entregables y construcción HTTP pasaron en10.122s (`tmp/revision_integrada_web_059.log`), incluidas las regresiones de snapshot alterado y cambio de original durante la validación.

@@ -1,0 +1,208 @@
+{
+  "contrato": "draft2model.plan_modelado",
+  "version_contrato": "0.1.0",
+  "caso": "sintetico-001",
+  "ejecutable_en_etabs": false,
+  "estado_origen": "consistente_con_faltantes",
+  "origen": {
+    "contrato": "draft2model.geometria",
+    "version_contrato": "0.1.0",
+    "huella_contenido": "0777de18ee136407ceeac9db451d7ba152ee23a06d019ede41f417000e6d151f",
+    "validacion": {
+      "consistente": true,
+      "disponible_para_modelado": false,
+      "datos_sinteticos": true,
+      "errores": [],
+      "advertencias": [
+        {
+          "ruta": "$.procedencia.tipo",
+          "codigo": "datos_sinteticos",
+          "mensaje": "Datos sintéticos: solo sirven para probar software, no representan una vivienda."
+        }
+      ],
+      "faltantes": [
+        {
+          "origen": "declarado",
+          "coleccion": "muros",
+          "id": "M4",
+          "campo": "espesor",
+          "descripcion": "Espesor no disponible en la fuente sintética; no se completa."
+        }
+      ],
+      "bloqueos": [
+        "Hay 1 dato(s) faltante(s); no se completan automáticamente.",
+        "Revisión en estado 'borrador'; se requiere aprobación explícita."
+      ]
+    },
+    "revision": {
+      "estado": "borrador",
+      "aprobacion_registrada": false,
+      "aprobacion_vigente": false,
+      "nota": "Estado de la geometría de origen; no es una aprobación del plan."
+    }
+  },
+  "unidades": {
+    "longitud": "m",
+    "area": "m2",
+    "unidad_longitud_origen": "m",
+    "coordenadas": "x, y en planta según el contrato de geometría; z = cota del nivel. No son coordenadas de imagen."
+  },
+  "procedencia": {
+    "tipo": "sintetico",
+    "descripcion": "Geometría SINTÉTICA para probar el contrato y su validador. No proviene de planos ni representa una vivienda real."
+  },
+  "orden_vertices": [
+    "inicio_inferior",
+    "fin_inferior",
+    "fin_superior",
+    "inicio_superior"
+  ],
+  "superficies": [
+    {
+      "muro_id": "M1",
+      "naturaleza": "propuesta_geometrica",
+      "nodo_inicio": "A",
+      "nodo_fin": "B",
+      "nivel_inferior": "N0",
+      "nivel_superior": "N1",
+      "espesor_m": 0.15,
+      "longitud_m": 4.0,
+      "altura_m": 2.6,
+      "area_bruta_m2": 10.4,
+      "vertices_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          4.0,
+          0.0,
+          0.0
+        ],
+        [
+          4.0,
+          0.0,
+          2.6
+        ],
+        [
+          0.0,
+          0.0,
+          2.6
+        ]
+      ],
+      "procedencia": {
+        "tipo": "sintetico",
+        "descripcion": "Geometría SINTÉTICA para probar el contrato y su validador. No proviene de planos ni representa una vivienda real."
+      },
+      "procedencia_declarada_en": "contrato"
+    },
+    {
+      "muro_id": "M2",
+      "naturaleza": "propuesta_geometrica",
+      "nodo_inicio": "B",
+      "nodo_fin": "C",
+      "nivel_inferior": "N0",
+      "nivel_superior": "N1",
+      "espesor_m": 0.15,
+      "longitud_m": 3.0,
+      "altura_m": 2.6,
+      "area_bruta_m2": 7.800000000000001,
+      "vertices_m": [
+        [
+          4.0,
+          0.0,
+          0.0
+        ],
+        [
+          4.0,
+          3.0,
+          0.0
+        ],
+        [
+          4.0,
+          3.0,
+          2.6
+        ],
+        [
+          4.0,
+          0.0,
+          2.6
+        ]
+      ],
+      "procedencia": {
+        "tipo": "sintetico",
+        "descripcion": "Geometría SINTÉTICA para probar el contrato y su validador. No proviene de planos ni representa una vivienda real."
+      },
+      "procedencia_declarada_en": "contrato"
+    },
+    {
+      "muro_id": "M3",
+      "naturaleza": "propuesta_geometrica",
+      "nodo_inicio": "C",
+      "nodo_fin": "D",
+      "nivel_inferior": "N0",
+      "nivel_superior": "N1",
+      "espesor_m": 0.15,
+      "longitud_m": 4.0,
+      "altura_m": 2.6,
+      "area_bruta_m2": 10.4,
+      "vertices_m": [
+        [
+          4.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.0,
+          2.6
+        ],
+        [
+          4.0,
+          3.0,
+          2.6
+        ]
+      ],
+      "procedencia": {
+        "tipo": "sintetico",
+        "descripcion": "Geometría SINTÉTICA para probar el contrato y su validador. No proviene de planos ni representa una vivienda real."
+      },
+      "procedencia_declarada_en": "contrato"
+    }
+  ],
+  "omisiones": [
+    {
+      "muro_id": "M4",
+      "motivo": "datos_faltantes",
+      "faltantes": [
+        {
+          "coleccion": "muros",
+          "id": "M4",
+          "campo": "espesor"
+        }
+      ]
+    }
+  ],
+  "cobertura": "parcial",
+  "bloqueos": [
+    "1 de 4 muro(s) sin superficie; ver 'omisiones'. No se completan datos.",
+    "La geometría de origen tiene faltantes declarados.",
+    "ejecutable_en_etabs es false: el adaptador ETABS y la representación estructural no están implementados ni verificados.",
+    "El plan derivado no tiene revisión ni aprobación propias."
+  ],
+  "limitaciones": [
+    "Las superficies son propuestas geométricas; no equivalen a objetos, secciones ni ejes locales de ETABS.",
+    "Faltan representación estructural, materiales, secciones, cargas, masa, condiciones de borde, diafragmas y la verificación del adaptador ETABS.",
+    "El área geométrica bruta es longitud por altura del rectángulo; no descuenta aberturas y no determina peso, masa ni resistencia.",
+    "El contrato de geometría v0.1 no indica si los nodos representan el eje o una cara del muro: la superficie pasa por los nodos y el espesor se informa sin aplicarse a la posición.",
+    "No se infieren tipología, materiales, cargas, parámetros sísmicos ni admisibilidad por número de pisos.",
+    "El plan no tiene revisión ni aprobación propias; una aprobación geométrica no se transfiere al plan."
+  ],
+  "aprobacion_plan": null
+}

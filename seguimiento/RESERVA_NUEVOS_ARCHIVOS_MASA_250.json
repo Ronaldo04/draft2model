@@ -1,0 +1,15 @@
+{
+  "fecha": "2026-10-22",
+  "responsable": "Codex",
+  "alcance": "Tres archivos nuevos independientes; no modificar archivos existentes que Claude integra.",
+  "archivos": [
+    "draft2model/masa_contenido.py",
+    "tests/test_masa_contenido.py",
+    "docs/MASA_CONTENIDO.md"
+  ],
+  "estado": "estable_codex_biblioteca_sin_consumidores",
+  "base": "Candidato249 revisado por Codex con15pruebas y un rechazo sobre hosts archivados; ausencia de los3destinos comprobada antes de crearlos.",
+  "integracion": "No se conectan validadores/planes/UI/lectores ni configuración real. Claude conserva esos archivos. Coordinar incorporación del enlace cuando Computer Use esté autorizado.",
+  "decision": "Se porta una biblioteca pura sin consumidores nuevos para avanzar código sin solapamiento. La espera de coordinación del contrato no impide crear archivos independientes; no se presenta como integración completa ni acuerdo recibido de Claude.",
+  "resultado": "seguimiento/PORTADO_MASA_250.json"
+}

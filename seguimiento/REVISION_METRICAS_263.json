@@ -1,0 +1,27 @@
+{
+  "fecha_utc": "2026-10-22T18:06:07.421766+00:00",
+  "archivo": "seguimiento\\claude_ruta\\METRICAS_EXTRACCION_09.json",
+  "sha256_revisado": "563deee7436c686bae982d0412e8fe17a7ab26f5b199a42140bb1a337684d4a7",
+  "observado_en_metrica": {
+    "proveedor": "gemini",
+    "numero": 2,
+    "modelo": "gemini-3.8-flash",
+    "fecha_utc": "2026-10-21T14:40:03.216626+00:00",
+    "estado": "fallido",
+    "tokens_entrada": 5642,
+    "tokens_salida": 6953,
+    "coste_usd": null,
+    "coste_base": "nivel gratuito declarado por el usuario (Free sin facturación confirmado por usuario); tarifa no aplicada",
+    "candidatos": 0,
+    "lecturas_aprobadas": null
+  },
+  "contraste": {
+    "candidatos_crudos": 71,
+    "adaptables_en_memoria": 59,
+    "cuarentena": 12,
+    "persistido_segun_recibo236": false
+  },
+  "correccion_requerida": "Separar fallo inicial de validación,71candidatos originales y59/12en recuperación local no persistida según236. No informar0candidatos ni cambiar el fallo histórico por éxito productivo. Revisar denominadores por etapa y no reenviarAPI.",
+  "apis_remotas": 0,
+  "etabs": false
+}

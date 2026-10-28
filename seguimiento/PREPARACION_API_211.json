@@ -1,0 +1,15 @@
+{
+  "modelo": "gpt-5.4",
+  "imagenes": 10,
+  "max_output_tokens": 8192,
+  "entrada_cota_conservadora_tokens": 36832,
+  "coste_cota_conservadora_usd": 0.21495999999999998,
+  "reserva_por_intento_usd": 1,
+  "peticion_sha256": "b71f4b572321bbaa1d6917f6d5369486de752cce97dc05e78a37cdecd9848b35",
+  "fuentes_precio": [
+    "https://developers.openai.com/api/docs/models/gpt-5.4",
+    "https://developers.openai.com/api/docs/guides/images-vision"
+  ],
+  "fecha_consulta": "2026-10-21",
+  "llamadas_realizadas_por_esta_preparacion": 0
+}

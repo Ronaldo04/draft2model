@@ -1,0 +1,26 @@
+{
+  "fecha_utc": "2026-10-24T02:46:56.506960+00:00",
+  "huella_fuentes": "105d172afa510864e7487b7721f31e369467c49c2a2f67d310efa44f169ccd79",
+  "archivos": 599,
+  "fuentes_intactas": true,
+  "validacion_local_completa": true,
+  "python_pruebas": 1424,
+  "python_segundos": 1107.104,
+  "frontend_pruebas": 36,
+  "omisiones": [],
+  "entorno": "Entorno nuevo offline303 reutilizado; lock y wheels idénticos. No es una nueva instalación306.",
+  "integridad_conjunto": "seguimiento/REVISION_CONJUNTO_306.json",
+  "evidencias_sha256": {
+    "dependencias.log": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+    "arranque_cli.log": "5e6d8abc97dd06be3e20a6e526b52bc353bb6eb180166193e12a059eb796a53d",
+    "powershell_scripts.log": "926cd16db94f6e4035e6b5f41c7e93e107e456a274ad77e1ed1c26bdd2b3882f",
+    "suite.log": "a287bcdf8e2cfadee47aedcfe208a3a5e2f5b68280a6b0a6e45343320fb2a93c",
+    "interfaz.log": "5d4a5b678d3ad83bddf42f5044001a2a22584a048db9dd10a519f958696dfd1b",
+    "verificacion_global.json": "0cc93c6233dd2790afb4ed1fd9aafcc80e0d33875f0adf174cc088604b5bb125"
+  },
+  "qa306": "pendiente: apertura de resultados solicitada una vez en IAB18306",
+  "descarga_real": "pendiente confirmación y archivo Chrome; no acreditada por API ni publicación",
+  "etabs_nuevo_ejecutado_en_esta_suite": false,
+  "aprueba_ingenieria": false,
+  "goal_completo": false
+}

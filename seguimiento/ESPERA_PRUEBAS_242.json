@@ -1,0 +1,11 @@
+{
+  "estado": "espera_verificada",
+  "pid_pruebas": 32164,
+  "pid_padre": 25420,
+  "creacion_host_local": "2026-10-21 18:07:06",
+  "evidencia": "Win32_Process confirmó comando unittest sin divulgarlo. Get-Process obtuvo StartTime; Wait-Process45s; al terminar la espera seguía el mismo PID con el mismo StartTime.",
+  "reiniciado": false,
+  "computer_use": false,
+  "sesion_espera_codex": "59369 terminada exit0; no es la sesión de Claude ni su código de salida",
+  "siguiente": "Comprobar marcador; si no existe, revalidar este PID/inicio antes de esperar. No atribuir resultado ni reiniciar por ausencia de log."
+}

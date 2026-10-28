@@ -1,0 +1,19 @@
+{
+  "estado": "candidato_probado_no_integrado",
+  "pruebas_observadas": [
+    "resultado_visible_antes_que_modelos",
+    "error_modelos_aislado",
+    "caso_anterior_no_sobrescribe",
+    "regresiones_existentes_exito_error_y_descarga"
+  ],
+  "comando": "node seguimiento/test_listados_270.cjs",
+  "resultado": "exit0",
+  "fuentes_sha256": {
+    "tmp/candidato_listados_270/resultados.js": "3c0b7f9f1b109e5d246f5bcfef1a4eaafdc0cbbca728328e1c030e343e927634",
+    "seguimiento/test_listados_270.cjs": "4a5ea0ab0aec94e287905d5197d35727e074939021f017812378db36ee23eb5b",
+    "seguimiento/CONTINUACION_CLAUDE_270_LISTADOS.md": "00cef65bfc525cc98bffc3a731282f41f4e3c0bf04e490b479328286013d896e"
+  },
+  "producto_modificado": false,
+  "limite": "DOM y HTTP simulados. QA real del runtime269 original sigue pendiente de respuestas de listados.",
+  "goal_completo": false
+}

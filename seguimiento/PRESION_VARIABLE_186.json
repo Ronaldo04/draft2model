@@ -1,0 +1,149 @@
+{
+  "estado": "ensayo_real_presion_parcial_equilibrado_con_corte",
+  "datos_sinteticos": true,
+  "modo": "real",
+  "tabla": "Area Load Assignments - Non-uniform",
+  "version_tabla": 1,
+  "caso_solicitado": "HIDRO",
+  "caso_interno_observado": "~LLRF",
+  "sin_corte": {
+    "proceso": [
+      18180
+    ],
+    "cierres": true,
+    "importacion_errores": 0,
+    "equilibrio": {
+      "ensayo": "muro4x3_hueco1x1_gamma10_nivel1.5",
+      "datos_sinteticos": true,
+      "piezas_cargadas": 12,
+      "reacciones": 12,
+      "fuerza_reaccion_kn": [
+        0.0,
+        62.49999999999971,
+        0.0
+      ],
+      "momento_reaccion_origen_kn_m": [
+        -47.91666666666607,
+        0.0,
+        127.08333333333272
+      ],
+      "esperado_fuerza_kn": [
+        0,
+        43.75,
+        0
+      ],
+      "esperado_momento_kn_m": [
+        -21.041666666666668,
+        0,
+        88.125
+      ],
+      "residuo_fuerza_kn": [
+        0.0,
+        18.74999999999971,
+        0.0
+      ],
+      "residuo_momento_kn_m": [
+        -26.8749999999994,
+        0.0,
+        38.95833333333272
+      ],
+      "umbral_computacional": 1e-07,
+      "equilibrio_ensayo_sintetico": false,
+      "aprueba_modelo": false,
+      "aprueba_ingenieria": false,
+      "limites": [
+        "Solo balance estático del ensayo sintético; no prueba tensiones/deformaciones/convergencia ni proyecto real."
+      ],
+      "sha256_registro": "87b029db015a7c724b058615445a6ea67946fb43017f326f6e01245298efbdcf"
+    }
+  },
+  "con_corte": {
+    "proceso": [
+      28100
+    ],
+    "cierres": true,
+    "equilibrio": {
+      "ensayo": "muro4x3_hueco1x1_gamma10_nivel1.5",
+      "datos_sinteticos": true,
+      "piezas_cargadas": 22,
+      "reacciones": 19,
+      "fuerza_reaccion_kn": [
+        0.0,
+        43.749999999999346,
+        0.0
+      ],
+      "momento_reaccion_origen_kn_m": [
+        -21.04166666666556,
+        0.0,
+        88.12499999999937
+      ],
+      "esperado_fuerza_kn": [
+        0,
+        43.75,
+        0
+      ],
+      "esperado_momento_kn_m": [
+        -21.041666666666668,
+        0,
+        88.125
+      ],
+      "residuo_fuerza_kn": [
+        0.0,
+        -6.536993168992922e-13,
+        0.0
+      ],
+      "residuo_momento_kn_m": [
+        1.1084466677857563e-12,
+        0.0,
+        -6.252776074688882e-13
+      ],
+      "umbral_computacional": 1e-07,
+      "equilibrio_ensayo_sintetico": true,
+      "aprueba_modelo": false,
+      "aprueba_ingenieria": false,
+      "limites": [
+        "Solo balance estático del ensayo sintético; no prueba tensiones/deformaciones/convergencia ni proyecto real."
+      ],
+      "sha256_registro": "8f30799865dd1142086cc35af74c88c8abf7b36df44e056784d1aa5de5e1e745"
+    },
+    "original_igual": true,
+    "cantidad_registros": 22
+  },
+  "pruebas": {
+    "cantidad": 11,
+    "resultado": "OK",
+    "segundos": 0.116,
+    "log": "tmp/liquidos186_final.log"
+  },
+  "archivos_sha256": {
+    "draft2model/cargas_liquidos_etabs.py": "5b2ff5525793455224fc21aa57027534e8cc8dfc30e1243d7d797f11a1ee7922",
+    "draft2model/cortes_superficies.py": "39d5b66c30e157ed841c2b9a29303faf724c6d575f212098b05c8cd8399b8184",
+    "tests/test_cargas_liquidos_etabs.py": "102b8c0285e57527128b6860d77de8e0f051fad190bfa8459419c84f43fa53dc",
+    "tests/test_cortes_superficies.py": "42dfe97edcc537ad1a2c6df32da451fc449c828b8316a0858791720e66c8b053",
+    "tests/test_equilibrio_presion.py": "d62b214fb63618d810e002dc25460169af9988c345a5477c0437414abcc135cc",
+    "tests/fixtures/tabla_no_uniforme_etabs21_185.json": "7fa9f93262f1fccc0aea0072fa0e0ae475d0cecadb966dcae18a2adfb48df1c6",
+    "tests/fixtures/equilibrio_presion_etabs21_186.json": "52eab0b285274994b5ed316614130f4bde795054567b726694923b4570363baa",
+    "scripts/inspeccionar_cargas_superficie_etabs.ps1": "79ccd71ee19f7ce87047c78491afe39e4ad6192f05608f3889045425de7e3517",
+    "scripts/ensayar_presion_no_uniforme_etabs.ps1": "344e177120d6cf641cad76984f10754bccb9373ef8e43142f6df787b62223f1d",
+    "scripts/evaluar_ensayo_presion.py": "6e3fab01d366d09d838efbcb2fe46a296364a92523bd7bc96770603f8b2bd270",
+    "scripts/ensayar_malla_aberturas_etabs.ps1": "dfd34366368157eb8b3788c189da361f2ca2ec37f061f14db80151df813fa128",
+    "docs/PRESION_VARIABLE_ETABS.md": "fdf8d686928923a44b10eced4fbe084546d0924436966e933a244a5604ccdcc0",
+    "tmp/cargas185/registro.json": "7b8336088bfc4aa8496557f61f1466fb3d1ff62340c6e20e19a428eee0c68b84",
+    "tmp/presion185c/registro.json": "87b029db015a7c724b058615445a6ea67946fb43017f326f6e01245298efbdcf",
+    "tmp/presion185c/equilibrio.json": "f11404f7affb805d14e89e94abb9ae691256eac718029c8258486bdf4501abea",
+    "tmp/presion186/registro.json": "8f30799865dd1142086cc35af74c88c8abf7b36df44e056784d1aa5de5e1e745",
+    "tmp/presion186/equilibrio.json": "1451d1a72304276dc31867c9ee148bbdc06f0a6949de05fa20f7a61e0f8d6692",
+    "tmp/particion186/registro.json": "44590e1d1ac173e1feb613802580bcba5d660be923833bd1fef8defa990d6c47",
+    "tmp/particion186/evaluacion.json": "b3279fd5a3349f7df9a648a15042ebd34882dd313a159902ee3b4d236a296002",
+    "tmp/triangulaciones186.json": "acc4aba384544e311e5bbe91d62e01bbc1d5e521d261cc45384509cca8c893db",
+    "tmp/liquidos186_final.log": "562d1d4cbc15969be3da2ab0d4185ebeffb091533d2e15082b1c19da35f72e22",
+    "tmp/presion186/presion.LOG": "1296670055a67ab601d8d0a1fe66aea4822b01b9b761486f4e0334c743b7042b"
+  },
+  "limites": [
+    "Caso sintético con apoyos explícitos de ensayo; no proyecto real",
+    "No prueba tensiones/desplazamientos/convergencia ni seguridad/norma",
+    "Preparación de coeficientes no aplicada en producción; requiere mapa/patrón del plan registrado y relectura",
+    "Presión estática no determina masa/hidrodinámica del líquido"
+  ],
+  "llamadas_api_proveedores": 0
+}

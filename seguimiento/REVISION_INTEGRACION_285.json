@@ -1,0 +1,27 @@
+{
+  "fecha_utc": "2026-10-23T16:05:18.499966+00:00",
+  "pruebas": "13focalesOK0.072s sin omisiones; cache validación5/contexto5/bucles3",
+  "reproduccion_orden_corregida": true,
+  "cache_despues_del_caso_cruzado": {
+    "entradas": 2,
+    "bytes": 4884,
+    "hits": 0,
+    "misses": 2,
+    "max_entradas": 32,
+    "max_bytes": 67108864
+  },
+  "fuentes_sha256_observadas": {
+    "draft2model/cache_malla_pura.py": "ae661f0e219cffd77864f14120c97d3184c37b24f4cd711bb4f898fca2413111",
+    "draft2model/cache_validacion_geometria.py": "8f315cad171d4f57c0b4088121909023a1721bc1a7564e50533ea92df1a89aba",
+    "draft2model/particion_superficies.py": "a51d5fb50018d0b6e4bb10d4499bf762972328418ae85403adb0f7abd30c780b",
+    "draft2model/operaciones_etabs.py": "050bce2244da07a32aab5dcd938ab1639b062dab30e2ec1c4c17e89f3572d756",
+    "tests/test_cache_validacion_geometria_282.py": "603f1b3c957b1c3fe2115ecb37e93c4082c1d608e2c41b5fc9d54bbd44320f61",
+    "tests/test_contexto_particion_284.py": "c00e5097fe8604cb1f9e1d7ddc81a04253bcf3ca76ed8d1fe7e1358a2038d2f9",
+    "tests/test_cargas_distribuidas_284.py": "a5b98f14f58e9da9d7f501fd5e20b773568ccf625843188cc680c8f7ad3dfe9b"
+  },
+  "candidato_integrado_identico": true,
+  "alcance": "Revisión de cambios y regresiones focales, equivalencia del orden y candidato igual al verificado7/5planes en284. No nuevo ensayo de ETABS ni afirmación de tiempo global.",
+  "api_remota": false,
+  "etabs_ejecutado": false,
+  "goal_completo": false
+}

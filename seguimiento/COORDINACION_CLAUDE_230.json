@@ -1,0 +1,9 @@
+{
+  "estado": "enviado_confirmado",
+  "encargo": "seguimiento/claude_ruta/08_CERRAR_BRECHAS_EVIDENCIA.md",
+  "confirmacion": "Mensaje visible en historial, compositor vacío y respuesta explícita de Claude leyendo08 e inventario de arquitectura.",
+  "c207": "Claude observó proceso de suite aún ejecutándose; no reiniciar por ausencia de log final.",
+  "propiedad": "Claude implementa; Codex revisa; subagente229 audita fuentes normativas sin producto.",
+  "siguiente": "Entregas04/06 correctivas07 y luego08; sonda local primero, sin CU rutinario.",
+  "decisiones_usuario": "seguimiento/DECISION_USUARIO_229.json"
+}

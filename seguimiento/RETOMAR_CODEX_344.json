@@ -1,0 +1,106 @@
+{
+  "fecha_utc": "2026-10-24T20:41:30.452534+00:00",
+  "anterior": "seguimiento/RETOMAR_CODEX_342.json",
+  "goal_completo": false,
+  "responsable": "Codex solo; sin Claude ni subagentes",
+  "autorizacion_vigente": [
+    "Proyecto3 autorizado expresamente por el usuario; supera el veto histórico338",
+    "Proyecto2 no autorizado",
+    "Ejecutar sistema sin interpretar/completar planos manualmente; mostrar interfaz",
+    "OpenAI máximo5 llamadas consumidas; Gemini2/5. Claves solo extracción de planos"
+  ],
+  "entrega331": "Conservar ZIP FINAL331 y anexo334 intactos; fuentes331 congeladas",
+  "proyecto3": {
+    "registro": "seguimiento/EJECUCION_PROYECTO3_340.json",
+    "caso": "vivienda-unifamiliar-003",
+    "extraccion": "edb0e7f4c1ac45fa91c2103f693ed2a4",
+    "lecturas": 130,
+    "pendientes": 130,
+    "revisadas": 0,
+    "geometria": false,
+    "etabs": false,
+    "api_segundos": 76.219,
+    "cobertura": "4 páginas declaradas parciales por el proveedor;42avisos de unidad sin respaldo literal",
+    "datos_usuario": {
+      "ubicacion": "San Juan de Miraflores, Lima",
+      "cisterna_incluida": true,
+      "estudio_suelos": "no aportado"
+    }
+  },
+  "interfaz": {
+    "version": "344 integrada en fuentes principales",
+    "url": "http://127.0.0.1:18346/",
+    "session_id": 55044,
+    "fuentes": "draft2model (raíz del proyecto)",
+    "navegador": "iab tab7; visible y marcada entregable",
+    "expediente_abierto": "pueblo-libre-002",
+    "geometria_abierta": "25ef94672fac4e53863701b55e32f97d",
+    "capturas": [
+      "seguimiento/INTERFAZ344_MODELO3D.png",
+      "seguimiento/INTERFAZ344_EDITOR.png"
+    ],
+    "expediente3": "Permanece sin geometría.130lecturas pendientes. No se mezcla su estado con el modelo1.",
+    "procesos_anteriores": {
+      "97464": "servidor de desarrollo detenido intencionalmente tras abrir55044",
+      "64836": "servidor aislado detenido intencionalmente por visibilidad de red",
+      "82281": "servidor331 anterior; no se ha vuelto a sondear, no asumir terminal"
+    }
+  },
+  "desarrollo342": {
+    "archivos": [
+      "tmp/desarrollo_geometria_337/draft2model/anclajes_cotas.py",
+      "tmp/desarrollo_geometria_337/tests/test_anclajes_cotas.py"
+    ],
+    "comprobacion": "20pruebas focales anclajes+propuesta correctas; no suite completa",
+    "ensayo_real": "seguimiento/ANCLAJES_PROYECTO3_342.json",
+    "resultado": "36cotas sin relación; L0003 no procesada por límite de densidad. Ninguna geometría ni aprobación. No publicar como función resuelta.",
+    "siguiente": "Mejorar búsqueda espacial de líneas de cota sin límites por página completa; ampliar reconocimiento de cotas dibujadas/OCR y correspondencia, sin datos manuales ni reenvíos API. Integrar visualmente solo después de evidencia real."
+  },
+  "siguiente": [
+    "Servidor principal55044 ya mostró UI344. Mantenerlo mientras el usuario la consulta. No relanzar por límite o silencio sin comprobar handle.",
+    "Continuar flujo autónomo real: respuesta topológica desde proveedor a solucionador, generación de geometría y configuración con datos faltantes concretos dentro de interfaz. No basta con navegar etapas.",
+    "Completar edición especializada para datos avanzados sin exigir archivos JSON externos. Probar alta, corrección, guardado y reanudación en caso sintético aislado antes de aceptar escritura real.",
+    "OpenAI5/5 agotado; Gemini2/5. No nuevas APIs hasta implementar y probar contrato/orquestación y reserva persistente de cuota. Claves solo planos.",
+    "No repetir38frontend/24HTTP sin nuevos cambios. ZIP331 y EDB preservan hashes conocidos, verificados en este hito.",
+    "Goal activo e incompleto. Usuario exige autonomía y toda entrada/revisión dentro de la interfaz. Solo Codex."
+  ],
+  "interfaz344": {
+    "registro": "seguimiento/INTEGRACION_INTERFAZ_344.json",
+    "manual": "docs/INTERFAZ_POR_ETAPAS.md",
+    "cambios": [
+      "7etapas separadas; propósito/procesamiento/revisión/resultado",
+      "Visor3D girable con superficies, aberturas y frames de configuración vinculada",
+      "Editor de geometría y configuración dentro de la app; plantillas básicas sin valores físicos inventados",
+      "Ediciones identificadas sin guardar y recuperación por comprobación; versiones y aprobaciones originales intactas",
+      "JSON y herramientas auxiliares desplegables; sin llamadas API al navegar"
+    ],
+    "verificacion": {
+      "frontend": 38,
+      "http_python": 24,
+      "sin_omisiones": true,
+      "logs": [
+        "tmp/frontend_principal_344_final.log",
+        "tmp/http_principal_344.log"
+      ],
+      "visual": "Caso1:2356puntos/2502superficies; edición X0.123 detectada como borrador, descartada por relectura sin guardar. Capturas reales de app principal.",
+      "sin_nuevo_etabs": true,
+      "sin_nueva_api": true
+    },
+    "limites": [
+      "No reconstrucción autónoma completa aún",
+      "Formularios avanzados de ingeniería pendientes; el editor cubre estructura presente y plantillas básicas",
+      "Vista3D del sistema, no captura ni prueba nueva de ETABS"
+    ]
+  },
+  "desarrollo343_344": {
+    "carpeta": "tmp/desarrollo_geometria_337",
+    "ocr_343": "seguimiento/ANCLAJES_OCR_343/resultado.json;4páginas procesadas por OCR local;42cotas sin relación; sin cambios en expediente",
+    "reconstruccion_automatica": "Nuevo contrato topológico y solución de grafos de diferencias con unidades/evidencia; rechaza desconectados y contradicciones.6pruebas sintéticas correctas; no se ha usado con respuesta real ni integrado proveedor/UI. No distribuir como automatismo resuelto.",
+    "pruebas_python_focales": 26,
+    "archivos_nuevos": [
+      "draft2model/reconstruccion_automatica.py",
+      "tests/test_reconstruccion_automatica.py"
+    ],
+    "no_integrar_a_ciegas": "OCR/anclajes/solucionador quedan aislados; UI344 fue portada sin ellos."
+  }
+}

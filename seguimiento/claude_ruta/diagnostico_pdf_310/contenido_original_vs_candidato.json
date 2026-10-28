@@ -1,0 +1,18 @@
+{
+ "original": {
+  "evaluaciones": 18,
+  "False": 10,
+  "True": 8,
+  "NO_COHERENTE": true,
+  "pies": 8,
+  "kN": 24
+ },
+ "candidato": {
+  "evaluaciones": 18,
+  "False": 10,
+  "True": 8,
+  "NO_COHERENTE": true,
+  "pies": 8,
+  "kN": 24
+ }
+}

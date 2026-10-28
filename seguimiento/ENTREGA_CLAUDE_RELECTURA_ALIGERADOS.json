@@ -1,0 +1,77 @@
+{
+  "tarea": "relectura_aligerados",
+  "estado": "entregado",
+  "fecha": "2026-10-19",
+  "archivos": {
+    "draft2model/verificacion_modelo_guardado.py": "6d6c25104a7f295e885ad31ca29849269c81a19bba8a930f4c79a7635b8371e2",
+    "scripts/verificar_modelo_guardado.ps1": "44866a107bef56501d8090f1621abbd4ae3ccc5ccfd32195ac9d999f8846abe9",
+    "tests/test_verificacion_modelo_guardado.py": "c4b18daad190d9fc3938ed89ab79c8a140701ebc02d5f067d446a44ce2e0e267",
+    "docs/VERIFICACION_MODELO_GUARDADO.md": "4ccd5b59a7944d043aaa7a9c3776d3f5e1f71ad27ff31162fb4fddf67f91e374"
+  },
+  "sha256_previos": {
+    "draft2model/verificacion_modelo_guardado.py": "08d20e75702fa067f49f31ef7b7741ac6ec8a502edd70d0a98f78f8329963e21",
+    "scripts/verificar_modelo_guardado.ps1": "1db1b80a0cd9e6c271e53f4a0f49d8301a5cbf866d85230a4e4176cfa17c5b1a",
+    "tests/test_verificacion_modelo_guardado.py": "20e119b46b1c3b1ef358238eaed61f6dbcd60c48702ed0eb6a680418ecd00b44",
+    "docs/VERIFICACION_MODELO_GUARDADO.md": "c51238a1a12e9763fad66f26bd4075cb103e146fcaf355cfe3d64623cc68d09b"
+  },
+  "api": {
+    "conservada": "VerificadorModeloGuardado.preparar_verificacion / ejecutar_verificacion, funciones puras y configuraciones sin cambio de firma",
+    "version": "VERSION y VERSION_LECTOR 0.3.0 (mezcla con 0.2 rechazada; cargar_resultado lee 0.1-0.3); criterios sin cambio (13 magnitudes)",
+    "nuevo": "consulta.losas_nervadas/losas_casetonadas; lecturas.propiedades_area.nervadas/casetonadas (nombres API); expectativa.ejes_plan/ejes_origen; resultado.ejes_origen; ErrorVerificacion si ejes_locales_area contradice SetLocalAxes del plan"
+  },
+  "dependencia_subagente": {
+    "marcador": "tmp/entrega_losas_aligeradas.json",
+    "estado_declarado": "entrega_candidata",
+    "hashes_contrastados": 5,
+    "uso": "tests usan tests.test_losas_aligeradas.configurar para generar planes reales nervada/casetonada"
+  },
+  "pruebas": [
+    {
+      "comando": ".venv/Scripts/python.exe -m unittest -v tests.test_verificacion_modelo_guardado",
+      "entorno": "TEMP/TMP=tmp/aligerados_qa",
+      "resultado": "27 OK",
+      "omisiones": 0,
+      "codigo": 0,
+      "log": "tmp/aligerados_qa/pruebas.log"
+    },
+    {
+      "comando": ".venv/Scripts/python.exe -m unittest -v tests.test_vinculo_verificacion_modelo",
+      "nota": "regresion de integracion Codex, no editada",
+      "resultado": "6 OK",
+      "omisiones": 0,
+      "codigo": 0,
+      "log": "tmp/aligerados_qa/vinculo_codex.log"
+    }
+  ],
+  "firmas": {
+    "fuente": "reflexion de metadatos ETABSv1.dll 1.29.0.0 sin iniciar ETABS; tmp/aligerados_qa/firmas_reflejadas.json",
+    "nuevas_lector": [
+      "cPropArea.GetSlabRibbed",
+      "cPropArea.GetSlabWaffle"
+    ],
+    "total_lista_blanca": 60,
+    "contrastadas_ademas": [
+      "cAreaObj.GetLocalAxes",
+      "cAreaObj.SetLocalAxes",
+      "cPropArea.SetSlabRibbed",
+      "cPropArea.SetSlabWaffle",
+      "cAreaObj.SetOpening (no inventariada)"
+    ],
+    "enum": {
+      "eSlabType.Ribbed": 3,
+      "eSlabType.Waffle": 4
+    }
+  },
+  "limites": [
+    "Sin ETABS real, red, instalaciones ni suite global; dobles no acreditan ETABS ni solver.",
+    "No retira BLOQUEO_INTEGRACION/BLOQUEO_SUPERFICIES ni habilita ejecucion 0.2/0.3; no aprueba ni certifica.",
+    "Pendiente real: espesor GetSlab = alto total, persistencia Ribbed/Waffle tras reabrir, rango de angulo y Advanced de GetLocalAxes.",
+    "Angulos comparados sin normalizacion modular; normal geometrica no es eje; areas sin orientacion del plan ni criterio quedan sin_criterio.",
+    "SetOpening/aberturas 0.3 sin lector: un plan que la emita quedaria incompleto; no se simulan planes 0.3.",
+    "No se verifica rigidez, peso equivalente, mallado ni rellenos de aligerados."
+  ],
+  "conflictos": [
+    "Ningun archivo fuera de los cuatro autorizados editado; artefactos tmp/aligerados_qa y __pycache__.",
+    "Dependencia leida del subagente: planes de tests.test_losas_aligeradas (entrega_candidata); si cambia su contrato, revisar PARAMETROS_ALIGERADO."
+  ]
+}

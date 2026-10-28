@@ -1,0 +1,47 @@
+{
+ "tarea": "masa_313",
+ "estado": "entrega_candidata",
+ "responsable": "Claude",
+ "fecha_utc": "2026-10-24T07:51:17+00:00",
+ "resultado": {
+  "predictor": "R-cara (manual CSI: cara de conexión, máxima dimensión, tope 1 %) solo desde el plan 0f372713; regla y predicción selladas antes del contraste",
+  "contraste_vigas": {
+   "acuerdo": 33,
+   "desacuerdo": 8,
+   "abstencion": 4
+  },
+  "variante_rmax_acuerdos_informativa": 37,
+  "peso_reproducido_independiente_kn": "5.424 de 6.861 (33 vigas)",
+  "desacuerdos": "D1 (3 vigas, ETABS 0/0 donde M3 reduce) y D2 (5 vigas, tope ≈0,0009 m distinto)",
+  "abstenciones": "A2: 4 vigas con extremo en muro (manual no lo precisa)",
+  "residuo_global_kn": "0.006877 (> cotas de redondeo 0.001; fuera del peso propio por sección)",
+  "conclusion": "Auto no es determinable por completo con las fuentes disponibles; el libro sigue no_coherente con tolerancia 0,001 intacta"
+ },
+ "archivos_permitidos_sha256": {
+  "seguimiento/claude_ruta/prediccion_masa_313/CONTRASTE_313.json": "87393c8ddf04a71af053824d259cdff708952b1d064deb4a087e68b38e8aa917",
+  "seguimiento/claude_ruta/prediccion_masa_313/contraste_313.py": "3817d2b5ab2542ce1af7cfeb395b67860278cf6e22a4fd321c5a39aff522acdc",
+  "seguimiento/claude_ruta/prediccion_masa_313/INFORME_MASA_313.md": "cb5c5ace7b71363d16713f55c2169d46eef390606a57bb2e7add8b99f5ba84b1",
+  "seguimiento/claude_ruta/prediccion_masa_313/PREDICCION_313.json": "eca3faa725aad9f543aeb84b58500ac88fca780660009c99ede40b7c61443682",
+  "seguimiento/claude_ruta/prediccion_masa_313/PREDICCION_SELLADA_313.sha256": "9487ec85bad311ce1bf3a126cc99bb415254bbbec3aed76728dfec0cbf622e9f",
+  "seguimiento/claude_ruta/prediccion_masa_313/predictor_313.py": "55e95edc6ce5906eff363441bc0a7ea53f6d688a94a51b7fabe5117de6f8b0ec",
+  "seguimiento/claude_ruta/prediccion_masa_313/REGLA_PREREGISTRADA_313.md": "c5919d39c238a99e0d1c9780316a698380358868e5ed93c9fdd5dcf6b1ea65c2",
+  "seguimiento/claude_ruta/prediccion_masa_313/REGLA_PREREGISTRADA_313.sha256": "1ab1ea415e06d7cf7cb8a53a668023dbbfabd4d4fa6945448f2104a1fca88103",
+  "seguimiento/claude_ruta/prediccion_masa_313/RESIDUO_GLOBAL_313.json": "be4c9ed2a69cbccb1a55cc8f88af0b2d8369b53ffe7a976f21014e4c4268f803",
+  "seguimiento/claude_ruta/prediccion_masa_313/test_predictor_313.py": "83bc55e706dd33f4350a783891d07f20298045a99bcd13e97d6110da21309cc6"
+ },
+ "comprobaciones": [
+  "regla pre-registrada sellada (c5919d39…) antes del predictor",
+  "predicción sellada antes del contraste",
+  "7 pruebas unittest sintéticas OK, incluida independencia estática",
+  "residuo acotado con 19 secciones y redondeo de CM"
+ ],
+ "limites": [
+  "Sin ETABS, APIs, OCR, modelo manual ni proyectos 2/3",
+  "Totales observados de 4 vigas vistos antes del sellado (declarado; no usados)",
+  "No aprueba ingeniería ni masa; no modifica libro, tolerancia ni resultados",
+  "D1/D2/A2 requieren documentación CSI o prueba controlada fuera del perímetro",
+  "Residuo requiere datos nativos por patrón (D sin peso propio) no archivados"
+ ],
+ "siguiente_accion": "Codex decide integrar el predictor como contraste independiente con estados por viga; obtener documentación CSI sobre Auto con ioff+joff≥L y muros, y un resumen nativo por patrón para el residuo.",
+ "aceptacion_codex": false
+}

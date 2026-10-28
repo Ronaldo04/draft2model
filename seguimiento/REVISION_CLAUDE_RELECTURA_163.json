@@ -1,0 +1,24 @@
+{
+  "tarea": "relectura_superficies",
+  "estado": "revisado_incremento_parcial",
+  "hashes_verificados": {
+    "draft2model/verificacion_modelo_guardado.py": true,
+    "scripts/verificar_modelo_guardado.ps1": true,
+    "tests/test_verificacion_modelo_guardado.py": true,
+    "docs/VERIFICACION_MODELO_GUARDADO.md": true
+  },
+  "pruebas": {
+    "log": "tmp/revision_relectura_host_163.log",
+    "cantidad": 16,
+    "resultado": "OK",
+    "omitidas": 0,
+    "duracion_s": 11.558
+  },
+  "intento_restringido": "tmp/revision_relectura_163.log: fallos transporte, reemplazado por comprobacion host autorizada",
+  "limites": [
+    "sin ETABS real",
+    "cobertura parcial declarada",
+    "modelo 0.2 no ejecutable"
+  ],
+  "copia_entrega": "tmp/entrega_claude_relectura_163.zip"
+}

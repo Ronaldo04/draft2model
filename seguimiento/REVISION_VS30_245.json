@@ -1,0 +1,240 @@
+{
+  "estado": "correcto",
+  "modulo_sha256": "fa1b0677ed160cc329ac27131e62c9f69f78fe6110e4d27a19a0082c03e4af6f",
+  "comprobaciones": [
+    {
+      "caso": "4/S2/450",
+      "pasa": true,
+      "esperado": [
+        1.05,
+        0.5,
+        2.25
+      ],
+      "observado": [
+        1.05,
+        0.5,
+        2.25
+      ]
+    },
+    {
+      "caso": "3/S2/450",
+      "pasa": true,
+      "esperado": [
+        1.075,
+        0.5,
+        2.25
+      ],
+      "observado": [
+        1.075,
+        0.5,
+        2.25
+      ]
+    },
+    {
+      "caso": "2/S2/450",
+      "pasa": true,
+      "esperado": [
+        1.15,
+        0.5,
+        2.25
+      ],
+      "observado": [
+        1.15,
+        0.5,
+        2.25
+      ]
+    },
+    {
+      "caso": "1/S2/450",
+      "pasa": true,
+      "esperado": [
+        1.15,
+        0.5,
+        2.25
+      ],
+      "observado": [
+        1.15,
+        0.5,
+        2.25
+      ]
+    },
+    {
+      "caso": "4/S3/275",
+      "pasa": true,
+      "esperado": [
+        1.15,
+        0.75,
+        1.8
+      ],
+      "observado": [
+        1.15,
+        0.75,
+        1.8
+      ]
+    },
+    {
+      "caso": "3/S3/275",
+      "pasa": true,
+      "esperado": [
+        1.175,
+        0.75,
+        1.8
+      ],
+      "observado": [
+        1.1749999999999998,
+        0.75,
+        1.8
+      ]
+    },
+    {
+      "caso": "2/S3/275",
+      "pasa": true,
+      "esperado": [
+        1.35,
+        0.75,
+        1.8
+      ],
+      "observado": [
+        1.35,
+        0.75,
+        1.8
+      ]
+    },
+    {
+      "caso": "1/S3/275",
+      "pasa": true,
+      "esperado": [
+        1.45,
+        0.75,
+        1.8
+      ],
+      "observado": [
+        1.4500000000000002,
+        0.75,
+        1.8
+      ]
+    },
+    {
+      "caso": "1/S2/extremo_blando_y_nota",
+      "pasa": true
+    },
+    {
+      "caso": "1/S2/no_extrapolar_349",
+      "pasa": true
+    },
+    {
+      "caso": "1/S2/no_extrapolar_550",
+      "pasa": true
+    },
+    {
+      "caso": "1/S3/extremo_blando_y_nota",
+      "pasa": true
+    },
+    {
+      "caso": "1/S3/no_extrapolar_199",
+      "pasa": true
+    },
+    {
+      "caso": "1/S3/no_extrapolar_350",
+      "pasa": true
+    },
+    {
+      "caso": "2/S2/extremo_blando_y_nota",
+      "pasa": true
+    },
+    {
+      "caso": "2/S2/no_extrapolar_349",
+      "pasa": true
+    },
+    {
+      "caso": "2/S2/no_extrapolar_550",
+      "pasa": true
+    },
+    {
+      "caso": "2/S3/extremo_blando_y_nota",
+      "pasa": true
+    },
+    {
+      "caso": "2/S3/no_extrapolar_199",
+      "pasa": true
+    },
+    {
+      "caso": "2/S3/no_extrapolar_350",
+      "pasa": true
+    },
+    {
+      "caso": "3/S2/extremo_blando_y_nota",
+      "pasa": true
+    },
+    {
+      "caso": "3/S2/no_extrapolar_349",
+      "pasa": true
+    },
+    {
+      "caso": "3/S2/no_extrapolar_550",
+      "pasa": true
+    },
+    {
+      "caso": "3/S3/extremo_blando_y_nota",
+      "pasa": true
+    },
+    {
+      "caso": "3/S3/no_extrapolar_199",
+      "pasa": true
+    },
+    {
+      "caso": "3/S3/no_extrapolar_350",
+      "pasa": true
+    },
+    {
+      "caso": "4/S2/extremo_blando_y_nota",
+      "pasa": true
+    },
+    {
+      "caso": "4/S2/no_extrapolar_349",
+      "pasa": true
+    },
+    {
+      "caso": "4/S2/no_extrapolar_550",
+      "pasa": true
+    },
+    {
+      "caso": "4/S3/extremo_blando_y_nota",
+      "pasa": true
+    },
+    {
+      "caso": "4/S3/no_extrapolar_199",
+      "pasa": true
+    },
+    {
+      "caso": "4/S3/no_extrapolar_350",
+      "pasa": true
+    },
+    {
+      "caso": "S2/rechazo_nan",
+      "pasa": true
+    },
+    {
+      "caso": "S2/rechazo_inf",
+      "pasa": true
+    },
+    {
+      "caso": "S2/rechazo_True",
+      "pasa": true
+    },
+    {
+      "caso": "S3/rechazo_nan",
+      "pasa": true
+    },
+    {
+      "caso": "S3/rechazo_inf",
+      "pasa": true
+    },
+    {
+      "caso": "S3/rechazo_True",
+      "pasa": true
+    }
+  ],
+  "alcance": "Interpolación en perfiles declarados S2/S3 y nota sinVs30; no clasifica suelo real, no sustituyeEMS ni valida integración global09B.",
+  "api_llamadas": 0
+}

@@ -1,0 +1,46 @@
+{
+  "fecha_utc": "2026-10-23T15:19:09.182069+00:00",
+  "url": "http://127.0.0.1:18276/",
+  "servidor_sesion": 17813,
+  "pid_servidor_host": 35448,
+  "runtime": "tmp\\runtime_qa_276",
+  "huella_runtime": "d2ff5344f8725ddeb30a004d7c33cc7df84c706631b494bd4207adda75edaafc",
+  "runtime_estable": true,
+  "tab_id": "5",
+  "tab_binding": "qaLocal276",
+  "caso": "pueblo-libre-002",
+  "resultado": "697bb37e9ce64f90ba1ef3e25733c8cc",
+  "analisis_disponible": "7203c79a3ece4438b36d267ba80f3c4b",
+  "recorrido_observado": [
+    "seleccionar expediente",
+    "carga de3modelos y1resultado",
+    "abrir resultado:13indicadores visibles y paquete verificado",
+    "análisis7203 aparece como vínculo comprobado en informe/panel",
+    "seleccionar análisis en informe y declarar hipótesis/faltantes de QA",
+    "pulsar Crear nueva versión de borrador una vez"
+  ],
+  "captura": "seguimiento/QA_RESULTADOS_REALES_279.png",
+  "estado": "borrador_real_creado_revisado_con_hallazgo283",
+  "ultima_UI": {
+    "informe": "Selecciona un informe vigente; sin descarga ni aprobación de versiones inválidas.",
+    "pdf_habilitado": false,
+    "versiones": [
+      "Sin informes"
+    ],
+    "mensaje": ""
+  },
+  "no_afirma": [
+    "Informe creado o descargado",
+    "Panel real completo",
+    "Aprobación normativa o de ingeniería",
+    "Instalación final limpia"
+  ],
+  "siguiente": "Preservar artefactos. Preparar QA nueva de fuentes estables corregidas, sin reutilizar este runtime como producto final.",
+  "etabs_ejecutado": false,
+  "api_remota": false,
+  "goal_completo": false,
+  "informe": "dccadc6138fb412bab4122eded6df107",
+  "descarga_UI": "NO confirmada; waitForEvent/click agotó ejecución390s y reinició kernel CUA. No volver a crear informe. Globals browser perdidos; inventario/recuperación de tab5 antes de actuar.",
+  "revision_archivos": "seguimiento/HALLAZGO_INFORME_GEOMETRIA_283.json",
+  "servidor_sesion_estado": "terminal1_cierre_intencional_QA_historica_tras_hallazgo283"
+}

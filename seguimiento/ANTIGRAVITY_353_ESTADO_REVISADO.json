@@ -1,0 +1,33 @@
+{
+  "tarea": "353_digitizacion_web",
+  "responsable": "Antigravity",
+  "raiz": "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL",
+  "estado": "revisado_con_dos_defectos",
+  "enviado_utc": "2026-10-25T07:18:01.957836+00:00",
+  "encargo": "seguimiento\\ENCARGO_ANTIGRAVITY_353_DIGITIZACION_WEB.md",
+  "sha256_encargo": "d5286193faa09f0ca492edea73bd07192d303417375d925e4c4488a46e657c7c",
+  "marcador": "seguimiento/ANTIGRAVITY_353_DIGITIZACION_ENTREGA.json",
+  "archivos_permitidos": [
+    "draft2model/revision_digitizacion.py",
+    "draft2model/revision_web/digitizacion.js",
+    "tests/test_revision_digitizacion.py",
+    "tests/digitizacion_353_frontend.cjs",
+    "docs/INTERFAZ_DIGITIZACION.md",
+    "seguimiento/ANTIGRAVITY_353_DIGITIZACION_INFORME.md"
+  ],
+  "archivos_necesarios": [
+    "draft2model/revision_digitizacion.py",
+    "draft2model/revision_web/digitizacion.js",
+    "tests/test_revision_digitizacion.py",
+    "tests/digitizacion_353_frontend.cjs",
+    "docs/INTERFAZ_DIGITIZACION.md"
+  ],
+  "apis_autorizadas": false,
+  "etabs_autorizado": false,
+  "conversacion": "Revisar Y Continuar Tarea De Codex",
+  "conversation_id": "58f95083-5391-40e6-bbe6-58c2b929f14f",
+  "ventana_id": 8917266,
+  "verificacion_envio": "Captura con mensaje en historial, compositor vacío y estado Working. No acredita finalización.",
+  "reparto": "351noenviado reasignado a subagenteCodex como352 (políticasmalla). Antigravitysolo353digitización; Codexlecturaparámetros/API/UI.",
+  "revision": "seguimiento/REVISION_DIGITIZACION_355.json"
+}

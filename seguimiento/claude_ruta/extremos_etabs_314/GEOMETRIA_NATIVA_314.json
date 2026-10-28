@@ -1,0 +1,913 @@
+{
+ "tarea": "extremos_314_geometria_nativa",
+ "fuente_geometria": "tmp\\recorrido_09d1\\lectura\\2eca39b2592c4c1d8a0cdb800eb06ddf\\respuesta.json",
+ "sha256_fuente": "f2502a0d9cec6119907152417d15acb6afed0cd432cd9419db36aa13a9cfa1c4",
+ "sha256_edb_relectura_antes": "b2a9c40bbda8bc2e39501c190391590676d79189e3f6148afbab256b1504e680",
+ "max_abs_dL_m": 4.440892098500626e-16,
+ "max_abs_dcoord_m": 4.440892098500626e-16,
+ "vigas_B2": [
+  {
+   "viga": "VS-Z1-1-4",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z1-3-1",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z1-A-10",
+   "L_plan_m": 0.313,
+   "L_nativa_m": 0.313,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.15,
+     "J": 0.2
+    },
+    "nativo": {
+     "I": 0.0,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.0
+   }
+  },
+  {
+   "viga": "VS-Z1-A-7",
+   "L_plan_m": 0.107,
+   "L_nativa_m": 0.107,
+   "dL_m": -0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.105,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9813
+   }
+  },
+  {
+   "viga": "VS-Z2-1-15",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z2-3-12",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z2-A-18",
+   "L_plan_m": 0.107,
+   "L_nativa_m": 0.107,
+   "dL_m": -0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.105,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9813
+   }
+  },
+  {
+   "viga": "VS-Z2-A-21",
+   "L_plan_m": 0.313,
+   "L_nativa_m": 0.313,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.15,
+     "J": 0.2
+    },
+    "nativo": {
+     "I": 0.0,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.0
+   }
+  },
+  {
+   "viga": "VS-Z3-1-26",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z3-3-23",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z3-A-29",
+   "L_plan_m": 0.107,
+   "L_nativa_m": 0.107,
+   "dL_m": -0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.105,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9813
+   }
+  },
+  {
+   "viga": "VS-Z3-A-32",
+   "L_plan_m": 0.313,
+   "L_nativa_m": 0.313,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.15,
+     "J": 0.2
+    },
+    "nativo": {
+     "I": 0.0,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.0
+   }
+  },
+  {
+   "viga": "VS-Z4-1-37",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z4-3-34",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z4-A-40",
+   "L_plan_m": 0.107,
+   "L_nativa_m": 0.107,
+   "dL_m": -0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.105,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9813
+   }
+  },
+  {
+   "viga": "VS-Z4-A-44",
+   "L_plan_m": 0.113,
+   "L_nativa_m": 0.113,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.0,
+     "J": 0.2
+    },
+    "nativo": {
+     "I": 0.0,
+     "J": 0.111
+    },
+    "relacion_nativo_suma_sobre_L": 0.9823
+   }
+  }
+ ],
+ "filas": [
+  {
+   "viga": "VS-Z1-1-4",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z1-1-5",
+   "L_plan_m": 0.6,
+   "L_nativa_m": 0.6,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z1-1-6",
+   "L_plan_m": 0.215,
+   "L_nativa_m": 0.215,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z1-2-11",
+   "L_plan_m": 2.451,
+   "L_nativa_m": 2.451,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z1-3-1",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z1-3-2",
+   "L_plan_m": 0.6,
+   "L_nativa_m": 0.6,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z1-3-3",
+   "L_plan_m": 0.215,
+   "L_nativa_m": 0.215,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z1-A-10",
+   "L_plan_m": 0.313,
+   "L_nativa_m": 0.313,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.15,
+     "J": 0.2
+    },
+    "nativo": {
+     "I": 0.0,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.0
+   }
+  },
+  {
+   "viga": "VS-Z1-A-7",
+   "L_plan_m": 0.107,
+   "L_nativa_m": 0.107,
+   "dL_m": -0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.105,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9813
+   }
+  },
+  {
+   "viga": "VS-Z1-A-8",
+   "L_plan_m": 0.154,
+   "L_nativa_m": 0.154,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z1-A-9",
+   "L_plan_m": 2.176,
+   "L_nativa_m": 2.176,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z2-1-15",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z2-1-16",
+   "L_plan_m": 0.6,
+   "L_nativa_m": 0.6,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z2-1-17",
+   "L_plan_m": 0.215,
+   "L_nativa_m": 0.215,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z2-2-22",
+   "L_plan_m": 2.451,
+   "L_nativa_m": 2.451,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z2-3-12",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z2-3-13",
+   "L_plan_m": 0.6,
+   "L_nativa_m": 0.6,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z2-3-14",
+   "L_plan_m": 0.215,
+   "L_nativa_m": 0.215,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z2-A-18",
+   "L_plan_m": 0.107,
+   "L_nativa_m": 0.107,
+   "dL_m": -0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.105,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9813
+   }
+  },
+  {
+   "viga": "VS-Z2-A-19",
+   "L_plan_m": 0.154,
+   "L_nativa_m": 0.154,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z2-A-20",
+   "L_plan_m": 2.176,
+   "L_nativa_m": 2.176,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z2-A-21",
+   "L_plan_m": 0.313,
+   "L_nativa_m": 0.313,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.15,
+     "J": 0.2
+    },
+    "nativo": {
+     "I": 0.0,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.0
+   }
+  },
+  {
+   "viga": "VS-Z3-1-26",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z3-1-27",
+   "L_plan_m": 0.6,
+   "L_nativa_m": 0.6,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z3-1-28",
+   "L_plan_m": 0.215,
+   "L_nativa_m": 0.215,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z3-2-33",
+   "L_plan_m": 2.451,
+   "L_nativa_m": 2.451,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z3-3-23",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z3-3-24",
+   "L_plan_m": 0.6,
+   "L_nativa_m": 0.6,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z3-3-25",
+   "L_plan_m": 0.215,
+   "L_nativa_m": 0.215,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z3-A-29",
+   "L_plan_m": 0.107,
+   "L_nativa_m": 0.107,
+   "dL_m": -0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.105,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9813
+   }
+  },
+  {
+   "viga": "VS-Z3-A-30",
+   "L_plan_m": 0.154,
+   "L_nativa_m": 0.154,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z3-A-31",
+   "L_plan_m": 2.176,
+   "L_nativa_m": 2.176,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z3-A-32",
+   "L_plan_m": 0.313,
+   "L_nativa_m": 0.313,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.15,
+     "J": 0.2
+    },
+    "nativo": {
+     "I": 0.0,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.0
+   }
+  },
+  {
+   "viga": "VS-Z4-1-37",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z4-1-38",
+   "L_plan_m": 0.6,
+   "L_nativa_m": 0.6,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z4-1-39",
+   "L_plan_m": 0.215,
+   "L_nativa_m": 0.215,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z4-2-45",
+   "L_plan_m": 2.451,
+   "L_nativa_m": 2.451,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z4-3-34",
+   "L_plan_m": 0.186,
+   "L_nativa_m": 0.186,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.184,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9892
+   }
+  },
+  {
+   "viga": "VS-Z4-3-35",
+   "L_plan_m": 0.6,
+   "L_nativa_m": 0.6,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z4-3-36",
+   "L_plan_m": 0.215,
+   "L_nativa_m": 0.215,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z4-A-40",
+   "L_plan_m": 0.107,
+   "L_nativa_m": 0.107,
+   "dL_m": -0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.2,
+     "J": 0.0
+    },
+    "nativo": {
+     "I": 0.105,
+     "J": 0.0
+    },
+    "relacion_nativo_suma_sobre_L": 0.9813
+   }
+  },
+  {
+   "viga": "VS-Z4-A-41",
+   "L_plan_m": 0.154,
+   "L_nativa_m": 0.154,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z4-A-42",
+   "L_plan_m": 2.176,
+   "L_nativa_m": 2.176,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z4-A-43",
+   "L_plan_m": 0.2,
+   "L_nativa_m": 0.2,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null
+  },
+  {
+   "viga": "VS-Z4-A-44",
+   "L_plan_m": 0.113,
+   "L_nativa_m": 0.113,
+   "dL_m": 0.0,
+   "max_dcoord_m": 0.0,
+   "seccion_nativa": "VS-15X30",
+   "insercion_nativa": null,
+   "B2": {
+    "bruto_ETABS": {
+     "I": 0.0,
+     "J": 0.2
+    },
+    "nativo": {
+     "I": 0.0,
+     "J": 0.111
+    },
+    "relacion_nativo_suma_sobre_L": 0.9823
+   }
+  }
+ ]
+}

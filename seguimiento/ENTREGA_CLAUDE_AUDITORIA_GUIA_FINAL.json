@@ -1,0 +1,27 @@
+{
+  "tarea": "auditoria_guia_final",
+  "estado": "entregado",
+  "archivos": {
+    "seguimiento/AUDITORIA_GUIA_FINAL_CLAUDE.md": "7d8dc1a4ffaa6f35b29a0b0e93d02a89e844abfc03abb99f991c56a0229dd535"
+  },
+  "hallazgos": [
+    "D1 README.md:32,35,36 estados superados y sin controles/superposicion/tabular",
+    "D2 GUIA_REPRODUCIBLE.md:127,24 sin copia146/instalacion129",
+    "D3 CIERRE_DESARROLLO.md:45,64 copia limpia ya realizada",
+    "D4 Abrir revision de planos.cmd:3 + GUIA:77 credencial no heredada por el servidor",
+    "D5 CONEXION_OPENAI.md:41 exclusividad falsa de transmision",
+    "D6 GUIA §5 sin comando de envio CLI (modulo proveedor_openai ejecutar)",
+    "D7 PLAN_ENSAYO_REFERENCIA.md sin controles/superposicion ni campos opcionales de informe (l.160)",
+    "D8 CONEXION_OPENAI.md:34 -MaskInput solo PowerShell 7",
+    "C1 Gemini no soportado: acoplamiento OpenAI en proveedor_openai/revision_proveedor/revision_explicaciones/cli_vision/proveedor.js con lineas citadas",
+    "C2 log solver no extraido",
+    "C3 representacion fisica limitada (losas/aberturas/escalera/cisterna/tanque)"
+  ],
+  "limites": [
+    "Solo lectura y --help; sin suites, red, API, ETABS, instalaciones ni CU",
+    "Analisis Gemini por conocimiento general sin red; verificar documentacion y condiciones vigentes del nivel gratuito",
+    "No revisadas linea a linea todas las guias especificas ni la UI visual",
+    "No prueba ejecucion real ni declara soporte Gemini ni cierre"
+  ],
+  "conflictos": []
+}

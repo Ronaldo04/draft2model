@@ -1,0 +1,95 @@
+{
+  "checkpoint_previo": "seguimiento/RETOMAR_CODEX_349.json",
+  "fecha_utc": "2026-10-25T07:33:58.831166+00:00",
+  "goal_completo": false,
+  "estado": "integrando lecturas dirigidas y políticas de malla; Antigravity353 activo",
+  "reparto": {
+    "root": "revision_parametros.py, lectura_parametros.py, parametros_a_lecturas.py, revision_web/parametros.js, shared routes/assets/preparacion_configuracion.js",
+    "subagente": "354terminado. Dosdefectos reproducidos por child y corregidos porroot;8/8DOMOK;sintrabajopendiente asignado.",
+    "Antigravity": "353_digitizacion_web; lista cerrada seguimiento/ANTIGRAVITY_ESTADO.json"
+  },
+  "completado": {
+    "350": "AG módulo políticas10 pruebas focales propiasOK; digitización pura24tests",
+    "351": "adaptador parámetros25tests; base recon refactor14tests; serviciolectura5tests",
+    "352": "recibo/hashes verificados; rutas/assets recién registradas, pendiente focal/HTTP/GUI"
+  },
+  "pendiente_inmediato": [
+    "Con cuota recuperada leer este checkpoint, ejecutar estado_antigravity.py; si353candidato revisarhashes/focal antes integrar. No releerhistoria.354ya8/8OK sinrepetirporrutina.",
+    "Probar registro HTTP malla/parametros y nuevos eventos UI",
+    "Revisar recibo354 y corregir defectos",
+    "Revisar353 cuando marcador, integrar rutas/assets",
+    "Reiniciar único proceso18346 solo tras código estable",
+    "Prueba realOpenAI8 solo desde interfaz consentida, máximo3restantes; ninguna llamada nueva en350-352",
+    "Completar geometría/condiciones ingeniería antes de ETABS; no aprobar ficticiamente",
+    "PublicaciónGitHubactualbase347; nuevo códigoNOpublicado"
+  ],
+  "piloto": {
+    "caso": "vivienda-unifamiliar-003",
+    "geometria": "353282fd342349b78b28579384e9d5c2",
+    "preparacion": "0dd0893f9251409886a3a56d9e8295db",
+    "faltantes_materiales": 17,
+    "etabs_habilitado": false
+  },
+  "api": {
+    "nuevas_esta_etapa": 0,
+    "OpenAI_usadas": 7,
+    "OpenAI_autorizadas": 10,
+    "Google_usadas": 4,
+    "Google_autorizadas": 5
+  },
+  "servidor_ultimo_conocido": {
+    "puerto": 18346,
+    "pid_real": 18580,
+    "sesion_wrapper": 5771,
+    "codigo_cargado": "349; reinicio pendiente; verificar PID antes de parar"
+  },
+  "cuota_Codex_ultima": {
+    "consumido_5h_porcentaje": 96,
+    "consumido_semanal_porcentaje": 15,
+    "reset_5h_unix": 1792927911,
+    "reset_manual_disponible": 0,
+    "accion": "No iniciar tareas pesadas. No marcar goal completo/pausado. Retomar al recuperar margen."
+  },
+  "pruebas_root": [
+    {
+      "log": "tmp/integracion_352_python_host.log",
+      "resultado": "29testsOK;19.315s;servicios parámetros/malla y regresión reconstrucción; solo sintéticos; host trasWinError5sandbox"
+    },
+    {
+      "log": "tmp/integracion_352_http.log",
+      "resultado": "2testsOK;1.093s;parserHTTP real sin socket, malla preview/aplicar hijo, origen403, rutas parametros y2assets200"
+    },
+    {
+      "comando": "node tests/politicas_malla_351_frontend.cjs",
+      "resultado": "OK DOM sintético"
+    },
+    {
+      "comando": "node tests/preparacion_configuracion_348_frontend.cjs",
+      "resultado": "OK DOM sintético"
+    },
+    {
+      "log": "tmp/parametros_354_frontend.log",
+      "resultado": "8/8escenariosDOMOK trasfixSHAeventyrespuestatardía mismo caso; recibo354actualizado;inicialseconservaaparte"
+    }
+  ],
+  "antigravity_actual": "353sigueactivo: confirmado visualmente trabajando en conversaciónpertinente; nohaymarcador353 ni archivosdeentrega aún.350yaaceptado. No repetirpantalla; usarestado_antigravity.py.",
+  "integracion_actual": "WEB_ASSETS+index carga parametros.js/politicas_malla.js; lazyServicioPoliticasMalla y dos POST; GET/POSTparametros registrados. Aún no reiniciar proceso ni afirmar recorridoUIreal.",
+  "observaciones_revisar": [
+    "Corregido origenausenteprotecciónramaenpreconfig; repetirnormalGUIalretomar",
+    "CorregidoSHAeventochild y respuestatardíapoll,8/8DOMOK",
+    "Deduplicadoeventoatomicorepetidoyguardbusy;probarrecorridoreal",
+    "FaltaGUIrealynormativatécnicadelpiloto;noAPIhastaestable"
+  ],
+  "archivos_pendientes_revision": [
+    "draft2model/revision_web/parametros.js",
+    "draft2model/revision_web/preparacion_configuracion.js",
+    "draft2model/lectura_parametros.py",
+    "draft2model/parametros_a_lecturas.py"
+  ],
+  "hashes_shared_estables": {
+    "draft2model\\revision_visual.py": "36febcc0ff138764e0073d3991a74d35bcf6ceaf5a604e9d206206ba02f8a98f",
+    "draft2model\\revision_web\\index.html": "c93325c9922002f2716cdc0a319597d9e84d78ab529b3088d0fd7ec67094c3dd",
+    "draft2model\\revision_web\\parametros.js": "1c3ae9107c9ef647196c0aa395a8473736d452932d73205200abb73920254111",
+    "draft2model\\revision_web\\preparacion_configuracion.js": "63f93ba8cb4ef5e7e3e48df70e4273ee95414e0573cbb447628d2f5c9bb20ca7"
+  }
+}

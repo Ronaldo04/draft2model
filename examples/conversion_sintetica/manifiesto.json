@@ -1,0 +1,23 @@
+{
+  "contrato": "draft2model.conversion_geometria",
+  "version_contrato": "0.1.0",
+  "caso": "sintetico-gestion",
+  "datos_sinteticos": true,
+  "operador_declarado": "Operador de prueba sintética",
+  "procedencia": {"tipo": "sintetico", "descripcion": "Ejemplo de correspondencias declaradas para probar software; no representa una vivienda real."},
+  "unidad_longitud": "m",
+  "sistema_coordenadas": "cartesiano_ortogonal",
+  "ejes": {"origen": "Nodo A y nivel N0 elegidos por el operador", "direccion_x": "A hacia B", "direccion_y": "Perpendicular a X en planta, declarada por el operador"},
+  "escala": {"metodo": "coordenadas_fisicas_declaradas", "descripcion": "Cotas físicas revisadas; no se usan píxeles ni bbox como longitudes."},
+  "niveles": [
+    {"id": "N0", "cota": {"valor": 0, "unidad": "m", "justificacion": "Origen vertical elegido por el operador en el contexto de la cota C001.", "referencias": ["C001"]}},
+    {"id": "N1", "cota": {"candidato": "C001"}}
+  ],
+  "nodos": [
+    {"id": "A", "x": {"valor": 0, "unidad": "m", "justificacion": "Origen X declarado por el operador; no es lectura automática de C006.", "referencias": ["C006"]}, "y": {"valor": 0, "unidad": "m", "justificacion": "Origen Y declarado por el operador.", "referencias": ["C006"]}},
+    {"id": "B", "x": {"candidato": "C006"}, "y": {"valor": 0, "unidad": "m", "justificacion": "Alineación del muro con X declarada por el operador.", "referencias": ["C006"]}}
+  ],
+  "muros": [
+    {"id": "M1", "nodo_inicio": "A", "nodo_fin": "B", "nivel_inferior": "N0", "nivel_superior": "N1", "espesor": {"candidato": "C005"}, "referencias": ["C004"]}
+  ]
+}

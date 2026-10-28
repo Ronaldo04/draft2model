@@ -1,0 +1,81 @@
+{
+  "configuracion": "tmp/ruta201/configuracion09.json",
+  "sha256": "2e30bf81f870fab71e84f6627d220b83705a469a700a0d1b05811f5738c1a336",
+  "geometria": "8b39dd52d4d448e5acfe64aa8ec05a2d",
+  "normativa": {
+    "aplicado": [
+      {
+        "material": "CONCRETO-FC210",
+        "detalle": "f'c = 210 kgf/cm2 → Ec = 4700√f'c = 21328.9 MPa; ν = 0,15 derivado de G = Ec/2,3",
+        "cita": [
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.2",
+            "formula": "Ec = 4700 √f'c (MPa)"
+          },
+          {
+            "codigo": "E.060",
+            "dispositivo": "DS 010-2009-VIVIENDA",
+            "texto_registrado": "seguimiento/normativa_229/E060_DS010_2009.txt",
+            "articulo": "8.5.4",
+            "formula": "G = Ec/2,3"
+          }
+        ]
+      }
+    ],
+    "faltantes": [
+      {
+        "ruta": "materiales.ALBANILERIA-FM35",
+        "motivo": "Tipo de unidad de albañilería no declarado (E.070 24.7)."
+      },
+      {
+        "ruta": "sitio.perfil",
+        "motivo": "Perfil de suelo sin EMS/declaración (E.030 art. 16; E.050 6.2.1.c para ≥ 4 pisos)."
+      },
+      {
+        "ruta": "sitio.sistema",
+        "motivo": "Sistema estructural y R0 no declarados (E.030 arts. 20–22)."
+      },
+      {
+        "ruta": "sitio.Ia",
+        "motivo": "Ia no declarado: se evalúa con el modelo (Tabla 11)."
+      },
+      {
+        "ruta": "sitio.Ip",
+        "motivo": "Ip no declarado (Tabla 12)."
+      }
+    ],
+    "no_evaluado": [
+      "Irregularidades Ia/Ip con resultados del modelo (arts. 23–25)",
+      "Cortante mínimo dinámico (art. 44) tras el análisis",
+      "Derivas (arts. 50–51) tras el análisis",
+      "Diseño de elementos (E.060/E.070)"
+    ],
+    "espectro": "no generado: puerta de sitio/sistema/irregularidades pendiente",
+    "aprobacion_ingenieria": null
+  },
+  "contrato_consistente": false,
+  "errores_contrato": [
+    "$.hipotesis: declare las hipótesis de representación",
+    "$.sitio: campos requeridos exactos: descripcion ubicacion sistema_resistente parametros fuente",
+    "asignacion.seccion: referencia inexistente",
+    "asignacion.fuente: referencia inexistente",
+    "asignacion.seccion: referencia inexistente",
+    "asignacion.fuente: referencia inexistente",
+    "asignacion.seccion: referencia inexistente",
+    "asignacion.fuente: referencia inexistente",
+    "asignacion.seccion: referencia inexistente",
+    "asignacion.fuente: referencia inexistente",
+    "malla.fuente: referencia inexistente",
+    "$.conexiones_borde: se requiere el documento draft2model.conexiones_borde embebido",
+    "$.masa: campos requeridos exactos: metodo gravedad_m_s2 incluir_masa_propia factores_patrones masas_puntos fuente",
+    "$.apoyos: declare apoyos; no se infieren",
+    "$.diafragmas: cada punto requiere diafragma o exclusión justificada",
+    "$.casos: declare al menos un caso de análisis",
+    "$.analisis: campos requeridos exactos: casos_ejecutar combinaciones_resultados fuente"
+  ],
+  "faltantes_declarados": 5,
+  "aprobacion_ingenieria": null
+}

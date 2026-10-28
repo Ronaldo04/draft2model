@@ -1,0 +1,19 @@
+{
+  "caso": "provisional-001",
+  "evidencia": "tmp/referencia_legibilidad_134/recortes_documentales.json",
+  "metadatos": "tmp/referencia_legibilidad_134/inspeccion_documental.json",
+  "originales_conservados": true,
+  "red_o_api": false,
+  "notas_para_ensayo": [
+    "Láminas revisadas visualmente en conjunto: rótulos de aligerados hasta cuarto nivel y cuadros de columnas/placas. No limitar el caso a dos niveles por una regla artificial de software.",
+    "Detalles visibles de vigas, muro portante típico, escalera/cisterna/tanque. Su representación analítica no está definida ni aprobada por esta inspección.",
+    "Texto extraído de cada PDF:136/96/186caracteres; no basta para recuperar todas las cotas trazadas. Usar evidencias visuales localizadas.",
+    "El soporte de múltiples niveles no demuestra soporte automático de losas/aberturas/secciones especiales. Contrastar capacidades antes de afirmar modelo completo del proyecto.",
+    "Los siete recortes son propuestas documentales, no geometría ni configuración estructural revisadas. Regiones y fuentes conservadas para evitar repetir el análisis."
+  ],
+  "pendientes": [
+    "Registrar paquete final con recortes pertinentes mediante API local validada.",
+    "Ejecutar extracción visual real tras terminar arquitectura y configurar credencial/modelo.",
+    "Revisar coordenadas, unidades, alturas, conexiones e idealización con evidencia; no inventar parámetros."
+  ]
+}

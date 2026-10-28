@@ -1,0 +1,39 @@
+{
+  "fecha_utc": "2026-10-22T17:59:47.826950+00:00",
+  "comprobaciones": [
+    {
+      "caso": "declarado_valido",
+      "aceptado": true,
+      "correcto": true
+    },
+    {
+      "caso": "nativo_sin_captura",
+      "aceptado": false,
+      "correcto": true
+    },
+    {
+      "caso": "plan_no_sha",
+      "aceptado": false,
+      "correcto": true
+    },
+    {
+      "caso": "sin_evidencia",
+      "aceptado": false,
+      "correcto": true
+    },
+    {
+      "caso": "modelo_ajeno",
+      "aceptado": false,
+      "correcto": true
+    },
+    {
+      "caso": "peso_nan",
+      "aceptado": false,
+      "correcto": true
+    }
+  ],
+  "correcto": true,
+  "alcance": "Forma/guardas del validador; no prueba fuente registrada, captura nativa ni informe real",
+  "apis_remotas": 0,
+  "etabs": false
+}

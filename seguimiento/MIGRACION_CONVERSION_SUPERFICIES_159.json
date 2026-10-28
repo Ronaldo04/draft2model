@@ -1,0 +1,57 @@
+{
+  "fecha_utc": "2026-10-19T13:12:03.733032+00:00",
+  "hito": "migracion_conversion_superficies",
+  "estado": "integrado_localmente_con_pruebas",
+  "subagente_entrega": "3hashes de conversion coinciden, codigo/API inspeccionados;16pruebas reportadas no sustituyen comprobacion independiente",
+  "archivos": {
+    "draft2model/conversion_geometria.py": "71d15cb7cbc4e06ca61da8e9a0ed2743b9e66b28013e97c20d0640fc39ac9830",
+    "tests/test_conversion_superficies.py": "e6206dfde00fc8fc395a435c1f58fc2330f39a023f91cdd698051af81d60f873",
+    "docs/CONVERSION_SUPERFICIES.md": "0c204f3c4f0f892de9d4649bbaba003b6797200cb11a08d587aa59c371e2441d",
+    "draft2model/gestion_geometria.py": "efcd6d384dea1b15eb050efc2ec8dbdbf1a2f0b449b98e550838327279834564",
+    "draft2model/cli_geometria.py": "4b65bc2b8f0cd6ae93fcec9887210fa8c2462d38929cd3e864c575ad085eb4d9",
+    "draft2model/revision_visual.py": "4b9b52d57e332204c4130f47f1f8d928871351a878fef52f02ffba7fffaee851",
+    "draft2model/revision_conversion.py": "3b3e8973a0979dcfbfe1678c485db632843db2e19cd23ce6de04af14da314361",
+    "draft2model/revision_web/app.js": "14bd478351907d3b9b73df11d85b65a3edc4307f3325bb21a138ba2b139e3715",
+    "draft2model/revision_web/index.html": "3b1ef2cf33c58be63e95734ac7968da2f3296cb8ae26be9f398447bc237ec9a2",
+    "tests/test_migracion_superficies.py": "2e89b95f9003aa18892147b45d88017a9a0dc124613ba5e35f60e2e86a0888e3",
+    "tests/test_revision_conversion_superficies.py": "2d83bf6a518093b395fc7ab3e3c13d86d77e96f798d13967b4f4af75e259a514",
+    "tests/revision_conversion_frontend.cjs": "eb79449a60230ec65541689de4bf0c8dbd480b0965d974e96f05201e75279ce9",
+    "docs/MIGRACION_SUPERFICIES.md": "f1f661a482b7db5625ea953426f51ba0141d971e137186d0dbd8454dc8c4bdd1"
+  },
+  "cambios": [
+    "Migracion0.1→hija0.2 por gestion/CLI/HTTP/UI; padre inmutable y sin heredar aprobacion",
+    "Lecturas revisadas→manifiesto0.2→superficies, sin inferir escala ni conectividad",
+    "LectorHTTP reproduce geometria/correspondencias exactas contra export/manifiesto ademas de hashes y revalidacion final",
+    "UI descarta migracion tardia de otrocaso"
+  ],
+  "pruebas": [
+    {
+      "log": "tmp/migracion_superficies_158_final.log",
+      "resultado": "3OK0.546s"
+    },
+    {
+      "log": "tmp/conversion_http_superficies_159.log",
+      "resultado": "9OK9.541s"
+    },
+    {
+      "log": "tmp/migracion_conversion_frontend_159_final.log",
+      "resultado": "12/12OK"
+    },
+    {
+      "log": "tmp/frontend_compartido_159/resultado.json",
+      "resultado": "25archivosNode0fallos,app.js/tests estables; excluida superposicion enpropiedaddelagente"
+    }
+  ],
+  "fallos_corregidos": [
+    "Primer test migracion uso listar_versiones inexistente; corregida fixture (no producto); log158 preservado",
+    "Primera insercion de tests Node busco marcador distinto y no los escribio; corregido y12/12final, no presentar10anteriorescomo cobertura nueva"
+  ],
+  "pendientes": [
+    "Superposicion horizontal0.2 en subagente; controlesHTML supTipo/supCota ya agregados, sin aceptarla todavia",
+    "Configuracion/operaciones0.2 enClaude; no editar sus3fuentes y3nuevosarchivos",
+    "Lectura/verificacion posterior, propiedades y representacion componentes reales",
+    "Copia limpia estable y QA navegador de nuevoflujo",
+    "API/ETABSreal con planos y datos revisados"
+  ],
+  "goal_completo": false
+}

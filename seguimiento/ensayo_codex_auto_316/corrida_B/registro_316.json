@@ -1,0 +1,672 @@
+{
+    "datos_sinteticos":  true,
+    "llamadas_remotas":  0,
+    "fases":  [
+                  {
+                      "modelo":  "B",
+                      "construccion":  {
+                                           "modelo":  "B",
+                                           "tolerancia_por_defecto":  0.001,
+                                           "tolerancia_aplicada":  0.005,
+                                           "vigas":  {
+                                                         "K01":  "K01",
+                                                         "K06":  "K06",
+                                                         "K08":  "K08",
+                                                         "K10":  "K10"
+                                                     }
+                                       },
+                      "unidades":  "kN_m_C",
+                      "antes_analisis":  {
+                                             "api":  {
+                                                         "K01-CI":  {
+                                                                        "retorno":  0,
+                                                                        "auto":  true,
+                                                                        "Length1":  0,
+                                                                        "Length2":  0,
+                                                                        "RZ":  0,
+                                                                        "punto_i":  "1",
+                                                                        "punto_j":  "2",
+                                                                        "coord_i":  [
+                                                                                        0,
+                                                                                        0,
+                                                                                        0
+                                                                                    ],
+                                                                        "coord_j":  [
+                                                                                        0,
+                                                                                        0,
+                                                                                        3
+                                                                                    ],
+                                                                        "seccion":  "COL_40X15",
+                                                                        "angulo":  0
+                                                                    },
+                                                         "K01-CJ":  {
+                                                                        "retorno":  0,
+                                                                        "auto":  true,
+                                                                        "Length1":  0,
+                                                                        "Length2":  0,
+                                                                        "RZ":  0,
+                                                                        "punto_i":  "3",
+                                                                        "punto_j":  "4",
+                                                                        "coord_i":  [
+                                                                                        3,
+                                                                                        0,
+                                                                                        0
+                                                                                    ],
+                                                                        "coord_j":  [
+                                                                                        3,
+                                                                                        0,
+                                                                                        3
+                                                                                    ],
+                                                                        "seccion":  "COL_40X15",
+                                                                        "angulo":  0
+                                                                    },
+                                                         "K01":  {
+                                                                     "retorno":  0,
+                                                                     "auto":  true,
+                                                                     "Length1":  0,
+                                                                     "Length2":  0,
+                                                                     "RZ":  0,
+                                                                     "punto_i":  "2",
+                                                                     "punto_j":  "4",
+                                                                     "coord_i":  [
+                                                                                     0,
+                                                                                     0,
+                                                                                     3
+                                                                                 ],
+                                                                     "coord_j":  [
+                                                                                     3,
+                                                                                     0,
+                                                                                     3
+                                                                                 ],
+                                                                     "seccion":  "VIGA_15X30",
+                                                                     "angulo":  0
+                                                                 },
+                                                         "K06-CI":  {
+                                                                        "retorno":  0,
+                                                                        "auto":  true,
+                                                                        "Length1":  0,
+                                                                        "Length2":  0,
+                                                                        "RZ":  0,
+                                                                        "punto_i":  "5",
+                                                                        "punto_j":  "6",
+                                                                        "coord_i":  [
+                                                                                        0,
+                                                                                        10,
+                                                                                        0
+                                                                                    ],
+                                                                        "coord_j":  [
+                                                                                        0,
+                                                                                        10,
+                                                                                        3
+                                                                                    ],
+                                                                        "seccion":  "COL_60X20",
+                                                                        "angulo":  0
+                                                                    },
+                                                         "K06":  {
+                                                                     "retorno":  0,
+                                                                     "auto":  true,
+                                                                     "Length1":  0,
+                                                                     "Length2":  0,
+                                                                     "RZ":  0,
+                                                                     "punto_i":  "6",
+                                                                     "punto_j":  "7",
+                                                                     "coord_i":  [
+                                                                                     0,
+                                                                                     10,
+                                                                                     3
+                                                                                 ],
+                                                                     "coord_j":  [
+                                                                                     0.29,
+                                                                                     10,
+                                                                                     3
+                                                                                 ],
+                                                                     "seccion":  "VIGA_15X30",
+                                                                     "angulo":  0
+                                                                 },
+                                                         "K08-CI":  {
+                                                                        "retorno":  0,
+                                                                        "auto":  true,
+                                                                        "Length1":  0,
+                                                                        "Length2":  0,
+                                                                        "RZ":  0,
+                                                                        "punto_i":  "8",
+                                                                        "punto_j":  "9",
+                                                                        "coord_i":  [
+                                                                                        0,
+                                                                                        20,
+                                                                                        0
+                                                                                    ],
+                                                                        "coord_j":  [
+                                                                                        0,
+                                                                                        20,
+                                                                                        3
+                                                                                    ],
+                                                                        "seccion":  "COL_60X20",
+                                                                        "angulo":  0
+                                                                    },
+                                                         "K08-CJ":  {
+                                                                        "retorno":  0,
+                                                                        "auto":  true,
+                                                                        "Length1":  0,
+                                                                        "Length2":  0,
+                                                                        "RZ":  0,
+                                                                        "punto_i":  "10",
+                                                                        "punto_j":  "11",
+                                                                        "coord_i":  [
+                                                                                        0.35,
+                                                                                        20,
+                                                                                        0
+                                                                                    ],
+                                                                        "coord_j":  [
+                                                                                        0.35,
+                                                                                        20,
+                                                                                        3
+                                                                                    ],
+                                                                        "seccion":  "COL_60X20",
+                                                                        "angulo":  0
+                                                                    },
+                                                         "K08":  {
+                                                                     "retorno":  0,
+                                                                     "auto":  true,
+                                                                     "Length1":  0,
+                                                                     "Length2":  0,
+                                                                     "RZ":  0,
+                                                                     "punto_i":  "9",
+                                                                     "punto_j":  "11",
+                                                                     "coord_i":  [
+                                                                                     0,
+                                                                                     20,
+                                                                                     3
+                                                                                 ],
+                                                                     "coord_j":  [
+                                                                                     0.35,
+                                                                                     20,
+                                                                                     3
+                                                                                 ],
+                                                                     "seccion":  "VIGA_15X30",
+                                                                     "angulo":  0
+                                                                 },
+                                                         "K10-CI":  {
+                                                                        "retorno":  0,
+                                                                        "auto":  true,
+                                                                        "Length1":  0,
+                                                                        "Length2":  0,
+                                                                        "RZ":  0,
+                                                                        "punto_i":  "12",
+                                                                        "punto_j":  "13",
+                                                                        "coord_i":  [
+                                                                                        0,
+                                                                                        30,
+                                                                                        0
+                                                                                    ],
+                                                                        "coord_j":  [
+                                                                                        0,
+                                                                                        30,
+                                                                                        3
+                                                                                    ],
+                                                                        "seccion":  "COL_60X20",
+                                                                        "angulo":  0
+                                                                    },
+                                                         "K10":  {
+                                                                     "retorno":  0,
+                                                                     "auto":  true,
+                                                                     "Length1":  0,
+                                                                     "Length2":  0,
+                                                                     "RZ":  0,
+                                                                     "punto_i":  "13",
+                                                                     "punto_j":  "14",
+                                                                     "coord_i":  [
+                                                                                     0,
+                                                                                     30,
+                                                                                     3
+                                                                                 ],
+                                                                     "coord_j":  [
+                                                                                     0,
+                                                                                     30.27,
+                                                                                     3
+                                                                                 ],
+                                                                     "seccion":  "VIGA_15X30",
+                                                                     "angulo":  0
+                                                                 }
+                                                     },
+                                             "tabla":  {
+                                                           "retorno":  0,
+                                                           "version":  1,
+                                                           "campos":  [
+                                                                          "Story",
+                                                                          "Label",
+                                                                          "UniqueName",
+                                                                          "OffsetOpt",
+                                                                          "OffsetI",
+                                                                          "OffsetJ",
+                                                                          "RigidFact",
+                                                                          "SelfWtOpt"
+                                                                      ],
+                                                           "registros":  10,
+                                                           "datos":  [
+                                                                         "P1",
+                                                                         "B1",
+                                                                         "K01",
+                                                                         "Auto",
+                                                                         "0.2",
+                                                                         "0.2",
+                                                                         "0",
+                                                                         "Auto",
+                                                                         "P1",
+                                                                         "B2",
+                                                                         "K06",
+                                                                         "Auto",
+                                                                         "0.28",
+                                                                         "0",
+                                                                         "0",
+                                                                         "Auto",
+                                                                         "P1",
+                                                                         "B3",
+                                                                         "K08",
+                                                                         "Auto",
+                                                                         "0",
+                                                                         "0",
+                                                                         "0",
+                                                                         "Auto",
+                                                                         "P1",
+                                                                         "B4",
+                                                                         "K10",
+                                                                         "Auto",
+                                                                         "0.1",
+                                                                         "0",
+                                                                         "0",
+                                                                         "Auto",
+                                                                         "P1",
+                                                                         "C1",
+                                                                         "K01-CI",
+                                                                         "Auto",
+                                                                         "0",
+                                                                         "0.3",
+                                                                         "0",
+                                                                         "Auto",
+                                                                         "P1",
+                                                                         "C2",
+                                                                         "K01-CJ",
+                                                                         "Auto",
+                                                                         "0",
+                                                                         "0.3",
+                                                                         "0",
+                                                                         "Auto",
+                                                                         "P1",
+                                                                         "C3",
+                                                                         "K06-CI",
+                                                                         "Auto",
+                                                                         "0",
+                                                                         "0.3",
+                                                                         "0",
+                                                                         "Auto",
+                                                                         "P1",
+                                                                         "C4",
+                                                                         "K08-CI",
+                                                                         "Auto",
+                                                                         "0",
+                                                                         "0.3",
+                                                                         "0",
+                                                                         "Auto",
+                                                                         "P1",
+                                                                         "C5",
+                                                                         "K08-CJ",
+                                                                         "Auto",
+                                                                         "0",
+                                                                         "0.3",
+                                                                         "0",
+                                                                         "Auto",
+                                                                         "P1",
+                                                                         "C6",
+                                                                         "K10-CI",
+                                                                         "Auto",
+                                                                         "0",
+                                                                         "0.3",
+                                                                         "0",
+                                                                         "Auto"
+                                                                     ]
+                                                       }
+                                         },
+                      "retorno_analisis":  0,
+                      "despues_analisis":  {
+                                               "api":  {
+                                                           "K01-CI":  {
+                                                                          "retorno":  0,
+                                                                          "auto":  true,
+                                                                          "Length1":  0,
+                                                                          "Length2":  0.3,
+                                                                          "RZ":  0,
+                                                                          "punto_i":  "1",
+                                                                          "punto_j":  "2",
+                                                                          "coord_i":  [
+                                                                                          0,
+                                                                                          0,
+                                                                                          0
+                                                                                      ],
+                                                                          "coord_j":  [
+                                                                                          0,
+                                                                                          0,
+                                                                                          3
+                                                                                      ],
+                                                                          "seccion":  "COL_40X15",
+                                                                          "angulo":  0
+                                                                      },
+                                                           "K01-CJ":  {
+                                                                          "retorno":  0,
+                                                                          "auto":  true,
+                                                                          "Length1":  0,
+                                                                          "Length2":  0.3,
+                                                                          "RZ":  0,
+                                                                          "punto_i":  "3",
+                                                                          "punto_j":  "4",
+                                                                          "coord_i":  [
+                                                                                          3,
+                                                                                          0,
+                                                                                          0
+                                                                                      ],
+                                                                          "coord_j":  [
+                                                                                          3,
+                                                                                          0,
+                                                                                          3
+                                                                                      ],
+                                                                          "seccion":  "COL_40X15",
+                                                                          "angulo":  0
+                                                                      },
+                                                           "K01":  {
+                                                                       "retorno":  0,
+                                                                       "auto":  true,
+                                                                       "Length1":  0.2,
+                                                                       "Length2":  0.2,
+                                                                       "RZ":  0,
+                                                                       "punto_i":  "2",
+                                                                       "punto_j":  "4",
+                                                                       "coord_i":  [
+                                                                                       0,
+                                                                                       0,
+                                                                                       3
+                                                                                   ],
+                                                                       "coord_j":  [
+                                                                                       3,
+                                                                                       0,
+                                                                                       3
+                                                                                   ],
+                                                                       "seccion":  "VIGA_15X30",
+                                                                       "angulo":  0
+                                                                   },
+                                                           "K06-CI":  {
+                                                                          "retorno":  0,
+                                                                          "auto":  true,
+                                                                          "Length1":  0,
+                                                                          "Length2":  0.3,
+                                                                          "RZ":  0,
+                                                                          "punto_i":  "5",
+                                                                          "punto_j":  "6",
+                                                                          "coord_i":  [
+                                                                                          0,
+                                                                                          10,
+                                                                                          0
+                                                                                      ],
+                                                                          "coord_j":  [
+                                                                                          0,
+                                                                                          10,
+                                                                                          3
+                                                                                      ],
+                                                                          "seccion":  "COL_60X20",
+                                                                          "angulo":  0
+                                                                      },
+                                                           "K06":  {
+                                                                       "retorno":  0,
+                                                                       "auto":  true,
+                                                                       "Length1":  0.28,
+                                                                       "Length2":  0,
+                                                                       "RZ":  0,
+                                                                       "punto_i":  "6",
+                                                                       "punto_j":  "7",
+                                                                       "coord_i":  [
+                                                                                       0,
+                                                                                       10,
+                                                                                       3
+                                                                                   ],
+                                                                       "coord_j":  [
+                                                                                       0.29,
+                                                                                       10,
+                                                                                       3
+                                                                                   ],
+                                                                       "seccion":  "VIGA_15X30",
+                                                                       "angulo":  0
+                                                                   },
+                                                           "K08-CI":  {
+                                                                          "retorno":  0,
+                                                                          "auto":  true,
+                                                                          "Length1":  0,
+                                                                          "Length2":  0.3,
+                                                                          "RZ":  0,
+                                                                          "punto_i":  "8",
+                                                                          "punto_j":  "9",
+                                                                          "coord_i":  [
+                                                                                          0,
+                                                                                          20,
+                                                                                          0
+                                                                                      ],
+                                                                          "coord_j":  [
+                                                                                          0,
+                                                                                          20,
+                                                                                          3
+                                                                                      ],
+                                                                          "seccion":  "COL_60X20",
+                                                                          "angulo":  0
+                                                                      },
+                                                           "K08-CJ":  {
+                                                                          "retorno":  0,
+                                                                          "auto":  true,
+                                                                          "Length1":  0,
+                                                                          "Length2":  0.3,
+                                                                          "RZ":  0,
+                                                                          "punto_i":  "10",
+                                                                          "punto_j":  "11",
+                                                                          "coord_i":  [
+                                                                                          0.35,
+                                                                                          20,
+                                                                                          0
+                                                                                      ],
+                                                                          "coord_j":  [
+                                                                                          0.35,
+                                                                                          20,
+                                                                                          3
+                                                                                      ],
+                                                                          "seccion":  "COL_60X20",
+                                                                          "angulo":  0
+                                                                      },
+                                                           "K08":  {
+                                                                       "retorno":  0,
+                                                                       "auto":  true,
+                                                                       "Length1":  0,
+                                                                       "Length2":  0,
+                                                                       "RZ":  0,
+                                                                       "punto_i":  "9",
+                                                                       "punto_j":  "11",
+                                                                       "coord_i":  [
+                                                                                       0,
+                                                                                       20,
+                                                                                       3
+                                                                                   ],
+                                                                       "coord_j":  [
+                                                                                       0.35,
+                                                                                       20,
+                                                                                       3
+                                                                                   ],
+                                                                       "seccion":  "VIGA_15X30",
+                                                                       "angulo":  0
+                                                                   },
+                                                           "K10-CI":  {
+                                                                          "retorno":  0,
+                                                                          "auto":  true,
+                                                                          "Length1":  0,
+                                                                          "Length2":  0.3,
+                                                                          "RZ":  0,
+                                                                          "punto_i":  "12",
+                                                                          "punto_j":  "13",
+                                                                          "coord_i":  [
+                                                                                          0,
+                                                                                          30,
+                                                                                          0
+                                                                                      ],
+                                                                          "coord_j":  [
+                                                                                          0,
+                                                                                          30,
+                                                                                          3
+                                                                                      ],
+                                                                          "seccion":  "COL_60X20",
+                                                                          "angulo":  0
+                                                                      },
+                                                           "K10":  {
+                                                                       "retorno":  0,
+                                                                       "auto":  true,
+                                                                       "Length1":  0.1,
+                                                                       "Length2":  0,
+                                                                       "RZ":  0,
+                                                                       "punto_i":  "13",
+                                                                       "punto_j":  "14",
+                                                                       "coord_i":  [
+                                                                                       0,
+                                                                                       30,
+                                                                                       3
+                                                                                   ],
+                                                                       "coord_j":  [
+                                                                                       0,
+                                                                                       30.27,
+                                                                                       3
+                                                                                   ],
+                                                                       "seccion":  "VIGA_15X30",
+                                                                       "angulo":  0
+                                                                   }
+                                                       },
+                                               "tabla":  {
+                                                             "retorno":  0,
+                                                             "version":  1,
+                                                             "campos":  [
+                                                                            "Story",
+                                                                            "Label",
+                                                                            "UniqueName",
+                                                                            "OffsetOpt",
+                                                                            "OffsetI",
+                                                                            "OffsetJ",
+                                                                            "RigidFact",
+                                                                            "SelfWtOpt"
+                                                                        ],
+                                                             "registros":  10,
+                                                             "datos":  [
+                                                                           "P1",
+                                                                           "B1",
+                                                                           "K01",
+                                                                           "Auto",
+                                                                           "0.2",
+                                                                           "0.2",
+                                                                           "0",
+                                                                           "Auto",
+                                                                           "P1",
+                                                                           "B2",
+                                                                           "K06",
+                                                                           "Auto",
+                                                                           "0.28",
+                                                                           "0",
+                                                                           "0",
+                                                                           "Auto",
+                                                                           "P1",
+                                                                           "B3",
+                                                                           "K08",
+                                                                           "Auto",
+                                                                           "0",
+                                                                           "0",
+                                                                           "0",
+                                                                           "Auto",
+                                                                           "P1",
+                                                                           "B4",
+                                                                           "K10",
+                                                                           "Auto",
+                                                                           "0.1",
+                                                                           "0",
+                                                                           "0",
+                                                                           "Auto",
+                                                                           "P1",
+                                                                           "C1",
+                                                                           "K01-CI",
+                                                                           "Auto",
+                                                                           "0",
+                                                                           "0.3",
+                                                                           "0",
+                                                                           "Auto",
+                                                                           "P1",
+                                                                           "C2",
+                                                                           "K01-CJ",
+                                                                           "Auto",
+                                                                           "0",
+                                                                           "0.3",
+                                                                           "0",
+                                                                           "Auto",
+                                                                           "P1",
+                                                                           "C3",
+                                                                           "K06-CI",
+                                                                           "Auto",
+                                                                           "0",
+                                                                           "0.3",
+                                                                           "0",
+                                                                           "Auto",
+                                                                           "P1",
+                                                                           "C4",
+                                                                           "K08-CI",
+                                                                           "Auto",
+                                                                           "0",
+                                                                           "0.3",
+                                                                           "0",
+                                                                           "Auto",
+                                                                           "P1",
+                                                                           "C5",
+                                                                           "K08-CJ",
+                                                                           "Auto",
+                                                                           "0",
+                                                                           "0.3",
+                                                                           "0",
+                                                                           "Auto",
+                                                                           "P1",
+                                                                           "C6",
+                                                                           "K10-CI",
+                                                                           "Auto",
+                                                                           "0",
+                                                                           "0.3",
+                                                                           "0",
+                                                                           "Auto"
+                                                                       ]
+                                                         }
+                                           },
+                      "edb":  {
+                                  "ruta":  "auto_316_B.edb",
+                                  "sha256":  "4319ead8ba6f4b2c72f33e0ea782fdd7c663c7b646790977bf6ab25996e2bae6"
+                              }
+                  }
+              ],
+    "error":  null,
+    "cierre":  {
+                   "application_exit":  0,
+                   "pid":  32156,
+                   "salio":  true,
+                   "etabs_tras_cierre":  [
+                                             6988,
+                                             23928,
+                                             38168
+                                         ]
+               },
+    "etabs_previos_ajenos":  [
+                                 6988,
+                                 23928,
+                                 38168
+                             ],
+    "proceso_propio":  {
+                           "pid":  32156,
+                           "inicio_utc":  "2026-10-24T08:31:03.8656398Z"
+                       },
+    "version_etabs":  [
+                          "21.1.0",
+                          0
+                      ]
+}

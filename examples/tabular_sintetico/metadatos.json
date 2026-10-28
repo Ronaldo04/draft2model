@@ -1,0 +1,22 @@
+{
+  "contrato": "draft2model.geometria",
+  "version_contrato": "0.1.0",
+  "id": "sintetico-001",
+  "unidad_longitud": "m",
+  "procedencia": {
+    "tipo": "sintetico",
+    "descripcion": "Geometría SINTÉTICA para probar el contrato y su validador. No proviene de planos ni representa una vivienda real."
+  },
+  "faltantes": [
+    {
+      "coleccion": "muros",
+      "id": "M4",
+      "campo": "espesor",
+      "descripcion": "Espesor no disponible en la fuente sintética; no se completa."
+    }
+  ],
+  "revision": {
+    "estado": "borrador",
+    "aprobacion": null
+  }
+}

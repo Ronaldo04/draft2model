@@ -1,0 +1,17 @@
+{
+  "fecha_utc": "2026-10-23T04:40:20.375252+00:00",
+  "url": "http://127.0.0.1:18269/",
+  "servidor_sesion": 13597,
+  "servidor": "runtime fijo269 con raiz tmp/anexo_reubicado_268",
+  "tab_binding": "bindings_CUA_perdidos_tras_timeout_y_reset",
+  "tab_id": "2",
+  "tab_mark": "handoff",
+  "estado": "QA_visual_final_pendiente_por_CDP",
+  "hallazgo": "Promise.all impide mostrar resultados antes de revalidar todo el historial de modelos; la UI muestra Sin resultados/Selecciona una versión mientras espera.",
+  "captura": "seguimiento/QA_LISTADOS_PENDIENTES_270.png",
+  "limitaciones": "No se abrió ni aceptó todavía un resultado o informe en esta QA. No ETABS ni API remota; candidato270 no aplicado al runtime269.",
+  "no_reiniciar_solo_por_espera": true,
+  "goal_completo": false,
+  "servidor_sesion_estado": "terminal1_cerrado_intencionalmente",
+  "recuperacion": "getTab2 falló focusEmulation; browser2 rehidratado y lista disponible; get/evaluate2 falló; pestaña3 creada, navigate falló. No volver a recargar a ciegas."
+}

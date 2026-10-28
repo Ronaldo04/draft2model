@@ -1,0 +1,46 @@
+# Local environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+
+# Secrets and local-only configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+.aws/
+
+# Intermediate previews and generated local runs
+/tmp/
+/output/
+/runs/
+/data/private/
+/planos_muestra/
+/data/originals_private/
+/models/generated/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Local assistant/editor state
+.codex/
+.claude/settings.local.json
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Original project PDF documents and reviewed deliverables are NOT ignored.
+# Review authorization/content before uploading any file.
+
+/data/respaldo_historico/

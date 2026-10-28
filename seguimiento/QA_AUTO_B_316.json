@@ -1,0 +1,56 @@
+{
+  "fecha_utc": "2026-10-24T08:37:01.659638+00:00",
+  "version": [
+    "21.1.0",
+    0
+  ],
+  "unidades": "kN_m_C",
+  "casos_B_verificados": [
+    {
+      "caso": "K01",
+      "I_m": 0.2,
+      "J_m": 0.2
+    },
+    {
+      "caso": "K06",
+      "I_m": 0.28,
+      "J_m": 0
+    },
+    {
+      "caso": "K08",
+      "I_m": 0,
+      "J_m": 0
+    },
+    {
+      "caso": "K10",
+      "I_m": 0.1,
+      "J_m": 0
+    }
+  ],
+  "tolerancias_m": [
+    0.001,
+    0.005
+  ],
+  "longitud_libre_K06_m": [
+    0.0019999999999999463,
+    0.009999999999999953
+  ],
+  "inferencia": "Para estos fixtures21.1.0 y kN_m_C, longitud libre2*tol; no constante universal2mm",
+  "base": "Matriz315previa, Baislado porCodex sin repetirA; fuente/harnessPROCEDENCIA_316.json",
+  "cierre": {
+    "application_exit": 0,
+    "pid": 32156,
+    "salio": true,
+    "etabs_tras_cierre": [
+      6988,
+      23928,
+      38168
+    ]
+  },
+  "limites": [
+    "Dos tolerancias y un caso corto con exceso en un extremo; no todas las versiones, unidades o geometrías",
+    "A no ciego respecto al piloto; B contra hipótesis previa, no calibrar valores de masa",
+    "Nada modificado en piloto, libro, tolerancia de aceptación ni distribución312"
+  ],
+  "goal_completo": false
+}

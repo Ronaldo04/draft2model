@@ -1,0 +1,24 @@
+{
+  "estado": "correccion_validada_en_copia_aislada_pendiente_integracion",
+  "parche": "seguimiento/CORRECCION_REVALIDACION_137.patch",
+  "log": "tmp/correccion_revalidacion_137/pruebas_con_recursos.log",
+  "pruebas": 6,
+  "resultado": "OK",
+  "segundos": 58.476,
+  "codigo": 0,
+  "proceso_pruebas": 81422,
+  "proceso_terminal": true,
+  "producto_editado": false,
+  "datos_sinteticos": true,
+  "etabs_real": false,
+  "api_real": false,
+  "sha256_base": {
+    "draft2model/revision_controles.py": "a8cdd6eec6e01b495e65968de21a4330445b96149d72a7c7ecb83db1b2b9487a",
+    "tests/test_revision_controles.py": "0f518cb499ab0f97ee256a09f5879fb9f0352dfcea199a431e89389542b5f929"
+  },
+  "sha256_corregido": {
+    "draft2model/revision_controles.py": "94eedd58316743d3418814feb1807613f783bf53ddaeaed40bd31f605316f9b0",
+    "tests/test_revision_controles.py": "2512768da4a6dadd203bd425880e31f1ac0c98f01e76010652e31506c4218a54"
+  },
+  "intento_previo": "Primer ensayo falló por faltar examples en la copia;6errores de recursos. Añadidos examples/scripts, pasada funcional posterior6OK;log inicial preservado."
+}

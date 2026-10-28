@@ -1,0 +1,78 @@
+{
+  "tarea": "superficies_etabs",
+  "estado": "entregado",
+  "fecha": "2026-10-19",
+  "archivos": {
+    "draft2model/modelo_estructural.py": "5f27bc40b9d701c939783487d82bc806b7963d0325922041654f5e1f2facd502",
+    "draft2model/operaciones_etabs.py": "e909f73f2e6a8fba70e8f5a710e9e281c89e47ba9553a8ab7fec6ea7cdceba56",
+    "scripts/ejecutar_plan_etabs.ps1": "b0ab2782aee42234c50ab740228ec84e0c0b9a82247a4d948de92753bff68e00",
+    "tests/test_modelo_superficies.py": "7ef8d73981a8fcbca6b2505489d68c561a01df0ed8ef9673ece1c3bae5f27cb1",
+    "tests/test_operaciones_superficies.py": "1faff8492425684359982e2aa27aae3e072eca4b41ea90c144f9084594446b80",
+    "docs/MODELADO_SUPERFICIES_ETABS.md": "22b5736ddf26b3ec941e1084a55947030edc07210916037cd69d3de702aaab56"
+  },
+  "sha256_previos": {
+    "draft2model/modelo_estructural.py": "a8513b6ab2ede3f8baf48dcd8cf8b3ae3d4a64cb83672226146e934b6114497b",
+    "draft2model/operaciones_etabs.py": "dd829b8a02d36998efc6ef297eb8e79cd97f24577e1a86992e1fd684c29bfc37",
+    "scripts/ejecutar_plan_etabs.ps1": "7740912d464ddb026ebb84d2b065f0dbcba66faac8b7dc2d153c7b760448f0b0"
+  },
+  "pruebas": [
+    {
+      "comando": ".venv/Scripts/python.exe -m unittest -v tests.test_modelo_superficies tests.test_operaciones_superficies",
+      "resultado": "20 OK, 0 omitidas",
+      "codigo_salida": 0,
+      "log": "tmp/superficies_qa/pruebas_nuevas.log"
+    },
+    {
+      "comando": ".venv/Scripts/python.exe -m unittest -v tests.test_modelo_estructural tests.test_operaciones_etabs tests.test_operaciones_dinamicas tests.test_ejecutor_etabs tests.test_geometria_superficies tests.test_validacion_geometria tests.test_gestion_configuracion tests.test_revision_configuracion tests.test_comprobacion_dinamica tests.test_normalizacion_etabs",
+      "resultado": "116 OK, 0 omitidas (regresiones pertinentes; no suite global)",
+      "codigo_salida": 0,
+      "log": "tmp/superficies_qa/regresiones.log"
+    },
+    {
+      "comprobacion": "Regresión 0.1 contra copia de los módulos originales (script de scratchpad)",
+      "resultado": "4305 a_dict de validar/comprobar idénticos con mutaciones; planes 0.1 estático y dinámico idénticos en JSON"
+    },
+    {
+      "comprobacion": "operaciones_etabs.verificar_firmas_dll() (reflexión de metadatos, sin iniciar ETABS)",
+      "resultado": "version_archivo 1.29.0.0, 62 firmas, diferencias []"
+    }
+  ],
+  "entorno": "TEMP/TMP=tmp/superficies_qa; Python .venv; Windows PowerShell 5.1 para el ensamblado falso",
+  "firmas_contrastadas": {
+    "fuente": "Reflexión de metadatos de C:/Program Files/Computers and Structures/ETABS 21/ETABSv1.dll 1.29.0.0; registro tmp/superficies_qa/firmas_reflejadas.json",
+    "nuevas": [
+      "cPropArea.SetSlab",
+      "cPropArea.GetSlab",
+      "cPropArea.GetWall",
+      "cAreaObj.GetPoints",
+      "cAreaObj.GetProperty",
+      "cPointObj.GetCoordCartesian"
+    ],
+    "reconfirmadas": [
+      "cAreaObj.AddByPoint",
+      "cAreaObj.SetLoadUniform"
+    ],
+    "enum": {
+      "eSlabType.Slab": 0
+    },
+    "lista_powershell": "$MetodosPermitidos == FIRMAS (prueba)"
+  },
+  "dobles": [
+    "Gestión: consultar_version sustituido para la geometría 0.2 aprobada por huella (la gestión vigente no puede registrarla).",
+    "Script PowerShell real en modo doble contra ETABSv1 falso con estado; no acredita ETABS ni solver."
+  ],
+  "limites": [
+    "Sin API, ETABS real, instalaciones ni suite global. Datos sintéticos.",
+    "BLOQUEO_INTEGRACION y BLOQUEO_SUPERFICIES permanecen; apto_para_adaptador de 0.2 siempre falso; plan 0.2 = plan_desarrollo_no_ejecutable, rechazado por validar_plan y por el ejecutor.",
+    "shell_losa_homogenea es placa homogénea de prueba; no representa losa aligerada.",
+    "No implementado: aberturas, aligerados, acciones/apoyos de agua o tanque, escalera completa; contornos cóncavos rechazados en el transporte.",
+    "Cargas de área no releídas (GetLoadUniform fuera de lista blanca). Ejes locales ETABS no fijados.",
+    "Límites de cotas: puntos fuera de [base, tope] rechazan el plan; no se crean pisos ficticios."
+  ],
+  "conflictos": [
+    "Dependencia de Codex: gestion_geometria no permite aprobar/registrar geometría 0.2 aprobada (importar rechaza aprobaciones; aprobar_geometria y _comprobar_una exigen disponible_para_modelado). Recomendación en docs/MODELADO_SUPERFICIES_ETABS.md §6.",
+    "Integración pendiente de Codex: gestión/revisión/UI de configuración 0.2, ejecutor 0.2, lectura e informe, prueba real ETABS en copia.",
+    "Ningún archivo fuera de la propiedad exclusiva editado. Artefactos incidentales: tmp/superficies_qa (logs, firmas reflejadas) y __pycache__ de Python.",
+    "Incidente corregido: un comando creó por error un archivo vacío C:/Users/HP/AppData/Local/x.py (fuera del proyecto); se eliminó de inmediato."
+  ]
+}

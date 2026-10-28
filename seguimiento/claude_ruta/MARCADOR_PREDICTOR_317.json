@@ -1,0 +1,49 @@
+{
+ "tarea": "predictor_317",
+ "estado": "entrega_candidata",
+ "responsable": "Claude",
+ "ensayo_ciego": false,
+ "exposicion_previa": "313/314/315/316 conocidos antes de escribir la regla",
+ "fecha_utc": "2026-10-24T08:41:27+00:00",
+ "resultado": {
+  "modulo": "predictor_auto_317.py (puro; config explícita; abstenciones con motivo)",
+  "pruebas": "8 unittest sintéticas OK",
+  "piloto": {
+   "config_tolerancia": "escenario_declarado 0,001 m (no verificada)",
+   "cobertura": "45/45",
+   "contraste_extremos": {
+    "acuerdo": 90,
+    "desacuerdo": 0,
+    "abstencion": 0
+   },
+   "error_max_m": 4.579669976578771e-16,
+   "peso_VS": {
+    "bruto_kN": "31.116959999999996187600",
+    "neto_predicho_kN": "24.255719999999995787600",
+    "tabla_nativa_kN": "24.2557",
+    "diferencia_kN": "0.000019999999995787600",
+    "nota": "tabla nativa con 4 decimales"
+   }
+  },
+  "no_afirma": "masa oficial coherente; residuo CM 0,006877 kN fuera de VS sigue sin atribuir; libro no_coherente"
+ },
+ "archivos_permitidos_sha256": {
+  "seguimiento/claude_ruta/predictor_auto_317/contraste_317.py": "4a33205a71f95859bbdfc1ecd948127d10d9d928fa2a0052067f4f75eb716522",
+  "seguimiento/claude_ruta/predictor_auto_317/CONTRASTE_PILOTO_317.json": "1bab19d43c68bdcbc888758c763be03eff943596a08ac8909e127cb72bdbe3f1",
+  "seguimiento/claude_ruta/predictor_auto_317/ejecutar_piloto_317.py": "452e4800062fd92e96a5671f02d19a1d129764b1ea6be19277fd2e24c3fbced5",
+  "seguimiento/claude_ruta/predictor_auto_317/INFORME_PREDICTOR_317.md": "248936892a19506a410634047bbbcf561eebe6dd5c737a376ec4ab4ce162fb07",
+  "seguimiento/claude_ruta/predictor_auto_317/PREDICCION_PILOTO_317.json": "4eecd3799ab78266684eb7c0d494b64c8e596cb2c429cf182bdc39196cc0c691",
+  "seguimiento/claude_ruta/predictor_auto_317/predictor_auto_317.py": "ca2c349d8642d28340166b3b956bf6a3d8f3e42e5222d3d7fbfa9bbf8f7fe345",
+  "seguimiento/claude_ruta/predictor_auto_317/SELLO_PREDICCION_317.sha256": "90cfa6e466b504790ea2d678a34bea6a690caf970b1b8aab8ed3655ca3ebc82e",
+  "seguimiento/claude_ruta/predictor_auto_317/test_predictor_auto_317.py": "28160c117ebb4ef1e25a50ca4001b95c8716d44eeb5a8051fdac82b918e11d4b"
+ },
+ "limites": [
+  "ETABS 21.1.0, kN-m, rectangulares, columnas verticales, 0/90°, vigas alineadas, tol 0,001/0,005",
+  "Un caso de muro",
+  "No integrado; sin ETABS/APIs",
+  "Tolerancia del piloto pendiente de verificación por Codex"
+ ],
+ "siguiente_accion": "Codex verifica la tolerancia de unión real del piloto/plantilla y decide la integración opcional junto al libro bruto.",
+ "llamadas_remotas": 0,
+ "aceptacion_codex": false
+}

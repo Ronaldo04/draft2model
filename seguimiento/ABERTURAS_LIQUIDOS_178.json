@@ -1,0 +1,53 @@
+{
+  "estado": "incremento_focal_verificado",
+  "archivos": {
+    "draft2model/acciones_liquidos.py": "2c2feb7e80a7c4ae373a748a69927a6c0a96b00773b0f89ae6b3e891601597b9",
+    "draft2model/__main__.py": "6fc2e545e288150b9cfd6152c5c725169f1aeda9ed6c1881c4ea2db59dcbe951",
+    "tests/test_acciones_liquidos.py": "7d87b8ed8ede5d60b9b9d8c564d170f76f3ac5c21e85f237744b87e3625fe290",
+    "docs/ACCIONES_LIQUIDOS.md": "b3ec165db4ca4afd7c3f9e69f2ee0d719ff28fadd7f2192b17c0c9799bbf0533",
+    "docs/MODELADO_ABERTURAS_ETABS.md": "47617c351a328e5390b2d0272cb4299e9e04e367d72a50b93441c5c1fd8d892b",
+    "draft2model/gestion_configuracion.py": "4c3631915d29ab97f664f6a6b3163da70f0db4b4718091e1a9b6fc4e4dc16d33",
+    "draft2model/revision_web/configuracion.js": "fdd1e6021263db6c301a8cf43a98b3effea504f87b9caa542ba8c9555e22d8fc",
+    "tests/test_gestion_aberturas.py": "84e417ffade629d493a8d73fcae8b165e9572f931debfff878ce07ef8564e147",
+    "tests/configuracion_html_check.cjs": "56dc1d3a173979d40ad10e2a5e53446b5efa0bca7d3b162c8dbfdf0483694415"
+  },
+  "pruebas": [
+    {
+      "alcance": "modelo y planes de aberturas; reflexión DLL",
+      "cantidad": 6,
+      "resultado": "OK",
+      "log": "tmp/aberturas_puro_178.log",
+      "segundos": 3.509
+    },
+    {
+      "alcance": "integrales analíticas y CLI líquidos",
+      "cantidad": 10,
+      "resultado": "OK",
+      "log": "tmp/acciones_liquidos_178.log",
+      "segundos": 0.222
+    },
+    {
+      "alcance": "versionado real disco config0.3 y regresión0.2",
+      "cantidad": 7,
+      "resultado": "OK",
+      "log": "tmp/gestion_aberturas_178.log",
+      "segundos": 2.346
+    },
+    {
+      "alcance": "controlador JS config0.1/0.2/0.3",
+      "resultado": "OK"
+    }
+  ],
+  "incidencias_resueltas": [
+    "Versionado requirió TEMP/TMP dentro workspace; primer intento en Temp externo fallo WinError5. Repetición en entorno correcto7OK.",
+    "Fecha ISO inválida de acciones ahora produce ErrorAccionesLiquidos.",
+    "Aprobación config0.3 desbloqueada para plan de desarrollo, no adaptador."
+  ],
+  "limites": [
+    "Sin prueba ETABS real",
+    "Plan0.3 sigue no ejecutable y bloqueo de integración vigente",
+    "Líquidos deriva integrales, falta transporte de presiones distribuidas y relectura",
+    "Sin QA visual actual ni verificación de referencia"
+  ],
+  "llamadas_api_proveedores": 0
+}

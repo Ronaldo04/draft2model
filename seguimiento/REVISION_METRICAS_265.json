@@ -1,0 +1,26 @@
+{
+  "fecha_utc": "2026-10-22T18:20:02.293982+00:00",
+  "comprobaciones": {
+    "71crudos_coinciden_con_diagnostico": true,
+    "59adaptables_y12cuarentena_coinciden_con_revision": true,
+    "no_se_inventa_persistencia": true,
+    "fallo_inicial_conservado": true,
+    "denominadores_por_etapa_correctos": true,
+    "coste_openai_sin_cambios": true,
+    "sin_aprobaciones_ni_precision_fabricadas": true,
+    "fuentes_estables": true
+  },
+  "correcto": true,
+  "fuentes": {
+    "seguimiento/claude_ruta/METRICAS_EXTRACCION_09.json": "03b1435be07e1faa30f39eebf2199618849fbb9dcfd2ad47a8940ee6cac8b32a",
+    "seguimiento/DIAGNOSTICO_GEMINI_235.json": "9d4530d6dd99d147b5345ee664798d991ac148fbdbbf3c8cfc3ba89b63527a7c",
+    "seguimiento/REVISION_NORMATIVA_RECUPERACION_236.json": "a4e8e2844406bdd68964838fae1922b36119804ed8eb8b21d97d17ae9c48f4a8",
+    "seguimiento/CUARTA_EXTRACCION_REAL_221.json": "058ca60261e8340c25b73572b24f4f8adc5f01455334a2dc124626f4e60dda1f"
+  },
+  "limites": [
+    "Verifica contabilidad de recibos y estados, no exactitud de candidatos ni benchmark humano",
+    "299 no es cantidad deduplicada ni datos aprobados;59+12 no es importación productiva"
+  ],
+  "etabs": false,
+  "apis_remotas": 0
+}

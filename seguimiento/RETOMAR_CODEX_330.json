@@ -1,0 +1,50 @@
+{
+  "fecha_utc": "2026-10-24T18:07:39.452295+00:00",
+  "goal_completo": false,
+  "anterior": "seguimiento/RETOMAR_CODEX_329.json",
+  "responsable_unico": "Codex; sin delegación ni Claude.",
+  "entrega_presentacion_intacta": "entregas/AECODE_PRESENTACION_328_FINAL.zip",
+  "sha256_entrega": "6a1dc4f39d24839fb03bf5be252734fe975327fb4cf4ba82f1f12be0cd734949",
+  "cambio": "Avisos integrados en validar_extraccion sobre coherencia de números/unidades con texto_fuente; sin alterar lecturas ni convertir unidades.",
+  "documentacion": "docs/COHERENCIA_LITERAL_DE_COTAS.md",
+  "pruebas_focales": {
+    "cantidad": 118,
+    "codigo": 0,
+    "omisiones": 0,
+    "registro": "tmp/coherencia_literal_329_tests.log"
+  },
+  "revision_historica": "seguimiento/COHERENCIA_COTAS_329.json: 92 cotas automáticas sin texto literal; aviso, no prueba de valor erróneo.",
+  "validacion_global": {
+    "session_id": 20690,
+    "registro": "tmp/validacion_distribucion_329/estado.json",
+    "fuentes": "tmp/validacion_distribucion_329/fuentes",
+    "observacion": "Handle confirmado vivo tras lanzamiento; no reiniciar por timeout de observación.",
+    "estado_al_guardar": "en_ejecucion"
+  },
+  "siguiente": [
+    "Sondear handle20690 (última observación: vivo), sin reiniciar. Al terminar leer estado/verificacion.json de329.",
+    "La copia329 global contiene backend nuevo y UI anterior. La UI330 posterior está probada con36scripts de interfaz sin omisiones y comprobación API sintética; no atribuirle la huella exacta de329.",
+    "Si se publica nueva distribución330, documentar con precisión ambas fases y hashes, o completar validación de su huella exacta cuando sea necesaria; no afirmar pruebas no realizadas.",
+    "Conservar ZIP328 para la presentación; no requiere claves y contiene caso/informes reales. No sustituirlo mientras no haya nueva entrega aceptada.",
+    "Siguiente brecha de producto: localizar evidencia de lecturas en fuentes, con abstención ante duplicados/escaneos; los avisos de coherencia no prueban veracidad visual."
+  ],
+  "restricciones": [
+    "Sin nuevas APIs ni lectura de claves.",
+    "No modelo manual ni proyectos 2/3.",
+    "No cambiar tolerancias, resultados ni EDB.",
+    "No declarar todo RNE ni automatización universal."
+  ],
+  "interfaz": "Alertas de validación visibles por candidato, insertadas como texto; no guardan ni envían.",
+  "pruebas_interfaz": {
+    "registro": "tmp/frontend_cotas_330.log",
+    "cantidad": 36,
+    "correctas": 36,
+    "omisiones": 0
+  },
+  "integracion": "seguimiento/INTEGRACION_ALERTAS_330.json: PDF sintético, importación/consulta reales, avisos en respuesta API y candidato pendiente intacto.",
+  "cambios_posteriores_a_copia329": {
+    "draft2model/revision_web/app.js": "3dde062b9f6840da19cf8055dd5521d8e0aa423d6634d845901b27c939a29bcc",
+    "tests/revision_lecturas_semanticas_frontend.cjs": "9199a91e6aad1b14d0a9891c383efeaabb8cf4ad4ba7a959b1ed004f0e63f75f",
+    "docs/COHERENCIA_LITERAL_DE_COTAS.md": "64766a8325fecc4b26a897a8bc3d24b84afffa25659693b5c87c2c03b41287aa"
+  }
+}

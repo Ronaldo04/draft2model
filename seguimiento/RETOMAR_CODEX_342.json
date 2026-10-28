@@ -1,0 +1,53 @@
+{
+  "fecha_utc": "2026-10-24T20:14:50.272157+00:00",
+  "anterior": "seguimiento/RETOMAR_CODEX_338.json",
+  "goal_completo": false,
+  "responsable": "Codex solo; sin Claude ni subagentes",
+  "autorizacion_vigente": [
+    "Proyecto3 autorizado expresamente por el usuario; supera el veto histórico338",
+    "Proyecto2 no autorizado",
+    "Ejecutar sistema sin interpretar/completar planos manualmente; mostrar interfaz",
+    "OpenAI máximo5 llamadas consumidas; Gemini2/5. Claves solo extracción de planos"
+  ],
+  "entrega331": "Conservar ZIP FINAL331 y anexo334 intactos; fuentes331 congeladas",
+  "proyecto3": {
+    "registro": "seguimiento/EJECUCION_PROYECTO3_340.json",
+    "caso": "vivienda-unifamiliar-003",
+    "extraccion": "edb0e7f4c1ac45fa91c2103f693ed2a4",
+    "lecturas": 130,
+    "pendientes": 130,
+    "revisadas": 0,
+    "geometria": false,
+    "etabs": false,
+    "api_segundos": 76.219,
+    "cobertura": "4 páginas declaradas parciales por el proveedor;42avisos de unidad sin respaldo literal",
+    "datos_usuario": {
+      "ubicacion": "San Juan de Miraflores, Lima",
+      "cisterna_incluida": true,
+      "estudio_suelos": "no aportado"
+    }
+  },
+  "interfaz": {
+    "url": "http://127.0.0.1:18340/",
+    "session_id": 82281,
+    "fuentes": "tmp/validacion_distribucion_331/fuentes",
+    "seleccion_verificada": "vivienda-unifamiliar-003 / edb0e7f4c1ac45fa91c2103f693ed2a4; AX Lecturas130 y captura visibles",
+    "accion": "Mantener servidor, sin reiniciar por falta de sondeo; comprobar handle si es necesario"
+  },
+  "desarrollo342": {
+    "archivos": [
+      "tmp/desarrollo_geometria_337/draft2model/anclajes_cotas.py",
+      "tmp/desarrollo_geometria_337/tests/test_anclajes_cotas.py"
+    ],
+    "comprobacion": "20pruebas focales anclajes+propuesta correctas; no suite completa",
+    "ensayo_real": "seguimiento/ANCLAJES_PROYECTO3_342.json",
+    "resultado": "36cotas sin relación; L0003 no procesada por límite de densidad. Ninguna geometría ni aprobación. No publicar como función resuelta.",
+    "siguiente": "Mejorar búsqueda espacial de líneas de cota sin límites por página completa; ampliar reconocimiento de cotas dibujadas/OCR y correspondencia, sin datos manuales ni reenvíos API. Integrar visualmente solo después de evidencia real."
+  },
+  "siguiente": [
+    "Explicar al usuario que no hay análisis corriendo; lectura terminó y conversión automática falta",
+    "Mantener interfaz del expediente3 visible. No marcar pendientes como revisados",
+    "Resolver lectura-topología-calibración-registro de plantas y configuración antes del solver; no sustituir con modelo sintético",
+    "No repetir suites331/335 aceptadas sin cambios. No modificar ZIP331. No declarar goal completo"
+  ]
+}

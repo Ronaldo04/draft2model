@@ -1,0 +1,91 @@
+{
+  "fecha_utc": "2026-10-24T07:34:25.935426+00:00",
+  "goal_completo": false,
+  "anterior": "seguimiento/RETOMAR_CODEX_310.json",
+  "distribucion_actual": "entregas/AECODE_ENTREGA_308",
+  "huella_fuentes": "7d69e57b4a0f7427e75e9113366276c0fe2bfcffc52bd6319fabdd51fa86e82a",
+  "complemento": "entregas/COMPLEMENTO_CORREGIDO_303",
+  "guia": "entregas/AECODE_ENTREGA_308/LEER_PRIMERO.md",
+  "validacion": "1424Python y36frontend306 correctas,599fuentes.308 solo6documentos, código/pruebas/dependencias idénticos.79enlaces comprobados. No repetir suites/instalación.",
+  "evidencia_validacion": "entregas/AECODE_ENTREGA_308/VALIDACION.json",
+  "auditoria": "seguimiento/AUDITORIA_P01_P14_308.json",
+  "descarga": "seguimiento/QA_DESCARGA_Y_306_307.json: usuario descargóChrome303;117212B ySHAcoinciden. Apertura306 comprobada, no afirmar descarga308.",
+  "arranque": "seguimiento/ARRANQUE_VACIO_308.json: ZIP308 extraído con raíz vacía, sinclaves/proveedores/ETABS; servidor18310 cerrado.",
+  "claude": {
+    "registro": "seguimiento/CLAUDE_ESTADO.json",
+    "tarea_actual": 314,
+    "encargo": "seguimiento/ENCARGO_CLAUDE_EXTREMOS_314.md",
+    "marcador": "seguimiento/claude_ruta/MARCADOR_EXTREMOS_314.json",
+    "estado": "Enviado y comprobado visualmente;313revisado con dos hallazgos, no integrado",
+    "revisado310": "seguimiento/REVISION_PDF_312.json",
+    "control": "Solo marcador local.95% semanal de Claude observado; no sondear pantalla ni eludir límites.",
+    "revision": "seguimiento/REVISION_MASA_314.json"
+  },
+  "referencia_humana": {
+    "estado": "Usuario respondió que completará el anotador; todavía no entregóruta/JSON. No puntuar ni inferir aprobación.",
+    "kit": "seguimiento/referencia_humana_308/Anotar_referencia.html",
+    "instrucciones": "seguimiento/referencia_humana_308/LEER_PRIMERO.md",
+    "qa": "seguimiento/QA_ANOTADOR_308.json:3imágenes mismas del primerproyecto,0observaciones, exportación vacía bloqueada, JSválido.",
+    "fuente": "Caso inicial provisional-001, mismos3PDFestructurales del primerproyecto, no proyectos2/3.",
+    "pendiente": "Al recibirJSON humano, validar y preparar/revisar correspondencias con candidatos anteriores a corrección antes de medir. No crear verdad humana con IA."
+  },
+  "servidores": [
+    {
+      "exec": 36115,
+      "url": "http://127.0.0.1:18303/",
+      "runtime": "ZIP303",
+      "estado": "handle confirmado vivo en esta coordinación"
+    },
+    {
+      "exec": 95011,
+      "url": "http://127.0.0.1:18306/",
+      "runtime": "ZIP306, códigoidéntico308",
+      "estado": "handle confirmado vivo en esta coordinación"
+    }
+  ],
+  "navegadores": "IABqa306 era tab2/18306; reconstruir binding si falta. Chrome debugger quedódesconectado tras waitForEvent(download); NUNCA repetir esa espera ni variante asíncrona/Promise.all: bloqueó1025s. Descarga real ya quedóverificada por archivo y usuario.",
+  "restricciones": [
+    "No nuevasAPI: OpenAI4/5,Gemini2/5 consumidas, exclusivamenteplanos; no leercredenciales.",
+    "No procesar proyectos2/3 hasta validarprimero. Modelo manual retenido/aplazado; no pedirlo.",
+    "No modificar producto308 ni carpeta310 mientrasClaude trabaja; propuesta310 requiere revisión e integración porCodex.",
+    "Heartbeat coordinar-entregas-de-claude siguePAUSADO; no reactivar sin petición.",
+    "Sin aprobación profesional; hipótesis suelo/sistema, sinEMS;10comparaciones no satisfactorias y masa no_coherente conservados."
+  ],
+  "cuota": {
+    "ultima_observacion_utc": "2026-10-24T06:41:55Z",
+    "restante5h_observado": 60,
+    "restanteSemanal_observado": 62,
+    "incidencia": "Auto-review porcuota bloqueócrearLEER_PRIMERO308 antes delreset; acciónnoejecutada. Trasrestablecimiento100% se repitiómismapatch yseguardó. Sinresetmanual.",
+    "politica": "<=5%no iniciartrabajospesados;<=1%guardaryterminar; no declararlogrado poragotamiento.",
+    "nota": "Lectura en esta coordinación; no se usó reset manual."
+  },
+  "siguiente": [
+    "Consultar marcador314; no aceptar que37vs33signifique mejora con denominadores distintos. No integrar predictor313 ni cambiar tolerancia.",
+    "Consultar handle63944 sin relanzar; suite312 única en curso. Al terminar, comprobar estado/código/omisiones y ejecutar seguimiento/cerrar_corte_312.py (solo consolida si1425Python/36interfaz correctas).",
+    "Si falla, conservar logs y diagnosticar antes de cambiar código. No modificar fuentes600 del ZIP durante esta validación.",
+    "Actualizar checkpoint a distribución312 validada solo con pruebas observadas.308 y complemento303 se conservan.",
+    "Esperar referencia humana efectiva;311 prepara recepción/sugerencias, no precisión medida. No APIs ni ETABS ni proyectos2/3."
+  ],
+  "integracion312": {
+    "responsable": "Codex",
+    "cambios": [
+      "draft2model/informe.py",
+      "tests/test_informe_fuentes_312.py"
+    ],
+    "comprobacion": "67pruebas de informes correctas; QA_PDF_INTEGRADO_312.json: ocho páginas con texto/píxeles MuPDF idénticos y fuentes incrustadas",
+    "no_afirmar": "Código vivo ya no es idéntico a308;308 archivado se conserva. Nueva distribución/global aún no generadas.",
+    "siguiente": "Cuando informe17557 termine, comprobar log sin omisiones; congelar nueva fuente y validar una vez. Conservar evidencia histórica y no reejecutarETABS/APIs.",
+    "global_en_curso": {
+      "exec": 63944,
+      "estado": "tmp/validacion_distribucion_312/estado.json",
+      "salida": "tmp/validacion_distribucion_312/verificacion.json",
+      "no_relanzar": true
+    },
+    "monitor_exec_cell": "221: espera63944 y, si exit0, ejecuta cerrar_corte_312.py. Consultar functions.wait221 antes de repetir cierre; no lanzar otro global."
+  },
+  "pdf_aclaracion": "Prefijos completos en ampliación; observación anterior corregida. Candidato310 elimina avisos por fuente del pie. No se declara compatibilidad universal.",
+  "distribucion_anterior": "entregas/AECODE_ENTREGA_308",
+  "distribucion_candidata": "entregas/AECODE_ENTREGA_312",
+  "huella_candidata": "dc7bdc0b800090712e33e649c4512d2fa4ab0f36fe0ebc4463fa7154cfefeebd",
+  "clasificacion_turno_anterior": "progreso: integración PDF,67pruebas,QA8páginas,fuente312congelada y global lanzada; no solo estado"
+}

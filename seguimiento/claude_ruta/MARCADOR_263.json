@@ -1,0 +1,41 @@
+{
+  "tarea": "ruta253_bloque_263_masa_nativa_y_cadena_resultados",
+  "estado": "entregado_pendiente_revision_codex",
+  "fecha": "2026-10-22",
+  "entrega": "06-b6d886c5244b4eb68307ff4f60284620 (restauración code 0: 564 miembros, 98 módulos, 21 pruebas)",
+  "cambios": [
+    "lector general: resultados_api AssembledJointMass (+ coordenadas/ejes por punto), validación de forma",
+    "libro_masa: libro completo de contribuciones (peso propio por patrones, cargas, líquidos) + contrastar_masa_nativa → masa_ensamblada",
+    "runner: fases.masa_nativa en la etapa de análisis (coherente/no_coherente/no_leida, sin relajar la guarda)",
+    "informe: sección masa_nativa recalculada desde la lectura aceptada del mismo análisis/EDB; CLI --contenido-masa / --masa-nativa-lectura",
+    "métricas tarea 6 corregidas (Codex 263): Gemini 2 por etapas 71 crudos / 12 inválidos / 0 importados / 59+12 recuperación local no persistida; OpenAI 2 truncada sin conteo",
+    "resultados_09.py: lectura, normalización con mapeo revisado (software), controles por ServicioControles, informe JSON/HTML/PDF; reglas E.030 en borrador"
+  ],
+  "en_curso": "construcción 09D (tmp/recorrido_09d1, PID 23204) — no se interrumpe",
+  "hashes": {
+    "draft2model/libro_masa.py": "d32baa3633e117a7e33383fa45fbcc61d58a4fdc888e211b8803364bc3310b3e",
+    "draft2model/lectura_analisis.py": "c93715a1ae3da83f84253b89d1c948ec86d3f32f42598a151c1901ce39e9f20d",
+    "scripts/leer_analisis_etabs.ps1": "23289bb08e1a6cad2935dd5c98fe174361cbb7286cd353828a85e6badc3e3c40",
+    "draft2model/informe.py": "ecc1717400214284dbe9e10239f411bf2b33e42b0bded95d97abbac9adc06826",
+    "draft2model/reuso_preparacion.py": "89c65684eca3b450609a511bc86e3a9cf0fc058d79164918e20907534199b538",
+    "tests/test_libro_masa_263.py": "12bdda0dee69192eed85e8b261d7dd56d31e67484eb18bab6e4e8115472d4509",
+    "tests/test_informe_masa_nativa_263.py": "c4cadd4d7a637835fdf375b04119ebbcc2b6727ec77f2071eabd261e3f70fe51",
+    "docs/MASA_ENSAMBLADA.md": "c02815d9b884a6d32481fe5f34ca7fa4fbf2eae2373fd5ba4c68446d813cae5a",
+    "docs/GUIA_REPRODUCIBLE.md": "06e9ba9ce8ac8676fda74eee350e5572e6b0c09a5d7273889205f403902b6128",
+    "seguimiento/claude_ruta/recorrido_etabs_09t.py": "cf02f3f92c7b71ad2b20999e1304cb6618a347d11b3b031f53038ece12d9ae9a",
+    "seguimiento/claude_ruta/resultados_09.py": "fc9f29c2186f19a0606dc243df2328ba2005948b7e8a1a0a6466b645e3d48a01",
+    "seguimiento/claude_ruta/reglas_e030_09d_borrador.json": "601d8bff697a21afdf17f5030daffe835f313c8275237bb2cdeef4dea365e908",
+    "seguimiento/claude_ruta/metricas_extraccion_09.py": "7d27244019b3b4f508e78beb92c7c5b8172912d82b401641881bb2095a6485b0",
+    "seguimiento/claude_ruta/METRICAS_EXTRACCION_09.json": "03b1435be07e1faa30f39eebf2199618849fbb9dcfd2ad47a8940ee6cac8b32a",
+    "entregas/06-b6d886c5244b4eb68307ff4f60284620/manifiesto.json": "cf95ded6f0a91fe521257b27ccd40d05d6d0ecd9678162f5c6a1f6cb74158e1a",
+    "tmp/ruta201/restauracion_06_263.log": "a64d0819b302f698a16fc9c1820e505152985c742bad5557df10532f4c359024",
+    "tmp/ruta201/focos263.log": "42d36bb98a46bfde191ac6dc593e7b0da673a8a815454716677695edffe185c3"
+  },
+  "no_declara": [
+    "masa nativa del caso verificada",
+    "aprobación de reglas o de ingeniería",
+    "sitio referencial",
+    "cierre del goal"
+  ],
+  "apis_ejecutadas_por_claude": 0
+}

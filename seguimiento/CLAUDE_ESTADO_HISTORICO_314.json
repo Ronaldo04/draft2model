@@ -1,0 +1,24 @@
+{
+  "tarea": "extremos_314",
+  "modo": "auditoria_aislada",
+  "estado": "revisado",
+  "encargo": "seguimiento/ENCARGO_CLAUDE_EXTREMOS_314.md",
+  "archivos": [],
+  "marcador": "seguimiento/claude_ruta/MARCADOR_EXTREMOS_314.json",
+  "prefijos_autorizados": [
+    "seguimiento/claude_ruta/extremos_etabs_314/"
+  ],
+  "propietario_implementacion": "Claude solo extremos_etabs_314/ y marcador314. Codex conserva fuente312congelada.",
+  "propietario_revision": "Codex verifica independencia de entradas, archivos y prueba focal antes de integrar.",
+  "confirmacion_envio": "Proyecto/conversación correctos, compositor vacío; set_value264 y captura del texto; Return y captura con mensaje en historial y compositor vacío.",
+  "creado_utc": "2026-10-24T07:34:25.935426+00:00",
+  "computer_use_suspendido": false,
+  "limite_computer_use": "Autorizado por usuario solo para coordinación. No consultar la ventana mientras trabaja; usar marcador local.",
+  "cuota_claude_observada": "95% semanal utilizado; reset mar27oct21:00. Encargo exige parcial verificable si llega al límite.",
+  "historial": "seguimiento/CLAUDE_ESTADO_HISTORICO_308.json",
+  "heartbeat": "Sigue pausado; no prometer vigilancia durante cuotas ni reactivarlo sin petición.",
+  "prueba_sonda": "seguimiento/test_sonda_pdf_309.py:6casosOK; modo PDF parametrizado por tarea, SHA y perímetro estrictos.",
+  "revision_anterior": "seguimiento/REVISION_MASA_314.json",
+  "siguiente_dependencia": "Revisar correspondencia de reglas con documentación específica ETABS y contraste independiente; sin edición de libro.",
+  "revision": "seguimiento/REVISION_EXTREMOS_315.json"
+}

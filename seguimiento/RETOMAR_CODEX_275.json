@@ -1,0 +1,23 @@
+{
+  "fecha_utc": "2026-10-23T05:08:54.090406+00:00",
+  "clasificacion_turno_anterior": "progreso",
+  "clasificacion_turno_actual": "progreso_y_espera_verificada",
+  "revision_nueva": "seguimiento/REVISION_LECTURA_WEB_275.json",
+  "recepcion_claude": "seguimiento/claude_ruta/RECEPCION_CONTINUACION_274.json",
+  "restriccion_proyectos": "seguimiento/ORDEN_PROYECTOS_273.md",
+  "proceso": {
+    "pid": 39028,
+    "creacion": "2026-10-22T21:24:50.286587-05:00",
+    "confirmado_host_dos_observaciones": true,
+    "espera_intermedia_s": 45,
+    "user_ticks_antes": 83814062500,
+    "kernel_ticks_antes": 8926250000,
+    "user_ticks_despues": 84382187500,
+    "kernel_ticks_despues": 9004375000,
+    "cpu_incremento_s": 64.625,
+    "estado": "mismo proceso vivo y CPU creciente; no reiniciado"
+  },
+  "siguiente": "Esperar entrega de extremos/control de Claude sin consultas GUI rutinarias; revisar artefactos nuevos y pruebas focales, después QA real y empaquetado estable. No repetir revisiones272/274/275.",
+  "bloqueo_goal": false,
+  "goal_completo": false
+}

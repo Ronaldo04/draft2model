@@ -1,0 +1,13 @@
+{
+  "tarea": "benchmark_311",
+  "archivos_sha_verificados": 5,
+  "pruebas_focales": "9 unittest correctas, ejecutadas por Codex",
+  "inventario": "Regenerado localmente por Codex; igualdad JSON exacta con entregaClaude",
+  "aceptacion": "Preparación aceptada; no se han calculado métricas ni validado entradas humanas todavía",
+  "limites": [
+    "No autentica al revisor declarado",
+    "No acredita precisión ni generalización",
+    "Las sugerencias quedan pendientes y no usan valores para elegir correspondencias"
+  ],
+  "goal_completo": false
+}

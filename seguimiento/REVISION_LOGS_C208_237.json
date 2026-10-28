@@ -1,0 +1,35 @@
+{
+  "alcance": "Contraste de registros existentes, no reejecucion suite ni prueba piloto real",
+  "comprobaciones": [
+    {
+      "nombre": "dependencias",
+      "codigo": 0,
+      "omisiones": [],
+      "cola": "No broken requirements found.\n"
+    },
+    {
+      "nombre": "arranque_cli",
+      "codigo": 0,
+      "omisiones": [],
+      "cola": "ija\n    migrar-geometria-superficies\n                        Crear hija v0.2 borrador de una geometría v0.1\n                        comprobada\n    aprobar-geometria   Registrar una aprobación explícita ligada a la huella\n                        esperada\n\noptions:\n  -h, --help            show this help message and exit\n"
+    },
+    {
+      "nombre": "powershell_scripts",
+      "codigo": 0,
+      "omisiones": [],
+      "cola": "DRAFT2MODEL_SONDA_PS51_FILE_OK\n"
+    },
+    {
+      "nombre": "suite",
+      "codigo": 0,
+      "omisiones": [],
+      "cola": "_revisada_y_exportacion_sin_resultados_impresos (test_vision_semantica_ruta07.VisionSemanticaTests) ... ok\ntest_tipos_semanticos_unidades_y_cobertura_parcial (test_vision_semantica_ruta07.VisionSemanticaTests) ... ok\n\n----------------------------------------------------------------------\nRan 1195 tests in 695.268s\n\nOK\n"
+    },
+    {
+      "nombre": "interfaz",
+      "codigo": 0,
+      "omisiones": [],
+      "cola": ": legado, sin selección, obsoletas, faltantes, exportación y texto sin HTML correctos.\n# Subtest: tests\\\\ui_malla_frontend.cjs\nok 31 - tests\\\\ui_malla_frontend.cjs\n  ---\n  duration_ms: 130.8518\n  type: 'test'\n  ...\n1..31\n# tests 31\n# suites 0\n# pass 31\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 831.2285\n"
+    }
+  ]
+}

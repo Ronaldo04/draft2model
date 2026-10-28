@@ -1,0 +1,14 @@
+{
+  "paginas": 3,
+  "mismos_originales_del_primer_proyecto": true,
+  "sintaxis_js": "node --check OK",
+  "qa_browser": {
+    "imagen_cargada": true,
+    "observaciones": 0,
+    "exportacion_sin_revision_bloqueada": true
+  },
+  "fuente_humana_realizada": false,
+  "servidor_temporal": "exec65820 cerrado intencionalmente; el archivo HTML funciona offline",
+  "captura": "seguimiento/QA_ANOTADOR_VACIO_308.png",
+  "no_es_benchmark": true
+}

@@ -1,0 +1,52 @@
+{
+ "tarea": "predictor_319",
+ "estado": "entrega_candidata",
+ "responsable": "Claude",
+ "ensayo_ciego": false,
+ "llamadas_remotas": 0,
+ "fecha_utc": "2026-10-24T08:53:18+00:00",
+ "resultado": {
+  "correcciones_318": "fantasma en denominador; duplicados/referencias bloquean totales; SetEndLengthOffset no Auto y operaciones no cubiertas -> abstención; peso negativo/no finito rechazado",
+  "pruebas": "8 (317 portadas) + 11 negativas: 19 OK",
+  "comparacion_317_319": "4 casos: 317 con totales, 319 sin totales",
+  "piloto": {
+   "configuracion": "verificada (Codex 318, tol 0,001, 21.1.0)",
+   "cobertura": "45/45",
+   "contraste_extremos": {
+    "acuerdo": 90,
+    "desacuerdo": 0,
+    "abstencion": 0
+   },
+   "error_max_m": 4.579669976578771e-16,
+   "peso_VS": {
+    "bruto_kN": "31.116959999999996187600",
+    "neto_predicho_kN": "24.255719999999995787600",
+    "tabla_nativa_kN": "24.2557",
+    "diferencia_kN": "0.000019999999995787600",
+    "nota": "tabla nativa con 4 decimales"
+   }
+  },
+  "no_afirma": "masa oficial coherente; residuo CM 0,006877 kN fuera de VS"
+ },
+ "archivos_permitidos_sha256": {
+  "seguimiento/claude_ruta/predictor_auto_319/COMPARACION_FALLOS_317_319.json": "6583cb9b41aaa7f1a43deb4053bba21ea7ea7be22762ad7502913473abed4442",
+  "seguimiento/claude_ruta/predictor_auto_319/comparar_fallos_317_319.py": "4a631cc218d6c69eddcd5620d4c2b0323c9495ceedf4df9dab2eef4791c757fc",
+  "seguimiento/claude_ruta/predictor_auto_319/contraste_319.py": "06824f6651373cfda8c0c26a26a05dc0e0cc43cffda246f46ad943ec682302ab",
+  "seguimiento/claude_ruta/predictor_auto_319/CONTRASTE_PILOTO_319.json": "5dc13f3239c30feb9621b5471c670721ac9ac68ee28400c9dd2057e92da0c3f5",
+  "seguimiento/claude_ruta/predictor_auto_319/ejecutar_piloto_319.py": "2164498254d515630adab72dfd3960832c851127da0971fe20fc0409e7adb22e",
+  "seguimiento/claude_ruta/predictor_auto_319/INFORME_PREDICTOR_319.md": "51fbe1baf319e9a6a233e3ac94ed1e7fd87edea6cd2fbf4c49be48256e4de956",
+  "seguimiento/claude_ruta/predictor_auto_319/PREDICCION_PILOTO_319.json": "0ec72f8b9b48da2904509cd3fecb1eadc400599eb43ead504d1d7ba2378b0343",
+  "seguimiento/claude_ruta/predictor_auto_319/predictor_auto_319.py": "0ad8b7e037e52a844a1ea755fdbc6b6322a17d471f305b849a7787bf7b95921a",
+  "seguimiento/claude_ruta/predictor_auto_319/SELLO_PREDICCION_319.sha256": "084c7b3d56735d554f5f905ff51c11429603e2c7e06ac2bcf7c52349d64408ea",
+  "seguimiento/claude_ruta/predictor_auto_319/test_predictor_auto_317_en_319.py": "5403228e57954648786eb84bc13d5f13655bef0d3fb409ee778d7bbdff9004f7",
+  "seguimiento/claude_ruta/predictor_auto_319/test_validacion_319.py": "2535c51819e6bbe74f6d5147875de02a61d14822dc8936026b41798d26bdce9d"
+ },
+ "limites": [
+  "ETABS 21.1.0, kN-m, rectangulares, columnas verticales, 0/90°, vigas alineadas, tol 0,001/0,005",
+  "Un caso de muro",
+  "Operaciones fuera de cFrameObj/cPropFrame no analizadas",
+  "No integrado; no aprueba masa ni ingeniería"
+ ],
+ "siguiente_accion": "Codex revisa 319 y decide integración opcional junto al libro bruto.",
+ "aceptacion_codex": false
+}

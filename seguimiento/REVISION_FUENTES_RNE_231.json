@@ -1,0 +1,51 @@
+{
+  "estado": "integridad_y_paginas_contrastadas",
+  "fuentes": [
+    {
+      "archivo": "E020_DS011_2006.pdf",
+      "sha256": "94a80fbbc4733f6fdf7bcf94c55a6b6c2a1d24606014f67aaf741097134e5ec7",
+      "url": "https://cdn.www.gob.pe/uploads/document/file/2366640/50%20E.020%20CARGAS.pdf"
+    },
+    {
+      "archivo": "E030_RM183_2026.pdf",
+      "sha256": "d119f9bd35a30dd0ea3a90296d7811c5811a0af7d93fc13c5a9a9d3963fefba6",
+      "url": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUxMTI1OC0xMjAyNjA1MDM="
+    },
+    {
+      "archivo": "E050_RM406_2018.pdf",
+      "sha256": "1877822c786a8747b9520934b97bdab5b3e505ab37ec9cbb28625442756160a3",
+      "url": "https://cdn.www.gob.pe/uploads/document/file/2366655/54%20E.050%20SUELOS%20Y%20CIMENTACIONES%20RM%20N%C2%B0%20406-2018-VIVIENDA.pdf"
+    },
+    {
+      "archivo": "E060_DS010_2009.pdf",
+      "sha256": "6b4676e849fd65243e3c4428c22156eba6e52829366f49a0a2d1cad550e1c709",
+      "url": "https://cdn.www.gob.pe/uploads/document/file/2686419/E.060%20Concreto%20Armado%20DS%20N%C2%B0%20010-2009.pdf"
+    },
+    {
+      "archivo": "E070_DS011_2006.pdf",
+      "sha256": "1833f30c14225c27c26d44e1ff7ad01d299cb2816201b83bb7c596d6b628828f",
+      "url": "https://cdn.www.gob.pe/uploads/document/file/2366661/56%20E.070%20ALBA%C3%91ILERIA.pdf"
+    },
+    {
+      "archivo": "RM217_diario_20260603.pdf",
+      "sha256": "f7116be57970df53fd1437f6f223ad30eb7b20ba349aa6a7695645bacd7429f5",
+      "url": "https://busquedas.elperuano.pe/api/archivo/file/DWeMwWLn4gc8nV-u8oMSKa/*/NL20260603_19322.pdf"
+    },
+    {
+      "archivo": "G010_G020_RM278_2026.html",
+      "sha256": "ce51079b4627684d058341cecd232bc60e384437c34c98c49ee1bf4f7ae3b496",
+      "url": "https://busquedas.elperuano.pe/api/visor_html/2538237-1"
+    },
+    {
+      "archivo": "DS011_2006_parteI_SPIJ.pdf",
+      "sha256": "d9daff8403afd12116a27b36be2543f885f7d37032d1d6f4da98acf1dd8d2009",
+      "url": "https://spij.minjus.gob.pe/Graficos/Peru/2006/Junio/08/VIVIENDAPARTEI.pdf"
+    },
+    {
+      "archivo": "FeErratas_DS011_2006_SPIJ.pdf",
+      "sha256": "7ff86a581728d00016b27ddb72204e6748e0c796fc887f0495b1fa30164a99e9",
+      "url": "https://spij.minjus.gob.pe/Normas/textos/210606T.pdf"
+    }
+  ],
+  "criterio": "Integridad local y número de páginas; no revisión normativa exhaustiva ni implementación."
+}

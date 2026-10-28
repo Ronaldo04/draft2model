@@ -1,0 +1,21 @@
+{
+  "tarea": "correccion_conciliacion_279",
+  "fecha": "2026-10-23",
+  "hallazgo": "seguimiento/HALLAZGO_CONCILIACION_279.json",
+  "cambios": [
+    "conciliar_extremos_vigas rechaza: filas duplicadas, OffsetI/OffsetJ negativos, tabla vacía o no lista, UniqueName no textual o ausente",
+    "cabecera de libro_masa corregida: el libro no descuenta solapes; ETABS sí puede (vigas con SelfWtOpt=Auto en 09d1)"
+  ],
+  "pruebas": "tests.test_libro_masa_263 OK (incluye ConciliacionEntradasInvalidasTests: libro original sin mutar)",
+  "resultado_real_sin_cambio": {
+    "peso_excluido_kn": 6.86124,
+    "masa_conciliada": 548.727337
+  },
+  "hashes": {
+    "draft2model/libro_masa.py": "c0218746dc81598fe5b05eb0e9a9641bb41fd443bf75399ac6b692e5bece60c6",
+    "tests/test_libro_masa_263.py": "fc5a735e6b3072c53dc30de5b1ac2a63835e39c0597a90671c582d30b8bb7cab",
+    "seguimiento/claude_ruta/HALLAZGO_DESFASE_CM_09D1.json": "5aa0d1a6140e999712abf975ba76dbed9cfe38d9bf165aeac71c61ce460782d2",
+    "tmp/recorrido_09d1/resultados/libro_masa_conciliado.json": "4dc4444841a9388c7ff362d7ca51cd6fcc252defbf4d674c7485413f1a884214"
+  },
+  "apis": 0
+}

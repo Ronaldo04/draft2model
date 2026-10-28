@@ -1,0 +1,26 @@
+{
+ "ligaduras_por_pagina_publicado": {
+  "1": 5,
+  "2": 5,
+  "3": 5,
+  "4": 3,
+  "5": 9,
+  "6": 12,
+  "7": 12,
+  "8": 7
+ },
+ "prueba_aislada_css": {
+  "sin_css": {
+   "ligaduras": 4,
+   "contiene_configurada": false
+  },
+  "font-variant-ligatures:none": {
+   "ligaduras": 4,
+   "contiene_configurada": false
+  },
+  "font-feature-settings liga 0": {
+   "ligaduras": 4,
+   "contiene_configurada": false
+  }
+ }
+}

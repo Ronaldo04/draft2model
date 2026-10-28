@@ -1,0 +1,53 @@
+{
+  "fecha_utc": "2026-10-19T13:02:24.978371+00:00",
+  "hito": "superficies_geometricas_versionadas",
+  "estado": "integrado_localmente_con_bloqueo_estructural",
+  "cambios": [
+    "Contrato geometria0.2 independiente de0.1; vertices XYZ/contornos/procedencia",
+    "Validador planar simple/coplanaridad/normal/area/unidades/revision; sin inferir ingenieria",
+    "Gestion guarda y comprueba version efectiva; plan0.2 conserva superficies y bloqueos, no solo muros",
+    "Prueba de version desconocida actualizada0.2→99.0 por version ahora admitida;0.2 incompleta conserva campos_ausentes, sin falso version_no_admitida"
+  ],
+  "revision_subagente": "Codigo y contrato inspeccionados;10pruebas propias comunicadas, verificacion independiente incluida abajo. No se infiere aprobacion por hashes.",
+  "archivos": {
+    "draft2model/contratos.py": "adf8fd6f0f6bae7c16c9e2efbd7d12b7b2a56596848356681094c6055a140db5",
+    "draft2model/validacion_geometria.py": "64cf3f891fde1bd224e885924445f8f2f8498c5576d02f4a1200de5a7f8259c2",
+    "draft2model/geometria_superficies.py": "bf8f6ed2f08ffe4742adccd5ecd74cfed02ffbe3283f133976ec16cf5c855ca5",
+    "draft2model/gestion_geometria.py": "66445af942ae6a1bb5549fcf611ab84a637ada0885ed4404756b352a552ae8c4",
+    "draft2model/plan_modelado.py": "5ecdaa50dba9172796c6db6359301c01a3dececf1456dbb2f402874a135a3650",
+    "tests/test_geometria_superficies.py": "eca2687dabdf74e8be0f62c97594e01365e82b031d17b1de9dd3463571bc2a12",
+    "tests/test_integracion_superficies.py": "f3ebc62f0744d9ca7d5b6ac45174d0c6fab4afe03f40f9cc9e854881ce041e01",
+    "tests/test_validacion_geometria.py": "206d08d4874439354832b7bcf73d16b31f5bfa1ecac2417a73f4c9337f4f359d",
+    "docs/GEOMETRIA_SUPERFICIES.md": "182219d9b3f2f07a8e069917b9751e099ce0f5315750ead8db78366c5c497079",
+    "docs/PLAN_REPRESENTACION_REFERENCIA.md": "37ed4fadf6e7f372ff4c764278152a4060dab3abeeaba1ecad0bd556321ac072"
+  },
+  "pruebas": [
+    {
+      "log": "tmp/superficies_integracion_156.log",
+      "resultado_original": "93items:91OK,1skip porjunctionsandbox,1errorimportacion test_gestion_planes porPYTHONPATH",
+      "resolucion": "Error de invocacion corregido con PYTHONPATH=tests,4pruebas planesOK; junction1OK enhost autorizado, logs siguientes. No se acredita la primera ejecucion como totalmente verde."
+    },
+    {
+      "log": "tmp/planes_regresion_156.log",
+      "resultado": "4OK0.638s"
+    },
+    {
+      "log": "tmp/geometria_enlace_156.log",
+      "resultado": "1OK0.072s,hostautorizado"
+    }
+  ],
+  "claude_siguiente": {
+    "tarea": "superficies_etabs",
+    "encargo": "seguimiento/ENCARGO_CLAUDE_SUPERFICIES_ETABS.md",
+    "estado": "enviado_confirmado_visualmente_historial_y_compositor_vacio",
+    "propiedad": "modelo_estructural.py,operaciones_etabs.py,ejecutar_plan_etabs.ps1 y nuevos tests/docs autorizados"
+  },
+  "limites": [
+    "No configuracion ni operaciones ETABS0.2 aceptadas aun; BLOQUEO_INTEGRACION vigente",
+    "Aberturas/aligerados/escalera/tanques completos siguen pendientes",
+    "Versiones0.2 importables; migracionpura aun no tiene accion especifica de UI/CLI ni registro de parentesco automatico",
+    "UI y conversion desde candidatos todavia requieren extension para superficies",
+    "No API/ETABSreal ni suiteglobal de estos cambios"
+  ],
+  "goal_completo": false
+}

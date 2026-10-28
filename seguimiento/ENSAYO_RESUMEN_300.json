@@ -1,0 +1,26 @@
+{
+  "candidato": "seguimiento/candidato_resumen_300.py",
+  "no_integrado": true,
+  "producto_modificado": false,
+  "comprueba": "Proyección de resumen idéntica y mismo orden; faltantes/bloqueos sin alias nuevos. Objeto grande contiene JSON real, sin ejecutar validación ni afirmar geometría aprobada.",
+  "casos": [
+    {
+      "igualdad_y_orden": true,
+      "antes_s": 0.003414000035263598,
+      "candidato_s": 0.004934999975375831
+    },
+    {
+      "igualdad_y_orden": true,
+      "antes_s": 0.00032869994174689054,
+      "candidato_s": 3.3400021493434906e-05
+    },
+    {
+      "igualdad_y_orden": true,
+      "antes_s": 0.44168250006623566,
+      "candidato_s": 3.200001083314419e-05
+    }
+  ],
+  "alcance": "Microbenchmark de copia descartada; no mide validación, apertura ni tiempo total de informe.",
+  "archivos_originales_intactos": true,
+  "goal_completo": false
+}

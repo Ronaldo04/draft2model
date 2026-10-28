@@ -1,0 +1,12 @@
+{
+  "estado": "candidato_local_verificado_no_integrado",
+  "snapshot": "tmp/masa_liquidos_codex_249",
+  "pruebas_propias": "15OK0.005s",
+  "reproduccion_host_archivado": {
+    "plan_sha256": "9c9e721aadf9e299de5596aff94969b7f22a89d11ee81eac6194149da653a631",
+    "datos_sinteticos": true,
+    "control": "HipotesisVpositivo con presión de pared archivada; no afirma volumen físico del ensayo",
+    "rechazo": "Integral Fz no equivale a -gammaV: falta fondo/cobertura o signo incorrecto"
+  },
+  "limites": "Sin transporte ni masa nativa comprobados; nuevo módulo aún aislado y sin reserva/integración del contrato. No ejecuta APIs/ETABS."
+}

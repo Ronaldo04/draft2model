@@ -1,0 +1,72 @@
+{
+  "tarea": "cobertura_relectura",
+  "estado": "entregado",
+  "fecha": "2026-10-19",
+  "archivos": {
+    "draft2model/verificacion_modelo_guardado.py": "08d20e75702fa067f49f31ef7b7741ac6ec8a502edd70d0a98f78f8329963e21",
+    "scripts/verificar_modelo_guardado.ps1": "1db1b80a0cd9e6c271e53f4a0f49d8301a5cbf866d85230a4e4176cfa17c5b1a",
+    "tests/test_verificacion_modelo_guardado.py": "20e119b46b1c3b1ef358238eaed61f6dbcd60c48702ed0eb6a680418ecd00b44",
+    "docs/VERIFICACION_MODELO_GUARDADO.md": "c51238a1a12e9763fad66f26bd4075cb103e146fcaf355cfe3d64623cc68d09b"
+  },
+  "sha256_previos": {
+    "draft2model/verificacion_modelo_guardado.py": "ca2bd25b4f82a5a0fafb2e710d4ea87a36c0863f0f946dc0edb31c7c6109f20d",
+    "scripts/verificar_modelo_guardado.ps1": "fc802ab6a99cab4906c2f6abe0f7646a810632aca66829796d543874c7e86380",
+    "tests/test_verificacion_modelo_guardado.py": "01f4e7ba97e3b16ff01214d62cad66b120f3c92e7414fc68ffce014943b0645b",
+    "docs/VERIFICACION_MODELO_GUARDADO.md": "96cf4ebf4c0c7a21b39de8ff4d0d75fe00baa8d07069d507203029e31db60cf8"
+  },
+  "version": {
+    "lector": "0.2.0",
+    "expectativa": "0.2.0",
+    "resultado": "0.2.0",
+    "migracion": "criterios con 13 magnitudes (+frecuencia_hz, tiempo_s, aceleracion_m_s2); version_lector en solicitud y datos; mezcla 0.1/0.2 rechazada; cargar_resultado lee 0.1.0 y 0.2.0"
+  },
+  "pruebas": [
+    {
+      "comando": ".venv/Scripts/python.exe -m unittest -v tests.test_verificacion_modelo_guardado",
+      "entorno": "TEMP/TMP=tmp/cobertura_qa; Windows PowerShell 5.1; ETABSv1 falso compilado en la prueba",
+      "resultado": "22 OK",
+      "omisiones": 0,
+      "codigo_salida": 0,
+      "log": "tmp/cobertura_qa/pruebas.log"
+    }
+  ],
+  "cobertura": {
+    "nuevas_categorias": [
+      "apoyos",
+      "diafragmas (definicion y asignacion por punto)",
+      "patrones",
+      "casos (estatico, modal Eigen, espectral)",
+      "combinaciones",
+      "funciones_espectrales",
+      "tablas_dinamicas (ModalCombo, RigidResp, ConstDamp, DampRatio)",
+      "marcas_de_ejecucion"
+    ],
+    "inventario": "cada operacion del plan: comprobada, excluida (cFile.Save; lecturas Count/Get* del plan) o sin_lector -> incompleto y verificacion_global_del_plan=false",
+    "leido_no_afirmado": [
+      "diafragma_de_area",
+      "subtipo_de_caso",
+      "tipo_de_amortiguamiento_espectral",
+      "combinacion_modal_oapi",
+      "G, M, elevaciones derivadas",
+      "ejes sin criterio"
+    ]
+  },
+  "firmas_contrastadas": {
+    "fuente": "reflexion de metadatos ETABSv1.dll 1.29.0.0, sin iniciar ETABS; tmp/cobertura_qa/firmas_reflejadas.json",
+    "lista_blanca_script": "58 firmas exactas; prueba contra DLL instalada OK",
+    "inexistente": [
+      "cFunctionRS"
+    ]
+  },
+  "limites": [
+    "Sin ETABS real, red, instalaciones ni suite global; dobles y reflexion no acreditan ETABS.",
+    "No retira bloqueos ni habilita ejecutor/modelo 0.2; no aprueba ni certifica.",
+    "Pendiente real: unidades al reabrir, orden GetPoints, GetDiaphragm para Disconnect, formato/agrupacion de tablas de visualizacion, centinela GetValues, cargas repetidas.",
+    "Extras de plantilla no juzgados salvo marcas de ejecucion; diafragma de area leido sin afirmar.",
+    "Umbrales de lectura explicitos en [0, 1e-6]; no tolerancias de ingenieria."
+  ],
+  "conflictos": [
+    "Ningun archivo fuera de los cuatro autorizados editado. Artefactos incidentales: tmp/cobertura_qa (log, firmas reflejadas) y __pycache__.",
+    "Integracion Codex: criterios a 13 magnitudes, sha256_edb desde respuesta aceptada del ejecutor, bloqueo compartido, UI/informe y politica de aceptacion."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "fecha_utc": "2026-10-25T19:13:21.488224+00:00",
+  "caso": "vivienda-unifamiliar-003",
+  "trabajo": "bdd7a91fb0414a99aeb21d4e325cad82",
+  "estado": "parametros_borrador",
+  "proveedor": "openai",
+  "modelo": "gpt-6.1-sol",
+  "peticiones_totales_openai": 8,
+  "restantes": 2,
+  "recuperacion_sin_api": true,
+  "configuracion_preparacion": "f87bc6177dc344f1a7c67216d8375b91",
+  "extraccion": "f1c6308fba7b4e1c8b92571842406e7f",
+  "detectado": {
+    "materiales": 3,
+    "secciones": 13,
+    "asignaciones": 41,
+    "cargas": 3,
+    "faltantes": 13
+  },
+  "datos_aplicados": 0,
+  "resultado_sha256": "5db99ac04b04aea66c8abb93a80e99103b9d87095c47deaeea4a89faeb8b66d8",
+  "respuesta_sha256": "04cf74693e433ca8f00038682df66a3a3ca7d06b6316b9590ce49d675c4ad57f",
+  "captura": "seguimiento/LECTURA_PARAMETROS_358.png",
+  "limites": [
+    "Lectura propuesta, no revisión técnica aprobada",
+    "Faltan E,poisson,peso y otras condiciones de material; resistencias solo literales",
+    "No se asignan cargas generales a superficies ni se interpretaKg como fuerza sin revisión",
+    "Geometría parcial y ETABS sin ejecutar",
+    "Recuperación local conserva respuesta; no nuevaAPI"
+  ]
+}

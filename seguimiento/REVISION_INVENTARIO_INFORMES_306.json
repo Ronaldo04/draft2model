@@ -1,0 +1,35 @@
+{
+  "segundos": 0.01108700002077967,
+  "listado": {
+    "modo": "inventario",
+    "versiones": [
+      {
+        "id": "d0aae89744524766b122d604c59e0d3e",
+        "vigente": null,
+        "verificacion": "pendiente",
+        "estado": null,
+        "analisis": null
+      }
+    ]
+  },
+  "alcance": "Inventario físico sin comprobar vigencia ni autorizar descarga; no mide abrir ni descargar",
+  "python_focales": 9,
+  "frontend_focales": 3,
+  "fuentes": {
+    "draft2model/revision_entregables.py": "fff9bf3369f62d57c8d684abbf8c5fec848942d2e1304755ec3585bfbcb3167e",
+    "draft2model/revision_visual.py": "c89397470e451ce18112eb1414a185a6caf044aa43c56974e4af2d5803871b85",
+    "draft2model/revision_web/informes.js": "f024aa211eec061147385970f376daf5ee106a43831639eee783456815cd5ae5",
+    "tests/test_inventario_informes_306.py": "3d6fa51c5f5b74030df3ad52f360255ae16e9d05bb958074e45addad10034c43",
+    "tests/revision_informes_inventario_306_frontend.cjs": "065392e480a335dcbb346b11a1a10c43ca433870dc095e8fccaaf451dd0e563f"
+  },
+  "goal_completo": false,
+  "frontend_todos_cjs": {
+    "pruebas": 39,
+    "fallos": 0,
+    "cancelados": 0,
+    "omisiones": 0,
+    "todo": 0,
+    "log": "tmp/frontend_306.log"
+  },
+  "incidencia_entorno_focal": "WinError5 renombrado en sandbox; repetición autorizada host con TEMP corto:9OK. No se cambió el producto para eludirla."
+}

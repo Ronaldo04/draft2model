@@ -1,0 +1,61 @@
+{
+  "estado": "desfase_vigente_verificado",
+  "observacion": {
+    "id": "R239-01",
+    "prioridad": "P1_reanudacion_y_cuotas",
+    "etapas": [
+      "04",
+      "06"
+    ],
+    "hallazgo": "docs/RETOMAR.md y MATRIZ_REQUISITOS_REFERENCIA.md todavía indican una petición real y plan2 sin envío, y edición normativa no elegida. El ledger registra4OpenAI/2Gemini con recibos existentes; plan2 fue enviado y falló por truncamiento. Usuario eligió RNEvigente y entregó arquitectura. Instrucción obsoleta de reanudar plan2 puede inducir duplicación; no ejecutarla.",
+    "evidencia": "seguimiento/DESFASE_DOCUMENTAL_239.json",
+    "criterio_aceptacion": "Actualizar documentación vigente en09 con fecha/recibos y diferenciar corpus229, implementación08/09 y aplicación real pendiente. Plan2 histórico enviado/fallido, nunca pendiente de primera transmisión; no más llamadas por este hallazgo."
+  },
+  "recibos": [
+    {
+      "proveedor": "openai",
+      "numero": 1,
+      "estado": "respuesta_pendiente_revision",
+      "resultado": "data\\private\\provisional-001\\vision\\intentos_openai\\3274c1b8c8344082a398aff54fee2519\\resultado.json",
+      "existe": true
+    },
+    {
+      "proveedor": "openai",
+      "numero": 2,
+      "estado": "fallido",
+      "resultado": "data\\private\\provisional-001\\vision\\intentos_openai\\2608fea66a074f13b9692988860934f0\\resultado.json",
+      "existe": true
+    },
+    {
+      "proveedor": "openai",
+      "numero": 3,
+      "estado": "respuesta_pendiente_revision",
+      "resultado": "data\\private\\provisional-001\\vision\\intentos_openai\\e1862b9a03db48399e5d5ab543b3a9dc\\resultado.json",
+      "existe": true
+    },
+    {
+      "proveedor": "openai",
+      "numero": 4,
+      "estado": "respuesta_pendiente_revision",
+      "resultado": "data\\private\\provisional-001\\vision\\intentos_openai\\e59541d8f132493ca4a99cd6c27d59e3\\resultado.json",
+      "existe": true
+    },
+    {
+      "proveedor": "gemini",
+      "numero": 1,
+      "estado": "respuesta_pendiente_revision",
+      "resultado": "data\\private\\provisional-001\\vision\\intentos_gemini\\14d200db6ce04940a3d339d61d16b9e9\\resultado.json",
+      "existe": true
+    },
+    {
+      "proveedor": "gemini",
+      "numero": 2,
+      "estado": "fallido",
+      "resultado": "data\\private\\provisional-001\\vision\\intentos_gemini\\1f11d8e291ad4ad2a5a44600223b515b\\resultado.json",
+      "existe": true
+    }
+  ],
+  "pendientes_reales": "Geometría/configuración y recorrido del piloto real; datos materiales no resueltos. No comparación manual aplazada.",
+  "api_nuevas": 0,
+  "implementacion_por": "Claude encargo09; Codex no modifica docs simultáneamente"
+}

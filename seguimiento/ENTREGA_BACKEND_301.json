@@ -1,0 +1,25 @@
+{
+  "fecha_utc": "2026-10-23T21:44:25.456678+00:00",
+  "responsable": "Codex",
+  "contrato": "seguimiento/REPARTO_301_INVENTARIO_ANALISIS.md",
+  "reparto_confirmado": "seguimiento/RECEPCION_301.json",
+  "backend": "implementado",
+  "pruebas_focales": "5/5 OK2.669s",
+  "regresiones_anteriores": "2/2 OK8.430s: listado anterior, creación y descarga rechazadas tras EDB alterado",
+  "inventario_real": {
+    "segundos": 0.011436800006777048,
+    "filas": 1,
+    "todas_sin_verificar": true,
+    "_fuente_no_llamada": true
+  },
+  "archivos": {
+    "draft2model/revision_entregables.py": "7343fbe222e349c5b208bbf4127a5efc0d5d7f76e7dd32d6c9936850ab9a0a12",
+    "draft2model/revision_visual.py": "c5bb777b92ba91094e8a0114fc6e924daf510ca48cf846bda680bddf7e053e15",
+    "tests/test_inventario_analisis_301.py": "7ac816a974c83a63c4e4b5b80f937c818ce5ad97c5cb2707f1f663cd348d521a"
+  },
+  "restricciones": "Solo inventario rápido. Comprobación y exportación completas se conservan. Sin ETABS/API. Fuentes299 previas a301, no usar su QA para dar301 por integrado.",
+  "liberado_para_integracion_frontend": true,
+  "goal_completo": false,
+  "resultado_total": "7pruebasOK sin omisiones",
+  "backend_liberado": true
+}

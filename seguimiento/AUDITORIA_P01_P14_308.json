@@ -1,0 +1,105 @@
+{
+  "fecha_utc": "2026-10-24T03:20:54.058042+00:00",
+  "fuente_requisitos": "SismoVivienda_AI_Desarrollo_Tecnico.pdf, página12; decisiones posteriores del usuario conservadas",
+  "fuente_requisitos_sha256": "106e34ee62a475724f0d752d7dd6fe1781fa9b7752ef2a48982841f235d106cb",
+  "criterios": [
+    {
+      "id": "P01",
+      "criterio": "Instalación y conexión Python–ETABS",
+      "estado": "software y cálculo nativo observados",
+      "evidencia_y_limite": "Instalación offline303, suite306, arranque308 con datos vacíos; EDB analizado y leído del piloto conservado. No nueva ejecución nativa308 ni otro equipo."
+    },
+    {
+      "id": "P02",
+      "criterio": "Ingreso y calidad de imágenes",
+      "estado": "software probado; originales preservados",
+      "evidencia_y_limite": "Ingreso/validadores y revisión documental cubiertos por suite; seis originales del piloto íntegros. Calidad insuficiente se informa; esto no acredita precisión de visión."
+    },
+    {
+      "id": "P03",
+      "criterio": "Perspectiva, escala y recortes",
+      "estado": "parcial en el piloto",
+      "evidencia_y_limite": "Transformaciones y coordenadas probadas; calibración y datos confirmados del caso. No existe una referencia humana completa para contrastar toda la geometría de los planos."
+    },
+    {
+      "id": "P04",
+      "criterio": "Benchmark visual",
+      "estado": "pendiente de referencia humana",
+      "evidencia_y_limite": "Hay respuestas reales y contabilidad de errores/cuarentena. El anotador308 está vacío; el usuario aceptó completar la referencia, pero todavía no entregó el JSON. No hay precisión ni cobertura global acreditadas."
+    },
+    {
+      "id": "P05",
+      "criterio": "Contratos y unidades",
+      "estado": "software verificado",
+      "evidencia_y_limite": "1424 pruebas Python y36 de interfaz en306, sin omisiones; código/pruebas/dependencias idénticos en308. No equivale a aprobación profesional de los valores de entrada."
+    },
+    {
+      "id": "P06",
+      "criterio": "Revisión humana e invalidación",
+      "estado": "infraestructura verificada; revisión declarada",
+      "evidencia_y_limite": "Versiones, hashes, ediciones, aprobación declarada e invalidaciones probadas; confirmaciones puntuales del usuario preservadas. No autentica una revisión integral de ingeniería."
+    },
+    {
+      "id": "P07",
+      "criterio": "Sitio",
+      "estado": "software probado; aplicación real limitada",
+      "evidencia_y_limite": "Cruce, límites y ausencia de cobertura tienen pruebas; la ubicación y fuentes son referenciales. El escenario de suelo no sustituye EMS ni demuestra cartografía geotécnica correcta del edificio."
+    },
+    {
+      "id": "P08",
+      "criterio": "Modelo y controles",
+      "estado": "nativo con observaciones",
+      "evidencia_y_limite": "Modelo construido, relectura y cargas/masa contrastadas. La masa oficial conserva no_coherente (aprox.0,12745% frente a0,1%); extremos efectivos explican la mayor parte, sin reconciliación independiente completa."
+    },
+    {
+      "id": "P09",
+      "criterio": "Cálculo y referencia manual",
+      "estado": "aplazado por el usuario",
+      "evidencia_y_limite": "No se utilizó el modelo manual ni se pide para desbloquear infraestructura. Su comparación no es condición del cierre actual; no se declara realizada."
+    },
+    {
+      "id": "P10",
+      "criterio": "Motor de reglas",
+      "estado": "verificado para reglas y escenario revisados",
+      "evidencia_y_limite": "18 comparaciones reales contrastadas:8 satisfactorias y10 no satisfactorias. Se conserva el resultado; no certifica cumplimiento normativo integral."
+    },
+    {
+      "id": "P11",
+      "criterio": "Recuperación y citas",
+      "estado": "software probado y fuentes conservadas",
+      "evidencia_y_limite": "Recuperación/abstención y separación de fuentes probadas; complemento con20fuentes públicas normativas. Sin API para explicar resultados; no se infiere cobertura de todo el RNE."
+    },
+    {
+      "id": "P12",
+      "criterio": "Informe",
+      "estado": "contenido contrastado; compatibilidad PDF pendiente",
+      "evidencia_y_limite": "Informe técnico09d3: JSON/HTML/PDF/panel revisados y18evaluaciones conservadas. Apertura306 observada. PDF QA descargado en Chrome303 por el usuario:117212bytes y SHA coincidente. Persisten diferencias de renderizado en algunas páginas del informe técnico; HTML alternativo y encargo309 preparado."
+    },
+    {
+      "id": "P13",
+      "criterio": "Fallos y recuperación",
+      "estado": "software probado y fallos reales conservados",
+      "evidencia_y_limite": "Pruebas de exclusión, recuperación, huellas e invalidación; se preserva el intento API truncado y no se reenvía automáticamente. No se acredita cada fallo posible de cualquier estación ETABS."
+    },
+    {
+      "id": "P14",
+      "criterio": "Flujo completo",
+      "estado": "piloto supervisado y distribución reproducible; aceptación global abierta",
+      "evidencia_y_limite": "Existe cadena de planos/revisión/modelo/análisis/13indicadores/informe y paquete verificado. No es una ejecución completa de todas las pantallas en un equipo nuevo ni demuestra automatización de cualquier construcción. P04 y la salvedadP12 siguen abiertos."
+    }
+  ],
+  "fuentes_evidencia": [
+    "seguimiento/VALIDACION_DISTRIBUCION_306.json",
+    "seguimiento/REVISION_DOCUMENTACION_ENTREGA_308.json",
+    "seguimiento/QA_DESCARGA_Y_306_307.json",
+    "seguimiento/REVISION_INFORME_302.json",
+    "seguimiento/REVISION_REGLAS_REALES_286.json",
+    "seguimiento/REVISION_ANALISIS_267.json",
+    "seguimiento/REVISION_METRICAS_265.json",
+    "seguimiento/REVISION_REMOTO_307.json",
+    "seguimiento/QA_ANOTADOR_308.json"
+  ],
+  "repo": "Repositorio privado e issue1 consultables. No se publicó308 ni se auditó aceptación de otro colaborador.",
+  "goal_completo": false,
+  "no_calcular_porcentaje": "No convertir54coincidencias automáticas del catálogo histórico en porcentaje de terminación del proyecto."
+}

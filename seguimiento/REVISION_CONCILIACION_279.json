@@ -1,0 +1,12 @@
+{
+  "codigo": 0,
+  "segundos": 1.2007899000309408,
+  "fuentes_sha256": {
+    "draft2model/libro_masa.py": "c0218746dc81598fe5b05eb0e9a9641bb41fd443bf75399ac6b692e5bece60c6",
+    "tests/test_libro_masa_263.py": "fc5a735e6b3072c53dc30de5b1ac2a63835e39c0597a90671c582d30b8bb7cab"
+  },
+  "fuentes_estables": true,
+  "log": "tmp/revision_conciliacion_279.log",
+  "alcance": "Revisión de código y regresiones focales puras de conciliación; no reejecuta ETABS ni revalida todo el producto.",
+  "goal_completo": false
+}

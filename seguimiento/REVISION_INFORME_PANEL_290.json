@@ -1,0 +1,50 @@
+{
+  "fecha_utc": "2026-10-23T20:36:16.124217+00:00",
+  "goal_completo": false,
+  "hashes_marcador_coinciden": true,
+  "paginas_PDF_revisadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "render": "Poppler8paginas; pagina8contrastada con MuPDF y texto/bbox: contenido completo y en limites con MuPDF. No se acredita defecto de maquetacion del PDF por diferencia del render Poppler.",
+  "resumen_283_corregido": true,
+  "evaluaciones_identicas_a_revision_286": true,
+  "comparaciones": {
+    "total": 18,
+    "satisface": 8,
+    "no_satisface": 10
+  },
+  "hallazgos": [
+    {
+      "id": "UNIDAD-COCIENTE",
+      "evidencia": "PDF7/8 e informe.json evaluacion VMIN-SX/SY muestran valor Vdin/Vest0.748372/0.587709 y limite0.8 con unidad kN heredada del valor de entrada. El cociente es adimensional. Panel_tecnico tambien usa ev.unidad para limite.",
+      "criterio": "Declarar y diferenciar unidades de entrada/salida de formula en contrato, validacion y presentacion; conservar valores originales y no inferir unidad solo desde factor numerico."
+    },
+    {
+      "id": "MASA-CAPTURA",
+      "evidencia": "PDF3 contiene masa_nativa ligada al analisis7203 y EDB4237 (no_coherente), pero contenido_masa afirma NO verificada (sin captura nativa ligada al analisis). Frase generica fija en informe.py834 contradice captura existente.",
+      "criterio": "Distinguir inventario declarado y captura existente no_coherente; sin captura solo si no hay fuente nativa. No convertir captura existente en contraste satisfactorio."
+    },
+    {
+      "id": "RESUMEN-MARCADOR",
+      "evidencia": "MARCADOR_09D_FINAL dice todas las derivas no satisfechas estan en SY; informe real tambien tiene DERIVA-S1-ALB-SX/N2 y N3 no satisfactorias.",
+      "criterio": "Corregir resumen de entrega en nuevo registro sin alterar evidencia historica. Son2incumplimientosSX y6SY de derivas mas2de cortante."
+    }
+  ],
+  "limites": "No nueva revalidacion completa de todos los servicios ni QA de descarga. La aritmetica coincide con286 y el paquete es borrador sin aprobacion.",
+  "api_remota": false,
+  "etabs_ejecutado": false,
+  "qa_navegador": {
+    "resultados_revision285": "13filas coinciden con valores originales; estado paquete verificado/revision pendiente; captura QA_RESULTADOS_REALES_290.png",
+    "panel_html_real": "13filas iniciales; filtroSY+deriva4, SY+X0conmensajevacio, SY+cortante1con528.1533kN; captura QA_PANEL_REAL_290.png",
+    "panel_sitio": "No disponible expresamente, sin capa vinculada.",
+    "panel_unidad_cociente": "Defecto confirmado tambien en DOM:limite0.8kN. Correccion290enviada.",
+    "latencia_listado285": "Termino3modelos/1resultado. Fin preciso no observado durante limite de cuota; no atribuir4horas a la solicitud."
+  }
+}

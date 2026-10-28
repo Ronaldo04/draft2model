@@ -1,0 +1,16 @@
+{
+  "fecha": "2026-10-21",
+  "servidor": "local 127.0.0.1:8792 (detenido)",
+  "caso": "pueblo-libre-002",
+  "comprobado": [
+    "Selector de versiones 0.2.0 (3 versiones)",
+    "M001: tipo propiedad, unidades por tipo, literal y símbolo visibles, marca en L0001",
+    "Previsualización de región sin guardar (marca discontinua; botón Guardar se habilita solo tras previsualizar)",
+    "Versión base 010d5641 muestra «Hay 2 versión(es) posterior(es); esta versión no hereda sus cambios»",
+    "Consola sin errores"
+  ],
+  "no_guardado": "No se guardó ninguna versión durante la QA (3 versiones antes y después).",
+  "no_comprobado": [
+    "Cobertura por recorte en la UI: la extracción derivada no trae cobertura (procede de 0.1 migradas); cubierto por pruebas Node."
+  ]
+}

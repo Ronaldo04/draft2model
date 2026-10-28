@@ -1,0 +1,23 @@
+{
+  "primera_consulta_acepta_fuente_alterada_durante_validacion": true,
+  "segunda_consulta_rechaza_fuente": true,
+  "fuentes_codigo_estables": true,
+  "sha256_fuentes": {
+    "draft2model\\revision_controles.py": "a8cdd6eec6e01b495e65968de21a4330445b96149d72a7c7ecb83db1b2b9487a",
+    "draft2model\\controles_analisis.py": "522975ea9c6aa7311bfe5298d6f9a99dc13f5fe99faa556eb5e456e5d3b2e4c5"
+  },
+  "modo": "Datos sintéticos y puente Python doble; ningún ETABS ni API real",
+  "metodo": "Cambiar respuesta después de validar_controles y antes de devolver consultar; sin editar producto",
+  "estado": "reproducido_pendiente_correccion_Claude",
+  "evidencia": "tmp/revalidacion_controles_codex_136.json",
+  "encargo_actualizado": "seguimiento/ENCARGO_CLAUDE_CIERRE_DESARROLLO.md",
+  "aviso_ui_enviado": true,
+  "motivo_no_enviar_ui": "Compositor contenía un borrador ajeno; se conservó intacto. No se declaró mensaje enviado.",
+  "accion_al_revisar_entrega": "Verificar revalidación final de lectura/análisis/bytes y regresión de cambio durante validar_controles. No aceptar solo relectura de registro.",
+  "ultimo_intento_aviso_ui": {
+    "enviado": true,
+    "resultado": "Usuario confirmó ventana libre; envío verificado visualmente",
+    "regla": "No más consultas a ventana; comprobar archivos/entrega por marcador"
+  },
+  "confirmacion_envio": "Mensaje completo observado en historial de Comandos CLI geometría; compositor vacío después de Return. No se acredita todavía corrección ni aceptación de Claude."
+}

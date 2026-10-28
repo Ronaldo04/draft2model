@@ -1,0 +1,13 @@
+{
+  "estado": "respuesta_pendiente",
+  "datos_solicitados": [
+    "proveedor",
+    "modelo_id",
+    "limite_usd"
+  ],
+  "motivo": "Preparar petición real acotada exclusiva para lectura de planos.",
+  "no_impide": "Implementación y pruebas sin red; ruta Claude permanece activa.",
+  "api_real": false,
+  "claves_leidas": false,
+  "entrada_manual_etabs": "Reservada por usuario para comparación posterior."
+}

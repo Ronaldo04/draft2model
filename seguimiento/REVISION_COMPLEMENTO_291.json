@@ -1,0 +1,24 @@
+{
+  "fecha_utc": "2026-10-23T20:50:07.717060+00:00",
+  "pruebas_focales": "10/10unittestOK1.479s sin omisiones; no prueba piloto",
+  "exportacion_real_exit": 0,
+  "zip_sha256": "12e3670f869fc0b53334d71c5abae2397c17328c11ffd52f5ba281dd44a4a8ae",
+  "zip_bytes": 65908419,
+  "miembros_externos": 34,
+  "miembros_caso": 310,
+  "originales_pdf": 6,
+  "archivos_edb": 7,
+  "referencias_publicas": 20,
+  "hashes_zip_comprobados_independientemente": true,
+  "unico_caso_y_cadena_coinciden": true,
+  "fuentes_utilidad": {
+    "seguimiento/exportar_complemento_291.py": "83632eedbfc0bb86640d54063ed97146a31d8f2fa3a85bd72b98cb41509ef6c5",
+    "seguimiento/test_exportar_complemento_291.py": "98087d30b0af534573577fc8fc33cb8085eaf304c170c3fbd2ad568e07481b71",
+    "seguimiento/GUIA_COMPLEMENTO_291.md": "3fe8f58bb0596399e17e4fa5dbc37bdaeb159914d957cda624d24253d7c8a045"
+  },
+  "estado": "candidato_de_transporte_no_entrega_final",
+  "limites": "09d2 conserva defectos de presentacion290. Sin prueba de reconstruccion/relectura en destino, sin aceptacion funcional ni ingenieria. Crear nuevo complemento desde artefactos corregidos y revisados.",
+  "api_remota": false,
+  "etabs_ejecutado": false,
+  "goal_completo": false
+}

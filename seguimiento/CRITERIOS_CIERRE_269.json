@@ -1,0 +1,110 @@
+{
+  "objetivo": "Sistema completo de entrada de planos, revisión, configuración, modelado ETABS, análisis, resultados y entrega reproducible. No declarar soporte universal por un solo caso.",
+  "goal_completo": false,
+  "criterios": [
+    {
+      "id": "instalacion_y_arranque",
+      "evidencia_actual": [
+        "seguimiento/REVISION_PAQUETE_258.json",
+        "seguimiento/REVISION_COPIA_267.json"
+      ],
+      "estado": "historia_verificada_version_final_pendiente",
+      "falta": "Instalación y arranque con la huella final estable; la copia267 no incluye los cambios posteriores."
+    },
+    {
+      "id": "planos_y_proveedores",
+      "evidencia_actual": [
+        "seguimiento/CONSUMO_API_211.json",
+        "seguimiento/REVISION_METRICAS_265.json"
+      ],
+      "estado": "lecturas_reales_observadas_con_limites",
+      "falta": "Conservar cuarentena, correcciones y trazabilidad en la entrega; no atribuir precisión validada sin referencia humana. Respetar límite OpenAI4/5 y Gemini2/5; llamadas solo para planos."
+    },
+    {
+      "id": "geometria_y_configuracion",
+      "evidencia_actual": [
+        "seguimiento/DECISION_USUARIO_246.json",
+        "seguimiento/DECISION_ESCALERA_256.json",
+        "seguimiento/REVISION_ANALISIS_267.json"
+      ],
+      "estado": "caso_operativo_con_hipotesis",
+      "falta": "Conservar hipótesis de suelo, sistema, detalles no confirmados y su trazabilidad; no convertirlas en datos del plano ni certificación."
+    },
+    {
+      "id": "modelo_y_relectura",
+      "evidencia_actual": [
+        "tmp/recorrido_09d1/registro.json",
+        "tmp/recorrido_09d1/relectura_resultado.json",
+        "seguimiento/DIAGNOSTICO_PESO_RELECTURA_268.json"
+      ],
+      "estado": "modelo_y_relectura_reales_guardados",
+      "falta": "Complemento final con sus evidencias temporales necesarias. La copia visual para el usuario no acredita aceptación del producto."
+    },
+    {
+      "id": "analisis_y_resultados",
+      "evidencia_actual": [
+        "seguimiento/REVISION_ANALISIS_267.json",
+        "seguimiento/REVISION_LECTURAS_09D1_267.json",
+        "seguimiento/REVISION_NORMALIZACION_268.json"
+      ],
+      "estado": "analisis_real_y13indicadores_contrastados",
+      "falta": "Cerrar controles actuales y revisar el informe de esos mismos análisis/EDB; no heredar aceptación de fuentes diferentes."
+    },
+    {
+      "id": "masa_y_peso_sismico",
+      "evidencia_actual": [
+        "seguimiento/HALLAZGO_PESO_SISMICO_268.json",
+        "seguimiento/BALANCE_MASA_GRAVEDAD_268.json",
+        "seguimiento/DIAGNOSTICO_PESO_RELECTURA_268.json"
+      ],
+      "estado": "abierto",
+      "falta": "Verificar corrección de P por pisos y resolver o delimitar con causa demostrada el desfase del libro de masa, sin ampliar tolerancias para obtener éxito."
+    },
+    {
+      "id": "normativa_y_evaluacion",
+      "evidencia_actual": [
+        "seguimiento/NORMATIVA_OFICIAL_229.md",
+        "seguimiento/claude_ruta/RECEPCION_CONTINUACION_268.json"
+      ],
+      "estado": "corpus_y_motor_existentes_evaluacion_final_pendiente",
+      "falta": "Verificar aplicación y abstenciones del escenario vigente. Presentar incumplimientos si existen, sin alterar datos para hacerlos pasar; separar evaluación de software y revisión profesional."
+    },
+    {
+      "id": "panel_e_informes",
+      "evidencia_actual": [
+        "seguimiento/REVISION_WEB_MASA_267.json",
+        "seguimiento/QA_WEB_MASA_267.json"
+      ],
+      "estado": "infraestructura_sintetica_verificada_caso_real_pendiente",
+      "falta": "Revisar en caso real estado, geometría/muros, periodos, derivas, cortante basal, advertencias/inconsistencias y sitio referencial, con JSON/HTML/PDF y fuentes ligadas."
+    },
+    {
+      "id": "cierres_y_rendimiento",
+      "evidencia_actual": [
+        "seguimiento/REVISION_CIERRE_ANALISIS_268.json",
+        "seguimiento/REVISION_CACHE_PRODUCTO_268.json",
+        "seguimiento/ENSAYO_CACHE_MALLA_267.json"
+      ],
+      "estado": "correcciones_integradas_pruebas_focales_verificadas",
+      "falta": "Revisar impacto en el flujo real y versión final. El tiempo caliente de una función no es el tiempo de todo el sistema. No reiniciar procesos vivos por una espera larga."
+    },
+    {
+      "id": "reubicacion_del_caso",
+      "evidencia_actual": [
+        "seguimiento/REVISION_ANEXO_268.json",
+        "seguimiento/REUBICACION_CASO_269.json"
+      ],
+      "estado": "evidencia_archivada_reubicada_verificada",
+      "falta": "Separar esta verificación de una nueva lectura nativa o reconstrucción con nuevas corridas; instalación final y panel/informe real mantienen sus criterios independientes."
+    },
+    {
+      "id": "paquete_final_y_guia",
+      "evidencia_actual": [
+        "seguimiento/GUIA_ANEXO_268.md",
+        "docs/ENTREGA_AECODE.md"
+      ],
+      "estado": "candidatos_no_finales",
+      "falta": "Congelar fuentes terminadas, empaquetar sin edición concurrente, validar esa huella e incluir resultados reales revisados y guía reproducible. AECODE_CANDIDATO_268 falló correctamente por cambio de lectura_analisis.py y NO es publicable."
+    }
+  ]
+}

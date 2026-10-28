@@ -1,0 +1,27 @@
+{
+  "evaluaciones_reproducidas": [
+    {
+      "cohorte": "openai_1",
+      "codigo": 0,
+      "salida_identica": true
+    },
+    {
+      "cohorte": "openai_3",
+      "codigo": 0,
+      "salida_identica": true
+    },
+    {
+      "cohorte": "openai_4",
+      "codigo": 0,
+      "salida_identica": true
+    },
+    {
+      "cohorte": "gemini_1",
+      "codigo": 0,
+      "salida_identica": true
+    }
+  ],
+  "edb_piloto_intacto": true,
+  "llamadas_api_nuevas": 0,
+  "revision_humana_realizada": false
+}

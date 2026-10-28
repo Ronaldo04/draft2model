@@ -1,0 +1,36 @@
+{
+  "estado": "revision_focal_completa_no_ensayo_nativo",
+  "archivos_sha256": {
+    "draft2model/modelo_estructural.py": "499562e127b80819ef8a50c7e5005366b558888ae5fc75c3e1caf524a4da078e",
+    "draft2model/operaciones_etabs.py": "3426a198d7208f4aca69ce9e2abd7847000c253c0d1e434325454524c7ec0b90",
+    "draft2model/ejecutor_etabs.py": "7811a75f5996f4d752443e42fae4ed34114d16feafdaf0e9a0e7a4669a8f0145",
+    "draft2model/ejecucion_modelo.py": "a0620543b74bb5a64b0b57179f60c403d5890163152c159b16f72b00fe75e6ac",
+    "draft2model/revision_modelo.py": "263361f7f7af0ebc235f9c40ee7a3538c4b6afbb412be9d644a6f2e6556c2357",
+    "draft2model/gestion_configuracion.py": "49436f3a20d62401fd92ccbb8f637839d0d9ea551a9651daa3c94e372250fc05",
+    "draft2model/revision_configuracion.py": "27885f4a3d0d4a674bf6c3d2b9afd94744d950be0b848159a41b338e13a9a2e7",
+    "draft2model/triangulacion_particiones.py": "3e941bc445ee7ca2e001198aa77f0ea30c3c4a834d59338ae4d7288459a89637",
+    "scripts/ejecutar_plan_etabs.ps1": "1eb7d6933541ae6003ee49766ee930342abbcb8800db816837ff66947e11019e",
+    "draft2model/cortes_superficies.py": "39d5b66c30e157ed841c2b9a29303faf724c6d575f212098b05c8cd8399b8184",
+    "draft2model/malla_preparacion.py": "2c914b807630c0d2f129a30ed00c8a711e9d9b337accdc14da50a186df3992ca",
+    "tests/test_integracion_malla.py": "f2c0a9b893fc588c3a78333205fb987c73d2f4e20ca8ceffd409eb47ef524014",
+    "docs/INTEGRACION_MALLA_ETABS.md": "03cf6198c7bd60b43e089635293c2e969e4f96417029af459d5d4ab37cabda7f"
+  },
+  "marcador_sha256": "12a5a8515dc27d2c1390b1ebfda0662e07c5177a1ba988fec884bf0c30ed11bd",
+  "pruebas": [
+    {
+      "log": "tmp/revision_malla_188.log",
+      "puras_ok": 8,
+      "total": 11,
+      "fallos_puente_aislado": true
+    },
+    {
+      "log": "tmp/revision_malla_188_host.log",
+      "doble_host_ok": 3,
+      "segundos": 35.36,
+      "omision": 0
+    }
+  ],
+  "etabs_real": false,
+  "api_ia": 0,
+  "nota": "gestion_planes.py es plan geométrico, NO llama a generar_plan de ETABS; no cambiar su contrato por indicación imprecisa del informe."
+}

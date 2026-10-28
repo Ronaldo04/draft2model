@@ -1,0 +1,12 @@
+{
+  "fecha_utc": "2026-10-24T07:34:25.935426+00:00",
+  "marcador_sha256": "e139d268092cc82d9211c8bcf557fd92f5adede1b3fa05d791319fb5ef3c9343",
+  "archivos_hash_verificado": 44,
+  "revision_visual_ampliada": "Codex confirma Estado/Fórmula/Fuente completos en los dos primeros bloques de p7; corrige su observación previa de prefijos incompletos.",
+  "comparacion_forma": "Revisada metodología IoU por carácter y primera columna de tinta; no es OCR ni compatibilidad universal.",
+  "candidato": "Aceptado para integración limitada al pie incrustado; mismo programa de fuente ya provisto por PyMuPDF. Sin fuente externa nueva.",
+  "integracion_codex": "draft2model/informe.py::_pdf y tests/test_informe_fuentes_312.py",
+  "regresion_observada": "Prueba nueva falló antes por Helvetica no incrustada en5páginas; después del cambio pasa. Regresión de informes exec17557 en curso.",
+  "datos_estructurales": "No modificados; PDF nuevo de visualización no equivale a nuevo análisis.",
+  "goal_completo": false
+}

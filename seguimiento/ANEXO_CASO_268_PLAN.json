@@ -1,0 +1,108 @@
+{
+  "fecha_utc": "2026-10-23T03:47:48.462742+00:00",
+  "caso": "pueblo-libre-002",
+  "estado": "plan_de_anexo_no_exportado_no_validado_en_otra_carpeta",
+  "grupos": [
+    {
+      "grupo": "analisis_etabs",
+      "archivos": 35,
+      "bytes": 36076329
+    },
+    {
+      "grupo": "aprobaciones_modelo",
+      "archivos": 1,
+      "bytes": 2047
+    },
+    {
+      "grupo": "configuraciones_estructurales",
+      "archivos": 35,
+      "bytes": 29155291
+    },
+    {
+      "grupo": "extracciones",
+      "archivos": 10,
+      "bytes": 937697
+    },
+    {
+      "grupo": "geometrias",
+      "archivos": 39,
+      "bytes": 33650439
+    },
+    {
+      "grupo": "lecturas_analisis",
+      "archivos": 71,
+      "bytes": 644892
+    },
+    {
+      "grupo": "lecturas_etabs",
+      "archivos": 14,
+      "bytes": 16854
+    },
+    {
+      "grupo": "modelos_construidos",
+      "archivos": 24,
+      "bytes": 296291548
+    },
+    {
+      "grupo": "originales",
+      "archivos": 6,
+      "bytes": 2746833
+    },
+    {
+      "grupo": "plantillas",
+      "archivos": 4,
+      "bytes": 159581
+    },
+    {
+      "grupo": "resultados_estructurales",
+      "archivos": 5,
+      "bytes": 1932360
+    },
+    {
+      "grupo": "revision_documental",
+      "archivos": 7,
+      "bytes": 2344817
+    },
+    {
+      "grupo": "trabajos_lecturas",
+      "archivos": 15,
+      "bytes": 16182
+    }
+  ],
+  "lecturas": [
+    {
+      "id": "b8d0f12e93ce4014b57fb3008623a682",
+      "sha256_solicitud": "6ad33daf0e40013c7f68f46607ea09442ccc52a1d0caef492891b950abf210e4",
+      "sha256_respuesta": "e24893264ef9119ab350ff545e30c9e57279205c5667153ba9ac1f61ba96c8cd",
+      "recibo_presente": true,
+      "huella_respuesta_coincide_recibo": true,
+      "ruta_absoluta_declarada": true,
+      "limite": "Consistencia de bytes; no revalidación completa del análisis ni cierre de instancia."
+    },
+    {
+      "id": "9b1080d1f35d4007aef5fd92f527cea0",
+      "sha256_solicitud": "020906326ab9bf4728431e7ab8d6e61e469faed1eb9fee03848640f97ba9da22",
+      "sha256_respuesta": "730f46c4a14168fa3eaa3bd159ab559759f1b72741e0dbf311d8692309596e8c",
+      "recibo_presente": true,
+      "huella_respuesta_coincide_recibo": true,
+      "ruta_absoluta_declarada": true,
+      "limite": "Consistencia de bytes; no revalidación completa del análisis ni cierre de instancia."
+    }
+  ],
+  "fuentes_inspeccionadas_sha256": {
+    "draft2model/revision_lecturas.py": "17ebae85467f59a3f128dd504ee654ca17f02d7c48cb7a27b4d423f01ec76c13",
+    "draft2model/lectura_analisis.py": "ad99b149cfef23eaaeea085ed7e5eb5b98a80b256e42f77f35dfda96c4c138b7",
+    "draft2model/evidencia_analisis.py": "6ac7cf9782102fc52bd62c28fa9a4eba3ef8c793f90f9f63fb9c38e9a548354c",
+    "scripts/crear_paquete_aecode.py": "3aabea0631d3f51abb76bfd3d447a9585c96283a163a25afc7d7aa7885b9e506"
+  },
+  "hallazgos": [
+    "El ZIP de fuentes excluye data/private: necesita complemento separado del caso autorizado.",
+    "No exportar toda data/private: contiene credenciales.local.md y otros casos.",
+    "Las solicitudes y respuestas históricas declaran rutas absolutas. El lector compara la ruta actual con la declarada; no basta copiar archivos para acreditar relectura portable.",
+    "Conservar bytes y hashes históricos. No reescribir rutas/recibos para simular aceptación tras mover.",
+    "Separar apertura del EDB, consulta de resultados archivados y reconstrucción con nuevas corridas.",
+    "La selección mínima necesita el cierre transitivo de geometría, configuración, plantilla, originales, modelo, aprobación, análisis, lecturas y resultado/informe finales.",
+    "El inventario agregado no prueba cierre transitivo ni valida calidad. No se copiaron archivos ni se usó ETABS o APIs."
+  ],
+  "goal_completo": false
+}

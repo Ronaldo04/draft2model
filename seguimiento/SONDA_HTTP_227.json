@@ -1,0 +1,23 @@
+[
+  {
+    "ruta": "/",
+    "estado_http": 200,
+    "bytes": 72283,
+    "tipo": "text/html; charset=utf-8",
+    "segundos": 0.016
+  },
+  {
+    "ruta": "/api/version",
+    "estado_http": 200,
+    "bytes": 28218,
+    "tipo": "application/json; charset=utf-8",
+    "segundos": 0.031
+  },
+  {
+    "ruta": "/api/pagina",
+    "estado_http": 200,
+    "bytes": 400737,
+    "tipo": "image/png",
+    "segundos": 0.25
+  }
+]

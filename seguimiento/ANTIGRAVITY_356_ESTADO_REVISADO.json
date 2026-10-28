@@ -1,0 +1,34 @@
+{
+  "tarea": "356_correcciones_digitizacion",
+  "responsable": "Antigravity",
+  "raiz": "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL",
+  "estado": "revisado_aceptado_software",
+  "enviado_utc": "2026-10-25T18:59:07.711039+00:00",
+  "encargo": "seguimiento/ENCARGO_ANTIGRAVITY_356_CORRECCIONES.md",
+  "sha256_encargo": "962c41017a1cbdab593f293ff0c1f425df90118a27215ce4121774c6d179f06d",
+  "marcador": "seguimiento/ANTIGRAVITY_356_ENTREGA.json",
+  "archivos_permitidos": [
+    "draft2model/revision_digitizacion.py",
+    "draft2model/revision_web/digitizacion.js",
+    "tests/test_revision_digitizacion.py",
+    "tests/digitizacion_353_frontend.cjs",
+    "docs/INTERFAZ_DIGITIZACION.md",
+    "seguimiento/ANTIGRAVITY_356_INFORME.md"
+  ],
+  "archivos_necesarios": [
+    "draft2model/revision_digitizacion.py",
+    "draft2model/revision_web/digitizacion.js",
+    "tests/test_revision_digitizacion.py",
+    "tests/digitizacion_353_frontend.cjs",
+    "docs/INTERFAZ_DIGITIZACION.md"
+  ],
+  "apis_autorizadas": false,
+  "etabs_autorizado": false,
+  "conversacion": "Revisar Y Continuar Tarea De Codex",
+  "conversation_id": "58f95083-5391-40e6-bbe6-58c2b929f14f",
+  "ventana_id": 198378,
+  "verificacion_envio": "Mensaje356 observado en historial;compositorvacío;Working;noacreditafinalización",
+  "reparto": "Antigravitycorrige353. Codex integraHTTP/UIparámetros en compartidos, sineditararchivosAG. Subagente355terminado.",
+  "revision": "seguimiento/REVISION_DIGITIZACION_356.json",
+  "limite": "sinpruebarealniingenieria"
+}

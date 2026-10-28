@@ -1,0 +1,22 @@
+{
+  "fecha_utc": "2026-10-23T03:48:44.233074+00:00",
+  "hallazgo": "P_seleccionado_por_cota_de_nudo_no_equivale_a_masa_por_piso",
+  "masa_N1_N4_tabla": 488.7375,
+  "gravedad_configuracion": 9.80665,
+  "peso_N1_N4_tabla_kn": 4792.8776043749995,
+  "P_registrado_por_z_nudo_kn": 5238.3261417650565,
+  "diferencia_kn": 445.448537390057,
+  "lectura_diagnostica": "1e57078658d945108a5db58def5aaebd",
+  "alcance": "Contraste aritmético de archivos; no nueva lectura ETABS ni validación normativa.",
+  "riesgo": "El runner describe P de N1–N4 por tabla, pero etapa_reglas toma P_sobre_base_kN calculado filtrando global_xyz de AssembledJointMass. Las coordenadas de esos nudos no representan la distribución por piso con diafragmas rígidos, según el hallazgo de Claude. El denominador de Vdin/Vest queda pendiente de corregir o justificar.",
+  "accion": "Vincular/verificar la tabla nativa por piso al mismo análisis/EDB y usar un criterio de selección explícito. Si no existe evidencia aceptada, abstener la regla afectada. No alterar tolerancia ni recalibrar el modelo para hacer pasar resultados.",
+  "sha256_fuentes": {
+    "tmp/recorrido_09d1/registro_resultados.json": "6d1c6067b74a969b8567a09f66be1aa886e7343f911528c51b8399d0e9324dfc",
+    "tmp/recorrido_09d1/masa_pisos_diagnostico.json": "a6b847e51b6aed24e691e8c081a30400f8ebd136aa05bbae7cd8eabe1936f6cf",
+    "tmp/recorrido_09d1/configuracion.json": "f3b737978b419acf331e8b85b2ea7d69c76827a22b7468d306051a950ca652fb",
+    "seguimiento/claude_ruta/resultados_09.py": "bd5b218a037578a1d99722f0941678a453d05c1b0e221fcf1c6bd565d168cb98"
+  },
+  "fuentes_estables": true,
+  "producto_modificado": false,
+  "goal_completo": false
+}

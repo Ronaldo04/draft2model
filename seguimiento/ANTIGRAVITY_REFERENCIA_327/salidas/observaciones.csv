@@ -1,0 +1,34 @@
+id,archivo_id,pagina,tipo,x0,y0,x1,y1,valor_json,unidad,legibilidad,nota
+AG-0001,L0001,1,etiqueta,0.103376,0.077150,0.112964,0.091284,"""A""",no_aplica,legible,Burbuja del eje estructural A en el extremo superior de la lámina de cimentación.
+AG-0002,L0001,1,elemento,0.110463,0.098940,0.120050,0.104829,"""C-1""",no_aplica,legible,Identificador de columna C-1 en intersección de eje A y eje 3.
+AG-0003,L0001,1,elemento,0.192163,0.101296,0.203835,0.106596,"""PL-1""",no_aplica,legible,Identificador de placa PL-1 sobre viga de cimentación en eje 3.
+AG-0004,L0001,1,elemento,0.240100,0.098940,0.250104,0.104829,"""C-2""",no_aplica,legible,Identificador de columna C-2 en eje 3 entre ejes C y D.
+AG-0005,L0001,1,elemento,0.510629,0.098940,0.527303,0.106007,"""PL-10""",no_aplica,legible,Identificador de placa perimetral PL-10 en eje 3 entre ejes H e I.
+AG-0006,L0001,1,cota,0.459775,0.245583,0.472280,0.253828,1.3,desconocida,legible,Cota horizontal 1.30 de ancho interior en foso de cisterna/ascensor. Sin sufijo explícito de unidad.
+AG-0007,L0001,1,elemento,0.468112,0.281508,0.479366,0.288575,"""C-6""",no_aplica,legible,Identificador de columna C-6 al sur del foso de cisterna.
+AG-0008,L0001,1,cota,0.553147,0.351590,0.560650,0.355713,0.4,desconocida,legible,Cota de ancho .40 de zapata aislada entre ejes H e I. Cifra aislada sin unidad explícita.
+AG-0009,L0001,1,cota,0.563568,0.320966,0.566903,0.345112,1.2,desconocida,legible,Cota vertical de longitud 1.20 de zapata aislada entre ejes H e I.
+AG-0010,L0001,1,cota,0.860775,0.826266,0.876198,0.832155,1.5,m,legible,Cota de profundidad de cimientos 1.50 m en cuadro RESUMEN : SUELOS con unidad m explícita en texto.
+AG-0011,L0001,1,etiqueta,0.904127,0.920495,0.934556,0.946408,"""E-01""",no_aplica,legible,Identificador de lámina E-01 en el casillero principal del membrete.
+AG-0012,L0002,1,etiqueta,0.163401,0.077150,0.173822,0.091284,"""B""",no_aplica,legible,Burbuja del eje estructural B en la parte superior del plano de aligerados.
+AG-0013,L0002,1,elemento,0.137974,0.098940,0.166736,0.104829,"""VS(0.15x0.30)""",no_aplica,legible,Designación de viga semichata perimetral VS(0.15x0.30) sobre eje 3.
+AG-0014,L0002,1,cota,0.120050,0.098940,0.129221,0.103651,1.1,desconocida,legible,Cota horizontal 1.10 de bastón superior de vigueta de aligerado en tramo A-B.
+AG-0015,L0002,1,cota,0.117966,0.137220,0.126303,0.143110,0.8,desconocida,legible,Cota horizontal .80 en armadura de vigueta de aligerado.
+AG-0016,L0002,1,elemento,0.417257,0.260306,0.429346,0.266196,"""PL-8""",no_aplica,legible,Identificador de placa PL-8 en planta de aligerado del nivel tipo.
+AG-0017,L0002,1,etiqueta,0.710713,0.160777,0.749062,0.169611,"""CORTE 1-1""",no_aplica,legible,Título del detalle transversal CORTE 1-1 en cuadro CORTES VIGAS.
+AG-0018,L0002,1,cota,0.701959,0.098940,0.706961,0.137220,null,desconocida,ambigua,"Cota vertical de peralte de viga con texto alternativo ""0.40 ó 0.50""; ambigüedad real intrínseca, valor numérico JSON null."
+AG-0019,L0002,1,cota,0.719050,0.143698,0.725302,0.148999,0.15,desconocida,legible,Cota de ancho de sección transversal de viga .15 en CORTE 1-1.
+AG-0020,L0002,1,etiqueta,0.779491,0.421084,0.844519,0.432862,"""S/C=200 Kg/m2""",no_aplica,legible,Rótulo de sobrecarga de cálculo especificada para escalera típica.
+AG-0021,L0002,1,elemento,0.468945,0.245583,0.477699,0.251472,"""C-3""",no_aplica,legible,Identificador de columna C-3 adyacente a caja de escalera sobre eje H.
+AG-0022,L0002,1,etiqueta,0.904127,0.920495,0.934556,0.946408,"""E-02""",no_aplica,legible,Identificador de lámina E-02 en membrete principal.
+AG-0023,L0003,1,elemento,0.406419,0.260306,0.431013,0.266784,"""NACE C-2""",no_aplica,legible,Rótulo de inicio de elemento estructural vertical NACE C-2 en techo del 4to nivel.
+AG-0024,L0003,1,elemento,0.388495,0.277385,0.399750,0.283274,"""PL-7""",no_aplica,legible,Identificador de placa PL-7 en aligerado del 4to nivel.
+AG-0025,L0003,1,etiqueta,0.667361,0.171967,0.751146,0.178445,"""DETALLE: ALIGERADO TIPICO""",no_aplica,legible,Título del detalle constructivo de corte típico de losa aligerada.
+AG-0026,L0003,1,cota,0.685286,0.169611,0.689871,0.174323,0.3,desconocida,legible,Cota horizontal de ancho de ladrillo/bovedilla .30 en detalle de aligerado típico.
+AG-0027,L0003,1,cota,0.708629,0.170789,0.713214,0.174912,0.1,desconocida,legible,Cota horizontal de ancho de vigueta de concreto .10 en aligerado típico.
+AG-0028,L0003,1,cota,0.738641,0.131331,0.742393,0.138398,0.05,desconocida,legible,Cota vertical de espesor de loseta de compresión .05 en aligerado típico.
+AG-0029,L0003,1,cota,0.738641,0.147821,0.742393,0.154888,0.12,desconocida,legible,Cota vertical de altura de ladrillo hueco .12 en sección de aligerado.
+AG-0030,L0003,1,cota,0.804085,0.369258,0.811588,0.374558,0.4,m,legible,"Longitud de empalme .40 para varilla 3/8"" bajo columna encabezada con ""T m.""; unidad m explícita en tabla."
+AG-0031,L0003,1,etiqueta,0.703210,0.673145,0.822843,0.681390,"""DETALLE  MURO  PORTANTE    TIPICO""",no_aplica,legible,Título de detalle de elevación y armadura en muro portante típico.
+AG-0032,L0003,1,cota,0.717799,0.826266,0.720717,0.836867,2.15,desconocida,legible,Cota vertical 2.15 de altura libre interior en corte de cisterna.
+AG-0033,L0003,1,etiqueta,0.904127,0.920495,0.934556,0.946408,"""E-03""",no_aplica,legible,Identificador de lámina E-03 en membrete principal.

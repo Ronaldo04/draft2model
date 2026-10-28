@@ -1,0 +1,13 @@
+# Ingreso local de originales desde el navegador
+
+La pantalla permite crear un expediente nuevo desde PDF/JPG/PNG seleccionados en el navegador. Exige identificador y declaración explícita de uso autorizado; una casilla independiente conserva la condición de muestra de referencia fuera del MVP. El ingreso no aprueba ingeniería ni llama proveedores.
+
+`ServicioIngreso(app).registrar(body)` y POST `/api/ingreso/registrar` aceptan exactamente caso, clave_solicitud (UUID32), uso_autorizado (true), provisional_fuera_alcance (bool) y archivos (lista de nombre/contenido_base64). Ninguna ruta local forma parte del contrato. Usa sesión local, Host/Origin y controles existentes. Solo esta operación admite JSON de hasta65MiB; las demás mantienen2MiB. Límites de carga:1–20 archivos,16MiB por archivo y48MiB total. Nombres simples, formatos y firmas válidos, contenido sin duplicados; se rechazan rutas y nombres reservados Windows.
+
+Se decodifica en un temporal dentro de la raíz privada, registra con registrar_expediente y genera revisión documental antes de publicar la carpeta nueva con rename. No sobrescribe un caso existente. El recibo de ingreso liga clave, solicitud, manifiesto y revisión exactos por SHA256. Repetir el mismo cuerpo y clave tras fallo de conexión devuelve el mismo caso comprobado; cambiar la selección requiere clave nueva y caso nuevo. La interfaz conserva clave tras fallo de conexión y abre el caso registrado.
+
+Los originales conservan bytes exactos. Un archivo con firma PDF pero parser no utilizable queda registrado con error documental visible y revisión humana pendiente: no se representa como plano legible. El resumen público excluye mensajes crudos del parser y rutas. Replay revalida originales, manifiesto y revisión. El recibo no es una firma digital ni autentica al productor frente a una reescritura coherente de todo el expediente.
+
+La inspección documental es síncrona y puede tardar con varios planos; no confirma legibilidad, escala métrica, sistema constructivo ni aprobación técnica. El proveedor visual continúa como paso posterior. La integración de recortes raster está en un encargo separado; registrar una imagen todavía no acredita que haya sido interpretada.
+
+Pruebas: `python -m unittest tests.test_revision_ingreso tests.test_revision_visual -v`,28 correctas en3.885s, tmp/ingreso_web_089.log. Incluye carga HTTP, autorización, rutas, duplicados, idempotencia, original alterado y PDF no utilizable. `node tests/revision_ingreso_frontend.cjs` correcto: autorización, tamaño, clave tras fallo y apertura del nuevo caso. Primera escritura de este test tuvo error sintáctico, corregido antes de acreditarlo. No ETABS, API externa ni precisión visual real.

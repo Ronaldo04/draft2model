@@ -1,0 +1,9 @@
+{
+  "estado": "rechaza_corregir_bbox_con_lectura_pendiente",
+  "alternativa_disponible_estado_lectura": "revisado",
+  "persistido_en_caso": false,
+  "entrada_sha256": "96ca550d6c43b00f89510241191d26d645d2c71e52ec10c6f734808befa2c462",
+  "modulo_snapshot_sha256": "b8305ea2f6774f31ff5b50308fe28e756b305467a59c5d82bf3f145160bcb8e1",
+  "alcance": "Prueba pura con copia en memoria; no afecta suitec207 ni aprueba lectura real.",
+  "pendiente08": "Separar propuesta/corrección de región del acto de revisión de valor; conservar fuente/historia y permitir estado pendiente."
+}

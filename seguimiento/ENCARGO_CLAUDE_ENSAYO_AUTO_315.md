@@ -1,0 +1,19 @@
+# Encargo315: ensayo nativo aislado de extremos Auto
+
+Objetivo: obtener evidencia experimental independiente del piloto para las dudas B2/B3 de314. El goal del usuario autoriza pruebas locales de ETABS; este encargo limita el transporte a software y modelos sintéticos nuevos. No representa revisión ni aprobación de ingeniería. Codex mantiene la integración y la responsabilidad de aceptación.
+
+## Perímetro
+
+Solo puedes escribir `seguimiento/claude_ruta/ensayo_auto_315/` y marcador final `seguimiento/claude_ruta/MARCADOR_AUTO_315.json`. Las carpetas313/314, fuentes públicas, distribución312 y expediente real son de solo lectura. **No abrir ni copiar EDB reales**, no modelo manual, no proyectos2/3, no claves y ninguna llamada OpenAI/Google/otro LLM. No recalcular Pueblo Libre.
+
+## Secuencia autónoma
+
+1. Lee los patrones de instancia propia/retornos/cierre de `scripts/ensayar_columna_l_etabs.ps1`, `ensayar_aligerados_etabs.ps1` y los lectores de tablas existentes. Usa Windows PowerShell5.1 y API CSI instalada, no Computer Use ni terminal por GUI. Nunca GetActiveObject sobre una sesión del usuario. Inicia una instancia nueva propia, conserva su PID y cierra únicamente esa instancia con retorno comprobado; no terminar procesos por nombre ni relanzar tras timeout sin verificar primero si siguen vivos. No cambiar políticas de Windows.
+2. Diseña y registra ANTES de ejecutar una matriz pequeña de casos sintéticos nuevos. Necesitamos longitudes variadas ajenas a las45vigas del piloto, una o dos columnas inferiores, extremos sin columna y con muro, columnas rectangulares con orientación variable. Incluye piezas normales y cortas, con exceso de offset en un extremo o ambos. Mantén apoyos/modelos estables y separados, sin elementos de longitud cero ni superposición accidental entre casos. Antes de leer salidas, escribe predicciones explícitas o `indeterminado`; este ensayo no es ciego respecto a los patrones ya conocidos.
+3. Para distinguir constante de longitud, porcentaje y tolerancia, consulta la API/documentación instalada de tolerancia de unión (si existe método soportado). Registra el valor por defecto. Solo varíalo en el modelo sintético y solo mediante método documentado; si no es viable, conserva la duda. Un único conjunto de datos no prueba una regla universal.
+4. Construye los casos y solicita la tabla nativa de End Length Offsets. Si la tabla solo se materializa tras análisis, ejecuta un análisis pequeño únicamente de estos fixtures, con retornos y advertencias conservados. No asumir que definir el modelo ya produjo offsets calculados. Registra versión/unidades, nombres, coordenadas/secciones, configuración, códigos y archivoEDB nuevo, y cada fila de tabla. Preserva petición/respuesta/errores; no reintentos automáticos ilimitados. Presupuesto: una corrida principal y como máximo una reparación justificada; timeout razonable y estado parcial si limita el entorno o cuota.
+5. Contrasta hipótesis por caso. Separa observación nativa de regla inferida, y límites de tamaño/unidades/geometría/versión. No convertir diferencias en una fórmula ajustada al piloto ni cambiar libro, tolerancias o resultados publicados. Entrega propuesta verificable para futuras predicciones, o diagnóstico de qué impide identificar la regla. No integrar código productivo.
+
+## Entrega
+
+Scripts reproducibles, matriz previa, recibos nativos, tabla compacta de casos y conclusión breve. Marcador escrito al final: tarea exacta `auto_315`, estado `entrega_candidata` o `bloqueo_declarado`, mapa `archivos_permitidos_sha256` con rutas relativas/hash de cada entregable, llamadas remotas0, estado/PID/cierre propio observado, límites. Si el entorno impide ejecutar, deja el harness y error literal, sin declarar nativo un doble. Respeta la cuota semanal; no eludir límites ni consumir el reset del usuario.

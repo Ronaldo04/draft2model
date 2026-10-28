@@ -1,0 +1,33 @@
+{
+  "tests": 7,
+  "errores": 0,
+  "fallos": 0,
+  "omitidas": 0,
+  "planes_completos_sha256": [
+    "09ae6003d1dfe73280e866527781ba99dcfe004712ced4ddfb7759451c452923",
+    "a3f3d48b757137aa0a21ca4edb08b660131f2728cc464c8fb3ab162c9ad2232d",
+    "ea3ee9337af5d8ef199badf7db65af9c95f5b0b9987b1b5da871226d3d0a6223",
+    "a51c8798ddb411a41ad2b0a877797e51385aabadb1151dffd4bfce2d084c074e",
+    "fc1c5e4a00b2261c014e19bcf52b6792dba3fbb66d59ece0b506d735df2c0453"
+  ],
+  "sha256_candidato": "a51d5fb50018d0b6e4bb10d4499bf762972328418ae85403adb0f7abd30c780b",
+  "base": "tmp\\runtime_qa_276",
+  "producto_sin_modificar": true,
+  "api_remota": false,
+  "etabs_ejecutado": false,
+  "limites": "Comparación de planes sintéticos y mutaciones; no piloto completo ni aprobación de ingeniería. Candidato NO integrado.",
+  "goal_completo": false,
+  "medicion_comparacion_completa": {
+    "base": {
+      "verificaciones": 30,
+      "segundos": 1.258380000013858,
+      "sha_fuente": "e8f7f82c2fba6dda4ead819839b7adf7b5eeb53e3778c66bf19e1a5409622d02"
+    },
+    "candidato": {
+      "verificaciones": 30,
+      "segundos": 0.22624330001417547,
+      "sha_fuente": "e8f7f82c2fba6dda4ead819839b7adf7b5eeb53e3778c66bf19e1a5409622d02"
+    }
+  },
+  "nota_tiempos": "Solo comparación de contexto, no tiempo global de malla o verificación de evidencia."
+}

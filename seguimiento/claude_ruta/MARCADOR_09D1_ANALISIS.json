@@ -1,0 +1,41 @@
+{
+  "tarea": "recorrido_09d1_relectura_y_analisis",
+  "estado": "analisis_ok_resultados_en_curso",
+  "fecha": "2026-10-22",
+  "relectura": {
+    "estado": "verificado",
+    "discrepancias": 0,
+    "incompletos": 0,
+    "sin_criterio": [
+      "ejes_locales_area"
+    ]
+  },
+  "revision_controles": {
+    "archivo": "tmp/recorrido_09d1/revision_controles_09d1.json",
+    "revisor": "Claude (revisión propia de software sobre la relectura; no ingeniería ni usuario)"
+  },
+  "aprobacion_modelo_transporte": "8dfb5a90c81b43dfbf2b44ccd1b5c836 (declarada de transporte de software)",
+  "analisis": {
+    "corrida": "7203c79a3ece4438b36d267ba80f3c4b",
+    "duracion_aprox": "15:20 → 17:26 (incluye aprobación, análisis y 3 lecturas)"
+  },
+  "lecturas": {
+    "reacciones": "74d78008b7804616abcbf5dbd23a08b7",
+    "modal": "ddcf711b19e74f5a8043f9c1271d5ffa",
+    "derivas": "376b4c1c72a349ef98b7e6677c9de772"
+  },
+  "masa_nativa_runner": {
+    "estado": "no_leida",
+    "motivo": "«Mass Summary by Story» sin campo de caso: el lector la rechazó; runner corregido (Base Reactions/CM + API) y la lectura se repite en resultados_09.py (etapa masa)"
+  },
+  "hashes": {
+    "tmp/recorrido_09d1/registro.json": "1fb7914b77aea1af29d3d3b1bb4af044f1b9ea64ff60569625af3976e6fefd78",
+    "tmp/recorrido_09d1/relectura_resultado.json": "817545dac2116c3f0be97425f8117213d49d9722247b38d8160783b8e711a2a3",
+    "tmp/recorrido_09d1/revision_controles_09d1.json": "2dcd2725f87de6a18498945c593993e0f71df5f5867102d8534b20e671a942ff",
+    "tmp/ruta201/recorrido09d1_relectura.log": "330b476db1cc82fc453fc9b4a0fd5cffb019d1a83e1d77c7bedb4113d16d0b20",
+    "tmp/ruta201/recorrido09d1_analisis.log": "856c8e2cc512c5dd86cbdfcfc3b112ef15c0871ac008947137cf294a707e86e0",
+    "data\\private\\pueblo-libre-002\\analisis_etabs\\7203c79a3ece4438b36d267ba80f3c4b\\aceptacion_analisis.json": "920512f91266d70c4aa83ca1bf4fa42a4a5893b43963581ec4e730be3cbc8adf",
+    "data\\private\\pueblo-libre-002\\analisis_etabs\\7203c79a3ece4438b36d267ba80f3c4b\\respuesta.json": "abdf0dc7bb8c0af4d07be13b56aabbc37c1fdc6d315dd2817d40f247e7e43f64"
+  },
+  "apis_ejecutadas_por_claude": 0
+}

@@ -1,0 +1,31 @@
+{
+  "datos_sinteticos": true,
+  "revision_sintetica": true,
+  "api_calls": 0,
+  "etabs_nativo": false,
+  "pasos": [
+    "registrar_pdf",
+    "revisar_documento",
+    "importar_cotas",
+    "revisar4cotas",
+    "cli_proponer",
+    "bloquear_plantilla_sin_operador",
+    "declaracion_sintetica",
+    "conversion_versionada",
+    "importar_borrador",
+    "consultar_version",
+    "detectar_cambio_fuente"
+  ],
+  "cotas_de_calibracion": 4,
+  "coordenadas_de_nodos_declaradas_manualmente": 0,
+  "nodos_propuestos": 4,
+  "muros_propuestos": 4,
+  "estado_geometria": "borrador_sin_aprobacion",
+  "version_geometria": "0a9869487c074712be79f6ad91127563",
+  "conversion": "f4d4e02750e04ceea76b47954c49225c",
+  "fuente_alterada_detectada": true,
+  "fixture_restaurada_sin_reparar_huellas": true,
+  "fuente_sha256": "928f5374caa4d3ba888dd3b4050b8edc1cb40875efc31c2e27abc25cad4744f7",
+  "entrega331_intacta": true,
+  "limitacion": "Prueba de software; no prueba de geometría automática del piloto real ni de cualquier construcción."
+}

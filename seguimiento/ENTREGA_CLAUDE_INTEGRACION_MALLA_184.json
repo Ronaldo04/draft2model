@@ -1,0 +1,118 @@
+{
+  "tarea": "integracion_malla_184",
+  "estado": "entregado",
+  "fecha": "2026-10-20",
+  "carpeta": "D:/RONALDO CUCHILLA/1. RONALDO CUCHILLA/2. INGENIERÍA CIVIL DOCS AND PROJECTS/AECODE CURSOS/AECODE AI TALENT/PROYECTO FINAL",
+  "archivos": {
+    "draft2model/modelo_estructural.py": {
+      "previo": "ec35bec8d377974ef80fe9b9d5d3a0f63849f33344de9fef7f4847af75f4bcb1",
+      "final": "499562e127b80819ef8a50c7e5005366b558888ae5fc75c3e1caf524a4da078e",
+      "modificado": true
+    },
+    "draft2model/operaciones_etabs.py": {
+      "previo": "aaf0ceb4176d4e5b7bb30923764dba3029205df241c87ac9c313fa935272494b",
+      "final": "3426a198d7208f4aca69ce9e2abd7847000c253c0d1e434325454524c7ec0b90",
+      "modificado": true
+    },
+    "draft2model/ejecutor_etabs.py": {
+      "previo": "40bf36c86daa8b680457cb655f99f00e03654101f9b7abae8ab640cf0364b034",
+      "final": "7811a75f5996f4d752443e42fae4ed34114d16feafdaf0e9a0e7a4669a8f0145",
+      "modificado": true
+    },
+    "draft2model/ejecucion_modelo.py": {
+      "previo": "20d4c8ba7670531ca5cfaf6720b059f2ab87c1123fb66ab58a6c02fde2e9b5ff",
+      "final": "a0620543b74bb5a64b0b57179f60c403d5890163152c159b16f72b00fe75e6ac",
+      "modificado": true
+    },
+    "draft2model/revision_modelo.py": {
+      "previo": "b2b9d63751d205436da8fe6c1f9e8a4b5ed1dd4de52c889accb5230cc2e2e2bd",
+      "final": "263361f7f7af0ebc235f9c40ee7a3538c4b6afbb412be9d644a6f2e6556c2357",
+      "modificado": true
+    },
+    "draft2model/gestion_configuracion.py": {
+      "previo": "4c3631915d29ab97f664f6a6b3163da70f0db4b4718091e1a9b6fc4e4dc16d33",
+      "final": "49436f3a20d62401fd92ccbb8f637839d0d9ea551a9651daa3c94e372250fc05",
+      "modificado": true
+    },
+    "draft2model/revision_configuracion.py": {
+      "previo": "ffd88fea15f935be3d92c179cee8468a25664f7d0ab18a3059337208e734599f",
+      "final": "27885f4a3d0d4a674bf6c3d2b9afd94744d950be0b848159a41b338e13a9a2e7",
+      "modificado": true
+    },
+    "draft2model/triangulacion_particiones.py": {
+      "previo": "e232f144bfd4b3201a7b3617e51825619e0e8f78c8c00b0a437d934cab4432ee",
+      "final": "3e941bc445ee7ca2e001198aa77f0ea30c3c4a834d59338ae4d7288459a89637",
+      "modificado": true
+    },
+    "scripts/ejecutar_plan_etabs.ps1": {
+      "previo": "ae0b0ef3278afc45cd7c05253336ff3d7a0cdb60c09b20e364591af2d8128bf1",
+      "final": "1eb7d6933541ae6003ee49766ee930342abbcb8800db816837ff66947e11019e",
+      "modificado": true
+    },
+    "draft2model/cortes_superficies.py": {
+      "previo": "39d5b66c30e157ed841c2b9a29303faf724c6d575f212098b05c8cd8399b8184",
+      "final": "39d5b66c30e157ed841c2b9a29303faf724c6d575f212098b05c8cd8399b8184",
+      "modificado": false
+    },
+    "draft2model/malla_preparacion.py": {
+      "previo": null,
+      "final": "2c914b807630c0d2f129a30ed00c8a711e9d9b337accdc14da50a186df3992ca",
+      "modificado": true
+    },
+    "tests/test_integracion_malla.py": {
+      "previo": null,
+      "final": "f2c0a9b893fc588c3a78333205fb987c73d2f4e20ca8ceffd409eb47ef524014",
+      "modificado": true
+    },
+    "docs/INTEGRACION_MALLA_ETABS.md": {
+      "previo": null,
+      "final": "03cf6198c7bd60b43e089635293c2e969e4f96417029af459d5d4ab37cabda7f",
+      "modificado": true
+    }
+  },
+  "informe": {
+    "seguimiento/INFORME_CLAUDE_INTEGRACION_MALLA_184.md": "d756f8acdb99faabf3aeb78a3484ce8e2dbb5e9f92856daca23705915e2ad450"
+  },
+  "adenda_186": {
+    "integrada": true,
+    "cortes_superficies_editado": false,
+    "crea_storys": false,
+    "elimina_material_seco": false,
+    "tablas_presion_integradas": false
+  },
+  "contratos": {
+    "configuracion": "draft2model.modelo_estructural 0.4.0",
+    "plan": "draft2model.plan_operaciones_etabs 0.4.0 (ejecutable=true, aprueba_ingenieria=false)",
+    "preparacion": "draft2model.preparacion_malla 0.1.0"
+  },
+  "evidencia": {
+    "pruebas": [
+      {
+        "comando": ".venv/Scripts/python.exe -m unittest -v tests.test_integracion_malla + 18 módulos relacionados",
+        "resultado": "142 OK",
+        "omisiones": 0,
+        "codigo": 0,
+        "log": "tmp/claude_integracion_184/pruebas_final.log",
+        "log_sha256": "387532cef44a041fc84cd586b89ec4c26a69a8f84c1e1e383de1562183a37eb4"
+      },
+      {
+        "comando": "regresión previa",
+        "resultado": "13 fallos: 1 corregido (patch revision_modelo.generar_plan); 11 ambientales ruta>260 (revision_ejecucion*); 1 import fuera de tests/ (gestion_planes, 4 OK desde tests/)",
+        "log": "tmp/claude_integracion_184/pruebas_regresion.log",
+        "log_sha256": "18cbd0c0acca07ec97fd07eb793649b39abedf98be14d2f56727d12ff883f019"
+      }
+    ],
+    "etabs_real": false,
+    "dobles_no_acreditan_etabs": true,
+    "pid_39368_y_motor_lock_intactos": true,
+    "api_ia_claves": false
+  },
+  "requieren_actualizacion_codex": [
+    "draft2model/revision_ejecucion.py y draft2model/gestion_planes.py usan generar_plan (0.1): usar generar_plan_por_version para 0.4",
+    "tests/test_revision_ejecucion*.py: raíz/TEMP corto por guarda de 260 caracteres",
+    "tests/test_gestion_planes.py: import sin prefijo tests.",
+    "UI/HTTP de ServicioConfiguracion.malla",
+    "--verificar-firmas antes del ensayo real (cFrameObj.GetPoints según ayuda CSI)"
+  ],
+  "estado_retomable": "tmp/claude_integracion_184/ESTADO.md"
+}

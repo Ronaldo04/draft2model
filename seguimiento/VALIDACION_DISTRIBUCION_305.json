@@ -1,0 +1,32 @@
+{
+  "fecha_utc": "2026-10-24T02:06:25.464441+00:00",
+  "global": "tmp/validacion_distribucion_303/verificacion_304.json",
+  "validacion_local_completa": true,
+  "archivos_estables_durante_ejecucion": true,
+  "fuentes_intactas": true,
+  "archivos": 597,
+  "diferencias": [],
+  "python_pruebas": 1419,
+  "python_segundos": 1569.984,
+  "frontend_pruebas": 35,
+  "omisiones": [],
+  "informe_ui": {
+    "id": "d0aae89744524766b122d604c59e0d3e",
+    "caso": "pueblo-libre-002",
+    "resultado": "697bb37e9ce64f90ba1ef3e25733c8cc",
+    "huella_resultados": "2cc454129a1d17a2f8696d0639c1f40601756c2191b853d3edb99cf3d67f96e3",
+    "analisis": "7203c79a3ece4438b36d267ba80f3c4b",
+    "expediente_sha256": "56080c2ab3211d2980cd039567ecb025d97e80ac1b3e342c6efb979dbb654776",
+    "archivos": {
+      "informe.json": "0f0d56e9f46f0d5911fcd873eedc5032dea1589df5982c5d4b61f5e9d4c121f9",
+      "informe.html": "baf633d8146c59649b1e7791fb57e82188d02f2918508c7ebbdbbed7c5370576",
+      "informe.pdf": "c7d3c32da053df32bdfe2d52848ce4ec188677397951e571c25a058cf73e2c26"
+    },
+    "creado_utc": "2026-10-24T01:56:46.774561+00:00",
+    "estado": "borrador",
+    "aprueba_resultados": false
+  },
+  "informe_ui_archivos_integridad": true,
+  "descarga_navegador": "pendiente",
+  "goal_completo": false
+}

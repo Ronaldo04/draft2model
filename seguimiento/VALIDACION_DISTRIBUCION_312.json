@@ -1,0 +1,33 @@
+{
+  "fecha_utc": "2026-10-24T07:55:27.159760+00:00",
+  "huella_fuentes": "dc7bdc0b800090712e33e649c4512d2fa4ab0f36fe0ebc4463fa7154cfefeebd",
+  "archivos": 600,
+  "global": {
+    "python": 1425,
+    "interfaz": 36
+  },
+  "omisiones": [],
+  "fuentes_estables": true,
+  "integridad_conjunto": {
+    "estado": "integridad_verificada_no_aceptacion_funcional",
+    "huella_fuentes": "dc7bdc0b800090712e33e649c4512d2fa4ab0f36fe0ebc4463fa7154cfefeebd",
+    "caso": "pueblo-libre-002",
+    "archivos_fuentes": 600,
+    "archivos_complemento": 34,
+    "aprueba_ingenieria": false
+  },
+  "entorno": "Instalación offline303 reutilizada; lock y wheels idénticos. No nueva instalación312.",
+  "pdf": "Pie incrustado.67pruebas focales e igualdad de texto/píxeles de ocho páginas en MuPDF. Contraste adicional309/310 archivado.",
+  "no_repetido": [
+    "ETABS",
+    "llamadas API",
+    "descarga UI",
+    "instalación"
+  ],
+  "limites": [
+    "Referencia humana y correspondencias pendientes; no hay precisión empírica acreditada",
+    "Masa del piloto no_coherente y diez comparaciones no satisfactorias conservadas",
+    "No se demuestra automatización de cualquier construcción ni aprobación profesional"
+  ],
+  "goal_completo": false
+}

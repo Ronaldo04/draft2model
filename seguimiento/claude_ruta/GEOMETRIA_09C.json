@@ -1,0 +1,8806 @@
+{
+ "caso": "pueblo-libre-002",
+ "geometria": "tmp/ruta201/geometria09c/geometria.json",
+ "sha256": "db1f46f3b2bff97a1e3ff30792f4a55bbae5d211e04b369093c38fc6e21c08b6",
+ "importacion_codigo": 0,
+ "lineas_x": [
+  0.075,
+  2.55,
+  2.625,
+  2.752,
+  3.45,
+  4.25,
+  4.6,
+  5.55,
+  5.804,
+  5.99,
+  6.15,
+  6.59,
+  6.805,
+  8.25,
+  8.674,
+  9.049,
+  10.684,
+  11.125,
+  11.335,
+  11.625,
+  12.423,
+  13.748,
+  14.938
+ ],
+ "lineas_y": [
+  0.094,
+  1.319,
+  2.319,
+  2.644,
+  3.118,
+  3.569,
+  3.643,
+  3.75,
+  3.904,
+  5.018,
+  6.08,
+  6.28,
+  6.393,
+  6.467,
+  6.918,
+  7.372,
+  7.718,
+  8.718,
+  9.943
+ ],
+ "borde_losa_m": [
+  0.075,
+  0.094,
+  14.938,
+  9.943
+ ],
+ "vertices": 1896,
+ "superficies": 2040,
+ "muros_por_piso": {
+  "N0": 129,
+  "N1": 127,
+  "N2": 127,
+  "N3": 127
+ },
+ "losas_por_nivel": {
+  "N1": 365,
+  "N2": 365,
+  "N3": 365,
+  "N4": 366
+ },
+ "colgantes": [],
+ "n_colgantes": 0,
+ "columnas": [
+  {
+   "elemento": "L0001-E1",
+   "etiqueta": "C-1",
+   "x": 0.075,
+   "y": 0.094,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.401,
+    0.4
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0001",
+    "N1-V0001",
+    "N2-V0001",
+    "N3-V0001",
+    "N4-V0001"
+   ]
+  },
+  {
+   "elemento": "L0001-E27",
+   "etiqueta": "C-1",
+   "x": 0.075,
+   "y": 9.943,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.401,
+    0.4
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0016",
+    "N1-V0017",
+    "N2-V0017",
+    "N3-V0017",
+    "N4-V0018"
+   ]
+  },
+  {
+   "elemento": "L0001-E3",
+   "etiqueta": "C-2",
+   "x": 5.804,
+   "y": 0.094,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.401,
+    0.149
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0070",
+    "N1-V0157",
+    "N2-V0157",
+    "N3-V0157",
+    "N4-V0158"
+   ]
+  },
+  {
+   "elemento": "L0001-E28",
+   "etiqueta": "C-2",
+   "x": 5.804,
+   "y": 9.943,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.401,
+    0.151
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0078",
+    "N1-V0175",
+    "N2-V0175",
+    "N3-V0175",
+    "N4-V0176"
+   ]
+  },
+  {
+   "elemento": "L0001-E16",
+   "etiqueta": "C-2",
+   "x": 8.674,
+   "y": 5.018,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.401,
+    0.149
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0114",
+    "N1-V0278",
+    "N2-V0278",
+    "N3-V0278",
+    "N4-V0279"
+   ]
+  },
+  {
+   "elemento": "L0001-E17",
+   "etiqueta": "C-2",
+   "x": 11.335,
+   "y": 5.018,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.401,
+    0.149
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0136",
+    "N1-V0336",
+    "N2-V0336",
+    "N3-V0336",
+    "N4-V0337"
+   ]
+  },
+  {
+   "elemento": "L0001-E13",
+   "etiqueta": "C-5",
+   "x": 0.075,
+   "y": 3.904,
+   "seccion_m": [
+    0.15,
+    0.3
+   ],
+   "dibujo_m": [
+    0.15,
+    0.3
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0008",
+    "N1-V0009",
+    "N2-V0009",
+    "N3-V0009",
+    "N4-V0009"
+   ]
+  },
+  {
+   "elemento": "L0001-E15",
+   "etiqueta": "C-4",
+   "x": 2.752,
+   "y": 5.018,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.399,
+    0.149
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0027",
+    "N1-V0066",
+    "N2-V0066",
+    "N3-V0066",
+    "N4-V0067"
+   ]
+  },
+  {
+   "elemento": "L0001-E18",
+   "etiqueta": "C-4",
+   "x": 0.075,
+   "y": 6.393,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.15,
+    0.4
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0010",
+    "N1-V0011",
+    "N2-V0011",
+    "N3-V0011",
+    "N4-V0012"
+   ]
+  },
+  {
+   "elemento": "L0001-A1",
+   "etiqueta": "C-2",
+   "x": 6.805,
+   "y": 0.094,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.401,
+    0.15
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0098",
+    "N1-V0231",
+    "N2-V0231",
+    "N3-V0231",
+    "N4-V0232"
+   ]
+  },
+  {
+   "elemento": "L0001-A2",
+   "etiqueta": "C-2",
+   "x": 11.335,
+   "y": 0.094,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.401,
+    0.15
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0134",
+    "N1-V0327",
+    "N2-V0327",
+    "N3-V0327",
+    "N4-V0328"
+   ]
+  },
+  {
+   "elemento": "L0001-A3",
+   "etiqueta": "C-2",
+   "x": 14.938,
+   "y": 0.094,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.401,
+    0.15
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0156",
+    "N1-V0403",
+    "N2-V0403",
+    "N3-V0403",
+    "N4-V0404"
+   ]
+  },
+  {
+   "elemento": "L0001-A4",
+   "etiqueta": "C-2",
+   "x": 6.805,
+   "y": 9.943,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.401,
+    0.151
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0102",
+    "N1-V0249",
+    "N2-V0249",
+    "N3-V0249",
+    "N4-V0250"
+   ]
+  },
+  {
+   "elemento": "L0001-A5",
+   "etiqueta": "C-2",
+   "x": 11.335,
+   "y": 9.943,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.401,
+    0.151
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0138",
+    "N1-V0345",
+    "N2-V0345",
+    "N3-V0345",
+    "N4-V0346"
+   ]
+  },
+  {
+   "elemento": "L0001-A6",
+   "etiqueta": "C-2",
+   "x": 14.938,
+   "y": 9.943,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.401,
+    0.151
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0159",
+    "N1-V0421",
+    "N2-V0421",
+    "N3-V0421",
+    "N4-V0422"
+   ]
+  },
+  {
+   "elemento": "L0001-A7",
+   "etiqueta": "C-3",
+   "x": 14.938,
+   "y": 2.644,
+   "seccion_m": [
+    0.15,
+    0.6
+   ],
+   "dibujo_m": [
+    0.151,
+    0.591
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0157",
+    "N1-V0406",
+    "N2-V0406",
+    "N3-V0406",
+    "N4-V0407"
+   ]
+  },
+  {
+   "elemento": "L0001-A8",
+   "etiqueta": "C-4",
+   "x": 0.075,
+   "y": 3.643,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.15,
+    0.401
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0007",
+    "N1-V0007",
+    "N2-V0007",
+    "N3-V0007",
+    "N4-V0007"
+   ]
+  },
+  {
+   "elemento": "L0001-A9",
+   "etiqueta": "C-5",
+   "x": 0.075,
+   "y": 6.08,
+   "seccion_m": [
+    0.15,
+    0.3
+   ],
+   "dibujo_m": [
+    0.15,
+    0.326
+   ],
+   "discrepancia": null,
+   "vertices": [
+    "N0-V0009",
+    "N1-V0010",
+    "N2-V0010",
+    "N3-V0010",
+    "N4-V0010"
+   ]
+  },
+  {
+   "elemento": "L0001-D1",
+   "etiqueta": "C-3",
+   "x": 14.938,
+   "y": 7.372,
+   "seccion_m": [
+    0.15,
+    0.6
+   ],
+   "dibujo_m": [
+    0.151,
+    0.55
+   ],
+   "discrepancia": "Dibujada 0,15×0,55; el cuadro de columnas indica 0,15×0,60.",
+   "vertices": [
+    "N0-V0158",
+    "N1-V0418",
+    "N2-V0418",
+    "N3-V0418",
+    "N4-V0419"
+   ]
+  },
+  {
+   "elemento": "L0001-D2",
+   "etiqueta": "C-6",
+   "x": 15.388,
+   "y": 4.798,
+   "seccion_m": [
+    0.2,
+    0.75
+   ],
+   "dibujo_m": [
+    0.748,
+    0.2
+   ],
+   "discrepancia": "Cuadro .15 × .75; planta E01/E02 .20 × .75 (tres vistas).",
+   "niveles": [
+    "N0",
+    "N1",
+    "N2",
+    "N3"
+   ],
+   "vertices": [
+    "N0-V0160",
+    "N1-V0422",
+    "N2-V0422",
+    "N3-V0422"
+   ]
+  },
+  {
+   "elemento": "NACE-0",
+   "etiqueta": "C-2",
+   "x": 11.335,
+   "y": 3.118,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.4,
+    0.15
+   ],
+   "fuente": "E03 NACE C-2",
+   "vertices": [
+    "N4-V0332",
+    "TF-V0001"
+   ]
+  },
+  {
+   "elemento": "NACE-1",
+   "etiqueta": "C-2",
+   "x": 13.748,
+   "y": 3.118,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.4,
+    0.15
+   ],
+   "fuente": "E03 NACE C-2",
+   "vertices": [
+    "N4-V0389",
+    "TF-V0003"
+   ]
+  },
+  {
+   "elemento": "NACE-2",
+   "etiqueta": "C-2",
+   "x": 13.748,
+   "y": 5.018,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.4,
+    0.15
+   ],
+   "fuente": "E03 NACE C-2",
+   "vertices": [
+    "N4-V0394",
+    "TF-V0004"
+   ]
+  },
+  {
+   "elemento": "NACE-3",
+   "etiqueta": "C-2",
+   "x": 11.335,
+   "y": 5.018,
+   "seccion_m": [
+    0.15,
+    0.4
+   ],
+   "dibujo_m": [
+    0.4,
+    0.15
+   ],
+   "fuente": "C-2 del eje 2 (L0001) que continúa",
+   "vertices": [
+    "N4-V0337",
+    "TF-V0002"
+   ]
+  }
+ ],
+ "depositos": {
+  "cisterna": {
+   "x": [
+    14.938,
+    15.012,
+    15.562,
+    17.115
+   ],
+   "y": [
+    2.449,
+    4.148,
+    4.698,
+    4.798
+   ],
+   "z": [
+    -2.5,
+    -0.105
+   ]
+  },
+  "tanque": {
+   "x": [
+    11.335,
+    13.748
+   ],
+   "y": [
+    3.118,
+    5.018
+   ],
+   "z": [
+    12.5,
+    14.25
+   ]
+  }
+ },
+ "pl10": [
+  [
+   15.043,
+   20.017,
+   0.05
+  ],
+  [
+   15.043,
+   20.017,
+   9.947
+  ]
+ ],
+ "clases_superficie": {
+  "W0-M01-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M01-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M01-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M01-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M01-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M01-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M01-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M01-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M02-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M02-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M02-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M02-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M02-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M02-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M02-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M02-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M02-9": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M02-10": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M03.1-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M03.1-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M03.1-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M03.1-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M03.1-5": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M03.2-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M05-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M05-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M06-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M06-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M06-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M07-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M08.1-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M08.2-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M08.2-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M08.2-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M09-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M10-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M10-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M10-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M11-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M11-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M11-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M11-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M11-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M11-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M11-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M11-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M11-9": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M11-10": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M11-11": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M11-12": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M11-13": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M12-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M12-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M12-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M12-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M13-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M13-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M13-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M15.1-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M15.2-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M15.2-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M15.2-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M16-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M17-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M17-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M18-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M18-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M18-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M19-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M21.1-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M21.1-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M21.1-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M21.1-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M21.1-5": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M21.2-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M22-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M22-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M22-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M22-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M22-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M22-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M22-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M22-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M23-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M23-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M23-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M23-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M23-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M23-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M23-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M23-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M23-9": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M23-10": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M24-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M24-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M24-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M24-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M24-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M24-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M25-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M25-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M25-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M25-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M25-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M25-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W0-M28-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M29-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M32-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M32-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M32-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M32-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M33-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M33-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M33-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M33-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M36-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M36-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M36-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M37-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M37-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M37-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M40-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M40-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M41-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M41-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M42-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M43-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M44-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-M45-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-D1-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-D1-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-D1-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-D1-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-D2-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-D2-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-D2-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W0-D2-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M01-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M01-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M01-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M01-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M01-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M01-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M01-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M01-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M02-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M02-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M02-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M02-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M02-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M02-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M02-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M02-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M02-9": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M02-10": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M03.1-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M03.1-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M03.1-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M03.1-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M03.1-5": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M03.2-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M05-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M05-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M06-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M06-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M06-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M07-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M08-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M09-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M09-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M09-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M10-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M12-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M12-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M12-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M13-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M13-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M13-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M13-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M13-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M13-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M13-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M13-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M13-9": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M13-10": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M13-11": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M13-12": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M13-13": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M14-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M14-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M14-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M14-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M15-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M15-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M15-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M17-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M18-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M18-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M18-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M19-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M20-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M20-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M21-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M21-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M21-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M22-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M24.1-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M24.1-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M24.1-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M24.1-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M24.1-5": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M24.2-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M25-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M25-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M25-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M25-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M25-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M25-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M25-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M25-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M26-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M26-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M26-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M26-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M26-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M26-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M26-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M26-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M26-9": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M26-10": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M27-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M27-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M27-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M27-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M27-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M27-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M28-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M28-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M28-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M28-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M28-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M28-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W1-M31-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M32-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M35-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M35-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M35-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M36-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M36-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M36-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M39-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M39-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M39-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M40-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M40-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M40-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M43-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M43-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M44-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M44-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M45-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M46-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M49-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-M50-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-D1-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-D1-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-D1-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-D1-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-D2-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-D2-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-D2-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W1-D2-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M01-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M01-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M01-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M01-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M01-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M01-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M01-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M01-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M02-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M02-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M02-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M02-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M02-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M02-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M02-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M02-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M02-9": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M02-10": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M03.1-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M03.1-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M03.1-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M03.1-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M03.1-5": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M03.2-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M05-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M05-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M06-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M06-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M06-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M07-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M08-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M09-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M09-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M09-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M10-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M12-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M12-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M12-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M13-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M13-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M13-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M13-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M13-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M13-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M13-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M13-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M13-9": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M13-10": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M13-11": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M13-12": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M13-13": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M14-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M14-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M14-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M14-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M15-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M15-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M15-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M17-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M18-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M18-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M18-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M19-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M20-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M20-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M21-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M21-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M21-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M22-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M24.1-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M24.1-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M24.1-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M24.1-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M24.1-5": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M24.2-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M25-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M25-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M25-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M25-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M25-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M25-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M25-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M25-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M26-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M26-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M26-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M26-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M26-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M26-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M26-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M26-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M26-9": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M26-10": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M27-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M27-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M27-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M27-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M27-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M27-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M28-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M28-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M28-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M28-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M28-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M28-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W2-M31-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M32-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M35-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M35-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M35-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M36-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M36-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M36-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M39-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M39-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M39-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M40-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M40-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M40-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M43-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M43-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M44-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M44-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M45-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M46-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M49-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-M50-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-D1-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-D1-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-D1-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-D1-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-D2-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-D2-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-D2-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W2-D2-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M01-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M01-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M01-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M01-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M01-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M01-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M01-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M01-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M02-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M02-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M02-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M02-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M02-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M02-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M02-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M02-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M02-9": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M02-10": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M03.1-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M03.1-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M03.1-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M03.1-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M03.1-5": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M03.2-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M05-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M05-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M06-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M06-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M06-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M07-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M08-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M09-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M09-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M09-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M10-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M12-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M12-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M12-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M13-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M13-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M13-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M13-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M13-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M13-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M13-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M13-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M13-9": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M13-10": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M13-11": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M13-12": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M13-13": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M14-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M14-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M14-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M14-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M15-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M15-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M15-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M17-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M18-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M18-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M18-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M19-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M20-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M20-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M21-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M21-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M21-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M22-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M24.1-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M24.1-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M24.1-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M24.1-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M24.1-5": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M24.2-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M25-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M25-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M25-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M25-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M25-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M25-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M25-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M25-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M26-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M26-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M26-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M26-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M26-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M26-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M26-7": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M26-8": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M26-9": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M26-10": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M27-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M27-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M27-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M27-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M27-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M27-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M28-1": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M28-2": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M28-3": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M28-4": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M28-5": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M28-6": {
+   "clase": "albanileria_king_kong",
+   "espesor_m": 0.15
+  },
+  "W3-M31-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M32-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M35-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M35-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M35-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M36-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M36-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M36-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M39-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M39-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M39-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M40-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M40-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M40-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M43-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M43-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M44-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M44-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M45-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M46-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M49-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-M50-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-D1-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-D1-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-D1-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-D1-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-D2-1": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-D2-2": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-D2-3": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "W3-D2-4": {
+   "clase": "concreto",
+   "espesor_m": 0.1
+  },
+  "S1-001": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-002": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-003": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-004": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-005": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-006": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-007": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-008": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-009": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-010": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-011": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-012": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-013": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-014": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-015": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-016": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-017": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-018": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-019": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-020": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-021": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-022": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-023": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-024": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-025": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-026": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-027": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-028": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-029": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-030": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-031": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-032": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-033": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-034": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-035": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-036": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-037": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-038": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-039": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-040": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-041": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-042": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-043": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-044": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-045": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-046": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-047": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-048": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-049": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-050": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-051": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-052": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-053": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-054": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-055": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-056": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-057": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-058": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-059": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-060": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-061": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-062": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-063": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-064": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-065": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-066": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-067": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-068": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-069": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-070": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-071": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-072": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-073": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-074": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-075": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-076": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-077": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-078": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-079": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-080": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-081": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-082": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-083": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-084": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-085": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-086": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-087": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-088": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-089": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-090": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-091": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-092": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-093": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-094": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-095": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-096": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-097": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-098": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-099": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-100": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-101": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-102": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-103": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-104": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-105": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-106": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-107": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-108": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-109": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-110": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-111": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-112": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-113": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-114": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-115": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-116": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-117": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-118": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-119": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-120": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-121": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-122": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-123": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-124": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-125": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-126": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-127": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-128": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-129": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-130": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-131": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-132": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-133": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-134": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-135": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-136": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-137": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-138": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-139": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-140": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-141": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-142": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-143": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-144": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-145": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-146": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-147": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-148": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-149": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-150": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-151": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-152": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-153": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-154": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-155": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-156": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-157": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-158": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-159": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-160": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-161": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-162": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-163": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-164": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-165": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-166": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-167": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-168": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-169": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-170": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-171": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-172": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-173": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-174": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-175": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-176": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-177": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-178": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-179": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-180": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-181": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-182": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-183": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-184": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-185": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-186": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-187": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-188": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-189": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-190": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-191": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-192": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-193": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-194": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-195": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-196": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-197": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-198": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-199": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-200": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-201": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-202": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-203": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-204": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-205": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-206": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-207": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-208": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-209": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-210": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-211": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-212": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-213": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-214": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-215": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-216": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-217": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-218": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-219": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-220": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-221": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-222": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-223": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-224": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-225": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-226": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-227": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-228": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-229": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-230": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-231": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-232": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-233": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-234": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-235": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-236": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-237": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-238": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-239": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-240": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-241": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-242": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-243": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-244": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-245": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-246": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-247": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-248": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-249": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-250": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-251": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-252": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-253": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-254": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-255": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-256": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-257": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-258": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-259": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-260": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-261": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-262": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-263": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-264": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-265": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-266": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-267": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-268": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-269": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-270": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-271": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-272": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-273": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-274": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-275": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-276": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-277": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-278": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-279": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-280": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-281": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-282": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-283": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-284": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-285": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-286": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-287": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-288": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-289": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-290": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-291": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-292": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-293": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-294": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-295": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-296": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-297": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-298": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-299": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-300": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-301": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-302": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-303": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-304": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-305": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-306": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-307": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-308": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-309": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-310": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-311": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-312": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-313": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-314": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-315": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-316": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-317": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-318": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-319": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-320": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-321": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-322": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-323": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-324": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-325": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-326": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-327": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-328": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-329": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-330": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-331": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-332": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-333": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-334": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-335": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-336": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-337": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-338": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-339": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-340": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-341": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-342": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-343": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-344": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-345": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-346": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-347": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-348": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-349": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-350": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-351": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-352": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-353": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-354": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-355": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-356": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-357": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-358": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-359": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-360": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-361": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-362": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-363": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-364": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S1-365": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-001": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-002": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-003": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-004": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-005": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-006": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-007": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-008": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-009": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-010": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-011": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-012": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-013": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-014": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-015": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-016": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-017": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-018": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-019": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-020": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-021": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-022": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-023": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-024": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-025": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-026": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-027": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-028": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-029": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-030": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-031": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-032": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-033": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-034": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-035": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-036": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-037": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-038": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-039": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-040": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-041": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-042": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-043": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-044": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-045": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-046": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-047": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-048": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-049": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-050": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-051": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-052": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-053": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-054": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-055": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-056": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-057": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-058": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-059": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-060": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-061": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-062": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-063": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-064": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-065": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-066": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-067": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-068": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-069": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-070": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-071": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-072": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-073": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-074": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-075": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-076": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-077": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-078": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-079": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-080": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-081": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-082": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-083": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-084": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-085": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-086": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-087": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-088": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-089": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-090": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-091": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-092": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-093": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-094": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-095": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-096": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-097": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-098": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-099": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-100": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-101": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-102": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-103": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-104": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-105": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-106": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-107": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-108": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-109": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-110": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-111": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-112": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-113": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-114": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-115": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-116": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-117": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-118": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-119": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-120": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-121": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-122": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-123": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-124": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-125": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-126": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-127": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-128": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-129": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-130": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-131": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-132": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-133": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-134": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-135": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-136": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-137": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-138": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-139": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-140": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-141": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-142": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-143": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-144": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-145": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-146": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-147": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-148": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-149": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-150": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-151": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-152": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-153": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-154": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-155": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-156": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-157": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-158": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-159": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-160": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-161": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-162": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-163": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-164": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-165": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-166": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-167": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-168": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-169": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-170": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-171": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-172": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-173": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-174": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-175": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-176": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-177": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-178": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-179": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-180": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-181": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-182": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-183": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-184": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-185": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-186": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-187": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-188": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-189": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-190": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-191": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-192": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-193": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-194": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-195": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-196": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-197": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-198": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-199": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-200": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-201": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-202": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-203": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-204": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-205": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-206": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-207": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-208": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-209": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-210": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-211": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-212": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-213": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-214": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-215": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-216": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-217": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-218": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-219": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-220": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-221": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-222": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-223": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-224": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-225": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-226": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-227": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-228": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-229": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-230": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-231": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-232": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-233": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-234": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-235": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-236": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-237": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-238": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-239": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-240": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-241": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-242": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-243": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-244": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-245": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-246": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-247": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-248": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-249": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-250": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-251": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-252": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-253": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-254": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-255": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-256": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-257": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-258": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-259": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-260": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-261": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-262": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-263": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-264": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-265": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-266": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-267": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-268": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-269": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-270": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-271": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-272": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-273": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-274": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-275": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-276": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-277": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-278": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-279": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-280": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-281": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-282": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-283": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-284": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-285": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-286": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-287": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-288": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-289": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-290": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-291": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-292": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-293": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-294": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-295": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-296": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-297": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-298": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-299": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-300": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-301": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-302": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-303": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-304": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-305": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-306": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-307": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-308": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-309": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-310": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-311": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-312": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-313": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-314": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-315": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-316": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-317": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-318": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-319": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-320": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-321": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-322": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-323": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-324": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-325": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-326": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-327": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-328": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-329": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-330": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-331": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-332": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-333": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-334": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-335": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-336": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-337": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-338": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-339": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-340": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-341": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-342": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-343": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-344": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-345": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-346": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-347": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-348": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-349": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-350": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-351": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-352": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-353": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-354": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-355": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-356": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-357": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-358": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-359": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-360": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-361": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-362": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-363": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-364": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S2-365": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-001": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-002": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-003": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-004": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-005": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-006": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-007": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-008": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-009": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-010": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-011": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-012": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-013": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-014": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-015": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-016": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-017": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-018": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-019": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-020": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-021": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-022": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-023": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-024": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-025": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-026": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-027": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-028": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-029": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-030": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-031": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-032": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-033": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-034": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-035": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-036": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-037": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-038": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-039": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-040": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-041": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-042": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-043": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-044": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-045": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-046": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-047": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-048": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-049": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-050": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-051": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-052": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-053": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-054": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-055": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-056": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-057": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-058": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-059": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-060": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-061": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-062": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-063": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-064": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-065": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-066": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-067": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-068": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-069": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-070": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-071": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-072": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-073": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-074": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-075": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-076": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-077": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-078": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-079": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-080": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-081": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-082": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-083": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-084": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-085": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-086": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-087": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-088": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-089": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-090": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-091": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-092": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-093": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-094": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-095": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-096": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-097": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-098": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-099": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-100": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-101": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-102": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-103": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-104": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-105": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-106": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-107": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-108": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-109": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-110": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-111": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-112": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-113": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-114": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-115": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-116": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-117": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-118": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-119": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-120": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-121": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-122": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-123": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-124": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-125": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-126": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-127": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-128": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-129": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-130": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-131": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-132": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-133": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-134": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-135": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-136": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-137": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-138": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-139": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-140": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-141": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-142": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-143": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-144": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-145": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-146": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-147": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-148": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-149": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-150": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-151": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-152": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-153": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-154": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-155": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-156": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-157": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-158": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-159": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-160": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-161": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-162": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-163": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-164": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-165": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-166": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-167": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-168": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-169": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-170": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-171": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-172": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-173": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-174": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-175": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-176": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-177": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-178": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-179": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-180": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-181": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-182": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-183": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-184": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-185": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-186": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-187": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-188": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-189": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-190": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-191": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-192": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-193": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-194": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-195": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-196": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-197": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-198": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-199": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-200": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-201": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-202": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-203": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-204": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-205": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-206": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-207": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-208": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-209": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-210": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-211": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-212": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-213": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-214": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-215": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-216": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-217": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-218": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-219": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-220": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-221": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-222": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-223": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-224": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-225": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-226": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-227": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-228": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-229": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-230": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-231": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-232": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-233": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-234": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-235": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-236": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-237": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-238": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-239": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-240": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-241": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-242": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-243": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-244": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-245": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-246": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-247": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-248": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-249": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-250": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-251": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-252": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-253": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-254": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-255": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-256": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-257": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-258": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-259": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-260": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-261": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-262": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-263": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-264": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-265": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-266": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-267": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-268": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-269": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-270": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-271": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-272": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-273": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-274": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-275": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-276": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-277": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-278": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-279": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-280": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-281": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-282": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-283": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-284": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-285": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-286": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-287": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-288": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-289": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-290": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-291": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-292": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-293": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-294": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-295": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-296": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-297": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-298": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-299": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-300": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-301": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-302": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-303": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-304": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-305": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-306": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-307": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-308": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-309": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-310": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-311": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-312": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-313": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-314": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-315": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-316": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-317": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-318": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-319": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-320": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-321": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-322": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-323": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-324": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-325": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-326": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-327": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-328": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-329": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-330": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-331": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-332": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-333": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-334": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-335": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-336": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-337": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-338": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-339": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-340": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-341": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-342": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-343": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-344": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-345": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-346": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-347": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-348": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-349": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-350": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-351": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-352": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-353": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-354": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-355": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-356": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-357": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-358": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-359": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-360": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-361": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-362": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-363": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-364": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S3-365": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-001": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-002": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-003": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-004": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-005": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-006": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-007": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-008": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-009": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-010": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-011": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-012": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-013": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-014": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-015": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-016": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-017": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-018": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-019": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-020": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-021": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-022": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-023": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-024": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-025": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-026": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-027": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-028": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-029": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-030": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-031": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-032": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-033": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-034": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-035": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-036": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-037": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-038": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-039": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-040": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-041": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-042": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-043": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-044": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-045": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-046": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-047": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-048": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-049": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-050": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-051": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-052": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-053": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-054": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-055": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-056": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-057": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-058": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-059": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-060": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-061": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-062": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-063": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-064": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-065": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-066": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-067": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-068": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-069": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-070": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-071": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-072": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-073": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-074": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-075": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-076": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-077": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-078": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-079": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-080": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-081": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-082": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-083": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-084": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-085": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-086": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-087": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-088": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-089": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-090": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-091": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-092": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-093": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-094": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-095": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-096": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-097": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-098": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-099": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-100": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-101": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-102": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-103": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-104": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-105": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-106": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-107": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-108": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-109": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-110": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-111": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-112": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-113": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-114": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-115": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-116": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-117": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-118": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-119": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-120": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-121": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-122": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-123": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-124": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-125": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-126": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-127": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-128": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-129": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-130": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-131": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-132": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-133": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-134": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-135": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-136": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-137": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-138": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-139": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-140": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-141": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-142": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-143": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-144": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-145": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-146": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-147": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-148": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-149": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-150": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-151": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-152": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-153": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-154": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-155": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-156": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-157": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-158": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-159": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-160": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-161": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-162": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-163": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-164": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-165": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-166": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-167": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-168": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-169": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-170": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-171": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-172": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-173": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-174": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-175": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-176": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-177": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-178": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-179": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-180": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-181": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-182": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-183": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-184": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-185": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-186": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-187": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-188": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-189": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-190": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-191": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-192": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-193": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-194": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-195": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-196": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-197": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-198": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-199": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-200": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-201": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-202": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-203": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-204": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-205": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-206": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-207": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-208": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-209": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-210": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-211": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-212": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-213": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-214": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-215": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-216": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-217": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-218": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-219": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-220": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-221": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-222": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-223": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-224": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-225": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-226": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-227": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-228": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-229": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-230": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-231": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-232": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-233": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-234": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-235": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-236": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-237": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-238": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-239": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-240": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-241": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-242": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-243": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-244": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-245": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-246": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-247": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-248": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-249": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-250": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-251": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-252": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-253": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-254": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-255": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-256": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-257": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-258": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-259": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-260": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-261": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-262": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-263": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-264": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-265": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-266": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-267": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-268": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-269": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-270": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-271": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-272": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-273": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-274": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-275": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-276": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-277": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-278": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-279": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-280": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-281": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-282": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-283": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-284": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-285": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-286": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-287": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-288": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-289": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-290": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-291": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-292": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-293": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-294": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-295": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-296": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-297": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-298": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-299": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-300": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-301": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-302": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-303": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-304": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-305": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-306": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-307": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-308": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-309": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-310": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-311": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-312": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-313": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-314": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-315": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-316": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-317": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-318": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-319": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-320": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-321": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-322": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-323": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-324": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-325": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-326": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-327": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-328": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-329": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-330": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-331": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-332": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-333": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-334": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-335": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-336": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-337": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-338": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-339": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-340": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-341": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-342": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-343": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-344": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-345": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-346": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-347": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-348": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-349": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-350": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-351": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-352": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-353": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-354": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-355": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-356": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-357": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-358": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-359": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-360": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-361": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-362": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-363": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-364": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-365": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "S4-366": {
+   "clase": "losa",
+   "espesor_m": null
+  },
+  "CIS-My0-1": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.2
+  },
+  "CIS-My0-2": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.2
+  },
+  "CIS-My0-3": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.2
+  },
+  "CIS-My1-1": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.2
+  },
+  "CIS-My1-2": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.2
+  },
+  "CIS-My1-3": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.2
+  },
+  "CIS-Mx0-1": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.15
+  },
+  "CIS-Mx0-2": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.15
+  },
+  "CIS-Mx0-3": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.15
+  },
+  "CIS-Mx1-1": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.2
+  },
+  "CIS-Mx1-2": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.2
+  },
+  "CIS-Mx1-3": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.2
+  },
+  "CIS-F-01": {
+   "clase": "deposito_fondo",
+   "espesor_m": 0.2
+  },
+  "CIS-T-01": {
+   "clase": "deposito_tapa",
+   "espesor_m": 0.15
+  },
+  "CIS-F-02": {
+   "clase": "deposito_fondo",
+   "espesor_m": 0.2
+  },
+  "CIS-T-02": {
+   "clase": "deposito_tapa",
+   "espesor_m": 0.15
+  },
+  "CIS-F-03": {
+   "clase": "deposito_fondo",
+   "espesor_m": 0.2
+  },
+  "CIS-T-03": {
+   "clase": "deposito_tapa",
+   "espesor_m": 0.15
+  },
+  "CIS-F-04": {
+   "clase": "deposito_fondo",
+   "espesor_m": 0.2
+  },
+  "CIS-T-04": {
+   "clase": "deposito_tapa",
+   "espesor_m": 0.15
+  },
+  "CIS-F-05": {
+   "clase": "deposito_fondo",
+   "espesor_m": 0.2
+  },
+  "CIS-F-06": {
+   "clase": "deposito_fondo",
+   "espesor_m": 0.2
+  },
+  "CIS-T-06": {
+   "clase": "deposito_tapa",
+   "espesor_m": 0.15
+  },
+  "CIS-F-07": {
+   "clase": "deposito_fondo",
+   "espesor_m": 0.2
+  },
+  "CIS-T-07": {
+   "clase": "deposito_tapa",
+   "espesor_m": 0.15
+  },
+  "CIS-F-08": {
+   "clase": "deposito_fondo",
+   "espesor_m": 0.2
+  },
+  "CIS-T-08": {
+   "clase": "deposito_tapa",
+   "espesor_m": 0.15
+  },
+  "CIS-F-09": {
+   "clase": "deposito_fondo",
+   "espesor_m": 0.2
+  },
+  "CIS-T-09": {
+   "clase": "deposito_tapa",
+   "espesor_m": 0.15
+  },
+  "TAN-My0-1": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.2
+  },
+  "TAN-My1-1": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.2
+  },
+  "TAN-Mx0-1": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.2
+  },
+  "TAN-Mx1-1": {
+   "clase": "deposito_muro",
+   "espesor_m": 0.2
+  },
+  "TAN-F-01": {
+   "clase": "deposito_fondo",
+   "espesor_m": 0.2
+  },
+  "TAN-T-01": {
+   "clase": "deposito_tapa",
+   "espesor_m": 0.2
+  },
+  "PL10-1": {
+   "clase": "cerco_concreto",
+   "espesor_m": 0.1
+  },
+  "PL10-2": {
+   "clase": "cerco_concreto",
+   "espesor_m": 0.1
+  }
+ },
+ "aprobacion_ingenieria": null
+}

@@ -1,0 +1,7 @@
+{
+  "encargo": "08",
+  "aviso": "R235: fallo realGemini0.2 yrecuperacióntrazable, sin retry;R232 yrevisióncorrectivas07.",
+  "envio": "Confirmado visualmente: mensaje en historial, compositor vacío y etiqueta Enviado después de pulsar Enviar ahora.",
+  "no_afirma": "No acredita corrección implementada ni aceptación del piloto.",
+  "siguiente": "Revisar entrega08; no sondear su ventana ni volver a llamarAPI para este fallo."
+}

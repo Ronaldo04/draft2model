@@ -1,0 +1,55 @@
+[
+  {
+    "cohorte": "openai_1",
+    "contextos_completos": [
+      "L0001",
+      "L0002",
+      "L0003"
+    ],
+    "imagenes": 10,
+    "estado": "respuesta_pendiente_revision"
+  },
+  {
+    "cohorte": "openai_2",
+    "contextos_completos": [
+      "L0001",
+      "L0002",
+      "L0003"
+    ],
+    "imagenes": 10,
+    "estado": "fallido"
+  },
+  {
+    "cohorte": "openai_3",
+    "contextos_completos": [
+      "L0001"
+    ],
+    "imagenes": 4,
+    "estado": "respuesta_pendiente_revision"
+  },
+  {
+    "cohorte": "openai_4",
+    "contextos_completos": [
+      "L0003",
+      "L0002"
+    ],
+    "imagenes": 8,
+    "estado": "respuesta_pendiente_revision"
+  },
+  {
+    "cohorte": "gemini_1",
+    "contextos_completos": [
+      "L0001"
+    ],
+    "imagenes": 4,
+    "estado": "respuesta_pendiente_revision"
+  },
+  {
+    "cohorte": "gemini_2",
+    "contextos_completos": [
+      "L0001"
+    ],
+    "imagenes": 4,
+    "estado": "fallido"
+  }
+]

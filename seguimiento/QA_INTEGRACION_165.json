@@ -1,0 +1,54 @@
+{
+  "estado": "QA_tabular_importacion_y_vista_vertical_OK",
+  "caso_sintetico": {
+    "origen": "http://127.0.0.1:64690",
+    "caso": "qa-vertical-tabular",
+    "fp": "213538031422e95895d21efe8536aeb03574fb9a08ded548eaf02d821a24b75c",
+    "tabular": "5a6227dc42c74202aee39d60f4c45ef4",
+    "root": "D:\\RONALDO CUCHILLA\\1. RONALDO CUCHILLA\\2. INGENIERÍA CIVIL DOCS AND PROJECTS\\AECODE CURSOS\\AECODE AI TALENT\\PROYECTO FINAL\\tmp\\qa_integracion_165",
+    "plano": {
+      "tipo": "base_ortonormal_3d",
+      "origen_m": [
+        0,
+        0,
+        0
+      ],
+      "eje_u": [
+        1,
+        0,
+        0
+      ],
+      "eje_v": [
+        0,
+        0,
+        1
+      ]
+    },
+    "geometria": "634a394e7eee4a45aac881fb1761af87",
+    "superposicion": "1d2839284db646fea85b572963fa3efd"
+  },
+  "evidencia": [
+    "tmp/qa_integracion_165/contexto.png",
+    "tmp/qa_integracion_165/contorno.png",
+    "tmp/qa_integracion_165/artefactos_sinteticos.zip"
+  ],
+  "comprobaciones": [
+    "UI seleccion/importacion separada confirmada tabular0.2",
+    "UI plano3D origen/U/V declarados y3anclas",
+    "contorno alineado visualmente con rectangulo PDF XZ",
+    "consulta independiente revalida fuentes/huellas/registro",
+    "geometria fuente conserva borrador ysinaprobacion"
+  ],
+  "fuentes_sha256": {
+    "draft2model\\revision_web\\index.html": "fa289c79d77e757423f7d9a4b001f682c54a24f8896ec36fc4103ac579375e7c",
+    "draft2model\\revision_web\\superposicion.js": "d6664f14210b95c8f9944ecb1a1158a0e52c942fc29e2c511919bdf489da60c1",
+    "draft2model\\revision_superposicion.py": "6b05402265baf29a1221668535d30b2d3fd66e9fd36bd49e1717041b44e823e3",
+    "draft2model\\revision_tabular.py": "99968bf32c46817773c656bd466f4028ad0349742151f1c721f62d7c07c06a8e"
+  },
+  "limites": [
+    "fixture sintetico",
+    "registro tabular preparado por servicio, sin QA carga de archivos UI",
+    "sin API/redexterna/ETABS",
+    "no prueba planos reales ni modelo estructural"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "fecha_utc": "2026-10-24T20:37:05.102537+00:00",
+  "version": "interfaz344",
+  "respaldo": "seguimiento\\respaldo_interfaz_344",
+  "archivos": {
+    "draft2model/revision_visual.py": "508a5017e81a3c4a667ef217bbdbd2ed570e69d867c3cd4a5248fc835baa7974",
+    "draft2model/revision_web/index.html": "3de73e39600198be5f8c62795107efea3280cfbb38702d520a3cf31bae25165d",
+    "draft2model/revision_web/app.js": "7d10ba1893d63b64fed1875456ce128316c67bc6923740814d737311d03fc44d",
+    "draft2model/revision_web/etapas.js": "dd5797f007e5eb982ad1955ae602d2e911ae21780a11419f8ca3f5d95edee741",
+    "draft2model/revision_web/etapas.css": "2db6551e2e51ba6ab1a596e471627725afd34404cbf89507ef4de808377797c7",
+    "draft2model/revision_web/editor_ingenieria.js": "7821b1d0619efc806671ee85a3593ec41f02b48aedac77b8e06479de2f8cbdbd",
+    "draft2model/revision_web/modelo_3d.js": "ef0aef02f7c30cde3a2801a1675567e0591717b5c4e317607d60015f733ace90"
+  },
+  "no_integra": [
+    "OCR335",
+    "anclajes342-343",
+    "reconstrucción automática experimental"
+  ],
+  "entrega331_conservada": true,
+  "goal_completo": false
+}

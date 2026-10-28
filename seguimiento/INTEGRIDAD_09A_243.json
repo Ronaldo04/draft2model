@@ -1,0 +1,17 @@
+{
+  "snapshot": "tmp\\revision_codex_243",
+  "entregas": [
+    {
+      "id": "c54f77043471420fac2dc2a30cee5749",
+      "fuentes": 530,
+      "logs": 1,
+      "integridad": "correcta"
+    },
+    {
+      "id": "2f1d24d2ad4b4cdfa4ff49f12299268e",
+      "fuentes": 12,
+      "logs": 3,
+      "integridad": "correcta"
+    }
+  ]
+}

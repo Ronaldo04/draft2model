@@ -1,0 +1,54 @@
+{
+  "tarea": "correccion_resumen_09D_290",
+  "fecha": "2026-10-23",
+  "corrige": "MARCADOR_09D_FINAL.json (no se reescribe: evidencia histórica)",
+  "derivas_no_satisfechas": {
+    "total": 8,
+    "SX": [
+      [
+        "DERIVA-S1-ALB-SX",
+        "SX",
+        "N2"
+      ],
+      [
+        "DERIVA-S1-ALB-SX",
+        "SX",
+        "N3"
+      ]
+    ],
+    "SY": [
+      [
+        "DERIVA-S1-MUR-SY",
+        "SY",
+        "N1"
+      ],
+      [
+        "DERIVA-S1-MUR-SY",
+        "SY",
+        "N2"
+      ],
+      [
+        "DERIVA-S1-MUR-SY",
+        "SY",
+        "N3"
+      ],
+      [
+        "DERIVA-S1-ALB-SY",
+        "SY",
+        "N1"
+      ],
+      [
+        "DERIVA-S1-ALB-SY",
+        "SY",
+        "N2"
+      ],
+      [
+        "DERIVA-S1-ALB-SY",
+        "SY",
+        "N3"
+      ]
+    ]
+  },
+  "texto_correcto": "8 derivas no satisfechas: 2 en SX (escenario S1-ALB, N2 y N3) y 6 en SY (S1-MUR N1–N3 y S1-ALB N1–N3); las 8 restantes satisfacen.",
+  "fuente": "tmp/recorrido_09d2/resultados/informe/informe.json (evaluaciones, sin cambios)"
+}

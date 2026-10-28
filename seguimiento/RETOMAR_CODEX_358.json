@@ -1,0 +1,43 @@
+{
+  "fecha_utc": "2026-10-25T19:09:32.839617+00:00",
+  "checkpoint_previo": "seguimiento/RETOMAR_CODEX_352.json",
+  "goal_completo": false,
+  "clasificacion_turno_previo": "progreso: 353HTTP integrado y revisado con2defectos;356enviadoverificado;lecturaOpenAI8respondida, falloimportaciónlocalidentificadoycorregido",
+  "responsables": {
+    "root": "servicio de lectura parámetros+shared+lectura contornos servicio e integración UI; no editar archivosAG356 ni puroschild357",
+    "Antigravity": "356corregir revision_digitizacion.py/digitizacion.js y pruebas; marcador seguimiento/ANTIGRAVITY_356_ENTREGA.json",
+    "subagente_digitizacion_calibrada_350": "357lectura_contornos.py/contornos_a_geometria.py y pruebas/guía propios;contratopronto"
+  },
+  "servidor": {
+    "url": "http://127.0.0.1:18346/",
+    "session": 95684,
+    "pid_actual": "pendiente consultar si reinicio necesario",
+    "anterior_pid11092": "verificado y detenido; llamadaAPIya terminada",
+    "browser": "NodeREPL browser355(iab2),tab355;setupBrowserRuntimecliente26.1021.31345"
+  },
+  "API": {
+    "openai_usadas": 8,
+    "limite": 10,
+    "restantes": 2,
+    "nuevo_trabajo": "bdd7a91fb0414a99aeb21d4e325cad82",
+    "ruta": "data/private/vivienda-unifamiliar-003/lecturas_ingenieria/bdd7a91fb0414a99aeb21d4e325cad82",
+    "respuesta_guardada": true,
+    "estado_previo": "parametros_borrador recuperado localmente",
+    "siguiente": "No recuperar otra vez por rutina; respuesta/config/extracción aceptadas como propuestas; cuota2restantes."
+  },
+  "cambios": {
+    "revision_visual.py": "4rutas+assetdigitizacion353 registrados;servicioAGnoaceptadohasta356",
+    "gestion_extraccion.py": "comprobar_evidencia incluye recortes de cobertura aunque0candidatos y verifica susoriginales/imágenes",
+    "pruebas": "tmp/cobertura_358.log:25gestionOK+2/3nuevasOK, asercióninventariocorregida;tmp/cobertura_358_regresion.log3/3OK; tmp/integracion_digitizacion_355_http.log1HTTPOK"
+  },
+  "pendiente": [
+    "Completar datos técnicos y derivaciones enUI, no fabricar declaraciones. Resultado8ya recuperado.",
+    "357serviciocontornos reutiliza cuota/transportebase; sin nuevas APIs hastaestable",
+    "356marcadorrevisarfocal sin sondearventana",
+    "UIestadoscargando más claros y etiquetas de digitización sin términosinternos",
+    "Completar geometría/ingeniería real antesETABS; nofabricaraprobaciones",
+    "DistribuciónGitHubbase347; no afirmarNuevocódigoPublicado"
+  ],
+  "limitacion_actual": "Proyecto3geometría parcial17observaciones; modeloETABSrealnuevo noejecutado; entrega integral NOcompleta",
+  "lectura8_evidencia": "seguimiento/LECTURA_PARAMETROS_358.json"
+}

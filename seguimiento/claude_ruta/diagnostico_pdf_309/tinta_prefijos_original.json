@@ -1,0 +1,50 @@
+{
+ "1": {
+  "lineas": 46,
+  "min_tinta_mupdf": 86,
+  "min_tinta_windows": 52,
+  "sin_tinta_en_prefijo": []
+ },
+ "2": {
+  "lineas": 46,
+  "min_tinta_mupdf": 96,
+  "min_tinta_windows": 64,
+  "sin_tinta_en_prefijo": []
+ },
+ "3": {
+  "lineas": 47,
+  "min_tinta_mupdf": 73,
+  "min_tinta_windows": 37,
+  "sin_tinta_en_prefijo": []
+ },
+ "4": {
+  "lineas": 70,
+  "min_tinta_mupdf": 20,
+  "min_tinta_windows": 25,
+  "sin_tinta_en_prefijo": []
+ },
+ "5": {
+  "lineas": 43,
+  "min_tinta_mupdf": 96,
+  "min_tinta_windows": 64,
+  "sin_tinta_en_prefijo": []
+ },
+ "6": {
+  "lineas": 37,
+  "min_tinta_mupdf": 96,
+  "min_tinta_windows": 64,
+  "sin_tinta_en_prefijo": []
+ },
+ "7": {
+  "lineas": 37,
+  "min_tinta_mupdf": 96,
+  "min_tinta_windows": 64,
+  "sin_tinta_en_prefijo": []
+ },
+ "8": {
+  "lineas": 35,
+  "min_tinta_mupdf": 56,
+  "min_tinta_windows": 52,
+  "sin_tinta_en_prefijo": []
+ }
+}

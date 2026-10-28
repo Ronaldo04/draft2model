@@ -1,0 +1,87 @@
+{
+  "fecha_utc": "2026-10-25T03:49:28.320969+00:00",
+  "anterior": "seguimiento/RETOMAR_CODEX_347.json",
+  "goal_completo": false,
+  "clasificacion_turno_previo": "progreso: publicación main y borrador geométrico/configuración de proyecto3, revisión y corrección de evidencia",
+  "interfaz": {
+    "url": "http://127.0.0.1:18346/",
+    "session_id": 99372,
+    "version": "348desarrollo",
+    "expediente_abierto": "vivienda-unifamiliar-003",
+    "etapa": 4,
+    "preparacion_abierta": "0dd0893f9251409886a3a56d9e8295db",
+    "procesos_pruebas": "2324/3324/26034 terminales; no reiniciar"
+  },
+  "antigravity": {
+    "informe_humano_recibido": true,
+    "autor_de_347": "Antigravity",
+    "revision": "seguimiento/AUDITORIA_ANTIGRAVITY_348.json",
+    "hallazgo_corregido": "Validación de páginas de evidencia de unidad, incluida pertenencia al paquete enviado.",
+    "fuentes_preservadas": true
+  },
+  "github": {
+    "repositorio": "https://github.com/Ronaldo04/draft2model",
+    "pr": "https://github.com/Ronaldo04/draft2model/pull/8",
+    "merged": true,
+    "main": "637346db7b7697a065da2b9f90574d355959975c",
+    "arbol": "0bb4f4baf68476979afb4da6f0501d04cbdb84a5",
+    "archivos": 173,
+    "alcance_humano": "Solo aplicación y documentación; sin tests/fixtures/ensayos/planos/outputs/claves",
+    "base_codigo": 347,
+    "raiz348_aun_no_publicada": true,
+    "responsable": "/root/publicacion_github terminado; Codex revisó y mergeó sin forcepush"
+  },
+  "proyecto3": {
+    "unidad_confirmada_usuario": "m",
+    "registro_ui": true,
+    "trabajo": "ec9ddc49ee79431ba9d70ccc63229a53",
+    "geometria": "353282fd342349b78b28579384e9d5c2",
+    "puntos": 29,
+    "superficies": 13,
+    "frames": 36,
+    "estado": "borrador parcial; no modelo completo",
+    "materiales_configurados": 0,
+    "faltantes": "cisterna sin amarre global, escalera, placas, cimentación, partes traseras y otros17observaciones conservadas",
+    "preparacion_configuracion": "0dd0893f9251409886a3a56d9e8295db",
+    "evidencia": "seguimiento/PROYECTO3_PREPARACION_348.json",
+    "captura": "seguimiento/PROYECTO3_GEOMETRIA_348.png",
+    "ejecutable_etabs": false
+  },
+  "implementado348": {
+    "preparacion": "Servicio persistente de borradores incompletos en UI, incorporación de puntos/superficies/frames, versiones encadenadas, registro formal idempotente separado de aprobación",
+    "continuidad": "Propuesta de solapes exteriores exactamente colineales, selección humana individual/todas/ninguna, huella ligada a algoritmo, declarante/fecha/alcance, versión hija sin aprobación",
+    "guia": "docs/PREPARACION_CONFIGURACION_WEB.md",
+    "pruebas": [
+      "tmp/revision_antigravity_348_python.log:59OK antes de corrección de evidencia",
+      "tmp/revision_antigravity_348_frontend.log:4archivosOK",
+      "tmp/auditoria_evidencia_348.log:26OK después de corrección",
+      "tmp/configuracion_conexiones_348.log:11OK con endpoints",
+      "tmp/editor_configuracion_348.log:2archivosOK"
+    ],
+    "limites": "No se acreditó suite completa de raíz348; la suite1483+39 es de347. No ETABS nuevo."
+  },
+  "api": {
+    "openai_usadas": 7,
+    "openai_limite": 10,
+    "openai_restantes": 3,
+    "gemini_usadas": 4,
+    "gemini_limite": 5,
+    "nuevas_llamadas_en_esta_revision": 0,
+    "uso_autorizado": "Solo lectura de planos; siguientes peticiones OpenAI. No consumir para código o normativa."
+  },
+  "siguiente": [
+    "Comprobar handle99372 antes de reiniciar servidor; UIactual tiene preparación de ingeniería abierta.",
+    "Revisar pendientes de lectura reales desde respuesta conservada sin interpretar manualmente imágenes; diseñar extracción dirigida de datos/contornos faltantes dentro de infraestructura del sistema y3solicitudesOpenAI restantes. No rehacer lecturas completas indiscriminadamente.",
+    "Completar generación de configuración y políticas de malla en UI sin inventar materiales/suelo/apoyos ni fabricar aprobaciones. La geometría parcial no habilita ETABS.",
+    "Validar continuidad sobre caso real en UI sin declararla por el usuario ni asumir todaslasuniones; ampliar formularios avanzados y pasos automáticos posteriores.",
+    "Tras hito348 integrado validar fuentes estables y actualizar únicamente aplicación/docs enGitHub, conservando la exclusión explícita de pruebas. No mezclar con árbol347 ya integrado."
+  ],
+  "restricciones": [
+    "No usar Claude: usuario lo retiró.",
+    "No procesar proyecto2. Caso3autorizado, cisterna obligatoria; no copiar hipótesis/alturas de caso1.",
+    "Comparación ETABSmanual retenida por usuario hasta nuestros resultados.",
+    "No declarar procesamiento universal ni aceptación normativa/global por suites sintéticas.",
+    "No publicar datos privados ni resultados de pilotos.",
+    "Con≤5%cuota no iniciar pesado;≤1%checkpoint. Cuota última74%usada; sin resetsmanuales."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "estado": "verificacion_focal_de_registro_no_entrega",
+  "registro": "34528ff1579441758ae0adf34d60f144",
+  "registro_web_bytes_validos": true,
+  "fuente_api_original_intacta": true,
+  "contenido_web_igual_al_original": true,
+  "nota_bytes": "El registro web reserializa JSON con su propio SHA; se contrasta contenido además del SHA de la fuente API conservada. No son copias de bytes idénticas.",
+  "cuarentena_original_intacta": true,
+  "comprobaciones": [
+    {
+      "recorte": "a4753cd445fb450fa7c5c3177fc6fe8c",
+      "declarada": "parcial",
+      "validos_contados": 32,
+      "apartados_contados": 6,
+      "pasa": true
+    },
+    {
+      "recorte": "c6bef19fdeee4743aee7a382176d3ba1",
+      "declarada": "completa",
+      "validos_contados": 14,
+      "apartados_contados": 5,
+      "pasa": true
+    },
+    {
+      "recorte": "98a92cd3f4e9498b86271837e8a50750",
+      "declarada": "completa",
+      "validos_contados": 13,
+      "apartados_contados": 1,
+      "pasa": true
+    }
+  ],
+  "api_llamadas": 0,
+  "limites": "No se acepta todavía implementación09 ni se verifica interacción visual con el formulario. Esperar entrega estable para pruebas de código.",
+  "correcto": true
+}

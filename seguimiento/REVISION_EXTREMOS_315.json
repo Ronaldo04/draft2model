@@ -1,0 +1,16 @@
+{
+  "tarea": "extremos_314",
+  "hashes_verificados": 10,
+  "pruebas_focales": 6,
+  "vigas_reproducidas": 45,
+  "ensayo_ciego": false,
+  "aceptacion": "Diagnóstico revisado, no predictor productivo ni verificación de masa",
+  "limites": [
+    "25extremos coincidentes sobre90;65abstenciones, no100%de cobertura",
+    "Fuente webETABS sin versión; media dimensión máxima inferida",
+    "Geometría comparada es relectura09d1del EDB construido, no nueva captura del EDB analizado",
+    "Sin cambios de libro, tolerancias ni resultados"
+  ],
+  "siguiente": "seguimiento/ENCARGO_CLAUDE_ENSAYO_AUTO_315.md",
+  "goal_completo": false
+}
